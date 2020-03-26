@@ -39,7 +39,7 @@ public class LocalhostSetup implements ApplicationSetup {
     }
 
     public function areErrorsReported():Boolean {
-        return (false);
+        return (true);
     }
 
     public function areDeveloperHotkeysEnabled():Boolean {

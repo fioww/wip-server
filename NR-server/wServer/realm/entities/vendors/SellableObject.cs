@@ -101,6 +101,10 @@ namespace wServer.realm.entities.vendors
             var acc = player.Client.Account;
             if (acc.Guest)
             {
+                // check if player has a name before the guest reload
+                if (acc.NameChosen)
+                    acc.Guest = false;
+
                 // reload guest prop just in case user registered in game
                 acc.Reload("guest");
                 if (acc.Guest)

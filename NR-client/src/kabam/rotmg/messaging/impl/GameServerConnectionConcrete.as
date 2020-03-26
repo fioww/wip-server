@@ -1035,48 +1035,48 @@ public class GameServerConnectionConcrete extends GameServerConnection {
         serverConnection.queueMessage(this.messages.require(QUEST_ROOM_MSG));
     }
 
-    override public function joinGuild(_arg1:String):void {
-        var _local2:JoinGuild = (this.messages.require(JOINGUILD) as JoinGuild);
-        _local2.guildName_ = _arg1;
-        serverConnection.queueMessage(_local2);
+    override public function joinGuild(guildName:String):void {
+        var joinGuild:JoinGuild = (this.messages.require(JOINGUILD) as JoinGuild);
+        joinGuild.guildName_ = guildName;
+        serverConnection.queueMessage(joinGuild);
     }
 
-    override public function changeGuildRank(_arg1:String, _arg2:int):void {
-        var _local3:ChangeGuildRank = (this.messages.require(CHANGEGUILDRANK) as ChangeGuildRank);
-        _local3.name_ = _arg1;
-        _local3.guildRank_ = _arg2;
-        serverConnection.queueMessage(_local3);
+    override public function changeGuildRank(name:String, guildRank:int):void {
+        var changeGuildRank:ChangeGuildRank = (this.messages.require(CHANGEGUILDRANK) as ChangeGuildRank);
+        changeGuildRank.name_ = name;
+        changeGuildRank.guildRank_ = guildRank;
+        serverConnection.queueMessage(changeGuildRank);
     }
 
     private function rsaEncrypt(_arg1:String):String {
-        var _local2:RSAKey = PEM.readRSAPublicKey(Parameters.RSA_PUBLIC_KEY);
-        var _local3:ByteArray = new ByteArray();
-        _local3.writeUTFBytes(_arg1);
-        var _local4:ByteArray = new ByteArray();
-        _local2.encrypt(_local3, _local4, _local3.length);
-        return (Base64.encodeByteArray(_local4));
+        var RSA:RSAKey = PEM.readRSAPublicKey(Parameters.RSA_PUBLIC_KEY);
+        var byteArray:ByteArray = new ByteArray();
+        byteArray.writeUTFBytes(_arg1);
+        var deByteArray:ByteArray = new ByteArray();
+        RSA.encrypt(byteArray, deByteArray, byteArray.length);
+        return (Base64.encodeByteArray(deByteArray));
     }
 
     private function onConnected():void {
-        var _local1:Account = StaticInjectorContext.getInjector().getInstance(Account);
+        var account:Account = StaticInjectorContext.getInjector().getInstance(Account);
         this.addTextLine.dispatch(ChatMessage.make(Parameters.CLIENT_CHAT_NAME, TextKey.CHAT_CONNECTED));
         this.encryptConnection();
-        var _local2:Hello = (this.messages.require(HELLO) as Hello);
-        _local2.buildVersion_ = Parameters.FULL_BUILD;
-        _local2.gameId_ = gameId_;
-        _local2.guid_ = this.rsaEncrypt(_local1.getUserId());
-        _local2.password_ = this.rsaEncrypt(_local1.getPassword());
-        _local2.secret_ = this.rsaEncrypt(_local1.getSecret());
-        _local2.keyTime_ = keyTime_;
-        _local2.key_.length = 0;
-        ((!((key_ == null))) && (_local2.key_.writeBytes(key_)));
-        _local2.mapJSON_ = (((mapJSON_ == null)) ? "" : mapJSON_);
-        serverConnection.sendMessage(_local2);
+        var hello:Hello = (this.messages.require(HELLO) as Hello);
+        hello.buildVersion_ = Parameters.FULL_BUILD;
+        hello.gameId_ = gameId_;
+        hello.guid_ = this.rsaEncrypt(account.getUserId());
+        hello.password_ = this.rsaEncrypt(account.getPassword());
+        hello.secret_ = this.rsaEncrypt(account.getSecret());
+        hello.keyTime_ = keyTime_;
+        hello.key_.length = 0;
+        ((!((key_ == null))) && (hello.key_.writeBytes(key_)));
+        hello.mapJSON_ = (((mapJSON_ == null)) ? "" : mapJSON_);
+        serverConnection.sendMessage(hello);
     }
 
-    private function onCreateSuccess(_arg1:CreateSuccess):void {
-        this.playerId_ = _arg1.objectId_;
-        charId_ = _arg1.charId_;
+    private function onCreateSuccess(packet:CreateSuccess):void {
+        this.playerId_ = packet.objectId_;
+        charId_ = packet.charId_;
         gs_.initialize();
         createCharacter_ = false;
     }
