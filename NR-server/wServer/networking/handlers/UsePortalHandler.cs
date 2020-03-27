@@ -49,7 +49,7 @@ namespace wServer.networking.handlers
             {
                 var proto = player.Manager.Resources.Worlds["GuildHall"];
                 var world = player.Manager.GetWorld(proto.id);
-                player.Reconnect(world);
+                player.Reconnect(world.GetInstance(player.Client));
                 return;
             }
 

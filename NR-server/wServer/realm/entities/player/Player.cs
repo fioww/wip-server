@@ -594,7 +594,7 @@ namespace wServer.realm.entities
             {
                 HandleRegen(time);
                 HandleEffects(time);
-                HandleOceanTrenchGround(time);
+                HandleGrounds(time);
                 TickActivateEffects(time);
                 FameCounter.Tick(time);
 

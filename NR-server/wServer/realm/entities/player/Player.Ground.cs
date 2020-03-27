@@ -10,19 +10,22 @@ namespace wServer.realm.entities
     {
         long l;
 
-        private void HandleOceanTrenchGround(RealmTime time)
+        private void HandleGrounds(RealmTime time)
         {
             try
             {
                 // don't suffocate hidden players
                 if (HasConditionEffect(ConditionEffects.Hidden)) return;
 
-                if (time.TotalElapsedMs - l <= 100 || Owner?.Name != "OceanTrench") return;
+                if (time.TotalElapsedMs - l <= 100 || Owner?.SBName != "Ocean Trench") return;
 
                 if (!(Owner?.StaticObjects.Where(i => i.Value.ObjectType == 0x0731).Count(i => (X - i.Value.X) * (X - i.Value.X) + (Y - i.Value.Y) * (Y - i.Value.Y) < 1) > 0))
                 {
-                    if (OxygenBar == 0)
+                    if (OxygenBar <= 0)
+                    {
+                        OxygenBar = 0;
                         HP -= 10;
+                    }
                     else
                         OxygenBar -= 2;
 

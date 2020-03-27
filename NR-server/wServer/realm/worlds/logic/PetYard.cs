@@ -35,19 +35,19 @@ namespace wServer.realm.worlds.logic
             switch (_client.Account.PetYardType)
             {
                 case 2:
-                    FromWorldMap(new MemoryStream(Manager.Resources.Worlds[Name].wmap[1]));
+                    LoadMap("wServer.realm.worlds.maps.PetYard1.wmap");
                     break;
                 case 3:
-                    FromWorldMap(new MemoryStream(Manager.Resources.Worlds[Name].wmap[2]));
+                    LoadMap("wServer.realm.worlds.maps.PetYard2.wmap");
                     break;
                 case 4:
-                    FromWorldMap(new MemoryStream(Manager.Resources.Worlds[Name].wmap[3]));
+                    LoadMap("wServer.realm.worlds.maps.PetYard3.wmap");
                     break;
                 case 5:
-                    FromWorldMap(new MemoryStream(Manager.Resources.Worlds[Name].wmap[4]));
+                    LoadMap("wServer.realm.worlds.maps.PetYard4.wmap");
                     break;
                 default:
-                    FromWorldMap(new MemoryStream(Manager.Resources.Worlds[Name].wmap[0]));
+                    LoadMap("wServer.realm.worlds.maps.PetYard0.wmap");
                     break;
             }
 

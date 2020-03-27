@@ -830,20 +830,18 @@ namespace wServer.realm.commands
     {
         public GhallCommand() : base("ghall") { }
 
+
         protected override bool Process(Player player, RealmTime time, string args)
         {
-            if (player.GuildRank == -1)
+            if (player.GuildRank < 0)
             {
                 player.SendError("You need to be in a guild.");
                 return false;
             }
-            player.Client.Reconnect(new Reconnect()
-            {
-                Host = "",
-                Port = 2050,
-                GameId = World.GuildHall,
-                Name = "Guild Hall"
-            });
+
+            var proto = player.Manager.Resources.Worlds["GuildHall"];
+            var world = player.Manager.GetWorld(proto.id);
+            player.Reconnect(world.GetInstance(player.Client));
             return true;
         }
     }

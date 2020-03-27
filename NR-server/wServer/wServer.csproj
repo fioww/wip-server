@@ -350,6 +350,9 @@
     <Compile Include="realm\setpieces\TheKid.cs" />
     <Compile Include="realm\setpieces\ZombieHorde.cs" />
     <Compile Include="realm\worlds\DynamicWorld.cs" />
+    <Compile Include="realm\worlds\logic\PirateCave.cs" />
+    <Compile Include="realm\worlds\logic\Lab.cs" />
+    <Compile Include="realm\worlds\logic\Abyss.cs" />
     <Compile Include="realm\worlds\logic\Arena.cs" />
     <Compile Include="realm\worlds\logic\Davy.cs" />
     <Compile Include="realm\worlds\logic\DeathArena.cs" />
@@ -524,6 +527,15 @@
     <None Include="app.config" />
     <EmbeddedResource Include="realm\worlds\*.wmap" />
     <None Include="packages.config" />
+    <EmbeddedResource Include="realm\worlds\maps\GuildHall0.wmap" />
+    <EmbeddedResource Include="realm\worlds\maps\GuildHall1.wmap" />
+    <EmbeddedResource Include="realm\worlds\maps\GuildHall2.wmap" />
+    <EmbeddedResource Include="realm\worlds\maps\GuildHall3.wmap" />
+    <EmbeddedResource Include="realm\worlds\maps\PetYard0.wmap" />
+    <EmbeddedResource Include="realm\worlds\maps\PetYard1.wmap" />
+    <EmbeddedResource Include="realm\worlds\maps\PetYard2.wmap" />
+    <EmbeddedResource Include="realm\worlds\maps\PetYard3.wmap" />
+    <EmbeddedResource Include="realm\worlds\maps\PetYard4.wmap" />
     <None Include="wServer.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

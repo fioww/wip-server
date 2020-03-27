@@ -1,0 +1,14 @@
+{
+  "id": 0,
+  "isLimbo": false,
+  "name": "PirateCave",
+  "sbName": "Pirate Cave",
+  "difficulty": 1,
+  "background": 0,
+  "blocking": 3,
+  "restrictTp": false,
+  "showDisplays": false,
+  "portals": [ 0x0717 ],
+  "music": [ "" ],
+  "maps": [ ]
+}
