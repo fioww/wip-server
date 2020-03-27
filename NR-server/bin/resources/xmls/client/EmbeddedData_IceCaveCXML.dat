@@ -373,4 +373,21 @@
       <Size>160</Size>
       <XpMult>0.0</XpMult>
    </Object>
+    <Object type="0x1673" id="InnerSanctum Task Master">
+    <Group>Inner Stomach</Group>
+    <Class>Character</Class>
+    <StasisImmune/>
+    <NoMiniMap/>
+    <Texture>
+      <File>invisible</File>
+      <Index>0</Index>
+    </Texture>
+    <HitSound>monster/skeletons_hit</HitSound>
+    <DeathSound>monster/dwarves_death</DeathSound>
+    <MaxHitPoints>100</MaxHitPoints>
+    <Size>0</Size>
+    <Defense>0</Defense>
+    <XpMult>0.0</XpMult>
+	 <DisplayId>Mysterious Voice from the Beyond</DisplayId>
+  </Object>
 </Objects>

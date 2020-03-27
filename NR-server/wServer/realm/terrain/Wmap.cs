@@ -119,6 +119,22 @@ namespace wServer.realm.terrain
             Reset();
         }
 
+        public WmapTile Clone()
+        {
+            return new WmapTile(_originalDesc)
+            {
+                UpdateCount = (byte)(UpdateCount + 1),
+                TileId = _originalDesc.TileId,
+                TileDesc = _originalDesc.TileDesc,
+                ObjType = _originalDesc.ObjType,
+                ObjDesc = ObjDesc,
+                ObjCfg = _originalDesc.ObjCfg,
+                Terrain = _originalDesc.Terrain,
+                Region = _originalDesc.Region,
+
+            };
+        }
+
         public void Reset(Wmap map = null, int x = 0, int y = 0)
         {
             TileId = _originalDesc.TileId;

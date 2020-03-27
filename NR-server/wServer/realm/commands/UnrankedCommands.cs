@@ -1561,7 +1561,7 @@ namespace wServer.realm.commands
 
             player.SpectateTarget = null;
             player.Sight.UpdateCount++;
-            player.Owner.Timers.Add(new WorldTimer(3000, (w, t) =>
+            player.Owner.Timers.Add(new WorldTimer(1500, (w, t) =>
             {
                 if (player.SpectateTarget == null)
                     player.ApplyConditionEffect(ConditionEffectIndex.Paused, 0);
