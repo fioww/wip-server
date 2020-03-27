@@ -364,7 +364,7 @@ class MEMap extends Sprite {
         addEventListener(MouseEvent.MOUSE_WHEEL, this.onMouseWheel);
         addEventListener(MouseEvent.MOUSE_DOWN, this.onMouseDown);
         addEventListener(MouseEvent.MOUSE_MOVE, this.onMouseMove);
-        addEventListener(MouseEvent.RIGHT_CLICK, this.onMouseRightClick);
+        addEventListener(MouseEvent.CLICK, this.onMouseRightClick);
         stage.addEventListener(KeyboardEvent.KEY_DOWN, this.onKeyDown);
         stage.addEventListener(KeyboardEvent.KEY_UP, this.onKeyUp);
     }

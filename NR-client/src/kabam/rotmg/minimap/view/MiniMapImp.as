@@ -123,7 +123,7 @@ public class MiniMapImp extends MiniMap {
     private function addMouseListeners():void {
         addEventListener(MouseEvent.MOUSE_OVER, this.onMouseOver);
         addEventListener(MouseEvent.MOUSE_OUT, this.onMouseOut);
-        addEventListener(MouseEvent.RIGHT_CLICK, this.onMapRightClick);
+        addEventListener(MouseEvent.CLICK, this.onMapRightClick);
         addEventListener(MouseEvent.CLICK, this.onMapClick);
         addEventListener(Event.REMOVED_FROM_STAGE, this.onRemovedFromStage);
     }

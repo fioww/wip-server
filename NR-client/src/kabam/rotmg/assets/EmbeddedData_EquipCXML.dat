@@ -17150,4 +17150,79 @@
       <BagType>5</BagType>
       <Track/>
    </Object>
+         <Object type="0x7016" id="50 Fame">
+           <Class>Equipment</Class>
+           <Item />
+           <Texture>
+             <File>lofiObj3</File>
+             <Index>0xe0</Index>
+           </Texture>
+           <SlotType>10</SlotType>
+           <Description>Gives 50 Fame when consumed.</Description>
+           <Sound>use_potion</Sound>
+           <Activate amount="50">Fame</Activate>
+           <Consumable />
+           <Potion />
+           <BagType>2</BagType>
+         </Object>
+         <Object type="0x7017" id="100 Fame">
+           <Class>Equipment</Class>
+           <Item />
+           <Texture>
+             <File>lofiObj3</File>
+             <Index>0xe0</Index>
+           </Texture>
+           <SlotType>10</SlotType>
+           <Description>Gives 100 Fame when consumed.</Description>
+           <Sound>use_potion</Sound>
+           <Activate amount="100">Fame</Activate>
+           <Consumable />
+           <Potion />
+           <BagType>2</BagType>
+         </Object>
+         <Object type="0x7018" id="500 Fame">
+           <Class>Equipment</Class>
+           <Item />
+           <Texture>
+             <File>lofiObj3</File>
+             <Index>0xe0</Index>
+           </Texture>
+           <SlotType>10</SlotType>
+           <Description>Gives 500 Fame when consumed.</Description>
+           <Sound>use_potion</Sound>
+           <Activate amount="500">Fame</Activate>
+           <Consumable />
+           <Potion />
+           <BagType>2</BagType>
+         </Object>
+         <Object type="0x7019" id="1000 Fame">
+           <Class>Equipment</Class>
+           <Item />
+           <Texture>
+             <File>lofiObj3</File>
+             <Index>0xe0</Index>
+           </Texture>
+           <SlotType>10</SlotType>
+           <Description>Gives 1000 Fame when consumed.</Description>
+           <Sound>use_potion</Sound>
+           <Activate amount="1000">Fame</Activate>
+           <Consumable />
+           <Potion />
+           <BagType>2</BagType>
+         </Object>
+         <Object type="0x7021" id="5000 Fame">
+           <Class>Equipment</Class>
+           <Item />
+           <Texture>
+             <File>lofiObj3</File>
+             <Index>0xe0</Index>
+           </Texture>
+           <SlotType>10</SlotType>
+           <Description>Gives 5000 Fame when consumed.</Description>
+           <Sound>use_potion</Sound>
+           <Activate amount="5000">Fame</Activate>
+           <Consumable />
+           <Potion />
+           <BagType>2</BagType>
+         </Object>
 </Objects>

@@ -151,7 +151,7 @@ public class MapUserInput {
             this.gs_.map.addEventListener(MouseEvent.MOUSE_UP, this.onMouseUp);
         }
         _local2.addEventListener(Event.ENTER_FRAME, this.onEnterFrame);
-        _local2.addEventListener(MouseEvent.RIGHT_CLICK, this.disableRightClick);
+        _local2.addEventListener(MouseEvent.CLICK, this.disableRightClick);
     }
 
     public function disableRightClick(_arg1:MouseEvent):void {
@@ -173,7 +173,7 @@ public class MapUserInput {
             this.gs_.map.removeEventListener(MouseEvent.MOUSE_UP, this.onMouseUp);
         }
         _local2.removeEventListener(Event.ENTER_FRAME, this.onEnterFrame);
-        _local2.removeEventListener(MouseEvent.RIGHT_CLICK, this.disableRightClick);
+        _local2.removeEventListener(MouseEvent.CLICK, this.disableRightClick);
     }
 
     private function onActivate(_arg1:Event):void {

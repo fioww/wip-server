@@ -39,7 +39,7 @@ public class ChatListItem extends Sprite {
         this.isTrade = _arg8;
         this.layoutItems();
         this.addItems();
-        addEventListener(MouseEvent.RIGHT_MOUSE_DOWN, this.onRightMouseDown);
+        addEventListener(MouseEvent.MOUSE_DOWN, this.onRightMouseDown);
     }
 
     public function onRightMouseDown(e:MouseEvent):void {

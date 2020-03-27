@@ -82,7 +82,7 @@ public class SpeechBalloon extends Sprite implements IMapOverlayElement {
         filters = [new DropShadowFilter(0, 0, 0, 1, 16, 16)];
         this.offset_.y = ((-(height) - ((this.go_.texture_.height * (_arg1.size_ / 100)) * 5)) - 2);
         visible = false;
-        addEventListener(MouseEvent.RIGHT_CLICK, this.onSpeechBalloonRightClicked);
+        addEventListener(MouseEvent.CLICK, this.onSpeechBalloonRightClicked);
     }
 
     private function onSpeechBalloonRightClicked(e:MouseEvent):void {
