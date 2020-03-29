@@ -592,8 +592,12 @@ namespace wServer.realm.entities
             var idx = StatsManager.GetStatIndex((StatsType)eff.Stats);
             var statInfo = Manager.Resources.GameData.Classes[ObjectType].Stats;
 
-            Stats.Base[idx] += eff.Amount;
-            if (Stats.Base[idx] > statInfo[idx].MaxValue)
+            if (Stats.Base[idx] < statInfo[idx].MaxValue)
+            {
+                Stats.Base[idx] += eff.Amount;
+                SendInfo($"{item} Consumed, {(statInfo[idx].MaxValue - Stats.Base[idx]) / eff.Amount} left to max.");
+            }
+            else
             {
                 Stats.Base[idx] = statInfo[idx].MaxValue;
 
@@ -603,6 +607,7 @@ namespace wServer.realm.entities
                     boostAmount = 20;
                 Stats.Boost.ActivateBoost[idx].AddOffset(boostAmount);
                 Stats.ReCalculateValues();
+                SendInfo($"{item} already at max. Stat boosted.");
             }
         }
 

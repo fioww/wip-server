@@ -4214,7 +4214,7 @@
       <Tier>1</Tier>
       <Description>A potion that instantly restores health points.</Description>
       <Sound>use_potion</Sound>
-      <Activate amount="100">Heal</Activate>
+      <Activate amount="200">Heal</Activate>
       <Consumable/>
       <Potion/>
       <BagType>0</BagType>
@@ -4231,7 +4231,7 @@
       <Tier>1</Tier>
       <Description>A potion that instantly restores magic points.</Description>
       <Sound>use_potion</Sound>
-      <Activate amount="100">Magic</Activate>
+      <Activate amount="200">Magic</Activate>
       <Consumable/>
       <Potion/>
       <BagType>0</BagType>
@@ -4725,7 +4725,7 @@
       <SlotType>10</SlotType>
       <Description>A potion that instantly restores health points.</Description>
       <Sound>use_potion</Sound>
-      <Activate amount="200">Heal</Activate>
+      <Activate amount="300">Heal</Activate>
       <Consumable/>
       <Soulbound/>
       <Potion/>
@@ -4742,7 +4742,7 @@
       <SlotType>10</SlotType>
       <Description>A potion that instantly restores magic points.</Description>
       <Sound>use_potion</Sound>
-      <Activate amount="200">Magic</Activate>
+      <Activate amount="300">Magic</Activate>
       <Consumable/>
       <Soulbound/>
       <Potion/>

@@ -1,7 +1,8 @@
 <AppSettings>
   <MenuMusic></MenuMusic>
   <DeadMusic></DeadMusic>
-  <EditorMinRank>0</EditorMinRank>
+  <MapMinRank>50</MapMinRank>
+  <SpriteMinRank>0</SpriteMinRank>
   <CharacterSlotCost>1000</CharacterSlotCost>
   <CharacterSlotCurrency>1</CharacterSlotCurrency>
   <VaultChestCost>250</VaultChestCost>

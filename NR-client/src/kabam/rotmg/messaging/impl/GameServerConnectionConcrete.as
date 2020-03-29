@@ -803,7 +803,8 @@ public class GameServerConnectionConcrete extends GameServerConnection {
         else {
             _local4 = ObjectLibrary.xmlLibrary_[_local3];
         }
-        if (((((_local4) && (!(_arg1.isPaused())))) && (((_local4.hasOwnProperty("Consumable")) || (_local4.hasOwnProperty("InvUse")))))) {
+        if (_local4 && !_arg1.isPaused() && (_local4.hasOwnProperty("Consumable") || _local4.hasOwnProperty("InvUse"))) {
+            /*
             if (!this.validStatInc(_local3, _arg1)) {
                 this.addTextLine.dispatch(ChatMessage.make("", (_local4.attribute("id") + " not consumed. Already at Max.")));
                 return (false);
@@ -811,6 +812,7 @@ public class GameServerConnectionConcrete extends GameServerConnection {
             if (isStatPotion(_local3)) {
                 this.addTextLine.dispatch(ChatMessage.make("", (_local4.attribute("id") + " Consumed ++")));
             }
+            */
             this.applyUseItem(_arg1, _arg2, _local3, _local4);
             SoundEffectLibrary.play("use_potion");
             return (true);

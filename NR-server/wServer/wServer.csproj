@@ -108,6 +108,7 @@
     <Compile Include="logic\behaviors\SetNoXP.cs" />
     <Compile Include="logic\db\BehaviorDb.Abyss.cs" />
     <Compile Include="logic\db\BehaviorDb.Avatar.cs" />
+    <Compile Include="logic\db\BehaviorDb.Nexus.cs" />
     <Compile Include="logic\db\BehaviorDb.BeachBum.cs" />
     <Compile Include="logic\db\BehaviorDb.Beachzone.cs" />
     <Compile Include="logic\db\BehaviorDb.BeerGod.cs" />
