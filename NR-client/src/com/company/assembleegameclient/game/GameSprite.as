@@ -200,6 +200,7 @@ public class GameSprite extends AGameSprite {
             this.showWaveCounter();
         }
         _local1 = StaticInjectorContext.getInjector().getInstance(Account);
+        /*
         if (map.name_ == Map.NEXUS) {
             this.addToQueueSignal.dispatch(PopupNamesConfig.DAILY_LOGIN_POPUP, this.openDailyCalendarPopupSignal, -1, null);
             if (this.beginnersPackageModel.isBeginnerAvailable()) {
@@ -210,6 +211,7 @@ public class GameSprite extends AGameSprite {
             }
             this.flushQueueSignal.dispatch();
         }
+         */
         this.isNexus_ = (map.name_ == Map.NEXUS);
         if (((this.isNexus_) || ((map.name_ == Map.DAILY_QUEST_ROOM)))) {
             this.creditDisplay_ = new CreditDisplay(this, true, true);
