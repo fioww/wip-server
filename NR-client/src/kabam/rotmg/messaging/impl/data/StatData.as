@@ -146,6 +146,8 @@ public class StatData {
                 return (TextKey.STAT_MODEL_WISDOM_LONG);
             case DEXTERITY_STAT:
                 return (TextKey.STAT_MODEL_DEXTERITY_LONG);
+            case LUCK:
+                return "Luck";
         }
         return (TextKey.STAT_DATA_UNKNOWN_STAT);
     }

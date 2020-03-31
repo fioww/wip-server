@@ -115,10 +115,10 @@ namespace wServer.realm
         DamageMax = 99,
         DamageMinBonus = 100,
         DamageMaxBonus = 101,
-        LuckBonus = 105,
+        Luck = 102,
         Rank = 103,
         Admin = 104,
-        Luck = 102,
+        LuckBonus = 105,
 
         None = 255
     }
