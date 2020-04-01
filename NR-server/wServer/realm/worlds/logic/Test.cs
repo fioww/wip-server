@@ -6,10 +6,31 @@ using wServer.networking;
 namespace wServer.realm.worlds.logic
 {
     public class Test : World
-    {
-        public bool JsonLoaded { get; private set; }
+    {        
+		static readonly string[] testMusic = { "Test" };
 
-        public Test(ProtoWorld proto, Client client = null) : base(proto) { }
+        private static ProtoWorld _testProto = new ProtoWorld
+        {
+            name = "Test World",
+            sbName = "Test World",
+            id = 0,
+            setpiece = false,
+            showDisplays = false,
+            background = 0,
+            blocking = 0,
+            difficulty = 0,
+            isLimbo = false,
+            maps = Empty<string>.Array,
+            persist = false,
+            portals = Empty<int>.Array,
+            restrictTp = false,
+            wmap = Empty<byte[]>.Array,
+            music = testMusic
+        };
+
+        public bool JsonLoaded { get; private set; }
+		
+        public Test() : base(_testProto) { }
 
         protected override void Init() { }
 

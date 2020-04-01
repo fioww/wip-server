@@ -1,6 +1,6 @@
 <AppSettings>
-  <MenuMusic></MenuMusic>
-  <DeadMusic></DeadMusic>
+  <MenuMusic>sorc</MenuMusic>
+  <DeadMusic>death</DeadMusic>
   <MapMinRank>50</MapMinRank>
   <SpriteMinRank>0</SpriteMinRank>
   <CharacterSlotCost>1000</CharacterSlotCost>

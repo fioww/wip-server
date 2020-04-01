@@ -227,6 +227,14 @@ namespace wServer.realm
             }
 
             var world = client.Manager.GetWorld(gameId);
+			
+            // make test worlds
+            if (gameId == World.Test && acc.Rank >= client.Manager.Resources.Settings.EditorMinRank)
+            {
+                world = new Test();
+                _manager.AddWorld(world);
+            }
+
             if (world == null || world.Deleted)
             {
                 client.SendPacket(new Text()

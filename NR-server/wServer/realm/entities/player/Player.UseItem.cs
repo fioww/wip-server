@@ -489,7 +489,7 @@ namespace wServer.realm.entities
             if (LTBoostTime < 0 || (LTBoostTime > eff.DurationMS && eff.DurationMS >= 0))
                 return;
 
-            LTBoostTime = eff.DurationMS;
+            LTBoostTime += eff.DurationMS;
             InvokeStatChange(StatsType.LTBoostTime, LTBoostTime / 1000, true);
         }
 
@@ -498,7 +498,7 @@ namespace wServer.realm.entities
             if (LDBoostTime < 0 || (LDBoostTime > eff.DurationMS && eff.DurationMS >= 0))
                 return;
 
-            LDBoostTime = eff.DurationMS;
+            LDBoostTime += eff.DurationMS;
             InvokeStatChange(StatsType.LDBoostTime, LDBoostTime / 1000, true);
         }
 
@@ -507,7 +507,7 @@ namespace wServer.realm.entities
             if (XPBoostTime < 0 || (XPBoostTime > eff.DurationMS && eff.DurationMS >= 0))
                 return;
 
-            XPBoostTime = eff.DurationMS;
+            XPBoostTime += eff.DurationMS;
             XPBoosted = true;
             InvokeStatChange(StatsType.XPBoostTime, XPBoostTime / 1000, true);
         }
