@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using common;
-using wServer.logic.behaviors;
 using wServer.realm.entities;
 using wServer.realm;
-using wServer.realm.worlds;
 using wServer.realm.worlds.logic;
 
 namespace wServer.logic
@@ -54,6 +51,11 @@ namespace wServer.logic
             return dat.ToArray();
         }
 
+        public void UpdateEnemy(Enemy enemy)
+        {
+            this.enemy = enemy;
+        }
+
         public void Death(RealmTime time)
         {
             if (Corpse != null)
@@ -76,14 +78,17 @@ namespace wServer.logic
             {
                 if (player.HasConditionEffect(common.resources.ConditionEffects.Paused))
                     continue;
-                float xp = enemy.GivesNoXp ? 0 : 1;
-                xp *= enemy.ObjectDesc.MaxHP / 10f * 
-                    (enemy.ObjectDesc.ExpMultiplier ?? 1);
+                double xp = enemy.GivesNoXp ? 0 : 1;
+
+
+                xp *= Math.Floor(Math.Min(enemy.ObjectDesc.MaxHP * 0.1f, (player.Level * 100 - 50) * 0.1f) *
+                                        (enemy.ObjectDesc.ExpMultiplier ?? 1));
+
                 float upperLimit = player.ExperienceGoal * 0.1f;
                 if (player.Quest == enemy)
                     upperLimit = player.ExperienceGoal * 0.5f;
 
-                float playerXp;
+                double playerXp;
                 if (upperLimit < xp)
                     playerXp = upperLimit;
                 else

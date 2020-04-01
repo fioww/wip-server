@@ -9728,8 +9728,7 @@
       <Consumable/>
       <Soulbound/>
       <BagType>2</BagType>
-      <Timer>-1.0</Timer>
-      <XpBoost/>
+      <Activate duration="-1">XPBoost</Activate>
       <feedPower>200</feedPower>
    </Object>
    <Object type="0xc43" id="XP Booster Test">
@@ -9746,8 +9745,7 @@
       <Consumable/>
       <Soulbound/>
       <BagType>2</BagType>
-      <Timer>300</Timer>
-      <XpBoost/>
+      <Activate duration="300">XPBoost</Activate>
       <feedPower>1</feedPower>
    </Object>
    <Object type="0xc44" id="Rusty Katana">
@@ -10631,8 +10629,7 @@
       </ExtraTooltipData>
       <Consumable/>
       <Soulbound/>
-      <LTBoosted/>
-      <Timer>1800</Timer>
+      <Activate duration="1800">LTBoost</Activate>
       <BagType>2</BagType>
       <feedPower>150</feedPower>
    </Object>
@@ -10651,8 +10648,7 @@
       <Sound>use_potion</Sound>
       <Consumable/>
       <Soulbound/>
-      <LDBoosted/>
-      <Timer>1800</Timer>
+      <Activate duration="1800">LDBoost</Activate>
       <BagType>2</BagType>
       <feedPower>150</feedPower>
    </Object>
@@ -10672,8 +10668,7 @@
       <Consumable/>
       <Soulbound/>
       <BagType>2</BagType>
-      <Timer>3600</Timer>
-      <XpBoost/>
+      <Activate duration="3600">XPBoost</Activate>
       <feedPower>110</feedPower>
    </Object>
    <Object type="0xc6b" id="XP Booster 20 min">
@@ -10692,8 +10687,7 @@
       <Consumable/>
       <Soulbound/>
       <BagType>2</BagType>
-      <Timer>1200</Timer>
-      <XpBoost/>
+      <Activate duration="1200">XPBoost</Activate>
       <feedPower>75</feedPower>
    </Object>
    <Object type="0x9d2" id="Strike Amulet">
@@ -11180,9 +11174,8 @@
       <Sound>use_potion</Sound>
       <Consumable/>
       <Soulbound/>
-      <LDBoosted/>
-      <LTBoosted/>
-      <Timer>1200</Timer>
+      <Activate duration="1200">LDBoost</Activate>
+      <Activate duration="1200">LTBoost</Activate>
       <BagType>2</BagType>
       <feedPower>100</feedPower>
    </Object>

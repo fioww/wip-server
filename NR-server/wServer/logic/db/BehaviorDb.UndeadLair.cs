@@ -69,6 +69,12 @@ namespace wServer.logic
                         new TimedTransition(10000, "transition1")
                         )
                     ),
+                 new MostDamagers(2,
+                    new OnlyOne(
+                        new ItemLoot("Powder Blue Clothing Dye", 0.01),
+                        new ItemLoot("Powder Blue Accessory Dye", 0.01)
+                     )
+                 ),
                 new Threshold(0.025,
                     new TierLoot(7, ItemType.Weapon, 0.1),
                     new TierLoot(3, ItemType.Ability, 0.1),

@@ -62,6 +62,14 @@ namespace wServer.logic
                         new TimedTransition(1000, "basic")
                         )
                     ),
+                 new MostDamagers(2,
+                    new OnlyOne(
+                        new ItemLoot("Large Bold Diamond Cloth", 0.03),
+                        new ItemLoot("Small Bold Diamond Cloth", 0.03),
+                        new ItemLoot("Large Brown Stitch Cloth", 0.03),
+                        new ItemLoot("Small Brown Stitch Cloth", 0.03)
+                     )
+                 ),
                 new Threshold(0.025,
                     new ItemLoot("Demon Blade", 0.008),
                     new ItemLoot("Potion of Vitality", 1.0),

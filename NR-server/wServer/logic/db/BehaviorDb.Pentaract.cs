@@ -73,7 +73,7 @@ namespace wServer.logic
                     new ItemLoot("Potion of Wisdom", .1),
                     new ItemLoot("Potion of Speed", .1),
                     new ItemLoot("Potion of Dexterity", .1),
-                    new ItemLoot("Seal of Blasphemous Prayer", .04)
+                    new ItemLoot("Seal of Blasphemous Prayer", .025)
                     )
             )
             ;

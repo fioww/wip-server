@@ -17,21 +17,31 @@ namespace wServer.logic
                               new Spawn("Cube Defender", maxChildren: 5, initialSpawn: 5, coolDown: 100000),
                               new Spawn("Cube Blaster", maxChildren: 5, initialSpawn: 5, coolDown: 100000)
                  ),
-                 new Threshold(0.15, //add Stat potions
-                     new TierLoot(3, ItemType.Ring, 0.2),
-                     new TierLoot(7, ItemType.Armor, 0.2),
-                     new TierLoot(8, ItemType.Weapon, 0.2),
-                     new TierLoot(4, ItemType.Ability, 0.1),
-                     new TierLoot(8, ItemType.Armor, 0.1),
+                 new MostDamagers(3,
+                     LootTemplates.StatPotsEvents()
+                     ),
+                 new MostDamagers(10,
                      new TierLoot(4, ItemType.Ring, 0.05),
-                     new TierLoot(9, ItemType.Armor, 0.03),
-                     new TierLoot(5, ItemType.Ability, 0.03),
-                     new TierLoot(9, ItemType.Weapon, 0.03),
-                     new TierLoot(10, ItemType.Armor, 0.02),
-                     new TierLoot(10, ItemType.Weapon, 0.02),
+                     new TierLoot(3, ItemType.Ring, 0.2)
+                     ),
+                 new MostDamagers(10,
                      new TierLoot(11, ItemType.Armor, 0.01),
+                     new TierLoot(10, ItemType.Armor, 0.02),
+                     new TierLoot(9, ItemType.Armor, 0.03),
+                     new TierLoot(8, ItemType.Armor, 0.1),
+                     new TierLoot(7, ItemType.Armor, 0.2)
+                     ),
+                 new MostDamagers(10,
                      new TierLoot(11, ItemType.Weapon, 0.01),
-                     new TierLoot(5, ItemType.Ring, 0.01),
+                     new TierLoot(10, ItemType.Weapon, 0.02),
+                     new TierLoot(9, ItemType.Weapon, 0.03),
+                     new TierLoot(8, ItemType.Weapon, 0.2)
+                     ),
+                 new MostDamagers(10,
+                     new TierLoot(5, ItemType.Ability, 0.03),
+                     new TierLoot(4, ItemType.Ability, 0.1)
+                     ),
+                 new MostDamagers(1,
                      new ItemLoot("Dirk of Cronus", 0.014)
                  )
              )

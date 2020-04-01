@@ -142,19 +142,23 @@ namespace wServer.logic
                      new TimedTransition(2000, "nothing")
                      )
                  ),
-             new Threshold(0.3, 
-                 new ItemLoot("Potion of Dexterity", 1.00)
+                 new Threshold(0.3, 
+                    new ItemLoot("Potion of Dexterity", 1.00)
                  ),
-                new Threshold(0.1,
-                new ItemLoot("Potion of Defense", 0.3),
-                new ItemLoot("Sprite Wand", 0.3),
-                new ItemLoot("Cloak of the Planewalker", 0.005),
-                new ItemLoot("Staff of Extreme Prejudice", 0.005),
-                new ItemLoot("Wine Cellar Incantation", 0.005),
+                 new MostDamagers(2,
+                    new OnlyOne(
+                        new ItemLoot("Ghost White Clothing Dye", 0.1),
+                        new ItemLoot("Ghost White Accessory Dye", 0.1)
+                     )
+                 ),
+                 new Threshold(0.1,
+                    new ItemLoot("Potion of Defense", 0.3),
+                    new ItemLoot("Sprite Wand", 0.3),
+                    new ItemLoot("Cloak of the Planewalker", 0.005),
+                    new ItemLoot("Staff of Extreme Prejudice", 0.005),
+                    new ItemLoot("Wine Cellar Incantation", 0.005),
                     new TierLoot(3, ItemType.Ring, 0.2),
-
                     new TierLoot(6, ItemType.Armor, 0.2),
-
                     new TierLoot(3, ItemType.Ability, 0.2),
                     new TierLoot(4, ItemType.Ability, 0.15),
                     new TierLoot(5, ItemType.Ability, 0.1)

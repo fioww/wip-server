@@ -105,6 +105,7 @@
     <Compile Include="logic\behaviors\RealmPortalDrop.cs" />
     <Compile Include="logic\behaviors\RemoveEntity.cs" />
     <Compile Include="logic\behaviors\RemoveObjectOnDeath.cs" />
+    <Compile Include="logic\behaviors\ScaleHP.cs" />
     <Compile Include="logic\behaviors\SetNoXP.cs" />
     <Compile Include="logic\db\BehaviorDb.Abyss.cs" />
     <Compile Include="logic\db\BehaviorDb.Avatar.cs" />
@@ -161,6 +162,7 @@
     <Compile Include="logic\db\BehaviorDb.Tutorial.cs" />
     <Compile Include="logic\db\BehaviorDb.UndeadLair.cs" />
     <Compile Include="logic\db\BehaviorDb.Woodland.cs" />
+    <Compile Include="logic\loot\LootDefs.cs" />
     <Compile Include="logic\transitions\DamageTakenTransition.cs" />
     <Compile Include="networking\packets\incoming\ClaimDailyRewardMessage.cs" />
     <Compile Include="networking\packets\incoming\GoToQuestRoom.cs" />
@@ -432,7 +434,6 @@
     <Compile Include="logic\Cooldown.cs" />
     <Compile Include="logic\DamageCounter.cs" />
     <Compile Include="logic\CycleBehavior.cs" />
-    <Compile Include="logic\loot\MobDrops.cs" />
     <Compile Include="logic\loot\Loots.cs" />
     <Compile Include="logic\State.cs" />
     <Compile Include="logic\Transition.cs" />

@@ -332,6 +332,16 @@ namespace wServer.logic
                     ),
                     new State("UnsetEffect")
                 ),
+                 new MostDamagers(2,
+                    new OnlyOne(
+                        new ItemLoot("Large Lush Camo Cloth", 0.0075),
+                        new ItemLoot("Small Lush Camo Cloth", 0.0075),
+                        new ItemLoot("Large Cactus Zag Cloth", 0.0075),
+                        new ItemLoot("Small Cactus Zag Cloth", 0.0075),
+                        new ItemLoot("Large Flannel Cloth", 0.0075),
+                        new ItemLoot("Small Flannel Cloth", 0.0075)
+                     )
+                 ),
                 new Threshold(0.1,
                     new ItemLoot("Diamond Bladed Katana", 0.1),
                     new ItemLoot("Cupid's Bow", 0.1),

@@ -175,6 +175,16 @@ namespace wServer.logic
                     new Threshold(0.32,
                     new ItemLoot("Potion of Wisdom", 1)
                 ),
+                 new MostDamagers(2,
+                    new OnlyOne(
+                        new ItemLoot("Large Grey Scaly Cloth", 0.01),
+                        new ItemLoot("Small Grey Scaly Cloth", 0.01),
+                        new ItemLoot("Large Yellow Dot Cloth", 0.01),
+                        new ItemLoot("Small Yellow Dot Cloth", 0.01),
+                        new ItemLoot("Large Futuristic Cloth", 0.01),
+                        new ItemLoot("Small Futuristic Cloth", 0.01)
+                     )
+                 ),
                 new Threshold(0.1,
                     new ItemLoot("Conducting Wand", 0.005),
                     new ItemLoot("Scepter of Fulmination", 0.005),

@@ -46,7 +46,7 @@ namespace wServer.logic
                         )
                     ),
                 new Threshold(0.07,
-                    new ItemLoot("Potion of Defense", 0.2)
+                    new ItemLoot("Potion of Defense", 0.07)
                     )
             )
             .Init("White Demon",
@@ -71,7 +71,7 @@ namespace wServer.logic
                     new TierLoot(4, ItemType.Ability, 0.04)
                     ),
                 new Threshold(0.07,
-                    new ItemLoot("Potion of Attack", 0.2)
+                    new ItemLoot("Potion of Attack", 0.07)
                     )
             )
             .Init("White Demon of the Abyss",
@@ -85,7 +85,7 @@ namespace wServer.logic
                     new Reproduce(densityMax: 3)
                     ),
                 new Threshold(0.07,
-                    new ItemLoot("Potion of Attack", 0.2)
+                    new ItemLoot("Potion of Attack", 0.07)
                     )
              )
             .Init("Sprite God",
@@ -110,7 +110,7 @@ namespace wServer.logic
                     new TierLoot(4, ItemType.Ability, 0.04)
                     ),
                 new Threshold(0.07,
-                    new ItemLoot("Potion of Attack", 0.2)
+                    new ItemLoot("Potion of Attack", 0.07)
                     )
             )
             .Init("Sprite Child",
@@ -146,7 +146,7 @@ namespace wServer.logic
                     new TierLoot(4, ItemType.Ability, 0.04)
                     ),
                 new Threshold(0.07,
-                    new ItemLoot("Potion of Speed", 0.2)
+                    new ItemLoot("Potion of Speed", 0.07)
                     )
             )
             .Init("Ent God",
@@ -170,7 +170,7 @@ namespace wServer.logic
                     new TierLoot(4, ItemType.Ability, 0.04)
                     ),
                 new Threshold(0.07,
-                    new ItemLoot("Potion of Defense", 0.2)
+                    new ItemLoot("Potion of Defense", 0.07)
                     )
             )
             .Init("Beholder",
@@ -195,7 +195,7 @@ namespace wServer.logic
                     new TierLoot(4, ItemType.Ability, 0.04)
                     ),
                 new Threshold(0.07,
-                    new ItemLoot("Potion of Defense", 0.2)
+                    new ItemLoot("Potion of Defense", 0.07)
                     )
             )
             .Init("Flying Brain",
@@ -220,7 +220,7 @@ namespace wServer.logic
                     new TierLoot(4, ItemType.Ability, 0.04)
                     ),
                 new Threshold(0.07,
-                    new ItemLoot("Potion of Attack", 0.2)
+                    new ItemLoot("Potion of Attack", 0.07)
                     )
             )
             .Init("Slime God",
@@ -245,7 +245,7 @@ namespace wServer.logic
                     new TierLoot(4, ItemType.Ability, 0.04)
                     ),
                 new Threshold(0.07,
-                    new ItemLoot("Potion of Defense", 0.2)
+                    new ItemLoot("Potion of Defense", 0.07)
                     )
             )
             .Init("Ghost God",
@@ -270,7 +270,7 @@ namespace wServer.logic
                     new TierLoot(4, ItemType.Ability, 0.04)
                     ),
                 new Threshold(0.07,
-                    new ItemLoot("Potion of Speed", 0.2)
+                    new ItemLoot("Potion of Speed", 0.07)
                     )
             )
             .Init("Rock Bot",
@@ -421,7 +421,7 @@ namespace wServer.logic
                     new TierLoot(4, ItemType.Ability, 0.04)
                     ),
                 new Threshold(0.07,
-                    new ItemLoot("Potion of Speed", 0.2)
+                    new ItemLoot("Potion of Speed", 0.07)
                     )
             )
             .Init("Leviathan",
@@ -469,7 +469,7 @@ namespace wServer.logic
                     new TierLoot(4, ItemType.Ability, 0.04)
                     ),
                 new Threshold(0.07,
-                    new ItemLoot("Potion of Defense", 0.2)
+                    new ItemLoot("Potion of Defense", 0.07)
                     )
             )
             .Init("Lucky Djinn",

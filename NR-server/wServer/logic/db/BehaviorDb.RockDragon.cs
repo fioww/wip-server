@@ -78,27 +78,33 @@ namespace wServer.logic
                         new TimedTransition(11000, "spawnbody")
                         )
                     ),
-                new Threshold(0.01,
-                    new TierLoot(8, ItemType.Weapon, .15),
-                    new TierLoot(9, ItemType.Weapon, .1),
-                    new TierLoot(10, ItemType.Weapon, .07),
-                    new TierLoot(11, ItemType.Weapon, .05),
-                    new TierLoot(4, ItemType.Ability, .15),
-                    new TierLoot(5, ItemType.Ability, .07),
-                    new TierLoot(8, ItemType.Armor, .2),
-                    new TierLoot(9, ItemType.Armor, .15),
-                    new TierLoot(10, ItemType.Armor, .10),
-                    new TierLoot(11, ItemType.Armor, .07),
-                    new TierLoot(12, ItemType.Armor, .04),
-                    new TierLoot(5, ItemType.Ring, .03),
-                    new ItemLoot("Potion of Defense", .1),
-                    new ItemLoot("Potion of Attack", .1),
-                    new ItemLoot("Potion of Vitality", .1),
-                    new ItemLoot("Potion of Wisdom", .1),
-                    new ItemLoot("Potion of Speed", .1),
-                    new ItemLoot("Potion of Dexterity", .1),
-                    new ItemLoot("Ray Katana", .01)
-                )
+                 new MostDamagers(3,
+                     LootTemplates.StatPotsEvents()
+                     ),
+                 new MostDamagers(10,
+                     new TierLoot(4, ItemType.Ring, 0.05),
+                     new TierLoot(3, ItemType.Ring, 0.2)
+                     ),
+                 new MostDamagers(10,
+                     new TierLoot(11, ItemType.Armor, 0.01),
+                     new TierLoot(10, ItemType.Armor, 0.02),
+                     new TierLoot(9, ItemType.Armor, 0.03),
+                     new TierLoot(8, ItemType.Armor, 0.1),
+                     new TierLoot(7, ItemType.Armor, 0.2)
+                     ),
+                 new MostDamagers(10,
+                     new TierLoot(11, ItemType.Weapon, 0.01),
+                     new TierLoot(10, ItemType.Weapon, 0.02),
+                     new TierLoot(9, ItemType.Weapon, 0.03),
+                     new TierLoot(8, ItemType.Weapon, 0.2)
+                     ),
+                 new MostDamagers(10,
+                     new TierLoot(5, ItemType.Ability, 0.03),
+                     new TierLoot(4, ItemType.Ability, 0.1)
+                     ),
+                 new MostDamagers(1,
+                     new ItemLoot("Ray Katana", 0.01)
+                 )
             )
                 .Init("Body Segment Bomb",
                     new State(

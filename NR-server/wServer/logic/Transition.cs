@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Text;
 using wServer.realm;
 
 namespace wServer.logic
@@ -13,16 +10,13 @@ namespace wServer.logic
 
         protected readonly string[] TargetStates;
         protected int SelectedState;
-        
-        public Transition(params string[] targetStates)
-        {
+
+        protected Transition(params string[] targetStates) {
             TargetStates = targetStates;
         }
 
-        public bool Tick(Entity host, RealmTime time)
-        {
-            object state;
-            host.StateStorage.TryGetValue(this, out state);
+        public bool Tick(Entity host, RealmTime time) {
+            host.StateStorage.TryGetValue(this, out var state);
 
             var ret = TickCore(host, time, ref state);
             if (ret)
@@ -35,10 +29,24 @@ namespace wServer.logic
             return ret;
         }
 
+        public void OnStateEntry(Entity host, RealmTime time) {
+            if (!host.StateStorage.TryGetValue(this, out var state))
+                state = null;
+
+            OnStateEntry(host, time, ref state);
+
+            if (state == null)
+                host.StateStorage.Remove(this);
+            else
+                host.StateStorage[this] = state;
+        }
+
+        protected virtual void OnStateEntry(Entity host, RealmTime time, ref object state) {
+        }
+
         protected abstract bool TickCore(Entity host, RealmTime time, ref object state);
 
-        internal void Resolve(IDictionary<string, State> states)
-        {
+        internal void Resolve(IDictionary<string, State> states) {
             var numStates = TargetStates.Length;
             TargetState = new State[numStates];
             for (var i = 0; i < numStates; i++)
@@ -47,9 +55,6 @@ namespace wServer.logic
 
         [ThreadStatic]
         private static Random _rand;
-        protected static Random Random
-        {
-            get { return _rand ?? (_rand = new Random()); }
-        }
+        protected static Random Random => _rand ?? (_rand = new Random());
     }
 }

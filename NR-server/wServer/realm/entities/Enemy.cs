@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using common.resources;
 using wServer.logic;
 using wServer.networking.packets.outgoing;
@@ -12,24 +10,22 @@ namespace wServer.realm.entities
 {
     public class Enemy : Character
     {
-        public bool isPet; // TODO quick hack for backwards compatibility
-        bool stat;
+        private readonly bool stat;
         public Enemy ParentEntity;
 
-        DamageCounter counter;
         public Enemy(RealmManager manager, ushort objType)
             : base(manager, objType)
         {
             stat = ObjectDesc.MaxHP == 0;
-            counter = new DamageCounter(this);
+            DamageCounter = new DamageCounter(this);
         }
 
-        public DamageCounter DamageCounter { get { return counter; } }
+        public DamageCounter DamageCounter { get; private set; }
 
         public WmapTerrain Terrain { get; set; }
 
-        Position? pos;
-        public Position SpawnPoint { get { return pos ?? new Position() { X = X, Y = Y }; } }
+        private Position? pos;
+        public Position SpawnPoint => pos ?? new Position { X = X, Y = Y };
 
         public override void Init(World owner)
         {
@@ -42,13 +38,18 @@ namespace wServer.realm.entities
                 });
         }
 
+        public void SetDamageCounter(DamageCounter counter, Enemy enemy)
+        {
+            DamageCounter = counter;
+            DamageCounter.UpdateEnemy(enemy);
+        }
+
         public event EventHandler<BehaviorEventArgs> OnDeath;
 
         public void Death(RealmTime time)
         {
-            counter.Death(time);
-            if (CurrentState != null)
-                CurrentState.OnDeath(new BehaviorEventArgs(this, time));
+            DamageCounter.Death(time);
+            CurrentState?.OnDeath(new BehaviorEventArgs(this, time));
             OnDeath?.Invoke(this, new BehaviorEventArgs(this, time));
             Owner.LeaveWorld(this);
         }
@@ -61,11 +62,11 @@ namespace wServer.realm.entities
             if (!HasConditionEffect(ConditionEffects.Paused) &&
                 !HasConditionEffect(ConditionEffects.Stasis))
             {
-                var def = this.ObjectDesc.Defense;
+                var def = ObjectDesc.Defense;
                 if (noDef)
                     def = 0;
                 dmg = (int)StatsManager.GetDefenseDamage(this, dmg, def);
-                int effDmg = dmg;
+                var effDmg = dmg;
                 if (effDmg > HP)
                     effDmg = HP;
                 if (!HasConditionEffect(ConditionEffects.Invulnerable))
@@ -73,7 +74,7 @@ namespace wServer.realm.entities
                 ApplyConditionEffect(effs);
                 Owner.BroadcastPacketNearby(new Damage()
                 {
-                    TargetId = this.Id,
+                    TargetId = Id,
                     Effects = 0,
                     DamageAmount = (ushort)dmg,
                     Kill = HP < 0,
@@ -81,44 +82,47 @@ namespace wServer.realm.entities
                     ObjectId = from.Id
                 }, this, null, PacketPriority.Low);
 
-                counter.HitBy(from, time, null, dmg);
+                DamageCounter.HitBy(from, time, null, dmg);
 
                 if (HP < 0 && Owner != null)
                 {
                     Death(time);
                 }
-                
+
                 return effDmg;
             }
             return 0;
         }
+
         public override bool HitByProjectile(Projectile projectile, RealmTime time)
         {
             if (stat) return false;
             if (HasConditionEffect(ConditionEffects.Invincible))
                 return false;
-            if (projectile.ProjectileOwner is Player &&
+            if (projectile.ProjectileOwner is Player p &&
                 !HasConditionEffect(ConditionEffects.Paused) &&
                 !HasConditionEffect(ConditionEffects.Stasis))
             {
-                var def = this.ObjectDesc.Defense;
+                var def = ObjectDesc.Defense;
                 if (projectile.ProjDesc.ArmorPiercing)
                     def = 0;
-                int dmg = (int)StatsManager.GetDefenseDamage(this, projectile.Damage, def);
+                var dmg = (int)StatsManager.GetDefenseDamage(this, projectile.Damage, def);
                 if (!HasConditionEffect(ConditionEffects.Invulnerable))
                     HP -= dmg;
+
                 ApplyConditionEffect(projectile.ProjDesc.Effects);
-                Owner.BroadcastPacketNearby(new Damage()
+                
+                Owner.BroadcastPacketNearby(new Damage
                 {
-                    TargetId = this.Id,
+                    TargetId = Id,
                     Effects = projectile.ConditionEffects,
                     DamageAmount = (ushort)dmg,
                     Kill = HP < 0,
                     BulletId = projectile.ProjectileId,
                     ObjectId = projectile.ProjectileOwner.Self.Id
-                }, this, (projectile.ProjectileOwner as Player), PacketPriority.Low);
+                }, this, p, PacketPriority.Low);
 
-                counter.HitBy(projectile.ProjectileOwner as Player, time, projectile, dmg);
+                DamageCounter.HitBy(p, time, projectile, dmg);
 
                 if (HP < 0 && Owner != null)
                 {
@@ -129,7 +133,6 @@ namespace wServer.realm.entities
             return false;
         }
 
-        float bleeding = 0;
         public override void Tick(RealmTime time)
         {
             if (pos == null)
@@ -137,12 +140,7 @@ namespace wServer.realm.entities
 
             if (!stat && HasConditionEffect(ConditionEffects.Bleeding))
             {
-                if (bleeding > 1)
-                {
-                    HP -= (int)bleeding;
-                    bleeding -= (int)bleeding;
-                }
-                bleeding += 28 * (time.ElaspedMsDelta / 1000f);
+                HP -= (int)(28 * (time.ElaspedMsDelta / 1000f));
             }
             base.Tick(time);
         }
