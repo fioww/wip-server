@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using wServer.realm;
 using wServer.realm.entities;
+using Player = wServer.realm.entities.Player;
 
 namespace wServer.logic.behaviors
 {

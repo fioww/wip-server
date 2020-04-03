@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using common.resources;
 using wServer.realm;
 using wServer.realm.entities;
@@ -112,7 +109,7 @@ namespace wServer.logic.behaviors
                 spawn.CurrentNumber++;
             }
             else
-                spawn.RemainingTime -= time.ElaspedMsDelta;
+                spawn.RemainingTime -= time.ElapsedMsDelta;
         }
     }
 }

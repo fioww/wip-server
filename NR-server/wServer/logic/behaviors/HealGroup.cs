@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using common.resources;
 using wServer.networking.packets.outgoing;
 using wServer.realm;
@@ -37,14 +34,23 @@ namespace wServer.logic.behaviors
 
             if (cool <= 0)
             {
-                if (host.HasConditionEffect(ConditionEffects.Stunned)) return;
+                if (host.HasConditionEffect(ConditionEffects.Stunned))
+                    return;
+
+
+                int? increasedHP = amount;
+
+                if (host.HasConditionEffect(ConditionEffects.Sick))
+                {
+                    increasedHP = amount / 2;
+                }
 
                 foreach (var entity in host.GetNearestEntitiesByGroup(range, group).OfType<Enemy>())
                 {
                     int newHp = entity.ObjectDesc.MaxHP;
-                    if (amount != null)
+                    if (increasedHP != null)
                     {
-                        var newHealth = (int) amount + entity.HP;
+                        var newHealth = (int)increasedHP + entity.HP;
                         if (newHp > newHealth)
                             newHp = newHealth;
                     }
@@ -76,7 +82,7 @@ namespace wServer.logic.behaviors
                 cool = coolDown.Next(Random);
             }
             else
-                cool -= time.ElaspedMsDelta;
+                cool -= time.ElapsedMsDelta;
 
             state = cool;
         }

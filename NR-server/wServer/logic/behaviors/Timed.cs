@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using wServer.realm;
+﻿using wServer.realm;
 
 namespace wServer.logic.behaviors
 {
@@ -34,7 +30,7 @@ namespace wServer.logic.behaviors
                 {   behavior.Tick(host, time);
                 Status = CycleStatus.InProgress;
 
-                period -= time.ElaspedMsDelta;
+                period -= time.ElapsedMsDelta;
                 if (period <= 0)
                 {
                     period = this.period;

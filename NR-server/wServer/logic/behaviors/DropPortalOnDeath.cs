@@ -14,7 +14,7 @@ namespace wServer.logic.behaviors
         public DropPortalOnDeath(string target, double probability = 1, int? timeout = null, float XAdjustment = 0, float YAdjustment = 0)
         {
             _target = GetObjType(target);
-            _probability = (float)probability;
+            _probability = (float) probability;
             _timeout = timeout;
             xAdjustment = XAdjustment;
             yAdjustment = YAdjustment;
@@ -29,9 +29,9 @@ namespace wServer.logic.behaviors
             {
                 var owner = e.Host.Owner;
 
-                if (owner.Name.Contains("DeathArena") || e.Host.Spawned)
+                if (owner.Name.Contains("DeathArena") || e.Host.Spawned) 
                     return;
-
+                
                 if (e.Host.CurrentState.Is(parent) &&
                     Random.NextDouble() < _probability)
                 {
@@ -42,18 +42,18 @@ namespace wServer.logic.behaviors
                        : _timeout.Value;
 
                     var entity = Entity.Resolve(manager, _target);
-                    entity.Move(e.Host.X + +xAdjustment, e.Host.Y + +yAdjustment);
+                    entity.Move(e.Host.X + + xAdjustment, e.Host.Y + + yAdjustment);
                     owner.EnterWorld(entity);
 
                     if (timeoutTime != 0)
-                        owner.Timers.Add(new WorldTimer(timeoutTime * 1000, (world, t) => //default portal close time * 1000
+                        owner.Timers.Add(new WorldTimer(timeoutTime*1000, (world, t) => //default portal close time * 1000
                         {
                             try
                             {
                                 world.LeaveWorld(entity);
                             }
                             catch
-                            //couldn't remove portal, Owner became null. Should be fixed with RealmManager implementation
+                                //couldn't remove portal, Owner became null. Should be fixed with RealmManager implementation
                             {
                                 Console.WriteLine("Couldn't despawn portal.");
                             }

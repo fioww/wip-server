@@ -1,5 +1,4 @@
-﻿using System.Linq;
-using common.resources;
+﻿using common.resources;
 using Mono.Game;
 using wServer.realm;
 using wServer.realm.entities;
@@ -30,7 +29,7 @@ namespace wServer.logic.behaviors
             {
                 Status = CycleStatus.InProgress;
                 vect.Normalize();
-                vect *= host.GetSpeed(_speed) * (time.ElaspedMsDelta / 1000f);
+                vect *= host.GetSpeed(_speed) * (time.ElapsedMsDelta / 1000f);
                 host.ValidateAndMove(host.X + vect.X, host.Y + vect.Y);
             }
             else

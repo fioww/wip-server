@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using common.resources;
+﻿using common.resources;
 using wServer.realm;
 using Mono.Game;
 using wServer.realm.entities;
@@ -68,7 +64,7 @@ namespace wServer.logic.behaviors
                         goto case F.Acquired;
                     }
                     else if (s.RemainingTime > 0)
-                        s.RemainingTime -= time.ElaspedMsDelta;
+                        s.RemainingTime -= time.ElapsedMsDelta;
                     break;
                 case F.Acquired:
                     if (player == null)
@@ -85,7 +81,7 @@ namespace wServer.logic.behaviors
                         break;
                     }
                     if (s.RemainingTime > 0)
-                        s.RemainingTime -= time.ElaspedMsDelta;
+                        s.RemainingTime -= time.ElapsedMsDelta;
 
                     vect = new Vector2(player.X - host.X, player.Y - host.Y);
                     if (vect.Length() > range)
@@ -94,7 +90,7 @@ namespace wServer.logic.behaviors
                         vect.X -= Random.Next(-2, 2) / 2f;
                         vect.Y -= Random.Next(-2, 2) / 2f;
                         vect.Normalize();
-                        float dist = host.GetSpeed(speed) * (time.ElaspedMsDelta / 1000f);
+                        float dist = host.GetSpeed(speed) * (time.ElapsedMsDelta / 1000f);
                         host.ValidateAndMove(host.X + vect.X * dist, host.Y + vect.Y * dist);
                     }
                     else

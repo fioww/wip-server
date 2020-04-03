@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using wServer.realm;
-using wServer.realm.entities;
+﻿using wServer.realm;
 
 namespace wServer.logic.behaviors
 {
@@ -30,7 +25,7 @@ namespace wServer.logic.behaviors
             if (cool <= 0)
                 host.Owner.LeaveWorld(host);
             else
-                cool -= time.ElaspedMsDelta;
+                cool -= time.ElapsedMsDelta;
 
             state = cool;
         }

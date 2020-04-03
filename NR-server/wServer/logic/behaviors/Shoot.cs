@@ -5,6 +5,7 @@ using Mono.Game;
 using wServer.networking.packets.outgoing;
 using wServer.realm;
 using wServer.realm.entities;
+using Player = wServer.realm.entities.Player;
 
 namespace wServer.logic.behaviors
 {
@@ -179,6 +180,10 @@ namespace wServer.logic.behaviors
                     _rotateCount++;
 
                     int dmg = Random.Next(desc.MinDamage, desc.MaxDamage);
+                    if (host.HasConditionEffect(ConditionEffects.Weak))
+                    {
+                        dmg = dmg / 2;
+                    }
                     var startAngle = a - _shootAngle * (count - 1) / 2;
                     byte prjId = 0;
                     Position prjPos = new Position() { X = host.X, Y = host.Y };
@@ -218,7 +223,7 @@ namespace wServer.logic.behaviors
             }
             else
             {
-                cool -= time.ElaspedMsDelta;
+                cool -= time.ElapsedMsDelta;
                 Status = CycleStatus.InProgress;
             }
 

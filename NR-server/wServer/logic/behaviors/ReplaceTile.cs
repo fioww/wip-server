@@ -7,22 +7,25 @@ using Player = wServer.realm.entities.Player;
 
 namespace wServer.logic.behaviors
 {
-    class RemoveTileObject : Behavior
+    class ReplaceTile : Behavior
     {
         private readonly string _objName;
+        private readonly string _replacedObjName;
         private readonly int _range;
 
-        public RemoveTileObject(string objName, int range)
+        public ReplaceTile(string objName, string replacedObjName, int range)
         {
             _objName = objName;
             _range = range;
+            _replacedObjName = replacedObjName;
         }
 
         protected override void OnStateEntry(Entity host, RealmTime time, ref object state)
         {
             //var objType = GetObjType(_objName);
             XmlData dat = host.Manager.Resources.GameData;
-            var objType = dat.IdToObjectType[_objName];
+            var tileId = dat.IdToTileType[_objName];
+            var replacedTileId = dat.IdToTileType[_replacedObjName];
 
             var map = host.Owner.Map;
 
@@ -34,7 +37,7 @@ namespace wServer.logic.behaviors
                 {
                     var tile = map[x, y];
 
-                    if (tile.ObjType != objType)
+                    if (tile.TileId != tileId || tile.TileId == replacedTileId)
                         continue;
 
                     var dx = Math.Abs(x - (int)host.X);
@@ -53,7 +56,9 @@ namespace wServer.logic.behaviors
                             plr.Sight.UpdateCount++;
                     }
 
-                    tile.ObjType = 0;
+                    tile.TileId = replacedTileId;
+                    if (tile.ObjId == 0)
+                        tile.ObjId = host.Owner.GetNextEntityId();
                     tile.UpdateCount++;
                     map[x, y] = tile;
                 }

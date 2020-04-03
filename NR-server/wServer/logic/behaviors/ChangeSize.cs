@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using wServer.realm;
+﻿using wServer.realm;
 
 namespace wServer.logic.behaviors
 {
@@ -43,7 +39,7 @@ namespace wServer.logic.behaviors
                 cool = 150;
             }
             else
-                cool -= time.ElaspedMsDelta;
+                cool -= time.ElapsedMsDelta;
 
             state = cool;
         }

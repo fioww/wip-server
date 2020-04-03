@@ -30,7 +30,7 @@ namespace wServer.realm.entities
                     HP = Math.Min(Stats[0], HP + (int)_healing);
                     _healing -= (int)_healing;
                 }
-                _healing += 28 * (time.ElaspedMsDelta / 1000f);
+                _healing += 28 * (time.ElapsedMsDelta / 1000f);
             }
 
             if (HasConditionEffect(ConditionEffects.Quiet) && MP > 0)
@@ -45,12 +45,12 @@ namespace wServer.realm.entities
                         HP = 1;
                     _bleeding -= (int)_bleeding;
                 }
-                _bleeding += 28 * (time.ElaspedMsDelta / 1000f);
+                _bleeding += 28 * (time.ElapsedMsDelta / 1000f);
             }
 
             if (HasConditionEffect(ConditionEffects.NinjaSpeedy))
             {
-                MP = Math.Max(0, (int)(MP - 10 * time.ElaspedMsDelta / 1000f));
+                MP = Math.Max(0, (int)(MP - 10 * time.ElapsedMsDelta / 1000f));
 
                 if (MP == 0)
                     ApplyConditionEffect(ConditionEffectIndex.NinjaSpeedy, 0);
@@ -58,14 +58,14 @@ namespace wServer.realm.entities
 
             if (_newbieTime > 0)
             {
-                _newbieTime -= time.ElaspedMsDelta;
+                _newbieTime -= time.ElapsedMsDelta;
                 if (_newbieTime < 0) 
                     _newbieTime = 0;
             }
 
             if (_canTpCooldownTime > 0)
             {
-                _canTpCooldownTime -= time.ElaspedMsDelta;
+                _canTpCooldownTime -= time.ElapsedMsDelta;
                 if (_canTpCooldownTime < 0)
                     _canTpCooldownTime = 0;
             }

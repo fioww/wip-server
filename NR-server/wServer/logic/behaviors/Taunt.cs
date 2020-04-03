@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using wServer.realm;
 using wServer.realm.entities;
-using Mono.Game;
 using wServer.networking.packets.outgoing;
+using Player = wServer.realm.entities.Player;
 
 namespace wServer.logic.behaviors
 {
@@ -91,7 +88,7 @@ namespace wServer.logic.behaviors
             if (state == null) c = cooldown.Next(Random);
             else c = (int)state;
 
-            c -= time.ElaspedMsDelta;
+            c -= time.ElapsedMsDelta;
             state = c;
             if (c > 0) return;
 

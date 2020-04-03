@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using common.resources;
+﻿using common.resources;
 using wServer.realm;
 
 namespace wServer.logic.behaviors
@@ -30,7 +26,7 @@ namespace wServer.logic.behaviors
             if (host.HasConditionEffect(ConditionEffects.Paralyzed)) 
                 return;
 
-            float moveDist = host.GetSpeed(speed) * (time.ElaspedMsDelta / 1000f);
+            float moveDist = host.GetSpeed(speed) * (time.ElapsedMsDelta / 1000f);
             if (dist > 0)
             {
                 Status = CycleStatus.InProgress;

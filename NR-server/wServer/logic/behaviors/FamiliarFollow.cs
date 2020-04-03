@@ -1,56 +1,29 @@
 ﻿using Mono.Game;
+using System;
 using wServer.realm;
 using wServer.realm.entities;
-using wServer.realm.terrain;
-using wServer.realm.worlds;
-using wServer.realm.worlds.logic;
 
-namespace wServer.logic.behaviors.PetBehaviors
+namespace wServer.logic.behaviors
 {
-    internal class PetFollow : CycleBehavior
+    internal class FamiliarFollow : CycleBehavior
     {
         protected override void TickCore(Entity host, RealmTime time, ref object state)
         {
-            if ((host as Pet)?.PlayerOwner == null) return;
-            var pet = (Pet)host;
             FollowState s;
             if (state == null)
-            {
                 s = new FollowState();
-                s.State = F.DontKnowWhere;
-                s.RemainingTime = 1000;
-            }
             else
-            {
-                s = (FollowState) state;
-            }
+                s = (FollowState)state;
 
             Status = CycleStatus.NotStarted;
 
-
-            var player = host.Owner.GetEntity(pet.PlayerOwner.Id) as Player;
-            if (player == null)
+            Player player = host.GetPlayerOwner();
+            if (player.Owner == null)
             {
-                var tile = host.Owner.Map[(int)host.X, (int)host.Y];
-                if (tile.Region != TileRegion.PetRegion)
-                {
-                    if (!(host.Owner is PetYard))
-                    {
-                        host.Owner.LeaveWorld(host);
-                        Status = CycleStatus.Completed;
-                        return;
-                    }
-                    if (tile.Region != TileRegion.Spawn)
-                    {
-                        host.Owner.LeaveWorld(host);
-                        Status = CycleStatus.Completed;
-                        return;
-                    }
-                }
+                host.Owner.LeaveWorld(host);
+                return;
             }
-
-            Status = CycleStatus.InProgress;
-
+            
             switch (s.State)
             {
                 case F.DontKnowWhere:

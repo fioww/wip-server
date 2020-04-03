@@ -1,4 +1,3 @@
-using System;
 using wServer.realm;
 using common.resources;
 using Mono.Game;
@@ -26,7 +25,7 @@ namespace wServer.logic.behaviors
 
             Status = CycleStatus.InProgress;
             var path = new Vector2(_x - host.X, _y - host.Y);
-            var dist = host.GetSpeed(_speed) * time.ElaspedMsDelta / 1000f;
+            var dist = host.GetSpeed(_speed) * time.ElapsedMsDelta / 1000f;
             if (path.Length() <= dist)
             {
                 Status = CycleStatus.Completed;

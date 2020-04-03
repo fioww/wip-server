@@ -68,7 +68,7 @@ namespace wServer.logic.behaviors
                 cool = _coolDown.Next(Random);
             }
             else
-                cool -= time.ElaspedMsDelta;
+                cool -= time.ElapsedMsDelta;
 
             state = cool;
         }
@@ -84,7 +84,7 @@ namespace wServer.logic.behaviors
             }, host, null, PacketPriority.Low);
 
             // kill player
-            player.Death(host.ObjectDesc.DisplayId, rekt: _rekt);
+            player.Death(host.ObjectDesc.ObjectId, rekt: _rekt);
         }
     }
 }

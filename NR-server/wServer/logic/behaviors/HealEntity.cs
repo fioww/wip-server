@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Linq;
 using common.resources;
 using wServer.networking.packets.outgoing;
 using wServer.realm;
@@ -35,16 +32,26 @@ namespace wServer.logic.behaviors
         {
             var cool = (int)state;
 
+            int? increasedHP = _amount;
+
             if (cool <= 0)
             {
-                if (host.HasConditionEffect(ConditionEffects.Stunned)) return;
+
+                if (host.HasConditionEffect(ConditionEffects.Stunned))
+                    return;
+
+                if (host.HasConditionEffect(ConditionEffects.Sick))
+                {
+                    increasedHP = _amount / 2;
+                }
+                    
 
                 foreach (var entity in host.GetNearestEntitiesByName(_range, _name).OfType<Enemy>())
                 {
                     int newHp = entity.ObjectDesc.MaxHP;
-                    if (_amount != null)
+                    if (increasedHP != null)
                     {
-                        var newHealth = (int)_amount + entity.HP;
+                        var newHealth = (int)increasedHP + entity.HP;
                         if (newHp > newHealth)
                             newHp = newHealth;
                     }
@@ -76,7 +83,7 @@ namespace wServer.logic.behaviors
                 cool = _coolDown.Next(Random);
             }
             else
-                cool -= time.ElaspedMsDelta;
+                cool -= time.ElapsedMsDelta;
 
             state = cool;
         }

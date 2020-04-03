@@ -24,9 +24,11 @@ namespace wServer.realm.worlds
     public class World
     {
         // world loot has a chance to drop with any mob death
+        /*
         public Loot WorldLoot = new Loot(
                 new TierLoot(1, ItemType.Potion, .03)
             );
+        */
 
         private static readonly ILog Log = LogManager.GetLogger(typeof(World));
         protected static readonly Random Rand = new Random((int)DateTime.Now.Ticks);
@@ -653,7 +655,7 @@ namespace wServer.realm.worlds
 
             try
             {
-                _elapsedTime += time.ElaspedMsDelta;
+                _elapsedTime += time.ElapsedMsDelta;
 
                 if (IsLimbo) return;
 

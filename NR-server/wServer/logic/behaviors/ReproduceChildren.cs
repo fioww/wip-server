@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing.Text;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
 using common.resources;
 using wServer.realm;
 using wServer.realm.entities;
@@ -105,7 +101,7 @@ namespace wServer.logic.behaviors
                 spawn.livingChildren.Add(enemyEntity);
             }
             else
-                spawn.RemainingTime -= time.ElaspedMsDelta;
+                spawn.RemainingTime -= time.ElapsedMsDelta;
         }
     }
 }

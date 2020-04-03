@@ -4,6 +4,7 @@ using common.resources;
 using wServer.networking.packets.outgoing;
 using wServer.realm;
 using wServer.realm.entities;
+using Player = wServer.realm.entities.Player;
 
 namespace wServer.logic.behaviors
 {
@@ -69,7 +70,7 @@ namespace wServer.logic.behaviors
                 cool = _coolDown.Next(Random);
             }
             else
-                cool -= time.ElaspedMsDelta;
+                cool -= time.ElapsedMsDelta;
 
             state = cool;
         }

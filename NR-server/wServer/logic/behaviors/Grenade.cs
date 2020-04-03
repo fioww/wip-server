@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using common.resources;
 using wServer.networking.packets.outgoing;
 using wServer.realm;
@@ -86,7 +83,7 @@ namespace wServer.logic.behaviors
                         world.AOE(target, radius, true, p =>
                         {
                             (p as IPlayer).Damage(damage, host);
-                            if (!p.HasConditionEffect(ConditionEffects.Invincible) && 
+                            if (!p.HasConditionEffect(ConditionEffects.Invincible) &&
                                 !p.HasConditionEffect(ConditionEffects.Stasis))
                                 p.ApplyConditionEffect(effect, effectDuration);
                         });
@@ -95,7 +92,8 @@ namespace wServer.logic.behaviors
                 cool = coolDown.Next(Random);
             }
             else
-                cool -= time.ElaspedMsDelta;
+                cool -= time.ElapsedMsDelta
+                    ;
 
             state = cool;
         }

@@ -617,7 +617,7 @@ namespace wServer.realm.entities
 
         void TickActivateEffects(RealmTime time)
         {
-            var dt = time.ElaspedMsDelta;
+            var dt = time.ElapsedMsDelta;
 
             if (XPBoostTime != 0)
                 if (Level >= 20)
@@ -645,7 +645,7 @@ namespace wServer.realm.entities
                 _hpRegenCounter = 0;
             else
             {
-                _hpRegenCounter += Stats.GetHPRegen() * time.ElaspedMsDelta / 1000f;
+                _hpRegenCounter += Stats.GetHPRegen() * time.ElapsedMsDelta / 1000f;
                 var regen = (int)_hpRegenCounter;
                 if (regen > 0)
                 {
@@ -659,7 +659,7 @@ namespace wServer.realm.entities
                 _mpRegenCounter = 0;
             else
             {
-                _mpRegenCounter += Stats.GetMPRegen() * time.ElaspedMsDelta / 1000f;
+                _mpRegenCounter += Stats.GetMPRegen() * time.ElapsedMsDelta / 1000f;
                 var regen = (int)_mpRegenCounter;
                 if (regen > 0)
                 {

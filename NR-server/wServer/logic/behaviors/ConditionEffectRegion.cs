@@ -1,24 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
 using common.resources;
 using wServer.realm;
-using wServer.realm.entities;
 
 namespace wServer.logic.behaviors
 {
     class ConditionEffectRegion : Behavior
     {
-        private readonly ConditionEffectIndex[] _effects;
+        private readonly ConditionEffectIndex effect;
         private readonly int _range;
         private readonly int _duration;
 
-        public ConditionEffectRegion(ConditionEffectIndex[] effects, int range = 2, int duration = -1)
+        public ConditionEffectRegion(ConditionEffectIndex effect, int range = 2, int duration = -1)
         {
             _range = range;
-            _effects = effects;
+            this.effect = effect;
             _duration = duration;
         }
 
@@ -37,14 +33,11 @@ namespace wServer.logic.behaviors
 
             foreach (var player in players)
             {
-                foreach (var effect in _effects)
-                {
                     player.ApplyConditionEffect(new ConditionEffect()
                     {
                         Effect = effect,
                         DurationMS = _duration
                     });
-                }
             }
         }
     }
