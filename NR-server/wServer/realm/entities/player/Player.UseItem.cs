@@ -486,8 +486,22 @@ namespace wServer.realm.entities
 
         private void AELTBoost(RealmTime time, Item item, Position target, ActivateEffect eff)
         {
-            if (LTBoostTime < 0 || (LTBoostTime > eff.DurationMS && eff.DurationMS >= 0))
+            if (LTBoostTime < 0 || (LTBoostTime > 86400 && eff.DurationMS >= 0))
+            {
+                var slot = Inventory.GetAvailableInventorySlot(item);
+
+                if (slot != -1)
+                {
+                    Inventory[slot] = item;
+                }
+                else
+                {
+                    Manager.Database.AddGift(Client.Account, item.ObjectType);
+                    SendError($"Your inventory is full, and your {item} has been sent to a gift chest.");
+                }
+
                 return;
+            }
 
             LTBoostTime += eff.DurationMS;
             InvokeStatChange(StatsType.LTBoostTime, LTBoostTime / 1000, true);
@@ -495,8 +509,22 @@ namespace wServer.realm.entities
 
         private void AELDBoost(RealmTime time, Item item, Position target, ActivateEffect eff)
         {
-            if (LDBoostTime < 0 || (LDBoostTime > eff.DurationMS && eff.DurationMS >= 0))
+            if (LDBoostTime < 0 || (LDBoostTime > 86400 && eff.DurationMS >= 0))
+            {
+                var slot = Inventory.GetAvailableInventorySlot(item);
+
+                if (slot != -1)
+                {
+                    Inventory[slot] = item;
+                }
+                else
+                {
+                    Manager.Database.AddGift(Client.Account, item.ObjectType);
+                    SendError($"Your inventory is full, and your {item} has been sent to a gift chest.");
+                }
+
                 return;
+            }
 
             LDBoostTime += eff.DurationMS;
             InvokeStatChange(StatsType.LDBoostTime, LDBoostTime / 1000, true);
@@ -504,8 +532,22 @@ namespace wServer.realm.entities
 
         private void AEXPBoost(RealmTime time, Item item, Position target, ActivateEffect eff)
         {
-            if (XPBoostTime < 0 || (XPBoostTime > eff.DurationMS && eff.DurationMS >= 0))
+            if (XPBoostTime < 0 || XPBoosted || Level >= 20)
+            {
+                var slot = Inventory.GetAvailableInventorySlot(item);
+
+                if (slot != -1)
+                {
+                    Inventory[slot] = item;
+                }
+                else
+                {
+                    Manager.Database.AddGift(Client.Account, item.ObjectType);
+                    SendError($"Your inventory is full, and your {item} has been sent to a gift chest.");
+                }
+
                 return;
+            }
 
             XPBoostTime += eff.DurationMS;
             XPBoosted = true;

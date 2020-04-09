@@ -12,6 +12,8 @@ namespace server.account
                 Write(context, "<Error>Invalid email</Error>");
             else
             {
+                string pw = query["newPassword"];
+                bool pwLengthInappropriate = pw.Length < 10 || pw.Length > 64;
                 string key = Database.REG_LOCK;
                 string lockToken = null;
                 try
@@ -28,8 +30,12 @@ namespace server.account
                             Write(context, "<Error>Duplicate Email</Error>");
                             return;
                         }
+                        if (pwLengthInappropriate) // when passwords are too long, the server sends an error. preventing that here
+                        {
+                            Write(context, "<Error>Password length inappropriate</Error>");
+                            return;
+                        }
                         Database.ChangePassword(acc.UUID, query["newPassword"]);
-                        Database.Guest(acc, false);
                         Write(context, "<Success />");
                     }
                     else

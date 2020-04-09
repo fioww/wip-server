@@ -94,6 +94,7 @@ namespace wServer.networking.handlers
             player.CurrentFame = player.Client.Account.Fame;
             player.Name = player.Client.Account.Name;
             player.NameChosen = true;
+            player.Client.Account.Guest = false;
         }
     }
 }

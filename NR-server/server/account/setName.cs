@@ -35,12 +35,12 @@ namespace server.account
                         using (var l = Database.Lock(acc))
                             if (Database.LockOk(l))
                             {
-                                if (acc.NameChosen && acc.Credits < 1000)
-                                    Write(context, "<Error>Not enough credits</Error>");
+                                if (acc.NameChosen && acc.Fame < 5000)
+                                    Write(context, "<Error>Not enough fame</Error>");
                                 else
                                 {
                                     if (acc.NameChosen)
-                                        Database.UpdateCredit(acc, -1000);
+                                        Database.UpdateFame(acc, -5000);
                                     while (!Database.RenameIGN(acc, name, lockToken)) ;
                                     Write(context, "<Success />");
                                 }

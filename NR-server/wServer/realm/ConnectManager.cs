@@ -229,7 +229,7 @@ namespace wServer.realm
             var world = client.Manager.GetWorld(gameId);
 			
             // make test worlds
-            if (gameId == World.Test && acc.Rank >= client.Manager.Resources.Settings.EditorMinRank)
+            if (gameId == World.Test && acc.Rank >= client.Manager.Resources.Settings.MapMinRank)
             {
                 world = new Test();
                 _manager.AddWorld(world);
