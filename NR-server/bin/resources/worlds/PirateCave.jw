@@ -9,6 +9,6 @@
   "restrictTp": false,
   "showDisplays": false,
   "portals": [ 0x0717 ],
-  "music": [ "" ],
+  "music": [ "farms", "farm" ],
   "maps": [ ]
 }

@@ -491,9 +491,7 @@ namespace wServer.realm.entities
                 var slot = Inventory.GetAvailableInventorySlot(item);
 
                 if (slot != -1)
-                {
                     Inventory[slot] = item;
-                }
                 else
                 {
                     Manager.Database.AddGift(Client.Account, item.ObjectType);
@@ -514,9 +512,7 @@ namespace wServer.realm.entities
                 var slot = Inventory.GetAvailableInventorySlot(item);
 
                 if (slot != -1)
-                {
                     Inventory[slot] = item;
-                }
                 else
                 {
                     Manager.Database.AddGift(Client.Account, item.ObjectType);
@@ -537,9 +533,7 @@ namespace wServer.realm.entities
                 var slot = Inventory.GetAvailableInventorySlot(item);
 
                 if (slot != -1)
-                {
                     Inventory[slot] = item;
-                }
                 else
                 {
                     Manager.Database.AddGift(Client.Account, item.ObjectType);

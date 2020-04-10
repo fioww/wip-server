@@ -84,7 +84,6 @@ namespace wServer.logic.loot
                 try
                 {
                     lootDefs.Add(new LootDef(dat.Items[dat.IdToObjectType[_item]], _probability));
-
                 }
                 catch
                 {

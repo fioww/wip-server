@@ -9,6 +9,6 @@
   "restrictTp": false,
   "showDisplays": false,
   "portals": [ 0x071b ],
-  "music": [ "" ],
+  "music": [ "abyss" ],
   "maps": [ ]
 }

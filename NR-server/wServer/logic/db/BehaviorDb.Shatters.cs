@@ -1,4 +1,4 @@
-﻿/* //MoveTo2
+﻿
 #region
 
 using common.resources;
@@ -12,7 +12,6 @@ using wServer.logic.transitions;
 //BEHAVIORS
 //MADE BY
 //MIKE (Qkm)
-//MOISTED ON BY PATPOT & shakke-oun
 
 namespace wServer.logic
 {
@@ -2610,4 +2609,3 @@ namespace wServer.logic
             ;
     }
 }
-*/

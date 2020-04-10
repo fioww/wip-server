@@ -1,5 +1,4 @@
-﻿/*
-using common.resources;
+﻿using common.resources;
 using wServer.logic.behaviors;
 using wServer.logic.loot;
 using wServer.logic.transitions;
@@ -316,15 +315,16 @@ namespace wServer.logic
                     new TierLoot(9, ItemType.Armor, 0.1),
                     new TierLoot(7, ItemType.Armor, 0.05),
                     new TierLoot(10, ItemType.Weapon, 0.05),
-                    new TierLoot(5, ItemType.Ring, 0.025),
+                    new TierLoot(5, ItemType.Ring, 0.025)
+                    /*,
                     new ItemLoot("Bow of Janus rage", 0.03),
                     new ItemLoot("Eye of Janus", 0.03),
                     new ItemLoot("Key of Janus", 0.03),
                     new ItemLoot("Warden Armor", 0.03)
+                    */
                 )
             )
 
         ;
     }
 }
-*/

@@ -9,6 +9,6 @@
   "restrictTp": false,
   "showDisplays": false,
   "portals": [ 0x0890 ],
-  "music": [ "" ],
+  "music": [ "lab1", "lab2" ],
   "maps": [ ]
 }
