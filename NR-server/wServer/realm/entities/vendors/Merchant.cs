@@ -37,7 +37,7 @@ namespace wServer.realm.entities.vendors
         protected Merchant(RealmManager manager, ushort objType)
             : base(manager, objType)
         {
-            _item = new SV<ushort>(this, StatsType.MerchantMerchandiseType, 0xa00);
+            _item = new SV<ushort>(this, StatsType.MerchantMerchandiseType, 0x02cc);
             _count = new SV<int>(this, StatsType.MerchantRemainingCount, -1);
             _timeLeft = new SV<int>(this, StatsType.MerchantRemainingMinute, -1);
             Rotate = true;

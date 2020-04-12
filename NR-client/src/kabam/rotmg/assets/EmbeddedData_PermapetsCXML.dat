@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x1500" id="Black Cat Egg">
+   <Object type="0x09d0" id="Black Cat Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -17,7 +17,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1501" id="Grey Cat Egg">
+   <Object type="0x09d1" id="Grey Cat Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -33,7 +33,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1502" id="Orange Cat Egg">
+   <Object type="0x09d2" id="Orange Cat Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -49,7 +49,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1503" id="Tan Cat Egg">
+   <Object type="0x09d3" id="Tan Cat Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -65,7 +65,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1504" id="Yellow Cat Egg">
+   <Object type="0x09d4" id="Yellow Cat Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -81,7 +81,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1505" id="Brown Pup Egg">
+   <Object type="0x09d5" id="Brown Pup Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -97,7 +97,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1506" id="Grey Pup Egg">
+   <Object type="0x09d6" id="Grey Pup Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -113,7 +113,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1507" id="Golden Pup Egg">
+   <Object type="0x09d7" id="Golden Pup Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -129,7 +129,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1508" id="White Cat Egg">
+   <Object type="0x09d8" id="White Cat Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -145,7 +145,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1509" id="Blue Snail Egg">
+   <Object type="0x09d9" id="Blue Snail Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -161,7 +161,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x150a" id="Grey Wolf Egg">
+   <Object type="0x09da" id="Grey Wolf Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -177,7 +177,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x150b" id="Brown Fox Egg">
+   <Object type="0x09db" id="Brown Fox Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -193,7 +193,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x150c" id="Green Frog Egg">
+   <Object type="0x09dc" id="Green Frog Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -209,7 +209,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x150d" id="Lion Egg">
+   <Object type="0x09dd" id="Lion Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -226,7 +226,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x150e" id="Penguin Egg">
+   <Object type="0x09de" id="Penguin Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -242,7 +242,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x150f" id="Sheepdog Egg">
+   <Object type="0x09df" id="Sheepdog Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -258,7 +258,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1510" id="Panda Egg">
+   <Object type="0x09e0" id="Panda Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -275,7 +275,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1511" id="Purple Snail Egg">
+   <Object type="0x09e1" id="Purple Snail Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -291,7 +291,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1512" id="Black Wolf Egg">
+   <Object type="0x09e2" id="Black Wolf Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -308,7 +308,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1513" id="Grey Fox Egg">
+   <Object type="0x09e3" id="Grey Fox Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -324,7 +324,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1514" id="Purple Frog Egg">
+   <Object type="0x09e4" id="Purple Frog Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -340,7 +340,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1515" id="White Lion Egg">
+   <Object type="0x09e5" id="White Lion Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -357,7 +357,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1516" id="Green Penguin Egg">
+   <Object type="0x09e6" id="Green Penguin Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -373,7 +373,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1517" id="Golden Sheepdog Egg">
+   <Object type="0x09e7" id="Golden Sheepdog Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -390,7 +390,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1518" id="Blue Parrot Egg">
+   <Object type="0x09e8" id="Blue Parrot Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -406,7 +406,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1519" id="Chick Egg">
+   <Object type="0x09e9" id="Chick Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -422,7 +422,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x151a" id="Pig Egg">
+   <Object type="0x09ea" id="Pig Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -438,7 +438,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x151b" id="Sea Slurp Egg">
+   <Object type="0x09eb" id="Sea Slurp Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -454,7 +454,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x151c" id="Squirrel Egg">
+   <Object type="0x09ec" id="Squirrel Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -470,7 +470,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x151d" id="Bat Egg">
+   <Object type="0x09ed" id="Bat Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -486,7 +486,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x151e" id="Lil' Ghost Egg">
+   <Object type="0x09ee" id="Lil' Ghost Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -502,7 +502,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x151f" id="Valentine Generator">
+   <Object type="0x09ef" id="Valentine Generator">
       <DisplayId>Valentine</DisplayId>
       <Class>Equipment</Class>
       <Item/>
@@ -517,7 +517,7 @@
       <InvUse/>
       <feedPower>250</feedPower>
    </Object>
-   <Object type="0x161f" id="Valentine">
+   <Object type="0x09f0" id="Valentine">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar28x8</File>
@@ -543,8 +543,8 @@
       <Size>40</Size>
       <ShadowSize>70</ShadowSize>
    </Object>
-   --&gt;
-   <Object type="0x1520" id="Leprechaun Egg">
+ 
+   <Object type="0x09f1" id="Leprechaun Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -561,7 +561,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1521" id="Lil' Oryx Egg">
+   <Object type="0x09f2" id="Lil' Oryx Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -578,7 +578,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1522" id="Toucan Egg">
+   <Object type="0x09f3" id="Toucan Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -595,7 +595,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1523" id="Skunk Egg">
+   <Object type="0x09f4" id="Skunk Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -612,7 +612,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1524" id="Mallard Egg">
+   <Object type="0x09f5" id="Mallard Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -629,7 +629,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1525" id="Duck Egg">
+   <Object type="0x09f6" id="Duck Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -645,7 +645,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1526" id="Eagle Egg">
+   <Object type="0x09f7" id="Eagle Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -662,7 +662,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1527" id="Turtle Egg">
+   <Object type="0x09f8" id="Turtle Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -678,7 +678,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1528" id="Jelly Egg">
+   <Object type="0x09f9" id="Jelly Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -695,7 +695,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1529" id="Bee Egg">
+   <Object type="0x09fa" id="Bee Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -712,7 +712,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x152a" id="Raven Egg">
+   <Object type="0x09fb" id="Raven Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -729,7 +729,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x152b" id="Grape Penguin Egg">
+   <Object type="0x09fc" id="Grape Penguin Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -745,7 +745,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x152c" id="Grass Penguin Egg">
+   <Object type="0x09fd" id="Grass Penguin Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -761,7 +761,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x152d" id="Elf Egg">
+   <Object type="0x09fe" id="Elf Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -778,7 +778,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x152e" id="Crab Egg">
+   <Object type="0x09ff" id="Crab Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -794,7 +794,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x152f" id="Hamster Egg">
+   <Object type="0x0a00" id="Hamster Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -810,7 +810,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1530" id="Dino Egg">
+   <Object type="0x0a01" id="Dino Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -826,7 +826,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1531" id="Elephant Egg">
+   <Object type="0x0a02" id="Elephant Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -842,7 +842,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1532" id="Demon Frog Egg">
+   <Object type="0x0a03" id="Demon Frog Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -859,7 +859,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1533" id="Gargoyle Egg">
+   <Object type="0x0a04" id="Gargoyle Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -876,7 +876,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1534" id="Gummy Bear Egg">
+   <Object type="0x0a05" id="Gummy Bear Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -893,7 +893,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1535" id="Dragonfly Egg">
+   <Object type="0x0a06" id="Dragonfly Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -909,7 +909,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1536" id="Lil' Cyclops Egg">
+   <Object type="0x0a07" id="Lil' Cyclops Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -926,7 +926,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1537" id="Snowy Owl Egg">
+   <Object type="0x0a08" id="Snowy Owl Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -943,7 +943,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1538" id="Turkey Egg">
+   <Object type="0x0a09" id="Turkey Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -960,7 +960,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1539" id="Baby Egg">
+   <Object type="0x0a0a" id="Baby Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -976,7 +976,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x153a" id="Baby Dragon Egg">
+   <Object type="0x0a0b" id="Baby Dragon Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -993,7 +993,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x153b" id="Karate Penguin Red Egg">
+   <Object type="0x0a0c" id="Karate Penguin Red Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1010,7 +1010,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x153c" id="Karate Penguin Blue Egg">
+   <Object type="0x0a0d" id="Karate Penguin Blue Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1027,7 +1027,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x153d" id="Karate Penguin Yellow Egg">
+   <Object type="0x0a0e" id="Karate Penguin Yellow Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1044,7 +1044,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x153e" id="Karate Penguin Purple Egg">
+   <Object type="0x0a0f" id="Karate Penguin Purple Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1061,7 +1061,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x153f" id="Beach Ball Generator">
+   <Object type="0x0a10" id="Beach Ball Generator">
       <DisplayId>Beach Ball</DisplayId>
       <Class>Equipment</Class>
       <Item/>
@@ -1077,7 +1077,7 @@
       <Soulbound/>
       <feedPower>500</feedPower>
    </Object>
-   <Object type="0x163f" id="Beach Ball">
+   <Object type="0x0a11" id="Beach Ball">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -1087,7 +1087,7 @@
       <ShadowSize>0</ShadowSize>
       <Size>0</Size>
    </Object>
-   <Object type="0x1540" id="Robobuddy Egg">
+   <Object type="0x0a12" id="Robobuddy Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1104,7 +1104,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1541" id="Snowman Egg">
+   <Object type="0x0a13" id="Snowman Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1121,7 +1121,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1542" id="Black Ant Egg">
+   <Object type="0x0a14" id="Black Ant Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1137,7 +1137,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1543" id="Blue Ant Egg">
+   <Object type="0x0a15" id="Blue Ant Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1153,7 +1153,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1544" id="Green Ant Egg">
+   <Object type="0x0a16" id="Green Ant Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1169,7 +1169,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1545" id="Red Ant Egg">
+   <Object type="0x0a17" id="Red Ant Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1185,7 +1185,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1546" id="Purple Ant Egg">
+   <Object type="0x0a18" id="Purple Ant Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1201,7 +1201,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1547" id="Beer Slurp Generator">
+   <Object type="0x0a19" id="Beer Slurp Generator">
       <DisplayId>Beer Slurp</DisplayId>
       <Class>Equipment</Class>
       <Item/>
@@ -1221,7 +1221,7 @@
       <OldSound>use_potion</OldSound>
       <feedPower>1000</feedPower>
    </Object>
-   <Object type="0x1647" id="Beer Slurp">
+   <Object type="0x0a1a" id="Beer Slurp">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars16x16rEncounters</File>
@@ -1237,7 +1237,7 @@
       <Size>60</Size>
       <ShadowSize>50</ShadowSize>
    </Object>
-   <Object type="0x1549" id="Peppermint Snail Egg">
+   <Object type="0x0a1b" id="Peppermint Snail Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1254,7 +1254,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x154a" id="Relief Oriole Egg">
+   <Object type="0x0a1c" id="Relief Oriole Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1270,7 +1270,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x154b" id="Relief Goldfinch Egg">
+   <Object type="0x0a1d" id="Relief Goldfinch Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1286,7 +1286,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x154c" id="Relief Bluebird Egg">
+   <Object type="0x0a1e" id="Relief Bluebird Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1302,7 +1302,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x154d" id="Relief Cardinal Egg">
+   <Object type="0x0a1f" id="Relief Cardinal Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1318,7 +1318,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x154e" id="Werewolf Cub Egg">
+   <Object type="0x0a20" id="Werewolf Cub Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1335,7 +1335,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x154f" id="Tomb Snake Egg">
+   <Object type="0x0a21" id="Tomb Snake Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1351,7 +1351,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1550" id="Ninja Cat Egg">
+   <Object type="0x0a22" id="Ninja Cat Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1368,7 +1368,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1551" id="Praying Mantis Egg">
+   <Object type="0x0a23" id="Praying Mantis Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1385,7 +1385,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1552" id="Dreidel Egg">
+   <Object type="0x0a24" id="Dreidel Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1401,7 +1401,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1553" id="Reindeer Egg">
+   <Object type="0x0a25" id="Reindeer Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1418,7 +1418,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1555" id="Koala Egg">
+   <Object type="0x0a26" id="Koala Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1434,7 +1434,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1556" id="USA Eagle Egg">
+   <Object type="0x0a27" id="USA Eagle Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1451,7 +1451,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1557" id="Spirit Egg">
+   <Object type="0x0a28" id="Spirit Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1467,7 +1467,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x1558" id="Sprite Star Egg">
+   <Object type="0x0a29" id="Sprite Star Egg">
       <feedPower>200</feedPower>
       <Class>Equipment</Class>
       <Item/>
@@ -1483,7 +1483,7 @@
       <Soulbound/>
       <BagType>3</BagType>
    </Object>
-   <Object type="0x16f4" id="Valentine Heart Generator">
+   <Object type="0x0a2a" id="Valentine Heart Generator">
       <DisplayId>Valentine Launcher</DisplayId>
       <Class>Equipment</Class>
       <Item/>
@@ -1499,7 +1499,7 @@
       <Soulbound/>
       <feedPower>500</feedPower>
    </Object>
-   <Object type="0x16f5" id="Valentine Heart">
+   <Object type="0x0a2b" id="Valentine Heart">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -1509,7 +1509,7 @@
       <ShadowSize>0</ShadowSize>
       <Size>0</Size>
    </Object>
-   <Object type="0x6a7" id="Pet Rock">
+   <Object type="0x0a2c" id="Pet Rock">
       <Class>Character</Class>
       <RandomTexture>
          <Texture>
@@ -1533,7 +1533,7 @@
       <MinSize>80</MinSize>
       <MaxSize>100</MaxSize>
    </Object>
-   <Object type="0x6a8" id="Pet Rock Item">
+   <Object type="0x0a2d" id="Pet Rock Item">
       <DisplayId>Pet Rock</DisplayId>
       <Class>Equipment</Class>
       <Item/>

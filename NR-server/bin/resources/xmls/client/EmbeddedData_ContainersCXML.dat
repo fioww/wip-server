@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0501" id="Treasure Chest">
+   <Object type="0x0080" id="Treasure Chest">
       <Class>Container</Class>
       <Container/>
       <CanPutNormalObjects/>
@@ -11,7 +11,7 @@
       </Texture>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
-   <Object type="0x0502" id="Gravestone">
+   <Object type="0x0081" id="Gravestone">
       <Class>Container</Class>
       <Container/>
       <ShowName/>
@@ -22,7 +22,7 @@
       </Texture>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
-   <Object type="0x0504" id="Vault Chest">
+   <Object type="0x0082" id="Vault Chest">
       <Class>Container</Class>
       <Container/>
       <CanPutNormalObjects/>
@@ -33,14 +33,14 @@
       </Texture>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
-   <Object type="0x0505" id="Closed Vault Chest">
+   <Object type="0x0083" id="Closed Vault Chest">
       <Class>ClosedVaultChest</Class>
       <Texture>
          <File>lofiObj2</File>
          <Index>0x0f</Index>
       </Texture>
    </Object>
-   <Object type="0x0744" id="Gift Chest">
+   <Object type="0x0084" id="Gift Chest">
       <Class>OneWayContainer</Class>
       <Container/>
       <Texture>
@@ -50,7 +50,7 @@
       <Size>120</Size>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
-   <Object type="0x0743" id="Gift Chest Closed">
+   <Object type="0x0085" id="Gift Chest Closed">
       <Class>ClosedGiftChest</Class>
       <Texture>
          <File>lofiObj2</File>
@@ -58,7 +58,7 @@
       </Texture>
       <Size>120</Size>
    </Object>
-   <Object type="0x0503" id="Soulbound Loot Bag">
+   <Object type="0x0086" id="Soulbound Loot Bag">
       <Class>Container</Class>
       <Container/>
       <CanPutSoulboundObjects/>
@@ -70,7 +70,7 @@
       <Size>80</Size>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
-   <Object type="0x0500" id="Loot Bag">
+   <Object type="0x0087" id="Loot Bag">
       <Class>Container</Class>
       <Container/>
       <CanPutNormalObjects/>
@@ -82,7 +82,7 @@
       <Size>80</Size>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
-   <Object type="0x0506" id="Loot Bag 2">
+   <Object type="0x0088" id="Loot Bag 2">
       <DisplayId>Loot Bag</DisplayId>
       <Class>Container</Class>
       <Container/>
@@ -95,7 +95,7 @@
       <Size>80</Size>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
-   <Object type="0x0507" id="Loot Bag 3">
+   <Object type="0x0089" id="Loot Bag 3">
       <DisplayId>Loot Bag</DisplayId>
       <Class>Container</Class>
       <Container/>
@@ -109,7 +109,7 @@
       <Size>80</Size>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
-   <Object type="0x0508" id="Loot Bag 4">
+   <Object type="0x008a" id="Loot Bag 4">
       <DisplayId>Loot Bag</DisplayId>
       <Class>Container</Class>
       <Container/>
@@ -123,7 +123,7 @@
       <Size>80</Size>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
-   <Object type="0x0509" id="Loot Bag 5">
+   <Object type="0x008b" id="Loot Bag 5">
       <DisplayId>Loot Bag</DisplayId>
       <Class>Container</Class>
       <Container/>
@@ -137,7 +137,7 @@
       <Size>80</Size>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
-   <Object type="0x050B" id="Loot Bag 6">
+   <Object type="0x008c" id="Loot Bag 6">
       <DisplayId>Loot Bag</DisplayId>
       <Class>Container</Class>
       <Container/>
@@ -151,7 +151,7 @@
       <Size>80</Size>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
-   <Object type="0x050C" id="Loot Bag 7">
+   <Object type="0x008d" id="Loot Bag 7">
       <DisplayId>Loot Bag</DisplayId>
       <Class>Container</Class>
       <Container/>
@@ -165,7 +165,7 @@
       <Size>80</Size>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
-   <Object type="0x050E" id="Loot Bag 8">
+   <Object type="0x008e" id="Loot Bag 8">
       <DisplayId>Loot Bag</DisplayId>
       <Class>Container</Class>
       <Container/>
@@ -179,7 +179,7 @@
       <Size>80</Size>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
-   <Object type="0x050F" id="Loot Bag 9">
+   <Object type="0x008f" id="Loot Bag 9">
       <DisplayId>Loot Bag</DisplayId>
       <Class>Container</Class>
       <Container/>
@@ -193,7 +193,7 @@
       <Size>80</Size>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
-   <Object type="0x0510" id="Loot Bag Boost">
+   <Object type="0x0090" id="Loot Bag Boost">
       <DisplayId>Loot Bag</DisplayId>
       <Class>Container</Class>
       <Container/>

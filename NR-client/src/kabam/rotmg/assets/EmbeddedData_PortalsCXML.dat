@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0703" id="Portal of Cowardice">
+   <Object type="0x0a58" id="Portal of Cowardice">
       <Class>Portal</Class>
       <IntergamePortal/>
       <Texture>
@@ -10,7 +10,7 @@
       </Texture>
       <SpawnPoint/>
    </Object>
-   <Object type="0x0704" id="Realm Portal">
+   <Object type="0x0a59" id="Realm Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <Texture>
@@ -18,7 +18,7 @@
          <Index>0x7c</Index>
       </Texture>
    </Object>
-   <Object type="0x070c" id="Glowing Portal">
+   <Object type="0x0a5a" id="Glowing Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Sprite World</DisplayId>
@@ -28,7 +28,7 @@
          <Index>0x36</Index>
       </Texture>
    </Object>
-   <Object type="0x070d" id="Glowing Portal of Cowardice">
+   <Object type="0x0a5b" id="Glowing Portal of Cowardice">
       <Class>Portal</Class>
       <IntergamePortal/>
       <Texture>
@@ -37,7 +37,7 @@
       </Texture>
       <SpawnPoint/>
    </Object>
-   <Object type="0x070e" id="Glowing Realm Portal">
+   <Object type="0x0a5c" id="Glowing Realm Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <Texture>
@@ -45,7 +45,7 @@
          <Index>0x36</Index>
       </Texture>
    </Object>
-   <Object type="0x0717" id="Pirate Cave Portal">
+   <Object type="0x0a5d" id="Pirate Cave Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Pirate Cave</DisplayId>
@@ -55,7 +55,7 @@
          <Index>0x7c</Index>
       </Texture>
    </Object>
-   <Object type="0x5f34" id="Forest Maze Portal">
+   <Object type="0x0a5e" id="Forest Maze Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Forest Maze</DisplayId>
@@ -66,7 +66,7 @@
       </Texture>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x0718" id="Snake Pit Portal">
+   <Object type="0x0a5f" id="Snake Pit Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Snake Pit</DisplayId>
@@ -102,7 +102,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x0719" id="Spider Den Portal">
+   <Object type="0x0a60" id="Spider Den Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Spider Den</DisplayId>
@@ -112,7 +112,7 @@
          <Index>0x8f</Index>
       </Texture>
    </Object>
-   <Object type="0x071a" id="Undead Lair Portal">
+   <Object type="0x0a61" id="Undead Lair Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Undead Lair</DisplayId>
@@ -148,7 +148,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x071b" id="Abyss of Demons Portal">
+   <Object type="0x0a62" id="Abyss of Demons Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Abyss of Demons</DisplayId>
@@ -158,7 +158,7 @@
          <Index>0x9d</Index>
       </Texture>
    </Object>
-   <Object type="0x0890" id="Mad Lab Portal">
+   <Object type="0x0a63" id="Mad Lab Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Mad Lab</DisplayId>
@@ -194,7 +194,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x0d89" id="Oryx's Castle Portal">
+   <Object type="0x0a64" id="Oryx's Castle Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Oryx's Frozen Castle</DisplayId>
@@ -204,7 +204,7 @@
          <Index>0x5d</Index>
       </Texture>
    </Object>
-   <Object type="0x634" id="Oryx Chamber Portal">
+   <Object type="0x0a65" id="Oryx Chamber Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Oryx's Chamber</DisplayId>
@@ -214,7 +214,7 @@
          <Index>0x7c</Index>
       </Texture>
    </Object>
-   <Object type="0xbb7" id="Oryx Chicken Chamber Portal">
+   <Object type="0x0a66" id="Oryx Chicken Chamber Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Chicken Chamber</DisplayId>
@@ -224,7 +224,7 @@
          <Index>0x7c</Index>
       </Texture>
    </Object>
-   <Object type="0x242" id="Wine Cellar Portal">
+   <Object type="0x0a67" id="Wine Cellar Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Wine Cellar</DisplayId>
@@ -234,7 +234,7 @@
          <Index>0x7c</Index>
       </Texture>
    </Object>
-   <Object type="0x0721" id="Locked Wine Cellar Portal">
+   <Object type="0x0a68" id="Locked Wine Cellar Portal">
       <Class>Portal</Class>
       <LockedPortal/>
       <Texture>
@@ -242,7 +242,7 @@
          <Index>0xba</Index>
       </Texture>
    </Object>
-   <Object type="0x075e" id="Battle Nexus Portal">
+   <Object type="0x0a69" id="Battle Nexus Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Battle for the Nexus</DisplayId>
@@ -252,7 +252,7 @@
          <Index>0x410</Index>
       </Texture>
    </Object>
-   <Object type="0x072d" id="Dreamscape Labyrinth Portal">
+   <Object type="0x0a6a" id="Dreamscape Labyrinth Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Dreamscape Labyrinth</DisplayId>
@@ -262,7 +262,7 @@
          <Index>0x7c</Index>
       </Texture>
    </Object>
-   <Object type="0x072c" id="Tomb of the Ancients Portal">
+   <Object type="0x0a6b" id="Tomb of the Ancients Portal">
       <DisplayId>Tomb of the Ancients</DisplayId>
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -272,7 +272,7 @@
          <Index>0x9e</Index>
       </Texture>
    </Object>
-   <Object type="0x076a" id="Tomb of the Ancients Portal (Heroic)">
+   <Object type="0x0a6c" id="Tomb of the Ancients Portal (Heroic)">
       <DisplayId>Tomb of the Ancients (Heroic)</DisplayId>
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -282,7 +282,7 @@
          <Index>0x9e</Index>
       </Texture>
    </Object>
-   <Object type="0x2291" id="Belladonna's Garden Portal">
+   <Object type="0x0a6d" id="Belladonna's Garden Portal">
       <DisplayId>Belladonna's Garden</DisplayId>
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -292,7 +292,7 @@
          <Index>0x4BA</Index>
       </Texture>
    </Object>
-   <Object type="0x2295" id="Lair of Shaitan Portal">
+   <Object type="0x0a6e" id="Lair of Shaitan Portal">
       <DisplayId>Shaitan's Portal</DisplayId>
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -302,7 +302,7 @@
          <Index>0x4BB</Index>
       </Texture>
    </Object>
-   <Object type="0x2001" id="Court of Oryx Portal">
+   <Object type="0x0a6f" id="Court of Oryx Portal">
       <DisplayId>Court of Oryx</DisplayId>
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -312,7 +312,7 @@
          <Index>0xC</Index>
       </Texture>
    </Object>
-   <Object type="0x0730" id="Ocean Trench Portal">
+   <Object type="0x0a70" id="Ocean Trench Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Ocean Trench</DisplayId>
@@ -322,7 +322,7 @@
          <Index>0x9f</Index>
       </Texture>
    </Object>
-   <Object type="0x0733" id="Forbidden Jungle Portal">
+   <Object type="0x0a71" id="Forbidden Jungle Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Forbidden Jungle</DisplayId>
@@ -332,7 +332,7 @@
          <Index>0xa8</Index>
       </Texture>
    </Object>
-   <Object type="0x0739" id="Manor of the Immortals Portal">
+   <Object type="0x0a72" id="Manor of the Immortals Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Manor of the Immortals</DisplayId>
@@ -342,7 +342,7 @@
          <Index>0x4c</Index>
       </Texture>
    </Object>
-   <Object type="0x0741" id="Davy Jones' Locker Portal">
+   <Object type="0x0a73" id="Davy Jones' Locker Portal">
       <Class>Portal</Class>
       <DisplayId>Davy Jones' Locker</DisplayId>
       <IntergamePortal/>
@@ -384,7 +384,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x0742" id="Beachzone Portal">
+   <Object type="0x0a74" id="Beachzone Portal">
       <DisplayId>Beachzone</DisplayId>
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -394,7 +394,7 @@
          <Index>0x192</Index>
       </Texture>
    </Object>
-   <Object type="0x5e2e" id="Treasure Cave Portal">
+   <Object type="0x0a75" id="Treasure Cave Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Cave of A Thousand Treasures</DisplayId>
@@ -404,7 +404,7 @@
          <Index>0x20f</Index>
       </Texture>
    </Object>
-   <Object type="0x074a" id="Candyland Portal">
+   <Object type="0x0a76" id="Candyland Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Candyland Hunting Grounds</DisplayId>
@@ -415,7 +415,7 @@
       </Texture>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x074b" id="Haunted Cemetery Portal">
+   <Object type="0x0a77" id="Haunted Cemetery Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Haunted Cemetery</DisplayId>
@@ -463,7 +463,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x5f25" id="Haunted Cemetery Gates Portal">
+   <Object type="0x0a78" id="Haunted Cemetery Gates Portal">
       <Class>Portal</Class>
       <Size>120</Size>
       <IntergamePortal/>
@@ -512,7 +512,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x5f26" id="Haunted Cemetery Graves Portal">
+   <Object type="0x0a79" id="Haunted Cemetery Graves Portal">
       <Class>Portal</Class>
       <Size>130</Size>
       <IntergamePortal/>
@@ -561,7 +561,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x5f29" id="Haunted Cemetery Final Rest Portal">
+   <Object type="0x0a7a" id="Haunted Cemetery Final Rest Portal">
       <Class>Portal</Class>
       <Size>140</Size>
       <IntergamePortal/>
@@ -610,7 +610,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x135" id="Halloween Cemetery Portal">
+   <Object type="0x0a7b" id="Halloween Cemetery Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Halloween Haunted Cemetery</DisplayId>
@@ -658,7 +658,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x2353" id="Puppet Theatre Portal">
+   <Object type="0x0a7c" id="Puppet Theatre Portal">
       <DisplayId>Puppet Master's Theatre</DisplayId>
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -668,7 +668,7 @@
          <Index>0x4FE</Index>
       </Texture>
    </Object>
-   <Object type="0x0727e" id="The Shatters">
+   <Object type="0x0a7d" id="The Shatters">
       <DisplayId>The Shatters</DisplayId>
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -678,7 +678,7 @@
          <Index>0x44e</Index>
       </Texture>
    </Object>
-   <Object type="0x7466" id="Puppet Encore Portal">
+   <Object type="0x0a7e" id="Puppet Encore Portal">
       <DisplayId>Puppet Master's Encore</DisplayId>
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -688,7 +688,7 @@
          <Index>0x1a</Index>
       </Texture>
    </Object>
-   <Object type="0x748b" id="Ice Cave Portal">
+   <Object type="0x0a7f" id="Ice Cave Portal">
       <DisplayId>Ice Cave</DisplayId>
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -698,7 +698,7 @@
          <Index>0x54F</Index>
       </Texture>
    </Object>
-   <Object type="0x748d" id="Inner Sanctum Portal">
+   <Object type="0x0a80" id="Inner Sanctum Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DungeonName>The Inner Sanctum</DungeonName>
@@ -707,7 +707,7 @@
          <Index>0x54F</Index>
       </Texture>
    </Object>
-   <Object type="0x753E" id="Lair of Draconis Portal">
+   <Object type="0x0a81" id="Lair of Draconis Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Lair of Draconis</DisplayId>
@@ -750,7 +750,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x754e" id="Ivory Wyvern Portal">
+   <Object type="0x0a82" id="Ivory Wyvern Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DungeonName>The Ivory Wyvern</DungeonName>
@@ -760,7 +760,7 @@
       </Texture>
       <Size>60</Size>
    </Object>
-   <Object type="0x075c" id="Woodland Labyrinth">
+   <Object type="0x0a83" id="Woodland Labyrinth">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Woodland Labyrinth</DisplayId>
@@ -770,7 +770,7 @@
          <Index>0x3e5</Index>
       </Texture>
    </Object>
-   <Object type="0x075d" id="Deadwater Docks">
+   <Object type="0x0a84" id="Deadwater Docks">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Deadwater Docks</DisplayId>
@@ -780,7 +780,7 @@
          <Index>0x3ea</Index>
       </Texture>
    </Object>
-   <Object type="0x708b" id="Bilgewater's Grotto Portal">
+   <Object type="0x0a85" id="Bilgewater's Grotto Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Bilgewater's Grotto</DisplayId>
@@ -790,7 +790,7 @@
          <Index>0x3ea</Index>
       </Texture>
    </Object>
-   <Object type="0x072e" id="The Crawling Depths">
+   <Object type="0x0a86" id="The Crawling Depths">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>The Crawling Depths</DisplayId>
@@ -800,7 +800,7 @@
          <Index>0x3e8</Index>
       </Texture>
    </Object>
-   <Object type="0x23e" id="Toxic Sewers Portal">
+   <Object type="0x0a87" id="Toxic Sewers Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Toxic Sewers</DisplayId>
@@ -811,7 +811,7 @@
       </Texture>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x11d" id="The Hive Portal">
+   <Object type="0x0a88" id="The Hive Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>The Hive</DisplayId>

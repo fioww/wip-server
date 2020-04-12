@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x714c" id="DS Bat">
+   <Object type="0x1137" id="DS Bat">
       <DisplayId>Sewer Bat</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -27,7 +27,7 @@
          <ConditionEffect duration="3">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x714d" id="DS Rat">
+   <Object type="0x1138" id="DS Rat">
       <DisplayId>Sewer Rat</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -50,7 +50,7 @@
          <ConditionEffect duration="3">Unstable</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x714e" id="DS Natural Slime God">
+   <Object type="0x1139" id="DS Natural Slime God">
       <DisplayId>Natural Slime God</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -79,7 +79,7 @@
          <ConditionEffect duration="6">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x714f" id="DS Goblin Peon">
+   <Object type="0x113a" id="DS Goblin Peon">
       <DisplayId>Goblin Peon</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -101,7 +101,7 @@
          <ArmorPiercing/>
       </Projectile>
    </Object>
-   <Object type="0x7150" id="DS Goblin Warlock">
+   <Object type="0x113b" id="DS Goblin Warlock">
       <DisplayId>Goblin Warlock</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -131,7 +131,7 @@
          <ConditionEffect duration="2">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7163" id="DS Goblin Sorcerer">
+   <Object type="0x113c" id="DS Goblin Sorcerer">
       <DisplayId>Goblin Sorcerer</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -152,7 +152,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7151" id="DS Goblin Brute">
+   <Object type="0x113d" id="DS Goblin Brute">
       <DisplayId>Goblin Brute</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -173,7 +173,7 @@
          <LifetimeMS>250</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7152" id="DS Goblin Knight">
+   <Object type="0x113e" id="DS Goblin Knight">
       <DisplayId>Goblin Knight</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -194,7 +194,7 @@
          <LifetimeMS>370</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7168" id="DS Alligator">
+   <Object type="0x113f" id="DS Alligator">
       <DisplayId>Sewer Alligator</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -217,7 +217,7 @@
          <ArmorPiercing/>
       </Projectile>
    </Object>
-   <Object type="0x7153" id="DS Brown Slime">
+   <Object type="0x1140" id="DS Brown Slime">
       <DisplayId>Sewer Brown Slime</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -239,7 +239,7 @@
          <Size>75</Size>
       </Projectile>
    </Object>
-   <Object type="0x7154" id="DS Yellow Slime">
+   <Object type="0x1141" id="DS Yellow Slime">
       <DisplayId>Sewer Yellow Slime</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -262,7 +262,7 @@
          <ArmorPiercing/>
       </Projectile>
    </Object>
-   <Object type="0x7155" id="DS Gulpord the Slime God">
+   <Object type="0x1142" id="DS Gulpord the Slime God">
       <DisplayId>Gulpord the Slime God</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -313,7 +313,7 @@
          <ConditionEffect duration="1.5">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7156" id="DS Boss Minion">
+   <Object type="0x1143" id="DS Boss Minion">
       <DisplayId>Gulpord Slime</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -329,7 +329,7 @@
       <XpMult>0.0</XpMult>
       <ParalyzeImmune/>
    </Object>
-   <Object type="0x17f" id="DS Gulpord the Slime God M">
+   <Object type="0x1144" id="DS Gulpord the Slime God M">
       <DisplayId>Gulpord the Slime God</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -361,7 +361,7 @@
          <ConditionEffect duration="1">Armor Broken</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7165" id="DS Gulpord the Slime God S">
+   <Object type="0x1145" id="DS Gulpord the Slime God S">
       <DisplayId>Gulpord the Slime God</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -393,7 +393,7 @@
          <ConditionEffect duration="1">Armor Broken</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7157" id="DS Sick">
+   <Object type="0x1146" id="DS Sick">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -404,7 +404,7 @@
       <NoMiniMap/>
       <StasisImmune/>
    </Object>
-   <Object type="0x7158" id="DS Master Rat">
+   <Object type="0x1147" id="DS Master Rat">
       <DisplayId>Master Rat</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -432,7 +432,7 @@
          <ConditionEffect duration="5">Blind</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7159" id="DS Orange Turtle">
+   <Object type="0x1148" id="DS Orange Turtle">
       <DisplayId>Orange Turtle</DisplayId>
       <Class>Character</Class>
       <StasisImmune/>
@@ -448,7 +448,7 @@
       <Size>90</Size>
       <Defense>10</Defense>
    </Object>
-   <Object type="0x715b" id="DS Red Turtle">
+   <Object type="0x1149" id="DS Red Turtle">
       <DisplayId>Red Turtle</DisplayId>
       <Class>Character</Class>
       <StasisImmune/>
@@ -464,7 +464,7 @@
       <Size>90</Size>
       <Defense>10</Defense>
    </Object>
-   <Object type="0x715c" id="DS Purple Turtle">
+   <Object type="0x114a" id="DS Purple Turtle">
       <DisplayId>Purple Turtle</DisplayId>
       <Class>Character</Class>
       <StasisImmune/>
@@ -480,7 +480,7 @@
       <Size>90</Size>
       <Defense>10</Defense>
    </Object>
-   <Object type="0x715e" id="DS Blue Turtle">
+   <Object type="0x114b" id="DS Blue Turtle">
       <DisplayId>Blue Turtle</DisplayId>
       <Class>Character</Class>
       <StasisImmune/>
@@ -496,7 +496,7 @@
       <Size>90</Size>
       <Defense>10</Defense>
    </Object>
-   <Object type="0x715f" id="DS Golden Rat">
+   <Object type="0x114c" id="DS Golden Rat">
       <DisplayId>Golden Rat</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -513,7 +513,7 @@
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/flayers_hit</DeathSound>
    </Object>
-   <Object type="0x7160" id="DS Gulpord Summoner">
+   <Object type="0x114d" id="DS Gulpord Summoner">
       <Class>Character</Class>
       <NoMiniMap/>
       <MaxHitPoints>10</MaxHitPoints>
@@ -523,7 +523,7 @@
          <Index>0</Index>
       </Texture>
    </Object>
-   <Object type="0x7169" id="DS Sewer Dummy">
+   <Object type="0x114e" id="DS Sewer Dummy">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObj3</File>
@@ -535,7 +535,7 @@
       <Enemy/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x7167" id="DS Brown Slime Trail">
+   <Object type="0x114f" id="DS Brown Slime Trail">
       <Enemy/>
       <Class>Character</Class>
       <DisplayId>Sewer Brown Slime</DisplayId>
@@ -579,7 +579,7 @@
          <ConditionEffect duration="3">Quiet</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7166" id="DS Yellow Slime Trail">
+   <Object type="0x1150" id="DS Yellow Slime Trail">
       <Enemy/>
       <Class>Character</Class>
       <DisplayId>Sewer Yellow Slime</DisplayId>
@@ -623,7 +623,7 @@
          <ConditionEffect duration="3">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7164" id="DS Fly">
+   <Object type="0x1151" id="DS Fly">
       <Enemy/>
       <DisplayId>Sewer Fly</DisplayId>
       <Class>Character</Class>

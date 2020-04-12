@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x736b" id="shtrs Encounter Spawner">
+   <Object type="0x020b" id="shtrs Encounter Spawner">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -16,7 +16,7 @@
       <StasisImmune/>
       <PerRealmMax>1</PerRealmMax>
    </Object>
-   <Object type="0x734d" id="shtrs Defense System">
+   <Object type="0x020c" id="shtrs Defense System">
       <DisplayId>Avatar of the Forgotten King</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -61,7 +61,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x734e" id="shtrs shadowmans">
+   <Object type="0x020d" id="shtrs shadowmans">
       <DisplayId>Shades of the Avatar</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -92,7 +92,7 @@
          <LifetimeMS>6000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x734f" id="shtrs Pillar 1">
+   <Object type="0x020e" id="shtrs Pillar 1">
       <DisplayId>Killer Pillar</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -124,7 +124,7 @@
          <LifetimeMS>6000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x735a" id="shtrs Pillar 2">
+   <Object type="0x020f" id="shtrs Pillar 2">
       <DisplayId>Killer Pillar</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -156,7 +156,8 @@
          <LifetimeMS>6000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x735b" id="shtrs Pillar 3">
+   
+   <Object type="0x0210" id="shtrs Pillar 3">
       <DisplayId>Killer Pillar</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -188,7 +189,7 @@
          <LifetimeMS>6000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x735c" id="shtrs Pillar 4">
+   <Object type="0x0211" id="shtrs Pillar 4">
       <DisplayId>Killer Pillar</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -220,7 +221,7 @@
          <LifetimeMS>6000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x735d" id="shtrs portal maker">
+   <Object type="0x0212" id="shtrs portal maker">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -232,7 +233,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x735e" id="shtrs blobomb maker">
+   <Object type="0x0213" id="shtrs blobomb maker">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -244,7 +245,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x735f" id="shtrs eyeswarmer">
+   <Object type="0x0214" id="shtrs eyeswarmer">
       <DisplayId>Eye of the Avatar</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -268,7 +269,7 @@
          <LifetimeMS>5000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x736a" id="shtrs encounterportalspawn">
+   <Object type="0x0215" id="shtrs encounterportalspawn">
       <Class>Character</Class>
       <StasisImmune/>
       <NoMiniMap/>
@@ -283,7 +284,7 @@
       <Defense>0</Defense>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x738a" id="shtrs Encounter Chest">
+   <Object type="0x0216" id="shtrs Encounter Chest">
       <DisplayId>shtrs Encounter Loot Chest</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
@@ -296,7 +297,7 @@
       <Defense>40</Defense>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x738b" id="shtrs encounterchestspawner">
+   <Object type="0x0217" id="shtrs encounterchestspawner">
       <Class>Character</Class>
       <StasisImmune/>
       <NoMiniMap/>
@@ -309,7 +310,7 @@
       <Defense>0</Defense>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x5e83" id="Rock Dragon Bat">
+   <Object type="0x0218" id="Rock Dragon Bat">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -360,7 +361,7 @@
          <ConditionEffect duration="2">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x5e79" id="Body Segment Bomb">
+   <Object type="0x0219" id="Body Segment Bomb">
       <Enemy/>
       <DisplayId>Body Segment Bomb</DisplayId>
       <Class>Character</Class>
@@ -386,7 +387,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x5e77" id="Dragon Marker BR">
+   <Object type="0x021a" id="Dragon Marker BR">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -399,7 +400,7 @@
       <NoMiniMap/>
       <StasisImmune/>
    </Object>
-   <Object type="0x5e76" id="Dragon Marker BL">
+   <Object type="0x021b" id="Dragon Marker BL">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -412,7 +413,7 @@
       <NoMiniMap/>
       <StasisImmune/>
    </Object>
-   <Object type="0x5e75" id="Dragon Marker TR">
+   <Object type="0x021c" id="Dragon Marker TR">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -425,7 +426,7 @@
       <NoMiniMap/>
       <StasisImmune/>
    </Object>
-   <Object type="0x5e74" id="Dragon Marker TL">
+   <Object type="0x021d" id="Dragon Marker TL">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -438,7 +439,7 @@
       <NoMiniMap/>
       <StasisImmune/>
    </Object>
-   <Object type="0x5e73" id="Dragon Head Spawner">
+   <Object type="0x021e" id="Dragon Head Spawner">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -453,7 +454,7 @@
       <StasisImmune/>
       <PerRealmMax>1</PerRealmMax>
    </Object>
-   <Object type="0x5e72" id="Dragon Head Leader">
+   <Object type="0x021f" id="Dragon Head Leader">
       <Enemy/>
       <DisplayId>Rock Dragon</DisplayId>
       <Class>Character</Class>
@@ -479,7 +480,8 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x5e78" id="Dragon Head">
+   
+   <Object type="0x0220" id="Dragon Head">
       <Enemy/>
       <DisplayId>Eye of the Dragon</DisplayId>
       <Class>Character</Class>
@@ -569,7 +571,7 @@
          <ParticleTrail/>
       </Projectile>
    </Object>
-   <Object type="0x5e71" id="Body Segment A">
+   <Object type="0x0221" id="Body Segment A">
       <Enemy/>
       <Class>Character</Class>
       <Group>Body Segments</Group>
@@ -621,7 +623,7 @@
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x5e70" id="Body Segment B">
+   <Object type="0x0222" id="Body Segment B">
       <Enemy/>
       <Class>Character</Class>
       <Group>Body Segments</Group>
@@ -673,7 +675,7 @@
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x5e69" id="Body Segment C">
+   <Object type="0x0223" id="Body Segment C">
       <Enemy/>
       <Class>Character</Class>
       <Group>Body Segments</Group>
@@ -725,7 +727,7 @@
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x5e68" id="Body Segment D">
+   <Object type="0x0224" id="Body Segment D">
       <Enemy/>
       <Class>Character</Class>
       <Group>Body Segments</Group>
@@ -777,7 +779,7 @@
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x5e67" id="Body Segment E">
+   <Object type="0x0225" id="Body Segment E">
       <Enemy/>
       <Class>Character</Class>
       <Group>Body Segments</Group>
@@ -829,7 +831,7 @@
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x5e66" id="Body Segment F">
+   <Object type="0x0226" id="Body Segment F">
       <Enemy/>
       <Class>Character</Class>
       <Group>Body Segments</Group>
@@ -881,7 +883,7 @@
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x5e65" id="Body Segment G">
+   <Object type="0x0227" id="Body Segment G">
       <Enemy/>
       <Class>Character</Class>
       <Group>Body Segments</Group>
@@ -933,7 +935,7 @@
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x5e64" id="Body Segment H">
+   <Object type="0x0228" id="Body Segment H">
       <Enemy/>
       <Class>Character</Class>
       <Group>Body Segments</Group>
@@ -985,7 +987,7 @@
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x5e80" id="Body Segment I">
+   <Object type="0x0229" id="Body Segment I">
       <Enemy/>
       <Class>Character</Class>
       <Group>Body Segments</Group>
@@ -1037,7 +1039,7 @@
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x5e81" id="Body Segment Tail">
+   <Object type="0x022a" id="Body Segment Tail">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -1061,7 +1063,7 @@
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d50" id="Lord of the Lost Lands">
+   <Object type="0x022b" id="Lord of the Lost Lands">
       <DisplayId>Lord of the Lost Lands</DisplayId>
       <Group>Knights of the Lost Lands</Group>
       <Enemy/>
@@ -1127,7 +1129,7 @@
       <Defense>30</Defense>
       <XpMult>0.3</XpMult>
    </Object>
-   <Object type="0x0d51" id="Protection Crystal">
+   <Object type="0x022c" id="Protection Crystal">
       <Group>Knights of the Lost Lands</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1150,7 +1152,7 @@
       <Defense>15</Defense>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x0d52" id="Knight of the Lost Lands">
+   <Object type="0x022d" id="Knight of the Lost Lands">
       <Group>Knights of the Lost Lands</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1172,7 +1174,7 @@
       <Defense>0</Defense>
       <XpMult>0.1</XpMult>
    </Object>
-   <Object type="0x0d53" id="Guardian of the Lost Lands">
+   <Object type="0x022e" id="Guardian of the Lost Lands">
       <Group>Knights of the Lost Lands</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1202,7 +1204,7 @@
       <Defense>10</Defense>
       <XpMult>0.2</XpMult>
    </Object>
-   <Object type="0x0d54" id="Grand Sphinx">
+   <Object type="0x022f" id="Grand Sphinx">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -1252,7 +1254,8 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x0d55" id="Horrid Reaper">
+   
+   <Object type="0x0230" id="Horrid Reaper">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -1282,7 +1285,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0d56" id="Skull Shrine">
+   <Object type="0x0231" id="Skull Shrine">
       <Class>Character</Class>
       <DisplayId>Skull Shrine</DisplayId>
       <Texture>
@@ -1308,7 +1311,7 @@
          <LifetimeMS>2400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d57" id="Red Flaming Skull">
+   <Object type="0x0232" id="Red Flaming Skull">
       <Group>Flaming Skulls</Group>
       <Class>Character</Class>
       <Enemy/>
@@ -1331,7 +1334,7 @@
          <LifetimeMS>2400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d58" id="Blue Flaming Skull">
+   <Object type="0x0233" id="Blue Flaming Skull">
       <Group>Flaming Skulls</Group>
       <Class>Character</Class>
       <Enemy/>
@@ -1354,7 +1357,7 @@
          <LifetimeMS>2400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0e51" id="Pumpkin Shrine">
+   <Object type="0x0234" id="Pumpkin Shrine">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>d3Chars16x16rEmbed</File>
@@ -1378,7 +1381,7 @@
          <LifetimeMS>2400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0e52" id="Green Floating Pumpkin">
+   <Object type="0x0235" id="Green Floating Pumpkin">
       <Group>Floating Pumpkins</Group>
       <Class>Character</Class>
       <Enemy/>
@@ -1400,7 +1403,7 @@
          <LifetimeMS>2400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0e53" id="Blue Floating Pumpkin">
+   <Object type="0x0236" id="Blue Floating Pumpkin">
       <Group>Floating Pumpkins</Group>
       <Class>Character</Class>
       <Enemy/>
@@ -1422,7 +1425,7 @@
          <LifetimeMS>2400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d59" id="Cube God">
+   <Object type="0x0237" id="Cube God">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar216x16</File>
@@ -1454,7 +1457,7 @@
       <Defense>40</Defense>
       <Enemy/>
    </Object>
-   <Object type="0x0d5a" id="Cube Overseer">
+   <Object type="0x0238" id="Cube Overseer">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -1480,7 +1483,7 @@
       <Size>130</Size>
       <XpMult>0.1</XpMult>
    </Object>
-   <Object type="0x0d5b" id="Cube Defender">
+   <Object type="0x0239" id="Cube Defender">
       <Group>Cube Minions</Group>
       <Class>Character</Class>
       <Enemy/>
@@ -1502,7 +1505,7 @@
       <Size>100</Size>
       <XpMult>0.1</XpMult>
    </Object>
-   <Object type="0x0d5c" id="Cube Blaster">
+   <Object type="0x023a" id="Cube Blaster">
       <Group>Cube Minions</Group>
       <Class>Character</Class>
       <Enemy/>
@@ -1530,7 +1533,7 @@
       <Size>80</Size>
       <XpMult>0.1</XpMult>
    </Object>
-   <Object type="0x0e29" id="Turkey God">
+   <Object type="0x023b" id="Turkey God">
       <DisplayId>Gobble God</DisplayId>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -1561,7 +1564,7 @@
       <Defense>40</Defense>
       <Enemy/>
    </Object>
-   <Object type="0x0e2a" id="Turkey God Overseer">
+   <Object type="0x023c" id="Turkey God Overseer">
       <DisplayId>Gobble Overseer</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -1587,7 +1590,7 @@
       <Size>130</Size>
       <XpMult>0.1</XpMult>
    </Object>
-   <Object type="0x0e2b" id="Turkey God Defender">
+   <Object type="0x023d" id="Turkey God Defender">
       <DisplayId>Gobble Defender</DisplayId>
       <Group>Turkey God Minions</Group>
       <Class>Character</Class>
@@ -1609,7 +1612,7 @@
       <Size>100</Size>
       <XpMult>0.1</XpMult>
    </Object>
-   <Object type="0x0e2c" id="Turkey God Blaster">
+   <Object type="0x023e" id="Turkey God Blaster">
       <DisplayId>Gobble Blaster</DisplayId>
       <Group>Turkey God Minions</Group>
       <Class>Character</Class>
@@ -1637,7 +1640,7 @@
       <Size>80</Size>
       <XpMult>0.1</XpMult>
    </Object>
-   <Object type="0x0d5d" id="Pentaract Eye">
+   <Object type="0x023f" id="Pentaract Eye">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -1655,7 +1658,8 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0d5e" id="Pentaract Tower">
+   
+   <Object type="0x0240" id="Pentaract Tower">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -1727,7 +1731,7 @@
       <StasisImmune/>
       <KeepDamageRecord/>
    </Object>
-   <Object type="0x0d5f" id="Pentaract">
+   <Object type="0x0241" id="Pentaract">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -1742,7 +1746,7 @@
       <Encounter/>
       <Level>20</Level>
    </Object>
-   <Object type="0x0d60" id="Pentaract Tower Corpse">
+   <Object type="0x0242" id="Pentaract Tower Corpse">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -1754,7 +1758,7 @@
       <XpMult>0</XpMult>
       <God/>
    </Object>
-   <Object type="0x0e01" id="Pentaract Tower Ultra">
+   <Object type="0x0243" id="Pentaract Tower Ultra">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -1822,7 +1826,7 @@
       <MaxHitPoints>9000</MaxHitPoints>
       <Size>130</Size>
    </Object>
-   <Object type="0x0d61" id="Hermit God">
+   <Object type="0x0244" id="Hermit God">
       <Group>Hermit God Encounter</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1906,7 +1910,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0d62" id="Hermit Minion">
+   <Object type="0x0245" id="Hermit Minion">
       <Class>Character</Class>
       <Group>Hermit God Encounter</Group>
       <Enemy/>
@@ -1937,7 +1941,7 @@
          <ConditionEffect duration=".4">Paralyzed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0d63" id="Whirlpool">
+   <Object type="0x0246" id="Whirlpool">
       <Group>Hermit God Encounter</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1962,7 +1966,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d64" id="Hermit God Tentacle">
+   <Object type="0x0247" id="Hermit God Tentacle">
       <Group>Hermit God Encounter</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1998,7 +2002,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d65" id="Hermit God Tentacle Spawner">
+   <Object type="0x0248" id="Hermit God Tentacle Spawner">
       <Group>Hermit God Encounter</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -2017,7 +2021,7 @@
       <Size>110</Size>
       <Defense>50</Defense>
    </Object>
-   <Object type="0x0d66" id="Hermit God Drop">
+   <Object type="0x0249" id="Hermit God Drop">
       <Group>Hermit God Encounter</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -2033,7 +2037,7 @@
       <Defense>0</Defense>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x0e54" id="Zombie Horde">
+   <Object type="0x024a" id="Zombie Horde">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -2054,7 +2058,7 @@
       <Level>20</Level>
       <PerRealmMax>10</PerRealmMax>
    </Object>
-   <Object type="0x0e5c" id="Bonegrind 2">
+   <Object type="0x024b" id="Bonegrind 2">
       <DisplayId>Bonegrind the Undead Butcher</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -2110,7 +2114,7 @@
          <ConditionEffect duration="4">Armor Broken</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0e57" id="Horde Spawner">
+   <Object type="0x024c" id="Horde Spawner">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -2121,7 +2125,7 @@
       <XpMult>0.0</XpMult>
       <NoMiniMap/>
    </Object>
-   <Object type="0x0e56" id="Masked Party God">
+   <Object type="0x024d" id="Masked Party God">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -2153,7 +2157,7 @@
       <MaxHitPoints>30000</MaxHitPoints>
       <Defense>10</Defense>
    </Object>
-   <Object type="0x0e55" id="Beach Bum">
+   <Object type="0x024e" id="Beach Bum">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -2167,7 +2171,7 @@
       <MaxHitPoints>1000</MaxHitPoints>
       <Defense>15</Defense>
    </Object>
-   <Object type="0x0e4f" id="Water Mine">
+   <Object type="0x024f" id="Water Mine">
       <Enemy/>
       <Class>Character</Class>
       <DisplayId>Water Mine</DisplayId>
@@ -2190,7 +2194,8 @@
          <LifetimeMS>450</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0e4e" id="Water Mine Path">
+   
+   <Object type="0x0250" id="Water Mine Path">
       <Enemy/>
       <Class>Character</Class>
       <DisplayId>Water Mine</DisplayId>
@@ -2213,7 +2218,7 @@
          <LifetimeMS>450</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0e3d" id="Beach Spectre">
+   <Object type="0x0251" id="Beach Spectre">
       <Enemy/>
       <Class>Character</Class>
       <DisplayId>Beach Spectre</DisplayId>
@@ -2239,7 +2244,7 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0e3c" id="Beach Spectre Spawner">
+   <Object type="0x0252" id="Beach Spectre Spawner">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -2252,7 +2257,7 @@
       <Defense>100</Defense>
       <NoMiniMap/>
    </Object>
-   <Object type="0x0e3b" id="Tempest Cloud">
+   <Object type="0x0253" id="Tempest Cloud">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -2329,7 +2334,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0e39" id="Vengeful Spirit">
+   <Object type="0x0254" id="Vengeful Spirit">
       <Class>Character</Class>
       <DisplayId>Vengeful Spirit</DisplayId>
       <AnimatedTexture>
@@ -2353,7 +2358,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0e38" id="Ghost Ship Anchor">
+   <Object type="0x0255" id="Ghost Ship Anchor">
       <Enemy/>
       <Class>Character</Class>
       <DisplayId>Ghost Ship Whirlpool</DisplayId>
@@ -2380,7 +2385,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0e37" id="Ghost Ship">
+   <Object type="0x0256" id="Ghost Ship">
       <Enemy/>
       <Class>Character</Class>
       <DisplayId>Ghost Ship</DisplayId>

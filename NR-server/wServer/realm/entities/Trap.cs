@@ -18,7 +18,7 @@ namespace wServer.realm.entities
         ConditionEffectIndex effect;
         int duration;
         public Trap(Player player, float radius, int dmg, ConditionEffectIndex eff, float effDuration)
-            : base(player.Manager, 0x0711, LIFETIME * 1000, true, true, false)
+            : base(player.Manager, 0x093b, LIFETIME * 1000, true, true, false)
         {
             this.player = player;
             this.radius = radius;

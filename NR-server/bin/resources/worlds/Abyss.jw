@@ -8,7 +8,7 @@
   "blocking": 3,
   "restrictTp": false,
   "showDisplays": false,
-  "portals": [ 0x071b ],
+  "portals": [ 0x0a62 ],
   "music": [ "abyss" ],
   "maps": [ ]
 }

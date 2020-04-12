@@ -61,7 +61,7 @@ namespace wServer.realm.setpieces
                         tile.ObjType = 0;
                         tile.UpdateCount++;
 
-                        Entity penta = Entity.Resolve(world.Manager, 0x0d5e);
+                        Entity penta = Entity.Resolve(world.Manager, 0x0240);
                         penta.Move(pos.X + x + .5f, pos.Y + y + .5f);
                         world.EnterWorld(penta);
                     }

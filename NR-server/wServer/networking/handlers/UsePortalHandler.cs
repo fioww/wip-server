@@ -9,7 +9,7 @@ namespace wServer.networking.handlers
 {
     class UsePortalHandler : PacketHandlerBase<UsePortal>
     {
-        private readonly int[] _realmPortals = new int[] { 0x0704, 0x070e, 0x071c, 0x703, 0x070d, 0x0d40 };
+        private readonly int[] _realmPortals = new int[] { 0x0704/*??*/, 0x0a58, 0x0a5b, 0x0a5c, 0x0a59, 0x093d };
 
         public override PacketId ID => PacketId.USEPORTAL;
 
@@ -45,7 +45,7 @@ namespace wServer.networking.handlers
                 return;
             }
 
-            if (portal.ObjectType == 0x072f)
+            if (portal.ObjectType == 0x0955)
             {
                 var proto = player.Manager.Resources.Worlds["GuildHall"];
                 var world = player.Manager.GetWorld(proto.id);

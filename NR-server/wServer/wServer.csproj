@@ -98,17 +98,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="logic\behaviors\Aoe.cs" />
     <Compile Include="logic\behaviors\ApplySetpiece.cs" />
     <Compile Include="logic\behaviors\ChangeGroundOnDeath.cs" />
+    <Compile Include="logic\behaviors\ConditionalBehavior.cs" />
+    <Compile Include="logic\behaviors\CopyDamageOnDeath.cs" />
     <Compile Include="logic\behaviors\InvisiToss.cs" />
+    <Compile Include="logic\behaviors\MoveTo2.cs" />
     <Compile Include="logic\behaviors\OnDeathBehavior.cs" />
     <Compile Include="logic\behaviors\RealmPortalDrop.cs" />
     <Compile Include="logic\behaviors\RemoveEntity.cs" />
     <Compile Include="logic\behaviors\RemoveObjectOnDeath.cs" />
+    <Compile Include="logic\behaviors\ReplaceTile.cs" />
     <Compile Include="logic\behaviors\ScaleHP.cs" />
     <Compile Include="logic\behaviors\SetNoXP.cs" />
     <Compile Include="logic\db\BehaviorDb.Abyss.cs" />
-    <Compile Include="logic\db\BehaviorDb.Avatar.cs" />
     <Compile Include="logic\db\BehaviorDb.Nexus.cs" />
     <Compile Include="logic\db\BehaviorDb.BeachBum.cs" />
     <Compile Include="logic\db\BehaviorDb.Beachzone.cs" />
@@ -117,7 +121,6 @@
     <Compile Include="logic\db\BehaviorDb.CandyLand.cs" />
     <Compile Include="logic\db\BehaviorDb.CrawlingDepths.cs" />
     <Compile Include="logic\db\BehaviorDb.Crystal.cs" />
-    <Compile Include="logic\db\BehaviorDb.Cube.cs" />
     <Compile Include="logic\db\BehaviorDb.Cyclops.cs" />
     <Compile Include="logic\db\BehaviorDb.DavyJones.cs" />
     <Compile Include="logic\db\BehaviorDb.DeadwaterDocks.cs" />
@@ -125,17 +128,15 @@
     <Compile Include="logic\db\BehaviorDb.Draconis.cs" />
     <Compile Include="logic\db\BehaviorDb.Encore.cs" />
     <Compile Include="logic\db\BehaviorDb.EntAncient.cs" />
-    <Compile Include="logic\db\BehaviorDb.Events.cs" />
+    <Compile Include="logic\db\BehaviorDb.Realm.cs" />
     <Compile Include="logic\db\BehaviorDb.ForbiddenJungle.cs" />
     <Compile Include="logic\db\BehaviorDb.ForestMaze.cs" />
     <Compile Include="logic\db\BehaviorDb.GhostKing.cs" />
-    <Compile Include="logic\db\BehaviorDb.GhostShip.cs" />
     <Compile Include="logic\db\BehaviorDb.Highland.cs" />
     <Compile Include="logic\db\BehaviorDb.IceCave.cs" />
     <Compile Include="logic\db\BehaviorDb.Janus.cs" />
     <Compile Include="logic\db\BehaviorDb.Jungle.cs" />
     <Compile Include="logic\db\BehaviorDb.Lich.cs" />
-    <Compile Include="logic\db\BehaviorDb.Lotll.cs" />
     <Compile Include="logic\db\BehaviorDb.Lowland.cs" />
     <Compile Include="logic\db\BehaviorDb.MadLab.cs" />
     <Compile Include="logic\db\BehaviorDb.Manor.cs" />
@@ -146,12 +147,10 @@
     <Compile Include="logic\db\BehaviorDb.Oryx.cs" />
     <Compile Include="logic\db\BehaviorDb.OryxCastle.cs" />
     <Compile Include="logic\db\BehaviorDb.OryxChicken.cs" />
-    <Compile Include="logic\db\BehaviorDb.Pentaract.cs" />
     <Compile Include="logic\db\BehaviorDb.Phoenix.cs" />
     <Compile Include="logic\db\BehaviorDb.PirateCave.cs" />
     <Compile Include="logic\db\BehaviorDb.Puppet.cs" />
     <Compile Include="logic\db\BehaviorDb.RedDemon.cs" />
-    <Compile Include="logic\db\BehaviorDb.RockDragon.cs" />
     <Compile Include="logic\db\BehaviorDb.Shatters.cs" />
     <Compile Include="logic\db\BehaviorDb.Shore.cs" />
     <Compile Include="logic\db\BehaviorDb.SnakePit.cs" />

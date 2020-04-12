@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0xbb2" id="Prod Enemy Item">
+   <Object type="0x0fdf" id="Prod Enemy Item">
       <DisplayId>Enemy Spawner</DisplayId>
       <Class>Equipment</Class>
       <Item/>
@@ -16,7 +16,7 @@
       <Soulbound/>
       <Activate id="Prod Enemy Spawner">Create</Activate>
    </Object>
-   <Object type="0xbb3" id="Prod Enemy Spawner">
+   <Object type="0x0fe0" id="Prod Enemy Spawner">
       <DisplayId>Enemy Spawner</DisplayId>
       <Class>Character</Class>
       <Texture>
@@ -25,7 +25,7 @@
       </Texture>
       <Size>0</Size>
    </Object>
-   <Object type="0x638" id="Potion Gift">
+   <Object type="0x0fe1" id="Potion Gift">
       <Class>Character</Class>
       <StasisImmune/>
       <Enemy/>
@@ -38,7 +38,7 @@
          <Index>0x02</Index>
       </Texture>
    </Object>
-   <Object type="0x64e" id="Key Spawner">
+   <Object type="0x0fe2" id="Key Spawner">
       <Class>Character</Class>
       <Enemy/>
       <NoMiniMap/>
@@ -49,7 +49,7 @@
       <Size>0</Size>
       <MaxHitPoints>50000</MaxHitPoints>
    </Object>
-   <Object type="0x66c" id="Key Dropper 1">
+   <Object type="0x0fe3" id="Key Dropper 1">
       <Class>Character</Class>
       <StasisImmune/>
       <Enemy/>
@@ -62,7 +62,7 @@
          <Index>0x21</Index>
       </Texture>
    </Object>
-   <Object type="0x674" id="Key Dropper 2">
+   <Object type="0x0fe4" id="Key Dropper 2">
       <Class>Character</Class>
       <StasisImmune/>
       <Enemy/>
@@ -75,7 +75,7 @@
          <Index>0x20</Index>
       </Texture>
    </Object>
-   <Object type="0x6c3" id="Key Dropper 3">
+   <Object type="0x0fe5" id="Key Dropper 3">
       <Class>Character</Class>
       <StasisImmune/>
       <Enemy/>
@@ -88,7 +88,7 @@
          <Index>0x22</Index>
       </Texture>
    </Object>
-   <Object type="0x6d9" id="Key Dropper 4">
+   <Object type="0x0fe6" id="Key Dropper 4">
       <Class>Character</Class>
       <StasisImmune/>
       <Enemy/>
@@ -101,7 +101,7 @@
          <Index>0x5f</Index>
       </Texture>
    </Object>
-   <Object type="0x1fb" id="Testing Gift Spawner">
+   <Object type="0x0fe7" id="Testing Gift Spawner">
       <Class>Character</Class>
       <NoMiniMap/>
       <Size>90</Size>
@@ -124,7 +124,7 @@
          </Texture>
       </AltTexture>
    </Object>
-   <Object type="0x956" id="Testing Pet Stasis">
+   <Object type="0x0fe8" id="Testing Pet Stasis">
       <Class>Character</Class>
       <StasisImmune/>
       <Enemy/>
@@ -146,7 +146,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x50d" id="GH1 Portal">
+   <Object type="0x0fe9" id="GH1 Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Guild Hall 1 Portal</DisplayId>
@@ -156,7 +156,7 @@
          <Index>0x54</Index>
       </Texture>
    </Object>
-   <Object type="0x608" id="GH1 Key">
+   <Object type="0x0fea" id="GH1 Key">
       <Class>Equipment</Class>
       <Item/>
       <DisplayId>Guild Hall 1 Key</DisplayId>
@@ -173,7 +173,7 @@
       <feedPower>260</feedPower>
       <Track/>
    </Object>
-   <Object type="0x611" id="GH2 Portal">
+   <Object type="0x0feb" id="GH2 Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Guild Hall 2 Portal</DisplayId>
@@ -183,7 +183,7 @@
          <Index>0x54</Index>
       </Texture>
    </Object>
-   <Object type="0x61b" id="GH2 Key">
+   <Object type="0x0fec" id="GH2 Key">
       <Class>Equipment</Class>
       <Item/>
       <DisplayId>Guild Hall 2 Key</DisplayId>
@@ -200,7 +200,7 @@
       <feedPower>260</feedPower>
       <Track/>
    </Object>
-   <Object type="0x621" id="GH3 Portal">
+   <Object type="0x0fed" id="GH3 Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Guild Hall 3 Portal</DisplayId>
@@ -210,7 +210,7 @@
          <Index>0x54</Index>
       </Texture>
    </Object>
-   <Object type="0x630" id="GH3 Key">
+   <Object type="0x0fee" id="GH3 Key">
       <Class>Equipment</Class>
       <Item/>
       <DisplayId>Guild Hall 3 Key</DisplayId>
@@ -227,7 +227,7 @@
       <feedPower>260</feedPower>
       <Track/>
    </Object>
-   <Object type="0x627" id="GH4 Portal">
+   <Object type="0x0fef" id="GH4 Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Guild Hall 4 Portal</DisplayId>
@@ -237,7 +237,7 @@
          <Index>0x54</Index>
       </Texture>
    </Object>
-   <Object type="0x628" id="GH4 Key">
+   <Object type="0x0ff0" id="GH4 Key">
       <Class>Equipment</Class>
       <Item/>
       <DisplayId>Guild Hall 4 Key</DisplayId>
@@ -254,7 +254,7 @@
       <feedPower>260</feedPower>
       <Track/>
    </Object>
-   <Object type="0x023b" id="Test Chicken">
+   <Object type="0x0ff1" id="Test Chicken">
       <Group>Test Chickens</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -283,7 +283,7 @@
       <Defense>0</Defense>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x023c" id="Test Chicken Minions">
+   <Object type="0x0ff2" id="Test Chicken Minions">
       <Group>Test Chickens</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -311,7 +311,7 @@
       <Defense>0</Defense>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x0940" id="XP Gift">
+   <Object type="0x0ff3" id="XP Gift">
       <Group>Evaluators</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -326,7 +326,7 @@
       <Defense>0</Defense>
       <XpMult>70</XpMult>
    </Object>
-   <Object type="0x0962" id="XP Gift A">
+   <Object type="0x0ff4" id="XP Gift A">
       <Group>Evaluators</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -341,7 +341,7 @@
       <Defense>0</Defense>
       <XpMult>70</XpMult>
    </Object>
-   <Object type="0x0963" id="XP Gift B">
+   <Object type="0x0ff5" id="XP Gift B">
       <Group>Evaluators</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -356,7 +356,7 @@
       <Defense>0</Defense>
       <XpMult>70</XpMult>
    </Object>
-   <Object type="0x0964" id="XP Gift C">
+   <Object type="0x0ff6" id="XP Gift C">
       <Group>Evaluators</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -371,7 +371,7 @@
       <Defense>0</Defense>
       <XpMult>50</XpMult>
    </Object>
-   <Object type="0x0965" id="XP Gift D">
+   <Object type="0x0ff7" id="XP Gift D">
       <Group>Evaluators</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -386,7 +386,7 @@
       <Defense>0</Defense>
       <XpMult>90</XpMult>
    </Object>
-   <Object type="0x0966" id="XP Gift E">
+   <Object type="0x0ff8" id="XP Gift E">
       <Group>Evaluators</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -401,7 +401,7 @@
       <Defense>0</Defense>
       <XpMult>120</XpMult>
    </Object>
-   <Object type="0x0967" id="XP Gift F">
+   <Object type="0x0ff9" id="XP Gift F">
       <Group>Evaluators</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -416,7 +416,7 @@
       <Defense>0</Defense>
       <XpMult>200</XpMult>
    </Object>
-   <Object type="0x0968" id="XP Gift G">
+   <Object type="0x0ffa" id="XP Gift G">
       <Group>Evaluators</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -431,7 +431,7 @@
       <Defense>0</Defense>
       <XpMult>300</XpMult>
    </Object>
-   <Object type="0x0969" id="XP Gift H">
+   <Object type="0x0ffb" id="XP Gift H">
       <Group>Evaluators</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -446,7 +446,7 @@
       <Defense>0</Defense>
       <XpMult>10000</XpMult>
    </Object>
-   <Object type="0x217" id="Lvl20 Chicken Spawner">
+   <Object type="0x0ffc" id="Lvl20 Chicken Spawner">
       <Class>Character</Class>
       <NoMiniMap/>
       <Size>90</Size>
@@ -455,7 +455,7 @@
          <Index>0</Index>
       </Texture>
    </Object>
-   <Object type="0x219" id="Fame Chicken Spawner">
+   <Object type="0x0ffd" id="Fame Chicken Spawner">
       <Class>Character</Class>
       <NoMiniMap/>
       <Size>90</Size>
@@ -464,7 +464,7 @@
          <Index>0</Index>
       </Texture>
    </Object>
-   <Object type="0x203" id="Testing Gift Ring">
+   <Object type="0x0ffe" id="Testing Gift Ring">
       <Group>Testing Gifts</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -478,7 +478,7 @@
          <Index>0xa2</Index>
       </Texture>
    </Object>
-   <Object type="0x20a" id="Testing Gift Robe">
+   <Object type="0x0fff" id="Testing Gift Robe">
       <Group>Testing Gifts Armor</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -492,7 +492,7 @@
          <Index>0x1c</Index>
       </Texture>
    </Object>
-   <Object type="0x20b" id="Testing Gift Leather">
+   <Object type="0x1000" id="Testing Gift Leather">
       <Group>Testing Gifts Armor</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -506,7 +506,7 @@
          <Index>0x0c</Index>
       </Texture>
    </Object>
-   <Object type="0x20c" id="Testing Gift Armor">
+   <Object type="0x1001" id="Testing Gift Armor">
       <Group>Testing Gifts Armor</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -520,7 +520,7 @@
          <Index>0x2c</Index>
       </Texture>
    </Object>
-   <Object type="0x210" id="Testing Gift Staff">
+   <Object type="0x1002" id="Testing Gift Staff">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -534,7 +534,7 @@
          <Index>0x7c</Index>
       </Texture>
    </Object>
-   <Object type="0x238" id="Testing Gift Staff Tier">
+   <Object type="0x1003" id="Testing Gift Staff Tier">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <Texture>
@@ -542,7 +542,7 @@
          <Index>0x21c</Index>
       </Texture>
    </Object>
-   <Object type="0x15b" id="Testing Gift Staff Vani">
+   <Object type="0x1004" id="Testing Gift Staff Vani">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <Texture>
@@ -550,7 +550,7 @@
          <Index>0x21c</Index>
       </Texture>
    </Object>
-   <Object type="0x211" id="Testing Gift Bow">
+   <Object type="0x1005" id="Testing Gift Bow">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -564,7 +564,7 @@
          <Index>0x5c</Index>
       </Texture>
    </Object>
-   <Object type="0x239" id="Testing Gift Bow Tier">
+   <Object type="0x1006" id="Testing Gift Bow Tier">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -578,7 +578,7 @@
          <Index>0x50</Index>
       </Texture>
    </Object>
-   <Object type="0x15c" id="Testing Gift Bow Vani">
+   <Object type="0x1007" id="Testing Gift Bow Vani">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -592,7 +592,7 @@
          <Index>0x42b</Index>
       </Texture>
    </Object>
-   <Object type="0x212" id="Testing Gift Dagger">
+   <Object type="0x1008" id="Testing Gift Dagger">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -606,7 +606,7 @@
          <Index>0x6c</Index>
       </Texture>
    </Object>
-   <Object type="0x23a" id="Testing Gift Dagger Tier">
+   <Object type="0x1009" id="Testing Gift Dagger Tier">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <Texture>
@@ -614,7 +614,7 @@
          <Index>0x21c</Index>
       </Texture>
    </Object>
-   <Object type="0x15d" id="Testing Gift Dagger Vani">
+   <Object type="0x100a" id="Testing Gift Dagger Vani">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <Texture>
@@ -622,7 +622,7 @@
          <Index>0x21c</Index>
       </Texture>
    </Object>
-   <Object type="0x213" id="Testing Gift Sword">
+   <Object type="0x100b" id="Testing Gift Sword">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -636,7 +636,7 @@
          <Index>0x3c</Index>
       </Texture>
    </Object>
-   <Object type="0x23f" id="Testing Gift Sword Tier">
+   <Object type="0x100c" id="Testing Gift Sword Tier">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <Texture>
@@ -644,7 +644,7 @@
          <Index>0x21c</Index>
       </Texture>
    </Object>
-   <Object type="0x15e" id="Testing Gift Sword Vani">
+   <Object type="0x100d" id="Testing Gift Sword Vani">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <Texture>
@@ -652,7 +652,7 @@
          <Index>0x21c</Index>
       </Texture>
    </Object>
-   <Object type="0x214" id="Testing Gift Wand">
+   <Object type="0x100e" id="Testing Gift Wand">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -666,7 +666,7 @@
          <Index>0x4c</Index>
       </Texture>
    </Object>
-   <Object type="0x240" id="Testing Gift Wand Tier">
+   <Object type="0x1010" id="Testing Gift Wand Tier">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <Texture>
@@ -674,7 +674,7 @@
          <Index>0x21c</Index>
       </Texture>
    </Object>
-   <Object type="0x15f" id="Testing Gift Wand Vani">
+   <Object type="0x1011" id="Testing Gift Wand Vani">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <Texture>
@@ -682,7 +682,7 @@
          <Index>0x21c</Index>
       </Texture>
    </Object>
-   <Object type="0x215" id="Testing Gift Katana">
+   <Object type="0x1012" id="Testing Gift Katana">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -696,7 +696,7 @@
          <Index>0x228</Index>
       </Texture>
    </Object>
-   <Object type="0x241" id="Testing Gift Katana Tier">
+   <Object type="0x1013" id="Testing Gift Katana Tier">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -710,7 +710,7 @@
          <Index>0x21c</Index>
       </Texture>
    </Object>
-   <Object type="0xbb5" id="Testing Gift Katana Vani">
+   <Object type="0x1014" id="Testing Gift Katana Vani">
       <Group>Testing Gifts Weapon</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -724,7 +724,7 @@
          <Index>0x42d</Index>
       </Texture>
    </Object>
-   <Object type="0x22a" id="Testing Gift Rogue">
+   <Object type="0x1015" id="Testing Gift Rogue">
       <Group>Testing Gifts Class</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -740,7 +740,7 @@
       <DeathSound>player/rogue_death</DeathSound>
       <MaxHitPoints>100000</MaxHitPoints>
    </Object>
-   <Object type="0x22b" id="Testing Gift Archer">
+   <Object type="0x1016" id="Testing Gift Archer">
       <Group>Testing Gifts Class</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -756,7 +756,7 @@
       <DeathSound>player/archer_death</DeathSound>
       <MaxHitPoints>100000</MaxHitPoints>
    </Object>
-   <Object type="0x22c" id="Testing Gift Wizard">
+   <Object type="0x1017" id="Testing Gift Wizard">
       <Group>Testing Gifts Class</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -772,7 +772,7 @@
       <DeathSound>player/wizard_death</DeathSound>
       <MaxHitPoints>100000</MaxHitPoints>
    </Object>
-   <Object type="0x22d" id="Testing Gift Priest">
+   <Object type="0x1018" id="Testing Gift Priest">
       <Group>Testing Gifts Class</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -788,7 +788,7 @@
       <DeathSound>player/priest_death</DeathSound>
       <MaxHitPoints>100000</MaxHitPoints>
    </Object>
-   <Object type="0x22e" id="Testing Gift Warrior">
+   <Object type="0x1019" id="Testing Gift Warrior">
       <Group>Testing Gifts Class</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -804,7 +804,7 @@
       <DeathSound>player/warrior_death</DeathSound>
       <MaxHitPoints>100000</MaxHitPoints>
    </Object>
-   <Object type="0x22f" id="Testing Gift Knight">
+   <Object type="0x101a" id="Testing Gift Knight">
       <Group>Testing Gifts Class</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -820,7 +820,7 @@
       <DeathSound>player/knight_death</DeathSound>
       <MaxHitPoints>100000</MaxHitPoints>
    </Object>
-   <Object type="0x230" id="Testing Gift Paladin">
+   <Object type="0x101b" id="Testing Gift Paladin">
       <Group>Testing Gifts Class</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -836,7 +836,7 @@
       <DeathSound>player/paladin_death</DeathSound>
       <MaxHitPoints>100000</MaxHitPoints>
    </Object>
-   <Object type="0x231" id="Testing Gift Assassin">
+   <Object type="0x101c" id="Testing Gift Assassin">
       <Group>Testing Gifts Class</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -852,7 +852,7 @@
       <DeathSound>player/rogue_death</DeathSound>
       <MaxHitPoints>100000</MaxHitPoints>
    </Object>
-   <Object type="0x232" id="Testing Gift Necromancer">
+   <Object type="0x101d" id="Testing Gift Necromancer">
       <Group>Testing Gifts Class</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -868,7 +868,7 @@
       <DeathSound>player/wizard_death</DeathSound>
       <MaxHitPoints>100000</MaxHitPoints>
    </Object>
-   <Object type="0x233" id="Testing Gift Huntress">
+   <Object type="0x101e" id="Testing Gift Huntress">
       <Group>Testing Gifts Class</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -884,7 +884,7 @@
       <DeathSound>player/archer_death</DeathSound>
       <MaxHitPoints>100000</MaxHitPoints>
    </Object>
-   <Object type="0x234" id="Testing Gift Mystic">
+   <Object type="0x101f" id="Testing Gift Mystic">
       <Group>Testing Gifts Class</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -900,7 +900,7 @@
       <DeathSound>player/wizard_death</DeathSound>
       <MaxHitPoints>100000</MaxHitPoints>
    </Object>
-   <Object type="0x235" id="Testing Gift Trickster">
+   <Object type="0x1020" id="Testing Gift Trickster">
       <Group>Testing Gifts Class</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -916,7 +916,7 @@
       <DeathSound>player/rogue_death</DeathSound>
       <MaxHitPoints>100000</MaxHitPoints>
    </Object>
-   <Object type="0x236" id="Testing Gift Sorcerer">
+   <Object type="0x1021" id="Testing Gift Sorcerer">
       <Group>Testing Gifts Class</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -932,7 +932,7 @@
       <DeathSound>player/priest_death</DeathSound>
       <MaxHitPoints>100000</MaxHitPoints>
    </Object>
-   <Object type="0x237" id="Testing Gift Ninja">
+   <Object type="0x1022" id="Testing Gift Ninja">
       <Group>Testing Gifts Class</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -948,7 +948,7 @@
       <DeathSound>player/rogue_death</DeathSound>
       <MaxHitPoints>100000</MaxHitPoints>
    </Object>
-   <Object type="0x699" id="Testing Gift Cloak">
+   <Object type="0x1023" id="Testing Gift Cloak">
       <Group>Testing Gifts Ability</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -962,7 +962,7 @@
          <Index>0x26</Index>
       </Texture>
    </Object>
-   <Object type="0x69a" id="Testing Gift Quiver">
+   <Object type="0x1024" id="Testing Gift Quiver">
       <Group>Testing Gifts Ability</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -976,7 +976,7 @@
          <Index>0x36</Index>
       </Texture>
    </Object>
-   <Object type="0x69b" id="Testing Gift Spell">
+   <Object type="0x1025" id="Testing Gift Spell">
       <Group>Testing Gifts Ability</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -990,7 +990,7 @@
          <Index>0x46</Index>
       </Texture>
    </Object>
-   <Object type="0x69c" id="Testing Gift Tome">
+   <Object type="0x1026" id="Testing Gift Tome">
       <Group>Testing Gifts Ability</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1004,7 +1004,7 @@
          <Index>0x56</Index>
       </Texture>
    </Object>
-   <Object type="0x69d" id="Testing Gift Helm">
+   <Object type="0x1027" id="Testing Gift Helm">
       <Group>Testing Gifts Ability</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1018,7 +1018,7 @@
          <Index>0x66</Index>
       </Texture>
    </Object>
-   <Object type="0x69e" id="Testing Gift Shield">
+   <Object type="0x1028" id="Testing Gift Shield">
       <Group>Testing Gifts Ability</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1032,7 +1032,7 @@
          <Index>0x76</Index>
       </Texture>
    </Object>
-   <Object type="0x69f" id="Testing Gift Seal">
+   <Object type="0x1029" id="Testing Gift Seal">
       <Group>Testing Gifts Ability</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1046,7 +1046,7 @@
          <Index>0xa6</Index>
       </Texture>
    </Object>
-   <Object type="0x6a0" id="Testing Gift Poison">
+   <Object type="0x102a" id="Testing Gift Poison">
       <Group>Testing Gifts Ability</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1060,7 +1060,7 @@
          <Index>0x86</Index>
       </Texture>
    </Object>
-   <Object type="0x6a1" id="Testing Gift Skull">
+   <Object type="0x102b" id="Testing Gift Skull">
       <Group>Testing Gifts Ability</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1074,7 +1074,7 @@
          <Index>0x06</Index>
       </Texture>
    </Object>
-   <Object type="0x6a2" id="Testing Gift Trap">
+   <Object type="0x102c" id="Testing Gift Trap">
       <Group>Testing Gifts Ability</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1088,7 +1088,7 @@
          <Index>0x16</Index>
       </Texture>
    </Object>
-   <Object type="0x6a3" id="Testing Gift Orb">
+   <Object type="0x102d" id="Testing Gift Orb">
       <Group>Testing Gifts Ability</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1102,7 +1102,7 @@
          <Index>0x96</Index>
       </Texture>
    </Object>
-   <Object type="0x6a4" id="Testing Gift Prism">
+   <Object type="0x102e" id="Testing Gift Prism">
       <Group>Testing Gifts Ability</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1116,7 +1116,7 @@
          <Index>0xb6</Index>
       </Texture>
    </Object>
-   <Object type="0x6a5" id="Testing Gift Scepter">
+   <Object type="0x102f" id="Testing Gift Scepter">
       <Group>Testing Gifts Ability</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1130,7 +1130,7 @@
          <Index>0xc6</Index>
       </Texture>
    </Object>
-   <Object type="0x6a6" id="Testing Gift Shuriken">
+   <Object type="0x1030" id="Testing Gift Shuriken">
       <Group>Testing Gifts Ability</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1144,7 +1144,7 @@
          <Index>0x231</Index>
       </Texture>
    </Object>
-   <Object type="0x154" id="Testing Gift ST Oryx">
+   <Object type="0x1031" id="Testing Gift ST Oryx">
       <Group>Testing Gifts ST</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1158,7 +1158,7 @@
          <Index>00</Index>
       </AnimatedTexture>
    </Object>
-   <Object type="0x155" id="Testing Gift ST Geb">
+   <Object type="0x1032" id="Testing Gift ST Geb">
       <Group>Testing Gifts ST</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1172,7 +1172,7 @@
          <Index>01</Index>
       </AnimatedTexture>
    </Object>
-   <Object type="0x156" id="Testing Gift ST Phylactery">
+   <Object type="0x1033" id="Testing Gift ST Phylactery">
       <Group>Testing Gifts ST</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1186,7 +1186,7 @@
          <Index>02</Index>
       </AnimatedTexture>
    </Object>
-   <Object type="0x157" id="Testing Gift ST Swoll">
+   <Object type="0x1034" id="Testing Gift ST Swoll">
       <Group>Testing Gifts ST</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1200,7 +1200,7 @@
          <Index>03</Index>
       </AnimatedTexture>
    </Object>
-   <Object type="0x158" id="Testing Gift ST Skuld">
+   <Object type="0x1035" id="Testing Gift ST Skuld">
       <Group>Testing Gifts ST</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1214,7 +1214,7 @@
          <Index>04</Index>
       </AnimatedTexture>
    </Object>
-   <Object type="0x159" id="Testing Gift ST Twilight">
+   <Object type="0x1036" id="Testing Gift ST Twilight">
       <Group>Testing Gifts ST</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -1228,7 +1228,7 @@
          <Index>05</Index>
       </AnimatedTexture>
    </Object>
-   <Object type="0x15a" id="Testing Gift ST Dragon">
+   <Object type="0x1037" id="Testing Gift ST Dragon">
       <Group>Testing Gifts ST</Group>
       <Class>Character</Class>
       <StasisImmune/>

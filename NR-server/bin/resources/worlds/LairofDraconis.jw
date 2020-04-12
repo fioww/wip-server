@@ -7,6 +7,6 @@
 "blocking":1,
 "restrictTp":true,
 "showDisplays":false,
-"portals":[0x753E],
+"portals":[0x0a81],
 "maps":["draconis.jm"],
 "music":["wtReaper"]}

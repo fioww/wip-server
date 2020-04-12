@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x750d" id="ft orb">
+   <Object type="0x090f" id="ft orb">
       <DisplayId>Fortune Teller Orb</DisplayId>
       <Class>Character</Class>
       <Texture>
@@ -79,7 +79,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x750e" id="ft big orb">
+   <Object type="0x0910" id="ft big orb">
       <DisplayId>Fortune Teller Crystal Ball</DisplayId>
       <Class>Character</Class>
       <Texture>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0dc3" id="Mixcoatl the Masked God">
+   <Object type="0x0632" id="Mixcoatl the Masked God">
       <Enemy/>
       <Class>Character</Class>
       <Group>Jungle Men</Group>
@@ -80,7 +80,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0dc4" id="Boss Totem">
+   <Object type="0x0633" id="Boss Totem">
       <Enemy/>
       <Class>GameObject</Class>
       <AnimatedTexture>
@@ -101,7 +101,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x0dc5" id="Jungle Spear">
+   <Object type="0x0634" id="Jungle Spear">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -137,7 +137,7 @@
       <Size>80</Size>
       <ShadowSize>60</ShadowSize>
    </Object>
-   <Object type="0x0dc6" id="Jungle Brazier">
+   <Object type="0x0635" id="Jungle Brazier">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -168,7 +168,7 @@
       <OccupySquare/>
       <ShadowSize>80</ShadowSize>
    </Object>
-   <Object type="0x0dc7" id="Jungle Summoner">
+   <Object type="0x0636" id="Jungle Summoner">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -181,7 +181,7 @@
       <XpMult>0</XpMult>
       <NoMiniMap/>
    </Object>
-   <Object type="0x0dc8" id="Jungle Invisible Solid">
+   <Object type="0x0637" id="Jungle Invisible Solid">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment3</File>
@@ -193,7 +193,7 @@
       <Size>0</Size>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x0dc9" id="Jungle Grass Solid">
+   <Object type="0x0638" id="Jungle Grass Solid">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -216,7 +216,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x0dca" id="Jungle Flowers Solid">
+   <Object type="0x0639" id="Jungle Flowers Solid">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -241,7 +241,7 @@
       <NoMiniMap/>
       <Static/>
    </Object>
-   <Object type="0x0dcb" id="Jungle Plant Unbreakable">
+   <Object type="0x063a" id="Jungle Plant Unbreakable">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -262,7 +262,7 @@
       <HitSound>monster/trees_hit</HitSound>
       <DeathSound>monster/tress_death</DeathSound>
    </Object>
-   <Object type="0x0dcc" id="Totem Spirit">
+   <Object type="0x063b" id="Totem Spirit">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -286,7 +286,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0dcd" id="Jungle Totem">
+   <Object type="0x063c" id="Jungle Totem">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -307,7 +307,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0dce" id="Basilisk Baby">
+   <Object type="0x063d" id="Basilisk Baby">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -331,7 +331,7 @@
          <Frequency>5</Frequency>
       </Projectile>
    </Object>
-   <Object type="0x0dcf" id="Basilisk">
+   <Object type="0x063e" id="Basilisk">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -382,7 +382,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x0dd0" id="Mask Shaman">
+   <Object type="0x063f" id="Mask Shaman">
       <Enemy/>
       <Class>Character</Class>
       <Group>Jungle Men</Group>
@@ -406,7 +406,7 @@
          <ConditionEffect duration="1">Quiet</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0dd1" id="Mask Warrior">
+   <Object type="0x0640" id="Mask Warrior">
       <Enemy/>
       <Class>Character</Class>
       <Group>Jungle Men</Group>
@@ -428,7 +428,7 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0dd2" id="Mask Hunter">
+   <Object type="0x0641" id="Mask Hunter">
       <Enemy/>
       <Class>Character</Class>
       <Group>Jungle Men</Group>
@@ -450,7 +450,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0dd3" id="Jungle Fire">
+   <Object type="0x0642" id="Jungle Fire">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -522,7 +522,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0dd4" id="Jungle Ground Flowers">
+   <Object type="0x0643" id="Jungle Ground Flowers">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -545,7 +545,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x0dd5" id="Jungle Grass">
+   <Object type="0x0644" id="Jungle Grass">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -567,7 +567,7 @@
       </RandomTexture>
       <Static/>
    </Object>
-   <Object type="0x0dd6" id="Jungle Flower Bright">
+   <Object type="0x0645" id="Jungle Flower Bright">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -581,7 +581,7 @@
       </RandomTexture>
       <Static/>
    </Object>
-   <Object type="0x0dd7" id="Jungle Plant">
+   <Object type="0x0646" id="Jungle Plant">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -599,7 +599,7 @@
       </RandomTexture>
       <Static/>
    </Object>
-   <Object type="0x0dd8" id="Jungle Plant Solid">
+   <Object type="0x0647" id="Jungle Plant Solid">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -624,7 +624,7 @@
       <HitSound>monster/trees_hit</HitSound>
       <DeathSound>monster/tress_death</DeathSound>
    </Object>
-   <Object type="0x0dd9" id="Jungle Rock">
+   <Object type="0x0648" id="Jungle Rock">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -649,7 +649,7 @@
       <HitSound>monster/trees_hit</HitSound>
       <DeathSound>monster/tress_death</DeathSound>
    </Object>
-   <Object type="0x0dda" id="Jungle Tree Big">
+   <Object type="0x0649" id="Jungle Tree Big">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>

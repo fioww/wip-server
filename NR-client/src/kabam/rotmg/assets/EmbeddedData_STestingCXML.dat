@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x50a" id="atst Wall">
+   <Object type="0x0fc4" id="atst Wall">
       <Class>Wall</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -21,7 +21,7 @@
       <EnemyOccupySquare/>
       <BlocksSight/>
    </Object>
-   <Object type="0x741a" id="atst Low Range Obj">
+   <Object type="0x0fc5" id="atst Low Range Obj">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -41,7 +41,7 @@
          <LifetimeMS>5000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7fef" id="Pumpkin Master">
+   <Object type="0x0fc6" id="Pumpkin Master">
       <DisplayId>The Pumpkin Master</DisplayId>
       <Class>Character</Class>
       <Group>Master</Group>
@@ -115,7 +115,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x7ff0" id="PumpkinHomingFire">
+   <Object type="0x0fc7" id="PumpkinHomingFire">
       <DisplayId>Cursed Blast</DisplayId>
       <Class>Character</Class>
       <Group>Statue</Group>
@@ -146,7 +146,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x7ff1" id="Pumpkin Huntress Statue">
+   <Object type="0x0fc8" id="Pumpkin Huntress Statue">
       <DisplayId>Huntress Pumpkin</DisplayId>
       <Class>Character</Class>
       <Group>Statues</Group>
@@ -161,7 +161,7 @@
       <XpMult>0</XpMult>
       <NoMiniMap/>
    </Object>
-   <Object type="0x7ff2" id="Pumpkin Huntress">
+   <Object type="0x0fc9" id="Pumpkin Huntress">
       <DisplayId>Huntress Pumpkin</DisplayId>
       <Class>Character</Class>
       <Group>Statues</Group>
@@ -199,7 +199,7 @@
          <ArmorPiercing/>
       </Projectile>
    </Object>
-   <Object type="0x7ff3" id="Pumpkin Huntress Trap">
+   <Object type="0x0fca" id="Pumpkin Huntress Trap">
       <DisplayId>Encore Trap</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -223,7 +223,7 @@
          <ConditionEffect duration="3">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7ff4" id="Pumpkin Trickster Statue">
+   <Object type="0x0fcb" id="Pumpkin Trickster Statue">
       <DisplayId>Trickster Puppet</DisplayId>
       <Class>Character</Class>
       <Group>Statues</Group>
@@ -238,7 +238,7 @@
       <XpMult>0</XpMult>
       <NoMiniMap/>
    </Object>
-   <Object type="0x7ff5" id="Pumpkin Trickster">
+   <Object type="0x0fcc" id="Pumpkin Trickster">
       <DisplayId>Trickster Pumpkin</DisplayId>
       <Class>Character</Class>
       <Group>Statues</Group>
@@ -274,7 +274,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x7ff6" id="Pumpkin Puppet Clone">
+   <Object type="0x0fcd" id="Pumpkin Puppet Clone">
       <DisplayId>Pumpkin Clone</DisplayId>
       <Class>Character</Class>
       <Group>Statues</Group>
@@ -299,7 +299,7 @@
          <Size>70</Size>
       </Projectile>
    </Object>
-   <Object type="0x7ff7" id="Confuse Pumpkin Statue">
+   <Object type="0x0fce" id="Confuse Pumpkin Statue">
       <DisplayId>Puppet of Chaos</DisplayId>
       <Class>Character</Class>
       <Group>Statues</Group>
@@ -314,7 +314,7 @@
       <XpMult>0</XpMult>
       <NoMiniMap/>
    </Object>
-   <Object type="0x7ff8" id="Pumpkin Confuse Puppet">
+   <Object type="0x0fcf" id="Pumpkin Confuse Puppet">
       <DisplayId>Pumpkin of Chaos</DisplayId>
       <Class>Character</Class>
       <Group>Statue</Group>
@@ -363,7 +363,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x7ff9" id="Bleed Pumpkin Puppet Statue">
+   <Object type="0x0fd0" id="Bleed Pumpkin Puppet Statue">
       <DisplayId>Puppet of Pain</DisplayId>
       <Class>Character</Class>
       <Group>Statues</Group>
@@ -378,7 +378,7 @@
       <XpMult>0</XpMult>
       <NoMiniMap/>
    </Object>
-   <Object type="0x7ffa" id="Bleed Pumpkin Puppet">
+   <Object type="0x0fd1" id="Bleed Pumpkin Puppet">
       <DisplayId>Pumpkin of Pain</DisplayId>
       <Class>Character</Class>
       <Group>Statue</Group>

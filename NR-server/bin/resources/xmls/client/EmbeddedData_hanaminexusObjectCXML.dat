@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0xfa0" id="Sakura Tree Mid">
+   <Object type="0x067a" id="Sakura Tree Mid">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -40,7 +40,7 @@
       <ShadowSize>110</ShadowSize>
       <OccupySquare/>
    </Object>
-   <Object type="0xfa1" id="Sakura Tree Small">
+   <Object type="0x067b" id="Sakura Tree Small">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -71,7 +71,7 @@
       <ShadowSize>80</ShadowSize>
       <OccupySquare/>
    </Object>
-   <Object type="0x0fa2" id="Sakura Petals Fallen">
+   <Object type="0x067c" id="Sakura Petals Fallen">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -98,7 +98,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0xfa3" id="Sakura Tree Big 1">
+   <Object type="0x067d" id="Sakura Tree Big 1">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment16x16</File>
@@ -109,7 +109,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xfa4" id="Sakura Tree Big 2">
+   <Object type="0x067e" id="Sakura Tree Big 2">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment16x16</File>
@@ -120,7 +120,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xfa5" id="Sakura Tree Big 3">
+   <Object type="0x067f" id="Sakura Tree Big 3">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment16x16</File>
@@ -131,7 +131,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x0fa6" id="Sakura Pink Snow">
+   <Object type="0x0680" id="Sakura Pink Snow">
       <Class>Character</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -143,7 +143,7 @@
       <StasisImmune/>
       <Effect color="0xFABFE2" rate="4" life="3" lifeVariance=".25" speed="0" speedVariance=".5" size="5" rise="-.6" riseVariance=".1" rangeX="5" rangeY="5">CustomParticles</Effect>
    </Object>
-   <Object type="0xfa7" id="Hanami White Butterfly">
+   <Object type="0x0681" id="Hanami White Butterfly">
       <Class>Character</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -171,7 +171,7 @@
       <ShadowSize>30</ShadowSize>
       <NoMiniMap/>
    </Object>
-   <Object type="0xfa8" id="Hanami Orange Butterfly">
+   <Object type="0x0682" id="Hanami Orange Butterfly">
       <Class>Character</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -199,7 +199,7 @@
       <ShadowSize>30</ShadowSize>
       <NoMiniMap/>
    </Object>
-   <Object type="0xfa9" id="Hanami Purple Butterfly">
+   <Object type="0x0683" id="Hanami Purple Butterfly">
       <Class>Character</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -227,7 +227,7 @@
       <ShadowSize>30</ShadowSize>
       <NoMiniMap/>
    </Object>
-   <Object type="0xfaa" id="Hanami Cyan Butterfly">
+   <Object type="0x0684" id="Hanami Cyan Butterfly">
       <Class>Character</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -255,7 +255,7 @@
       <ShadowSize>30</ShadowSize>
       <NoMiniMap/>
    </Object>
-   <Object type="0xfab" id="Onsen Steam">
+   <Object type="0x0685" id="Onsen Steam">
       <Class>Character</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -267,7 +267,7 @@
       <StasisImmune/>
       <Effect color="0xffffff" rate="2" life="3" lifeVariance=".1" speed="0" speedVariance=".5" size="10" sizeVariance="10" rise="1" riseVariance=".1" rangeX="5" rangeY="5">CustomParticles</Effect>
    </Object>
-   <Object type="0xfac" id="Onsen Sign">
+   <Object type="0x0686" id="Onsen Sign">
       <Class>GameObject</Class>
       <Model>Sign</Model>
       <Texture>
@@ -277,7 +277,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x0fad" id="Sakura Petals Fallen few">
+   <Object type="0x0687" id="Sakura Petals Fallen few">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -304,7 +304,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x0fae" id="Sakura Petals Fallen many">
+   <Object type="0x0688" id="Sakura Petals Fallen many">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -331,7 +331,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0xfaf" id="Hanami Lantern 1">
+   <Object type="0x0689" id="Hanami Lantern 1">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -343,7 +343,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xfb0" id="Hanami Lantern 2">
+   <Object type="0x068a" id="Hanami Lantern 2">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -355,7 +355,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xfb1" id="Hanami Lantern 3">
+   <Object type="0x068b" id="Hanami Lantern 3">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -367,7 +367,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xfb2" id="Japanese Shrine Lantern Big">
+   <Object type="0x068c" id="Japanese Shrine Lantern Big">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment16x16</File>
@@ -378,7 +378,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xfb3" id="Hanami Red Butterfly">
+   <Object type="0x068d" id="Hanami Red Butterfly">
       <Class>Character</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -406,7 +406,7 @@
       <ShadowSize>30</ShadowSize>
       <NoMiniMap/>
    </Object>
-   <Object type="0xfb4" id="Sakura Tree Huge Trunk">
+   <Object type="0x068e" id="Sakura Tree Huge Trunk">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment16x16</File>
@@ -417,7 +417,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xfb5" id="Sakura Tree Floating Branch 1">
+   <Object type="0x068f" id="Sakura Tree Floating Branch 1">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment16x16</File>
@@ -430,7 +430,7 @@
       <Z>1.6</Z>
       <Flying/>
    </Object>
-   <Object type="0xfb6" id="Sakura Tree Floating Branch 2">
+   <Object type="0x0690" id="Sakura Tree Floating Branch 2">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment16x16</File>
@@ -443,7 +443,7 @@
       <Z>1.6</Z>
       <Flying/>
    </Object>
-   <Object type="0xfb7" id="Sakura Tree Floating Branch 3">
+   <Object type="0x0691" id="Sakura Tree Floating Branch 3">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment16x16</File>
@@ -456,7 +456,7 @@
       <Z>1.5</Z>
       <Flying/>
    </Object>
-   <Object type="0xfb8" id="Sakura Tree Floating Branch 4">
+   <Object type="0x0692" id="Sakura Tree Floating Branch 4">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment16x16</File>
@@ -469,7 +469,7 @@
       <Z>1.4</Z>
       <Flying/>
    </Object>
-   <Object type="0xfb9" id="Sakura Tree Floating Branch 5">
+   <Object type="0x0693" id="Sakura Tree Floating Branch 5">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment16x16</File>
@@ -482,7 +482,7 @@
       <Z>1.3</Z>
       <Flying/>
    </Object>
-   <Object type="0xfba" id="Sakura Tree Floating Branch mini 1">
+   <Object type="0x0694" id="Sakura Tree Floating Branch mini 1">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -495,7 +495,7 @@
       <Z>1.6</Z>
       <Flying/>
    </Object>
-   <Object type="0xfbb" id="Sakura Tree Floating Branch mini 2">
+   <Object type="0x0695" id="Sakura Tree Floating Branch mini 2">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -508,7 +508,7 @@
       <Z>1.6</Z>
       <Flying/>
    </Object>
-   <Object type="0xfbc" id="Sakura Tree Floating Branch mini 3">
+   <Object type="0x0696" id="Sakura Tree Floating Branch mini 3">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -521,7 +521,7 @@
       <Z>1.5</Z>
       <Flying/>
    </Object>
-   <Object type="0xfbd" id="Sakura Tree Floating Branch mini 4">
+   <Object type="0x0697" id="Sakura Tree Floating Branch mini 4">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -534,7 +534,7 @@
       <Z>1.6</Z>
       <Flying/>
    </Object>
-   <Object type="0xfbe" id="Japanese Shrine Lantern 2">
+   <Object type="0x0698" id="Japanese Shrine Lantern 2">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment16x16</File>
@@ -545,7 +545,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xfbf" id="Onsen Healing Factor">
+   <Object type="0x0699" id="Onsen Healing Factor">
       <Class>Character</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -556,7 +556,7 @@
       <NoMiniMap/>
       <StasisImmune/>
    </Object>
-   <Object type="0xfc0" id="Onsen Healing Canceller">
+   <Object type="0x069a" id="Onsen Healing Canceller">
       <Class>Character</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -567,7 +567,7 @@
       <ShadowSize>0</ShadowSize>
       <StasisImmune/>
    </Object>
-   <Object type="0xfc1" id="Nexus Crier on Onsen">
+   <Object type="0x069b" id="Nexus Crier on Onsen">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -577,7 +577,7 @@
       <ShadowSize>0</ShadowSize>
       <Static/>
    </Object>
-   <Object type="0xfc2" id="Japanese Rock Big">
+   <Object type="0x069c" id="Japanese Rock Big">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -598,7 +598,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xfc3" id="Sakura Tree Big Trunk">
+   <Object type="0x069d" id="Sakura Tree Big Trunk">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment16x16</File>
@@ -609,7 +609,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xfc4" id="Jizo Statue">
+   <Object type="0x069e" id="Jizo Statue">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment16x16</File>
@@ -620,7 +620,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xfc5" id="Sakura Tree Sapling">
+   <Object type="0x069f" id="Sakura Tree Sapling">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -631,7 +631,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xfc6" id="Onsen Steam Particler">
+   <Object type="0x06a0" id="Onsen Steam Particler">
       <Class>Character</Class>
       <Texture>
          <File>HanamiParts</File>
@@ -649,7 +649,7 @@
       <NoMiniMap/>
       <StasisImmune/>
    </Object>
-   <Object type="0xfc8" id="Japanese Stone Monument">
+   <Object type="0x06a1" id="Japanese Stone Monument">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment16x16</File>
@@ -660,7 +660,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xfc9" id="Hanami Big Sharp Plant">
+   <Object type="0x06a2" id="Hanami Big Sharp Plant">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -680,7 +680,7 @@
       <ShadowSize>0</ShadowSize>
       <Static/>
    </Object>
-   <Object type="0xfca" id="Hanami Flower">
+   <Object type="0x06a3" id="Hanami Flower">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -700,7 +700,7 @@
       <ShadowSize>0</ShadowSize>
       <Static/>
    </Object>
-   <Object type="0xfcb" id="Hanami Plant">
+   <Object type="0x06a4" id="Hanami Plant">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -720,7 +720,7 @@
       <ShadowSize>0</ShadowSize>
       <Static/>
    </Object>
-   <Object type="0xfcc" id="Hanami Grass">
+   <Object type="0x06a5" id="Hanami Grass">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -745,7 +745,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xfcd" id="Hanami Flower 2">
+   <Object type="0x06a6" id="Hanami Flower 2">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -765,7 +765,7 @@
       <ShadowSize>0</ShadowSize>
       <Static/>
    </Object>
-   <Object type="0xfce" id="Hanami Flower 3">
+   <Object type="0x06a7" id="Hanami Flower 3">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -785,7 +785,7 @@
       <ShadowSize>0</ShadowSize>
       <Static/>
    </Object>
-   <Object type="0xfcf" id="Onsen Map Spawner">
+   <Object type="0x06a8" id="Onsen Map Spawner">
       <Class>Character</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -796,7 +796,7 @@
       <NoMiniMap/>
       <StasisImmune/>
    </Object>
-   <Object type="0xff0" id="Onsen Wall">
+   <Object type="0x06a9" id="Onsen Wall">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -817,7 +817,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xff1" id="Onsen Waterfall">
+   <Object type="0x06aa" id="Onsen Waterfall">
       <Class>DoubleWall</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -863,7 +863,7 @@
       <EnemyOccupySquare/>
       <BlocksSight/>
    </Object>
-   <Object type="0x0ff2" id="Onsen Ripple UpL">
+   <Object type="0x06ab" id="Onsen Ripple UpL">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -895,7 +895,7 @@
       </AltTexture>
       <DrawOnGround/>
    </Object>
-   <Object type="0x0ff3" id="Onsen Ripple UpM">
+   <Object type="0x06ac" id="Onsen Ripple UpM">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -927,7 +927,7 @@
       </AltTexture>
       <DrawOnGround/>
    </Object>
-   <Object type="0x0ff4" id="Onsen Ripple UpR">
+   <Object type="0x06ad" id="Onsen Ripple UpR">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -959,7 +959,7 @@
       </AltTexture>
       <DrawOnGround/>
    </Object>
-   <Object type="0x0ff5" id="Onsen Ripple DownL">
+   <Object type="0x06ae" id="Onsen Ripple DownL">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -991,7 +991,7 @@
       </AltTexture>
       <DrawOnGround/>
    </Object>
-   <Object type="0x0ff6" id="Onsen Ripple DownM">
+   <Object type="0x06af" id="Onsen Ripple DownM">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -1023,7 +1023,7 @@
       </AltTexture>
       <DrawOnGround/>
    </Object>
-   <Object type="0x0ff7" id="Onsen Ripple DownR">
+   <Object type="0x06b0" id="Onsen Ripple DownR">
       <Class>GameObject</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>
@@ -1055,7 +1055,7 @@
       </AltTexture>
       <DrawOnGround/>
    </Object>
-   <Object type="0xff8" id="Onsen Wall Double">
+   <Object type="0x06b1" id="Onsen Wall Double">
       <Class>DoubleWall</Class>
       <Top>
          <Texture>
@@ -1075,7 +1075,7 @@
       <EnemyOccupySquare/>
       <BlocksSight/>
    </Object>
-   <Object type="0xff9" id="Onsen Waterfall Single">
+   <Object type="0x06b2" id="Onsen Waterfall Single">
       <Class>Wall</Class>
       <Texture>
          <File>SakuraEnvironment8x8</File>

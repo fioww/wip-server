@@ -7,6 +7,6 @@
 "blocking":1,
 "restrictTp":false,
 "showDisplays":false,
-"portals":[0x071a],
+"portals":[0x0a61],
 "maps":["UDL1.jm", "UDL2.jm", "UDL3.jm", "UDL4.jm", "UDL5.jm"],
 "music":["udl"]}

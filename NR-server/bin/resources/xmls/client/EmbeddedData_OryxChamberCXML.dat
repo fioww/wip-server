@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x1740" id="Oryx the Mad God 1">
+   <Object type="0x09a9" id="Oryx the Mad God 1">
       <DisplayId>Oryx the Mad God</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -170,7 +170,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x1741" id="Assassin of Oryx">
+   <Object type="0x09aa" id="Assassin of Oryx">
       <Class>Character</Class>
       <Enemy/>
       <AnimatedTexture>
@@ -203,7 +203,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x1742" id="White Moon">
+   <Object type="0x09ab" id="White Moon">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -233,7 +233,7 @@
          <Size>80</Size>
       </Projectile>
    </Object>
-   <Object type="0x1743" id="White Planet">
+   <Object type="0x09ac" id="White Planet">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -313,7 +313,7 @@
          <Size>80</Size>
       </Projectile>
    </Object>
-   <Object type="0x1744" id="Chase Element">
+   <Object type="0x09ad" id="Chase Element">
       <Group>AttackType</Group>
       <Class>Character</Class>
       <MaxHitPoints>100000</MaxHitPoints>
@@ -361,7 +361,7 @@
       <Size>80</Size>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x1745" id="Black Moon">
+   <Object type="0x09ae" id="Black Moon">
       <Group>Vagrant Repellent</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -385,7 +385,7 @@
          <ConditionEffect duration="4">Dazed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x1746" id="Black Planet">
+   <Object type="0x09af" id="Black Planet">
       <Group>Vagrant Repellent</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -415,7 +415,7 @@
          <Size>80</Size>
       </Projectile>
    </Object>
-   <Object type="0x1747" id="Anti-Spectator">
+   <Object type="0x09b0" id="Anti-Spectator">
       <Group>Vagrant Repellent</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -438,7 +438,7 @@
          <Size>90</Size>
       </Projectile>
    </Object>
-   <Object type="0x1748" id="Ring Element">
+   <Object type="0x09b1" id="Ring Element">
       <Group>AttackType</Group>
       <Class>Character</Class>
       <MaxHitPoints>100000</MaxHitPoints>
@@ -469,7 +469,7 @@
       <Size>50</Size>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x1749" id="Minion of Oryx">
+   <Object type="0x09b2" id="Minion of Oryx">
       <Group>Minions of Oryx</Group>
       <Class>Character</Class>
       <MaxHitPoints>4000</MaxHitPoints>
@@ -504,7 +504,7 @@
       <Size>100</Size>
       <XpMult>0.3</XpMult>
    </Object>
-   <Object type="0x174a" id="Guardian Element 1">
+   <Object type="0x09b3" id="Guardian Element 1">
       <DisplayId>Guardian Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -537,7 +537,7 @@
       <Size>130</Size>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x174b" id="Guardian Element 2">
+   <Object type="0x09b4" id="Guardian Element 2">
       <DisplayId>Guardian Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -570,7 +570,7 @@
       <Size>130</Size>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x174c" id="Guardian Element 3">
+   <Object type="0x09b5" id="Guardian Element 3">
       <DisplayId>Guardian Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -603,7 +603,7 @@
       <Size>130</Size>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x174d" id="Guardian Element 4">
+   <Object type="0x09b6" id="Guardian Element 4">
       <DisplayId>Guardian Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -636,7 +636,7 @@
       <Size>130</Size>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x174e" id="Outer Guardian Element">
+   <Object type="0x09b7" id="Outer Guardian Element">
       <DisplayId>Guardian Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>

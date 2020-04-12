@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0715" id="Decoy">
+   <Object type="0x0014" id="Decoy">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>players</File>
@@ -11,7 +11,7 @@
       <CanUseTexes/>
       <NoMiniMap/>
    </Object>
-   <Object type="0x1400" id="Purple Drake">
+   <Object type="0x0015" id="Purple Drake">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar216x8</File>
@@ -21,7 +21,7 @@
       <Z>0.2</Z>
       <NoMiniMap/>
    </Object>
-   <Object type="0x1401" id="White Drake">
+   <Object type="0x0016" id="White Drake">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar216x8</File>
@@ -31,7 +31,7 @@
       <Z>0.2</Z>
       <NoMiniMap/>
    </Object>
-   <Object type="0x1402" id="Blue Drake">
+   <Object type="0x0017" id="Blue Drake">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar216x8</File>
@@ -41,7 +41,7 @@
       <Z>0.2</Z>
       <NoMiniMap/>
    </Object>
-   <Object type="0x1403" id="Orange Drake">
+   <Object type="0x0018" id="Orange Drake">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar216x8</File>
@@ -51,7 +51,7 @@
       <Z>0.2</Z>
       <NoMiniMap/>
    </Object>
-   <Object type="0x1404" id="Green Drake">
+   <Object type="0x0019" id="Green Drake">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar216x8</File>
@@ -61,7 +61,7 @@
       <Z>0.2</Z>
       <NoMiniMap/>
    </Object>
-   <Object type="0x1405" id="Yellow Drake">
+   <Object type="0x001a" id="Yellow Drake">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar216x8</File>
@@ -71,7 +71,7 @@
       <Z>0.2</Z>
       <NoMiniMap/>
    </Object>
-   <Object type="0x1406" id="Red Drake">
+   <Object type="0x001b" id="Red Drake">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars16x8rEncounters</File>
@@ -81,7 +81,7 @@
       <Z>0.2</Z>
       <NoMiniMap/>
    </Object>
-   <Object type="0x1407" id="Lil Firecracker">
+   <Object type="0x001c" id="Lil Firecracker">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -92,7 +92,7 @@
       <ShadowSize>0</ShadowSize>
       <Size>0</Size>
    </Object>
-   <Object type="0x1408" id="Big Firecracker">
+   <Object type="0x001d" id="Big Firecracker">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -103,7 +103,7 @@
       <ShadowSize>0</ShadowSize>
       <Size>0</Size>
    </Object>
-   <Object type="0x1409" id="Spirit Prism Bomb">
+   <Object type="0x001e" id="Spirit Prism Bomb">
       <Class>Character</Class>
       <Texture>
          <File>lofiObj3</File>
@@ -128,7 +128,7 @@
       <ShadowSize>70</ShadowSize>
       <Size>100</Size>
    </Object>
-   <Object type="0x140a" id="Sand Castle">
+   <Object type="0x001f" id="Sand Castle">
       <Class>Character</Class>
       <RandomTexture>
          <Texture>
@@ -173,7 +173,7 @@
       <MinSize>80</MinSize>
       <MaxSize>120</MaxSize>
    </Object>
-   <Object type="0x140b" id="Rock Candy Grenade">
+   <Object type="0x0020" id="Rock Candy Grenade">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -184,7 +184,7 @@
       <ShadowSize>0</ShadowSize>
       <Size>0</Size>
    </Object>
-   <Object type="0x140d" id="Trick in a Box">
+   <Object type="0x0021" id="Trick in a Box">
       <Class>Character</Class>
       <Texture>
          <File>d3LofiObjEmbed</File>
@@ -196,7 +196,7 @@
       <MinSize>100</MinSize>
       <MaxSize>120</MaxSize>
    </Object>
-   <Object type="0x140e" id="Trick in a Box Normal">
+   <Object type="0x0022" id="Trick in a Box Normal">
       <DisplayId>Trick in a Box</DisplayId>
       <Class>Character</Class>
       <Texture>
@@ -241,7 +241,7 @@
       <MinSize>100</MinSize>
       <MaxSize>120</MaxSize>
    </Object>
-   <Object type="0x140f" id="Trick in a Box Oryx">
+   <Object type="0x0023" id="Trick in a Box Oryx">
       <DisplayId>Oryx in a Box</DisplayId>
       <Class>Character</Class>
       <Texture>
@@ -286,7 +286,7 @@
       <MinSize>100</MinSize>
       <MaxSize>120</MaxSize>
    </Object>
-   <Object type="0x1410" id="Fake White Bag">
+   <Object type="0x0024" id="Fake White Bag">
       <Class>Character</Class>
       <NoMiniMap/>
       <Texture>
@@ -296,7 +296,7 @@
       <Size>80</Size>
       <Sound id="0">weapon/firework</Sound>
    </Object>
-   <Object type="0x6b6" id="Dragon Chain 1">
+   <Object type="0x0025" id="Dragon Chain 1">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar16x8</File>
@@ -305,7 +305,7 @@
       <Size>85</Size>
       <NoMiniMap/>
    </Object>
-   <Object type="0x6b7" id="Dragon Chain 2">
+   <Object type="0x0026" id="Dragon Chain 2">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar16x8</File>
@@ -314,7 +314,7 @@
       <Size>70</Size>
       <NoMiniMap/>
    </Object>
-   <Object type="0x6b8" id="Dragon Chain 3">
+   <Object type="0x0027" id="Dragon Chain 3">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar16x8</File>
@@ -323,7 +323,7 @@
       <Size>55</Size>
       <NoMiniMap/>
    </Object>
-   <Object type="0x6b9" id="Dragon Chain 4">
+   <Object type="0x0028" id="Dragon Chain 4">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar16x8</File>

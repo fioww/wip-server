@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0d00" id="Native Fire Sprite">
+   <Object type="0x0dc6" id="Native Fire Sprite">
       <Group>Native Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -22,7 +22,7 @@
          <LifetimeMS>4000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d01" id="Native Ice Sprite">
+   <Object type="0x0dc7" id="Native Ice Sprite">
       <Group>Native Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -45,7 +45,7 @@
          <ConditionEffect duration="1.6">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0d02" id="Native Magic Sprite">
+   <Object type="0x0dc8" id="Native Magic Sprite">
       <Group>Native Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -67,7 +67,7 @@
          <Size>120</Size>
       </Projectile>
    </Object>
-   <Object type="0x0d03" id="Native Nature Sprite">
+   <Object type="0x0dc9" id="Native Nature Sprite">
       <Group>Native Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -88,7 +88,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d04" id="Native Darkness Sprite">
+   <Object type="0x0dca" id="Native Darkness Sprite">
       <Group>Native Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -109,7 +109,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d05" id="Native Sprite God">
+   <Object type="0x0dcb" id="Native Sprite God">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -139,7 +139,7 @@
          <ParticleTrail/>
       </Projectile>
    </Object>
-   <Object type="0x0d06" id="Limon the Sprite God">
+   <Object type="0x0dcc" id="Limon the Sprite God">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar216x16</File>
@@ -167,7 +167,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object id="Limon GroundShot" type="0x0bb0">
+   <Object id="Limon GroundShot" type="0x0dcd">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -176,7 +176,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object id="Limon SafeGround" type="0x0bb1">
+   <Object id="Limon SafeGround" type="0x0dce">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -185,7 +185,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x0d07" id="Limon Element 1">
+   <Object type="0x0dcf" id="Limon Element 1">
       <DisplayId>Limon Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -208,7 +208,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x0d08" id="Limon Element 2">
+   <Object type="0x0dd0" id="Limon Element 2">
       <DisplayId>Limon Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -231,7 +231,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x0d09" id="Limon Element 3">
+   <Object type="0x0dd1" id="Limon Element 3">
       <DisplayId>Limon Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -254,7 +254,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x0d0a" id="Limon Element 4">
+   <Object type="0x0dd2" id="Limon Element 4">
       <DisplayId>Limon Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>

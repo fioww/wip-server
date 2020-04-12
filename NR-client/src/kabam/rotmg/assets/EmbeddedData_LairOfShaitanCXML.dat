@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x741b" id="md1 Head of Shaitan">
+   <Object type="0x07b9" id="md1 Head of Shaitan">
       <DisplayId>Shaitan the Advisor</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -88,7 +88,7 @@
          <Size>125</Size>
       </Projectile>
    </Object>
-   <Object type="0x741c" id="md1 Right Hand of Shaitan">
+   <Object type="0x07ba" id="md1 Right Hand of Shaitan">
       <DisplayId>Right Hand of Shaitan</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -151,7 +151,7 @@
          <ConditionEffect duration="0.5">Paralyzed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x742c" id="md1 Right Smashing Hand">
+   <Object type="0x07bb" id="md1 Right Smashing Hand">
       <DisplayId>Right Hand of Shaitan</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -179,7 +179,7 @@
          <ConditionEffect duration="1.0">Quiet</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x741d" id="md1 Left Hand of Shaitan">
+   <Object type="0x07bc" id="md1 Left Hand of Shaitan">
       <DisplayId>Left Hand of Shaitan</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -242,7 +242,7 @@
          <ConditionEffect duration="0.5">Paralyzed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x742b" id="md1 Left Smashing Hand">
+   <Object type="0x07bd" id="md1 Left Smashing Hand">
       <DisplayId>Left Hand of Shaitan</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -270,7 +270,7 @@
          <ConditionEffect duration="1.0">Quiet</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x741e" id="md1 Right Hand spawner">
+   <Object type="0x07be" id="md1 Right Hand spawner">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -284,7 +284,7 @@
       <StunImmune/>
       <ParalyzeImmune/>
    </Object>
-   <Object type="0x741f" id="md1 Left Hand spawner">
+   <Object type="0x07bf" id="md1 Left Hand spawner">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -296,7 +296,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x7420" id="md1 Governor">
+   <Object type="0x07c0" id="md1 Governor">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -308,7 +308,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x7429" id="md1 LeftHandSmash">
+   <Object type="0x07c1" id="md1 LeftHandSmash">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -320,7 +320,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x742a" id="md1 RightHandSmash">
+   <Object type="0x07c2" id="md1 RightHandSmash">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -332,7 +332,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x7424" id="md1 Right Burst">
+   <Object type="0x07c3" id="md1 Right Burst">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -344,7 +344,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x7425" id="md1 Mid Burst">
+   <Object type="0x07c4" id="md1 Mid Burst">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -356,7 +356,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x7426" id="md1 Left Burst">
+   <Object type="0x07c5" id="md1 Left Burst">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -368,7 +368,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x7430" id="md1 Lava Makers">
+   <Object type="0x07c6" id="md1 Lava Makers">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -380,7 +380,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x7421" id="md1 Right Hand of Shaitan fake">
+   <Object type="0x07c7" id="md1 Right Hand of Shaitan fake">
       <DisplayId>Right Hand of Shaitan</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -420,7 +420,7 @@
          </Texture>
       </AltTexture>
    </Object>
-   <Object type="0x7422" id="md1 Left Hand of Shaitan fake">
+   <Object type="0x07c8" id="md1 Left Hand of Shaitan fake">
       <DisplayId>Left Hand of Shaitan</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -460,7 +460,7 @@
          </Texture>
       </AltTexture>
    </Object>
-   <Object type="0x7423" id="md1 CreepyHands">
+   <Object type="0x07c9" id="md1 CreepyHands">
       <DisplayId>Creepy Small Hands</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -486,7 +486,7 @@
          <ConditionEffect duration="0.5">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7428" id="md1 CreepyHead">
+   <Object type="0x07ca" id="md1 CreepyHead">
       <DisplayId>Creepy Small Heads</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -511,7 +511,7 @@
          <ArmorPiercing/>
       </Projectile>
    </Object>
-   <Object type="0x7431" id="md1 Loot Balloon Shaitan">
+   <Object type="0x07cb" id="md1 Loot Balloon Shaitan">
       <Class>Character</Class>
       <Enemy/>
       <Texture>

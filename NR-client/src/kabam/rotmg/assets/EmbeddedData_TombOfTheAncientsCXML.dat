@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0d40" id="Tomb Portal of Cowardice">
+   <Object type="0x1105" id="Tomb Portal of Cowardice">
       <DisplayId>Portal of Cowardice</DisplayId>
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -11,7 +11,7 @@
       </Texture>
       <SpawnPoint/>
    </Object>
-   <Object type="0x0d10" id="Red Swarm Minions">
+   <Object type="0x1106" id="Red Swarm Minions">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -34,7 +34,7 @@
          <Size>140</Size>
       </Projectile>
    </Object>
-   <Object type="0x0d11" id="Red Swarm Masters">
+   <Object type="0x1107" id="Red Swarm Masters">
       <Group>Tomb Swarms</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -77,7 +77,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0d12" id="Yellow Swarm Minions">
+   <Object type="0x1108" id="Yellow Swarm Minions">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -100,7 +100,7 @@
          <Size>140</Size>
       </Projectile>
    </Object>
-   <Object type="0x0d13" id="Yellow Swarm Masters">
+   <Object type="0x1109" id="Yellow Swarm Masters">
       <Group>Tomb Swarms</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -147,7 +147,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0d14" id="Blue Swarm Minions">
+   <Object type="0x110a" id="Blue Swarm Minions">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -170,7 +170,7 @@
          <Size>140</Size>
       </Projectile>
    </Object>
-   <Object type="0x0d15" id="Blue Swarm Masters">
+   <Object type="0x110b" id="Blue Swarm Masters">
       <Group>Tomb Swarms</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -215,7 +215,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0d16" id="Jackal Warrior">
+   <Object type="0x110c" id="Jackal Warrior">
       <Group>Tomb Jackals</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -236,7 +236,7 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d17" id="Jackal Veteran">
+   <Object type="0x110d" id="Jackal Veteran">
       <Group>Tomb Jackals</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -257,7 +257,7 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d18" id="Jackal Assassin">
+   <Object type="0x110e" id="Jackal Assassin">
       <Group>Tomb Jackals</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -279,7 +279,7 @@
          <Wavy/>
       </Projectile>
    </Object>
-   <Object type="0x0d19" id="Jackal Lord">
+   <Object type="0x110f" id="Jackal Lord">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -299,7 +299,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d1a" id="Bloated Mummy">
+   <Object type="0x1110" id="Bloated Mummy">
       <Group>Tomb Mummies</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -329,7 +329,7 @@
          <Size>140</Size>
       </Projectile>
    </Object>
-   <Object type="0x0d1b" id="Scarab">
+   <Object type="0x1111" id="Scarab">
       <Group>Scarabs</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -358,7 +358,7 @@
          <Size>40</Size>
       </Projectile>
    </Object>
-   <Object type="0x0d1c" id="Sphinx Artifact 1">
+   <Object type="0x1112" id="Sphinx Artifact 1">
       <DisplayId>Sphinx Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -387,7 +387,7 @@
          <ConditionEffect duration="5">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0d1d" id="Sphinx Artifact 2">
+   <Object type="0x1113" id="Sphinx Artifact 2">
       <DisplayId>Sphinx Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -416,7 +416,7 @@
          <ConditionEffect duration="5">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0d1e" id="Sphinx Artifact 3">
+   <Object type="0x1114" id="Sphinx Artifact 3">
       <DisplayId>Sphinx Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -445,7 +445,7 @@
          <ConditionEffect duration="5">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0d1f" id="Nile Artifact 1">
+   <Object type="0x1115" id="Nile Artifact 1">
       <DisplayId>Nile Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -465,7 +465,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d20" id="Nile Artifact 2">
+   <Object type="0x1116" id="Nile Artifact 2">
       <DisplayId>Nile Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -485,7 +485,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d21" id="Nile Artifact 3">
+   <Object type="0x1117" id="Nile Artifact 3">
       <DisplayId>Nile Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -505,7 +505,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d22" id="Pyramid Artifact 1">
+   <Object type="0x1118" id="Pyramid Artifact 1">
       <DisplayId>Pyramid Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -526,7 +526,7 @@
          <ConditionEffect duration="2">Weak</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0d23" id="Pyramid Artifact 2">
+   <Object type="0x1119" id="Pyramid Artifact 2">
       <DisplayId>Pyramid Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -547,7 +547,7 @@
          <ConditionEffect duration="2">Weak</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0d24" id="Pyramid Artifact 3">
+   <Object type="0x111a" id="Pyramid Artifact 3">
       <DisplayId>Pyramid Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -568,7 +568,7 @@
          <ConditionEffect duration="2">Weak</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0d25" id="Tomb Boss Anchor">
+   <Object type="0x111b" id="Tomb Boss Anchor">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar216x16</File>
@@ -579,7 +579,7 @@
       <XpMult>0.0</XpMult>
       <NoMiniMap/>
    </Object>
-   <Object type="0x0d3d" id="Tomb Support Statue">
+   <Object type="0x111c" id="Tomb Support Statue">
       <Group>Tomb Boss Statues</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -591,7 +591,7 @@
          <Index>0x3a</Index>
       </Texture>
    </Object>
-   <Object type="0x0d3e" id="Tomb Attacker Statue">
+   <Object type="0x111d" id="Tomb Attacker Statue">
       <Group>Tomb Boss Statues</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -603,7 +603,7 @@
          <Index>0x3b</Index>
       </Texture>
    </Object>
-   <Object type="0x0d3f" id="Tomb Defender Statue">
+   <Object type="0x111e" id="Tomb Defender Statue">
       <Group>Tomb Boss Statues</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -615,7 +615,7 @@
          <Index>0x3c</Index>
       </Texture>
    </Object>
-   <Object type="0x0d26" id="Tomb Support">
+   <Object type="0x111f" id="Tomb Support">
       <Group>Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -713,7 +713,7 @@
          <Size>120</Size>
       </Projectile>
    </Object>
-   <Object type="0x0d27" id="Tomb Attacker">
+   <Object type="0x1120" id="Tomb Attacker">
       <Group>Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -783,7 +783,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0d28" id="Tomb Defender">
+   <Object type="0x1121" id="Tomb Defender">
       <Group>Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -845,7 +845,7 @@
          <Size>200</Size>
       </Projectile>
    </Object>
-   <Object type="0x0d29" id="Active Sarcophagus">
+   <Object type="0x1122" id="Active Sarcophagus">
       <Group>Support Beam</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -874,7 +874,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0d2a" id="Beam Priest">
+   <Object type="0x1123" id="Beam Priest">
       <Group>Beam Priests</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -907,7 +907,7 @@
          <Size>120</Size>
       </Projectile>
    </Object>
-   <Object type="0x0d2b" id="Beam Priestess">
+   <Object type="0x1124" id="Beam Priestess">
       <Group>Beam Priests</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -940,7 +940,7 @@
          <Size>120</Size>
       </Projectile>
    </Object>
-   <Object type="0x0d2c" id="Inactive Sarcophagus">
+   <Object type="0x1125" id="Inactive Sarcophagus">
       <Group>Tomb Treasure</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -957,7 +957,7 @@
       <XpMult>0.0</XpMult>
       <God/>
    </Object>
-   <Object type="0x0d2d" id="Canopic Jar 1">
+   <Object type="0x1126" id="Canopic Jar 1">
       <Group>Tomb Treasure</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -974,7 +974,7 @@
       <XpMult>0.0</XpMult>
       <God/>
    </Object>
-   <Object type="0x0d2e" id="Canopic Jar 2">
+   <Object type="0x1127" id="Canopic Jar 2">
       <Group>Tomb Treasure</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -991,7 +991,7 @@
       <XpMult>0.0</XpMult>
       <God/>
    </Object>
-   <Object type="0x0d2f" id="Canopic Jar 3">
+   <Object type="0x1128" id="Canopic Jar 3">
       <Group>Tomb Treasure</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1008,7 +1008,7 @@
       <XpMult>0.0</XpMult>
       <God/>
    </Object>
-   <Object type="0x0d30" id="Canopic Jar 4">
+   <Object type="0x1129" id="Canopic Jar 4">
       <Group>Tomb Treasure</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1025,7 +1025,7 @@
       <XpMult>0.0</XpMult>
       <God/>
    </Object>
-   <Object type="0x0d31" id="Tomb Fire Turret">
+   <Object type="0x112a" id="Tomb Fire Turret">
       <Group>Tomb Turrets</Group>
       <Class>GameObject</Class>
       <Model>Obelisk</Model>
@@ -1049,7 +1049,7 @@
          <ConditionEffect duration="2">Armor Broken</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0d32" id="Tomb Thunder Turret">
+   <Object type="0x112b" id="Tomb Thunder Turret">
       <Group>Tomb Turrets</Group>
       <Class>GameObject</Class>
       <Model>Obelisk</Model>
@@ -1074,7 +1074,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0d33" id="Tomb Frost Turret">
+   <Object type="0x112c" id="Tomb Frost Turret">
       <Group>Tomb Turrets</Group>
       <Class>GameObject</Class>
       <Model>Obelisk</Model>
@@ -1097,7 +1097,7 @@
          <ConditionEffect duration="2">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0d34" id="Center Tomb Fire Turret">
+   <Object type="0x112d" id="Center Tomb Fire Turret">
       <DisplayId>Tomb Fire Turret</DisplayId>
       <Group>Center Tomb Turrets</Group>
       <Class>GameObject</Class>
@@ -1122,7 +1122,7 @@
          <ConditionEffect duration="2">Armor Broken</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0d35" id="Center Tomb Thunder Turret">
+   <Object type="0x112e" id="Center Tomb Thunder Turret">
       <DisplayId>Tomb Thunder Turret</DisplayId>
       <Group>Center Tomb Turrets</Group>
       <Class>GameObject</Class>
@@ -1148,7 +1148,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0d36" id="Center Tomb Frost Turret">
+   <Object type="0x112f" id="Center Tomb Frost Turret">
       <DisplayId>Tomb Frost Turret</DisplayId>
       <Group>Center Tomb Turrets</Group>
       <Class>GameObject</Class>
@@ -1173,7 +1173,7 @@
          <Size>60</Size>
       </Projectile>
    </Object>
-   <Object type="0x0d37" id="Tomb Bomb Trap Switch">
+   <Object type="0x1130" id="Tomb Bomb Trap Switch">
       <DisplayId>Switch</DisplayId>
       <Group>Tomb Traps</Group>
       <Class>Character</Class>
@@ -1195,7 +1195,7 @@
       <DrawOnGround/>
       <NoMiniMap/>
    </Object>
-   <Object type="0x0d38" id="Tomb Bomb Trap">
+   <Object type="0x1131" id="Tomb Bomb Trap">
       <Group>Tomb Traps</Group>
       <Class>Character</Class>
       <Enemy/>
@@ -1209,7 +1209,7 @@
       <DrawOnGround/>
       <NoMiniMap/>
    </Object>
-   <Object type="0x0d39" id="Deactivated Tomb Bomb Trap">
+   <Object type="0x1132" id="Deactivated Tomb Bomb Trap">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar28x8</File>
@@ -1219,7 +1219,7 @@
       <DrawOnGround/>
       <NoMiniMap/>
    </Object>
-   <Object type="0x0d0f" id="Deactivated Tomb Bomb Trap Switch">
+   <Object type="0x1133" id="Deactivated Tomb Bomb Trap Switch">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar28x8</File>
@@ -1229,7 +1229,7 @@
       <DrawOnGround/>
       <NoMiniMap/>
    </Object>
-   <Object type="0x0d3a" id="Eagle Sentry">
+   <Object type="0x1134" id="Eagle Sentry">
       <Group>Tomb Gang</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1266,7 +1266,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x0d3b" id="Jackal Priest">
+   <Object type="0x1135" id="Jackal Priest">
       <Group>Tomb Gang</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1296,7 +1296,7 @@
          <Size>120</Size>
       </Projectile>
    </Object>
-   <Object type="0x0d3c" id="Lion Archer">
+   <Object type="0x1136" id="Lion Archer">
       <Group>Tomb Gang</Group>
       <Enemy/>
       <Class>Character</Class>

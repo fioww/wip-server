@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x1700" id="Fishman Warrior">
+   <Object type="0x0979" id="Fishman Warrior">
       <Group>Ocean Trench</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -37,7 +37,7 @@
       <Size>100</Size>
       <Defense>52</Defense>
    </Object>
-   <Object type="0x1701" id="Deep Sea Beast Spawner">
+   <Object type="0x097a" id="Deep Sea Beast Spawner">
       <Group>Ocean Trench</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -56,7 +56,7 @@
       <Size>110</Size>
       <Defense>50</Defense>
    </Object>
-   <Object type="0x1702" id="Coral Bomb Big">
+   <Object type="0x097b" id="Coral Bomb Big">
       <Group>Ocean Trench</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -80,7 +80,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x1703" id="Coral Bomb Small">
+   <Object type="0x097c" id="Coral Bomb Small">
       <Group>Ocean Trench</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -104,7 +104,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x1704" id="Thessal the Mermaid Goddess Wounded">
+   <Object type="0x097d" id="Thessal the Mermaid Goddess Wounded">
       <DisplayId>Thessal the Mermaid Goddess</DisplayId>
       <Group>Ocean Trench</Group>
       <Enemy/>
@@ -162,7 +162,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x1705" id="Coral Gift">
+   <Object type="0x097e" id="Coral Gift">
       <Group>Ocean Trench</Group>
       <Class>Character</Class>
       <StasisImmune/>
@@ -191,7 +191,7 @@
       <HitSound>monster/djinn_hit</HitSound>
       <DeathSound>monster/flaming_skulls_death</DeathSound>
    </Object>
-   <Object type="0x1706" id="Thessal the Mermaid Goddess">
+   <Object type="0x097f" id="Thessal the Mermaid Goddess">
       <Group>Ocean Trench</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -248,7 +248,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x1554" id="Thessal Dropper">
+   <Object type="0x0980" id="Thessal Dropper">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -261,7 +261,7 @@
       <NoMiniMap/>
       <StasisImmune/>
    </Object>
-   <Object type="0x1707" id="Deep Sea Beast">
+   <Object type="0x0981" id="Deep Sea Beast">
       <Group>Ocean Trench</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -312,7 +312,7 @@
          <ConditionEffect duration="2">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x1708" id="Fishman">
+   <Object type="0x0982" id="Fishman">
       <Group>Ocean Trench</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -341,7 +341,7 @@
       <Size>100</Size>
       <Defense>40</Defense>
    </Object>
-   <Object type="0x1709" id="Sea Horse">
+   <Object type="0x0983" id="Sea Horse">
       <Group>Ocean Trench</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -366,7 +366,7 @@
       <Size>60</Size>
       <Defense>20</Defense>
    </Object>
-   <Object type="0x170a" id="Sea Mare">
+   <Object type="0x0984" id="Sea Mare">
       <Group>Ocean Trench</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -396,7 +396,7 @@
       <Size>100</Size>
       <Defense>60</Defense>
    </Object>
-   <Object type="0x170b" id="Ink Bubble">
+   <Object type="0x0985" id="Ink Bubble">
       <Group>Ocean Trench</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -421,7 +421,7 @@
       <Defense>40</Defense>
       <XpMult>0</XpMult>
    </Object>
-   <Object type="0x170c" id="Giant Squid">
+   <Object type="0x0986" id="Giant Squid">
       <Group>Ocean Trench</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -450,7 +450,7 @@
       <Size>120</Size>
       <Defense>40</Defense>
    </Object>
-   <Object type="0x170d" id="Sea Slurp Home">
+   <Object type="0x0987" id="Sea Slurp Home">
       <Group>Ocean Trench</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -485,7 +485,7 @@
       <Size>120</Size>
       <Defense>40</Defense>
    </Object>
-   <Object type="0x170e" id="Grey Sea Slurp">
+   <Object type="0x0988" id="Grey Sea Slurp">
       <Group>Ocean Trench</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -514,7 +514,7 @@
       <Size>100</Size>
       <Defense>20</Defense>
    </Object>
-   <Object type="0x170f" id="OceanRock">
+   <Object type="0x0989" id="OceanRock">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -533,7 +533,7 @@
       <Size>80</Size>
       <Static/>
    </Object>
-   <Object type="0x1710" id="Seaweed">
+   <Object type="0x098a" id="Seaweed">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -548,7 +548,7 @@
       <Size>80</Size>
       <Static/>
    </Object>
-   <Object type="0x1711" id="Coral">
+   <Object type="0x098b" id="Coral">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -571,7 +571,7 @@
       <Size>80</Size>
       <Static/>
    </Object>
-   <Object type="0x1712" id="Ocean Wall2">
+   <Object type="0x098c" id="Ocean Wall2">
       <Class>Wall</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -591,7 +591,7 @@
       <EnemyOccupySquare/>
       <BlocksSight/>
    </Object>
-   <Object type="0x1713" id="Ocean Wall">
+   <Object type="0x098d" id="Ocean Wall">
       <Class>Wall</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -611,7 +611,7 @@
       <EnemyOccupySquare/>
       <BlocksSight/>
    </Object>
-   <Object type="0x0731" id="Ocean Vent">
+   <Object type="0x098e" id="Ocean Vent">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Effect>Vent</Effect>

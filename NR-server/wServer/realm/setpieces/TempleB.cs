@@ -97,14 +97,14 @@ namespace wServer.realm.setpieces
 
             //Boss & Chest
 
-            Container container = new Container(world.Manager, 0x0501, null, false);
+            Container container = new Container(world.Manager, 0x0080, null, false);
             Item[] items = chest.GetLoots(world.Manager, 3, 8).ToArray();
             for (int i = 0; i < items.Length; i++)
                 container.Inventory[i] = items[i];
             container.Move(pos.X + bas + 11.5f, pos.Y + bas + 11.5f);
             world.EnterWorld(container);
 
-            Entity snake = Entity.Resolve(world.Manager, 0x0dc2);
+            Entity snake = Entity.Resolve(world.Manager, 0x0717);
             snake.Move(pos.X + bas + 11.5f, pos.Y + bas + 11.5f);
             world.EnterWorld(snake);
         }

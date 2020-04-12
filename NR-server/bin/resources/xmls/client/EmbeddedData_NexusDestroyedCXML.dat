@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x718a" id="destnex Observer 1">
+   <Object type="0x011a8" id="destnex Observer 1">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -13,7 +13,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x718b" id="destnex Observer 2">
+   <Object type="0x0911" id="destnex Observer 2">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -25,7 +25,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x718c" id="destnex Observer 3">
+   <Object type="0x0912" id="destnex Observer 3">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -37,7 +37,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x718d" id="destnex Observer 4">
+   <Object type="0x0913" id="destnex Observer 4">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -49,7 +49,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x718e" id="Oryx the Mad God Deux">
+   <Object type="0x0914" id="Oryx the Mad God Deux">
       <DisplayId>Oryx the Mad God</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -136,7 +136,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x718f" id="Murderous Megamoth Deux">
+   <Object type="0x0915" id="Murderous Megamoth Deux">
       <DisplayId>Murderous Megamoth</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -174,7 +174,7 @@
          <ConditionEffect duration="3">Weak</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x722d" id="Mini Larva Deux">
+   <Object type="0x0916" id="Mini Larva Deux">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -195,7 +195,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x719a" id="Lord Ruthven Deux">
+   <Object type="0x0917" id="Lord Ruthven Deux">
       <Enemy/>
       <Class>Character</Class>
       <Group>Group1</Group>
@@ -245,7 +245,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x719b" id="NM Green Dragon God Deux">
+   <Object type="0x0918" id="NM Green Dragon God Deux">
       <DisplayId>Limoz the Veridian Dragon</DisplayId>
       <Group>Group3</Group>
       <Enemy/>
@@ -349,7 +349,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x719c" id="Archdemon Malphas Deux">
+   <Object type="0x0919" id="Archdemon Malphas Deux">
       <Group>Group2</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -403,7 +403,7 @@
          <ConditionEffect duration="4">Weak</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x723b" id="Malphas Protector Deux">
+   <Object type="0x091a" id="Malphas Protector Deux">
       <Group>Demons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -424,7 +424,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x723a" id="Malphas Flamer Deux">
+   <Object type="0x091b" id="Malphas Flamer Deux">
       <Group>Flamers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -449,7 +449,7 @@
       <Defense>6</Defense>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x719d" id="Stheno the Snake Queen Deux">
+   <Object type="0x091c" id="Stheno the Snake Queen Deux">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar216x16</File>
@@ -486,7 +486,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x723e" id="Stheno Pet Deux">
+   <Object type="0x091d" id="Stheno Pet Deux">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars16x16dEncounters</File>
@@ -510,7 +510,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x723f" id="Stheno Swarm Deux">
+   <Object type="0x091e" id="Stheno Swarm Deux">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8dEncounters</File>
@@ -533,7 +533,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x719e" id="Golden Oryx Effigy Deux">
+   <Object type="0x0920" id="Golden Oryx Effigy Deux">
       <Class>Character</Class>
       <Enemy/>
       <XpMult>0.0</XpMult>
@@ -579,7 +579,7 @@
          <Size>150</Size>
       </Projectile>
    </Object>
-   <Object type="0x723d" id="Treasure Oryx Defender Deux">
+   <Object type="0x0921" id="Treasure Oryx Defender Deux">
       <Class>Character</Class>
       <Enemy/>
       <AnimatedTexture>
@@ -600,7 +600,7 @@
          <Size>125</Size>
       </Projectile>
    </Object>
-   <Object type="0x723c" id="Gold Planet Deux">
+   <Object type="0x0922" id="Gold Planet Deux">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rEncounters</File>
@@ -631,7 +631,7 @@
       </Projectile>
       f
    </Object>
-   <Object type="0x719f" id="destnex Paladin Grave">
+   <Object type="0x0923" id="destnex Paladin Grave">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -640,7 +640,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x720a" id="destnex Warrior Grave">
+   <Object type="0x0924" id="destnex Warrior Grave">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -649,7 +649,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x720b" id="destnex Priest Grave">
+   <Object type="0x0925" id="destnex Priest Grave">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -658,7 +658,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x720c" id="destnex Knight Grave">
+   <Object type="0x0926" id="destnex Knight Grave">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -667,7 +667,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x720d" id="destnex Necromancer Grave">
+   <Object type="0x0927" id="destnex Necromancer Grave">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -676,7 +676,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x720e" id="destnex Assassin Grave">
+   <Object type="0x0928" id="destnex Assassin Grave">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -685,7 +685,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x720f" id="destnex Sorcerer Grave">
+   <Object type="0x0929" id="destnex Sorcerer Grave">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -694,7 +694,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x721a" id="destnex Trickster Grave">
+   <Object type="0x092a" id="destnex Trickster Grave">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -703,7 +703,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x721b" id="destnex Wizard Grave">
+   <Object type="0x092b" id="destnex Wizard Grave">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -712,7 +712,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x721c" id="destnex Rogue Grave">
+   <Object type="0x092c" id="destnex Rogue Grave">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -721,7 +721,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x721d" id="destnex Mystic Grave">
+   <Object type="0x092d" id="destnex Mystic Grave">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -730,7 +730,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x721e" id="destnex Huntress Grave">
+   <Object type="0x092e" id="destnex Huntress Grave">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -739,7 +739,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x721f" id="destnex Archer Grave">
+   <Object type="0x092f" id="destnex Archer Grave">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -748,7 +748,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x722a" id="destnex Ninja Grave">
+   <Object type="0x0930" id="destnex Ninja Grave">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -757,7 +757,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x722b" id="NM Green Dragon Shield Deux">
+   <Object type="0x0931" id="NM Green Dragon Shield Deux">
       <DisplayId>Abundant Shield</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -777,7 +777,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x722c" id="NM Green Dragon Shield Counter Deux">
+   <Object type="0x0932" id="NM Green Dragon Shield Counter Deux">
       <DisplayId>Abundant Shield</DisplayId>
       <Enemy/>
       <Class>Character</Class>

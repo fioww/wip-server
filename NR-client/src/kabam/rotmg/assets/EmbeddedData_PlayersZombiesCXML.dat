@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x5e6a" id="Zombie Archer">
+   <Object type="0x0a4a" id="Zombie Archer">
       <Class>Character</Class>
       <Group>Zombies</Group>
       <Enemy/>
@@ -24,7 +24,7 @@
          <Size>75</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e6b" id="Zombie Warrior">
+   <Object type="0x0a4b" id="Zombie Warrior">
       <Class>Character</Class>
       <Group>Zombies</Group>
       <Enemy/>
@@ -47,7 +47,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e6c" id="Zombie Wizard">
+   <Object type="0x0a4c" id="Zombie Wizard">
       <Class>Character</Class>
       <Group>Zombies</Group>
       <Enemy/>
@@ -72,7 +72,7 @@
          <Frequency>2</Frequency>
       </Projectile>
    </Object>
-   <Object type="0x5e6d" id="Zombie Rogue">
+   <Object type="0x0a4d" id="Zombie Rogue">
       <Class>Character</Class>
       <Group>Zombies</Group>
       <Enemy/>
@@ -95,7 +95,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e6e" id="Zombie Priest">
+   <Object type="0x0a4e" id="Zombie Priest">
       <Class>Character</Class>
       <Group>Zombies</Group>
       <Enemy/>
@@ -118,7 +118,7 @@
          <Size>50</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e6f" id="Zombie Knight">
+   <Object type="0x0a4f" id="Zombie Knight">
       <Class>Character</Class>
       <Group>Zombies</Group>
       <Enemy/>
@@ -141,7 +141,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e7a" id="Zombie Paladin">
+   <Object type="0x0a50" id="Zombie Paladin">
       <Class>Character</Class>
       <Group>Zombies</Group>
       <Enemy/>
@@ -164,7 +164,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e7b" id="Zombie Necromancer">
+   <Object type="0x0a51" id="Zombie Necromancer">
       <Class>Character</Class>
       <Group>Zombies</Group>
       <Enemy/>
@@ -189,7 +189,7 @@
          <Frequency>2</Frequency>
       </Projectile>
    </Object>
-   <Object type="0x5e7c" id="Zombie Huntress">
+   <Object type="0x0a52" id="Zombie Huntress">
       <Class>Character</Class>
       <Group>Zombies</Group>
       <Enemy/>
@@ -212,7 +212,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e7d" id="Zombie Mystic">
+   <Object type="0x0a53" id="Zombie Mystic">
       <Class>Character</Class>
       <Group>Zombies</Group>
       <Enemy/>
@@ -237,7 +237,7 @@
          <Frequency>2</Frequency>
       </Projectile>
    </Object>
-   <Object type="0x5e7e" id="Zombie Trickster">
+   <Object type="0x0a54" id="Zombie Trickster">
       <Class>Character</Class>
       <Group>Zombies</Group>
       <Enemy/>
@@ -260,7 +260,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e7f" id="Zombie Sorcerer">
+   <Object type="0x0a55" id="Zombie Sorcerer">
       <Class>Character</Class>
       <Group>Zombies</Group>
       <Enemy/>
@@ -283,7 +283,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e8a" id="Zombie Assassin">
+   <Object type="0x0a56" id="Zombie Assassin">
       <Class>Character</Class>
       <Group>Zombies</Group>
       <Enemy/>
@@ -306,7 +306,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e8b" id="Zombie Ninja">
+   <Object type="0x0a57" id="Zombie Ninja">
       <Class>Character</Class>
       <Group>Zombies</Group>
       <Enemy/>

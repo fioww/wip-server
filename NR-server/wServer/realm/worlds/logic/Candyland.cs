@@ -21,6 +21,7 @@ namespace wServer.realm.worlds.logic
 
             if (IsLimbo) return;
 
+            //to-do
             _candySpawners = Enemies.Values.Where(e => e.ObjectType == 0x5e31);
             _candyBossSpawner = Enemies.Values.SingleOrDefault(e => e.ObjectType == 0x5e43);
 

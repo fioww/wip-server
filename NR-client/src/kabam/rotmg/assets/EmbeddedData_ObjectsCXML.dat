@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0700" id="Dungeon Portal">
+   <Object type="0x0939" id="Dungeon Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <Texture>
@@ -9,7 +9,7 @@
          <Index>0x7c</Index>
       </Texture>
    </Object>
-   <Object type="0x070f" id="Invisible Placeholder">
+   <Object type="0x093a" id="Invisible Placeholder">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar8x8</File>
@@ -18,7 +18,7 @@
       <NoMiniMap/>
       <Size>0</Size>
    </Object>
-   <Object type="0x0711" id="Trap">
+   <Object type="0x093b" id="Trap">
       <Class>Character</Class>
       <Texture>
          <File>lofiEnvironment</File>
@@ -28,7 +28,7 @@
       <Z>-0.2</Z>
       <NoMiniMap/>
    </Object>
-   <Object type="0x0712" id="Nexus Portal">
+   <Object type="0x093c" id="Nexus Portal">
       <Class>Portal</Class>
       <Size>80</Size>
       <IntergamePortal/>
@@ -38,7 +38,7 @@
          <Index>0x3f</Index>
       </Texture>
    </Object>
-   <Object type="0x071c" id="Random Realm Portal">
+   <Object type="0x093d" id="Random Realm Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DungeonName>Random Realm</DungeonName>
@@ -47,7 +47,7 @@
          <Index>0x36</Index>
       </Texture>
    </Object>
-   <Object type="0x0720" id="Vault Portal">
+   <Object type="0x093e" id="Vault Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DungeonName>Vault</DungeonName>
@@ -57,7 +57,7 @@
       </Texture>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x075b" id="Arena Portal">
+   <Object type="0x093f" id="Arena Portal">
       <Class>ArenaPortal</Class>
       <IntergamePortal/>
       <Texture>
@@ -66,7 +66,7 @@
       </Texture>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x0723" id="Gravestone 1">
+   <Object type="0x0940" id="Gravestone 1">
       <Class>GameObject</Class>
       <ShowName/>
       <Texture>
@@ -74,7 +74,7 @@
          <Index>0x6c</Index>
       </Texture>
    </Object>
-   <Object type="0x0724" id="Gravestone 2">
+   <Object type="0x0941" id="Gravestone 2">
       <Class>GameObject</Class>
       <ShowName/>
       <Texture>
@@ -82,7 +82,7 @@
          <Index>0x6d</Index>
       </Texture>
    </Object>
-   <Object type="0x0725" id="Gravestone 3">
+   <Object type="0x0942" id="Gravestone 3">
       <Class>GameObject</Class>
       <ShowName/>
       <Texture>
@@ -90,7 +90,7 @@
          <Index>0x6e</Index>
       </Texture>
    </Object>
-   <Object type="0x0726" id="Gravestone 4">
+   <Object type="0x0943" id="Gravestone 4">
       <Class>GameObject</Class>
       <ShowName/>
       <Texture>
@@ -98,7 +98,7 @@
          <Index>0x6f</Index>
       </Texture>
    </Object>
-   <Object type="0x0727" id="Gravestone 5">
+   <Object type="0x0944" id="Gravestone 5">
       <Class>GameObject</Class>
       <ShowName/>
       <Texture>
@@ -106,7 +106,7 @@
          <Index>0x13</Index>
       </Texture>
    </Object>
-   <Object type="0x0728" id="Gravestone 6">
+   <Object type="0x0945" id="Gravestone 6">
       <Class>GameObject</Class>
       <ShowName/>
       <Texture>
@@ -114,7 +114,7 @@
          <Index>0x14</Index>
       </Texture>
    </Object>
-   <Object type="0x0729" id="Gravestone 7">
+   <Object type="0x0946" id="Gravestone 7">
       <Class>GameObject</Class>
       <ShowName/>
       <Texture>
@@ -122,7 +122,7 @@
          <Index>0x15</Index>
       </Texture>
    </Object>
-   <Object type="0x072a" id="Gravestone 8">
+   <Object type="0x0947" id="Gravestone 8">
       <Class>GameObject</Class>
       <ShowName/>
       <Texture>
@@ -130,7 +130,7 @@
          <Index>0x16</Index>
       </Texture>
    </Object>
-   <Object type="0x072b" id="Gravestone 9">
+   <Object type="0x0948" id="Gravestone 9">
       <Class>GameObject</Class>
       <ShowName/>
       <Texture>
@@ -138,7 +138,7 @@
          <Index>0x17</Index>
       </Texture>
    </Object>
-   <Object type="0x0734" id="Gravestone 10">
+   <Object type="0x0949" id="Gravestone 10">
       <Class>GameObject</Class>
       <ShowName/>
       <Texture>
@@ -146,7 +146,7 @@
          <Index>0x27</Index>
       </Texture>
    </Object>
-   <Object type="0x0735" id="Gravestone 11">
+   <Object type="0x094a" id="Gravestone 11">
       <Class>GameObject</Class>
       <ShowName/>
       <Texture>
@@ -154,7 +154,7 @@
          <Index>0x3d</Index>
       </Texture>
    </Object>
-   <Object type="0x01c7" id="White Fountain">
+   <Object type="0x094b" id="White Fountain">
       <Class>GameObject</Class>
       <Model>Tower</Model>
       <Effect color="0x4165D5">Fountain</Effect>
@@ -163,7 +163,7 @@
          <Index>0x96</Index>
       </Texture>
    </Object>
-   <Object type="0x074f" id="Winter Fountain Frozen">
+   <Object type="0x094c" id="Winter Fountain Frozen">
       <Class>GameObject</Class>
       <Model>Tower</Model>
       <Texture>
@@ -172,7 +172,7 @@
       </Texture>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x0ddb" id="Winter Fountain Snowy">
+   <Object type="0x094d" id="Winter Fountain Snowy">
       <Class>GameObject</Class>
       <Model>Tower</Model>
       <Effect color="0xF0F0FF">FountainSnowy</Effect>
@@ -181,7 +181,7 @@
          <Index>0x96</Index>
       </Texture>
    </Object>
-   <Object type="0x01f0" id="Fountain Placer Center">
+   <Object type="0x094e" id="Fountain Placer Center">
       <Class>Character</Class>
       <Size>0</Size>
       <Texture>
@@ -189,7 +189,7 @@
          <Index>0x96</Index>
       </Texture>
    </Object>
-   <Object type="0x060b" id="Fountain Placer Center Snowy">
+   <Object type="0x094f" id="Fountain Placer Center Snowy">
       <Class>Character</Class>
       <Size>0</Size>
       <Texture>
@@ -197,7 +197,7 @@
          <Index>0x96</Index>
       </Texture>
    </Object>
-   <Object type="0x01ef" id="Halloween Fountain">
+   <Object type="0x0950" id="Halloween Fountain">
       <Class>GameObject</Class>
       <Model>Tower</Model>
       <Effect color="0x91121c">Fountain</Effect>
@@ -207,14 +207,14 @@
       </Texture>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x01ca" id="Merchant">
+   <Object type="0x0951" id="Merchant">
       <Class>Merchant</Class>
       <Texture>
          <File>lofiObj2</File>
          <Index>0x77</Index>
       </Texture>
    </Object>
-   <Object type="0x074e" id="Winter now">
+   <Object type="0x0952" id="Winter now">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -226,7 +226,7 @@
       <StasisImmune/>
       <Effect color="0xFFFFFF" rate="4" life="3" lifeVariance=".25" speed="0" speedVariance=".5" size="5" rise="-.6" riseVariance=".1" rangeX="5" rangeY="5">CustomParticles</Effect>
    </Object>
-   <Object type="0x0755" id="Charachter Changer Maker LF">
+   <Object type="0x0953" id="Charachter Changer Maker LF">
       <Class>Character</Class>
       <Size>0</Size>
       <Texture>
@@ -234,7 +234,7 @@
          <Index>0x18</Index>
       </Texture>
    </Object>
-   <Object type="0x0756" id="Charachter Changer Maker">
+   <Object type="0x0954" id="Charachter Changer Maker">
       <Class>Character</Class>
       <Size>0</Size>
       <Texture>
@@ -242,7 +242,7 @@
          <Index>0x08</Index>
       </Texture>
    </Object>
-   <Object type="0x072f" id="Guild Hall Portal">
+   <Object type="0x0955" id="Guild Hall Portal">
       <Class>GuildHallPortal</Class>
       <IntergamePortal/>
       <DungeonName>Guild Hall</DungeonName>
@@ -252,7 +252,7 @@
       </Texture>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x0736" id="Guild Hall Upgrade 1">
+   <Object type="0x0956" id="Guild Hall Upgrade 1">
       <DisplayId>Guild Hall Upgrade</DisplayId>
       <Class>GuildMerchant</Class>
       <Price>10000</Price>
@@ -266,7 +266,7 @@
       <OccupySquare/>
       <Static/>
    </Object>
-   <Object type="0x0737" id="Guild Hall Upgrade 2">
+   <Object type="0x0957" id="Guild Hall Upgrade 2">
       <DisplayId>Guild Hall Upgrade</DisplayId>
       <Class>GuildMerchant</Class>
       <Price>100000</Price>
@@ -280,7 +280,7 @@
       <OccupySquare/>
       <Static/>
    </Object>
-   <Object type="0x0738" id="Guild Hall Upgrade 3">
+   <Object type="0x0958" id="Guild Hall Upgrade 3">
       <DisplayId>Guild Hall Upgrade</DisplayId>
       <Class>GuildMerchant</Class>
       <Price>250000</Price>
@@ -294,7 +294,7 @@
       <OccupySquare/>
       <Static/>
    </Object>
-   <Object type="0x0749" id="G Door Opener">
+   <Object type="0x0959" id="G Door Opener">
       <Class>GameObject</Class>
       <Texture>
          <File>invisible</File>
@@ -302,35 +302,35 @@
       </Texture>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x073a" id="Cube">
+   <Object type="0x095a" id="Cube">
       <Class>GameObject</Class>
       <Model>Cube</Model>
    </Object>
-   <Object type="0x073b" id="Big Cube">
+   <Object type="0x095b" id="Big Cube">
       <Class>GameObject</Class>
       <Model>Big Cube</Model>
    </Object>
-   <Object type="0x073c" id="Ico">
+   <Object type="0x095c" id="Ico">
       <Class>GameObject</Class>
       <Model>Ico</Model>
    </Object>
-   <Object type="0x073d" id="Octa">
+   <Object type="0x095d" id="Octa">
       <Class>GameObject</Class>
       <Model>Octa</Model>
    </Object>
-   <Object type="0x073e" id="Pyramid">
+   <Object type="0x095e" id="Pyramid">
       <Class>GameObject</Class>
       <Model>Pyramid</Model>
    </Object>
-   <Object type="0x073f" id="Tetra">
+   <Object type="0x095f" id="Tetra">
       <Class>GameObject</Class>
       <Model>Tetra</Model>
    </Object>
-   <Object type="0x0740" id="Dodec">
+   <Object type="0x0960" id="Dodec">
       <Class>GameObject</Class>
       <Model>Dodec</Model>
    </Object>
-   <Object type="0x0750" id="Cloth Bazaar Portal">
+   <Object type="0x0961" id="Cloth Bazaar Portal">
       <Class>Portal</Class>
       <DungeonName>Cloth Bazaar</DungeonName>
       <IntergamePortal/>
@@ -339,7 +339,7 @@
          <Index>0x33f</Index>
       </Texture>
    </Object>
-   <Object type="0x0751" id="Cloth Bazaar Portal Maker">
+   <Object type="0x0962" id="Cloth Bazaar Portal Maker">
       <Class>Character</Class>
       <Size>0</Size>
       <Texture>
@@ -347,7 +347,7 @@
          <Index>0x36</Index>
       </Texture>
    </Object>
-   <Object type="0x0753" id="Pet Yard Portal">
+   <Object type="0x0963" id="Pet Yard Portal">
       <Class>Portal</Class>
       <DungeonName>Pet Yard</DungeonName>
       <IntergamePortal/>
@@ -359,8 +359,8 @@
       <Size>100</Size>
       <ShadowSize>100</ShadowSize>
    </Object>
-   <Object type="0x0754" id="Pet Upgrader">
-      <Class>PetUpgrader</Class>
+   <Object type="0x0964" id="Marketplace">
+      <Class>MarketNPC</Class>
       <Texture>
          <File>lofiObj2</File>
          <Index>0xfb</Index>
@@ -368,14 +368,14 @@
       <Size>0</Size>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x0511" id="Mystery Box">
+   <Object type="0x0965" id="Mystery Box">
       <Class>MysteryBoxGround</Class>
       <Texture>
          <File>lofiObj2</File>
          <Index>0x0f</Index>
       </Texture>
    </Object>
-   <Object type="0x222b" id="Mystery Box Ground Object">
+   <Object type="0x0966" id="Mystery Box Ground Object">
       <Class>MysteryBoxGround</Class>
       <NoMiniMap/>
       <ShadowSize>0</ShadowSize>
@@ -386,7 +386,7 @@
       </Texture>
       <StasisImmune/>
    </Object>
-   <Object type="0x222c" id="mb shopkeep1">
+   <Object type="0x0967" id="mb shopkeep1">
       <DisplayId>Mystery Box Shop</DisplayId>
       <Class>Character</Class>
       <ShadowSize>50</ShadowSize>
@@ -397,7 +397,7 @@
       </Texture>
       <StasisImmune/>
    </Object>
-   <Object type="0x222d" id="mb shopkeep2">
+   <Object type="0x0968" id="mb shopkeep2">
       <DisplayId>Mystery Box Shop</DisplayId>
       <Class>Character</Class>
       <ShadowSize>50</ShadowSize>
@@ -408,7 +408,7 @@
       </Texture>
       <StasisImmune/>
    </Object>
-   <Object type="0x22f0" id="Fortune Ground Object">
+   <Object type="0x0969" id="Fortune Ground Object">
       <Class>FortuneGround</Class>
       <NoMiniMap/>
       <ShadowSize>0</ShadowSize>
@@ -419,7 +419,7 @@
       </Texture>
       <StasisImmune/>
    </Object>
-   <Object type="0x22f1" id="ft shopkeep">
+   <Object type="0x096a" id="ft shopkeep">
       <DisplayId>The Alchemist</DisplayId>
       <Class>FortuneTeller</Class>
       <ShadowSize>50</ShadowSize>
@@ -430,7 +430,7 @@
       </Texture>
       <StasisImmune/>
    </Object>
-   <Object type="0x1757" id="ft Vases with rug">
+   <Object type="0x096b" id="ft Vases with rug">
       <Class>GameObject</Class>
       <ShowName/>
       <Size>100</Size>
@@ -439,7 +439,7 @@
          <Index>0x170</Index>
       </Texture>
    </Object>
-   <Object type="0x1758" id="ft Vases">
+   <Object type="0x096c" id="ft Vases">
       <Class>GameObject</Class>
       <ShowName/>
       <Size>100</Size>
@@ -448,7 +448,7 @@
          <Index>0x171</Index>
       </Texture>
    </Object>
-   <Object type="0x175A" id="Daily Login Rewards">
+   <Object type="0x096d" id="Daily Login Rewards">
       <Class>DailyLoginRewards</Class>
       <DisplayId>Login Seer</DisplayId>
       <ShadowSize>50</ShadowSize>
@@ -459,7 +459,7 @@
       </Texture>
       <StasisImmune/>
    </Object>
-   <Object type="0x175B" id="Daily Login Rewards Inv Object">
+   <Object type="0x096e" id="Daily Login Rewards Inv Object">
       <Class>DailyLoginRewards</Class>
       <ShadowSize>0</ShadowSize>
       <Size>0</Size>
@@ -475,7 +475,7 @@
       </AltTexture>
       <StasisImmune/>
    </Object>
-   <Object type="0x175C" id="Daily Login Portal">
+   <Object type="0x096f" id="Daily Login Portal">
       <Class>Portal</Class>
       <DungeonName>Daily Login Room</DungeonName>
       <IntergamePortal/>
@@ -498,7 +498,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x1754" id="Quest Rewards">
+   <Object type="0x0970" id="Quest Rewards">
       <Class>QuestRewards</Class>
       <DisplayId>The Tinkerer</DisplayId>
       <ShadowSize>50</ShadowSize>
@@ -509,7 +509,7 @@
       </Texture>
       <StasisImmune/>
    </Object>
-   <Object type="0x1755" id="Quest Rewards Inv Object">
+   <Object type="0x0971" id="Quest Rewards Inv Object">
       <Class>QuestRewards</Class>
       <ShadowSize>0</ShadowSize>
       <Size>0</Size>
@@ -525,7 +525,7 @@
       </AltTexture>
       <StasisImmune/>
    </Object>
-   <Object type="0x1756" id="Daily Quest Portal">
+   <Object type="0x0972" id="Daily Quest Portal">
       <DisplayId>Daily Quest Room</DisplayId>
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -549,7 +549,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x744D" id="Event Chest">
+   <Object type="0x0973" id="Event Chest">
       <DisplayId>Event Chest</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -563,7 +563,7 @@
       <Size>160</Size>
       <XpMult>5.13</XpMult>
    </Object>
-   <Object type="0x744F" id="Event Chest Portal">
+   <Object type="0x0974" id="Event Chest Portal">
       <DisplayId>Event Chest</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -576,7 +576,7 @@
       <Size>160</Size>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x7412" id="Nexus Anchor">
+   <Object type="0x0975" id="Nexus Anchor">
       <Class>Character</Class>
       <NoMiniMap/>
       <Texture>
@@ -592,7 +592,7 @@
       <MaxHitPoints>100000</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x7413" id="Nexus Chinese Dragon">
+   <Object type="0x0976" id="Nexus Chinese Dragon">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>petsDivine</File>
@@ -604,7 +604,7 @@
       <Z>0.8</Z>
       <Flying/>
    </Object>
-   <Object type="0x7414" id="Nexus Paper Lantern">
+   <Object type="0x0977" id="Nexus Paper Lantern">
       <Class>Character</Class>
       <Texture>
          <File>d3LofiObjEmbed16</File>
@@ -669,7 +669,7 @@
       <Z>0.5</Z>
       <Flying/>
    </Object>
-   <Object type="0x7415" id="Nexus Paper Lantern Small">
+   <Object type="0x0978" id="Nexus Paper Lantern Small">
       <Class>Character</Class>
       <Texture>
          <File>d3LofiObjEmbed16</File>

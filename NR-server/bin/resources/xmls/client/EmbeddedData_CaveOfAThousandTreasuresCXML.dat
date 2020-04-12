@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x1e17" id="Treasure Thief">
+   <Object type="0x006d" id="Treasure Thief">
       <Class>Character</Class>
       <Enemy/>
       <AnimatedTexture>
@@ -17,7 +17,7 @@
       <XpMult>0.7</XpMult>
       <DisplayId>{cave.Treasure_Thief}</DisplayId>
    </Object>
-   <Object type="0x1e18" id="Treasure Dropper">
+   <Object type="0x006e" id="Treasure Dropper">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -28,7 +28,7 @@
       <ShadowSize>0</ShadowSize>
       <DisplayId>{cave.Treasure_Dropper}</DisplayId>
    </Object>
-   <Object type="0x1e40" id="Treasure Pile">
+   <Object type="0x006f" id="Treasure Pile">
       <Class>GameObject</Class>
       <Z>-.2</Z>
       <RandomTexture>
@@ -79,7 +79,7 @@
       <Static/>
       <DisplayId>{cave.Treasure_Pile}</DisplayId>
    </Object>
-   <Object type="0x1e41" id="Treasure Chests">
+   <Object type="0x0070" id="Treasure Chests">
       <Class>GameObject</Class>
       <Z>-.2</Z>
       <RandomTexture>
@@ -102,7 +102,7 @@
       <Static/>
       <DisplayId>{cave.Treasure_Chests}</DisplayId>
    </Object>
-   <Object type="0x1e42" id="Treasure Enemy">
+   <Object type="0x0071" id="Treasure Enemy">
       <DisplayId>{cave.Treasure_Enemy}</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -131,7 +131,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x1e43" id="Log Trap Clockwise">
+   <Object type="0x0072" id="Log Trap Clockwise">
       <DisplayId>{cave.Log_Trap_Clockwise}</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -170,7 +170,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x5e1d" id="Treasure Rat">
+   <Object type="0x0073" id="Treasure Rat">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -197,7 +197,7 @@
       </Projectile>
       <DisplayId>{cave.Treasure_Rat}</DisplayId>
    </Object>
-   <Object type="0x5e1e" id="Treasure Flame Trap 1.2 Sec">
+   <Object type="0x0074" id="Treasure Flame Trap 1.2 Sec">
       <DisplayId>{cave.Treasure_Flame_Trap_1.2_Sec}</DisplayId>
       <Class>GameObject</Class>
       <Enemy/>
@@ -245,7 +245,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x5e3b" id="Treasure Flame Trap 1.7 Sec">
+   <Object type="0x0075" id="Treasure Flame Trap 1.7 Sec">
       <DisplayId>{cave.Treasure_Flame_Trap_1.7_Sec}</DisplayId>
       <Class>GameObject</Class>
       <Enemy/>
@@ -293,7 +293,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x5e2a" id="Treasure Plunderer">
+   <Object type="0x0076" id="Treasure Plunderer">
       <Class>Character</Class>
       <Enemy/>
       <AnimatedTexture>
@@ -315,7 +315,7 @@
       </Projectile>
       <DisplayId>{cave.Treasure_Plunderer}</DisplayId>
    </Object>
-   <Object type="0x5e2b" id="Treasure Robber">
+   <Object type="0x0077" id="Treasure Robber">
       <Class>Character</Class>
       <Enemy/>
       <AnimatedTexture>
@@ -379,7 +379,7 @@
       </Projectile>
       <DisplayId>{cave.Treasure_Robber}</DisplayId>
    </Object>
-   <Object type="0x5e2c" id="Golden Oryx Effigy">
+   <Object type="0x0078" id="Golden Oryx Effigy">
       <Class>Character</Class>
       <Enemy/>
       <God/>
@@ -424,7 +424,7 @@
       </Projectile>
       <DisplayId>{cave.Golden_Oryx_Effigy}</DisplayId>
    </Object>
-   <Object type="0x5e3a" id="Treasure Oryx Defender">
+   <Object type="0x0079" id="Treasure Oryx Defender">
       <Class>Character</Class>
       <Enemy/>
       <AnimatedTexture>
@@ -446,7 +446,7 @@
       </Projectile>
       <DisplayId>{cave.Treasure_Oryx_Defender}</DisplayId>
    </Object>
-   <Object type="0x5e3c" id="Treasure Pot">
+   <Object type="0x007a" id="Treasure Pot">
       <Class>Character</Class>
       <Enemy/>
       <OccupySquare/>
@@ -476,7 +476,7 @@
       <XpMult>0.0</XpMult>
       <DisplayId>{cave.Treasure_Pot}</DisplayId>
    </Object>
-   <Object type="0x5e3d" id="Boulder">
+   <Object type="0x007b" id="Boulder">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -517,7 +517,7 @@
       </Projectile>
       <DisplayId>{cave.Boulder}</DisplayId>
    </Object>
-   <Object type="0x5e3f" id="Boulder Spawner">
+   <Object type="0x007c" id="Boulder Spawner">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -528,7 +528,7 @@
       <StasisImmune/>
       <DisplayId>{cave.Boulder_Spawner}</DisplayId>
    </Object>
-   <Object type="0x5e4a" id="Gold Planet">
+   <Object type="0x007d" id="Gold Planet">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rEncounters</File>
@@ -559,7 +559,7 @@
       </Projectile>
       <DisplayId>{cave.Gold_Planet}</DisplayId>
    </Object>
-   <Object type="0x5e4b" id="Realm Portal Opener">
+   <Object type="0x007e" id="Realm Portal Opener">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -570,7 +570,7 @@
       <StasisImmune/>
       <DisplayId>{cave.Realm_Portal_Opener}</DisplayId>
    </Object>
-   <Object type="0x5e4e" id="Treasure Rocks">
+   <Object type="0x007f" id="Treasure Rocks">
       <Class>GameObject</Class>
       <Z>-.2</Z>
       <RandomTexture>

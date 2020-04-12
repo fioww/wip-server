@@ -459,7 +459,7 @@ namespace wServer.logic
                         ))
                     .Init("Ghost Ship",
                 new State(
-                    new DropPortalOnDeath("Davy Jones' Locker Portal", 40),
+                    new DropPortalOnDeath("Davy Jones' Locker Portal", .40),
                     new OnDeathBehavior(
                         new RemoveEntity(100, "Tempest Cloud")
                         ),
@@ -578,10 +578,9 @@ namespace wServer.logic
 
             .Init("Hermit God",
                 new State(
-                    new DropPortalOnDeath("Ocean Trench Portal", 1, null, 5, 5),
                     new InvisiToss("Hermit God Drop", 6, 0, 90000001, coolDownOffset: 0),
                     new TransferDamageOnDeath("Hermit God Drop"),
-                    new DropPortalOnDeath("Ocean Trench Portal", 100, XAdjustment: 5, YAdjustment: 5),
+                    new DropPortalOnDeath("Ocean Trench Portal", 0.66, XAdjustment: 5, YAdjustment: 5),
                     new State("invis",
                         new SetAltTexture(3),
                         new ConditionalEffect(ConditionEffectIndex.Invincible),

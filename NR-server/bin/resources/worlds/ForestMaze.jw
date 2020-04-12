@@ -7,6 +7,6 @@
 "blocking":1,
 "restrictTp":false,
 "showDisplays":false,
-"portals":[0x5f34],
+"portals":[0x0a5e],
 "maps":["forestmaze.wmap"],
 "music":["forest"]}

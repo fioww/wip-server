@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x620" id="Tawny Warg">
+   <Object type="0x0816" id="Tawny Warg">
       <Group>Wargs</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -22,7 +22,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x622" id="Demon Warg">
+   <Object type="0x0817" id="Demon Warg">
       <Group>Wargs</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -44,7 +44,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x623" id="Desert Werewolf">
+   <Object type="0x0818" id="Desert Werewolf">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -76,7 +76,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x632" id="Fire Golem">
+   <Object type="0x0819" id="Fire Golem">
       <Group>Golems</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -107,7 +107,7 @@
          <Size>220</Size>
       </Projectile>
    </Object>
-   <Object type="0x633" id="Darkness Golem">
+   <Object type="0x081a" id="Darkness Golem">
       <Group>Golems</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -138,7 +138,7 @@
          <Size>110</Size>
       </Projectile>
    </Object>
-   <Object type="0x6d2" id="Red Satellite">
+   <Object type="0x081b" id="Red Satellite">
       <Group>Golem Satellites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -152,7 +152,7 @@
       <XpMult>0.1</XpMult>
       <MaxHitPoints>1000</MaxHitPoints>
    </Object>
-   <Object type="0x6d3" id="Green Satellite">
+   <Object type="0x081c" id="Green Satellite">
       <Group>Golem Satellites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -166,7 +166,7 @@
       <XpMult>0.1</XpMult>
       <MaxHitPoints>1000</MaxHitPoints>
    </Object>
-   <Object type="0x6d4" id="Blue Satellite">
+   <Object type="0x081d" id="Blue Satellite">
       <Group>Golem Satellites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -180,7 +180,7 @@
       <XpMult>0.1</XpMult>
       <MaxHitPoints>1000</MaxHitPoints>
    </Object>
-   <Object type="0x6d5" id="Gray Satellite 1">
+   <Object type="0x081e" id="Gray Satellite 1">
       <DisplayId>Gray Satellite</DisplayId>
       <Group>Golem Satellites</Group>
       <Enemy/>
@@ -203,7 +203,7 @@
          <Size>90</Size>
       </Projectile>
    </Object>
-   <Object type="0x6d6" id="Gray Satellite 2">
+   <Object type="0x081f" id="Gray Satellite 2">
       <DisplayId>Gray Satellite</DisplayId>
       <Group>Golem Satellites</Group>
       <Enemy/>
@@ -226,7 +226,7 @@
          <Size>90</Size>
       </Projectile>
    </Object>
-   <Object type="0x6d7" id="Gray Satellite 3">
+   <Object type="0x0820" id="Gray Satellite 3">
       <DisplayId>Gray Satellite</DisplayId>
       <Group>Golem Satellites</Group>
       <Enemy/>
@@ -250,7 +250,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x6c5" id="Sand Phantom">
+   <Object type="0x0821" id="Sand Phantom">
       <Group>SandPhantoms</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -273,7 +273,7 @@
          <LifetimeMS>1700</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7F22" id="Sand Phantom Wisp">
+   <Object type="0x0822" id="Sand Phantom Wisp">
       <Group>SandPhantoms</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -296,7 +296,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x6c6" id="Nomadic Shaman">
+   <Object type="0x0823" id="Nomadic Shaman">
       <Group>Nomads</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -327,7 +327,7 @@
          <ConditionEffect duration="1.5">Blind</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0952" id="Great Lizard">
+   <Object type="0x0824" id="Great Lizard">
       <Group>Large Lizards</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -360,7 +360,7 @@
          <LifetimeMS>530</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x624" id="Fire Sprite">
+   <Object type="0x0825" id="Fire Sprite">
       <Group>Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -383,7 +383,7 @@
          <LifetimeMS>4000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x625" id="Ice Sprite">
+   <Object type="0x0826" id="Ice Sprite">
       <Group>Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -408,7 +408,7 @@
          <ConditionEffect duration="1.6">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x626" id="Magic Sprite">
+   <Object type="0x0827" id="Magic Sprite">
       <Group>Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -432,7 +432,7 @@
          <Size>120</Size>
       </Projectile>
    </Object>
-   <Object type="0x629" id="Orc Warrior">
+   <Object type="0x0828" id="Orc Warrior">
       <Group>Orcs</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -453,7 +453,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x62a" id="Orc Mage">
+   <Object type="0x0829" id="Orc Mage">
       <Group>Orcs</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -474,7 +474,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x62b" id="Orc Queen">
+   <Object type="0x082a" id="Orc Queen">
       <Group>Orcs</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -489,7 +489,7 @@
       <Defense>0</Defense>
       <Terrain>MidPlains</Terrain>
    </Object>
-   <Object type="0x62c" id="Orc King">
+   <Object type="0x082b" id="Orc King">
       <Group>OrcKings</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -512,7 +512,7 @@
          <Size>120</Size>
       </Projectile>
    </Object>
-   <Object type="0x62f" id="Earth Golem">
+   <Object type="0x082c" id="Earth Golem">
       <Group>Golems</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -536,7 +536,7 @@
          <ConditionEffect duration="3">Weak</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x631" id="Paper Golem">
+   <Object type="0x082d" id="Paper Golem">
       <Group>Golems</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -560,7 +560,7 @@
          <Boomerang/>
       </Projectile>
    </Object>
-   <Object type="0x0205" id="Pink Blob">
+   <Object type="0x082e" id="Pink Blob">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -586,7 +586,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x020d" id="Gray Blob">
+   <Object type="0x082f" id="Gray Blob">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -612,7 +612,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x020e" id="Big Green Slime">
+   <Object type="0x0830" id="Big Green Slime">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar8x8</File>
@@ -638,7 +638,7 @@
       </Projectile>
       <Enemy/>
    </Object>
-   <Object type="0x020f" id="Little Green Slime">
+   <Object type="0x0831" id="Little Green Slime">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar8x8</File>
@@ -657,7 +657,7 @@
       </Projectile>
       <Enemy/>
    </Object>
-   <Object type="0x0947" id="Wasp Queen">
+   <Object type="0x0832" id="Wasp Queen">
       <Group>Wasps</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -684,7 +684,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0948" id="Worker Wasp">
+   <Object type="0x0833" id="Worker Wasp">
       <Group>Wasps</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -708,7 +708,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0949" id="Warrior Wasp">
+   <Object type="0x0834" id="Warrior Wasp">
       <Group>Wasps</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -732,7 +732,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x094a" id="Warrior Bee">
+   <Object type="0x0835" id="Warrior Bee">
       <Group>Bees</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -760,7 +760,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x094b" id="Scout Bee">
+   <Object type="0x0836" id="Scout Bee">
       <Group>Bees</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -785,7 +785,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x094c" id="Fighter Bee">
+   <Object type="0x0837" id="Fighter Bee">
       <Group>Bees</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -810,7 +810,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0950" id="Shambling Sludge">
+   <Object type="0x0838" id="Shambling Sludge">
       <Group>Sludges</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -838,7 +838,7 @@
          <ConditionEffect duration="2">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0951" id="Sludget">
+   <Object type="0x0839" id="Sludget">
       <Group>Sludges</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -860,7 +860,7 @@
          <Size>82</Size>
       </Projectile>
    </Object>
-   <Object type="0x0955" id="Swarm">
+   <Object type="0x083a" id="Swarm">
       <Group>Swarms</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -887,7 +887,7 @@
          <LifetimeMS>1100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x61c" id="Dwarf Axebearer">
+   <Object type="0x083b" id="Dwarf Axebearer">
       <Group>Dwarves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -909,7 +909,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x61d" id="Dwarf Mage">
+   <Object type="0x083c" id="Dwarf Mage">
       <Group>Dwarves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -933,7 +933,7 @@
          <Frequency>3.0</Frequency>
       </Projectile>
    </Object>
-   <Object type="0x61e" id="Dwarf Veteran">
+   <Object type="0x083d" id="Dwarf Veteran">
       <Group>Dwarves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -955,7 +955,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x61f" id="Dwarf King">
+   <Object type="0x083e" id="Dwarf King">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -980,7 +980,7 @@
          <LifetimeMS>900</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x62d" id="Metal Golem">
+   <Object type="0x083f" id="Metal Golem">
       <Group>Golems</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1004,7 +1004,7 @@
          <Size>120</Size>
       </Projectile>
    </Object>
-   <Object type="0x62e" id="Clockwork Golem">
+   <Object type="0x0840" id="Clockwork Golem">
       <Group>Golems</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1029,7 +1029,7 @@
          <Parametric/>
       </Projectile>
    </Object>
-   <Object type="0x635" id="Weretiger">
+   <Object type="0x0841" id="Weretiger">
       <Group>Werecats</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1053,7 +1053,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x636" id="Wereleopard">
+   <Object type="0x0842" id="Wereleopard">
       <Group>Werecats</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1076,7 +1076,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x639" id="Werepanther">
+   <Object type="0x0843" id="Werepanther">
       <Group>Werecats</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1099,7 +1099,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x637" id="Werelion">
+   <Object type="0x0844" id="Werelion">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -1129,7 +1129,7 @@
          <LifetimeMS>2500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0945" id="Horned Drake">
+   <Object type="0x0845" id="Horned Drake">
       <Group>Drakes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1156,7 +1156,7 @@
          <LifetimeMS>1500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0946" id="Drake Baby">
+   <Object type="0x0846" id="Drake Baby">
       <Group>Drakes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1179,7 +1179,7 @@
          <LifetimeMS>1300</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0202" id="Red Spider">
+   <Object type="0x0847" id="Red Spider">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar8x8</File>
@@ -1207,7 +1207,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0204" id="Black Bat">
+   <Object type="0x0848" id="Black Bat">
       <Group>Bats</Group>
       <Class>Character</Class>
       <Texture>

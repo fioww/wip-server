@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0d90" id="Septavius the Ghost God">
+   <Object type="0x1172" id="Septavius the Ghost God">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -68,7 +68,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0d91" id="Lair Skeleton">
+   <Object type="0x1173" id="Lair Skeleton">
       <Group>Lair Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -88,7 +88,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d92" id="Lair Skeleton Swordsman">
+   <Object type="0x1174" id="Lair Skeleton Swordsman">
       <Group>Lair Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -108,7 +108,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d93" id="Lair Skeleton Veteran">
+   <Object type="0x1175" id="Lair Skeleton Veteran">
       <Group>Lair Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -128,7 +128,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d94" id="Lair Skeleton Mage">
+   <Object type="0x1176" id="Lair Skeleton Mage">
       <Group>Lair Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -148,7 +148,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d95" id="Lair Skeleton King">
+   <Object type="0x1177" id="Lair Skeleton King">
       <Group>Lair Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -168,7 +168,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d96" id="Lair Mummy">
+   <Object type="0x1178" id="Lair Mummy">
       <Group>Lair Mummies</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -188,7 +188,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d97" id="Lair Mummy King">
+   <Object type="0x1179" id="Lair Mummy King">
       <Group>Lair Mummies</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -208,7 +208,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d98" id="Lair Mummy Pharaoh">
+   <Object type="0x117a" id="Lair Mummy Pharaoh">
       <Group>Lair Mummies</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -228,7 +228,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d99" id="Lair Construct Giant">
+   <Object type="0x117b" id="Lair Construct Giant">
       <Group>Lair Constructs</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -256,7 +256,7 @@
          <ConditionEffect duration="3">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0d9a" id="Lair Construct Titan">
+   <Object type="0x117c" id="Lair Construct Titan">
       <Group>Lair Constructs</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -283,7 +283,7 @@
          <ConditionEffect duration="3">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0d9b" id="Lair Big Black Slime">
+   <Object type="0x117d" id="Lair Big Black Slime">
       <Group>Lair Slimes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -303,7 +303,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d9c" id="Lair Medium Black Slime">
+   <Object type="0x117e" id="Lair Medium Black Slime">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -322,7 +322,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d9d" id="Lair Little Black Slime">
+   <Object type="0x117f" id="Lair Little Black Slime">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -341,7 +341,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d9e" id="Lair Big Brown Slime">
+   <Object type="0x1180" id="Lair Big Brown Slime">
       <Group>Lair Slimes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -361,7 +361,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d9f" id="Lair Little Brown Slime">
+   <Object type="0x1181" id="Lair Little Brown Slime">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -380,7 +380,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0da0" id="Lair Brown Bat">
+   <Object type="0x1182" id="Lair Brown Bat">
       <Group>Lair Bats</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -401,7 +401,7 @@
          <LifetimeMS>200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0da1" id="Lair Ghost Bat">
+   <Object type="0x1183" id="Lair Ghost Bat">
       <Group>Lair Bats</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -422,7 +422,7 @@
          <LifetimeMS>200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0da2" id="Lair Burst Trap">
+   <Object type="0x1184" id="Lair Burst Trap">
       <Group>Lair Traps</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -444,7 +444,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0da3" id="Lair Blast Trap">
+   <Object type="0x1185" id="Lair Blast Trap">
       <Group>Lair Traps</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -466,7 +466,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0da4" id="Lair Reaper">
+   <Object type="0x1186" id="Lair Reaper">
       <Group>Lair Reapers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -486,7 +486,7 @@
          <LifetimeMS>200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0da5" id="Lair Vampire">
+   <Object type="0x1187" id="Lair Vampire">
       <Group>Lair Vampires</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -513,7 +513,7 @@
          <LifetimeMS>200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0da6" id="Lair Vampire King">
+   <Object type="0x1188" id="Lair Vampire King">
       <Group>Lair Vampires</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -540,7 +540,7 @@
          <LifetimeMS>200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0da7" id="Lair Grey Spectre">
+   <Object type="0x1189" id="Lair Grey Spectre">
       <Group>Lair Spectres</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -561,7 +561,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0da8" id="Lair Blue Spectre">
+   <Object type="0x118a" id="Lair Blue Spectre">
       <Group>Lair Spectres</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -582,7 +582,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0da9" id="Lair White Spectre">
+   <Object type="0x118b" id="Lair White Spectre">
       <Group>Lair Spectres</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -603,7 +603,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0daa" id="Lair Ghost Archer">
+   <Object type="0x118c" id="Lair Ghost Archer">
       <Group>Lair Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -624,7 +624,7 @@
          <Size>110</Size>
       </Projectile>
    </Object>
-   <Object type="0x0dab" id="Lair Ghost Warrior">
+   <Object type="0x118d" id="Lair Ghost Warrior">
       <Group>Lair Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -644,7 +644,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0dac" id="Lair Ghost Mage">
+   <Object type="0x118e" id="Lair Ghost Mage">
       <Group>Lair Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -664,7 +664,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0dad" id="Lair Ghost Rogue">
+   <Object type="0x118f" id="Lair Ghost Rogue">
       <Group>Lair Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -684,7 +684,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0dae" id="Lair Ghost Paladin">
+   <Object type="0x1190" id="Lair Ghost Paladin">
       <Group>Lair Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -704,7 +704,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0daf" id="Lair Ghost Knight">
+   <Object type="0x1191" id="Lair Ghost Knight">
       <Group>Lair Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -724,7 +724,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0db0" id="Ghost Warrior of Septavius">
+   <Object type="0x1192" id="Ghost Warrior of Septavius">
       <Group>Lair Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -745,7 +745,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0db1" id="Ghost Mage of Septavius">
+   <Object type="0x1193" id="Ghost Mage of Septavius">
       <Group>Lair Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -766,7 +766,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0db2" id="Ghost Rogue of Septavius">
+   <Object type="0x1194" id="Ghost Rogue of Septavius">
       <Group>Lair Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>

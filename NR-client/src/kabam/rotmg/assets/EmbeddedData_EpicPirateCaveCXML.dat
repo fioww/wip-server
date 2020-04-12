@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x705e" id="Pirate King Healer">
+   <Object type="0x0265" id="Pirate King Healer">
       <Class>Character</Class>
       <Enemy/>
       <MaxHitPoints>100</MaxHitPoints>
@@ -15,7 +15,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x7109" id="Bilgewater Anchor">
+   <Object type="0x0266" id="Bilgewater Anchor">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -27,7 +27,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x706a" id="Bilgewater Summoner">
+   <Object type="0x0267" id="Bilgewater Summoner">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -39,7 +39,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x707a" id="Bilgewater Darkwater Spawner">
+   <Object type="0x0268" id="Bilgewater Darkwater Spawner">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -51,7 +51,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x0930" id="Jon Bilgewater the Pirate King">
+   <Object type="0x0269" id="Jon Bilgewater the Pirate King">
       <Group>JonBilgewater</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -87,7 +87,7 @@
          <LifetimeMS>1800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x705d" id="Parrot Cage">
+   <Object type="0x026a" id="Parrot Cage">
       <Class>GameObject</Class>
       <ShadowSize>0</ShadowSize>
       <Texture>
@@ -99,7 +99,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x705b" id="Deadwater Docks Parrot">
+   <Object type="0x026b" id="Deadwater Docks Parrot">
       <Group>Deadwater Parrots</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -121,7 +121,7 @@
          <ConditionEffect duration="3">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x705c" id="Deadwater Docks Macaw">
+   <Object type="0x026c" id="Deadwater Docks Macaw">
       <Group>Deadwater Parrots</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -143,7 +143,7 @@
          <ConditionEffect duration="3">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x707c" id="Massive Parrot">
+   <Object type="0x026d" id="Massive Parrot">
       <Group>Massive Parrots</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -165,7 +165,7 @@
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x690" id="Deadwater Docks Lieutenant">
+   <Object type="0x026e" id="Deadwater Docks Lieutenant">
       <Group>Deadwater Docks Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -186,7 +186,7 @@
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x691" id="Deadwater Docks Commander">
+   <Object type="0x026f" id="Deadwater Docks Commander">
       <Group>Deadwater Docks Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -207,7 +207,7 @@
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x692" id="Deadwater Docks Captain">
+   <Object type="0x0270" id="Deadwater Docks Captain">
       <Group>Deadwater Docks Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -229,7 +229,7 @@
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x693" id="Deadwater Docks Admiral">
+   <Object type="0x0271" id="Deadwater Docks Admiral">
       <Group>Deadwater Docks Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -250,7 +250,7 @@
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x694" id="Deadwater Docks Brawler">
+   <Object type="0x0272" id="Deadwater Docks Brawler">
       <Group>Deadwater Docks Pirates</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -271,7 +271,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x695" id="Deadwater Docks Sailor">
+   <Object type="0x0273" id="Deadwater Docks Sailor">
       <Group>Deadwater Docks Pirates</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -292,7 +292,7 @@
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x696" id="Deadwater Docks Veteran">
+   <Object type="0x0274" id="Deadwater Docks Veteran">
       <Group>Deadwater Docks Pirates</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -313,14 +313,14 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x705f" id="Bottled Evil Water">
+   <Object type="0x0275" id="Bottled Evil Water">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObj3</File>
          <Index>0x3f3</Index>
       </Texture>
    </Object>
-   <Object type="0x1994" id="Group Eye Wall Nondestruct">
+   <Object type="0x0276" id="Group Eye Wall Nondestruct">
       <Class>Wall</Class>
       <Texture>
          <File>lofiObj3</File>
@@ -372,7 +372,7 @@
       <EnemyOccupySquare/>
       <BlocksSight/>
    </Object>
-   <Object type="0x697" id="The Heroic Observer">
+   <Object type="0x0277" id="The Heroic Observer">
       <Group>GroupWall</Group>
       <Class>Wall</Class>
       <Enemy/>
@@ -424,7 +424,7 @@
       <XpMult>0.0</XpMult>
       <BlocksSight/>
    </Object>
-   <Object type="0x698" id="Group Wall Observer">
+   <Object type="0x0278" id="Group Wall Observer">
       <Class>Character</Class>
       <Enemy/>
       <MaxHitPoints>10000000</MaxHitPoints>

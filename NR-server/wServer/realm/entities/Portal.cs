@@ -40,7 +40,7 @@ namespace wServer.realm.entities
             if (!portals.ContainsKey(objType))
             {
                 Log.Warn($"Portal {objType.To4Hex()} does not exist. Using Portal of Cowardice.");
-                objType = 0x0703; // default to Portal of Cowardice
+                objType = 0x0a58; // default to Portal of Cowardice
             }
 
             return objType;

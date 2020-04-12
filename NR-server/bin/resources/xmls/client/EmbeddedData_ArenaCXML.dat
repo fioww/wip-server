@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x1548" id="Arena Tomb Bosses">
+   <Object type="0x0029" id="Arena Tomb Bosses">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -14,7 +14,7 @@
       <NoMiniMap/>
       <StasisImmune/>
    </Object>
-   <Object type="0x5e86" id="Spreading Fire">
+   <Object type="0x002a" id="Spreading Fire">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -30,7 +30,7 @@
       <StasisImmune/>
       <StunImmune/>
    </Object>
-   <Object type="0x5e85" id="Fire Bomb">
+   <Object type="0x002b" id="Fire Bomb">
       <Enemy/>
       <Class>Character</Class>
       <Animation prob="1.0" period="0">
@@ -80,7 +80,7 @@
       <StasisImmune/>
       <StunImmune/>
    </Object>
-   <Object type="0x5e84" id="Bomb Devil">
+   <Object type="0x002c" id="Bomb Devil">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -109,7 +109,7 @@
       <StasisImmune/>
       <StunImmune/>
    </Object>
-   <Object type="0x5e87" id="Bomb Father">
+   <Object type="0x002d" id="Bomb Father">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -138,7 +138,7 @@
       <StasisImmune/>
       <StunImmune/>
    </Object>
-   <Object type="0x5e88" id="Fire Blight">
+   <Object type="0x002e" id="Fire Blight">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -167,7 +167,7 @@
       <StasisImmune/>
       <StunImmune/>
    </Object>
-   <Object type="0x5e89" id="Quiet Wizard">
+   <Object type="0x002f" id="Quiet Wizard">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -196,7 +196,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x140c" id="Silent Wizard">
+   <Object type="0x0030" id="Silent Wizard">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -227,7 +227,7 @@
       <StasisImmune/>
       <StunImmune/>
    </Object>
-   <Object type="0x0757" id="Arena Spectator">
+   <Object type="0x0031" id="Arena Spectator">
       <Class>Character</Class>
       <RandomTexture>
          <AnimatedTexture>
@@ -270,7 +270,7 @@
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0758" id="Arena Spectator Spawner">
+   <Object type="0x0032" id="Arena Spectator Spawner">
       <Class>Character</Class>
       <Size>0</Size>
       <Texture>
@@ -278,7 +278,7 @@
          <Index>0x08</Index>
       </Texture>
    </Object>
-   <Object type="0x0759" id="Arena Spectator Spawner High">
+   <Object type="0x0033" id="Arena Spectator Spawner High">
       <Class>Character</Class>
       <Size>0</Size>
       <Texture>
@@ -286,7 +286,7 @@
          <Index>0x09</Index>
       </Texture>
    </Object>
-   <Object type="0x075a" id="Arena Spectator High">
+   <Object type="0x0034" id="Arena Spectator High">
       <Class>Character</Class>
       <RandomTexture>
          <AnimatedTexture>

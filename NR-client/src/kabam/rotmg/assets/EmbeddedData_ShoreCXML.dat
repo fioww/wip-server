@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x600" id="Pirate">
+   <Object type="0x0cdf" id="Pirate">
       <Group>Pirates</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -22,7 +22,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x601" id="Piratess">
+   <Object type="0x0ce0" id="Piratess">
       <Group>Pirates</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -44,7 +44,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x602" id="Snake">
+   <Object type="0x0ce1" id="Snake">
       <Group>Snakes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -72,7 +72,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x603" id="Poison Scorpion">
+   <Object type="0x0ce2" id="Poison Scorpion">
       <Group>Scorpions</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -93,7 +93,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x604" id="Scorpion Queen">
+   <Object type="0x0ce3" id="Scorpion Queen">
       <Group>Scorpions</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -112,7 +112,7 @@
       <XpMult>2</XpMult>
       <SpawnProb>0.75</SpawnProb>
    </Object>
-   <Object type="0x0953" id="Bandit Leader">
+   <Object type="0x0ce4" id="Bandit Leader">
       <Group>Bandits</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -138,7 +138,7 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0954" id="Bandit Enemy">
+   <Object type="0x0ce5" id="Bandit Enemy">
       <Group>Bandits</Group>
       <DisplayId>Bandit</DisplayId>
       <Enemy/>
@@ -168,7 +168,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x60e" id="Red Gelatinous Cube">
+   <Object type="0x0ce6" id="Red Gelatinous Cube">
       <Group>Cubes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -198,7 +198,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x60f" id="Purple Gelatinous Cube">
+   <Object type="0x0ce7" id="Purple Gelatinous Cube">
       <Group>Cubes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -228,7 +228,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x610" id="Green Gelatinous Cube">
+   <Object type="0x0ce8" id="Green Gelatinous Cube">
       <Group>Cubes</Group>
       <Enemy/>
       <Class>Character</Class>

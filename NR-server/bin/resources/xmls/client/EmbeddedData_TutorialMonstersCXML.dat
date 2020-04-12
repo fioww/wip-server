@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0xae2" id="Tut Orange Cat">
+   <Object type="0x1153" id="Tut Orange Cat">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rPets1</File>
@@ -10,7 +10,7 @@
       <Size>60</Size>
       <NoMiniMap/>
    </Object>
-   <Object type="0xae6" id="Tut Sheepdog">
+   <Object type="0x1154" id="Tut Sheepdog">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rPets1</File>
@@ -19,7 +19,7 @@
       <Size>60</Size>
       <NoMiniMap/>
    </Object>
-   <Object type="0xae7" id="Tut Green Frog">
+   <Object type="0x1155" id="Tut Green Frog">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rPets1</File>
@@ -28,7 +28,7 @@
       <Size>60</Size>
       <NoMiniMap/>
    </Object>
-   <Object type="0xae8" id="Tut Dragonfly">
+   <Object type="0x1156" id="Tut Dragonfly">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rPets1</File>
@@ -41,7 +41,7 @@
          <Flying/>
       </WhileMoving>
    </Object>
-   <Object type="0xaf4" id="Tut Duck">
+   <Object type="0x1157" id="Tut Duck">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rPets1</File>
@@ -50,7 +50,7 @@
       <Size>60</Size>
       <NoMiniMap/>
    </Object>
-   <Object type="0xaf5" id="Tut Baby Dragon">
+   <Object type="0x1158" id="Tut Baby Dragon">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rPets1</File>
@@ -59,7 +59,7 @@
       <Size>80</Size>
       <NoMiniMap/>
    </Object>
-   <Object type="0xaf7" id="Tut Panda">
+   <Object type="0x1159" id="Tut Panda">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rPets1</File>
@@ -68,7 +68,7 @@
       <Size>80</Size>
       <NoMiniMap/>
    </Object>
-   <Object type="0xaf8" id="Tut Toucan">
+   <Object type="0x115a" id="Tut Toucan">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rPets1</File>
@@ -81,7 +81,7 @@
       </WhileMoving>
       <NoMiniMap/>
    </Object>
-   <Object type="0x6af" id="Evil Chicken">
+   <Object type="0x115b" id="Evil Chicken">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -94,7 +94,7 @@
       <MaxHitPoints>5</MaxHitPoints>
       <Defense>0</Defense>
    </Object>
-   <Object type="0x6b0" id="Evil Chicken Minion">
+   <Object type="0x115c" id="Evil Chicken Minion">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -107,7 +107,7 @@
       <MaxHitPoints>30</MaxHitPoints>
       <Defense>0</Defense>
    </Object>
-   <Object type="0x6b1" id="Evil Chicken God">
+   <Object type="0x115d" id="Evil Chicken God">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -122,7 +122,7 @@
       <Quest/>
       <Level>1</Level>
    </Object>
-   <Object type="0x6b2" id="Evil Hen">
+   <Object type="0x115e" id="Evil Hen">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -135,7 +135,7 @@
       <MaxHitPoints>5</MaxHitPoints>
       <Defense>0</Defense>
    </Object>
-   <Object type="0x6b3" id="Kitchen Guard">
+   <Object type="0x115f" id="Kitchen Guard">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -154,7 +154,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x6b4" id="Butcher">
+   <Object type="0x1160" id="Butcher">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -173,7 +173,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0926" id="Bonegrind the Butcher">
+   <Object type="0x1161" id="Bonegrind the Butcher">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>

@@ -78,7 +78,7 @@ namespace wServer.realm.worlds.logic
 
                 if (i is PetYard)
                 {
-                    var portal = new Portal(Manager, 0x166, null)
+                    var portal = new Portal(Manager, 0x0963, null)
                     {
                         Name = "Pet Yard",
                         WorldInstance = i
@@ -94,7 +94,7 @@ namespace wServer.realm.worlds.logic
 
                 if (i.Name.Equals("ClothBazaar"))
                 {
-                    var portal = new Portal(Manager, 0x167, null)
+                    var portal = new Portal(Manager, 0x0961, null)
                     {
                         Name = "Cloth Bazaar (0)",
                         WorldInstance = i
@@ -107,9 +107,10 @@ namespace wServer.realm.worlds.logic
                     monitor.AddPortal(i.Id, portal, pos);
                     continue;
                 }
-
+                /*
                 if (i is Marketplace && Manager.Config.serverSettings.enableMarket)
                 {
+                    //no portal yet
                     var portal = new Portal(Manager, 0x190, null)
                     {
                         Name = "Marketplace (0)",
@@ -123,6 +124,7 @@ namespace wServer.realm.worlds.logic
                     monitor.AddPortal(i.Id, portal, pos);
                     continue;
                 }
+                */
             }
         }
     }

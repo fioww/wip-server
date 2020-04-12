@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x6010" id="Arena Dn Spawner">
+   <Object type="0x06b3" id="Arena Dn Spawner">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rEncounters</File>
@@ -11,7 +11,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x600f" id="Arena Up Spawner">
+   <Object type="0x06b4" id="Arena Up Spawner">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rEncounters</File>
@@ -21,7 +21,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x600e" id="Arena Rt Spawner">
+   <Object type="0x06b5" id="Arena Rt Spawner">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rEncounters</File>
@@ -31,7 +31,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x600d" id="Arena Lf Spawner">
+   <Object type="0x06b6" id="Arena Lf Spawner">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rEncounters</File>
@@ -41,7 +41,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x600b" id="BattleMaster">
+   <Object type="0x06b7" id="BattleMaster">
       <DisplayId>Ghost of Skuld</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -82,7 +82,7 @@
          <ConditionEffect duration="0.4">Paralyzed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x600a" id="Skuld Portal">
+   <Object type="0x06b8" id="Skuld Portal">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars16x16rEncounters</File>
@@ -92,7 +92,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x6009" id="Skuld Apparition">
+   <Object type="0x06b9" id="Skuld Apparition">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -163,7 +163,7 @@
          <ConditionEffect duration="0.5">Paralyzed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x6008" id="Skuld Summoner">
+   <Object type="0x06ba" id="Skuld Summoner">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars16x16rEncounters</File>
@@ -173,7 +173,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x6007" id="Flying Flame Skull">
+   <Object type="0x06bb" id="Flying Flame Skull">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -203,7 +203,7 @@
          <LifetimeMS>200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x6006" id="Ghost of Skuld">
+   <Object type="0x06bc" id="Ghost of Skuld">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -327,7 +327,7 @@
          <ConditionEffect duration="1">Paralyzed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x6002" id="Halloween Zombie Spawner">
+   <Object type="0x06bd" id="Halloween Zombie Spawner">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -340,7 +340,7 @@
       <Defense>8</Defense>
       <NoMiniMap/>
    </Object>
-   <Object type="0x6001" id="Blue Zombie">
+   <Object type="0x06be" id="Blue Zombie">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -362,7 +362,7 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x6000" id="Zombie Rise">
+   <Object type="0x06bf" id="Zombie Rise">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -453,7 +453,7 @@
       <MaxHitPoints>10000</MaxHitPoints>
       <XpMult>0</XpMult>
    </Object>
-   <Object type="0x600c" id="Mini Werewolf">
+   <Object type="0x06c0" id="Mini Werewolf">
       <Group>Hallowrena</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -475,7 +475,7 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x6005" id="Zombie Hulk">
+   <Object type="0x06c1" id="Zombie Hulk">
       <Enemy/>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -516,7 +516,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x6004" id="Classic Ghost">
+   <Object type="0x06c2" id="Classic Ghost">
       <Enemy/>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -549,7 +549,7 @@
          <LifetimeMS>900</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x6003" id="Werewolf">
+   <Object type="0x06c3" id="Werewolf">
       <Enemy/>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -570,7 +570,7 @@
          <LifetimeMS>900</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x5e8c" id="Arena North Gate Spawner">
+   <Object type="0x06c4" id="Arena North Gate Spawner">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -581,7 +581,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x5e8d" id="Arena South Gate Spawner">
+   <Object type="0x06c5" id="Arena South Gate Spawner">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -592,7 +592,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x5e8e" id="Arena East Gate Spawner">
+   <Object type="0x06c6" id="Arena East Gate Spawner">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -603,7 +603,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x5e8f" id="Arena West Gate Spawner">
+   <Object type="0x06c7" id="Arena West Gate Spawner">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -614,7 +614,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x5e9a" id="Area 1 Controller">
+   <Object type="0x06c8" id="Area 1 Controller">
       <DisplayId>Ghost of Skuld</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -652,7 +652,7 @@
       <Size>125</Size>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x5f21" id="Area 2 Controller">
+   <Object type="0x06c9" id="Area 2 Controller">
       <DisplayId>Ghost of Skuld</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -690,7 +690,7 @@
       <Size>125</Size>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x5f22" id="Area 3 Controller">
+   <Object type="0x06ca" id="Area 3 Controller">
       <DisplayId>Ghost of Skuld</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -728,7 +728,7 @@
       <Size>125</Size>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x5f23" id="Area 4 Controller">
+   <Object type="0x06cb" id="Area 4 Controller">
       <DisplayId>Ghost of Skuld</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -747,7 +747,7 @@
       <Size>125</Size>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x5f24" id="Area 5 Controller">
+   <Object type="0x06cc" id="Area 5 Controller">
       <DisplayId>Arena Master</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -759,7 +759,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x5e9f" id="Arena Headless Horseman">
+   <Object type="0x06cd" id="Arena Headless Horseman">
       <DisplayId>Headless Horseman</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -798,7 +798,7 @@
          <Size>150</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f01" id="Arena Ghost 1">
+   <Object type="0x06ce" id="Arena Ghost 1">
       <DisplayId>Apparition</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -825,7 +825,7 @@
          <Frequency>10</Frequency>
       </Projectile>
    </Object>
-   <Object type="0x5f02" id="Arena Risen Mummy">
+   <Object type="0x06cf" id="Arena Risen Mummy">
       <DisplayId>Risen Mummy</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -849,7 +849,7 @@
          <ConditionEffect duration="2">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x5f03" id="Arena Risen Warrior">
+   <Object type="0x06d0" id="Arena Risen Warrior">
       <DisplayId>Risen Warrior</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -872,7 +872,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f04" id="Arena Risen Mage">
+   <Object type="0x06d1" id="Arena Risen Mage">
       <DisplayId>Risen Mage</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -895,7 +895,7 @@
          <Size>120</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f05" id="Arena Risen Archer">
+   <Object type="0x06d2" id="Arena Risen Archer">
       <DisplayId>Risen Archer</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -925,7 +925,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f06" id="Arena Risen Brawler">
+   <Object type="0x06d3" id="Arena Risen Brawler">
       <DisplayId>Risen Brawler</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -948,7 +948,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f07" id="Arena Ghost Bride">
+   <Object type="0x06d4" id="Arena Ghost Bride">
       <DisplayId>Ghost Bride</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -989,7 +989,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f09" id="Arena Hay Stack">
+   <Object type="0x06d5" id="Arena Hay Stack">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObj3</File>
@@ -1002,7 +1002,7 @@
       <XpMult>0.0</XpMult>
       <OccupySquare/>
    </Object>
-   <Object type="0x5f10" id="Arena Statue Right">
+   <Object type="0x06d6" id="Arena Statue Right">
       <DisplayId>Glory</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -1038,7 +1038,7 @@
          <Size>125</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f1a" id="Arena Dead Tree">
+   <Object type="0x06d7" id="Arena Dead Tree">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -1066,7 +1066,7 @@
       <OccupySquare/>
       <EnemyOccupySquare/>
    </Object>
-   <Object type="0x5f1b" id="Arena Statue">
+   <Object type="0x06d8" id="Arena Statue">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -1085,7 +1085,7 @@
       <XpMult>0.0</XpMult>
       <OccupySquare/>
    </Object>
-   <Object type="0x5f12" id="Arena Ghost 2">
+   <Object type="0x06d9" id="Arena Ghost 2">
       <DisplayId>Haunting Spectre</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -1122,7 +1122,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f1e" id="Troll 1">
+   <Object type="0x06da" id="Troll 1">
       <DisplayId>Forest Troll</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -1145,7 +1145,7 @@
          <Size>120</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f1f" id="Troll 3">
+   <Object type="0x06db" id="Troll 3">
       <DisplayId>Troll Matriarch</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -1177,7 +1177,7 @@
          <ConditionEffect duration="2">Weak</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x5f20" id="Troll 2">
+   <Object type="0x06dc" id="Troll 2">
       <DisplayId>Troll Pathfinder</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -1201,7 +1201,7 @@
          <ConditionEffect duration="2">Bleeding</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x5f27" id="Arena Skeleton">
+   <Object type="0x06dd" id="Arena Skeleton">
       <DisplayId>Reanimated Remains</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -1225,7 +1225,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f28" id="Arena Possessed Girl">
+   <Object type="0x06de" id="Arena Possessed Girl">
       <DisplayId>Possessed Child</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -1250,7 +1250,7 @@
          <Frequency>10</Frequency>
       </Projectile>
    </Object>
-   <Object type="0x5f2b" id="Arena Grave Caretaker">
+   <Object type="0x06df" id="Arena Grave Caretaker">
       <DisplayId>Grave Caretaker</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -1282,7 +1282,7 @@
          <ConditionEffect duration="2">Blind</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x5f2c" id="Arena Spider">
+   <Object type="0x06e0" id="Arena Spider">
       <DisplayId>Grave Spider</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -1305,7 +1305,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f2d" id="Arena Pumpkin King">
+   <Object type="0x06e1" id="Arena Pumpkin King">
       <DisplayId>Pumpkin King</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -1328,7 +1328,7 @@
          <Size>150</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f2e" id="Arena Vampire">
+   <Object type="0x06e2" id="Arena Vampire">
       <DisplayId>Vengeful Vampire</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -1353,7 +1353,7 @@
          <Frequency>2</Frequency>
       </Projectile>
    </Object>
-   <Object type="0x5f2f" id="Arena Blue Flame">
+   <Object type="0x06e3" id="Arena Blue Flame">
       <DisplayId>Forgotten Soul</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -1378,7 +1378,7 @@
          <Size>80</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f30" id="Arena Small Ghost Bride">
+   <Object type="0x06e4" id="Arena Small Ghost Bride">
       <DisplayId>Ghost Bride</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -1403,7 +1403,7 @@
          <Size>80</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f31" id="Arena Mushroom">
+   <Object type="0x06e5" id="Arena Mushroom">
       <DisplayId>Deadly Mushroom</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -1439,7 +1439,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5f32" id="Arena Horseman Anchor">
+   <Object type="0x06e6" id="Arena Horseman Anchor">
       <DisplayId>Headless Horseman</DisplayId>
       <Class>Character</Class>
       <Group>Hallowrena</Group>
@@ -1455,7 +1455,7 @@
       <MaxHitPoints>5000</MaxHitPoints>
       <Defense>20</Defense>
    </Object>
-   <Object type="0x5f33" id="Arena Statue Left">
+   <Object type="0x06e7" id="Arena Statue Left">
       <DisplayId>Fate</DisplayId>
       <Class>Character</Class>
       <Enemy/>

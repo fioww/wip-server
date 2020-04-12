@@ -26,7 +26,7 @@ namespace wServer.realm.entities
             );
         }
         public Decoy(Player player, int duration, float tps)
-            : base(player.Manager, 0x0715, duration, true, true, true)
+            : base(player.Manager, 0x0014, duration, true, true, true)
         {
             this.player = player;
             this.duration = duration;

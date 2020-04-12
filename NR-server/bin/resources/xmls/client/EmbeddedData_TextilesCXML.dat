@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x1200" id="Large Purple Pinstripe Cloth">
+   <Object type="0x1038" id="Large Purple Pinstripe Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Purple_Pinstripe_Cloth}</DisplayId>
       <Item/>
@@ -22,7 +22,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1300" id="Small Purple Pinstripe Cloth">
+   <Object type="0x1039" id="Small Purple Pinstripe Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Purple_Pinstripe_Cloth}</DisplayId>
       <Item/>
@@ -43,7 +43,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1201" id="Large Brown Lined Cloth">
+   <Object type="0x103a" id="Large Brown Lined Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Brown_Lined_Cloth}</DisplayId>
       <Item/>
@@ -64,7 +64,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1301" id="Small Brown Lined Cloth">
+   <Object type="0x103b" id="Small Brown Lined Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Brown_Lined_Cloth}</DisplayId>
       <Item/>
@@ -85,7 +85,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1202" id="Large Blue Striped Cloth">
+   <Object type="0x103c" id="Large Blue Striped Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Blue_Striped_Cloth}</DisplayId>
       <Item/>
@@ -106,7 +106,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1302" id="Small Blue Striped Cloth">
+   <Object type="0x103d" id="Small Blue Striped Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Blue_Striped_Cloth}</DisplayId>
       <Item/>
@@ -127,7 +127,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1203" id="Large Black Striped Cloth">
+   <Object type="0x103e" id="Large Black Striped Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Black_Striped_Cloth}</DisplayId>
       <Item/>
@@ -148,7 +148,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1303" id="Small Black Striped Cloth">
+   <Object type="0x103f" id="Small Black Striped Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Black_Striped_Cloth}</DisplayId>
       <Item/>
@@ -169,7 +169,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1204" id="Large Rainbow Cloth">
+   <Object type="0x1040" id="Large Rainbow Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Rainbow_Cloth}</DisplayId>
       <Item/>
@@ -190,7 +190,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1304" id="Small Rainbow Cloth">
+   <Object type="0x1041" id="Small Rainbow Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Rainbow_Cloth}</DisplayId>
       <Item/>
@@ -211,7 +211,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1205" id="Large Starry Cloth">
+   <Object type="0x1042" id="Large Starry Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Starry_Cloth}</DisplayId>
       <Item/>
@@ -232,7 +232,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1305" id="Small Starry Cloth">
+   <Object type="0x1043" id="Small Starry Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Starry_Cloth}</DisplayId>
       <Item/>
@@ -253,7 +253,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1206" id="Large Brown Stitch Cloth">
+   <Object type="0x1044" id="Large Brown Stitch Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Brown_Stitch_Cloth}</DisplayId>
       <Item/>
@@ -274,7 +274,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1306" id="Small Brown Stitch Cloth">
+   <Object type="0x1045" id="Small Brown Stitch Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Brown_Stitch_Cloth}</DisplayId>
       <Item/>
@@ -295,7 +295,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1207" id="Large Tan Diamond Cloth">
+   <Object type="0x1046" id="Large Tan Diamond Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Tan_Diamond_Cloth}</DisplayId>
       <Item/>
@@ -316,7 +316,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1307" id="Small Tan Diamond Cloth">
+   <Object type="0x1047" id="Small Tan Diamond Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Tan_Diamond_Cloth}</DisplayId>
       <Item/>
@@ -337,7 +337,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1208" id="Large Green Weave Cloth">
+   <Object type="0x1048" id="Large Green Weave Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Green_Weave_Cloth}</DisplayId>
       <Item/>
@@ -358,7 +358,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1308" id="Small Green Weave Cloth">
+   <Object type="0x1049" id="Small Green Weave Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Green_Weave_Cloth}</DisplayId>
       <Item/>
@@ -379,7 +379,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1209" id="Large Blue Wave Cloth">
+   <Object type="0x104a" id="Large Blue Wave Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Blue_Wave_Cloth}</DisplayId>
       <Item/>
@@ -400,7 +400,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1309" id="Small Blue Wave Cloth">
+   <Object type="0x104b" id="Small Blue Wave Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Blue_Wave_Cloth}</DisplayId>
       <Item/>
@@ -421,7 +421,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x120a" id="Large Yellow Wire Cloth">
+   <Object type="0x104c" id="Large Yellow Wire Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Yellow_Wire_Cloth}</DisplayId>
       <Item/>
@@ -442,7 +442,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x130a" id="Small Yellow Wire Cloth">
+   <Object type="0x104d" id="Small Yellow Wire Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Yellow_Wire_Cloth}</DisplayId>
       <Item/>
@@ -463,7 +463,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x120b" id="Large Futuristic Cloth">
+   <Object type="0x104e" id="Large Futuristic Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Futuristic_Cloth}</DisplayId>
       <Item/>
@@ -484,7 +484,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x130b" id="Small Futuristic Cloth">
+   <Object type="0x104f" id="Small Futuristic Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Futuristic_Cloth}</DisplayId>
       <Item/>
@@ -505,7 +505,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x120c" id="Large Stony Cloth">
+   <Object type="0x1050" id="Large Stony Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Stony_Cloth}</DisplayId>
       <Item/>
@@ -526,7 +526,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x130c" id="Small Stony Cloth">
+   <Object type="0x1051" id="Small Stony Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Stony_Cloth}</DisplayId>
       <Item/>
@@ -547,7 +547,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x120d" id="Large Heart Cloth">
+   <Object type="0x1052" id="Large Heart Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Heart_Cloth}</DisplayId>
       <Item/>
@@ -568,7 +568,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x130d" id="Small Heart Cloth">
+   <Object type="0x1053" id="Small Heart Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Heart_Cloth}</DisplayId>
       <Item/>
@@ -589,7 +589,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x120e" id="Large Skull Cloth">
+   <Object type="0x1054" id="Large Skull Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Skull_Cloth}</DisplayId>
       <Item/>
@@ -610,7 +610,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x130e" id="Small Skull Cloth">
+   <Object type="0x1055" id="Small Skull Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Skull_Cloth}</DisplayId>
       <Item/>
@@ -631,7 +631,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x120f" id="Large Red Diamond Cloth">
+   <Object type="0x1056" id="Large Red Diamond Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Red_Diamond_Cloth}</DisplayId>
       <Item/>
@@ -652,7 +652,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x130f" id="Small Red Diamond Cloth">
+   <Object type="0x1057" id="Small Red Diamond Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Red_Diamond_Cloth}</DisplayId>
       <Item/>
@@ -673,7 +673,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1210" id="Large Jester Cloth">
+   <Object type="0x1058" id="Large Jester Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Jester_Cloth}</DisplayId>
       <Item/>
@@ -694,7 +694,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1310" id="Small Jester Cloth">
+   <Object type="0x1059" id="Small Jester Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Jester_Cloth}</DisplayId>
       <Item/>
@@ -715,7 +715,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1211" id="Large Crossbox Cloth">
+   <Object type="0x105a" id="Large Crossbox Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Crossbox_Cloth}</DisplayId>
       <Item/>
@@ -736,7 +736,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1311" id="Small Crossbox Cloth">
+   <Object type="0x105b" id="Small Crossbox Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Crossbox_Cloth}</DisplayId>
       <Item/>
@@ -757,7 +757,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1212" id="Large White Diamond Cloth">
+   <Object type="0x105c" id="Large White Diamond Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_White_Diamond_Cloth}</DisplayId>
       <Item/>
@@ -778,7 +778,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1312" id="Small White Diamond Cloth">
+   <Object type="0x105d" id="Small White Diamond Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_White_Diamond_Cloth}</DisplayId>
       <Item/>
@@ -799,7 +799,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1213" id="Large Grey Scaly Cloth">
+   <Object type="0x105e" id="Large Grey Scaly Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Grey_Scaly_Cloth}</DisplayId>
       <Item/>
@@ -820,7 +820,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1313" id="Small Grey Scaly Cloth">
+   <Object type="0x105f" id="Small Grey Scaly Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Grey_Scaly_Cloth}</DisplayId>
       <Item/>
@@ -841,7 +841,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1214" id="Large Red Spotted Cloth">
+   <Object type="0x1060" id="Large Red Spotted Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Red_Spotted_Cloth}</DisplayId>
       <Item/>
@@ -862,7 +862,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1314" id="Small Red Spotted Cloth">
+   <Object type="0x1061" id="Small Red Spotted Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Red_Spotted_Cloth}</DisplayId>
       <Item/>
@@ -883,7 +883,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1215" id="Large Smiley Cloth">
+   <Object type="0x1062" id="Large Smiley Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Smiley_Cloth}</DisplayId>
       <Item/>
@@ -904,7 +904,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1315" id="Small Smiley Cloth">
+   <Object type="0x1063" id="Small Smiley Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Smiley_Cloth}</DisplayId>
       <Item/>
@@ -925,7 +925,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1216" id="Large Bold Diamond Cloth">
+   <Object type="0x1064" id="Large Bold Diamond Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Bold_Diamond_Cloth}</DisplayId>
       <Item/>
@@ -946,7 +946,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1316" id="Small Bold Diamond Cloth">
+   <Object type="0x1065" id="Small Bold Diamond Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Bold_Diamond_Cloth}</DisplayId>
       <Item/>
@@ -967,7 +967,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1217" id="Large Blue Lace Cloth">
+   <Object type="0x1066" id="Large Blue Lace Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Blue_Lace_Cloth}</DisplayId>
       <Item/>
@@ -988,7 +988,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1317" id="Small Blue Lace Cloth">
+   <Object type="0x1067" id="Small Blue Lace Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Blue_Lace_Cloth}</DisplayId>
       <Item/>
@@ -1009,7 +1009,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1218" id="Large Loud Spotted Cloth">
+   <Object type="0x1068" id="Large Loud Spotted Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Loud_Spotted_Cloth}</DisplayId>
       <Item/>
@@ -1030,7 +1030,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1318" id="Small Loud Spotted Cloth">
+   <Object type="0x1069" id="Small Loud Spotted Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Loud_Spotted_Cloth}</DisplayId>
       <Item/>
@@ -1051,7 +1051,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1219" id="Large Red Weft Cloth">
+   <Object type="0x106a" id="Large Red Weft Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Red_Weft_Cloth}</DisplayId>
       <Item/>
@@ -1072,7 +1072,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1319" id="Small Red Weft Cloth">
+   <Object type="0x106b" id="Small Red Weft Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Red_Weft_Cloth}</DisplayId>
       <Item/>
@@ -1093,7 +1093,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x121a" id="Large Pink Sparkly Cloth">
+   <Object type="0x106c" id="Large Pink Sparkly Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Pink_Sparkly_Cloth}</DisplayId>
       <Item/>
@@ -1114,7 +1114,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x131a" id="Small Pink Sparkly Cloth">
+   <Object type="0x106d" id="Small Pink Sparkly Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Pink_Sparkly_Cloth}</DisplayId>
       <Item/>
@@ -1135,7 +1135,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x121b" id="Large Red Lace Cloth">
+   <Object type="0x106e" id="Large Red Lace Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Red_Lace_Cloth}</DisplayId>
       <Item/>
@@ -1156,7 +1156,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x131b" id="Small Red Lace Cloth">
+   <Object type="0x106f" id="Small Red Lace Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Red_Lace_Cloth}</DisplayId>
       <Item/>
@@ -1177,7 +1177,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x121c" id="Large Pink Maze Cloth">
+   <Object type="0x1070" id="Large Pink Maze Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Pink_Maze_Cloth}</DisplayId>
       <Item/>
@@ -1198,7 +1198,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x131c" id="Small Pink Maze Cloth">
+   <Object type="0x1071" id="Small Pink Maze Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Pink_Maze_Cloth}</DisplayId>
       <Item/>
@@ -1219,7 +1219,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x121d" id="Large Yellow Dot Cloth">
+   <Object type="0x1072" id="Large Yellow Dot Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Yellow_Dot_Cloth}</DisplayId>
       <Item/>
@@ -1240,7 +1240,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x131d" id="Small Yellow Dot Cloth">
+   <Object type="0x1073" id="Small Yellow Dot Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Yellow_Dot_Cloth}</DisplayId>
       <Item/>
@@ -1261,7 +1261,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x121e" id="Large Cloud Cloth">
+   <Object type="0x1074" id="Large Cloud Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Cloud_Cloth}</DisplayId>
       <Item/>
@@ -1282,7 +1282,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x131e" id="Small Cloud Cloth">
+   <Object type="0x1075" id="Small Cloud Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Cloud_Cloth}</DisplayId>
       <Item/>
@@ -1303,7 +1303,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x121f" id="Large Glowthread Cloth">
+   <Object type="0x1076" id="Large Glowthread Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Glowthread_Cloth}</DisplayId>
       <Item/>
@@ -1324,7 +1324,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x131f" id="Small Glowthread Cloth">
+   <Object type="0x1077" id="Small Glowthread Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Glowthread_Cloth}</DisplayId>
       <Item/>
@@ -1345,7 +1345,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1220" id="Large Sweater Cloth">
+   <Object type="0x1078" id="Large Sweater Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Sweater_Cloth}</DisplayId>
       <Item/>
@@ -1366,7 +1366,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1320" id="Small Sweater Cloth">
+   <Object type="0x1079" id="Small Sweater Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Sweater_Cloth}</DisplayId>
       <Item/>
@@ -1387,7 +1387,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1221" id="Large Bee Stripe Cloth">
+   <Object type="0x107a" id="Large Bee Stripe Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Bee_Stripe_Cloth}</DisplayId>
       <Item/>
@@ -1408,7 +1408,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1321" id="Small Bee Stripe Cloth">
+   <Object type="0x107b" id="Small Bee Stripe Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Bee_Stripe_Cloth}</DisplayId>
       <Item/>
@@ -1429,7 +1429,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1222" id="Large Western Stripe Cloth">
+   <Object type="0x107c" id="Large Western Stripe Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Western_Stripe_Cloth}</DisplayId>
       <Item/>
@@ -1450,7 +1450,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1322" id="Small Western Stripe Cloth">
+   <Object type="0x107d" id="Small Western Stripe Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Western_Stripe_Cloth}</DisplayId>
       <Item/>
@@ -1471,7 +1471,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1223" id="Large Blue Point Cloth">
+   <Object type="0x107e" id="Large Blue Point Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Blue_Point_Cloth}</DisplayId>
       <Item/>
@@ -1492,7 +1492,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1323" id="Small Blue Point Cloth">
+   <Object type="0x107f" id="Small Blue Point Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Blue_Point_Cloth}</DisplayId>
       <Item/>
@@ -1513,7 +1513,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1224" id="Large Robber Cloth">
+   <Object type="0x1080" id="Large Robber Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Robber_Cloth}</DisplayId>
       <Item/>
@@ -1534,7 +1534,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1324" id="Small Robber Cloth">
+   <Object type="0x1081" id="Small Robber Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Robber_Cloth}</DisplayId>
       <Item/>
@@ -1555,7 +1555,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1225" id="Large Chainmail Cloth">
+   <Object type="0x1082" id="Large Chainmail Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Chainmail_Cloth}</DisplayId>
       <Item/>
@@ -1576,7 +1576,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1325" id="Small Chainmail Cloth">
+   <Object type="0x1083" id="Small Chainmail Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Chainmail_Cloth}</DisplayId>
       <Item/>
@@ -1597,7 +1597,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1226" id="Large Dark Blue Stripe Cloth">
+   <Object type="0x1084" id="Large Dark Blue Stripe Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Dark_Blue_Stripe_Cloth}</DisplayId>
       <Item/>
@@ -1618,7 +1618,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1326" id="Small Dark Blue Stripe Cloth">
+   <Object type="0x1085" id="Small Dark Blue Stripe Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Dark_Blue_Stripe_Cloth}</DisplayId>
       <Item/>
@@ -1639,7 +1639,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1227" id="Large Vine Cloth">
+   <Object type="0x1086" id="Large Vine Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Vine_Cloth}</DisplayId>
       <Item/>
@@ -1660,7 +1660,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1327" id="Small Vine Cloth">
+   <Object type="0x1087" id="Small Vine Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Vine_Cloth}</DisplayId>
       <Item/>
@@ -1681,7 +1681,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1228" id="Large Party Cloth">
+   <Object type="0x1088" id="Large Party Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Party_Cloth}</DisplayId>
       <Item/>
@@ -1702,7 +1702,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1328" id="Small Party Cloth">
+   <Object type="0x1089" id="Small Party Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Party_Cloth}</DisplayId>
       <Item/>
@@ -1723,7 +1723,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1229" id="Large Viva Cloth">
+   <Object type="0x108a" id="Large Viva Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Viva_Cloth}</DisplayId>
       <Item/>
@@ -1744,7 +1744,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1329" id="Small Viva Cloth">
+   <Object type="0x108b" id="Small Viva Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Viva_Cloth}</DisplayId>
       <Item/>
@@ -1765,7 +1765,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x122a" id="Large Nautical Cloth">
+   <Object type="0x108c" id="Large Nautical Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Nautical_Cloth}</DisplayId>
       <Item/>
@@ -1786,7 +1786,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x132a" id="Small Nautical Cloth">
+   <Object type="0x108d" id="Small Nautical Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Nautical_Cloth}</DisplayId>
       <Item/>
@@ -1807,7 +1807,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x122b" id="Large Cactus Zag Cloth">
+   <Object type="0x108e" id="Large Cactus Zag Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Cactus_Zag_Cloth}</DisplayId>
       <Item/>
@@ -1828,7 +1828,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x132b" id="Small Cactus Zag Cloth">
+   <Object type="0x108f" id="Small Cactus Zag Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Cactus_Zag_Cloth}</DisplayId>
       <Item/>
@@ -1849,7 +1849,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x122c" id="Large Big-Stripe Blue Cloth">
+   <Object type="0x1090" id="Large Big-Stripe Blue Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Big-Stripe_Blue_Cloth}</DisplayId>
       <Item/>
@@ -1870,7 +1870,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x132c" id="Small Big-Stripe Blue Cloth">
+   <Object type="0x1091" id="Small Big-Stripe Blue Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Big-Stripe_Blue_Cloth}</DisplayId>
       <Item/>
@@ -1891,7 +1891,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x122d" id="Large Big-Stripe Red Cloth">
+   <Object type="0x1092" id="Large Big-Stripe Red Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Big-Stripe_Red_Cloth}</DisplayId>
       <Item/>
@@ -1912,7 +1912,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x132d" id="Small Big-Stripe Red Cloth">
+   <Object type="0x1093" id="Small Big-Stripe Red Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Big-Stripe_Red_Cloth}</DisplayId>
       <Item/>
@@ -1933,7 +1933,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x122e" id="Large Starry Night Cloth">
+   <Object type="0x1094" id="Large Starry Night Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Starry_Night_Cloth}</DisplayId>
       <Item/>
@@ -1954,7 +1954,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x132e" id="Small Starry Night Cloth">
+   <Object type="0x1095" id="Small Starry Night Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Starry_Night_Cloth}</DisplayId>
       <Item/>
@@ -1975,7 +1975,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x122f" id="Large Lemon-Lime Cloth">
+   <Object type="0x1096" id="Large Lemon-Lime Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Lemon-Lime_Cloth}</DisplayId>
       <Item/>
@@ -1996,7 +1996,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x132f" id="Small Lemon-Lime Cloth">
+   <Object type="0x1097" id="Small Lemon-Lime Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Lemon-Lime_Cloth}</DisplayId>
       <Item/>
@@ -2017,7 +2017,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1230" id="Large Floral Cloth">
+   <Object type="0x1098" id="Large Floral Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Floral_Cloth}</DisplayId>
       <Item/>
@@ -2038,7 +2038,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1330" id="Small Floral Cloth">
+   <Object type="0x1099" id="Small Floral Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Floral_Cloth}</DisplayId>
       <Item/>
@@ -2059,7 +2059,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1231" id="Large Pink Dot Cloth">
+   <Object type="0x109a" id="Large Pink Dot Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Pink_Dot_Cloth}</DisplayId>
       <Item/>
@@ -2080,7 +2080,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1331" id="Small Pink Dot Cloth">
+   <Object type="0x109b" id="Small Pink Dot Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Pink_Dot_Cloth}</DisplayId>
       <Item/>
@@ -2101,7 +2101,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1232" id="Large Dark Eyes Cloth">
+   <Object type="0x109c" id="Large Dark Eyes Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Dark_Eyes_Cloth}</DisplayId>
       <Item/>
@@ -2122,7 +2122,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1332" id="Small Dark Eyes Cloth">
+   <Object type="0x109d" id="Small Dark Eyes Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Dark_Eyes_Cloth}</DisplayId>
       <Item/>
@@ -2143,7 +2143,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1233" id="Large Wind Cloth">
+   <Object type="0x109e" id="Large Wind Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Wind_Cloth}</DisplayId>
       <Item/>
@@ -2164,7 +2164,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1333" id="Small Wind Cloth">
+   <Object type="0x109f" id="Small Wind Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Wind_Cloth}</DisplayId>
       <Item/>
@@ -2185,7 +2185,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1234" id="Large Shamrock Cloth">
+   <Object type="0x10a0" id="Large Shamrock Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Shamrock_Cloth}</DisplayId>
       <Item/>
@@ -2206,7 +2206,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1334" id="Small Shamrock Cloth">
+   <Object type="0x10a1" id="Small Shamrock Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Shamrock_Cloth}</DisplayId>
       <Item/>
@@ -2227,7 +2227,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1235" id="Large Bright Stripes Cloth">
+   <Object type="0x10a2" id="Large Bright Stripes Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Bright_Stripes_Cloth}</DisplayId>
       <Item/>
@@ -2248,7 +2248,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1335" id="Small Bright Stripes Cloth">
+   <Object type="0x10a3" id="Small Bright Stripes Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Bright_Stripes_Cloth}</DisplayId>
       <Item/>
@@ -2269,7 +2269,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1236" id="Large USA Flag Cloth">
+   <Object type="0x10a4" id="Large USA Flag Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_USA_Flag_Cloth}</DisplayId>
       <Item/>
@@ -2290,7 +2290,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1336" id="Small USA Flag Cloth">
+   <Object type="0x10a5" id="Small USA Flag Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_USA_Flag_Cloth}</DisplayId>
       <Item/>
@@ -2311,7 +2311,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1237" id="Large Flannel Cloth">
+   <Object type="0x10a6" id="Large Flannel Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Flannel_Cloth}</DisplayId>
       <Item/>
@@ -2332,7 +2332,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1337" id="Small Flannel Cloth">
+   <Object type="0x10a7" id="Small Flannel Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Flannel_Cloth}</DisplayId>
       <Item/>
@@ -2353,7 +2353,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1238" id="Large Cow Print Cloth">
+   <Object type="0x10a8" id="Large Cow Print Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Cow_Print_Cloth}</DisplayId>
       <Item/>
@@ -2374,7 +2374,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1338" id="Small Cow Print Cloth">
+   <Object type="0x10a9" id="Small Cow Print Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Cow_Print_Cloth}</DisplayId>
       <Item/>
@@ -2395,7 +2395,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1239" id="Large Lush Camo Cloth">
+   <Object type="0x10aa" id="Large Lush Camo Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Lush_Camo_Cloth}</DisplayId>
       <Item/>
@@ -2416,7 +2416,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1339" id="Small Lush Camo Cloth">
+   <Object type="0x10ab" id="Small Lush Camo Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Lush_Camo_Cloth}</DisplayId>
       <Item/>
@@ -2437,7 +2437,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x123a" id="Large Dark Camo Cloth">
+   <Object type="0x10ac" id="Large Dark Camo Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Dark_Camo_Cloth}</DisplayId>
       <Item/>
@@ -2458,7 +2458,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x133a" id="Small Dark Camo Cloth">
+   <Object type="0x10ad" id="Small Dark Camo Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Dark_Camo_Cloth}</DisplayId>
       <Item/>
@@ -2479,7 +2479,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x123b" id="Large Teal Crystal Cloth">
+   <Object type="0x10ae" id="Large Teal Crystal Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Teal_Crystal_Cloth}</DisplayId>
       <Item/>
@@ -2500,7 +2500,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x133b" id="Small Teal Crystal Cloth">
+   <Object type="0x10af" id="Small Teal Crystal Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Teal_Crystal_Cloth}</DisplayId>
       <Item/>
@@ -2521,7 +2521,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x123c" id="Large Blue Fireworks Cloth">
+   <Object type="0x10b0" id="Large Blue Fireworks Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Blue_Fireworks_Cloth}</DisplayId>
       <Item/>
@@ -2542,7 +2542,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x133c" id="Small Blue Fireworks Cloth">
+   <Object type="0x10b1" id="Small Blue Fireworks Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Blue_Fireworks_Cloth}</DisplayId>
       <Item/>
@@ -2563,7 +2563,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x123d" id="Large Crisscross Cloth">
+   <Object type="0x10b2" id="Large Crisscross Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Crisscross_Cloth}</DisplayId>
       <Item/>
@@ -2584,7 +2584,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x133d" id="Small Crisscross Cloth">
+   <Object type="0x10b3" id="Small Crisscross Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Crisscross_Cloth}</DisplayId>
       <Item/>
@@ -2605,7 +2605,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x123e" id="Large Diamond Cloth">
+   <Object type="0x10b4" id="Large Diamond Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Diamond_Cloth}</DisplayId>
       <Item/>
@@ -2626,7 +2626,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x133e" id="Small Diamond Cloth">
+   <Object type="0x10b5" id="Small Diamond Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Diamond_Cloth}</DisplayId>
       <Item/>
@@ -2647,7 +2647,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x123f" id="Large Egyptian Cloth">
+   <Object type="0x10b6" id="Large Egyptian Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Egyptian_Cloth}</DisplayId>
       <Item/>
@@ -2668,7 +2668,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x133f" id="Small Egyptian Cloth">
+   <Object type="0x10b7" id="Small Egyptian Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Egyptian_Cloth}</DisplayId>
       <Item/>
@@ -2689,7 +2689,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1240" id="Large Purple Bones Cloth">
+   <Object type="0x10b8" id="Large Purple Bones Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Purple_Bones_Cloth}</DisplayId>
       <Item/>
@@ -2710,7 +2710,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1340" id="Small Purple Bones Cloth">
+   <Object type="0x10b9" id="Small Purple Bones Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Purple_Bones_Cloth}</DisplayId>
       <Item/>
@@ -2731,7 +2731,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1241" id="Large Plaid Cloth">
+   <Object type="0x10ba" id="Large Plaid Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Plaid_Cloth}</DisplayId>
       <Item/>
@@ -2752,7 +2752,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1341" id="Small Plaid Cloth">
+   <Object type="0x10bb" id="Small Plaid Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Plaid_Cloth}</DisplayId>
       <Item/>
@@ -2773,7 +2773,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1242" id="Large Red USA Star Cloth">
+   <Object type="0x10bc" id="Large Red USA Star Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Red_USA_Star_Cloth}</DisplayId>
       <Item/>
@@ -2794,7 +2794,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1342" id="Small Red USA Star Cloth">
+   <Object type="0x10bd" id="Small Red USA Star Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Red_USA_Star_Cloth}</DisplayId>
       <Item/>
@@ -2815,7 +2815,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1243" id="Large Blue USA Star Cloth">
+   <Object type="0x10be" id="Large Blue USA Star Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Blue_USA_Star_Cloth}</DisplayId>
       <Item/>
@@ -2836,7 +2836,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1343" id="Small Blue USA Star Cloth">
+   <Object type="0x10bf" id="Small Blue USA Star Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Blue_USA_Star_Cloth}</DisplayId>
       <Item/>
@@ -2857,7 +2857,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1244" id="Large USA Star Cloth">
+   <Object type="0x10c0" id="Large USA Star Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_USA_Star_Cloth}</DisplayId>
       <Item/>
@@ -2878,7 +2878,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1344" id="Small USA Star Cloth">
+   <Object type="0x10c1" id="Small USA Star Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_USA_Star_Cloth}</DisplayId>
       <Item/>
@@ -2899,7 +2899,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1245" id="Large Purple Stripes Cloth">
+   <Object type="0x10c2" id="Large Purple Stripes Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Purple_Stripes_Cloth}</DisplayId>
       <Item/>
@@ -2920,7 +2920,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1345" id="Small Purple Stripes Cloth">
+   <Object type="0x10c3" id="Small Purple Stripes Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Purple_Stripes_Cloth}</DisplayId>
       <Item/>
@@ -2941,7 +2941,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1246" id="Large Bright Floral Cloth">
+   <Object type="0x10c4" id="Large Bright Floral Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Bright_Floral_Cloth}</DisplayId>
       <Item/>
@@ -2962,7 +2962,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1346" id="Small Bright Floral Cloth">
+   <Object type="0x10c5" id="Small Bright Floral Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Bright_Floral_Cloth}</DisplayId>
       <Item/>
@@ -2983,7 +2983,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1247" id="Large Clanranald Cloth">
+   <Object type="0x10c6" id="Large Clanranald Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Clanranald_Cloth}</DisplayId>
       <Item/>
@@ -3004,7 +3004,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1347" id="Small Clanranald Cloth">
+   <Object type="0x10c7" id="Small Clanranald Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Clanranald_Cloth}</DisplayId>
       <Item/>
@@ -3025,7 +3025,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1248" id="Large American Flag Cloth">
+   <Object type="0x10c8" id="Large American Flag Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_American_Flag_Cloth}</DisplayId>
       <Item/>
@@ -3046,7 +3046,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1348" id="Small American Flag Cloth">
+   <Object type="0x10c9" id="Small American Flag Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_American_Flag_Cloth}</DisplayId>
       <Item/>
@@ -3067,7 +3067,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1249" id="Large Relief Cloth">
+   <Object type="0x10ca" id="Large Relief Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Relief_Cloth}</DisplayId>
       <Item/>
@@ -3088,7 +3088,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1349" id="Small Relief Cloth">
+   <Object type="0x10cb" id="Small Relief Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Relief_Cloth}</DisplayId>
       <Item/>
@@ -3109,7 +3109,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x124a" id="Large Intense Clovers Cloth">
+   <Object type="0x10cc" id="Large Intense Clovers Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Intense_Clovers_Cloth}</DisplayId>
       <Item/>
@@ -3130,7 +3130,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x134a" id="Small Intense Clovers Cloth">
+   <Object type="0x10cd" id="Small Intense Clovers Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Intense_Clovers_Cloth}</DisplayId>
       <Item/>
@@ -3151,7 +3151,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x124b" id="Large Celtic Knot Cloth">
+   <Object type="0x10ce" id="Large Celtic Knot Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Celtic_Knot_Cloth}</DisplayId>
       <Item/>
@@ -3172,7 +3172,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x134b" id="Small Celtic Knot Cloth">
+   <Object type="0x10cf" id="Small Celtic Knot Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Celtic_Knot_Cloth}</DisplayId>
       <Item/>
@@ -3193,7 +3193,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x124c" id="Large Flame Cloth">
+   <Object type="0x10d0" id="Large Flame Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Flame_Cloth}</DisplayId>
       <Item/>
@@ -3214,7 +3214,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x134c" id="Small Flame Cloth">
+   <Object type="0x10d1" id="Small Flame Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Flame_Cloth}</DisplayId>
       <Item/>
@@ -3235,7 +3235,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x124d" id="Large Heavy Chainmail Cloth">
+   <Object type="0x10d2" id="Large Heavy Chainmail Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Heavy_Chainmail_Cloth}</DisplayId>
       <Item/>
@@ -3256,7 +3256,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x134d" id="Small Heavy Chainmail Cloth">
+   <Object type="0x10d3" id="Small Heavy Chainmail Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Heavy_Chainmail_Cloth}</DisplayId>
       <Item/>
@@ -3277,7 +3277,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x124e" id="Large Leopard Print Cloth">
+   <Object type="0x10d4" id="Large Leopard Print Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Leopard_Print_Cloth}</DisplayId>
       <Item/>
@@ -3298,7 +3298,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x134e" id="Small Leopard Print Cloth">
+   <Object type="0x10d5" id="Small Leopard Print Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Leopard_Print_Cloth}</DisplayId>
       <Item/>
@@ -3319,7 +3319,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x124f" id="Large Zebra Print Cloth">
+   <Object type="0x10d6" id="Large Zebra Print Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Zebra_Print_Cloth}</DisplayId>
       <Item/>
@@ -3340,7 +3340,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x134f" id="Small Zebra Print Cloth">
+   <Object type="0x10d7" id="Small Zebra Print Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Zebra_Print_Cloth}</DisplayId>
       <Item/>
@@ -3361,7 +3361,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1250" id="Large Colored Egg Cloth">
+   <Object type="0x10d8" id="Large Colored Egg Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Colored_Egg_Cloth}</DisplayId>
       <Item/>
@@ -3382,7 +3382,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1350" id="Small Colored Egg Cloth">
+   <Object type="0x10d9" id="Small Colored Egg Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Colored_Egg_Cloth}</DisplayId>
       <Item/>
@@ -3403,7 +3403,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1251" id="Large Spring Cloth">
+   <Object type="0x10da" id="Large Spring Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Spring_Cloth}</DisplayId>
       <Item/>
@@ -3424,7 +3424,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1351" id="Small Spring Cloth">
+   <Object type="0x10db" id="Small Spring Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Spring_Cloth}</DisplayId>
       <Item/>
@@ -3445,7 +3445,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1252" id="Large Hibiscus Beach Wrap Cloth">
+   <Object type="0x10dc" id="Large Hibiscus Beach Wrap Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Hibiscus_Beach_Wrap_Cloth}</DisplayId>
       <Item/>
@@ -3466,7 +3466,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1352" id="Small Hibiscus Beach Wrap Cloth">
+   <Object type="0x10dd" id="Small Hibiscus Beach Wrap Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Hibiscus_Beach_Wrap_Cloth}</DisplayId>
       <Item/>
@@ -3487,7 +3487,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1253" id="Large Blue Camo Cloth">
+   <Object type="0x10de" id="Large Blue Camo Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Blue_Camo_Cloth}</DisplayId>
       <Item/>
@@ -3508,7 +3508,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1353" id="Small Blue Camo Cloth">
+   <Object type="0x10df" id="Small Blue Camo Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Blue_Camo_Cloth}</DisplayId>
       <Item/>
@@ -3529,7 +3529,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1254" id="Large Sunburst Cloth">
+   <Object type="0x10e0" id="Large Sunburst Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Sunburst_Cloth}</DisplayId>
       <Item/>
@@ -3550,7 +3550,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1354" id="Small Sunburst Cloth">
+   <Object type="0x10e1" id="Small Sunburst Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Sunburst_Cloth}</DisplayId>
       <Item/>
@@ -3571,7 +3571,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1255" id="Large Ivory Dragon Scale Cloth">
+   <Object type="0x10e2" id="Large Ivory Dragon Scale Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Ivory_Dragon_Scale_Cloth}</DisplayId>
       <Item/>
@@ -3592,7 +3592,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1355" id="Small Ivory Dragon Scale Cloth">
+   <Object type="0x10e3" id="Small Ivory Dragon Scale Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Ivory_Dragon_Scale_Cloth}</DisplayId>
       <Item/>
@@ -3613,7 +3613,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1256" id="Large Green Dragon Scale Cloth">
+   <Object type="0x10e4" id="Large Green Dragon Scale Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Green_Dragon_Scale_Cloth}</DisplayId>
       <Item/>
@@ -3634,7 +3634,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1356" id="Small Green Dragon Scale Cloth">
+   <Object type="0x10e5" id="Small Green Dragon Scale Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Green_Dragon_Scale_Cloth}</DisplayId>
       <Item/>
@@ -3655,7 +3655,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1257" id="Large Midnight Dragon Scale Cloth">
+   <Object type="0x10e6" id="Large Midnight Dragon Scale Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Midnight_Dragon_Scale_Cloth}</DisplayId>
       <Item/>
@@ -3676,7 +3676,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1357" id="Small Midnight Dragon Scale Cloth">
+   <Object type="0x10e7" id="Small Midnight Dragon Scale Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Midnight_Dragon_Scale_Cloth}</DisplayId>
       <Item/>
@@ -3697,7 +3697,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1258" id="Large Blue Dragon Scale Cloth">
+   <Object type="0x10e8" id="Large Blue Dragon Scale Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Blue_Dragon_Scale_Cloth}</DisplayId>
       <Item/>
@@ -3718,7 +3718,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1358" id="Small Blue Dragon Scale Cloth">
+   <Object type="0x10e9" id="Small Blue Dragon Scale Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Blue_Dragon_Scale_Cloth}</DisplayId>
       <Item/>
@@ -3739,7 +3739,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1259" id="Large Red Dragon Scale Cloth">
+   <Object type="0x10ea" id="Large Red Dragon Scale Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Red_Dragon_Scale_Cloth}</DisplayId>
       <Item/>
@@ -3760,7 +3760,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x1359" id="Small Red Dragon Scale Cloth">
+   <Object type="0x10eb" id="Small Red Dragon Scale Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Red_Dragon_Scale_Cloth}</DisplayId>
       <Item/>
@@ -3781,7 +3781,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x125a" id="Large Jester Argyle Cloth">
+   <Object type="0x10ec" id="Large Jester Argyle Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Jester_Argyle_Cloth}</DisplayId>
       <Item/>
@@ -3802,7 +3802,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x135a" id="Small Jester Argyle Cloth">
+   <Object type="0x10ed" id="Small Jester Argyle Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Jester_Argyle_Cloth}</DisplayId>
       <Item/>
@@ -3823,7 +3823,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x125b" id="Large Alchemist Cloth">
+   <Object type="0x10ee" id="Large Alchemist Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Alchemist_Cloth}</DisplayId>
       <Item/>
@@ -3844,7 +3844,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x135b" id="Small Alchemist Cloth">
+   <Object type="0x10ef" id="Small Alchemist Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Alchemist_Cloth}</DisplayId>
       <Item/>
@@ -3865,7 +3865,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x125c" id="Large Spooky Cloth">
+   <Object type="0x10f0" id="Large Spooky Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Spooky_Cloth}</DisplayId>
       <Item/>
@@ -3886,7 +3886,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x135c" id="Small Spooky Cloth">
+   <Object type="0x10f1" id="Small Spooky Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Spooky_Cloth}</DisplayId>
       <Item/>
@@ -3907,7 +3907,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x125d" id="Large Mosaic Cloth">
+   <Object type="0x10f2" id="Large Mosaic Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Large_Mosaic_Cloth}</DisplayId>
       <Item/>
@@ -3928,7 +3928,7 @@
       <Soulbound/>
       <BagType>2</BagType>
    </Object>
-   <Object type="0x135d" id="Small Mosaic Cloth">
+   <Object type="0x10f3" id="Small Mosaic Cloth">
       <Class>Dye</Class>
       <DisplayId>{textiles.Small_Mosaic_Cloth}</DisplayId>
       <Item/>

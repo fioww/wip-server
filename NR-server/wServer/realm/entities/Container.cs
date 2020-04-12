@@ -87,7 +87,7 @@ namespace wServer.realm.entities
             if (Inventory == null)
                 return;
 
-            if (ObjectType == 0x504)    //Vault chest
+            if (ObjectType == 0x0082)    //Vault chest
                 return;
 
             bool hasItem = false;

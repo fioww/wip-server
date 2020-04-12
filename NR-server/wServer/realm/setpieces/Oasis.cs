@@ -126,7 +126,7 @@ namespace wServer.realm.setpieces
             giant.Move(pos.X + 15.5f, pos.Y + 15.5f);
             world.EnterWorld(giant);
 
-            Container container = new Container(world.Manager, 0x0501, null, false);
+            Container container = new Container(world.Manager, 0x0080, null, false);
             Item[] items = chest.GetLoots(world.Manager, 5, 8).ToArray();
             for (int i = 0; i < items.Length; i++)
                 container.Inventory[i] = items[i];

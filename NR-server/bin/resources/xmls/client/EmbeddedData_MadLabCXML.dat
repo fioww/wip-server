@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0975" id="Mad Scientist Summoner">
+   <Object type="0x07e3" id="Mad Scientist Summoner">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -11,7 +11,7 @@
       <Size>0</Size>
       <StasisImmune/>
    </Object>
-   <Object type="0x0976" id="Dr Terrible">
+   <Object type="0x07e4" id="Dr Terrible">
       <Enemy/>
       <Class>Character</Class>
       <Group>Mad Lab</Group>
@@ -44,7 +44,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0892" id="Monster Cage">
+   <Object type="0x07e5" id="Monster Cage">
       <Class>GameObject</Class>
       <OccupySquare/>
       <ShadowSize>0</ShadowSize>
@@ -67,7 +67,7 @@
       </AltTexture>
       <StasisImmune/>
    </Object>
-   <Object type="0x0997" id="Mad Gas Controller">
+   <Object type="0x07e6" id="Mad Gas Controller">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -79,7 +79,7 @@
       <Size>0</Size>
       <StasisImmune/>
    </Object>
-   <Object type="0x0993" id="Red Gas Spawner UL">
+   <Object type="0x07e7" id="Red Gas Spawner UL">
       <Class>Character</Class>
       <Enemy/>
       <Model>GasEmitter</Model>
@@ -100,7 +100,7 @@
          <LifetimeMS>6000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0994" id="Red Gas Spawner UR">
+   <Object type="0x07e8" id="Red Gas Spawner UR">
       <Class>Character</Class>
       <Enemy/>
       <Model>GasEmitter</Model>
@@ -121,7 +121,7 @@
          <LifetimeMS>5000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0995" id="Red Gas Spawner LL">
+   <Object type="0x07e9" id="Red Gas Spawner LL">
       <Class>Character</Class>
       <Enemy/>
       <Model>GasEmitter</Model>
@@ -142,7 +142,7 @@
          <LifetimeMS>5000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0996" id="Red Gas Spawner LR">
+   <Object type="0x07ea" id="Red Gas Spawner LR">
       <Class>Character</Class>
       <Enemy/>
       <Model>GasEmitter</Model>
@@ -163,7 +163,7 @@
          <LifetimeMS>5000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0978" id="Green Potion">
+   <Object type="0x07eb" id="Green Potion">
       <Enemy/>
       <Class>Character</Class>
       <Group>Mad Lab</Group>
@@ -186,7 +186,7 @@
          <LifetimeMS>4000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x12aa" id="Turret Attack">
+   <Object type="0x07ec" id="Turret Attack">
       <Enemy/>
       <Model>Tower</Model>
       <Class>Character</Class>
@@ -211,7 +211,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0979" id="Mini Bot">
+   <Object type="0x07ed" id="Mini Bot">
       <Enemy/>
       <Class>Character</Class>
       <Group>Mad Lab</Group>
@@ -234,7 +234,7 @@
          <ConditionEffect duration=".5">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x1e25" id="Dr Terrible Mini Bot">
+   <Object type="0x07ee" id="Dr Terrible Mini Bot">
       <Enemy/>
       <DisplayId>Mini Bot</DisplayId>
       <Class>Character</Class>
@@ -259,7 +259,7 @@
          <ConditionEffect duration=".5">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0980" id="Rampage Cyborg">
+   <Object type="0x07ef" id="Rampage Cyborg">
       <Enemy/>
       <Class>Character</Class>
       <Group>Mad Lab</Group>
@@ -295,7 +295,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x1e24" id="Dr Terrible Rampage Cyborg">
+   <Object type="0x07f0" id="Dr Terrible Rampage Cyborg">
       <Enemy/>
       <DisplayId>Rampage Cyborg</DisplayId>
       <Class>Character</Class>
@@ -333,7 +333,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0981" id="Escaped Experiment">
+   <Object type="0x07f1" id="Escaped Experiment">
       <Enemy/>
       <Class>Character</Class>
       <Group>Mad Lab</Group>
@@ -355,7 +355,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x1e23" id="Dr Terrible Escaped Experiment">
+   <Object type="0x07f2" id="Dr Terrible Escaped Experiment">
       <Enemy/>
       <DisplayId>Escaped Experiment</DisplayId>
       <Class>Character</Class>
@@ -379,7 +379,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0982" id="Enforcer Bot 3000">
+   <Object type="0x07f3" id="Enforcer Bot 3000">
       <Enemy/>
       <Class>Character</Class>
       <Group>Mad Lab</Group>
@@ -408,7 +408,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0983" id="Crusher Abomination">
+   <Object type="0x07f4" id="Crusher Abomination">
       <Enemy/>
       <Class>Character</Class>
       <Group>Mad Lab</Group>
@@ -451,7 +451,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0990" id="West Automated Defense Turret">
+   <Object type="0x07f5" id="West Automated Defense Turret">
       <Class>GameObject</Class>
       <Enemy/>
       <Model>Tower</Model>
@@ -468,7 +468,7 @@
          <ConditionEffect duration=".5">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0991" id="East Automated Defense Turret">
+   <Object type="0x07f6" id="East Automated Defense Turret">
       <Class>GameObject</Class>
       <Enemy/>
       <Model>Tower</Model>
@@ -485,7 +485,7 @@
          <ConditionEffect duration=".5">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0992" id="Mad Lab Open Wall">
+   <Object type="0x07f7" id="Mad Lab Open Wall">
       <DisplayId>Horrific Creation</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -497,7 +497,7 @@
       <Size>0</Size>
       <StasisImmune/>
    </Object>
-   <Object type="0x1e19" id="Horrific Creation Summoner">
+   <Object type="0x07f8" id="Horrific Creation Summoner">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -508,7 +508,7 @@
       <Size>0</Size>
       <StasisImmune/>
    </Object>
-   <Object type="0x5e1c" id="Horrific Creation">
+   <Object type="0x07f9" id="Horrific Creation">
       <Enemy/>
       <Class>Character</Class>
       <Group>Mad Lab</Group>
@@ -612,7 +612,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x099a" id="F.E.R.A.L.">
+   <Object type="0x07fa" id="F.E.R.A.L.">
       <Enemy/>
       <Class>Character</Class>
       <Group>Mad Lab</Group>
@@ -679,14 +679,14 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x0891" id="FERAL Controller">
+   <Object type="0x07fb" id="FERAL Controller">
       <Texture>
          <File>invisible</File>
          <Index>0</Index>
       </Texture>
       <NoMiniMap/>
    </Object>
-   <Object type="0x1e20" id="FERAL Death">
+   <Object type="0x07fc" id="FERAL Death">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -696,7 +696,7 @@
       <ShadowSize>0</ShadowSize>
       <NoMiniMap/>
    </Object>
-   <Object type="0x1e15" id="Hexxer">
+   <Object type="0x07fd" id="Hexxer">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -708,7 +708,7 @@
       <StasisImmune/>
       <Effect color="0x00c631" rate="20" life=".45" lifeVariance=".1" speed="0" speedVariance=".5" size="5" rise="1" riseVariance=".1" rangeX="1.9" rangeY="1.9">CustomParticles</Effect>
    </Object>
-   <Object type="0x1e16" id="DeHexxer">
+   <Object type="0x07fe" id="DeHexxer">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -720,7 +720,7 @@
       <StasisImmune/>
       <Effect color="0x0079eb" rate="20" life=".45" lifeVariance=".1" speed="0" speedVariance=".5" size="5" rise="1" riseVariance=".1" rangeX="1.9" rangeY="1.9">CustomParticles</Effect>
    </Object>
-   <Object type="0x1e22" id="Dr Terrible Bubble">
+   <Object type="0x07ff" id="Dr Terrible Bubble">
       <Class>GameObject</Class>
       <Enemy/>
       <Size>125</Size>

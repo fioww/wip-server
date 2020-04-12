@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0932" id="Oryx the Mad God 2">
+   <Object type="0x09bb" id="Oryx the Mad God 2">
       <DisplayId>Oryx the Mad God</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -87,7 +87,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0944" id="Henchman of Oryx">
+   <Object type="0x09bc" id="Henchman of Oryx">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -115,7 +115,7 @@
          <LifetimeMS>4000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0de0" id="Abomination of Oryx">
+   <Object type="0x09bd" id="Abomination of Oryx">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -159,7 +159,7 @@
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0de1" id="Monstrosity of Oryx">
+   <Object type="0x09be" id="Monstrosity of Oryx">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -173,7 +173,7 @@
       <Defense>12</Defense>
       <XpMult>0.1</XpMult>
    </Object>
-   <Object type="0x0de2" id="Monstrosity Scarab">
+   <Object type="0x09bf" id="Monstrosity Scarab">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -193,7 +193,7 @@
          <LifetimeMS>1400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0de3" id="Aberrant of Oryx">
+   <Object type="0x09c0" id="Aberrant of Oryx">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -207,7 +207,7 @@
       <Defense>12</Defense>
       <XpMult>0.1</XpMult>
    </Object>
-   <Object type="0x0de4" id="Aberrant Blaster">
+   <Object type="0x09c1" id="Aberrant Blaster">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -227,7 +227,7 @@
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0de5" id="Wine Barrel">
+   <Object type="0x09c2" id="Wine Barrel">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -252,7 +252,7 @@
       <Enemy/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x0de6" id="WineSpill Puddle">
+   <Object type="0x09c3" id="WineSpill Puddle">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -271,7 +271,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x0de7" id="WineSpill DL">
+   <Object type="0x09c4" id="WineSpill DL">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment3</File>
@@ -280,7 +280,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x0de8" id="WineSpill DR">
+   <Object type="0x09c5" id="WineSpill DR">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment3</File>
@@ -289,7 +289,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x0de9" id="WineSpill UR">
+   <Object type="0x09c6" id="WineSpill UR">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment3</File>
@@ -298,7 +298,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x0dea" id="WineSpill UL">
+   <Object type="0x09c7" id="WineSpill UL">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment3</File>
@@ -307,7 +307,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x0deb" id="WineSpill L">
+   <Object type="0x09c8" id="WineSpill L">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment3</File>
@@ -316,7 +316,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x0dec" id="WineSpill R">
+   <Object type="0x09c9" id="WineSpill R">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment3</File>
@@ -325,7 +325,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x0ded" id="WineSpill U">
+   <Object type="0x09ca" id="WineSpill U">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment3</File>
@@ -334,7 +334,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x0dee" id="WineSpill D">
+   <Object type="0x09cb" id="WineSpill D">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment3</File>
@@ -343,7 +343,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x0def" id="WineSpill C">
+   <Object type="0x09cc" id="WineSpill C">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment3</File>
@@ -352,7 +352,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x0df0" id="Purple Goo">
+   <Object type="0x09cd" id="Purple Goo">
       <Enemy/>
       <Class>Character</Class>
       <RandomTexture>
@@ -396,7 +396,7 @@
          <ConditionEffect duration="3.4">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0df1" id="Bile of Oryx">
+   <Object type="0x09ce" id="Bile of Oryx">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -411,7 +411,7 @@
       <Defense>80</Defense>
       <XpMult>0.08</XpMult>
    </Object>
-   <Object type="0x0df2" id="Vintner of Oryx">
+   <Object type="0x09cf" id="Vintner of Oryx">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x6fc6" id="Temple Orange Trident">
+   <Object type="0x0869" id="Temple Orange Trident">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -9,7 +9,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fc5" id="Temple Orange Wave">
+   <Object type="0x086a" id="Temple Orange Wave">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -17,7 +17,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fc4" id="Temple Orange Bolt">
+   <Object type="0x086b" id="Temple Orange Bolt">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -25,7 +25,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fc3" id="Temple Orange Missile">
+   <Object type="0x086c" id="Temple Orange Missile">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -33,7 +33,7 @@
       </Texture>
       <Rotation>100</Rotation>
    </Object>
-   <Object type="0x6fc2" id="Temple Orange Spin">
+   <Object type="0x086d" id="Temple Orange Spin">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -41,7 +41,7 @@
       </Texture>
       <Rotation>75</Rotation>
    </Object>
-   <Object type="0x6fc1" id="Temple Green Trident">
+   <Object type="0x086e" id="Temple Green Trident">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -49,7 +49,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fc0" id="Temple Green Wave">
+   <Object type="0x086f" id="Temple Green Wave">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -57,7 +57,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fbf" id="Temple Green Bolt">
+   <Object type="0x0870" id="Temple Green Bolt">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -65,7 +65,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fbe" id="Temple Green Missile">
+   <Object type="0x0871" id="Temple Green Missile">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -73,7 +73,7 @@
       </Texture>
       <Rotation>100</Rotation>
    </Object>
-   <Object type="0x6fbd" id="Temple Green Spin">
+   <Object type="0x0872" id="Temple Green Spin">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -81,7 +81,7 @@
       </Texture>
       <Rotation>75</Rotation>
    </Object>
-   <Object type="0x6ab" id="Staruu Missile">
+   <Object type="0x0873" id="Staruu Missile">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -89,7 +89,7 @@
       </Texture>
       <Rotation>80</Rotation>
    </Object>
-   <Object type="0x137" id="Mountain Temple Portal">
+   <Object type="0x0874" id="Mountain Temple Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Mountain Temple</DisplayId>
@@ -100,7 +100,7 @@
       </Texture>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x6fe4" id="Daichi Portal">
+   <Object type="0x0875" id="Daichi Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Daichi Fight</DisplayId>
@@ -111,7 +111,7 @@
       </Texture>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x6ffe" id="Elemental missiles">
+   <Object type="0x0876" id="Elemental missiles">
       <Class>Projectile</Class>
       <RandomTexture>
          <Texture>
@@ -133,7 +133,7 @@
       </RandomTexture>
       <Rotation>100</Rotation>
    </Object>
-   <Object type="0x183b" id="Wand of the Fallen">
+   <Object type="0x0877" id="Wand of the Fallen">
       <Class>Equipment</Class>
       <Item/>
       <Texture>
@@ -160,7 +160,7 @@
       <feedPower>650</feedPower>
       <Soulbound/>
    </Object>
-   <Object type="0x183d" id="Kageboshi">
+   <Object type="0x0878" id="Kageboshi">
       <Class>Equipment</Class>
       <Item/>
       <Texture>
@@ -198,7 +198,7 @@
       <feedPower>800</feedPower>
       <Soulbound/>
    </Object>
-   <Object type="0x6fe5" id="Daichi Key">
+   <Object type="0x0879" id="Daichi Key">
       <Class>Equipment</Class>
       <Item/>
       <DisplayId>Daichi key</DisplayId>
@@ -214,35 +214,35 @@
       <Activate id="Daichi Portal">Create</Activate>
       <Track/>
    </Object>
-   <Object type="0x1790" id="RW Bullet">
+   <Object type="0x087a" id="RW Bullet">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
          <Index>0x03</Index>
       </Texture>
    </Object>
-   <Object type="0x1791" id="RB Bullet">
+   <Object type="0x087b" id="RB Bullet">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
          <Index>0x04</Index>
       </Texture>
    </Object>
-   <Object type="0x1792" id="BR Bullet">
+   <Object type="0x087c" id="BR Bullet">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
          <Index>0x05</Index>
       </Texture>
    </Object>
-   <Object type="0x1793" id="WR Bullet">
+   <Object type="0x087d" id="WR Bullet">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
          <Index>0x06</Index>
       </Texture>
    </Object>
-   <Object type="0x6ffd" id="Fire Elemental missiles">
+   <Object type="0x087e" id="Fire Elemental missiles">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -250,7 +250,7 @@
       </Texture>
       <Rotation>100</Rotation>
    </Object>
-   <Object type="0x6ffc" id="Earth Elemental missiles">
+   <Object type="0x087f" id="Earth Elemental missiles">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -258,7 +258,7 @@
       </Texture>
       <Rotation>100</Rotation>
    </Object>
-   <Object type="0x6ffa" id="Water Elemental missiles">
+   <Object type="0x0880" id="Water Elemental missiles">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -266,7 +266,7 @@
       </Texture>
       <Rotation>100</Rotation>
    </Object>
-   <Object type="0x6ff9" id="Air Elemental missiles">
+   <Object type="0x0881" id="Air Elemental missiles">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -274,7 +274,7 @@
       </Texture>
       <Rotation>100</Rotation>
    </Object>
-   <Object type="0x6ff8" id="Fire Elemental Bolt">
+   <Object type="0x0882" id="Fire Elemental Bolt">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -282,7 +282,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6ff7" id="Earth Elemental Bolt">
+   <Object type="0x0883" id="Earth Elemental Bolt">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -290,7 +290,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6ff6" id="Water Elemental Bolt">
+   <Object type="0x0884" id="Water Elemental Bolt">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -298,7 +298,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6ff5" id="Air Elemental Bolt">
+   <Object type="0x0885" id="Air Elemental Bolt">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -306,7 +306,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6ff4" id="Spear Bolt">
+   <Object type="0x0886" id="Spear Bolt">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -314,7 +314,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6ff3" id="Spear Wave">
+   <Object type="0x0887" id="Spear Wave">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -322,7 +322,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6ff2" id="Bowman arrow">
+   <Object type="0x0888" id="Bowman arrow">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -330,7 +330,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6ff1" id="Bowman Cursed">
+   <Object type="0x0889" id="Bowman Cursed">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -338,7 +338,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fe2" id="Caster Cursed Bolt">
+   <Object type="0x088a" id="Caster Cursed Bolt">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -346,7 +346,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fe1" id="Monk Mini Bolt">
+   <Object type="0x088b" id="Monk Mini Bolt">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -354,7 +354,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fe0" id="Monk Mini Flame">
+   <Object type="0x088c" id="Monk Mini Flame">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -362,7 +362,7 @@
       </Texture>
       <Rotation>200</Rotation>
    </Object>
-   <Object type="0x6fdf" id="Branch Bolt">
+   <Object type="0x088d" id="Branch Bolt">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -370,7 +370,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fde" id="Cursed Leave">
+   <Object type="0x088e" id="Cursed Leave">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -378,7 +378,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fdd" id="Cursed Slash">
+   <Object type="0x088f" id="Cursed Slash">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -386,7 +386,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fdc" id="Armor Snipe">
+   <Object type="0x0890" id="Armor Snipe">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -394,7 +394,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fdb" id="Armor Wave">
+   <Object type="0x0891" id="Armor Wave">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -402,7 +402,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6ff0" id="Small Pink Bolt">
+   <Object type="0x0892" id="Small Pink Bolt">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -410,7 +410,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fef" id="Medium Pink Bolt">
+   <Object type="0x0893" id="Medium Pink Bolt">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -418,7 +418,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fee" id="Pink Wave">
+   <Object type="0x0894" id="Pink Wave">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -426,7 +426,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fed" id="Large Pink Bolt">
+   <Object type="0x0895" id="Large Pink Bolt">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -434,7 +434,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fec" id="Pink Orb">
+   <Object type="0x0896" id="Pink Orb">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -442,14 +442,14 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6feb" id="Etheral Missile">
+   <Object type="0x0897" id="Etheral Missile">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects16x16</File>
          <Index>0x26</Index>
       </Texture>
    </Object>
-   <Object type="0x6fea" id="Big Pink Missile">
+   <Object type="0x0898" id="Big Pink Missile">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects16x16</File>
@@ -457,7 +457,7 @@
       </Texture>
       <Rotation>100</Rotation>
    </Object>
-   <Object type="0x6fe9" id="Big Pink Bolt">
+   <Object type="0x0899" id="Big Pink Bolt">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects16x16</File>
@@ -465,7 +465,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x6fe3" id="Gatling missile">
+   <Object type="0x089a" id="Gatling missile">
       <Class>Projectile</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -473,7 +473,7 @@
       </Texture>
       <Rotation>100</Rotation>
    </Object>
-   <Object type="0xab55" id="Lantern Flicker">
+   <Object type="0x089b" id="Lantern Flicker">
       <Class>GameObject</Class>
       <Texture>
          <File>invisible</File>
@@ -483,7 +483,7 @@
       <ShadowSize>100</ShadowSize>
       <ShadowColor>0xF1E4FF</ShadowColor>
    </Object>
-   <Object type="0xab54" id="Temple Lantern 2">
+   <Object type="0x089c" id="Temple Lantern 2">
       <Class>GameObject</Class>
       <Texture>
          <File>mountainTempleObjects16x16</File>
@@ -494,7 +494,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xab53" id="Temple Lantern 1">
+   <Object type="0x089d" id="Temple Lantern 1">
       <Class>GameObject</Class>
       <Texture>
          <File>mountainTempleObjects16x16</File>
@@ -505,7 +505,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xab52" id="Temple Jizo Statue">
+   <Object type="0x089e" id="Temple Jizo Statue">
       <Class>GameObject</Class>
       <Texture>
          <File>mountainTempleObjects16x16</File>
@@ -516,7 +516,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xab51" id="Temple Stone Monument">
+   <Object type="0x089f" id="Temple Stone Monument">
       <Class>GameObject</Class>
       <Texture>
          <File>mountainTempleObjects16x16</File>
@@ -527,7 +527,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0xab50" id="Temple Candle Stand NoFire">
+   <Object type="0x08a0" id="Temple Candle Stand NoFire">
       <Class>GameObject</Class>
       <Texture>
          <File>mountainTempleObjects16x16</File>
@@ -538,7 +538,7 @@
       <EnemyOccupySquare/>
       <Static/>
    </Object>
-   <Object type="0xab49" id="Temple Corrupted Candle Stand Static">
+   <Object type="0x08a1" id="Temple Corrupted Candle Stand Static">
       <Class>GameObject</Class>
       <Texture>
          <File>mountainTempleObjects16x16</File>
@@ -577,7 +577,7 @@
       <EnemyOccupySquare/>
       <Static/>
    </Object>
-   <Object type="0xab48" id="Temple Candle Stand">
+   <Object type="0x08a2" id="Temple Candle Stand">
       <Class>GameObject</Class>
       <Texture>
          <File>mountainTempleObjects16x16</File>
@@ -615,7 +615,7 @@
       <EnemyOccupySquare/>
       <Static/>
    </Object>
-   <Object type="0xab47" id="Temple Void Crack Wall 3">
+   <Object type="0x08a3" id="Temple Void Crack Wall 3">
       <Class>Wall</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -673,7 +673,7 @@
       <EnemyOccupySquare/>
       <BlocksSight/>
    </Object>
-   <Object type="0xab46" id="Temple Void Crack Wall 2">
+   <Object type="0x08a4" id="Temple Void Crack Wall 2">
       <Class>Wall</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -731,7 +731,7 @@
       <EnemyOccupySquare/>
       <BlocksSight/>
    </Object>
-   <Object type="0xab45" id="Temple Void Crack Wall 1">
+   <Object type="0x08a5" id="Temple Void Crack Wall 1">
       <Class>Wall</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -789,7 +789,7 @@
       <EnemyOccupySquare/>
       <BlocksSight/>
    </Object>
-   <Object type="0xab44" id="Temple Void Crack 11">
+   <Object type="0x08a6" id="Temple Void Crack 11">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -836,7 +836,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab43" id="Temple Void Crack 10">
+   <Object type="0x08a7" id="Temple Void Crack 10">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -883,7 +883,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab42" id="Temple Void Crack 9">
+   <Object type="0x08a8" id="Temple Void Crack 9">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -930,7 +930,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab41" id="Temple Void Crack 8">
+   <Object type="0x08a9" id="Temple Void Crack 8">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -977,7 +977,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab40" id="Temple Void Crack 7">
+   <Object type="0x08aa" id="Temple Void Crack 7">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -1024,7 +1024,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab3f" id="Temple Void Crack 6">
+   <Object type="0x08ab" id="Temple Void Crack 6">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -1071,7 +1071,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab3e" id="Temple Void Crack 5">
+   <Object type="0x08ac" id="Temple Void Crack 5">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -1118,7 +1118,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab3d" id="Temple Void Crack 4">
+   <Object type="0x08ad" id="Temple Void Crack 4">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -1165,7 +1165,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab3c" id="Temple Void Crack 3">
+   <Object type="0x08ae" id="Temple Void Crack 3">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -1212,7 +1212,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab3b" id="Temple Void Crack 2">
+   <Object type="0x08af" id="Temple Void Crack 2">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -1259,7 +1259,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab3a" id="Temple Void Crack 1">
+   <Object type="0x08b0" id="Temple Void Crack 1">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -1306,7 +1306,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab39" id="Japanese Temple Gate 6">
+   <Object type="0x08b1" id="Japanese Temple Gate 6">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -1327,7 +1327,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xab38" id="Japanese Temple Gate 5">
+   <Object type="0x08b2" id="Japanese Temple Gate 5">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -1348,7 +1348,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xab37" id="Japanese Temple Gate 4">
+   <Object type="0x08b3" id="Japanese Temple Gate 4">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -1369,7 +1369,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xab36" id="Japanese Temple Gate 3">
+   <Object type="0x08b4" id="Japanese Temple Gate 3">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -1390,7 +1390,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xab35" id="Japanese Temple Gate 2">
+   <Object type="0x08b5" id="Japanese Temple Gate 2">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -1411,7 +1411,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xab34" id="Japanese Temple Gate 1">
+   <Object type="0x08b6" id="Japanese Temple Gate 1">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -1432,7 +1432,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xab33" id="Tatami Holes">
+   <Object type="0x08b7" id="Tatami Holes">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -1455,7 +1455,7 @@
       <Static/>
       <DrawOnGround/>
    </Object>
-   <Object type="0xab32" id="Japanese Wall Inside 1 Crack">
+   <Object type="0x08b8" id="Japanese Wall Inside 1 Crack">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -1490,7 +1490,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xab31" id="Urushi Holes">
+   <Object type="0x08b9" id="Urushi Holes">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -1513,7 +1513,7 @@
       <Static/>
       <DrawOnGround/>
    </Object>
-   <Object type="0xab2e" id="Temple Waterfall Ripple UpL">
+   <Object type="0x08ba" id="Temple Waterfall Ripple UpL">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -1548,7 +1548,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab2d" id="Temple Waterfall Ripple UpM">
+   <Object type="0x08bb" id="Temple Waterfall Ripple UpM">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -1583,7 +1583,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab2c" id="Temple Waterfall Ripple UpR">
+   <Object type="0x08bc" id="Temple Waterfall Ripple UpR">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -1618,7 +1618,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab2b" id="Temple Waterfall Ripple DownL">
+   <Object type="0x08bd" id="Temple Waterfall Ripple DownL">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -1653,7 +1653,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab2a" id="Temple Waterfall Ripple DownM">
+   <Object type="0x08be" id="Temple Waterfall Ripple DownM">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -1688,7 +1688,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab29" id="Temple Waterfall Ripple DownR">
+   <Object type="0x08bf" id="Temple Waterfall Ripple DownR">
       <Class>GameObject</Class>
       <DrawOnGround/>
       <Texture>
@@ -1723,7 +1723,7 @@
       </Animation>
       <Static/>
    </Object>
-   <Object type="0xab28" id="Temple Rock Wall">
+   <Object type="0x08c0" id="Temple Rock Wall">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -1744,7 +1744,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xab27" id="Temple Rock Wall Double">
+   <Object type="0x08c1" id="Temple Rock Wall Double">
       <Class>DoubleWall</Class>
       <Top>
          <Texture>
@@ -1765,7 +1765,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xab26" id="Temple Waterfall">
+   <Object type="0x08c2" id="Temple Waterfall">
       <Class>Wall</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -1811,7 +1811,7 @@
       <EnemyOccupySquare/>
       <BlocksSight/>
    </Object>
-   <Object type="0xab25" id="Temple Waterfall Double">
+   <Object type="0x08c3" id="Temple Waterfall Double">
       <Class>DoubleWall</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -1857,7 +1857,7 @@
       <EnemyOccupySquare/>
       <BlocksSight/>
    </Object>
-   <Object type="0xab24" id="Japanese Temple Grass">
+   <Object type="0x08c4" id="Japanese Temple Grass">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -1885,7 +1885,7 @@
       <SizeStep>5</SizeStep>
       <Static/>
    </Object>
-   <Object type="0xab23" id="Pond Grass">
+   <Object type="0x08c5" id="Pond Grass">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -1905,7 +1905,7 @@
       <Size>80</Size>
       <Static/>
    </Object>
-   <Object type="0xab22" id="Japanese Wall Inside 1 Kakejiku">
+   <Object type="0x08c6" id="Japanese Wall Inside 1 Kakejiku">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -1926,7 +1926,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xab21" id="Japanese Mossy Gravestones">
+   <Object type="0x08c7" id="Japanese Mossy Gravestones">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -1954,7 +1954,7 @@
       <SizeStep>5</SizeStep>
       <Static/>
    </Object>
-   <Object type="0xab20" id="Japanese Tree Fallen Leaves Red">
+   <Object type="0x08c8" id="Japanese Tree Fallen Leaves Red">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -1973,7 +1973,7 @@
       <Static/>
       <DrawOnGround/>
    </Object>
-   <Object type="0xab1f" id="Japanese Tree Fallen Leaves Pink">
+   <Object type="0x08c9" id="Japanese Tree Fallen Leaves Pink">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -1992,7 +1992,7 @@
       <Static/>
       <DrawOnGround/>
    </Object>
-   <Object type="0xab1e" id="Japanese Tree Fallen Leaves">
+   <Object type="0x08ca" id="Japanese Tree Fallen Leaves">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -2011,7 +2011,7 @@
       <Static/>
       <DrawOnGround/>
    </Object>
-   <Object type="0xab1d" id="Japanese Tree Mini Red">
+   <Object type="0x08cb" id="Japanese Tree Mini Red">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -2035,7 +2035,7 @@
       <SizeStep>5</SizeStep>
       <Static/>
    </Object>
-   <Object type="0xab1c" id="Japanese Tree Mini Pink">
+   <Object type="0x08cc" id="Japanese Tree Mini Pink">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -2059,7 +2059,7 @@
       <SizeStep>5</SizeStep>
       <Static/>
    </Object>
-   <Object type="0xab1b" id="Japanese Tree Mini">
+   <Object type="0x08cd" id="Japanese Tree Mini">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -2083,7 +2083,7 @@
       <SizeStep>5</SizeStep>
       <Static/>
    </Object>
-   <Object type="0xab1a" id="Japanese Trees Red">
+   <Object type="0x08ce" id="Japanese Trees Red">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -2107,7 +2107,7 @@
       <SizeStep>5</SizeStep>
       <Static/>
    </Object>
-   <Object type="0xab19" id="Japanese Trees Pink">
+   <Object type="0x08cf" id="Japanese Trees Pink">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -2131,7 +2131,7 @@
       <SizeStep>5</SizeStep>
       <Static/>
    </Object>
-   <Object type="0xab13" id="Armor Stand">
+   <Object type="0x08d0" id="Armor Stand">
       <Class>GameObject</Class>
       <ShadowSize>80</ShadowSize>
       <Size>80</Size>
@@ -2141,7 +2141,7 @@
          <Index>0x1c</Index>
       </Texture>
    </Object>
-   <Object type="0xab12" id="Pond Lotus Flower">
+   <Object type="0x08d1" id="Pond Lotus Flower">
       <Class>GameObject</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -2152,7 +2152,7 @@
       <Static/>
       <Flying/>
    </Object>
-   <Object type="0xab11" id="Pond Lotus Leaf">
+   <Object type="0x08d2" id="Pond Lotus Leaf">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -2175,7 +2175,7 @@
       <Static/>
       <DrawOnGround/>
    </Object>
-   <Object type="0xab04" id="Pond Rocks">
+   <Object type="0x08d3" id="Pond Rocks">
       <Class>GameObject</Class>
       <ShadowSize>80</ShadowSize>
       <MinSize>100</MinSize>
@@ -2203,7 +2203,7 @@
          </Texture>
       </RandomTexture>
    </Object>
-   <Object type="0xab03" id="Pond Rocks Mossy">
+   <Object type="0x08d4" id="Pond Rocks Mossy">
       <Class>GameObject</Class>
       <ShadowSize>80</ShadowSize>
       <MinSize>100</MinSize>
@@ -2231,7 +2231,7 @@
          </Texture>
       </RandomTexture>
    </Object>
-   <Object type="0xab02" id="Japanese Yellow Rock Path">
+   <Object type="0x08d5" id="Japanese Yellow Rock Path">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -2251,7 +2251,7 @@
       <DrawOnGround/>
       <ProtectFromSink/>
    </Object>
-   <Object type="0xab01" id="Zen Sand Rock Path">
+   <Object type="0x08d6" id="Zen Sand Rock Path">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -2271,7 +2271,7 @@
       <DrawOnGround/>
       <ProtectFromSink/>
    </Object>
-   <Object type="0xab00" id="Bamboo Fence">
+   <Object type="0x08d7" id="Bamboo Fence">
       <Class>ConnectedWall</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -2285,7 +2285,7 @@
       <EnemyOccupySquare/>
       <Connects/>
    </Object>
-   <Object type="0xaaff" id="Japanese Wall Inside 1">
+   <Object type="0x08d8" id="Japanese Wall Inside 1">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -2306,7 +2306,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xaafe" id="Japanese Wall Inside 1 Window">
+   <Object type="0x08d9" id="Japanese Wall Inside 1 Window">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -2327,7 +2327,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xaafd" id="Japanese Window Light N">
+   <Object type="0x08da" id="Japanese Window Light N">
       <Class>GameObject</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -2336,7 +2336,7 @@
       <Static/>
       <DrawOnGround/>
    </Object>
-   <Object type="0xaafc" id="Japanese Window Light W">
+   <Object type="0x08db" id="Japanese Window Light W">
       <Class>GameObject</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -2345,7 +2345,7 @@
       <Static/>
       <DrawOnGround/>
    </Object>
-   <Object type="0xaafb" id="Japanese Window Light S">
+   <Object type="0x08dc" id="Japanese Window Light S">
       <Class>GameObject</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -2354,7 +2354,7 @@
       <Static/>
       <DrawOnGround/>
    </Object>
-   <Object type="0xaafa" id="Japanese Window Light E">
+   <Object type="0x08dd" id="Japanese Window Light E">
       <Class>GameObject</Class>
       <Texture>
          <File>mountainTempleObjects8x8</File>
@@ -2363,7 +2363,7 @@
       <Static/>
       <DrawOnGround/>
    </Object>
-   <Object type="0xaaf9" id="Japanese Wall Outside 2">
+   <Object type="0x08de" id="Japanese Wall Outside 2">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -2384,7 +2384,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xaaf8" id="Japanese Wall Outside 1">
+   <Object type="0x08df" id="Japanese Wall Outside 1">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -2405,7 +2405,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xaaf1" id="Japanese Painting 1">
+   <Object type="0x08e0" id="Japanese Painting 1">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -2426,7 +2426,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xaaf2" id="Japanese Painting 2">
+   <Object type="0x08e1" id="Japanese Painting 2">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -2447,7 +2447,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xaaf3" id="Japanese Painting 3">
+   <Object type="0x08e2" id="Japanese Painting 3">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -2468,7 +2468,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xaaf4" id="Japanese Painting 4">
+   <Object type="0x08e3" id="Japanese Painting 4">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -2489,7 +2489,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xaaf5" id="Japanese Painting 5">
+   <Object type="0x08e4" id="Japanese Painting 5">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -2510,7 +2510,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xaaf6" id="Japanese Painting 6">
+   <Object type="0x08e5" id="Japanese Painting 6">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -2531,7 +2531,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xaaf7" id="Japanese Painting 7">
+   <Object type="0x08e6" id="Japanese Painting 7">
       <Class>Wall</Class>
       <Top>
          <Texture>
@@ -2552,7 +2552,7 @@
       <BlocksSight/>
       <Static/>
    </Object>
-   <Object type="0xaaf0" id="Waterfall Temple">
+   <Object type="0x08e7" id="Waterfall Temple">
       <Class>Wall</Class>
       <Texture>
          <File>lofiEnvironment3</File>
@@ -2586,7 +2586,7 @@
       <EnemyOccupySquare/>
       <BlocksSight/>
    </Object>
-   <Object type="0xaade" id="Zen rock">
+   <Object type="0x08e8" id="Zen rock">
       <Class>GameObject</Class>
       <ShadowSize>0</ShadowSize>
       <MinSize>100</MinSize>
@@ -2610,7 +2610,7 @@
          </Texture>
       </RandomTexture>
    </Object>
-   <Object type="0xaaea" id="Japanese Chest">
+   <Object type="0x08e9" id="Japanese Chest">
       <Class>GameObject</Class>
       <ShadowSize>0</ShadowSize>
       <MinSize>100</MinSize>
@@ -2622,7 +2622,7 @@
          <Index>0x02</Index>
       </Texture>
    </Object>
-   <Object type="0xaaeb" id="Komainu">
+   <Object type="0x08ea" id="Komainu">
       <Class>GameObject</Class>
       <ShadowSize>0</ShadowSize>
       <MinSize>100</MinSize>
@@ -2636,7 +2636,7 @@
          <Index>0x03</Index>
       </Texture>
    </Object>
-   <Object type="0xaaec" id="Komainu Agyo">
+   <Object type="0x08eb" id="Komainu Agyo">
       <Class>GameObject</Class>
       <ShadowSize>0</ShadowSize>
       <MinSize>100</MinSize>
@@ -2650,7 +2650,7 @@
          <Index>0x04</Index>
       </Texture>
    </Object>
-   <Object type="0xaaed" id="Katana Stand">
+   <Object type="0x08ec" id="Katana Stand">
       <Class>GameObject</Class>
       <ShadowSize>80</ShadowSize>
       <Size>80</Size>
@@ -2660,7 +2660,7 @@
          <Index>0x05</Index>
       </Texture>
    </Object>
-   <Object type="0xaaee" id="Japanese Prayer Tree">
+   <Object type="0x08ed" id="Japanese Prayer Tree">
       <Class>GameObject</Class>
       <ShadowSize>0</ShadowSize>
       <MinSize>100</MinSize>
@@ -2674,7 +2674,7 @@
          <Index>0x06</Index>
       </Texture>
    </Object>
-   <Object type="0x6fe7" id="chasingHorror">
+   <Object type="0x08ee" id="chasingHorror">
       <DisplayId>Soulblast</DisplayId>
       <Class>Character</Class>
       <Group>Statue</Group>
@@ -2705,7 +2705,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0xaaa1" id="Daichi the Fallen">
+   <Object type="0x08ef" id="Daichi the Fallen">
       <Enemy/>
       <DisplayId>Daichi the Fallen</DisplayId>
       <Class>Character</Class>
@@ -2836,7 +2836,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0xab18" id="Mini Corrupted Armor">
+   <Object type="0x08f0" id="Mini Corrupted Armor">
       <Enemy/>
       <DisplayId>Mini Corrupted Armor</DisplayId>
       <Class>Character</Class>
@@ -2862,7 +2862,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0xaae0" id="Corrupted Armor">
+   <Object type="0x08f1" id="Corrupted Armor">
       <DisplayId>Corrupted Armor</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -2895,7 +2895,7 @@
          <ConditionEffect duration="1.6">Quiet</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0xaaa2" id="Corrupted Spearman">
+   <Object type="0x08f2" id="Corrupted Spearman">
       <Enemy/>
       <DisplayId>Corrupted Spearman</DisplayId>
       <Class>Character</Class>
@@ -2928,7 +2928,7 @@
          <ConditionEffect duration="1.2">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0xaaa3" id="Corrupted Bowman">
+   <Object type="0x08f3" id="Corrupted Bowman">
       <Enemy/>
       <DisplayId>Corrupted Bowman</DisplayId>
       <Class>Character</Class>
@@ -2960,7 +2960,7 @@
          <ConditionEffect duration="1">Paralyzed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0xaaa4" id="Corrupted Caster">
+   <Object type="0x08f4" id="Corrupted Caster">
       <Enemy/>
       <DisplayId>Corrupted Caster</DisplayId>
       <Class>Character</Class>
@@ -2994,7 +2994,7 @@
          <ConditionEffect duration="5">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0xaae1" id="Corrupted Monk">
+   <Object type="0x08f5" id="Corrupted Monk">
       <Enemy/>
       <DisplayId>Corrupted Monk</DisplayId>
       <Class>Character</Class>
@@ -3024,7 +3024,7 @@
          <ConditionEffect duration="2">Darkness</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0xaaa9" id="Corrupted Spawn">
+   <Object type="0x08f6" id="Corrupted Spawn">
       <Enemy/>
       <DisplayId>Corrupted Spawn</DisplayId>
       <Class>Character</Class>
@@ -3051,7 +3051,7 @@
          <ArmorPiercing/>
       </Projectile>
    </Object>
-   <Object type="0xaab0" id="Fire Elemental">
+   <Object type="0x08f7" id="Fire Elemental">
       <Enemy/>
       <DisplayId>Fire Elemental</DisplayId>
       <Class>Character</Class>
@@ -3076,7 +3076,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0xaab2" id="Air Elemental">
+   <Object type="0x08f8" id="Air Elemental">
       <Enemy/>
       <DisplayId>Air Elemental</DisplayId>
       <Class>Character</Class>
@@ -3102,7 +3102,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0xaab4" id="Water Elemental">
+   <Object type="0x08f9" id="Water Elemental">
       <Enemy/>
       <DisplayId>Water Elemental</DisplayId>
       <Class>Character</Class>
@@ -3131,7 +3131,7 @@
          <ConditionEffect duration=".6">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0xaab5" id="Earth Elemental">
+   <Object type="0x08fa" id="Earth Elemental">
       <Enemy/>
       <DisplayId>Earth Elemental</DisplayId>
       <Class>Character</Class>
@@ -3157,7 +3157,7 @@
          <ConditionEffect duration="3.6">Bleeding</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0xaab6" id="Fire Power">
+   <Object type="0x08fb" id="Fire Power">
       <Enemy/>
       <DisplayId>Fire Power</DisplayId>
       <Class>Character</Class>
@@ -3214,7 +3214,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0xaabc" id="Earth Power">
+   <Object type="0x08fc" id="Earth Power">
       <Enemy/>
       <DisplayId>Earth Power</DisplayId>
       <Class>Character</Class>
@@ -3271,7 +3271,7 @@
          <ConditionEffect duration="2">Bleeding</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0xaabd" id="Water Power">
+   <Object type="0x08fd" id="Water Power">
       <Enemy/>
       <DisplayId>Water Power</DisplayId>
       <Class>Character</Class>
@@ -3328,7 +3328,7 @@
          <ConditionEffect duration="2">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0xaabe" id="Air Power">
+   <Object type="0x08fe" id="Air Power">
       <Enemy/>
       <DisplayId>Air Power</DisplayId>
       <Class>Character</Class>
@@ -3385,7 +3385,7 @@
          <ConditionEffect duration="1">Paralyzed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0xaaaf" id="altar">
+   <Object type="0x08ff" id="altar">
       <DisplayId>altar</DisplayId>
       <Class>Character</Class>
       <NoMiniMap/>
@@ -3395,7 +3395,7 @@
       </Texture>
       <Size>100</Size>
    </Object>
-   <Object type="0xaab7" id="Fire socket">
+   <Object type="0x0900" id="Fire socket">
       <DisplayId>Fire socket</DisplayId>
       <Class>Character</Class>
       <Texture>
@@ -3404,7 +3404,7 @@
       </Texture>
       <Size>100</Size>
    </Object>
-   <Object type="0xaab8" id="Water socket">
+   <Object type="0x0901" id="Water socket">
       <DisplayId>Water socket</DisplayId>
       <Class>Character</Class>
       <Texture>
@@ -3413,7 +3413,7 @@
       </Texture>
       <Size>100</Size>
    </Object>
-   <Object type="0xaab9" id="Air socket">
+   <Object type="0x0902" id="Air socket">
       <DisplayId>Air socket</DisplayId>
       <Class>Character</Class>
       <Texture>
@@ -3422,7 +3422,7 @@
       </Texture>
       <Size>100</Size>
    </Object>
-   <Object type="0xaaba" id="Earth socket">
+   <Object type="0x0903" id="Earth socket">
       <DisplayId>Air socket</DisplayId>
       <Class>Character</Class>
       <Texture>
@@ -3431,7 +3431,7 @@
       </Texture>
       <Size>100</Size>
    </Object>
-   <Object type="0x6fcc" id="Encounter Altar">
+   <Object type="0x0904" id="Encounter Altar">
       <Enemy/>
       <DisplayId>Mysterious voice</DisplayId>
       <Class>Character</Class>
@@ -3458,7 +3458,7 @@
          </Texture>
       </AltTexture>
    </Object>
-   <Object type="0x6fcb" id="Jade Statue">
+   <Object type="0x0905" id="Jade Statue">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -3518,7 +3518,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x6fca" id="Garnet Statue">
+   <Object type="0x0906" id="Garnet Statue">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -3578,7 +3578,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x6fc9" id="A helper">
+   <Object type="0x0907" id="A helper">
       <Enemy/>
       <NoMiniMap/>
       <Class>Character</Class>
@@ -3596,7 +3596,7 @@
       <StunImmune/>
       <ParalyzeImmune/>
    </Object>
-   <Object type="0x6fc8" id="B helper">
+   <Object type="0x0908" id="B helper">
       <Enemy/>
       <NoMiniMap/>
       <Class>Character</Class>
@@ -3614,7 +3614,7 @@
       <StunImmune/>
       <ParalyzeImmune/>
    </Object>
-   <Object type="0x6fc7" id="Temple Encounter">
+   <Object type="0x0909" id="Temple Encounter">
       <Enemy/>
       <NoMiniMap/>
       <Class>Character</Class>
@@ -3635,7 +3635,7 @@
       <PerRealmMax>1</PerRealmMax>
       <Hero/>
    </Object>
-   <Object type="0x6fbc" id="Daichi Outro">
+   <Object type="0x090a" id="Daichi Outro">
       <Enemy/>
       <DisplayId>Daichi's Soul</DisplayId>
       <NoMiniMap/>
@@ -3661,7 +3661,7 @@
          </Texture>
       </AltTexture>
    </Object>
-   <Object type="0x6fbb" id="Xil Hand">
+   <Object type="0x090b" id="Xil Hand">
       <Enemy/>
       <NoMiniMap/>
       <Class>Character</Class>
@@ -3794,7 +3794,7 @@
          </Texture>
       </AltTexture>
    </Object>
-   <Object type="0x6fba" id="Outro">
+   <Object type="0x090c" id="Outro">
       <Enemy/>
       <NoMiniMap/>
       <Class>Character</Class>
@@ -3810,7 +3810,7 @@
       <StunImmune/>
       <ParalyzeImmune/>
    </Object>
-   <Object type="0x6fb7" id="Corrupted Sprite">
+   <Object type="0x090d" id="Corrupted Sprite">
       <Enemy/>
       <DisplayId>Corrupted Sprite</DisplayId>
       <Class>Character</Class>
@@ -3837,7 +3837,7 @@
          <ArmorPiercing/>
       </Projectile>
    </Object>
-   <Object type="0x6fb6" id="Corrupted Spirit">
+   <Object type="0x090e" id="Corrupted Spirit">
       <Enemy/>
       <DisplayId>Corrupted Spirit</DisplayId>
       <Class>Character</Class>

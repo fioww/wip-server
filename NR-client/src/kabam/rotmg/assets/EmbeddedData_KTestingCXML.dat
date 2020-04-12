@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x222" id="Hearticles">
+   <Object type="0x0767" id="Hearticles">
       <Class>GameObject</Class>
       <Effect color="0xCC0000" color2="0xFF0066" minRadius="0.2" maxRadius="3" rise="1.8" life="4.5" amount="60">Heart</Effect>
       <Texture>
@@ -10,7 +10,7 @@
       </Texture>
       <Size>0</Size>
    </Object>
-   <Object type="0x0752" id="Stat Baloon">
+   <Object type="0x0768" id="Stat Baloon">
       <Class>Character</Class>
       <Enemy/>
       <AnimatedTexture>
@@ -23,7 +23,7 @@
       <Z>0.3</Z>
       <ShadowSize>50</ShadowSize>
    </Object>
-   <Object type="0x0d0e" id="Head">
+   <Object type="0x0769" id="Head">
       <DisplayId>Willem's Head</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -74,7 +74,7 @@
          <ConditionEffect duration="60">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x97a" id="Admin Blade">
+   <Object type="0x076a" id="Admin Blade">
       <Class>Projectile</Class>
       <Texture>
          <File>d3LofiObjEmbed</File>
@@ -82,7 +82,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x97b" id="Admin Magic">
+   <Object type="0x076b" id="Admin Magic">
       <Class>Projectile</Class>
       <Texture>
          <File>d3LofiObjEmbed</File>
@@ -90,7 +90,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x97c" id="Admin Arrow">
+   <Object type="0x076c" id="Admin Arrow">
       <Class>Projectile</Class>
       <Texture>
          <File>d3LofiObjEmbed</File>
@@ -98,14 +98,14 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x97d" id="Admin Stab">
+   <Object type="0x076d" id="Admin Stab">
       <Class>Projectile</Class>
       <Texture>
          <File>d3LofiObjEmbed</File>
          <Index>0xf3</Index>
       </Texture>
    </Object>
-   <Object type="0x97e" id="Admin Missile">
+   <Object type="0x076e" id="Admin Missile">
       <Class>Projectile</Class>
       <Texture>
          <File>d3LofiObjEmbed</File>
@@ -113,7 +113,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x97f" id="Admin Slash">
+   <Object type="0x076f" id="Admin Slash">
       <Class>Projectile</Class>
       <Texture>
          <File>d3LofiObjEmbed</File>
@@ -121,7 +121,7 @@
       </Texture>
       <AngleCorrection>1</AngleCorrection>
    </Object>
-   <Object type="0x9d4" id="Admin Sword">
+   <Object type="0x0770" id="Admin Sword">
       <Class>Equipment</Class>
       <Item/>
       <Texture>
@@ -145,7 +145,7 @@
       <feedPower>100000</feedPower>
       <Soulbound/>
    </Object>
-   <Object type="0x9d6" id="Admin Wand">
+   <Object type="0x0771" id="Admin Wand">
       <Class>Equipment</Class>
       <Item/>
       <Texture>
@@ -169,7 +169,7 @@
       <feedPower>100000</feedPower>
       <Soulbound/>
    </Object>
-   <Object type="0x9d7" id="Admin Bow">
+   <Object type="0x0772" id="Admin Bow">
       <Class>Equipment</Class>
       <Item/>
       <Texture>
@@ -195,7 +195,7 @@
       <feedPower>100000</feedPower>
       <Soulbound/>
    </Object>
-   <Object type="0x9d8" id="Admin Dagger">
+   <Object type="0x0773" id="Admin Dagger">
       <Class>Equipment</Class>
       <Item/>
       <Texture>
@@ -220,7 +220,7 @@
       <feedPower>100000</feedPower>
       <Soulbound/>
    </Object>
-   <Object type="0x9d3" id="Admin Staff">
+   <Object type="0x0774" id="Admin Staff">
       <Class>Equipment</Class>
       <Item/>
       <Texture>
@@ -248,7 +248,7 @@
       <feedPower>100000</feedPower>
       <Soulbound/>
    </Object>
-   <Object type="0x9c2" id="Admin Katana">
+   <Object type="0x0775" id="Admin Katana">
       <Class>Equipment</Class>
       <Item/>
       <Texture>

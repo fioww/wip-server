@@ -88,7 +88,7 @@ namespace wServer.logic
             )
             .Init("Actual Ent Ancient",
                 new State(
-                    new DropPortalOnDeath("Belladonna's Garden Portal", 20),
+                    //new DropPortalOnDeath("Belladonna's Garden Portal", .20),
                     new Prioritize(
                         new StayCloseToSpawn(0.2, 6),
                         new Wander(0.2)

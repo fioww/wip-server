@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x651" id="White Demon">
+   <Object type="0x0855" id="White Demon">
       <Group>Greater Demons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -35,7 +35,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x652" id="Sprite God">
+   <Object type="0x0856" id="Sprite God">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -67,7 +67,7 @@
          <ParticleTrail/>
       </Projectile>
    </Object>
-   <Object type="0x653" id="Sprite Child">
+   <Object type="0x0857" id="Sprite Child">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -82,7 +82,7 @@
       <Terrain>Mountains</Terrain>
       <Flying/>
    </Object>
-   <Object type="0x654" id="Medusa">
+   <Object type="0x0858" id="Medusa">
       <Group>Gods</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -111,7 +111,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x655" id="Ent God">
+   <Object type="0x0859" id="Ent God">
       <Group>Gods</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -141,7 +141,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x656" id="Beholder">
+   <Object type="0x085a" id="Beholder">
       <Group>Gods</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -179,7 +179,7 @@
          <ConditionEffect duration="5">Blind</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x657" id="Flying Brain">
+   <Object type="0x085b" id="Flying Brain">
       <Group>Gods</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -209,7 +209,7 @@
          <LifetimeMS>1800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x658" id="Slime God">
+   <Object type="0x085c" id="Slime God">
       <Group>Gods</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -239,7 +239,7 @@
          <ConditionEffect duration="6">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x659" id="Ghost God">
+   <Object type="0x085d" id="Ghost God">
       <Group>Gods</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -270,7 +270,7 @@
          <Size>110</Size>
       </Projectile>
    </Object>
-   <Object type="0x0905" id="Rock Bot">
+   <Object type="0x085e" id="Rock Bot">
       <Group>Rocks</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -297,7 +297,7 @@
       <SpawnProb>0.3</SpawnProb>
       <God/>
    </Object>
-   <Object type="0x0906" id="Paper Bot">
+   <Object type="0x085f" id="Paper Bot">
       <Group>Papers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -322,7 +322,7 @@
       <XpMult>0.0</XpMult>
       <Terrain>Mountains</Terrain>
    </Object>
-   <Object type="0x0907" id="Steel Bot">
+   <Object type="0x0860" id="Steel Bot">
       <Group>Steels</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -347,7 +347,7 @@
       <XpMult>0.0</XpMult>
       <Terrain>Mountains</Terrain>
    </Object>
-   <Object type="0x091a" id="Djinn">
+   <Object type="0x0861" id="Djinn">
       <Group>Gods</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -379,7 +379,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0935" id="Mysterious Crystal">
+   <Object type="0x0862" id="Mysterious Crystal">
       <Group>Crystals</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -404,7 +404,7 @@
          <ConditionEffect duration="20">Quiet</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0941" id="Crystal Prisoner">
+   <Object type="0x0863" id="Crystal Prisoner">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -455,7 +455,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0942" id="Crystal Prisoner Clone">
+   <Object type="0x0864" id="Crystal Prisoner Clone">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -478,7 +478,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0943" id="Crystal Prisoner Steed">
+   <Object type="0x0865" id="Crystal Prisoner Steed">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -502,7 +502,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x6d8" id="Leviathan">
+   <Object type="0x0866" id="Leviathan">
       <Group>Gods</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -531,7 +531,7 @@
          <LifetimeMS>1800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x6e8" id="Lucky Ent God">
+   <Object type="0x0867" id="Lucky Ent God">
       <Group>Gods</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -559,7 +559,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x6f8" id="Lucky Djinn">
+   <Object type="0x0868" id="Lucky Djinn">
       <Group>Gods</Group>
       <Enemy/>
       <Class>Character</Class>

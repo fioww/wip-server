@@ -7,6 +7,6 @@
 "blocking":1,
 "restrictTp":false,
 "showDisplays":false,
-"portals":[0x072e],
+"portals":[0x0a86],
 "maps":["crawling.wmap"],
 "music":["wtForgotten"]}

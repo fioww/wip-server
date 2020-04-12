@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x60a" id="Sandsman Archer">
+   <Object type="0x07cc" id="Sandsman Archer">
       <Group>Sandsmen</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -22,7 +22,7 @@
          <LifetimeMS>1400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x60c" id="Sandsman Sorcerer">
+   <Object type="0x07cd" id="Sandsman Sorcerer">
       <Group>Sandsmen</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -51,7 +51,7 @@
          <LifetimeMS>300</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x60d" id="Sandsman King">
+   <Object type="0x07ce" id="Sandsman King">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -75,7 +75,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x6c4" id="Giant Crab">
+   <Object type="0x07cf" id="Giant Crab">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -128,7 +128,7 @@
          <Size>90</Size>
       </Projectile>
    </Object>
-   <Object type="0x6c7" id="Sand Devil">
+   <Object type="0x07d0" id="Sand Devil">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -153,7 +153,7 @@
          <ConditionEffect duration="1">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x615" id="Hobbit Rogue">
+   <Object type="0x07d1" id="Hobbit Rogue">
       <Group>Hobbits</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -174,7 +174,7 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x616" id="Hobbit Archer">
+   <Object type="0x07d2" id="Hobbit Archer">
       <Group>Hobbits</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -195,7 +195,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x617" id="Hobbit Mage">
+   <Object type="0x07d3" id="Hobbit Mage">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -231,7 +231,7 @@
          <LifetimeMS>340</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x618" id="Undead Hobbit Rogue">
+   <Object type="0x07d4" id="Undead Hobbit Rogue">
       <Group>Undead Hobbits</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -252,7 +252,7 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x619" id="Undead Hobbit Archer">
+   <Object type="0x07d5" id="Undead Hobbit Archer">
       <Group>Undead Hobbits</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -273,7 +273,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x61a" id="Undead Hobbit Mage">
+   <Object type="0x07d6" id="Undead Hobbit Mage">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -316,7 +316,7 @@
          <Size>150</Size>
       </Projectile>
    </Object>
-   <Object type="0x7F00" id="Sumo Master">
+   <Object type="0x07d7" id="Sumo Master">
       <Group>Sumo</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -374,7 +374,7 @@
       <Defense>5</Defense>
       <XpMult>1.65</XpMult>
    </Object>
-   <Object type="0x7F01" id="Lil Sumo">
+   <Object type="0x07d8" id="Lil Sumo">
       <Group>Sumo</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -396,7 +396,7 @@
       <Defense>4</Defense>
       <XpMult>2.0</XpMult>
    </Object>
-   <Object type="0x605" id="Elf Archer">
+   <Object type="0x07d9" id="Elf Archer">
       <Group>Elves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -417,7 +417,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x606" id="Elf Swordsman">
+   <Object type="0x07da" id="Elf Swordsman">
       <Group>Elves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -438,7 +438,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x607" id="Elf Mage">
+   <Object type="0x07db" id="Elf Mage">
       <Group>Elves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -459,7 +459,7 @@
          <LifetimeMS>1500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x609" id="Elf Wizard">
+   <Object type="0x07dc" id="Elf Wizard">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -484,7 +484,7 @@
          <Size>90</Size>
       </Projectile>
    </Object>
-   <Object type="0x612" id="Goblin Rogue">
+   <Object type="0x07dd" id="Goblin Rogue">
       <Group>Goblins</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -505,7 +505,7 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x613" id="Goblin Warrior">
+   <Object type="0x07de" id="Goblin Warrior">
       <Group>Goblins</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -526,7 +526,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x614" id="Goblin Mage">
+   <Object type="0x07df" id="Goblin Mage">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -559,7 +559,7 @@
          <LifetimeMS>1600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x6c8" id="Easily Enraged Bunny">
+   <Object type="0x07e0" id="Easily Enraged Bunny">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -575,7 +575,7 @@
       <XpMult>0</XpMult>
       <SpawnProb>0.7</SpawnProb>
    </Object>
-   <Object type="0x6c9" id="Enraged Bunny">
+   <Object type="0x07e1" id="Enraged Bunny">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -596,7 +596,7 @@
          <LifetimeMS>1600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x6d1" id="Forest Nymph">
+   <Object type="0x07e2" id="Forest Nymph">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>

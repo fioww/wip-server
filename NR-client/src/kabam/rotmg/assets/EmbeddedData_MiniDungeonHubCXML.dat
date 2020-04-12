@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x746A" id="md LightKey">
+   <Object type="0x0849" id="md LightKey">
       <DisplayId>Key of Light</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -85,7 +85,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x746B" id="md DarkKey">
+   <Object type="0x084a" id="md DarkKey">
       <DisplayId>Key of Darkness</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -169,7 +169,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x2009" id="md dwGenerator">
+   <Object type="0x084b" id="md dwGenerator">
       <DisplayId>Janus the Doorwarden</DisplayId>
       <Class>Character</Class>
       <Texture>
@@ -182,7 +182,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x746D" id="md dwspawner">
+   <Object type="0x084c" id="md dwspawner">
       <Class>Character</Class>
       <Texture>
          <File>d1lofiObjBig</File>
@@ -194,7 +194,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x2008" id="md Janus the Doorwarden">
+   <Object type="0x084d" id="md Janus the Doorwarden">
       <DisplayId>Janus the Doorwarden</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -350,7 +350,7 @@
          <Boomerang/>
       </Projectile>
    </Object>
-   <Object type="0x746F" id="md placer1">
+   <Object type="0x084e" id="md placer1">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -362,7 +362,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x2002" id="md placer3">
+   <Object type="0x084f" id="md placer3">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -374,7 +374,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x2003" id="md placer2">
+   <Object type="0x0850" id="md placer2">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -386,7 +386,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x2004" id="md placer4">
+   <Object type="0x0851" id="md placer4">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -398,7 +398,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x2005" id="Craig, Intern of the Mad God">
+   <Object type="0x0852" id="Craig, Intern of the Mad God">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rMid</File>
@@ -409,7 +409,7 @@
       <Size>100</Size>
       <ShadowSize>50</ShadowSize>
    </Object>
-   <Object type="0x2006" id="md placer5">
+   <Object type="0x0853" id="md placer5">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -421,7 +421,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x2007" id="md Loot Balloon Doorwarden">
+   <Object type="0x0854" id="md Loot Balloon Doorwarden">
       <DisplayId>Janus Chest</DisplayId>
       <Class>Character</Class>
       <Enemy/>

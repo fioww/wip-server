@@ -105,7 +105,7 @@ namespace wServer.realm.setpieces
                         tile.TileId = dat.IdToTileType[Floor];
                         tile.ObjType = 0;
                         tile.UpdateCount++;
-                        Entity ghostKing = Entity.Resolve(world.Manager, 0x0928);
+                        Entity ghostKing = Entity.Resolve(world.Manager, 0x06f7);
                         ghostKing.Move(pos.X + x, pos.Y + y);
                         world.EnterWorld(ghostKing);
                     }

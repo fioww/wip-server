@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x01ff" id="Sheep">
+   <Object type="0x0933" id="Sheep">
       <Group>Sheep</Group>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -11,7 +11,7 @@
       <Size>100</Size>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x5e29" id="Halloween Bat">
+   <Object type="0x0934" id="Halloween Bat">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -28,7 +28,7 @@
       <Size>80</Size>
       <ShadowSize>80</ShadowSize>
    </Object>
-   <Object type="0x074c" id="Nexus Turkey">
+   <Object type="0x0935" id="Nexus Turkey">
       <DisplayId>Turkey</DisplayId>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -38,7 +38,7 @@
       <Size>110</Size>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x074d" id="Winter Bunny">
+   <Object type="0x0936" id="Winter Bunny">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rEncounters</File>
@@ -47,7 +47,7 @@
       <Size>110</Size>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x222a" id="Pumpkin1">
+   <Object type="0x0937" id="Pumpkin1">
       <DisplayId>Creepy Talking Jack-O-Lantern</DisplayId>
       <Class>Character</Class>
       <NoMiniMap/>
@@ -60,7 +60,7 @@
       </Texture>
       <StasisImmune/>
    </Object>
-   <Object type="0x0e78" id="Nexus Crier">
+   <Object type="0x0938" id="Nexus Crier">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8rEncounters</File>

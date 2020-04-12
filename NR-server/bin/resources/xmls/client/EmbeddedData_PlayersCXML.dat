@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0300" id="Rogue">
+   <Object type="0x0a3c" id="Rogue">
       <Class>Player</Class>
       <Description>The rogue relies on his speed to deal damage at medium range while avoiding attacks.</Description>
       <AnimatedTexture>
@@ -33,7 +33,7 @@
       <UnlockLevel level="5" type="0x0307">Archer</UnlockLevel>
       <UnlockCost>199</UnlockCost>
    </Object>
-   <Object type="0x0307" id="Archer">
+   <Object type="0x0a3d" id="Archer">
       <Class>Player</Class>
       <Description>The archer has a long-range attack and can acquire very powerful weapons.</Description>
       <AnimatedTexture>
@@ -65,7 +65,7 @@
       <UnlockLevel level="5" type="0x0310">Priest</UnlockLevel>
       <UnlockCost>199</UnlockCost>
    </Object>
-   <Object type="0x030e" id="Wizard">
+   <Object type="0x0a3e" id="Wizard">
       <Class>Player</Class>
       <Description>The wizard deals damage from a long distance and blasts enemies with powerful spells.</Description>
       <AnimatedTexture>
@@ -96,7 +96,7 @@
       <LevelIncrease min="0" max="2">MpRegen</LevelIncrease>
       <UnlockCost>0</UnlockCost>
    </Object>
-   <Object type="0x0310" id="Priest">
+   <Object type="0x0a3f" id="Priest">
       <Class>Player</Class>
       <Description>The priest attacks at long range and can heal himself and his allies.</Description>
       <AnimatedTexture>
@@ -128,7 +128,7 @@
       <UnlockLevel level="5" type="0x030e">Wizard</UnlockLevel>
       <UnlockCost>50</UnlockCost>
    </Object>
-   <Object type="0x031d" id="Warrior">
+   <Object type="0x0a40" id="Warrior">
       <Class>Player</Class>
       <Description>The warrior wears strong armor and uses his magic helmet to inspire his allies in battle.</Description>
       <AnimatedTexture>
@@ -160,7 +160,7 @@
       <UnlockLevel level="5" type="0x0300">Rogue</UnlockLevel>
       <UnlockCost>199</UnlockCost>
    </Object>
-   <Object type="0x031e" id="Knight">
+   <Object type="0x0a41" id="Knight">
       <Class>Player</Class>
       <Description>The knight fights at close range, wears very heavy armor, and uses his shield to stun enemies.</Description>
       <AnimatedTexture>
@@ -192,7 +192,7 @@
       <UnlockLevel level="20" type="0x031d">Warrior</UnlockLevel>
       <UnlockCost>499</UnlockCost>
    </Object>
-   <Object type="0x031f" id="Paladin">
+   <Object type="0x0a42" id="Paladin">
       <Class>Player</Class>
       <Description>The paladin can deal damage at close range, wear armor and heal himself and his allies.</Description>
       <AnimatedTexture>
@@ -225,7 +225,7 @@
       <UnlockLevel level="20" type="0x0310">Priest</UnlockLevel>
       <UnlockCost>499</UnlockCost>
    </Object>
-   <Object type="0x0320" id="Assassin">
+   <Object type="0x0a43" id="Assassin">
       <Class>Player</Class>
       <Description>The assassin fights from medium range and uses poison to damage his enemies over time.</Description>
       <AnimatedTexture>
@@ -258,7 +258,7 @@
       <UnlockLevel level="20" type="0x030e">Wizard</UnlockLevel>
       <UnlockCost>499</UnlockCost>
    </Object>
-   <Object type="0x0321" id="Necromancer">
+   <Object type="0x0a44" id="Necromancer">
       <Class>Player</Class>
       <Description>The necromancer drains life from his enemies to heal himself and his allies.</Description>
       <AnimatedTexture>
@@ -291,7 +291,7 @@
       <UnlockLevel level="20" type="0x0310">Priest</UnlockLevel>
       <UnlockCost>499</UnlockCost>
    </Object>
-   <Object type="0x0322" id="Huntress">
+   <Object type="0x0a45" id="Huntress">
       <Class>Player</Class>
       <Description>The huntress uses arrows and traps to defeat her enemies.</Description>
       <AnimatedTexture>
@@ -324,7 +324,7 @@
       <UnlockLevel level="20" type="0x0307">Archer</UnlockLevel>
       <UnlockCost>499</UnlockCost>
    </Object>
-   <Object type="0x0323" id="Mystic">
+   <Object type="0x0a46" id="Mystic">
       <Class>Player</Class>
       <Description>The mystic fights with a staff and uses her crystal orb to bind enemies to a distant plane. </Description>
       <AnimatedTexture>
@@ -357,7 +357,7 @@
       <UnlockLevel level="20" type="0x0321">Necromancer</UnlockLevel>
       <UnlockCost>999</UnlockCost>
    </Object>
-   <Object type="0x0324" id="Trickster">
+   <Object type="0x0a47" id="Trickster">
       <Class>Player</Class>
       <Description>The trickster fights with a dagger while using her magical prism to distract enemies.</Description>
       <AnimatedTexture>
@@ -390,7 +390,7 @@
       <UnlockLevel level="20" type="0x031f">Paladin</UnlockLevel>
       <UnlockCost>999</UnlockCost>
    </Object>
-   <Object type="0x0325" id="Sorcerer">
+   <Object type="0x0a48" id="Sorcerer">
       <Class>Player</Class>
       <Description>The sorcerer uses his scepter to fire blasts of chain lightning at his enemies.</Description>
       <AnimatedTexture>
@@ -423,7 +423,7 @@
       <UnlockLevel level="20" type="0x0320">Assassin</UnlockLevel>
       <UnlockCost>999</UnlockCost>
    </Object>
-   <Object type="0x0326" id="Ninja">
+   <Object type="0x0a49" id="Ninja">
       <Class>Player</Class>
       <Description>The ninja relies on speed and skill, using katanas and ninja stars to deal big damage.</Description>
       <AnimatedTexture>

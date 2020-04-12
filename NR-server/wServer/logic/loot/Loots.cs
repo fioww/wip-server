@@ -118,40 +118,49 @@ namespace wServer.logic.loot
         }
 
         private static void ShowBag(Enemy enemy, int[] owners, int bagType, Item[] items) {
-            ushort bag = 0x0500;
-            switch (bagType) {
+            ushort bag = 0x0087; //Brown Bag
+            switch (bagType)
+            {
                 case 0:
-                    bag = 0x500;
+                    bag = 0x0087;
                     break;
 
                 case 1:
-                    bag = 0x506;
+                    bag = 0x0088; //Pink Bag
                     break;
 
                 case 2:
-                    bag = 0x503;
+                    bag = 0x0086; //Purple Bag
                     break;
 
                 case 3:
-                    bag = 0x508;
+                    bag = 0x008a; //Egg Bag
                     break;
 
                 case 4:
-                    bag = 0x509;
+                    bag = 0x008b; //Cyan Bag
                     break;
 
                 case 5:
-                    bag = 0x050B;
+                    bag = 0x008c; //Blue Bag
                     break;
 
                 case 6:
-                    bag = 0x050C;
+                    bag = 0x008d; //White Bag
                     break;
 
                 case 7:
-                    bag = 0xfff;
+                    bag = 0x008d;
                     break;
             }
+
+            var dats = enemy.DamageCounter.GetPlayerData();
+            foreach (var dat in dats)
+            {
+                if (dat.Item1.LDBoostTime > 0 || dat.Item1.Stats.Boost[10] > 0)
+                    bag = 0x0090;
+            }
+
             var container = new Container(enemy.Manager, bag, 1000 * 60, true);
             for (var j = 0; j < 8; j++)
                 container.Inventory[j] = items[j];

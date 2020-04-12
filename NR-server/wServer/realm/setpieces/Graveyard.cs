@@ -123,7 +123,7 @@ namespace wServer.realm.setpieces
                     }
                     else if (t[x, y] == 5)
                     {
-                        Container container = new Container(world.Manager, 0x0501, null, false);
+                        Container container = new Container(world.Manager, 0x0080, null, false);
                         Item[] items = chest.GetLoots(world.Manager, 3, 8).ToArray();
                         for (int i = 0; i < items.Length; i++)
                             container.Inventory[i] = items[i];

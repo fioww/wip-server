@@ -89,7 +89,7 @@ namespace wServer.realm.setpieces
                         tile.ObjType = 0;
                         tile.UpdateCount++;
 
-                        Container container = new Container(world.Manager, 0x0501, null, false);
+                        Container container = new Container(world.Manager, 0x0080, null, false);
                         Item[] items = chest.GetLoots(world.Manager, 5, 8).ToArray();
                         for (int i = 0; i < items.Length; i++)
                             container.Inventory[i] = items[i];

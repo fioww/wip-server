@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x762" id="ic CreepyTime">
+   <Object type="0x0743" id="ic CreepyTime">
       <DisplayId>Creepy Weird Dark Spirit Mirror Image Monster</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -26,7 +26,7 @@
          <ConditionEffect duration="1.5">Dazed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x765" id="ic Whirlwind">
+   <Object type="0x0744" id="ic Whirlwind">
       <DisplayId>Icy Whirlwind</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -59,7 +59,7 @@
          <ConditionEffect duration="1.5">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x748e" id="ic boss spawner live">
+   <Object type="0x0745" id="ic boss spawner live">
       <DisplayId>A Strange Presence</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -73,7 +73,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x764" id="ic boss manager">
+   <Object type="0x0746" id="ic boss manager">
       <DisplayId>A Voice From Beyond</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -88,7 +88,7 @@
       <StasisImmune/>
       <StunImmune/>
    </Object>
-   <Object type="0x761" id="ic boss purifier generator">
+   <Object type="0x0747" id="ic boss purifier generator">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -116,7 +116,7 @@
          <ConditionEffect duration="0.5">Paralyzed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x760" id="ic boss purifier">
+   <Object type="0x0748" id="ic boss purifier">
       <DisplayId>Cursed Grave</DisplayId>
       <Class>Character</Class>
       <Model>Monument 3</Model>
@@ -140,7 +140,7 @@
          <ConditionEffect duration="0.7">Paralyzed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x763" id="ic shielded king">
+   <Object type="0x0749" id="ic shielded king">
       <DisplayId>Creepy Weird Dark Spirit Mirror Image Monster</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -165,7 +165,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x75F" id="ic Esben the Unwilling">
+   <Object type="0x074a" id="ic Esben the Unwilling">
       <DisplayId>Esben the Unwilling</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -241,7 +241,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x0e5b" id="Snow Bat Mama">
+   <Object type="0x074b" id="Snow Bat Mama">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -290,7 +290,7 @@
          <ConditionEffect duration="2.75">Unstable</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0e5a" id="Snow Bat">
+   <Object type="0x074c" id="Snow Bat">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -314,7 +314,7 @@
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0e59" id="Mini Yeti">
+   <Object type="0x074d" id="Mini Yeti">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -336,7 +336,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x0e58" id="Big Yeti">
+   <Object type="0x074e" id="Big Yeti">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -361,7 +361,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x768" id="ic Loot Balloon">
+   <Object type="0x074f" id="ic Loot Balloon">
       <DisplayId>Test Chest</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -373,7 +373,7 @@
       <Size>160</Size>
       <XpMult>0.0</XpMult>
    </Object>
-    <Object type="0x1673" id="InnerSanctum Task Master">
+   <Object type="0x0750" id="InnerSanctum Task Master">
     <Group>Inner Stomach</Group>
     <Class>Character</Class>
     <StasisImmune/>

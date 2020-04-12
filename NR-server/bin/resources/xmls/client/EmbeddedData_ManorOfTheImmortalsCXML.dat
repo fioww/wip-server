@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x1720" id="Lord Ruthven">
+   <Object type="0x0800" id="Lord Ruthven">
       <Enemy/>
       <Class>Character</Class>
       <Group>Vampires</Group>
@@ -51,7 +51,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x1721" id="Vampire Bat">
+   <Object type="0x0801" id="Vampire Bat">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -76,7 +76,7 @@
          <ConditionEffect duration="3.6">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x1722" id="Coffin Creature">
+   <Object type="0x0802" id="Coffin Creature">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -148,7 +148,7 @@
          <LifetimeMS>1600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x1723" id="Bat Swarm 1">
+   <Object type="0x0803" id="Bat Swarm 1">
       <DisplayId>Bat Swarm</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -163,7 +163,7 @@
       <Flying/>
       <Size>0</Size>
    </Object>
-   <Object type="0x1724" id="Vampire Bat Swarmer 1">
+   <Object type="0x0804" id="Vampire Bat Swarmer 1">
       <DisplayId>Vampire Bat Swarmer</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -189,7 +189,7 @@
          <ConditionEffect duration="3.6">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x1725" id="Bat Swarm 2">
+   <Object type="0x0805" id="Bat Swarm 2">
       <DisplayId>Bat Swarm</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -202,7 +202,7 @@
       <Flying/>
       <Size>0</Size>
    </Object>
-   <Object type="0x1726" id="Vampire Bat Swarmer 2">
+   <Object type="0x0806" id="Vampire Bat Swarmer 2">
       <DisplayId>Vampire Bat Swarmer</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -228,7 +228,7 @@
          <ConditionEffect duration="3.6">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x1727" id="Vampire Bat Swarmer">
+   <Object type="0x0807" id="Vampire Bat Swarmer">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -253,7 +253,7 @@
          <ConditionEffect duration="3">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x1728" id="Nosferatu">
+   <Object type="0x0808" id="Nosferatu">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -283,7 +283,7 @@
          <LifetimeMS>1600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x1729" id="Armor Guard">
+   <Object type="0x0809" id="Armor Guard">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -312,7 +312,7 @@
          <LifetimeMS>1400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x172a" id="RockBomb">
+   <Object type="0x080a" id="RockBomb">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -334,7 +334,7 @@
          <LifetimeMS>1400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x172b" id="Hellhound">
+   <Object type="0x080b" id="Hellhound">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -357,7 +357,7 @@
          <ConditionEffect duration="3.6">Bleeding</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x172c" id="Lesser Bald Vampire">
+   <Object type="0x080c" id="Lesser Bald Vampire">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -379,7 +379,7 @@
          <LifetimeMS>1600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x172d" id="Helmet Head">
+   <Object type="0x080d" id="Helmet Head">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -433,7 +433,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x172e" id="Mixcoatl Summoner">
+   <Object type="0x080e" id="Mixcoatl Summoner">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -443,7 +443,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x172f" id="Thessal Summoner">
+   <Object type="0x080f" id="Thessal Summoner">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -453,7 +453,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x1730" id="Septavius Summoner">
+   <Object type="0x0810" id="Septavius Summoner">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -463,7 +463,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x1731" id="Stheno Summoner">
+   <Object type="0x0811" id="Stheno Summoner">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -473,7 +473,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x1732" id="Arachna Summoner">
+   <Object type="0x0812" id="Arachna Summoner">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -483,7 +483,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x1736" id="Vampire Summoner">
+   <Object type="0x0813" id="Vampire Summoner">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -493,7 +493,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x1737" id="Coffin">
+   <Object type="0x0814" id="Coffin">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -507,7 +507,7 @@
       <Size>120</Size>
       <ShadowSize>80</ShadowSize>
    </Object>
-   <Object type="0x1738" id="Lil Feratu">
+   <Object type="0x0815" id="Lil Feratu">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>

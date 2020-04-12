@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0927" id="Dreadstump the Pirate King">
+   <Object type="0x0a2e" id="Dreadstump the Pirate King">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -31,7 +31,7 @@
          <LifetimeMS>1100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x683" id="Pirate Lieutenant">
+   <Object type="0x0a2f" id="Pirate Lieutenant">
       <Group>Cave Pirate Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -51,7 +51,7 @@
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x684" id="Pirate Commander">
+   <Object type="0x0a30" id="Pirate Commander">
       <Group>Cave Pirate Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -71,7 +71,7 @@
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x685" id="Pirate Captain">
+   <Object type="0x0a31" id="Pirate Captain">
       <Group>Cave Pirate Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -91,7 +91,7 @@
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x686" id="Pirate Admiral">
+   <Object type="0x0a32" id="Pirate Admiral">
       <Group>Cave Pirate Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -111,7 +111,7 @@
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x687" id="Cave Pirate Brawler">
+   <Object type="0x0a33" id="Cave Pirate Brawler">
       <Group>Cave Pirates</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -131,7 +131,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x688" id="Cave Pirate Sailor">
+   <Object type="0x0a34" id="Cave Pirate Sailor">
       <Group>Cave Pirates</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -151,7 +151,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x689" id="Cave Pirate Veteran">
+   <Object type="0x0a35" id="Cave Pirate Veteran">
       <Group>Cave Pirates</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -171,7 +171,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x68a" id="Cave Pirate Moll">
+   <Object type="0x0a36" id="Cave Pirate Moll">
       <Group>Cave Pirate Pets</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -185,7 +185,7 @@
       <MaxHitPoints>5</MaxHitPoints>
       <Defense>0</Defense>
    </Object>
-   <Object type="0x68b" id="Cave Pirate Parrot">
+   <Object type="0x0a37" id="Cave Pirate Parrot">
       <Group>Cave Pirate Pets</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -199,7 +199,7 @@
       <MaxHitPoints>5</MaxHitPoints>
       <Defense>0</Defense>
    </Object>
-   <Object type="0x68c" id="Cave Pirate Macaw">
+   <Object type="0x0a38" id="Cave Pirate Macaw">
       <Group>Cave Pirate Pets</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -213,7 +213,7 @@
       <MaxHitPoints>5</MaxHitPoints>
       <Defense>0</Defense>
    </Object>
-   <Object type="0x68d" id="Cave Pirate Monkey">
+   <Object type="0x0a39" id="Cave Pirate Monkey">
       <Group>Cave Pirate Pets</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -227,7 +227,7 @@
       <MaxHitPoints>5</MaxHitPoints>
       <Defense>0</Defense>
    </Object>
-   <Object type="0x68e" id="Cave Pirate Hunchback">
+   <Object type="0x0a3a" id="Cave Pirate Hunchback">
       <Group>Cave Pirate Pets</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -241,7 +241,7 @@
       <MaxHitPoints>5</MaxHitPoints>
       <Defense>0</Defense>
    </Object>
-   <Object type="0x68f" id="Cave Pirate Cabin Boy">
+   <Object type="0x0a3b" id="Cave Pirate Cabin Boy">
       <Group>Cave Pirate Pets</Group>
       <Enemy/>
       <Class>Character</Class>

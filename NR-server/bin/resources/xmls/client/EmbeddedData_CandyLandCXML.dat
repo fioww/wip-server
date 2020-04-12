@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x5e49" id="Candy Gnome">
+   <Object type="0x0058" id="Candy Gnome">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -18,7 +18,7 @@
       <XpMult>2.5</XpMult>
       <SpawnProb>0.04</SpawnProb>
    </Object>
-   <Object type="0x5e48" id="MegaRototo">
+   <Object type="0x0059" id="MegaRototo">
       <Group>Candy Boss</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -63,7 +63,7 @@
          <Size>130</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e47" id="Spoiled Creampuff">
+   <Object type="0x005a" id="Spoiled Creampuff">
       <Group>Candy Boss</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -94,7 +94,7 @@
          <Size>160</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e46" id="Desire Troll">
+   <Object type="0x005b" id="Desire Troll">
       <Group>Candy Boss</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -145,7 +145,7 @@
          <Size>110</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e45" id="Swoll Fairy">
+   <Object type="0x005c" id="Swoll Fairy">
       <Group>Candy Boss</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -185,7 +185,7 @@
          <ConditionEffect duration="2">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x5e44" id="Gigacorn">
+   <Object type="0x005d" id="Gigacorn">
       <Group>Candy Boss</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -219,7 +219,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x5e43" id="Candyland Boss Spawner">
+   <Object type="0x005e" id="Candyland Boss Spawner">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -232,7 +232,7 @@
       <MaxHitPoints>10000</MaxHitPoints>
       <XpMult>0</XpMult>
    </Object>
-   <Object type="0x5e42" id="Gumball Machine">
+   <Object type="0x005f" id="Gumball Machine">
       <Class>Character</Class>
       <Enemy/>
       <OccupySquare/>
@@ -251,7 +251,7 @@
       <Defense>10</Defense>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x5e41" id="Cupcake">
+   <Object type="0x0060" id="Cupcake">
       <Group>Candy Creature</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -275,7 +275,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x5e40" id="Unicorn">
+   <Object type="0x0061" id="Unicorn">
       <Group>Candy Creature</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -305,7 +305,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x5e3e" id="Hard Candy">
+   <Object type="0x0062" id="Hard Candy">
       <Group>Candy Creature</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -329,7 +329,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x5e39" id="Beefy Fairy">
+   <Object type="0x0063" id="Beefy Fairy">
       <Group>Candy Creature</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -357,7 +357,7 @@
          <ConditionEffect duration="2">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x5e38" id="Fairy">
+   <Object type="0x0064" id="Fairy">
       <Group>Candy Creature</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -383,7 +383,7 @@
          <ConditionEffect duration="0.6">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x5e37" id="Wishing Troll">
+   <Object type="0x0065" id="Wishing Troll">
       <Group>Candy Creature</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -409,7 +409,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x5e36" id="Spilled Icecream">
+   <Object type="0x0066" id="Spilled Icecream">
       <Group>Candy Creature</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -432,7 +432,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x5e35" id="Big Creampuff">
+   <Object type="0x0067" id="Big Creampuff">
       <Group>Candy Creature</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -462,7 +462,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e34" id="Small Creampuff">
+   <Object type="0x0068" id="Small Creampuff">
       <Group>Candy Creature</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -493,7 +493,7 @@
          <ConditionEffect duration="1.2">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x5e33" id="Tiny Rototo">
+   <Object type="0x0069" id="Tiny Rototo">
       <Group>Candy Creature</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -523,7 +523,7 @@
          <Size>90</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e32" id="Rototo">
+   <Object type="0x006a" id="Rototo">
       <Group>Candy Creature</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -559,7 +559,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e31" id="Candyland Spawner">
+   <Object type="0x006b" id="Candyland Spawner">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -572,7 +572,7 @@
       <MaxHitPoints>10000</MaxHitPoints>
       <XpMult>0</XpMult>
    </Object>
-   <Object type="0x5e2f" id="Butterfly">
+   <Object type="0x006c" id="Butterfly">
       <Enemy/>
       <Class>Character</Class>
       <Texture>

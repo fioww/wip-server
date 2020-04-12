@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x1648" id="Rainbow Road">
+   <Object type="0x0fd2" id="Rainbow Road">
       <DisplayId>Rainbow Portal</DisplayId>
       <Class>Portal</Class>
       <IntergamePortal/>
@@ -12,7 +12,7 @@
       </Texture>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x164a" id="Clover Bow">
+   <Object type="0x0fd3" id="Clover Bow">
       <Class>Equipment</Class>
       <Item/>
       <Texture>
@@ -42,7 +42,7 @@
       <Soulbound/>
       <DisplayId>Clover Bow</DisplayId>
    </Object>
-   <Object type="0x164b" id="Sword of the Rainbow's End">
+   <Object type="0x0fd4" id="Sword of the Rainbow's End">
       <Class>Equipment</Class>
       <Item/>
       <Texture>
@@ -70,7 +70,7 @@
       <Soulbound/>
       <DisplayId>Sword of the Rainbow's End</DisplayId>
    </Object>
-   <Object type="0x164c" id="St. Patricks Event">
+   <Object type="0x0fd5" id="St. Patricks Event">
       <DisplayId>Leprechaun</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -90,7 +90,7 @@
       <Level>20</Level>
       <ParalyzeImmune/>
    </Object>
-   <Object type="0x164d" id="St. Patricks Event Chest">
+   <Object type="0x0fd6" id="St. Patricks Event Chest">
       <DisplayId>Pot of Gold</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -107,7 +107,7 @@
       <XpMult>0.8</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x164e" id="Patty Coin1">
+   <Object type="0x0fd7" id="Patty Coin1">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -122,7 +122,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x164f" id="Patty Clover1">
+   <Object type="0x0fd8" id="Patty Clover1">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -145,7 +145,7 @@
       <Static/>
       <OccupySquare/>
    </Object>
-   <Object type="0x1650" id="Patty Rainbow 1">
+   <Object type="0x0fd9" id="Patty Rainbow 1">
       <Class>GameObject</Class>
       <Model>Gate Entry</Model>
       <Texture>
@@ -156,7 +156,7 @@
       <Rotation>90</Rotation>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x1651" id="Patty Rainbow 2">
+   <Object type="0x0fda" id="Patty Rainbow 2">
       <Class>GameObject</Class>
       <Model>Gate Entry</Model>
       <Texture>
@@ -168,7 +168,7 @@
       <ShadowSize>0</ShadowSize>
       <Z>2</Z>
    </Object>
-   <Object type="0x1652" id="Patty Plant">
+   <Object type="0x0fdb" id="Patty Plant">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -188,7 +188,7 @@
       <ShadowSize>80</ShadowSize>
       <Static/>
    </Object>
-   <Object type="0x1653" id="Patty Rocks">
+   <Object type="0x0fdc" id="Patty Rocks">
       <Class>GameObject</Class>
       <RandomTexture>
          <Texture>
@@ -208,7 +208,7 @@
       <ShadowSize>80</ShadowSize>
       <Static/>
    </Object>
-   <Object type="0x1654" id="St. Patricks Event Dead">
+   <Object type="0x0fdd" id="St. Patricks Event Dead">
       <Class>Character</Class>
       <Enemy/>
       <NoMiniMap/>
@@ -221,7 +221,7 @@
       <Size>0</Size>
       <MaxHitPoints>10</MaxHitPoints>
    </Object>
-   <Object type="0x1655" id="Patty Coin Drop">
+   <Object type="0x0fde" id="Patty Coin Drop">
       <Class>Character</Class>
       <Enemy/>
       <NoMiniMap/>

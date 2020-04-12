@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0e28" id="Snakepit Guard Spawner">
+   <Object type="0x0da8" id="Snakepit Guard Spawner">
       <Class>Character</Class>
       <Enemy/>
       <NoMiniMap/>
@@ -14,7 +14,7 @@
       <MaxHitPoints>100</MaxHitPoints>
       <StasisImmune/>
    </Object>
-   <Object type="0x0e27" id="Snakepit Button">
+   <Object type="0x0da9" id="Snakepit Button">
       <Class>Character</Class>
       <Enemy/>
       <NoMiniMap/>
@@ -35,7 +35,7 @@
       <Size>100</Size>
       <ShadowSize>0</ShadowSize>
    </Object>
-   <Object type="0x0e26" id="Snakepit Guard">
+   <Object type="0x0daa" id="Snakepit Guard">
       <Class>Character</Class>
       <Enemy/>
       <NoMiniMap/>
@@ -73,7 +73,7 @@
          <ConditionEffect duration="4">Dazed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0e25" id="Snakepit Dart Thrower">
+   <Object type="0x0dab" id="Snakepit Dart Thrower">
       <Class>Character</Class>
       <Enemy/>
       <NoMiniMap/>
@@ -95,7 +95,7 @@
          <ConditionEffect duration="4">Bleeding</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0917" id="Stheno the Snake Queen">
+   <Object type="0x0dac" id="Stheno the Snake Queen">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar216x16</File>
@@ -131,7 +131,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0918" id="Stheno Pet">
+   <Object type="0x0dad" id="Stheno Pet">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars16x16dEncounters</File>
@@ -155,7 +155,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0919" id="Stheno Swarm">
+   <Object type="0x0dae" id="Stheno Swarm">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8dEncounters</File>
@@ -178,7 +178,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0223" id="Pit Snake">
+   <Object type="0x0daf" id="Pit Snake">
       <Group>Pit Snakes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -199,7 +199,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0224" id="Pit Viper">
+   <Object type="0x0db0" id="Pit Viper">
       <Group>Pit Snakes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -220,7 +220,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0225" id="Fire Python">
+   <Object type="0x0db1" id="Fire Python">
       <Group>Pythons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -240,7 +240,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0226" id="Brown Python">
+   <Object type="0x0db2" id="Brown Python">
       <Group>Pythons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -260,7 +260,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0227" id="Yellow Python">
+   <Object type="0x0db3" id="Yellow Python">
       <Group>Pythons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -280,7 +280,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0228" id="Greater Pit Snake">
+   <Object type="0x0db4" id="Greater Pit Snake">
       <Group>Greater Pit Snakes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -300,7 +300,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0229" id="Greater Pit Viper">
+   <Object type="0x0db5" id="Greater Pit Viper">
       <Group>Greater Pit Snakes</Group>
       <Enemy/>
       <Class>Character</Class>

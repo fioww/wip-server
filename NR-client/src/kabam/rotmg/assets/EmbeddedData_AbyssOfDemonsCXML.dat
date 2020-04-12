@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0908" id="Malphas Protector">
+   <Object type="0x0001" id="Malphas Protector">
       <Group>Demons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -22,7 +22,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0909" id="Malphas Missile">
+   <Object type="0x0002" id="Malphas Missile">
       <Group>Missiles</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -43,7 +43,7 @@
       <Defense>30</Defense>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x090a" id="Archdemon Malphas">
+   <Object type="0x0003" id="Archdemon Malphas">
       <Group>Demons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -97,7 +97,7 @@
          <ConditionEffect duration="4">Weak</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x090b" id="Malphas Flamer">
+   <Object type="0x0004" id="Malphas Flamer">
       <Group>Flamers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -122,7 +122,7 @@
       <Defense>6</Defense>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x1733" id="Archdemon Summoner">
+   <Object type="0x0005" id="Archdemon Summoner">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -132,7 +132,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x1734" id="Archdemon GroundShot">
+   <Object type="0x0006" id="Archdemon GroundShot">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -141,7 +141,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x1735" id="Archdemon SafeGround">
+   <Object type="0x0007" id="Archdemon SafeGround">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -150,7 +150,7 @@
       <MaxHitPoints>10</MaxHitPoints>
       <Size>0</Size>
    </Object>
-   <Object type="0x673" id="White Demon of the Abyss">
+   <Object type="0x0008" id="White Demon of the Abyss">
       <Group>Greater Demons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -175,7 +175,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x66d" id="Imp of the Abyss">
+   <Object type="0x0009" id="Imp of the Abyss">
       <Group>Abyss Demons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -196,7 +196,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x66e" id="Demon of the Abyss">
+   <Object type="0x000a" id="Demon of the Abyss">
       <Group>Abyss Demons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -217,7 +217,7 @@
          <Size>140</Size>
       </Projectile>
    </Object>
-   <Object type="0x66f" id="Demon Warrior of the Abyss">
+   <Object type="0x000b" id="Demon Warrior of the Abyss">
       <Group>Abyss Demons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -237,7 +237,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x670" id="Demon Mage of the Abyss">
+   <Object type="0x000c" id="Demon Mage of the Abyss">
       <Group>Abyss Demons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -257,7 +257,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x671" id="Brute of the Abyss">
+   <Object type="0x000d" id="Brute of the Abyss">
       <Group>Abyss Brutes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -277,7 +277,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x672" id="Brute Warrior of the Abyss">
+   <Object type="0x000e" id="Brute Warrior of the Abyss">
       <Group>Abyss Brutes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -297,7 +297,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0e1e" id="AbyssIdolDead">
+   <Object type="0x000f" id="AbyssIdolDead">
       <Class>Character</Class>
       <Enemy/>
       <NoMiniMap/>
@@ -310,7 +310,7 @@
       <Size>0</Size>
       <MaxHitPoints>10</MaxHitPoints>
    </Object>
-   <Object type="0x0e1d" id="Abyss Idol">
+   <Object type="0x0010" id="Abyss Idol">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -347,7 +347,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x0e1c" id="AbyssExitGuarder">
+   <Object type="0x0011" id="AbyssExitGuarder">
       <Class>Character</Class>
       <Enemy/>
       <NoMiniMap/>
@@ -360,7 +360,7 @@
       <Size>0</Size>
       <MaxHitPoints>10</MaxHitPoints>
    </Object>
-   <Object type="0x0e1b" id="LavaTrigger">
+   <Object type="0x0012" id="LavaTrigger">
       <Class>Character</Class>
       <Enemy/>
       <NoMiniMap/>
@@ -373,7 +373,7 @@
       <Size>0</Size>
       <MaxHitPoints>10</MaxHitPoints>
    </Object>
-   <Object type="0x0e1a" id="AbyssTreasureLavaBomb">
+   <Object type="0x0013" id="AbyssTreasureLavaBomb">
       <Class>Character</Class>
       <Enemy/>
       <NoMiniMap/>

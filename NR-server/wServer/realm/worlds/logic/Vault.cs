@@ -29,7 +29,7 @@ namespace wServer.realm.worlds.logic
                 ExtraXML = ExtraXML.Concat(new[]
                 {
                     @"	<Objects>
-		                    <Object type=""0x0504"" id=""Vault Chest"">
+		                    <Object type=""0x0082"" id=""Vault Chest"">
 			                    <Class>Container</Class>
 			                    <Container/>
 			                    <CanPutNormalObjects/>
@@ -96,7 +96,7 @@ namespace wServer.realm.worlds.logic
             for (var i = 0; i < _client.Account.VaultCount && vaultChestPosition.Count > 0; i++)
             {
                 var vaultChest = new DbVaultSingle(_client.Account, i);
-                var con = new Container(_client.Manager, 0x0504, null, false, vaultChest);
+                var con = new Container(_client.Manager, 0x0082, null, false, vaultChest);
                 con.BagOwners = new int[] { _client.Account.AccountId };
                 con.Inventory.SetItems(vaultChest.Items);
                 con.Inventory.InventoryChanged += (sender, e) => SaveChest(((Inventory) sender).Parent);
@@ -107,7 +107,7 @@ namespace wServer.realm.worlds.logic
             }
             foreach (var i in vaultChestPosition)
             {
-                var x = new ClosedVaultChest(_client.Manager, 0x0505);
+                var x = new ClosedVaultChest(_client.Manager, 0x0083);
                 x.Move(i.X + 0.5f, i.Y + 0.5f);
                 EnterWorld(x);
             }
@@ -121,7 +121,7 @@ namespace wServer.realm.worlds.logic
                 if (c < 8)
                     items.AddRange(Enumerable.Repeat(ushort.MaxValue, 8 - c));
 
-                var con = new GiftChest(_client.Manager, 0x0744, null, false);
+                var con = new GiftChest(_client.Manager, 0x0084, null, false);
                 con.BagOwners = new int[] { _client.Account.AccountId };
                 con.Inventory.SetItems(items);
                 con.Move(giftChestPosition[0].X + 0.5f, giftChestPosition[0].Y + 0.5f);
@@ -130,14 +130,14 @@ namespace wServer.realm.worlds.logic
             }
             foreach (var i in giftChestPosition)
             {
-                var x = new StaticObject(_client.Manager, 0x0743, null, true, false, false);
+                var x = new StaticObject(_client.Manager, 0x0085, null, true, false, false);
                 x.Move(i.X + 0.5f, i.Y + 0.5f);
                 EnterWorld(x);
             }
 
             // devon roach
             if (_client.Account.Name.Equals("Devon"))
-            {
+            {//
                 var e = new Enemy(Manager, 0x12C);
                 e.Move(38, 68);
                 EnterWorld(e);
@@ -169,7 +169,7 @@ namespace wServer.realm.worlds.logic
         public void AddChest(Entity original)
         {
             var vaultChest = new DbVaultSingle(_client.Account, _client.Account.VaultCount - 1);
-            var con = new Container(_client.Manager, 0x0504, null, false, vaultChest);
+            var con = new Container(_client.Manager, 0x0082, null, false, vaultChest);
             con.BagOwners = new int[] { _client.Account.AccountId };
             con.Inventory.SetItems(vaultChest.Items);
             con.Inventory.InventoryChanged += (sender, e) => SaveChest(((Inventory) sender).Parent);
@@ -194,10 +194,10 @@ namespace wServer.realm.worlds.logic
         {
             base.LeaveWorld(entity);
 
-            if (entity.ObjectType != 0x0744)
+            if (entity.ObjectType != 0x0084)
                 return;
 
-            var x = new StaticObject(_client.Manager, 0x0743, null, true, false, false);
+            var x = new StaticObject(_client.Manager, 0x0085, null, true, false, false);
             x.Move(entity.X, entity.Y);
             EnterWorld(x);
 

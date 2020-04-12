@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x5e62" id="Mama Megamoth">
+   <Object type="0x064a" id="Mama Megamoth">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -27,7 +27,7 @@
          <ConditionEffect duration="3">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x5e61" id="Mini Megamoth">
+   <Object type="0x064b" id="Mini Megamoth">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -51,7 +51,7 @@
          <ConditionEffect duration="0.8">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x5e60" id="Armored Squirrel">
+   <Object type="0x064c" id="Armored Squirrel">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -72,7 +72,7 @@
          <Size>80</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e63" id="Ultimate Squirrel">
+   <Object type="0x064d" id="Ultimate Squirrel">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -93,7 +93,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e4d" id="Forest Goblin Mage">
+   <Object type="0x064e" id="Forest Goblin Mage">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -116,7 +116,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e4c" id="Forest Goblin">
+   <Object type="0x064f" id="Forest Goblin">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -137,7 +137,7 @@
          <Size>90</Size>
       </Projectile>
    </Object>
-   <Object type="0x5e5f" id="Forrest Shady Floor">
+   <Object type="0x0650" id="Forrest Shady Floor">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -146,7 +146,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e5e" id="Forrest Shady Corner DL">
+   <Object type="0x0651" id="Forrest Shady Corner DL">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -155,7 +155,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e5d" id="Forrest Shady Corner DR">
+   <Object type="0x0652" id="Forrest Shady Corner DR">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -164,7 +164,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e5c" id="Forrest Shady Corner UL">
+   <Object type="0x0653" id="Forrest Shady Corner UL">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -173,7 +173,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e5b" id="Forrest Shady Corner UR">
+   <Object type="0x0654" id="Forrest Shady Corner UR">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -182,7 +182,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e5a" id="Forrest Shady OCorner DL">
+   <Object type="0x0655" id="Forrest Shady OCorner DL">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -191,7 +191,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e59" id="Forrest Shady OCorner DR">
+   <Object type="0x0656" id="Forrest Shady OCorner DR">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -200,7 +200,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e58" id="Forrest Shady OCorner UL">
+   <Object type="0x0657" id="Forrest Shady OCorner UL">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -209,7 +209,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e57" id="Forrest Shady OCorner UR">
+   <Object type="0x0658" id="Forrest Shady OCorner UR">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -218,7 +218,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e56" id="Forrest Shady Edge UP">
+   <Object type="0x0659" id="Forrest Shady Edge UP">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -227,7 +227,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e55" id="Forrest Shady Edge DN">
+   <Object type="0x065a" id="Forrest Shady Edge DN">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -236,7 +236,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e54" id="Forrest Shady Edge LF">
+   <Object type="0x065b" id="Forrest Shady Edge LF">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -245,7 +245,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e53" id="Forrest Shady Edge RT">
+   <Object type="0x065c" id="Forrest Shady Edge RT">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -254,7 +254,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e52" id="Forrest Shady Floor DR">
+   <Object type="0x065d" id="Forrest Shady Floor DR">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -263,7 +263,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e51" id="Forrest Shady Floor DL">
+   <Object type="0x065e" id="Forrest Shady Floor DL">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -272,7 +272,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e50" id="Forrest Shady Floor UR">
+   <Object type="0x065f" id="Forrest Shady Floor UR">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>
@@ -281,7 +281,7 @@
       <DrawOnGround/>
       <Static/>
    </Object>
-   <Object type="0x5e4f" id="Forrest Shady Floor UL">
+   <Object type="0x0660" id="Forrest Shady Floor UL">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiEnvironment2</File>

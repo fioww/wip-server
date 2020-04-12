@@ -287,7 +287,7 @@ namespace wServer.realm
                         item = itemList[0];
                     }
 
-                    var m = new PlayerMerchant(_manager, 0x01ca)
+                    var m = new PlayerMerchant(_manager, 0x0951)
                     {
                         PlayerShopItem = item,
                         Item = item.ItemId,

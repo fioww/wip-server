@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x702" id="Test Enemy Item">
+   <Object type="0x003d" id="Test Enemy Item">
       <DisplayId>Enemy Spawner</DisplayId>
       <Class>Equipment</Class>
       <Item/>
@@ -16,7 +16,7 @@
       <Soulbound/>
       <Activate id="Test Encounter Spawner">Create</Activate>
    </Object>
-   <Object type="0x716" id="Test Enemy Spawner">
+   <Object type="0x003e" id="Test Enemy Spawner">
       <DisplayId>Enemy Spawner</DisplayId>
       <Class>Character</Class>
       <Texture>
@@ -25,7 +25,7 @@
       </Texture>
       <Size>0</Size>
    </Object>
-   <Object type="0x934" id="Testing Key Dropper">
+   <Object type="0x003f" id="Testing Key Dropper">
       <Class>Character</Class>
       <StasisImmune/>
       <Enemy/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x646" id="Minotaur">
+   <Object type="0x0720" id="Minotaur">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -44,7 +44,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x647" id="Flayer">
+   <Object type="0x0721" id="Flayer">
       <Group>Flayers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -66,7 +66,7 @@
          <LifetimeMS>2700</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x648" id="Flayer Veteran">
+   <Object type="0x0722" id="Flayer Veteran">
       <Group>Flayers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -88,7 +88,7 @@
          <LifetimeMS>1500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x649" id="Flayer God">
+   <Object type="0x0723" id="Flayer God">
       <Group>Flayers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -119,7 +119,7 @@
          <ConditionEffect duration="10">Quiet</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0903" id="Flamer King">
+   <Object type="0x0724" id="Flamer King">
       <Group>Flamers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -146,7 +146,7 @@
       <SpawnProb>1.0</SpawnProb>
       <Terrain>HighSand</Terrain>
    </Object>
-   <Object type="0x0904" id="Flamer">
+   <Object type="0x0725" id="Flamer">
       <Group>Flamers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -172,7 +172,7 @@
       <XpMult>0.05</XpMult>
       <Terrain>HighSand</Terrain>
    </Object>
-   <Object type="0x63a" id="Undead Dwarf Warrior">
+   <Object type="0x0726" id="Undead Dwarf Warrior">
       <Group>Undead Dwarves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -193,7 +193,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x63b" id="Undead Dwarf Axebearer">
+   <Object type="0x0727" id="Undead Dwarf Axebearer">
       <Group>Undead Dwarves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -214,7 +214,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x63c" id="Undead Dwarf Mage">
+   <Object type="0x0728" id="Undead Dwarf Mage">
       <Group>Undead Dwarves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -236,7 +236,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x63e" id="Undead Dwarf King">
+   <Object type="0x0729" id="Undead Dwarf King">
       <Group>Undead Dwarves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -257,7 +257,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x63f" id="Soulless Dwarf">
+   <Object type="0x072a" id="Soulless Dwarf">
       <Group>Undead Dwarves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -278,7 +278,7 @@
          <LifetimeMS>1700</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x640" id="Undead Dwarf God">
+   <Object type="0x072b" id="Undead Dwarf God">
       <Group>Undead Dwarves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -308,7 +308,7 @@
          <ConditionEffect duration="3">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0900" id="Shield Orc Key">
+   <Object type="0x072c" id="Shield Orc Key">
       <Group>Shield Orcs</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -334,7 +334,7 @@
       <Terrain>HighPlains</Terrain>
       <SpawnProb>1.0</SpawnProb>
    </Object>
-   <Object type="0x0901" id="Shield Orc Flooder">
+   <Object type="0x072d" id="Shield Orc Flooder">
       <Group>Shield Orcs</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -359,7 +359,7 @@
       <XpMult>0.0</XpMult>
       <Terrain>HighPlains</Terrain>
    </Object>
-   <Object type="0x0902" id="Shield Orc Shield">
+   <Object type="0x072e" id="Shield Orc Shield">
       <Group>Shield Orcs</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -384,7 +384,7 @@
       <XpMult>0.0</XpMult>
       <Terrain>HighPlains</Terrain>
    </Object>
-   <Object type="0x0957" id="Urgle">
+   <Object type="0x072f" id="Urgle">
       <Group>Traptossers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -409,7 +409,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0958" id="Left Horizontal Trap">
+   <Object type="0x0730" id="Left Horizontal Trap">
       <DisplayId>Trap Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -453,7 +453,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x0959" id="Top Vertical Trap">
+   <Object type="0x0731" id="Top Vertical Trap">
       <DisplayId>Trap Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -497,7 +497,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x0960" id="45-225 Diagonal Trap">
+   <Object type="0x0732" id="45-225 Diagonal Trap">
       <DisplayId>Trap Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -541,7 +541,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x0961" id="135-315 Diagonal Trap">
+   <Object type="0x0733" id="135-315 Diagonal Trap">
       <DisplayId>Trap Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -585,7 +585,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x642" id="Ogre Mage">
+   <Object type="0x0734" id="Ogre Mage">
       <Group>Ogres</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -606,7 +606,7 @@
          <LifetimeMS>1500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x643" id="Ogre Warrior">
+   <Object type="0x0735" id="Ogre Warrior">
       <Group>Ogres</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -627,7 +627,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x644" id="Ogre Wizard">
+   <Object type="0x0736" id="Ogre Wizard">
       <Group>Ogres</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -649,7 +649,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x645" id="Ogre King">
+   <Object type="0x0737" id="Ogre King">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -670,7 +670,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x64a" id="Night Elf Archer">
+   <Object type="0x0738" id="Night Elf Archer">
       <Group>Night Elves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -691,7 +691,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x64b" id="Night Elf Warrior">
+   <Object type="0x0739" id="Night Elf Warrior">
       <Group>Night Elves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -712,7 +712,7 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x64c" id="Night Elf Mage">
+   <Object type="0x073a" id="Night Elf Mage">
       <Group>Night Elves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -734,7 +734,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x64d" id="Night Elf Veteran">
+   <Object type="0x073b" id="Night Elf Veteran">
       <Group>Night Elves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -757,7 +757,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x64f" id="Night Elf King">
+   <Object type="0x073c" id="Night Elf King">
       <Group>Night Elves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -778,7 +778,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x650" id="Lizard God">
+   <Object type="0x073d" id="Lizard God">
       <Group>Night Elves</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -802,7 +802,7 @@
          <LifetimeMS>1600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0206" id="Dragon Egg">
+   <Object type="0x073e" id="Dragon Egg">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar8x8</File>
@@ -817,7 +817,7 @@
       <Terrain>HighForest</Terrain>
       <SpawnProb>1.0</SpawnProb>
    </Object>
-   <Object type="0x0207" id="White Dragon Whelp">
+   <Object type="0x073f" id="White Dragon Whelp">
       <Class>Character</Class>
       <Size>65</Size>
       <Texture>
@@ -839,7 +839,7 @@
          <LifetimeMS>2300</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0208" id="Juvenile White Dragon">
+   <Object type="0x0740" id="Juvenile White Dragon">
       <Class>Character</Class>
       <Size>90</Size>
       <Texture>
@@ -861,7 +861,7 @@
          <LifetimeMS>2200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0209" id="Adult White Dragon">
+   <Object type="0x0741" id="Adult White Dragon">
       <Class>Character</Class>
       <Size>120</Size>
       <AnimatedTexture>
@@ -882,7 +882,7 @@
          <LifetimeMS>2200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x5e25" id="Beer God">
+   <Object type="0x0742" id="Beer God">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>

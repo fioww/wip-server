@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0936" id="Arachna the Spider Queen">
+   <Object type="0x0db6" id="Arachna the Spider Queen">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar216x16</File>
@@ -36,7 +36,7 @@
          <ConditionEffect duration="5">Weak</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0937" id="Arachna Web Spoke 1">
+   <Object type="0x0db7" id="Arachna Web Spoke 1">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -60,7 +60,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0938" id="Arachna Web Spoke 2">
+   <Object type="0x0db8" id="Arachna Web Spoke 2">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -84,7 +84,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0939" id="Arachna Web Spoke 3">
+   <Object type="0x0db9" id="Arachna Web Spoke 3">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -108,7 +108,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x093a" id="Arachna Web Spoke 4">
+   <Object type="0x0dba" id="Arachna Web Spoke 4">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -132,7 +132,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x093b" id="Arachna Web Spoke 5">
+   <Object type="0x0dbb" id="Arachna Web Spoke 5">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -156,7 +156,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x093c" id="Arachna Web Spoke 6">
+   <Object type="0x0dbc" id="Arachna Web Spoke 6">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -180,7 +180,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x093d" id="Arachna Web Spoke 7">
+   <Object type="0x0dbd" id="Arachna Web Spoke 7">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -204,7 +204,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x093e" id="Arachna Web Spoke 8">
+   <Object type="0x0dbe" id="Arachna Web Spoke 8">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -228,7 +228,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x093f" id="Arachna Web Spoke 9">
+   <Object type="0x0dbf" id="Arachna Web Spoke 9">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -252,7 +252,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x21b" id="Spider Egg Sac">
+   <Object type="0x0dc0" id="Spider Egg Sac">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -264,7 +264,7 @@
       <Size>75</Size>
       <MaxHitPoints>1</MaxHitPoints>
    </Object>
-   <Object type="0x021c" id="Green Den Spider Hatchling">
+   <Object type="0x0dc1" id="Green Den Spider Hatchling">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar8x8</File>
@@ -283,7 +283,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x021d" id="Black Den Spider">
+   <Object type="0x0dc2" id="Black Den Spider">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar8x8</File>
@@ -301,7 +301,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x021e" id="Red Spotted Den Spider">
+   <Object type="0x0dc3" id="Red Spotted Den Spider">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar28x8</File>
@@ -319,7 +319,7 @@
          <LifetimeMS>1250</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x021f" id="Black Spotted Den Spider">
+   <Object type="0x0dc4" id="Black Spotted Den Spider">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar28x8</File>
@@ -339,7 +339,7 @@
          <LifetimeMS>1250</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0220" id="Brown Den Spider">
+   <Object type="0x0dc5" id="Brown Den Spider">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar28x8</File>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x7443" id="Puppet Theatre Boss Spawn">
+   <Object type="0x0c59" id="Puppet Theatre Boss Spawn">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -14,7 +14,7 @@
       <StasisImmune/>
       <StunImmune/>
    </Object>
-   <Object type="0x7433" id="The Puppet Master">
+   <Object type="0x0c5a" id="The Puppet Master">
       <DisplayId>The Puppet Master</DisplayId>
       <Class>Character</Class>
       <Group>Master</Group>
@@ -72,7 +72,7 @@
          </Texture>
       </AltTexture>
    </Object>
-   <Object type="0x743e" id="Puppet Wizard 2">
+   <Object type="0x0c5b" id="Puppet Wizard 2">
       <DisplayId>Wizard Puppet</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -121,7 +121,7 @@
          </Texture>
       </AltTexture>
    </Object>
-   <Object type="0x743f" id="Puppet Knight 2">
+   <Object type="0x0c5c" id="Puppet Knight 2">
       <DisplayId>Knight Puppet</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -155,7 +155,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7437" id="Puppet Priest">
+   <Object type="0x0c5d" id="Puppet Priest">
       <DisplayId>Priest Puppet</DisplayId>
       <Class>Character</Class>
       <Group>Healers</Group>
@@ -199,7 +199,7 @@
          </Texture>
       </AltTexture>
    </Object>
-   <Object type="0x7440" id="Puppet Priest 2">
+   <Object type="0x0c5e" id="Puppet Priest 2">
       <DisplayId>Priest Puppet</DisplayId>
       <Class>Character</Class>
       <Group>Healers</Group>
@@ -243,7 +243,7 @@
          </Texture>
       </AltTexture>
    </Object>
-   <Object type="0x7438" id="False Puppet Master">
+   <Object type="0x0c5f" id="False Puppet Master">
       <DisplayId>The Puppet Master</DisplayId>
       <Class>Character</Class>
       <Group>Master</Group>
@@ -287,7 +287,7 @@
          <ConditionEffect duration="2.5">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7444" id="Oryx Puppet">
+   <Object type="0x0c60" id="Oryx Puppet">
       <DisplayId>Oryx Puppet</DisplayId>
       <Class>Character</Class>
       <Group>Treasure Boss</Group>
@@ -332,7 +332,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x7445" id="Minion Puppet">
+   <Object type="0x0c61" id="Minion Puppet">
       <DisplayId>Minion Puppet</DisplayId>
       <Class>Character</Class>
       <Group>Treasure Minion</Group>
@@ -368,7 +368,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x7446" id="Mini Guardian Element">
+   <Object type="0x0c62" id="Mini Guardian Element">
       <DisplayId>Mini Guardian Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -391,7 +391,7 @@
       </Projectile>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x7435" id="Puppet Wizard">
+   <Object type="0x0c63" id="Puppet Wizard">
       <DisplayId>Wizard Puppet</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -440,7 +440,7 @@
          </Texture>
       </AltTexture>
    </Object>
-   <Object type="0x7436" id="Puppet Knight">
+   <Object type="0x0c64" id="Puppet Knight">
       <DisplayId>Knight Puppet</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -474,7 +474,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7442" id="Assassin Puppet">
+   <Object type="0x0c65" id="Assassin Puppet">
       <DisplayId>Assassin Puppet</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -499,7 +499,7 @@
          <LifetimeMS>1500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7439" id="Healer Puppet">
+   <Object type="0x0c66" id="Healer Puppet">
       <DisplayId>Priest Puppet</DisplayId>
       <Class>Character</Class>
       <Group>Healers</Group>
@@ -525,7 +525,7 @@
          <LifetimeMS>1500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x743a" id="Archer Puppet">
+   <Object type="0x0c67" id="Archer Puppet">
       <DisplayId>Archer Puppet</DisplayId>
       <Class>Character</Class>
       <Group>DPS</Group>
@@ -559,7 +559,7 @@
          <ConditionEffect duration="2">Paralyzed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x743b" id="Rogue Puppet">
+   <Object type="0x0c68" id="Rogue Puppet">
       <DisplayId>Rogue Puppet</DisplayId>
       <Class>Character</Class>
       <Group>DPS</Group>
@@ -591,7 +591,7 @@
          </Texture>
       </AltTexture>
    </Object>
-   <Object type="0x744e" id="Warrior Puppet">
+   <Object type="0x0c69" id="Warrior Puppet">
       <DisplayId>Warrior Puppet</DisplayId>
       <Class>Character</Class>
       <Group>DPS</Group>
@@ -623,7 +623,7 @@
          <LifetimeMS>1500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7450" id="Paladin Puppet">
+   <Object type="0x0c6a" id="Paladin Puppet">
       <DisplayId>Paladin Puppet</DisplayId>
       <Class>Character</Class>
       <Group>Support</Group>
@@ -648,7 +648,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7451" id="Necromancer Puppet">
+   <Object type="0x0c6b" id="Necromancer Puppet">
       <DisplayId>Necromancer Puppet</DisplayId>
       <Class>Character</Class>
       <Group>DPS</Group>
@@ -676,7 +676,7 @@
          <Frequency>3</Frequency>
       </Projectile>
    </Object>
-   <Object type="0x7452" id="Mystic Puppet">
+   <Object type="0x0c6c" id="Mystic Puppet">
       <DisplayId>Mystic Puppet</DisplayId>
       <Class>Character</Class>
       <Group>DPS</Group>
@@ -710,7 +710,7 @@
          <ConditionEffect duration="5" target="1">Stasis</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7453" id="Sorcerer Puppet">
+   <Object type="0x0c6d" id="Sorcerer Puppet">
       <DisplayId>Sorcerer Puppet</DisplayId>
       <Class>Character</Class>
       <Group>DPS</Group>
@@ -735,7 +735,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7457" id="Puppet Bomb">
+   <Object type="0x0c6e" id="Puppet Bomb">
       <DisplayId>Puppet Bomb</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -757,7 +757,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7455" id="Puppet Bomb 2">
+   <Object type="0x0c6f" id="Puppet Bomb 2">
       <DisplayId>Puppet Bomb</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -779,7 +779,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7456" id="Sorc Bomb Thrower">
+   <Object type="0x0c70" id="Sorc Bomb Thrower">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -794,7 +794,7 @@
       <StasisImmune/>
       <StunImmune/>
    </Object>
-   <Object type="0x7458" id="Trickster Puppet">
+   <Object type="0x0c71" id="Trickster Puppet">
       <DisplayId>Trickster Puppet</DisplayId>
       <Class>Character</Class>
       <Group>DPS</Group>
@@ -819,7 +819,7 @@
          <LifetimeMS>900</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7454" id="Trickster Decoys">
+   <Object type="0x0c72" id="Trickster Decoys">
       <DisplayId>Trickster Puppet</DisplayId>
       <Class>Character</Class>
       <Group>DPS</Group>
@@ -844,7 +844,7 @@
          <LifetimeMS>900</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7459" id="Ninja Puppet">
+   <Object type="0x0c73" id="Ninja Puppet">
       <DisplayId>Ninja Puppet</DisplayId>
       <Class>Character</Class>
       <Group>DPS</Group>
@@ -868,7 +868,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7441" id="Puppet Loot Chest">
+   <Object type="0x0c74" id="Puppet Loot Chest">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -881,7 +881,7 @@
       <XpMult>0.0</XpMult>
       <StasisImmune/>
    </Object>
-   <Object type="0x7447" id="Puppet Treasure Chest">
+   <Object type="0x0c75" id="Puppet Treasure Chest">
       <Class>Character</Class>
       <Enemy/>
       <Texture>

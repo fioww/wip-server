@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x099b" id="Jeebs">
+   <Object type="0x1152" id="Jeebs">
       <Class>Character</Class>
       <Group>Mad Lab</Group>
       <RemoteTexture>

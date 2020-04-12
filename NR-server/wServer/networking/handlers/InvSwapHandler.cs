@@ -199,7 +199,7 @@ namespace wServer.networking.handlers
 
         private void DropInSoulboundBag(Player player, Item item)
         {
-            var container = new Container(player.Manager, 0x0503, 1000 * 60, true)
+            var container = new Container(player.Manager, 0x0086, 1000 * 60, true)
             {
                 BagOwners = new int[] { player.AccountId }
             };

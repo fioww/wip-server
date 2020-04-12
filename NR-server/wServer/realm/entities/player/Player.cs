@@ -850,18 +850,18 @@ namespace wServer.realm.entities
             int time;
             switch (maxed)
             {
-                case 8: objType = 0x0735; time = 600000; break;
-                case 7: objType = 0x0734; time = 600000; break;
-                case 6: objType = 0x072b; time = 600000; break;
-                case 5: objType = 0x072a; time = 600000; break;
-                case 4: objType = 0x0729; time = 600000; break;
-                case 3: objType = 0x0728; time = 600000; break;
-                case 2: objType = 0x0727; time = 600000; break;
-                case 1: objType = 0x0726; time = 600000; break;
+                case 8: objType = 0x094a; time = 600000; break;
+                case 7: objType = 0x0949; time = 600000; break;
+                case 6: objType = 0x0948; time = 600000; break;
+                case 5: objType = 0x0947; time = 600000; break;
+                case 4: objType = 0x0946; time = 600000; break;
+                case 3: objType = 0x0945; time = 600000; break;
+                case 2: objType = 0x0944; time = 600000; break;
+                case 1: objType = 0x0943; time = 600000; break;
                 default:
-                    objType = 0x0725; time = 300000;
-                    if (Level < 20) { objType = 0x0724; time = 60000; }
-                    if (Level <= 1) { objType = 0x0723; time = 30000; }
+                    objType = 0x0942; time = 300000;
+                    if (Level < 20) { objType = 0x0941; time = 60000; }
+                    if (Level <= 1) { objType = 0x0940; time = 30000; }
                     break;
             }
 

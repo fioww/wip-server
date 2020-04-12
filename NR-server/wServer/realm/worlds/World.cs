@@ -229,7 +229,7 @@ namespace wServer.realm.worlds
                     }
 
                     reloadOffset += 500;
-                    var m = new WorldMerchant(Manager, 0x01ca)
+                    var m = new WorldMerchant(Manager, 0x0951)
                     {
                         ShopItem = shopItem,
                         Item = shopItem.ItemId,

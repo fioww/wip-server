@@ -19,7 +19,7 @@ namespace wServer.realm.entities
 
                 if (time.TotalElapsedMs - l <= 100 || Owner?.SBName != "Ocean Trench") return;
 
-                if (!(Owner?.StaticObjects.Where(i => i.Value.ObjectType == 0x0731).Count(i => (X - i.Value.X) * (X - i.Value.X) + (Y - i.Value.Y) * (Y - i.Value.Y) < 1) > 0))
+                if (!(Owner?.StaticObjects.Where(i => i.Value.ObjectType == 0x098e).Count(i => (X - i.Value.X) * (X - i.Value.X) + (Y - i.Value.Y) * (Y - i.Value.Y) < 1) > 0))
                 {
                     if (OxygenBar <= 0)
                     {

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x217a" id="Woodland Moth Dust">
+   <Object type="0x011a7" id="Woodland Moth Dust">
       <Class>Projectile</Class>
       <RandomTexture>
          <Texture>
@@ -27,7 +27,7 @@
       </RandomTexture>
       <Rotation>350</Rotation>
    </Object>
-   <Object type="0x217b" id="Fire Acorn">
+   <Object type="0x0257" id="Fire Acorn">
       <Class>Projectile</Class>
       <Texture>
          <File>lofiObj3</File>
@@ -35,7 +35,7 @@
       </Texture>
       <Rotation>180</Rotation>
    </Object>
-   <Object type="0x703e" id="Woodland Paralyze Turret">
+   <Object type="0x0258" id="Woodland Paralyze Turret">
       <Class>Character</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -56,7 +56,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x703f" id="Woodland Silence Turret">
+   <Object type="0x0259" id="Woodland Silence Turret">
       <Class>Character</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -77,7 +77,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x704a" id="Woodland Weakness Turret">
+   <Object type="0x025a" id="Woodland Weakness Turret">
       <Class>Character</Class>
       <Texture>
          <File>lofiObjBig</File>
@@ -98,7 +98,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x704b" id="Wooland Armor Squirrel">
+   <Object type="0x025b" id="Wooland Armor Squirrel">
       <DisplayId>Grizzled Armored Squirrel</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -120,7 +120,7 @@
          <Size>80</Size>
       </Projectile>
    </Object>
-   <Object type="0x704c" id="Woodland Mini Megamoth">
+   <Object type="0x025c" id="Woodland Mini Megamoth">
       <DisplayId>Micro Megamoth Sentinel</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -145,7 +145,7 @@
          <ConditionEffect duration="0.8">Confused</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x704d" id="Woodland Ultimate Squirrel">
+   <Object type="0x025d" id="Woodland Ultimate Squirrel">
       <DisplayId>Mecha Squirrel</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -168,7 +168,7 @@
          <ParticleTrail/>
       </Projectile>
    </Object>
-   <Object type="0x704e" id="Woodland Goblin Mage">
+   <Object type="0x025e" id="Woodland Goblin Mage">
       <DisplayId>Forest Goblin Necromancer</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -192,7 +192,7 @@
          <Size>100</Size>
       </Projectile>
    </Object>
-   <Object type="0x704f" id="Woodland Goblin">
+   <Object type="0x025f" id="Woodland Goblin">
       <DisplayId>Forest Goblin Bruiser</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -214,14 +214,14 @@
          <Size>90</Size>
       </Projectile>
    </Object>
-   <Object type="0x706b" id="Larva Puke">
+   <Object type="0x0260" id="Larva Puke">
       <Texture>
          <File>lofiObj3</File>
          <Index>0x3fe</Index>
       </Texture>
       <NoMiniMap/>
    </Object>
-   <Object type="0x706c" id="Epic Larva">
+   <Object type="0x0261" id="Epic Larva">
       <DisplayId>Megamoth Larva</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -245,7 +245,7 @@
          <ConditionEffect duration="2">Blind</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x706d" id="Epic Mama Megamoth">
+   <Object type="0x0262" id="Epic Mama Megamoth">
       <DisplayId>Mammoth Megamoth</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -271,7 +271,7 @@
          <ConditionEffect duration="3">Quiet</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x706e" id="Mini Larva">
+   <Object type="0x0263" id="Mini Larva">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -292,7 +292,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x707b" id="Murderous Megamoth">
+   <Object type="0x0264" id="Murderous Megamoth">
       <DisplayId>Murderous Megamoth</DisplayId>
       <Enemy/>
       <Class>Character</Class>

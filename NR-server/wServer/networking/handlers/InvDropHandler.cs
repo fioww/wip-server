@@ -25,8 +25,8 @@ namespace wServer.networking.handlers
             if (player?.Owner == null || player.tradeTarget != null)
                 return;
 
-            const ushort normBag = 0x0500;
-            const ushort soulBag = 0x0503;
+            const ushort normBag = 0x0087;
+            const ushort soulBag = 0x0086;
 
             IContainer con;
 

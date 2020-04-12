@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x708f" id="Blue Egg Summoner">
+   <Object type="0x11a9" id="Blue Egg Summoner">
       <Class>Character</Class>
       <Texture>
          <File>lofiObj3</File>
@@ -13,7 +13,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x709a" id="Red Egg Summoner">
+   <Object type="0x0279" id="Red Egg Summoner">
       <Class>Character</Class>
       <Texture>
          <File>lofiObj3</File>
@@ -25,7 +25,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x709b" id="Silver Egg Summoner">
+   <Object type="0x027a" id="Silver Egg Summoner">
       <Class>Character</Class>
       <Texture>
          <File>lofiObj3</File>
@@ -37,7 +37,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x709c" id="Yellow Egg Summoner">
+   <Object type="0x027b" id="Yellow Egg Summoner">
       <Class>Character</Class>
       <Texture>
          <File>lofiObj3</File>
@@ -49,7 +49,7 @@
       <StasisImmune/>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x701a" id="Crawling Depths Egg Sac">
+   <Object type="0x027c" id="Crawling Depths Egg Sac">
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -62,7 +62,7 @@
       <MaxHitPoints>400</MaxHitPoints>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x701b" id="Crawling Spider Hatchling">
+   <Object type="0x027d" id="Crawling Spider Hatchling">
       <Class>Character</Class>
       <Group>YellowSpawn</Group>
       <AnimatedTexture>
@@ -90,7 +90,7 @@
          <ConditionEffect duration="3">Quiet</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x701c" id="Crawling Grey Spider">
+   <Object type="0x027e" id="Crawling Grey Spider">
       <Class>Character</Class>
       <Group>YellowSpawn</Group>
       <AnimatedTexture>
@@ -112,7 +112,7 @@
          <ConditionEffect duration="1">Armor Broken</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x701d" id="Crawling Red Spotted Spider">
+   <Object type="0x027f" id="Crawling Red Spotted Spider">
       <Class>Character</Class>
       <Group>YellowSpawn</Group>
       <AnimatedTexture>
@@ -134,7 +134,7 @@
          <ConditionEffect duration="2">Bleeding</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x701e" id="Crawling Grey Spotted Spider">
+   <Object type="0x0280" id="Crawling Grey Spotted Spider">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars8x8dEncounters</File>
@@ -154,7 +154,7 @@
          <LifetimeMS>1250</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x701f" id="Crawling Green Spider">
+   <Object type="0x0281" id="Crawling Green Spider">
       <Class>Character</Class>
       <Group>YellowSpawn</Group>
       <AnimatedTexture>
@@ -176,7 +176,7 @@
          <ConditionEffect duration="2">Bleeding</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x702a" id="Son of Arachna">
+   <Object type="0x0282" id="Son of Arachna">
       <Class>Character</Class>
       <AnimatedTexture>
          <File>chars16x16dEncounters2</File>
@@ -247,7 +247,7 @@
          <ConditionEffect duration="3">Paralyzed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x707d" id="Silver Son of Arachna Giant Egg Sac">
+   <Object type="0x0283" id="Silver Son of Arachna Giant Egg Sac">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -263,7 +263,7 @@
       <StasisImmune/>
       <StunImmune/>
    </Object>
-   <Object type="0x707e" id="Red Son of Arachna Giant Egg Sac">
+   <Object type="0x0284" id="Red Son of Arachna Giant Egg Sac">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -279,7 +279,7 @@
       <StasisImmune/>
       <StunImmune/>
    </Object>
-   <Object type="0x707f" id="Blue Son of Arachna Giant Egg Sac">
+   <Object type="0x0285" id="Blue Son of Arachna Giant Egg Sac">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -295,7 +295,7 @@
       <StasisImmune/>
       <StunImmune/>
    </Object>
-   <Object type="0x708a" id="Yellow Son of Arachna Giant Egg Sac">
+   <Object type="0x0286" id="Yellow Son of Arachna Giant Egg Sac">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -311,7 +311,7 @@
       <StasisImmune/>
       <StunImmune/>
    </Object>
-   <Object type="0x702b" id="Epic Arachna Web Spoke 1">
+   <Object type="0x0287" id="Epic Arachna Web Spoke 1">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -335,7 +335,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x702c" id="Epic Arachna Web Spoke 2">
+   <Object type="0x0288" id="Epic Arachna Web Spoke 2">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -359,7 +359,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x702d" id="Epic Arachna Web Spoke 3">
+   <Object type="0x0289" id="Epic Arachna Web Spoke 3">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -383,7 +383,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x702e" id="Epic Arachna Web Spoke 4">
+   <Object type="0x028a" id="Epic Arachna Web Spoke 4">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -407,7 +407,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x702f" id="Epic Arachna Web Spoke 5">
+   <Object type="0x028b" id="Epic Arachna Web Spoke 5">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -431,7 +431,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x703a" id="Epic Arachna Web Spoke 6">
+   <Object type="0x028c" id="Epic Arachna Web Spoke 6">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -455,7 +455,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x703b" id="Epic Arachna Web Spoke 7">
+   <Object type="0x028d" id="Epic Arachna Web Spoke 7">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -479,7 +479,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x703c" id="Epic Arachna Web Spoke 8">
+   <Object type="0x028e" id="Epic Arachna Web Spoke 8">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>
@@ -503,7 +503,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x703d" id="Epic Arachna Web Spoke 9">
+   <Object type="0x028f" id="Epic Arachna Web Spoke 9">
       <DisplayId>Arachna Element</DisplayId>
       <Group>AttackType</Group>
       <Class>Character</Class>

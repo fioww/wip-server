@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x668" id="Red Demon">
+   <Object type="0x06e8" id="Red Demon">
       <Group>Heros</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -36,7 +36,7 @@
          <Parametric/>
       </Projectile>
    </Object>
-   <Object type="0x669" id="Imp">
+   <Object type="0x06e9" id="Imp">
       <Group>Demons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -58,7 +58,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x66a" id="Demon">
+   <Object type="0x06ea" id="Demon">
       <Group>Demons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -79,7 +79,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x66b" id="Demon Warrior">
+   <Object type="0x06eb" id="Demon Warrior">
       <Group>Demons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -100,7 +100,7 @@
          <LifetimeMS>900</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x675" id="Phoenix Lord">
+   <Object type="0x06ec" id="Phoenix Lord">
       <Group>Heros</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -123,7 +123,7 @@
          <LifetimeMS>2400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x676" id="Birdman Chief">
+   <Object type="0x06ed" id="Birdman Chief">
       <Group>Pyre</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -143,7 +143,7 @@
          <LifetimeMS>1800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x677" id="Birdman">
+   <Object type="0x06ee" id="Birdman">
       <Group>Pyre</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -163,7 +163,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x6c1" id="Phoenix Reborn">
+   <Object type="0x06ef" id="Phoenix Reborn">
       <Group>Heros</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -192,7 +192,7 @@
          <LifetimeMS>2400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x6c2" id="Phoenix Egg">
+   <Object type="0x06f0" id="Phoenix Egg">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -204,7 +204,7 @@
       <Defense>0</Defense>
       <XpMult>0</XpMult>
    </Object>
-   <Object type="0x67d" id="Cyclops God">
+   <Object type="0x06f1" id="Cyclops God">
       <Group>Heros</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -258,7 +258,7 @@
          <Size>140</Size>
       </Projectile>
    </Object>
-   <Object type="0x67e" id="Cyclops">
+   <Object type="0x06f2" id="Cyclops">
       <Group>Cyclopes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -279,7 +279,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x67f" id="Cyclops Warrior">
+   <Object type="0x06f3" id="Cyclops Warrior">
       <Group>Cyclopes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -300,7 +300,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x680" id="Cyclops Noble">
+   <Object type="0x06f4" id="Cyclops Noble">
       <Group>Cyclopes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -321,7 +321,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x681" id="Cyclops Prince">
+   <Object type="0x06f5" id="Cyclops Prince">
       <Group>Cyclopes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -342,7 +342,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x682" id="Cyclops King">
+   <Object type="0x06f6" id="Cyclops King">
       <Group>Cyclopes</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -363,7 +363,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0928" id="Ghost King">
+   <Object type="0x06f7" id="Ghost King">
       <Group>Heros</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -386,7 +386,7 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0929" id="Ghost Master">
+   <Object type="0x06f8" id="Ghost Master">
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -408,7 +408,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x092d" id="Actual Ghost King">
+   <Object type="0x06f9" id="Actual Ghost King">
       <DisplayId>Ghost King</DisplayId>
       <Group>Heros</Group>
       <Enemy/>
@@ -432,7 +432,7 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x092a" id="Small Ghost">
+   <Object type="0x06fa" id="Small Ghost">
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -453,7 +453,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x092b" id="Medium Ghost">
+   <Object type="0x06fb" id="Medium Ghost">
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -474,7 +474,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x092c" id="Large Ghost">
+   <Object type="0x06fc" id="Large Ghost">
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -496,7 +496,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x662" id="Ghost Archer">
+   <Object type="0x06fd" id="Ghost Archer">
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -517,7 +517,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x663" id="Ghost Warrior">
+   <Object type="0x06fe" id="Ghost Warrior">
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -538,7 +538,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x664" id="Ghost Mage">
+   <Object type="0x06ff" id="Ghost Mage">
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -559,7 +559,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x665" id="Ghost Rogue">
+   <Object type="0x0700" id="Ghost Rogue">
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -580,7 +580,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x666" id="Ghost Paladin">
+   <Object type="0x0701" id="Ghost Paladin">
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -601,7 +601,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x667" id="Ghost Knight">
+   <Object type="0x0702" id="Ghost Knight">
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -622,7 +622,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x678" id="Oasis Giant">
+   <Object type="0x0703" id="Oasis Giant">
       <Group>Heros</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -644,7 +644,7 @@
          <LifetimeMS>2400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x679" id="Oasis Ruler">
+   <Object type="0x0704" id="Oasis Ruler">
       <Group>Oasis</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -664,7 +664,7 @@
          <Size>120</Size>
       </Projectile>
    </Object>
-   <Object type="0x67a" id="Oasis Soldier">
+   <Object type="0x0705" id="Oasis Soldier">
       <Group>Oasis</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -683,7 +683,7 @@
          <LifetimeMS>1800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x67b" id="Oasis Creature">
+   <Object type="0x0706" id="Oasis Creature">
       <Group>Oasis</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -702,7 +702,7 @@
          <LifetimeMS>1400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x67c" id="Oasis Monster">
+   <Object type="0x0707" id="Oasis Monster">
       <Group>Oasis</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -721,7 +721,7 @@
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x091f" id="Ent Ancient">
+   <Object type="0x0708" id="Ent Ancient">
       <Group>Heros</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -746,7 +746,7 @@
          <Size>40</Size>
       </Projectile>
    </Object>
-   <Object type="0x0920" id="Actual Ent Ancient">
+   <Object type="0x0709" id="Actual Ent Ancient">
       <DisplayId>Ent Ancient</DisplayId>
       <Group>Heros</Group>
       <Enemy/>
@@ -835,7 +835,7 @@
          <Size>130</Size>
       </Projectile>
    </Object>
-   <Object type="0x0921" id="Ent">
+   <Object type="0x070a" id="Ent">
       <Group>Ents</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -857,7 +857,7 @@
          <Size>70</Size>
       </Projectile>
    </Object>
-   <Object type="0x0922" id="Ent Sapling">
+   <Object type="0x070b" id="Ent Sapling">
       <Group>Ents</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -879,7 +879,7 @@
          <Size>40</Size>
       </Projectile>
    </Object>
-   <Object type="0x0923" id="Greater Nature Sprite">
+   <Object type="0x070c" id="Greater Nature Sprite">
       <Group>Greater Nature Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -903,7 +903,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x0924" id="Actual Greater Nature Sprite">
+   <Object type="0x070d" id="Actual Greater Nature Sprite">
       <DisplayId>Greater Nature Sprite</DisplayId>
       <Group>Greater Nature Sprites</Group>
       <Enemy/>
@@ -928,7 +928,7 @@
          <PassesCover/>
       </Projectile>
    </Object>
-   <Object type="0x091b" id="Lich">
+   <Object type="0x070e" id="Lich">
       <Group>Heros</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -962,7 +962,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x091c" id="Actual Lich">
+   <Object type="0x070f" id="Actual Lich">
       <DisplayId>Lich</DisplayId>
       <Group>Heros</Group>
       <Enemy/>
@@ -997,7 +997,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x091d" id="Phylactery Bearer">
+   <Object type="0x0710" id="Phylactery Bearer">
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1026,7 +1026,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x091e" id="Haunted Spirit">
+   <Object type="0x0711" id="Haunted Spirit">
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1048,7 +1048,7 @@
          <LifetimeMS>1500</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x65f" id="Mummy">
+   <Object type="0x0712" id="Mummy">
       <Group>Mummies</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1069,7 +1069,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x660" id="Mummy King">
+   <Object type="0x0713" id="Mummy King">
       <Group>Mummies</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1090,7 +1090,7 @@
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x661" id="Mummy Pharaoh">
+   <Object type="0x0714" id="Mummy Pharaoh">
       <Group>Mummies</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1111,7 +1111,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x6db" id="Kage Kami">
+   <Object type="0x0715" id="Kage Kami">
       <Enemy/>
       <NoMiniMap/>
       <Class>Character</Class>
@@ -1175,7 +1175,7 @@
          <ConditionEffect duration="0.4">Paralyzed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x6da" id="Specter Mine">
+   <Object type="0x0716" id="Specter Mine">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -1217,7 +1217,7 @@
          <ConditionEffect duration="4">Sick</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x0dc2" id="Great Coil Snake">
+   <Object type="0x0717" id="Great Coil Snake">
       <Class>Character</Class>
       <Enemy/>
       <Group>Heros</Group>
@@ -1249,7 +1249,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0dc0" id="Great Temple Snake">
+   <Object type="0x0718" id="Great Temple Snake">
       <Class>Character</Class>
       <Enemy/>
       <Size>100</Size>
@@ -1278,7 +1278,7 @@
          <LifetimeMS>800</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0dc1" id="Great Snake Egg">
+   <Object type="0x0719" id="Great Snake Egg">
       <Class>Character</Class>
       <Enemy/>
       <Size>100</Size>
@@ -1319,7 +1319,7 @@
          </Frame>
       </Animation>
    </Object>
-   <Object type="0x0925" id="Deathmage">
+   <Object type="0x071a" id="Deathmage">
       <Group>Heros</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1344,7 +1344,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x65a" id="Skeleton">
+   <Object type="0x071b" id="Skeleton">
       <Group>Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1365,7 +1365,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x65b" id="Skeleton Swordsman">
+   <Object type="0x071c" id="Skeleton Swordsman">
       <Group>Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1386,7 +1386,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x65c" id="Skeleton Veteran">
+   <Object type="0x071d" id="Skeleton Veteran">
       <Group>Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1407,7 +1407,7 @@
          <LifetimeMS>400</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x65d" id="Skeleton Mage">
+   <Object type="0x071e" id="Skeleton Mage">
       <Group>Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1428,7 +1428,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x65e" id="Skeleton King">
+   <Object type="0x071f" id="Skeleton King">
       <Group>Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>

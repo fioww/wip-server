@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x7fd0" id="Ice Golem">
+   <Object type="0x0751" id="Ice Golem">
       <Group>Ice Golems</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -30,7 +30,7 @@
          <Size>40</Size>
       </Projectile>
    </Object>
-   <Object type="0x7fd1" id="Ice Tomb Chest">
+   <Object type="0x0752" id="Ice Tomb Chest">
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -42,7 +42,7 @@
       <Defense>0</Defense>
       <XpMult>0.0</XpMult>
    </Object>
-   <Object type="0x7f51" id="Ice Tomb Event Chest Dropper">
+   <Object type="0x0753" id="Ice Tomb Event Chest Dropper">
       <Class>GameObject</Class>
       <Texture>
          <File>invisible</File>
@@ -50,7 +50,7 @@
       </Texture>
       <Size>0</Size>
    </Object>
-   <Object type="0x7fcb" id="Ice Tomb Event Chest">
+   <Object type="0x0754" id="Ice Tomb Event Chest">
       <DisplayId>Event Chest</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -64,7 +64,7 @@
       <Size>160</Size>
       <XpMult>5.13</XpMult>
    </Object>
-   <Object type="0x7fab" id="Ice Artifact 1">
+   <Object type="0x0755" id="Ice Artifact 1">
       <DisplayId>Ice Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -93,7 +93,7 @@
          <ConditionEffect duration="5">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7fac" id="Ice Artifact 2">
+   <Object type="0x0756" id="Ice Artifact 2">
       <DisplayId>Ice Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -122,7 +122,7 @@
          <ConditionEffect duration="5">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7fad" id="Ice Artifact 3">
+   <Object type="0x0757" id="Ice Artifact 3">
       <DisplayId>Ice Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -151,7 +151,7 @@
          <ConditionEffect duration="5">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7fae" id="Aqua Artifact 1">
+   <Object type="0x0758" id="Aqua Artifact 1">
       <DisplayId>Aqua Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -171,7 +171,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7faf" id="Aqua Artifact 2">
+   <Object type="0x0759" id="Aqua Artifact 2">
       <DisplayId>Aqua Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -191,7 +191,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7fb0" id="Aqua Artifact 3">
+   <Object type="0x075a" id="Aqua Artifact 3">
       <DisplayId>Aqua Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -211,7 +211,7 @@
          <LifetimeMS>3000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x7fb1" id="Shard Artifact 1">
+   <Object type="0x075b" id="Shard Artifact 1">
       <DisplayId>Shard Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -232,7 +232,7 @@
          <ConditionEffect duration="2">Weak</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7fb2" id="Shard Artifact 2">
+   <Object type="0x075c" id="Shard Artifact 2">
       <DisplayId>Shard Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -253,7 +253,7 @@
          <ConditionEffect duration="2">Weak</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7fb3" id="Shard Artifact 3">
+   <Object type="0x075d" id="Shard Artifact 3">
       <DisplayId>Shard Artifact</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -274,7 +274,7 @@
          <ConditionEffect duration="2">Weak</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x7fa6" id="Ice Tomb Boss Anchor">
+   <Object type="0x075e" id="Ice Tomb Boss Anchor">
       <Class>Character</Class>
       <Texture>
          <File>lofiChar216x16</File>
@@ -285,7 +285,7 @@
       <XpMult>0.0</XpMult>
       <NoMiniMap/>
    </Object>
-   <Object type="0x7fa7" id="Activator">
+   <Object type="0x075f" id="Activator">
       <Class>Character</Class>
       <Texture>
          <File>d3LofiObjEmbed16</File>
@@ -337,7 +337,7 @@
       <Size>130</Size>
       <ShadowSize>100</ShadowSize>
    </Object>
-   <Object type="0x7fa8" id="Ice Tomb Support Statue">
+   <Object type="0x0760" id="Ice Tomb Support Statue">
       <Group>Ice Tomb Boss Statues</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -349,7 +349,7 @@
          <Index>0x180</Index>
       </Texture>
    </Object>
-   <Object type="0x7fa9" id="Ice Tomb Attacker Statue">
+   <Object type="0x0761" id="Ice Tomb Attacker Statue">
       <Group>Ice Tomb Boss Statues</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -361,7 +361,7 @@
          <Index>0x181</Index>
       </Texture>
    </Object>
-   <Object type="0x7faa" id="Ice Tomb Defender Statue">
+   <Object type="0x0762" id="Ice Tomb Defender Statue">
       <Group>Ice Tomb Boss Statues</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -373,7 +373,7 @@
          <Index>0x182</Index>
       </Texture>
    </Object>
-   <Object type="0x7fb4" id="Ice Tomb Support">
+   <Object type="0x0763" id="Ice Tomb Support">
       <Group>Ice Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -471,7 +471,7 @@
          <Size>120</Size>
       </Projectile>
    </Object>
-   <Object type="0x7fb5" id="Ice Tomb Attacker">
+   <Object type="0x0764" id="Ice Tomb Attacker">
       <Group>Ice Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -541,7 +541,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x7fb6" id="Ice Tomb Defender">
+   <Object type="0x0765" id="Ice Tomb Defender">
       <Group>Ice Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -603,7 +603,7 @@
          <Size>200</Size>
       </Projectile>
    </Object>
-   <Object type="0x7fb8" id="Ice Tomb Portal">
+   <Object type="0x0766" id="Ice Tomb Portal">
       <Class>Portal</Class>
       <IntergamePortal/>
       <DisplayId>Ice Tomb</DisplayId>

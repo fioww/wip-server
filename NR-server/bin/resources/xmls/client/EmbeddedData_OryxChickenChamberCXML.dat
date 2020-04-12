@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x0e19" id="TestChicken Small">
+   <Object type="0x09b8" id="TestChicken Small">
       <DisplayId>Oryx Chicken Minion</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -57,7 +57,7 @@
          <MultiHit/>
       </Projectile>
    </Object>
-   <Object type="0x0e18" id="Test Egg">
+   <Object type="0x09b9" id="Test Egg">
       <DisplayId>Egg</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -98,7 +98,7 @@
       <Size>130</Size>
       <ShadowSize>100</ShadowSize>
    </Object>
-   <Object type="0x0e17" id="TestChicken 2">
+   <Object type="0x09ba" id="TestChicken 2">
       <DisplayId>Giant Oryx Chicken</DisplayId>
       <Enemy/>
       <Class>Character</Class>

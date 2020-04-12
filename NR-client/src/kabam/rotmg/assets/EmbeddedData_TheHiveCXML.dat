@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <Objects>
-   <Object type="0x124" id="TH honey Heal">
+   <Object type="0x10f4" id="TH honey Heal">
       <Class>Character</Class>
       <Texture>
          <File>invisible</File>
@@ -12,7 +12,7 @@
       <ShadowSize>0</ShadowSize>
       <StasisImmune/>
    </Object>
-   <Object type="0x125" id="TH Mini Hive">
+   <Object type="0x10f5" id="TH Mini Hive">
       <Class>Character</Class>
       <Enemy/>
       <AnimatedTexture>
@@ -26,7 +26,7 @@
       <Defense>5</Defense>
       <XpMult>1.5</XpMult>
    </Object>
-   <Object type="0x126" id="TH Small Bees">
+   <Object type="0x10f6" id="TH Small Bees">
       <DisplayId>Small Bee</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -51,7 +51,7 @@
          <LifetimeMS>100</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x127" id="TH Fat Bees">
+   <Object type="0x10f7" id="TH Fat Bees">
       <DisplayId>Fat Bee</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -75,7 +75,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x128" id="TH Red Fat Bees">
+   <Object type="0x10f8" id="TH Red Fat Bees">
       <DisplayId>Fat Angry Bee</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -100,7 +100,7 @@
          <ConditionEffect duration="3">Bleeding</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x129" id="TH Queen Bee">
+   <Object type="0x10f9" id="TH Queen Bee">
       <DisplayId>Queen Bee</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -134,7 +134,7 @@
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x12a" id="TH Maggot Egg1">
+   <Object type="0x10fa" id="TH Maggot Egg1">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -147,7 +147,7 @@
       <Defense>5</Defense>
       <XpMult>0</XpMult>
    </Object>
-   <Object type="0x12b" id="TH Maggot Egg2">
+   <Object type="0x10fb" id="TH Maggot Egg2">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -159,7 +159,7 @@
       <MaxHitPoints>120</MaxHitPoints>
       <Defense>5</Defense>
    </Object>
-   <Object type="0x12c" id="TH Maggot Egg3">
+   <Object type="0x10fc" id="TH Maggot Egg3">
       <Class>Character</Class>
       <Enemy/>
       <Texture>
@@ -171,7 +171,7 @@
       <MaxHitPoints>120</MaxHitPoints>
       <Defense>5</Defense>
    </Object>
-   <Object type="0x12d" id="TH Maggots">
+   <Object type="0x10fd" id="TH Maggots">
       <DisplayId>Larve</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -195,7 +195,7 @@
          <ConditionEffect duration="0.5">Slowed</ConditionEffect>
       </Projectile>
    </Object>
-   <Object type="0x12e" id="TH Queen Bee Summoner">
+   <Object type="0x10fe" id="TH Queen Bee Summoner">
       <Class>Character</Class>
       <NoMiniMap/>
       <MaxHitPoints>10</MaxHitPoints>
@@ -205,7 +205,7 @@
          <Index>0</Index>
       </Texture>
    </Object>
-   <Object type="0x133" id="TH Chunk1">
+   <Object type="0x10ff" id="TH Chunk1">
       <Class>Character</Class>
       <Texture>
          <File>lofiObj3</File>
@@ -214,7 +214,7 @@
       <MaxHitPoints>120</MaxHitPoints>
       <NoMiniMap/>
    </Object>
-   <Object type="0x0d0b" id="TH Chunk2">
+   <Object type="0x1100" id="TH Chunk2">
       <Class>Character</Class>
       <Texture>
          <File>lofiObj3</File>
@@ -223,7 +223,7 @@
       <MaxHitPoints>120</MaxHitPoints>
       <NoMiniMap/>
    </Object>
-   <Object type="0x0d0c" id="TH Chunk3">
+   <Object type="0x1101" id="TH Chunk3">
       <Class>Character</Class>
       <Texture>
          <File>lofiObj3</File>
@@ -232,7 +232,7 @@
       <MaxHitPoints>120</MaxHitPoints>
       <NoMiniMap/>
    </Object>
-   <Object type="0x0d0d" id="TH Chunk4">
+   <Object type="0x1102" id="TH Chunk4">
       <Class>Character</Class>
       <Texture>
          <File>lofiObj3</File>
@@ -241,7 +241,7 @@
       <MaxHitPoints>120</MaxHitPoints>
       <NoMiniMap/>
    </Object>
-   <Object type="0x0d44" id="TH Fat Bees 2">
+   <Object type="0x1103" id="TH Fat Bees 2">
       <DisplayId>Fat Bee</DisplayId>
       <Enemy/>
       <Class>Character</Class>
@@ -266,7 +266,7 @@
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
    </Object>
-   <Object type="0x0d45" id="TH Red Fat Bees 2">
+   <Object type="0x1104" id="TH Red Fat Bees 2">
       <DisplayId>Fat Angry Bee</DisplayId>
       <Enemy/>
       <Class>Character</Class>
