@@ -7,9 +7,9 @@ import org.osflash.signals.Signal;
 
 public class PotionInventoryModel {
 
-    public static const HEALTH_POTION_ID:int = 2594;
+    public static const HEALTH_POTION_ID:int = 869;
     public static const HEALTH_POTION_SLOT:int = 254;
-    public static const MAGIC_POTION_ID:int = 2595;
+    public static const MAGIC_POTION_ID:int = 870;
     public static const MAGIC_POTION_SLOT:int = 0xFF;
 
     public var potionModels:Dictionary;
