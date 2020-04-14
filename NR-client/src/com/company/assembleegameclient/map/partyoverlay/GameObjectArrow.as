@@ -1,6 +1,7 @@
 ﻿package com.company.assembleegameclient.map.partyoverlay {
 import com.company.assembleegameclient.map.Camera;
 import com.company.assembleegameclient.objects.GameObject;
+import com.company.assembleegameclient.parameters.Parameters;
 import com.company.assembleegameclient.ui.menu.Menu;
 import com.company.assembleegameclient.ui.tooltip.ToolTip;
 import com.company.util.RectangleUtil;
@@ -114,17 +115,32 @@ public class GameObjectArrow extends Sprite {
         this.extraGOs_.push(_arg1);
     }
 
-    public function correctQuestNote(param1:Rectangle):Rectangle {
+    public function correctQuestNote(param1:Rectangle):Rectangle
+    {
+        var _loc3_:*;
         var _loc2_:Rectangle = param1.clone();
-        if (stage.scaleMode == StageScaleMode.NO_SCALE) {
-            this.scaleY = this.scaleX = (stage.stageWidth < stage.stageHeight ? stage.stageWidth : stage.stageHeight) / 600;
+        if (((stage.scaleMode == StageScaleMode.NO_SCALE) && (Parameters.data_.uiscale)))
+        {
+            if (Parameters.data_.uiscale)
+            {
+                _loc3_ = ((((stage.stageWidth < stage.stageHeight) ? stage.stageWidth : int(stage.stageHeight)) / Parameters.data_.mscale) / 600);
+                this.scaleX = _loc3_;
+                this.scaleY = _loc3_;
+            }
+            else
+            {
+                this.scaleX = 1;
+                this.scaleY = 1;
+            }
+            _loc2_.right = ((_loc2_.right - ((((800 - this.go_.map_.gs_.hudView.x) * stage.stageWidth) / Parameters.data_.mscale) / 800)) - (Parameters.data_.uiscale ? 0 : 200));
         }
-        else {
-            this.scaleX = 1;
-            this.scaleY = 1;
+        else
+        {
+            _loc3_ = 1;
+            this.scaleY = _loc3_;
+            this.scaleX = _loc3_;
         }
-        _loc2_.right = _loc2_.right - (800 - this.go_.map_.gs_.hudView.x) * stage.stageWidth / 800;
-        return _loc2_;
+        return (_loc2_);
     }
 
     public function draw(_arg_1:int, _arg_2:Camera):void {

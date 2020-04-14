@@ -486,7 +486,7 @@ namespace wServer.realm.entities
 
         private void AELTBoost(RealmTime time, Item item, Position target, ActivateEffect eff)
         {
-            if (LTBoostTime < 0 || (LTBoostTime > 86400 && eff.DurationMS >= 0))
+            if (LTBoostTime < 0 || (LTBoostTime > 86400000 && eff.DurationMS >= 0))
             {
                 var slot = Inventory.GetAvailableInventorySlot(item);
 
@@ -507,7 +507,7 @@ namespace wServer.realm.entities
 
         private void AELDBoost(RealmTime time, Item item, Position target, ActivateEffect eff)
         {
-            if (LDBoostTime < 0 || (LDBoostTime > 86400 && eff.DurationMS >= 0))
+            if (LDBoostTime < 0 || (LDBoostTime > 86400000 && eff.DurationMS >= 0))
             {
                 var slot = Inventory.GetAvailableInventorySlot(item);
 

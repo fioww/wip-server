@@ -77,6 +77,7 @@ public class GameSprite extends AGameSprite {
     public const monitor:Signal = new Signal(String, int);
     public const modelInitialized:Signal = new Signal();
     public const drawCharacterWindow:Signal = new Signal(Player);
+    public static const DISPLAY_AREA_Y_SPACE = 32;
 
     public var chatBox_:Chat;
     public var isNexus_:Boolean = false;
@@ -190,7 +191,8 @@ public class GameSprite extends AGameSprite {
     }
 
     override public function initialize():void {
-        var _local1:Account;
+        var _local_1:Account;
+        var _local_2:ShowProTipSignal;
         var _local4:ShowProTipSignal;
         map.initialize();
         this.modelInitialized.dispatch();
@@ -201,65 +203,36 @@ public class GameSprite extends AGameSprite {
             this.showTimer();
             this.showWaveCounter();
         }
-        _local1 = StaticInjectorContext.getInjector().getInstance(Account);
-        /*
-        if (map.name_ == Map.NEXUS) {
-            this.addToQueueSignal.dispatch(PopupNamesConfig.DAILY_LOGIN_POPUP, this.openDailyCalendarPopupSignal, -1, null);
-            if (this.beginnersPackageModel.isBeginnerAvailable()) {
-                this.addToQueueSignal.dispatch(PopupNamesConfig.BEGINNERS_OFFER_POPUP, this.showBeginnersPackage, 1, null);
-            }
-            else {
-                this.addToQueueSignal.dispatch(PopupNamesConfig.PACKAGES_OFFER_POPUP, this.showPackage, 1, null);
-            }
-            this.flushQueueSignal.dispatch();
+        if (map.name_ == Map.DAILY_QUEST_ROOM)
+        {
+            gsc_.questFetch();
         }
-         */
-        this.isNexus_ = (map.name_ == Map.NEXUS);
-        if (((this.isNexus_) || ((map.name_ == Map.DAILY_QUEST_ROOM)))) {
-            this.creditDisplay_ = new CreditDisplay(this, true, true);
+        _local_1 = StaticInjectorContext.getInjector().getInstance(Account);
+        switch (map.name_)
+        {
+            case Map.NEXUS:
+            case Map.DAILY_QUEST_ROOM:
+            case Map.PET_YARD_1:
+            case Map.PET_YARD_2:
+            case Map.PET_YARD_3:
+            case Map.PET_YARD_4:
+            case Map.PET_YARD_5:
+            case Map.VAULT:
+            default:
+                this.creditDisplay_ = new CreditDisplay(this, true, true);
+                this.creditDisplay_.x = 594;
+                this.creditDisplay_.y = 0;
+                addChild(this.creditDisplay_);
         }
-        else {
-            this.creditDisplay_ = new CreditDisplay(this);
-        }
-        this.creditDisplay_.x = 594;
-        this.creditDisplay_.y = 0;
-        addChild(this.creditDisplay_);
-        var _local2:AppEngineClient = StaticInjectorContext.getInjector().getInstance(AppEngineClient);
-        var _local3:Object = {
-            "game_net_user_id": _local1.gameNetworkUserId(),
-            "game_net": _local1.gameNetwork(),
-            "play_platform": _local1.playPlatform()
+
+        var _local_3:AppEngineClient = StaticInjectorContext.getInjector().getInstance(AppEngineClient);
+        var _local_4:Object = {
+            "game_net_user_id": _local_1.gameNetworkUserId(),
+            "game_net": _local_1.gameNetwork(),
+            "play_platform": _local_1.playPlatform()
         };
-        MoreObjectUtil.addToObject(_local3, _local1.getCredentials());
-        if (((((((!((map.name_ == "Kitchen"))) && (!((map.name_ == "Tutorial"))))) && (!((map.name_ == "Nexus Explanation"))))) && ((Parameters.data_.watchForTutorialExit == true)))) {
-            Parameters.data_.watchForTutorialExit = false;
-            this.callTracking('rotmg.Marketing.track("tutorialComplete")');
-            _local3["fteStepCompleted"] = 9900;
-            _local2.sendRequest("/log/logFteStep", _local3);
-        }
-        if (map.name_ == "Kitchen") {
-            _local3["fteStepCompleted"] = 200;
-            _local2.sendRequest("/log/logFteStep", _local3);
-        }
-        if (map.name_ == "Tutorial") {
-            if (Parameters.data_.needsTutorial == true) {
-                Parameters.data_.watchForTutorialExit = true;
-                this.callTracking('rotmg.Marketing.track("install")');
-                _local3["fteStepCompleted"] = 100;
-                _local2.sendRequest("/log/logFteStep", _local3);
-            }
-            this.startTutorial();
-        }
-        else {
-            if (((((((((((((!((map.name_ == "Arena"))) && (!((map.name_ == "Kitchen"))))) && (!((map.name_ == "Nexus Explanation"))))) && (!((map.name_ == "Vault Explanation"))))) && (!((map.name_ == "Guild Explanation"))))) && (!(this.evalIsNotInCombatMapArea())))) && (Parameters.data_.showProtips))) {
-                _local4 = StaticInjectorContext.getInjector().getInstance(ShowProTipSignal);
-                ((_local4) && (_local4.dispatch()));
-            }
-        }
-        if (map.name_ == "Daily Quest Room") {
-            QuestRewardsPanel.checkQuests();
-        }
-        Parameters.save();
+        MoreObjectUtil.addToObject(_local_4, _local_1.getCredentials());
+        isSafeMap = this.evalIsNotInCombatMapArea();
         hidePreloader();
         stage.dispatchEvent(new Event(Event.RESIZE));
         this.parent.parent.setChildIndex((this.parent.parent as Layers).top, 2);

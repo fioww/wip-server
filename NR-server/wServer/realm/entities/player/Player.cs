@@ -958,7 +958,7 @@ namespace wServer.realm.entities
             var playerDesc = Manager.Resources.GameData.Classes[ObjectType];
             var maxed = playerDesc.Stats.Where((t, i) => Stats.Base[i] >= t.MaxValue).Count();
             var deathMessage = string.Format(
-                "{{\"key\":\"{{server.deathStats}}\",\"tokens\":{{\"player\":\"{0}\",\"level\":\"{1}\",\"fame\":\"{2}\",\"maxed\":\"{3}\",\"enemy\":\"{4}\"}}}}",
+                "{0}[Level: {1}, Fame: {2}, Maxed Stats: {3}] was slain by {4}",
                 Name, Level, _client.Character.FinalFame, maxed, killer);
 
             // notable deaths

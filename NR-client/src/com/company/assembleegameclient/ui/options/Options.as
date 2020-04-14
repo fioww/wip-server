@@ -255,12 +255,18 @@ public class Options extends Sprite {
     }
 
     private function onAddedToStage(_arg1:Event):void {
-        this.continueButton_.x = (stage.stageWidth / 2);
-        this.continueButton_.y = Y_POSITION;
+        var widthScale:Number = 800 / stage.stageWidth;
+
+        //Left
         this.resetToDefaultsButton_.x = 20;
         this.resetToDefaultsButton_.y = Y_POSITION;
-        this.homeButton_.x = (stage.stageWidth - 20);
+        //Middle
+        this.continueButton_.x = stage.stageWidth / (2 / widthScale);
+        this.continueButton_.y = Y_POSITION;
+        //Right
+        this.homeButton_.x = stage.stageWidth / (1.03 / widthScale);
         this.homeButton_.y = Y_POSITION;
+
         if (Capabilities.playerType == "Desktop") {
             Parameters.data_.fullscreenMode = (stage.displayState == "fullScreenInteractive");
             Parameters.save();

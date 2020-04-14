@@ -28,12 +28,15 @@ import kabam.rotmg.assets.EmbeddedAssets;
 import kabam.rotmg.core.StaticInjectorContext;
 import kabam.rotmg.game.logging.RollingMeanLoopMonitor;
 import kabam.rotmg.game.model.GameModel;
+import kabam.rotmg.game.signals.AddTextLineSignal;
 import kabam.rotmg.stage3D.GraphicsFillExtra;
 import kabam.rotmg.stage3D.Object3D.Object3DStage3D;
 import kabam.rotmg.stage3D.Render3D;
 import kabam.rotmg.stage3D.Renderer;
 import kabam.rotmg.stage3D.graphic3D.Program3DFactory;
 import kabam.rotmg.stage3D.graphic3D.TextureFactory;
+
+import org.swiftsuspenders.Injector;
 
 public class Map extends AbstractMap {
 
@@ -60,72 +63,54 @@ public class Map extends AbstractMap {
     public var ifDrawEffectFlag:Boolean = true;
     private var loopMonitor:RollingMeanLoopMonitor;
     private var inUpdate_:Boolean = false;
-    private var objsToAdd_:Vector.<BasicObject>;
-    private var idsToRemove_:Vector.<int>;
-    private var forceSoftwareMap:Dictionary;
+    private var objsToAdd_:Vector.<BasicObject> = new Vector.<BasicObject>();
+    private var idsToRemove_:Vector.<int> = new Vector.<int>();
+    private var forceSoftwareMap:Dictionary = new Dictionary();
     private var lastSoftwareClear:Boolean = false;
-    private var darkness:DisplayObject;
-    private var graphicsData_:Vector.<IGraphicsData>;
-    private var graphicsDataStageSoftware_:Vector.<IGraphicsData>;
-    private var graphicsData3d_:Vector.<Object3DStage3D>;
-    public var visible_:Array;
-    public var visibleUnder_:Array;
-    public var visibleSquares_:Vector.<Square>;
+    private var darkness:DisplayObject = new EmbeddedAssets.DarknessBackground();
+    private var graphicsData_:Vector.<IGraphicsData> = new Vector.<IGraphicsData>();
+    private var graphicsDataStageSoftware_:Vector.<IGraphicsData> = new Vector.<IGraphicsData>();
+    private var graphicsData3d_:Vector.<Object3DStage3D> = new Vector.<Object3DStage3D>();
+    public var visible_:Array = [];
+    public var visibleUnder_:Array = [];
+    public var visibleSquares_:Vector.<Square> = new Vector.<Square>();
+    public var topSquares_:Vector.<Square> = new Vector.<Square>();
+    private var addTextLine:AddTextLineSignal;
     public var visibleHit_:Array;
-    public var topSquares_:Vector.<Square>;
 
-    public function Map(_arg1:AGameSprite) {
-        this.objsToAdd_ = new Vector.<BasicObject>();
-        this.idsToRemove_ = new Vector.<int>();
-        this.forceSoftwareMap = new Dictionary();
-        this.darkness = new EmbeddedAssets.DarknessBackground();
-        this.graphicsData_ = new Vector.<IGraphicsData>();
-        this.graphicsDataStageSoftware_ = new Vector.<IGraphicsData>();
-        this.graphicsData3d_ = new Vector.<Object3DStage3D>();
-        this.visible_ = new Array();
-        this.visibleUnder_ = new Array();
-        this.visibleSquares_ = new Vector.<Square>();
-        this.visibleHit_ = new Array();
-        this.topSquares_ = new Vector.<Square>();
+    public function Map(_arg_1:AGameSprite)
+    {
+        var _local_2:Injector = StaticInjectorContext.getInjector();
         super();
-        gs_ = _arg1;
+        gs_ = _arg_1;
         hurtOverlay_ = new HurtOverlay();
         gradientOverlay_ = new GradientOverlay();
         mapOverlay_ = new MapOverlay();
         partyOverlay_ = new PartyOverlay(this);
         party_ = new Party(this);
         quest_ = new Quest(this);
+        this.visibleHit_ = [];
         this.loopMonitor = StaticInjectorContext.getInjector().getInstance(RollingMeanLoopMonitor);
         StaticInjectorContext.getInjector().getInstance(GameModel).gameObjects = goDict_;
-        //this.forceSoftwareMap[PET_YARD_1] = true;
-        //this.forceSoftwareMap[PET_YARD_2] = true;
-        //this.forceSoftwareMap[PET_YARD_3] = true;
-        //this.forceSoftwareMap[PET_YARD_4] = true;
-        //this.forceSoftwareMap[PET_YARD_5] = true;
-        //this.forceSoftwareMap["Nexus"] = true;
-        //this.forceSoftwareMap["Tomb of the Ancients"] = true;
-        //this.forceSoftwareMap["Tomb of the Ancients (Heroic)"] = true;
-        //this.forceSoftwareMap["Mad Lab"] = true;
-        //this.forceSoftwareMap["Guild Hall"] = true;
-        //this.forceSoftwareMap["Guild Hall 2"] = true;
-        //this.forceSoftwareMap["Guild Hall 3"] = true;
-        //this.forceSoftwareMap["Guild Hall 4"] = true;
-        //this.forceSoftwareMap["Cloth Bazaar"] = true;
+        _local_2.getInstance(GameModel).gameObjects = goDict_;
+        this.addTextLine = _local_2.getInstance(AddTextLineSignal);
         wasLastFrameGpu = Parameters.isGpuRender();
     }
 
-    override public function setProps(_arg1:int, _arg2:int, _arg3:String, _arg4:int, _arg5:Boolean, _arg6:Boolean):void {
-        width_ = _arg1;
-        height_ = _arg2;
-        name_ = _arg3;
-        back_ = _arg4;
-        allowPlayerTeleport_ = _arg5;
-        showDisplays_ = _arg6;
+    override public function setProps(_arg_1:int, _arg_2:int, _arg_3:String, _arg_4:int, _arg_5:Boolean, _arg_6:Boolean):void
+    {
+        width_ = _arg_1;
+        height_ = _arg_2;
+        name_ = _arg_3;
+        back_ = _arg_4;
+        allowPlayerTeleport_ = _arg_5;
+        showDisplays_ = _arg_6;
         this.forceSoftwareRenderCheck(name_);
     }
 
-    private function forceSoftwareRenderCheck(_arg1:String):void {
-        forceSoftwareRender = this.forceSoftwareMap[_arg1] != null || WebMain.STAGE != null && WebMain.STAGE.stage3Ds[0].context3D == null;
+    private function forceSoftwareRenderCheck(_arg_1:String):void
+    {
+        forceSoftwareRender = true;
     }
 
     override public function initialize():void {
@@ -215,40 +200,52 @@ public class Map extends AbstractMap {
         return (null);
     }
 
-    override public function setGroundTile(_arg1:int, _arg2:int, _arg3:uint):void {
-        var _local8:int;
-        var _local9:int;
-        var _local10:Square;
-        var _local4:Square = this.getSquare(_arg1, _arg2);
-        _local4.setTileType(_arg3);
-        var _local5:int = (((_arg1 < (width_ - 1))) ? (_arg1 + 1) : _arg1);
-        var _local6:int = (((_arg2 < (height_ - 1))) ? (_arg2 + 1) : _arg2);
-        var _local7:int = (((_arg1 > 0)) ? (_arg1 - 1) : _arg1);
-        while (_local7 <= _local5) {
-            _local8 = (((_arg2 > 0)) ? (_arg2 - 1) : _arg2);
-            while (_local8 <= _local6) {
-                _local9 = (_local7 + (_local8 * width_));
-                _local10 = squares_[_local9];
-                if (((!((_local10 == null))) && (((_local10.props_.hasEdge_) || (!((_local10.tileType_ == _arg3))))))) {
-                    _local10.faces_.length = 0;
+    override public function setGroundTile(_arg_1:int, _arg_2:int, _arg_3:uint):void
+    {
+        var _local_4:int;
+        var _local_5:int;
+        var _local_6:Square;
+        var _local_7:Square = this.getSquare(_arg_1, _arg_2);
+        _local_7.setTileType(_arg_3);
+        var _local_8:int = ((_arg_1 < (width_ - 1)) ? int((_arg_1 + 1)) : int(_arg_1));
+        var _local_9:int = ((_arg_2 < (height_ - 1)) ? int((_arg_2 + 1)) : int(_arg_2));
+        var _local_10:int = ((_arg_1 > 0) ? int((_arg_1 - 1)) : int(_arg_1));
+        while (_local_10 <= _local_8)
+        {
+            _local_4 = ((_arg_2 > 0) ? int((_arg_2 - 1)) : int(_arg_2));
+            while (_local_4 <= _local_9)
+            {
+                _local_5 = (_local_10 + (_local_4 * width_));
+                _local_6 = squares_[_local_5];
+                if (((!(_local_6 == null)) && ((_local_6.props_.hasEdge_) || (!(_local_6.tileType_ == _arg_3)))))
+                {
+                    _local_6.faces_.length = 0;
                 }
-                _local8++;
+                _local_4++;
             }
-            _local7++;
+            _local_10++;
         }
     }
 
-    override public function addObj(_arg1:BasicObject, _arg2:Number, _arg3:Number):void {
-        _arg1.x_ = _arg2;
-        _arg1.y_ = _arg3;
-        if ((_arg1 is ParticleEffect)) {
-            (_arg1 as ParticleEffect).reducedDrawEnabled = !(Parameters.data_.particleEffect);
+    override public function addObj(_arg_1:BasicObject, _arg_2:Number, _arg_3:Number):void
+    {
+        if (_arg_1 == null)
+        {
+            return;
         }
-        if (this.inUpdate_) {
-            this.objsToAdd_.push(_arg1);
+        _arg_1.x_ = _arg_2;
+        _arg_1.y_ = _arg_3;
+        if ((_arg_1 is ParticleEffect))
+        {
+            (_arg_1 as ParticleEffect).reducedDrawEnabled = (!(Parameters.data_.particleEffect));
         }
-        else {
-            this.internalAddObj(_arg1);
+        if (this.inUpdate_)
+        {
+            this.objsToAdd_.push(_arg_1);
+        }
+        else
+        {
+            this.internalAddObj(_arg_1);
         }
     }
 
