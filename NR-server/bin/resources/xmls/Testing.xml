@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+	<!--
+    <Object type="0x11b0" id="Jeebs Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <RemoteTexture>
+		<Instance>testing</Instance>
+        <Id>Jeebs Key</Id>
+      </RemoteTexture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to an Undead Lair.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <Activate id="Undead Lair Portal">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+	</Object>
+	-->
+</Objects>

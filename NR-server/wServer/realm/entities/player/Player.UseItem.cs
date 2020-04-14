@@ -331,14 +331,8 @@ namespace wServer.realm.entities
                     case ActivateEffects.Backpack:
                         AEBackpack(time, item, target, eff);
                         break;
-                    case ActivateEffects.XPBoost:
-                        AEXPBoost(time, item, target, eff);
-                        break;
-                    case ActivateEffects.LDBoost:
-                        AELDBoost(time, item, target, eff);
-                        break;
-                    case ActivateEffects.LTBoost:
-                        AELTBoost(time, item, target, eff);
+                    case ActivateEffects.MiscBoosts:
+                        AEMiscBoosts(time, item, target, eff);
                         break;
                     case ActivateEffects.UnlockPortal:
                         AEUnlockPortal(time, item, target, eff);
@@ -349,6 +343,9 @@ namespace wServer.realm.entities
                     case ActivateEffects.UnlockEmote:
                         AEUnlockEmote(time, item, eff);
                         break;
+                    case ActivateEffects.UnlockSkin:
+                        AEUnlockSkin(time, item, target, eff);
+                        break;
                     case ActivateEffects.HealingGrenade:
                         AEHealingGrenade(time, item, target, eff);
                         break;
@@ -357,6 +354,26 @@ namespace wServer.realm.entities
                         break;
                 }
             }
+        }
+
+        private void RefundItem(Item item, string message = "")
+        {
+            var slot = Inventory.GetAvailableInventorySlot(item);
+
+            if (slot != -1)
+                Inventory[slot] = item;
+            else
+            {
+                Manager.Database.AddGift(Client.Account, item.ObjectType);
+                SendError($"Your inventory is full, and your {item} has been sent to a gift chest.");
+            }
+
+            if (!(string.IsNullOrWhiteSpace(message)))
+                SendError(message);
+            else
+                return;
+
+            return;
         }
 
         private void AEUnlockEmote(RealmTime time, Item item, ActivateEffect eff)
@@ -370,9 +387,29 @@ namespace wServer.realm.entities
             var emotes = Client.Account.Emotes;
             if (!emotes.Contains(eff.Id))
                 emotes.Add(eff.Id);
+            else
+                RefundItem(item, "You already have this emote!");
+            
             Client.Account.Emotes = emotes;
             Client.Account.FlushAsync();
-            SendInfo($"{eff.Id} Emote unlocked successfully");
+            SendInfo($"{eff.Id} ({eff.Id}) Emote unlocked successfully");
+        }
+
+        private void AEUnlockSkin(RealmTime time, Item item, Position target, ActivateEffect eff)
+        {
+            var acc = Client.Account;
+            var ownedSkins = acc.Skins.ToList();
+            if (!ownedSkins.Contains(eff.SkinType))
+            {
+                ownedSkins.Add(eff.SkinType);
+                acc.Skins = ownedSkins.ToArray();
+                acc.FlushAsync();
+                SendInfo("You've unlocked a new skin! Check your Wardrobe in the vault!");
+            }
+            else
+            {
+                RefundItem(item, "You already have this skin!");
+            }
         }
 
         private void AECreatePet(RealmTime time, Item item, Position target, ActivateEffect eff)
@@ -484,72 +521,44 @@ namespace wServer.realm.entities
                 player.SendInfo(string.Format("{{\"key\":\"{{server.dungeon_unlocked_by}}\",\"tokens\":{{\"dungeon\":\"{0}\",\"name\":\"{1}\"}}}}", world.SBName, Name));
         }
 
-        private void AELTBoost(RealmTime time, Item item, Position target, ActivateEffect eff)
+        private void AEMiscBoosts(RealmTime time, Item item, Position target, ActivateEffect eff)
         {
-            if (LTBoostTime < 0 || (LTBoostTime > 86400000 && eff.DurationMS >= 0))
+            StatsType stat = StatsType.LTBoostTime;
+            var type = LTBoostTime;
+
+            if ((eff.Id.ToLower() == "tier" && (LTBoostTime < 0 || (LTBoostTime > 86400000 && eff.DurationMS >= 0))) ||
+                (eff.Id.ToLower() == "drop" && (LTBoostTime < 0 || (LTBoostTime > 86400000 && eff.DurationMS >= 0))) ||
+                (eff.Id.ToLower() == "xp" && (XPBoostTime < 0 || XPBoosted || Level >= 20)))
             {
-                var slot = Inventory.GetAvailableInventorySlot(item);
-
-                if (slot != -1)
-                    Inventory[slot] = item;
-                else
-                {
-                    Manager.Database.AddGift(Client.Account, item.ObjectType);
-                    SendError($"Your inventory is full, and your {item} has been sent to a gift chest.");
-                }
-
-                return;
+                RefundItem(item);
             }
 
-            LTBoostTime += eff.DurationMS;
-            InvokeStatChange(StatsType.LTBoostTime, LTBoostTime / 1000, true);
-        }
-
-        private void AELDBoost(RealmTime time, Item item, Position target, ActivateEffect eff)
-        {
-            if (LDBoostTime < 0 || (LDBoostTime > 86400000 && eff.DurationMS >= 0))
+            switch (eff.Id.ToLower())
             {
-                var slot = Inventory.GetAvailableInventorySlot(item);
-
-                if (slot != -1)
-                    Inventory[slot] = item;
-                else
-                {
-                    Manager.Database.AddGift(Client.Account, item.ObjectType);
-                    SendError($"Your inventory is full, and your {item} has been sent to a gift chest.");
-                }
-
-                return;
+                case "tier":
+                    LTBoostTime += eff.DurationMS;
+                    return;
+                case "drop":
+                    stat = StatsType.LDBoostTime;
+                    type = LDBoostTime;
+                    LDBoostTime += eff.DurationMS;
+                    return;
+                case "xp":
+                    stat = StatsType.XPBoostTime;
+                    type = XPBoostTime;
+                    XPBoostTime += eff.DurationMS;
+                    XPBoosted = true;
+                    return;
             }
 
-            LDBoostTime += eff.DurationMS;
-            InvokeStatChange(StatsType.LDBoostTime, LDBoostTime / 1000, true);
-        }
-
-        private void AEXPBoost(RealmTime time, Item item, Position target, ActivateEffect eff)
-        {
-            if (XPBoostTime < 0 || XPBoosted || Level >= 20)
-            {
-                var slot = Inventory.GetAvailableInventorySlot(item);
-
-                if (slot != -1)
-                    Inventory[slot] = item;
-                else
-                {
-                    Manager.Database.AddGift(Client.Account, item.ObjectType);
-                    SendError($"Your inventory is full, and your {item} has been sent to a gift chest.");
-                }
-
-                return;
-            }
-
-            XPBoostTime += eff.DurationMS;
-            XPBoosted = true;
-            InvokeStatChange(StatsType.XPBoostTime, XPBoostTime / 1000, true);
+            InvokeStatChange(stat, type / 1000, true);
         }
 
         private void AEBackpack(RealmTime time, Item item, Position target, ActivateEffect eff)
         {
+            if (HasBackpack)
+                RefundItem(item);
+
             HasBackpack = true;
         }
 

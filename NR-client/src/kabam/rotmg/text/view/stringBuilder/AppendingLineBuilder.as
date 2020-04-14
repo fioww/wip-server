@@ -12,8 +12,8 @@ public class AppendingLineBuilder implements StringBuilder {
         super();
     }
 
-    public function pushParams(_arg1:String, _arg2:Object = null, _arg3:String = "", _arg4:String = ""):AppendingLineBuilder {
-        this.data.push(new LineData().setKey(_arg1).setTokens(_arg2).setOpeningTags(_arg3).setClosingTags(_arg4));
+    public function pushParams(key:String, tokens:Object = null, openingTags:String = "", closingTags:String = ""):AppendingLineBuilder {
+        this.data.push(new LineData().setKey(key).setTokens(tokens).setOpeningTags(openingTags).setClosingTags(closingTags));
         return (this);
     }
 

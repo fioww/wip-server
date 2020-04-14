@@ -61,26 +61,26 @@ public class EquipmentToolTip extends ToolTip {
     private var keyInfoResponse:KeyInfoResponseSignal;
     private var originalObjectType:int;
 
-    public function EquipmentToolTip(_arg1:int, _arg2:Player, _arg3:int, _arg4:String) {
-        var _local8:HUDModel;
+    public function EquipmentToolTip(objectType:int, player:Player, invType:int, inventoryOwnerType:String) {
+        var hudModel:HUDModel;
         this.uniqueEffects = new Vector.<Effect>();
-        this.objectType = _arg1;
+        this.objectType = objectType;
         this.originalObjectType = this.objectType;
-        this.player = _arg2;
-        this.invType = _arg3;
-        this.inventoryOwnerType = _arg4;
-        this.isInventoryFull = ((_arg2) ? _arg2.isInventoryFull() : false);
+        this.player = player;
+        this.invType = invType;
+        this.inventoryOwnerType = inventoryOwnerType;
+        this.isInventoryFull = ((player) ? player.isInventoryFull() : false);
         if ((((this.objectType >= 0x9000)) && ((this.objectType <= 0xF000)))) {
             this.objectType = 36863;
         }
-        this.playerCanUse = ((_arg2) ? ObjectLibrary.isUsableByPlayer(this.objectType, _arg2) : false);
-        var _local5:int = ((_arg2) ? ObjectLibrary.getMatchingSlotIndex(this.objectType, _arg2) : -1);
-        var _local6:uint = ((((this.playerCanUse) || ((this.player == null)))) ? 0x363636 : 6036765);
-        var _local7:uint = ((((this.playerCanUse) || ((_arg2 == null)))) ? 0x9B9B9B : 10965039);
-        super(_local6, 1, _local7, 1, true);
+        this.playerCanUse = ((player) ? ObjectLibrary.isUsableByPlayer(this.objectType, player) : false);
+        var availableSlot:int = ((player) ? ObjectLibrary.getMatchingSlotIndex(this.objectType, player) : -1);
+        var bgColor:uint = ((((this.playerCanUse) || ((this.player == null)))) ? 0x363636 : 6036765);
+        var outlineColor:uint = ((((this.playerCanUse) || ((player == null)))) ? 0x9B9B9B : 10965039);
+        super(bgColor, 1, outlineColor, 1, true);
         this.slotTypeToTextBuilder = new SlotComparisonFactory();
         this.objectXML = ObjectLibrary.xmlLibrary_[this.objectType];
-        this.isEquippable = !((_local5 == -1));
+        this.isEquippable = !((availableSlot == -1));
         this.effects = new Vector.<Effect>();
         this.itemSlotTypeId = int(this.objectXML.SlotType);
         if (this.player == null) {
@@ -88,8 +88,8 @@ public class EquipmentToolTip extends ToolTip {
         }
         else {
             if (this.isEquippable) {
-                if (this.player.equipment_[_local5] != -1) {
-                    this.curItemXML = ObjectLibrary.xmlLibrary_[this.player.equipment_[_local5]];
+                if (this.player.equipment_[availableSlot] != -1) {
+                    this.curItemXML = ObjectLibrary.xmlLibrary_[this.player.equipment_[availableSlot]];
                 }
             }
         }
@@ -100,8 +100,8 @@ public class EquipmentToolTip extends ToolTip {
                 this.addDescriptionText();
                 this.keyInfoResponse = StaticInjectorContext.getInjector().getInstance(KeyInfoResponseSignal);
                 this.keyInfoResponse.add(this.onKeyInfoResponse);
-                _local8 = StaticInjectorContext.getInjector().getInstance(HUDModel);
-                _local8.gameSprite.gsc_.keyInfoRequest(this.originalObjectType);
+                hudModel = StaticInjectorContext.getInjector().getInstance(HUDModel);
+                hudModel.gameSprite.gsc_.keyInfoRequest(this.originalObjectType);
             }
             else {
                 this.titleOverride = (keyInfo[this.originalObjectType][0] + " Key");
@@ -129,54 +129,56 @@ public class EquipmentToolTip extends ToolTip {
         this.makeLineTwo();
         this.makeRestrictionList();
         this.makeRestrictionText();
-        this.makeItemPowerText();
+        //this.makeItemPowerText();
     }
 
+    /*
     private function makeItemPowerText():void {
-        var _local1:int;
+        var color:int;
         if (this.objectXML.hasOwnProperty("feedPower")) {
-            _local1 = ((((this.playerCanUse) || ((this.player == null)))) ? 0xFFFFFF : 16549442);
-            this.powerText = new TextFieldDisplayConcrete().setSize(12).setColor(_local1).setBold(true).setTextWidth((((MAX_WIDTH - this.icon.width) - 4) - 30)).setWordWrap(true);
+            color = ((((this.playerCanUse) || ((this.player == null)))) ? 0xFFFFFF : 16549442);
+            this.powerText = new TextFieldDisplayConcrete().setSize(12).setColor(color).setBold(true).setTextWidth((((MAX_WIDTH - this.icon.width) - 4) - 30)).setWordWrap(true);
             this.powerText.setStringBuilder(new StaticStringBuilder().setString(("Feed Power: " + this.objectXML.feedPower)));
             this.powerText.filters = [new DropShadowFilter(0, 0, 0, 0.5, 12, 12)];
             waiter.push(this.powerText.textChanged);
             addChild(this.powerText);
         }
     }
+    */
 
-    private function onKeyInfoResponse(_arg1:KeyInfoResponse):void {
+    private function onKeyInfoResponse(info:KeyInfoResponse):void {
         this.keyInfoResponse.remove(this.onKeyInfoResponse);
         this.removeTitle();
         this.removeDesc();
-        this.titleOverride = _arg1.name;
-        this.descriptionOverride = _arg1.description;
-        keyInfo[this.originalObjectType] = [_arg1.name, _arg1.description, _arg1.creator];
+        this.titleOverride = info.name;
+        this.descriptionOverride = info.description;
+        keyInfo[this.originalObjectType] = [info.name, info.description, info.creator];
         this.addTitle();
         this.addDescriptionText();
     }
 
     private function addUniqueEffectsToList():void {
-        var _local1:XMLList;
-        var _local2:XML;
-        var _local3:String;
-        var _local4:String;
-        var _local5:String;
-        var _local6:AppendingLineBuilder;
+        var xmlList:XMLList;
+        var xml:XML;
+        var extraTooltipName:String;
+        var extraTooltipDescription:String;
+        var text:String;
+        var lineBuilder:AppendingLineBuilder;
         if (this.objectXML.hasOwnProperty("ExtraTooltipData")) {
-            _local1 = this.objectXML.ExtraTooltipData.EffectInfo;
-            for each (_local2 in _local1) {
-                _local3 = _local2.attribute("name");
-                _local4 = _local2.attribute("description");
-                _local5 = ((((_local3) && (_local4))) ? ": " : "\n");
-                _local6 = new AppendingLineBuilder();
-                if (_local3) {
-                    _local6.pushParams(_local3);
+            xmlList = this.objectXML.ExtraTooltipData.EffectInfo;
+            for each (xml in xmlList) {
+                extraTooltipName = xml.attribute("name");
+                extraTooltipDescription = xml.attribute("description");
+                text = ((((extraTooltipName) && (extraTooltipDescription))) ? ": " : "\n");
+                lineBuilder = new AppendingLineBuilder();
+                if (extraTooltipName) {
+                    lineBuilder.pushParams(extraTooltipName);
                 }
-                if (_local4) {
-                    _local6.pushParams(_local4, {}, TooltipHelper.getOpenTag(16777103), TooltipHelper.getCloseTag());
+                if (extraTooltipDescription) {
+                    lineBuilder.pushParams(extraTooltipDescription, {}, TooltipHelper.getOpenTag(16777103), TooltipHelper.getCloseTag());
                 }
-                _local6.setDelimiter(_local5);
-                this.uniqueEffects.push(new Effect(TextKey.BLANK, {"data": _local6}));
+                lineBuilder.setDelimiter(text);
+                this.uniqueEffects.push(new Effect(TextKey.BLANK, {"data": lineBuilder}));
             }
         }
     }
@@ -186,28 +188,28 @@ public class EquipmentToolTip extends ToolTip {
     }
 
     private function addIcon():void {
-        var _local1:XML = ObjectLibrary.xmlLibrary_[this.objectType];
-        var _local2:int = 5;
-        if ((((this.objectType == 4874)) || ((this.objectType == 4618)))) {
-            _local2 = 8;
+        var xml:XML = ObjectLibrary.xmlLibrary_[this.objectType];
+        var iconScale:int = 5;
+        if ((((this.objectType == 4173)) || ((this.objectType == 4172)))) {
+            iconScale = 8;
         }
-        if (_local1.hasOwnProperty("ScaleValue")) {
-            _local2 = _local1.ScaleValue;
+        if (xml.hasOwnProperty("ScaleValue")) {
+            iconScale = xml.ScaleValue;
         }
-        var _local3:BitmapData = ObjectLibrary.getRedrawnTextureFromType(this.objectType, 60, true, true, _local2);
-        _local3 = BitmapUtil.cropToBitmapData(_local3, 4, 4, (_local3.width - 8), (_local3.height - 8));
-        this.icon = new Bitmap(_local3);
+        var icon:BitmapData = ObjectLibrary.getRedrawnTextureFromType(this.objectType, 60, true, true, iconScale);
+        icon = BitmapUtil.cropToBitmapData(icon, 4, 4, (icon.width - 8), (icon.height - 8));
+        this.icon = new Bitmap(icon);
         addChild(this.icon);
     }
 
     private function addTierText():void {
-        var _local1 = (this.isPet() == false);
-        var _local2 = (this.objectXML.hasOwnProperty("Consumable") == false);
-        var _local3 = (this.objectXML.hasOwnProperty("Treasure") == false);
-        var _local4:Boolean = this.objectXML.hasOwnProperty("Tier");
-        if (((((_local1) && (_local2))) && (_local3))) {
+        var notPet = !this.isPet();
+        var notConsumable = !this.objectXML.hasOwnProperty("Consumable");
+        var notTreasure = !this.objectXML.hasOwnProperty("Treasure");
+        var hasTier:Boolean = this.objectXML.hasOwnProperty("Tier");
+        if (((((notPet) && (notConsumable))) && (notTreasure))) {
             this.tierText = new TextFieldDisplayConcrete().setSize(16).setColor(0xFFFFFF).setTextWidth(30).setBold(true);
-            if (_local4) {
+            if (hasTier) {
                 this.tierText.setStringBuilder(new LineBuilder().setParams(TextKey.TIER_ABBR, {"tier": this.objectXML.Tier}));
             }
             else {
@@ -239,8 +241,8 @@ public class EquipmentToolTip extends ToolTip {
     }
 
     private function addTitle():void {
-        var _local1:int = ((((this.playerCanUse) || ((this.player == null)))) ? 0xFFFFFF : 16549442);
-        this.titleText = new TextFieldDisplayConcrete().setSize(16).setColor(_local1).setBold(true).setTextWidth((((MAX_WIDTH - this.icon.width) - 4) - 30)).setWordWrap(true);
+        var isUsable:int = ((((this.playerCanUse) || ((this.player == null)))) ? 0xFFFFFF : 16549442);
+        this.titleText = new TextFieldDisplayConcrete().setSize(16).setColor(isUsable).setBold(true).setTextWidth((((MAX_WIDTH - this.icon.width) - 4) - 30)).setWordWrap(true);
         if (this.titleOverride) {
             this.titleText.setStringBuilder(new StaticStringBuilder(this.titleOverride));
         }
@@ -253,28 +255,28 @@ public class EquipmentToolTip extends ToolTip {
     }
 
     private function buildUniqueTooltipData():String {
-        var _local1:XMLList;
-        var _local2:Vector.<Effect>;
-        var _local3:XML;
+        var xmlList:XMLList;
+        var effect:Vector.<Effect>;
+        var xml:XML;
         if (this.objectXML.hasOwnProperty("ExtraTooltipData")) {
-            _local1 = this.objectXML.ExtraTooltipData.EffectInfo;
-            _local2 = new Vector.<Effect>();
-            for each (_local3 in _local1) {
-                _local2.push(new Effect(_local3.attribute("name"), _local3.attribute("description")));
+            xmlList = this.objectXML.ExtraTooltipData.EffectInfo;
+            effect = new Vector.<Effect>();
+            for each (xml in xmlList) {
+                effect.push(new Effect(xml.attribute("name"), xml.attribute("description")));
             }
         }
         return ("");
     }
 
     private function makeEffectsList():void {
-        var _local1:AppendingLineBuilder;
+        var lineBuilder:AppendingLineBuilder;
         if (((((!((this.effects.length == 0))) || (!((this.comparisonResults.lineBuilder == null))))) || (this.objectXML.hasOwnProperty("ExtraTooltipData")))) {
             this.line1 = new LineBreakDesign((MAX_WIDTH - 12), 0);
             this.effectsText = new TextFieldDisplayConcrete().setSize(14).setColor(0xB3B3B3).setTextWidth(MAX_WIDTH).setWordWrap(true).setHTML(true);
-            _local1 = this.getEffectsStringBuilder();
-            this.effectsText.setStringBuilder(_local1);
+            lineBuilder = this.getEffectsStringBuilder();
+            this.effectsText.setStringBuilder(lineBuilder);
             this.effectsText.filters = [new DropShadowFilter(0, 0, 0, 0.5, 12, 12)];
-            if (_local1.hasLines()) {
+            if (lineBuilder.hasLines()) {
                 addChild(this.line1);
                 addChild(this.effectsText);
             }
@@ -282,48 +284,48 @@ public class EquipmentToolTip extends ToolTip {
     }
 
     private function getEffectsStringBuilder():AppendingLineBuilder {
-        var _local1:AppendingLineBuilder = new AppendingLineBuilder();
-        this.appendEffects(this.uniqueEffects, _local1);
+        var lineBuilder:AppendingLineBuilder = new AppendingLineBuilder();
+        this.appendEffects(this.uniqueEffects, lineBuilder);
         if (this.comparisonResults.lineBuilder.hasLines()) {
-            _local1.pushParams(TextKey.BLANK, {"data": this.comparisonResults.lineBuilder});
+            lineBuilder.pushParams(TextKey.BLANK, {"data": this.comparisonResults.lineBuilder});
         }
-        this.appendEffects(this.effects, _local1);
-        return (_local1);
+        this.appendEffects(this.effects, lineBuilder);
+        return (lineBuilder);
     }
 
-    private function appendEffects(_arg1:Vector.<Effect>, _arg2:AppendingLineBuilder):void {
-        var _local3:Effect;
-        var _local4:String;
-        var _local5:String;
-        for each (_local3 in _arg1) {
-            _local4 = "";
-            _local5 = "";
-            if (_local3.color_) {
-                _local4 = (('<font color="#' + _local3.color_.toString(16)) + '">');
-                _local5 = "</font>";
+    private function appendEffects(effs:Vector.<Effect>, lineBuilder:AppendingLineBuilder):void {
+        var eff:Effect;
+        var openingTag:String;
+        var closingTag:String;
+        for each (eff in effs) {
+            openingTag = "";
+            closingTag = "";
+            if (eff.color_) {
+                openingTag = (('<font color="#' + eff.color_.toString(16)) + '">');
+                closingTag = "</font>";
             }
-            _arg2.pushParams(_local3.name_, _local3.getValueReplacementsWithColor(), _local4, _local5);
+            lineBuilder.pushParams(eff.name_, eff.getValueReplacementsWithColor(), openingTag, closingTag);
         }
     }
 
     private function addNumProjectilesTagsToEffectsList():void {
-        if (((this.objectXML.hasOwnProperty("NumProjectiles")) && (!((this.comparisonResults.processedTags.hasOwnProperty(this.objectXML.NumProjectiles.toXMLString()) == true))))) {
+        if (((this.objectXML.hasOwnProperty("NumProjectiles")) && !this.comparisonResults.processedTags.hasOwnProperty(this.objectXML.NumProjectiles.toXMLString()))) {
             this.effects.push(new Effect(TextKey.SHOTS, {"numShots": this.objectXML.NumProjectiles}));
         }
     }
 
     private function addFameBonusTagToEffectsList():void {
-        var _local1:int;
-        var _local2:uint;
-        var _local3:int;
+        var fameBonus:int;
+        var color:uint;
+        var prevFameBonus:int;
         if (this.objectXML.hasOwnProperty("FameBonus")) {
-            _local1 = int(this.objectXML.FameBonus);
-            _local2 = ((this.playerCanUse) ? TooltipHelper.BETTER_COLOR : TooltipHelper.NO_DIFF_COLOR);
+            fameBonus = int(this.objectXML.FameBonus);
+            color = ((this.playerCanUse) ? TooltipHelper.BETTER_COLOR : TooltipHelper.NO_DIFF_COLOR);
             if (((!((this.curItemXML == null))) && (this.curItemXML.hasOwnProperty("FameBonus")))) {
-                _local3 = int(this.curItemXML.FameBonus.text());
-                _local2 = TooltipHelper.getTextColor((_local1 - _local3));
+                prevFameBonus = int(this.curItemXML.FameBonus.text());
+                color = TooltipHelper.getTextColor((fameBonus - prevFameBonus));
             }
-            this.effects.push(new Effect(TextKey.FAME_BONUS, {"percent": (this.objectXML.FameBonus + "%")}).setReplacementsColor(_local2));
+            this.effects.push(new Effect(TextKey.FAME_BONUS, {"percent": (this.objectXML.FameBonus + "%")}).setReplacementsColor(color));
         }
     }
 
@@ -637,9 +639,9 @@ public class EquipmentToolTip extends ToolTip {
         }
     }
 
-    private function getComparedStatText(_arg1:XML):Object {
-        var _local2:int = int(_arg1.@stat);
-        var _local3:int = int(_arg1.@amount);
+    private function getComparedStatText(xml:XML):Object {
+        var _local2:int = int(xml.@stat);
+        var _local3:int = int(xml.@amount);
         var _local4:String = (((_local3) > -1) ? "+" : "");
         return ({
             "statAmount": ((_local4 + String(_local3)) + " "),
@@ -700,10 +702,10 @@ public class EquipmentToolTip extends ToolTip {
     }
 
     private function makeRestrictionList():void {
-        var _local2:XML;
-        var _local3:Boolean;
-        var _local4:int;
-        var _local5:int;
+        var xml:XML;
+        var meetsRequirement:Boolean;
+        var stat:int;
+        var value:int;
         this.restrictions = new Vector.<Restriction>();
         if (((((this.objectXML.hasOwnProperty("VaultItem")) && (!((this.invType == -1))))) && (!((this.invType == ObjectLibrary.idToType_["Vault Chest"]))))) {
             this.restrictions.push(new Restriction(TextKey.STORE_IN_VAULT, 16549442, true));
@@ -738,16 +740,16 @@ public class EquipmentToolTip extends ToolTip {
                 this.restrictions.push(new Restriction(TextKey.NOT_USABLE_BY, 16549442, true));
             }
         }
-        var _local1:Vector.<String> = ObjectLibrary.usableBy(this.objectType);
-        if (_local1 != null) {
+        var usable:Vector.<String> = ObjectLibrary.usableBy(this.objectType);
+        if (usable != null) {
             this.restrictions.push(new Restriction(TextKey.USABLE_BY, 0xB3B3B3, false));
         }
-        for each (_local2 in this.objectXML.EquipRequirement) {
-            _local3 = ObjectLibrary.playerMeetsRequirement(_local2, this.player);
-            if (_local2.toString() == "Stat") {
-                _local4 = int(_local2.@stat);
-                _local5 = int(_local2.@value);
-                this.restrictions.push(new Restriction(((("Requires " + StatData.statToName(_local4)) + " of ") + _local5), ((_local3) ? 0xB3B3B3 : 16549442), ((_local3) ? false : true)));
+        for each (xml in this.objectXML.EquipRequirement) {
+            meetsRequirement = ObjectLibrary.playerMeetsRequirement(xml, this.player);
+            if (xml.toString() == "Stat") {
+                stat = int(xml.@stat);
+                value = int(xml.@value);
+                this.restrictions.push(new Restriction(((("Requires " + StatData.statToName(stat)) + " of ") + value), ((meetsRequirement) ? 0xB3B3B3 : 16549442), ((!meetsRequirement))));
             }
         }
     }
@@ -857,52 +859,52 @@ public class EquipmentToolTip extends ToolTip {
     }
 
     private function handleWisMod():void {
-        var _local3:XML;
-        var _local4:XML;
-        var _local5:String;
-        var _local6:String;
+        var itemXML:XML;
+        var xml:XML;
+        var effName:String;
+        var useWisMod:String;
         if (this.player == null) {
             return;
         }
-        var _local1:Number = (this.player.wisdom_ + this.player.wisdomBoost_);
-        if (_local1 < 30) {
+        var totalWisdom:Number = (this.player.wisdom_ + this.player.wisdomBoost_);
+        if (totalWisdom < 30) {
             return;
         }
-        var _local2:Vector.<XML> = new Vector.<XML>();
+        var item:Vector.<XML> = new Vector.<XML>();
         if (this.curItemXML != null) {
             this.curItemXML = this.curItemXML.copy();
-            _local2.push(this.curItemXML);
+            item.push(this.curItemXML);
         }
         if (this.objectXML != null) {
             this.objectXML = this.objectXML.copy();
-            _local2.push(this.objectXML);
+            item.push(this.objectXML);
         }
-        for each (_local4 in _local2) {
-            for each (_local3 in _local4.Activate) {
-                _local5 = _local3.toString();
-                if (_local3.@effect != "Stasis") {
-                    _local6 = _local3.@useWisMod;
-                    if (!(((((((_local6 == "")) || ((_local6 == "false")))) || ((_local6 == "0")))) || ((_local3.@effect == "Stasis")))) {
-                        switch (_local5) {
+        for each (xml in item) {
+            for each (itemXML in xml.Activate) {
+                effName = itemXML.toString();
+                if (itemXML.@effect != "Stasis") {
+                    useWisMod = itemXML.@useWisMod;
+                    if (!(((((((useWisMod == "")) || ((useWisMod == "false")))) || ((useWisMod == "0")))) || ((itemXML.@effect == "Stasis")))) {
+                        switch (effName) {
                             case ActivationType.HEAL_NOVA:
-                                _local3.@amount = this.modifyWisModStat(_local3.@amount, 0);
-                                _local3.@range = this.modifyWisModStat(_local3.@range);
+                                itemXML.@amount = this.modifyWisModStat(itemXML.@amount, 0);
+                                itemXML.@range = this.modifyWisModStat(itemXML.@range);
                                 break;
                             case ActivationType.COND_EFFECT_AURA:
-                                _local3.@duration = this.modifyWisModStat(_local3.@duration);
-                                _local3.@range = this.modifyWisModStat(_local3.@range);
+                                itemXML.@duration = this.modifyWisModStat(itemXML.@duration);
+                                itemXML.@range = this.modifyWisModStat(itemXML.@range);
                                 break;
                             case ActivationType.COND_EFFECT_SELF:
-                                _local3.@duration = this.modifyWisModStat(_local3.@duration);
+                                itemXML.@duration = this.modifyWisModStat(itemXML.@duration);
                                 break;
                             case ActivationType.STAT_BOOST_AURA:
-                                _local3.@amount = this.modifyWisModStat(_local3.@amount, 0);
-                                _local3.@duration = this.modifyWisModStat(_local3.@duration);
-                                _local3.@range = this.modifyWisModStat(_local3.@range);
+                                itemXML.@amount = this.modifyWisModStat(itemXML.@amount, 0);
+                                itemXML.@duration = this.modifyWisModStat(itemXML.@duration);
+                                itemXML.@range = this.modifyWisModStat(itemXML.@range);
                                 break;
                             case ActivationType.GENERIC_ACTIVATE:
-                                _local3.@duration = this.modifyWisModStat(_local3.@duration);
-                                _local3.@range = this.modifyWisModStat(_local3.@range);
+                                itemXML.@duration = this.modifyWisModStat(itemXML.@duration);
+                                itemXML.@range = this.modifyWisModStat(itemXML.@range);
                                 break;
                         }
                     }
@@ -911,28 +913,26 @@ public class EquipmentToolTip extends ToolTip {
         }
     }
 
-    private function modifyWisModStat(_arg1:String, _arg2:Number = 1):String {
-        var _local5:Number;
-        var _local6:int;
-        var _local7:Number;
-        var _local3 = "-1";
-        var _local4:Number = (this.player.wisdom_ + this.player.wisdomBoost_);
-        if (_local4 < 30) {
-            _local3 = _arg1;
-        }
-        else {
-            _local5 = Number(_arg1);
-            _local6 = (((_local5) < 0) ? -1 : 1);
-            _local7 = (((_local5 * _local4) / 150) + (_local5 * _local6));
-            _local7 = (Math.floor((_local7 * Math.pow(10, _arg2))) / Math.pow(10, _arg2));
-            if ((_local7 - (int(_local7) * _local6)) >= ((1 / Math.pow(10, _arg2)) * _local6)) {
-                _local3 = _local7.toFixed(1);
-            }
-            else {
-                _local3 = _local7.toFixed(0);
+    private function modifyWisModStat(amount:String, power:Number = 1):String {
+        var amount_:Number;
+        var posNegMult:int;
+        var factor:Number;
+        var finalAmount = "-1";
+        var totalWisdom:Number = (this.player.wisdom_ + this.player.wisdomBoost_);
+        if (totalWisdom < 30) {
+            finalAmount = amount;
+        } else {
+            amount_ = Number(amount);
+            posNegMult = (((amount_) < 0) ? -1 : 1);
+            factor = (((amount_ * totalWisdom) / 150) + (amount_ * posNegMult));
+            factor = (Math.floor((factor * Math.pow(10, power))) / Math.pow(10, power));
+            if ((factor - (int(factor) * posNegMult)) >= ((1 / Math.pow(10, power)) * posNegMult)) {
+                finalAmount = factor.toFixed(1);
+            } else {
+                finalAmount = factor.toFixed(0);
             }
         }
-        return (_local3);
+        return (finalAmount);
     }
 
 
@@ -949,18 +949,18 @@ class Effect {
     public var replacementColor_:uint = 16777103;
     public var color_:uint = 0xB3B3B3;
 
-    public function Effect(_arg1:String, _arg2:Object) {
-        this.name_ = _arg1;
-        this.valueReplacements_ = _arg2;
+    public function Effect(name:String, valueReplacements:Object) {
+        this.name_ = name;
+        this.valueReplacements_ = valueReplacements;
     }
 
-    public function setColor(_arg1:uint):Effect {
-        this.color_ = _arg1;
+    public function setColor(color:uint):Effect {
+        this.color_ = color;
         return (this);
     }
 
-    public function setReplacementsColor(_arg1:uint):Effect {
-        this.replacementColor_ = _arg1;
+    public function setReplacementsColor(replacementColor:uint):Effect {
+        this.replacementColor_ = replacementColor;
         return (this);
     }
 
@@ -1000,10 +1000,10 @@ class Restriction {
     public var color_:uint;
     public var bold_:Boolean;
 
-    public function Restriction(_arg1:String, _arg2:uint, _arg3:Boolean) {
-        this.text_ = _arg1;
-        this.color_ = _arg2;
-        this.bold_ = _arg3;
+    public function Restriction(text:String, color:uint, bold:Boolean) {
+        text_ = text;
+        color_ = color;
+        bold_ = bold;
     }
 
 }

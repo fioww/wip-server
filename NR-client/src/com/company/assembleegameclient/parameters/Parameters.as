@@ -13,7 +13,7 @@ import flash.utils.Dictionary;
 public class Parameters {
 
     public static const BUILD_VERSION:String = "26.1.4";
-    public static const MINOR_VERSION:String = "X3";
+    public static const MINOR_VERSION:String = "X4";
     public static const FULL_BUILD:String = BUILD_VERSION; // don't rely on minor version as it constantly changes
     public static const ENABLE_ENCRYPTION:Boolean = true;
     public static const PORT:int = 2050;
@@ -68,7 +68,7 @@ public class Parameters {
             data_ = savedOptions_.data;
         }
         catch (error:Error) {
-            data_ = new Object();
+            data_ = {};
         }
         setDefaults();
         save();
@@ -216,13 +216,13 @@ public class Parameters {
         setDefault("toggleBarText", false);
         setDefault("enhancedQuestToolTip", true);
         setDefault("particleEffect", true);
-        if (((data_.hasOwnProperty("playMusic")) && ((data_.playMusic == true)))) {
+        if (((data_.hasOwnProperty("playMusic")) && data_.playMusic)) {
             setDefault("musicVolume", 1);
         }
         else {
             setDefault("musicVolume", 0);
         }
-        if (((data_.hasOwnProperty("playSFX")) && ((data_.playMusic == true)))) {
+        if (((data_.hasOwnProperty("playSFX")) && data_.playMusic)) {
             setDefault("SFXVolume", 1);
         }
         else {

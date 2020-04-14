@@ -41,13 +41,13 @@ public class ToolTip extends Sprite {
 
     private const graphicsData_:Vector.<IGraphicsData> = new <IGraphicsData>[lineStyle_, backgroundFill_, path_, GraphicsUtil.END_FILL, GraphicsUtil.END_STROKE];
 
-    public function ToolTip(_arg1:uint, _arg2:Number, _arg3:uint, _arg4:Number, _arg5:Boolean = true) {
+    public function ToolTip(background_:uint, backgroundAlpha_:Number, outline_:uint, outlineAlpha_:Number, followMouse_:Boolean = true) {
         super();
-        this.background_ = _arg1;
-        this.backgroundAlpha_ = _arg2;
-        this.outline_ = _arg3;
-        this.outlineAlpha_ = _arg4;
-        this.followMouse_ = _arg5;
+        this.background_ = background_;
+        this.backgroundAlpha_ = backgroundAlpha_;
+        this.outline_ = outline_;
+        this.outlineAlpha_ = outlineAlpha_;
+        this.followMouse_ = followMouse_;
         mouseEnabled = false;
         mouseChildren = false;
         filters = [new DropShadowFilter(0, 0, 0, 1, 16, 16)];

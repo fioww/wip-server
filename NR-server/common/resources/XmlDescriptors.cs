@@ -283,14 +283,12 @@ namespace common.resources
         ChangeSkin,
         FixedStat,
         Backpack,
-        XPBoost,
-        LDBoost,
-        LTBoost,
         UnlockEmote,
         HealingGrenade,
         PetSkin,
         Unlock,
-        MysteryDyes
+        MysteryDyes,
+        MiscBoosts
     }
 
     public class ActivateEffect

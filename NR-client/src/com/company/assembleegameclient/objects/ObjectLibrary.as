@@ -340,29 +340,29 @@ public class ObjectLibrary {
         return (true);
     }
 
-    public static function playerMeetsRequirement(_arg1:XML, _arg2:Player):Boolean {
-        var _local3:int;
-        if (_arg1.toString() == "Stat") {
-            _local3 = int(_arg1.@value);
-            switch (int(_arg1.@stat)) {
+    public static function playerMeetsRequirement(xml:XML, player:Player):Boolean {
+        var statValue:int;
+        if (xml.toString() == "Stat") {
+            statValue = int(xml.@value);
+            switch (int(xml.@stat)) {
                 case StatData.MAX_HP_STAT:
-                    return ((_arg2.maxHP_ >= _local3));
+                    return ((player.maxHP_ >= statValue));
                 case StatData.MAX_MP_STAT:
-                    return ((_arg2.maxMP_ >= _local3));
+                    return ((player.maxMP_ >= statValue));
                 case StatData.LEVEL_STAT:
-                    return ((_arg2.level_ >= _local3));
+                    return ((player.level_ >= statValue));
                 case StatData.ATTACK_STAT:
-                    return ((_arg2.attack_ >= _local3));
+                    return ((player.attack_ >= statValue));
                 case StatData.DEFENSE_STAT:
-                    return ((_arg2.defense_ >= _local3));
+                    return ((player.defense_ >= statValue));
                 case StatData.SPEED_STAT:
-                    return ((_arg2.speed_ >= _local3));
+                    return ((player.speed_ >= statValue));
                 case StatData.VITALITY_STAT:
-                    return ((_arg2.vitality_ >= _local3));
+                    return ((player.vitality_ >= statValue));
                 case StatData.WISDOM_STAT:
-                    return ((_arg2.wisdom_ >= _local3));
+                    return ((player.wisdom_ >= statValue));
                 case StatData.DEXTERITY_STAT:
-                    return ((_arg2.dexterity_ >= _local3));
+                    return ((player.dexterity_ >= statValue));
             }
         }
         return (false);

@@ -435,9 +435,9 @@ namespace wServer.realm.entities
                 GuildRank = client.Account.GuildRank;
             }
             
-            HealthPots = new ItemStacker(this, 254, 0x0A22, 
+            HealthPots = new ItemStacker(this, 254, 0x0365, 
                 client.Character.HealthStackCount, settings.MaxStackablePotions);
-            MagicPots = new ItemStacker(this, 255, 0x0A23, 
+            MagicPots = new ItemStacker(this, 255, 0x0366, 
                 client.Character.MagicStackCount, settings.MaxStackablePotions);
             Stacks = new ItemStacker[] {HealthPots, MagicPots};
 

@@ -19,7 +19,7 @@
          <File>playerskins</File>
          <Index>1</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x0307</PlayerClassType>
+      <PlayerClassType>0x0a3d</PlayerClassType>
       <UnlockLevel>5</UnlockLevel>
    </Object>
    <Object type="0x0ceb" id="Merlin">
@@ -29,7 +29,7 @@
          <File>playerskins</File>
          <Index>2</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x030e</PlayerClassType>
+      <PlayerClassType>0x0a3e</PlayerClassType>
       <UnlockLevel>10</UnlockLevel>
    </Object>
    <Object type="0x0cec" id="Traditional">
@@ -149,7 +149,7 @@
          <File>playerskins</File>
          <Index>14</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x030e</PlayerClassType>
+      <PlayerClassType>0x0a3e</PlayerClassType>
       <UnlockLevel>15</UnlockLevel>
    </Object>
    <Object type="0x0cf8" id="Robed Priest">
@@ -169,7 +169,7 @@
          <File>playerskins</File>
          <Index>16</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x030e</PlayerClassType>
+      <PlayerClassType>0x0a3e</PlayerClassType>
       <UnlockLevel>1</UnlockLevel>
    </Object>
    <Object type="0x0cfa" id="Little Helper">
@@ -179,7 +179,7 @@
          <File>playerskins</File>
          <Index>17</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x0307</PlayerClassType>
+      <PlayerClassType>0x0a3d</PlayerClassType>
       <UnlockLevel>1</UnlockLevel>
    </Object>
    <Object type="0x0cfb" id="Father Time">
@@ -219,7 +219,7 @@
          <File>playerskins</File>
          <Index>21</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x0307</PlayerClassType>
+      <PlayerClassType>0x0a3d</PlayerClassType>
       <UnlockLevel>1</UnlockLevel>
    </Object>
    <!--slime skins ok-->
@@ -240,7 +240,7 @@
          <File>playerskins</File>
          <Index>35</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x0307</PlayerClassType>
+      <PlayerClassType>0x0a3d</PlayerClassType>
       <UnlockSpecial>Granted by crafting the Steam Holiday Sale 2013 badge.</UnlockSpecial>
    </Object>
    <Object type="0x0d01" id="Slime Priest">
@@ -280,7 +280,7 @@
          <File>playerskins</File>
          <Index>41</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x030e</PlayerClassType>
+      <PlayerClassType>0x0a3e</PlayerClassType>
       <UnlockSpecial>Granted by crafting the Steam Holiday Sale 2013 badge.</UnlockSpecial>
    </Object>
    <Object type="0x0d05" id="Scarlett">
@@ -390,7 +390,7 @@
          <File>playerskins</File>
          <Index>32</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x030e</PlayerClassType>
+      <PlayerClassType>0x0a3e</PlayerClassType>
       <UnlockSpecial>Unlocked 2014.</UnlockSpecial>
    </Object>
    <Object type="0x0d10" id="Deadly Vixen">
@@ -480,7 +480,7 @@
          <File>playerskins</File>
          <Index>42</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x0307</PlayerClassType>
+      <PlayerClassType>0x0a3d</PlayerClassType>
       <UnlockSpecial>Month of the Mad God 2014 Release.</UnlockSpecial>
    </Object>
    <Object type="0x0d19" id="Platinum Knight">
@@ -520,7 +520,7 @@
          <File>playerskins</File>
          <Index>71</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x030e</PlayerClassType>
+      <PlayerClassType>0x0a3e</PlayerClassType>
       <UnlockSpecial>Project Realmway 2 Winner, June 2014.</UnlockSpecial>
    </Object>
    <Object type="0x0d1d" id="Slime Sorcerer">
@@ -670,7 +670,7 @@
          <File>playerskins</File>
          <Index>77</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x0307</PlayerClassType>
+      <PlayerClassType>0x0a3d</PlayerClassType>
       <UnlockSpecial>Unlocked during Halloween 2014. Sprite Credits: WunderWafe</UnlockSpecial>
    </Object>
    <Object type="0x0d2c" id="Demon Spawn">
@@ -780,7 +780,7 @@
          <File>playerskins</File>
          <Index>88</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x030e</PlayerClassType>
+      <PlayerClassType>0x0a3e</PlayerClassType>
       <UnlockSpecial>Unlocked during Halloween 2014. Sprite Credits: Beige</UnlockSpecial>
    </Object>
    <Object type="0x0d37" id="Vampire Hunter">
@@ -851,7 +851,7 @@
          <File>playerskins</File>
          <Index>100</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x030e</PlayerClassType>
+      <PlayerClassType>0x0a3e</PlayerClassType>
       <NoSkinSelect/>
    </Object>
    <Object type="0x0d3e" id="Mini Swoll">
@@ -967,7 +967,7 @@
          <File>playerskins16</File>
          <Index>05</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x030e</PlayerClassType>
+      <PlayerClassType>0x0a3e</PlayerClassType>
       <UnlockSpecial>Set Skin</UnlockSpecial>
       <NoSkinSelect/>
    </Object>
@@ -1071,7 +1071,7 @@
          <File>playerskins</File>
          <Index>112</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x030e</PlayerClassType>
+      <PlayerClassType>0x0a3e</PlayerClassType>
       <NoSkinSelect/>
    </Object>
    <!--xmas skins ok-->
@@ -1102,7 +1102,7 @@
          <File>playerskins</File>
          <Index>115</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x030e</PlayerClassType>
+      <PlayerClassType>0x0a3e</PlayerClassType>
       <NoSkinSelect/>
    </Object>
    <!--ok-->
@@ -1123,7 +1123,7 @@
          <File>playerskins</File>
          <Index>117</Index>
       </AnimatedTexture>
-      <PlayerClassType>0x0307</PlayerClassType>
+      <PlayerClassType>0x0a3d</PlayerClassType>
       <NoSkinSelect/>
    </Object>
    <Object type="0x0d58" id="Snowcloaked Rogue">

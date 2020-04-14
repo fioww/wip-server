@@ -9,7 +9,7 @@ namespace wServer.realm.entities.vendors
     {
         public ClosedVaultChest(RealmManager manager, ushort objType) : base(manager, objType)
         {
-            Price = 100;
+            Price = 150;
             Currency = CurrencyType.Fame;
         }
 
@@ -40,11 +40,12 @@ namespace wServer.realm.entities.vendors
                 acc.Reload("vaultCount");
                 player.CurrentFame = acc.Fame;
 
-                (Owner as Vault)?.AddChest(this);
+                if (!(Owner is Vault))
+                    (Owner as Vault)?.AddChest(this);
                 player.Client.SendPacket(new networking.packets.outgoing.BuyResult()
                 {
                     Result = 0,
-                    ResultString = "Vault chest purchased!"
+                    ResultString = "Vault chest purchased! Re-enter your vault to reload changes."
                 });
             }).ContinueWith(e =>
                 Log.Error(e.Exception.InnerException.ToString()),
