@@ -19,6 +19,7 @@ import com.company.util.PointUtil;
 
 import flash.display.DisplayObject;
 import flash.display.Sprite;
+import flash.display.StageScaleMode;
 import flash.events.Event;
 import flash.events.MouseEvent;
 import flash.external.ExternalInterface;
@@ -37,6 +38,7 @@ import kabam.rotmg.constants.GeneralConstants;
 import kabam.rotmg.core.StaticInjectorContext;
 import kabam.rotmg.core.model.MapModel;
 import kabam.rotmg.core.model.PlayerModel;
+import kabam.rotmg.core.view.Layers;
 import kabam.rotmg.dailyLogin.signal.ShowDailyCalendarPopupSignal;
 import kabam.rotmg.dialogs.control.AddPopupToStartupQueueSignal;
 import kabam.rotmg.dialogs.control.FlushPopupStartupQueueSignal;
@@ -259,6 +261,8 @@ public class GameSprite extends AGameSprite {
         }
         Parameters.save();
         hidePreloader();
+        stage.dispatchEvent(new Event(Event.RESIZE));
+        this.parent.parent.setChildIndex((this.parent.parent as Layers).top, 2);
     }
 
     private function showSafeAreaDisplays():void {
@@ -425,6 +429,18 @@ public class GameSprite extends AGameSprite {
             lastUpdate_ = getTimer();
             stage.addEventListener(MoneyChangedEvent.MONEY_CHANGED, this.onMoneyChanged);
             stage.addEventListener(Event.ENTER_FRAME, this.onEnterFrame);
+            this.parent.parent.setChildIndex((this.parent.parent as Layers).top, 0);
+
+            if (Parameters.data_["mscale"] == undefined) Parameters.data_["mscale"] = "1.0";
+            if (Parameters.data_["stageScale"] == undefined) Parameters.data_["stageScale"] = StageScaleMode.NO_SCALE;
+            if (Parameters.data_["uiscale"] == undefined) Parameters.data_["uiscale"] = true;
+
+            Parameters.save();
+
+            stage.scaleMode = Parameters.data_["stageScale"];
+            stage.addEventListener(Event.RESIZE, this.onScreenResize);
+            stage.dispatchEvent(new Event(Event.RESIZE));
+
             LoopedProcess.addProcess(new LoopedCallback(100, this.updateNearestInteractive));
         }
     }
@@ -436,6 +452,9 @@ public class GameSprite extends AGameSprite {
             this.idleWatcher_.stop();
             stage.removeEventListener(MoneyChangedEvent.MONEY_CHANGED, this.onMoneyChanged);
             stage.removeEventListener(Event.ENTER_FRAME, this.onEnterFrame);
+            stage.removeEventListener(Event.RESIZE, this.onScreenResize);
+            stage.scaleMode = StageScaleMode.EXACT_FIT;
+            stage.dispatchEvent(new Event(Event.RESIZE));
             LoopedProcess.destroyAll();
             ((contains(map)) && (removeChild(map)));
             map.dispose();
@@ -443,6 +462,102 @@ public class GameSprite extends AGameSprite {
             TextureRedrawer.clearCache();
             Projectile.dispose();
             gsc_.disconnect();
+        }
+    }
+
+    private function onScreenResize(arg:Event):void {
+        var uiscale:Boolean = Parameters.data_["uiscale"];
+        var widthScale:Number = 800 / stage.stageWidth;
+        var heightScale:Number = 600 / stage.stageHeight;
+        var factor:Number = widthScale / heightScale;
+
+        if (this.map != null) {
+            this.map.scaleX = widthScale * Parameters.data_["mscale"];
+            this.map.scaleY = heightScale * Parameters.data_["mscale"];
+        }
+
+        if (this.hudView != null) {
+            if (uiscale) {
+                this.hudView.scaleX = factor;
+                this.hudView.scaleY = 1;
+                this.hudView.y = 0;
+            }
+            else {
+                this.hudView.scaleX = widthScale;
+                this.hudView.scaleY = heightScale;
+                this.hudView.y = 300 * (1 - heightScale);
+            }
+
+            this.hudView.x = 800 - 200 * this.hudView.scaleX;
+
+            if (this.creditDisplay_ != null)
+                this.creditDisplay_.x = this.hudView.x - 6 * this.creditDisplay_.scaleX;
+        }
+
+        if (this.chatBox_ != null) {
+            if (uiscale) {
+                this.chatBox_.scaleX = factor;
+                this.chatBox_.scaleY = 1;
+            }
+            else {
+                this.chatBox_.scaleX = widthScale;
+                this.chatBox_.scaleY = heightScale;
+            }
+
+            this.chatBox_.y = 300 + 300 * (1 - this.chatBox_.scaleY);
+        }
+
+        if (this.rankText_ != null) {
+            if (uiscale) {
+                this.rankText_.scaleX = factor;
+                this.rankText_.scaleY = 1;
+            }
+            else {
+                this.rankText_.scaleX = widthScale;
+                this.rankText_.scaleY = heightScale;
+            }
+
+            this.rankText_.x = 8 * this.rankText_.scaleX;
+            this.rankText_.y = 4 * this.rankText_.scaleY;
+        }
+
+        if (this.newsModalButton != null) {
+            if (uiscale) {
+                this.newsModalButton.scaleX = factor;
+                this.newsModalButton.scaleY = 1;
+            }
+            else {
+                this.newsModalButton.scaleX = widthScale;
+                this.newsModalButton.scaleY = heightScale;
+            }
+
+            this.newsModalButton.x = 6 * this.newsModalButton.scaleX;
+            this.newsModalButton.y = 34 * this.newsModalButton.scaleY;
+        }
+
+        if (this.guildText_ != null) {
+            if (uiscale) {
+                this.guildText_.scaleX = factor;
+                this.guildText_.scaleY = 1;
+            }
+            else {
+                this.guildText_.scaleX = widthScale;
+                this.guildText_.scaleY = heightScale;
+            }
+
+            this.guildText_.x = 64 * this.guildText_.scaleX;
+            this.guildText_.y = 6 * this.guildText_.scaleY;
+        }
+
+        if (this.creditDisplay_ != null) {
+            if (uiscale) {
+                this.creditDisplay_.scaleX = factor;
+                this.creditDisplay_.scaleY = 1;
+            }
+            else {
+                this.creditDisplay_.scaleX = widthScale;
+                this.creditDisplay_.scaleY = heightScale;
+            }
         }
     }
 

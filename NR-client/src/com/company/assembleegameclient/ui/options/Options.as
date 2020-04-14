@@ -12,6 +12,7 @@ import com.company.util.KeyCodes;
 import flash.display.BitmapData;
 import flash.display.Sprite;
 import flash.display.StageDisplayState;
+import flash.display.StageScaleMode;
 import flash.events.Event;
 import flash.events.KeyboardEvent;
 import flash.events.MouseEvent;
@@ -64,36 +65,40 @@ public class Options extends Sprite {
         this.gs_ = _arg1;
         graphics.clear();
         graphics.beginFill(0x2B2B2B, 0.8);
-        graphics.drawRect(0, 0, 800, 600);
+        graphics.drawRect(0, 0, WebMain.sWidth, WebMain.sHeight);
         graphics.endFill();
         graphics.lineStyle(1, 0x5E5E5E);
         graphics.moveTo(0, 100);
-        graphics.lineTo(800, 100);
+        graphics.lineTo(WebMain.sWidth, 100);
         graphics.lineStyle();
         _local2 = new TextFieldDisplayConcrete().setSize(36).setColor(0xFFFFFF);
         _local2.setBold(true);
         _local2.setStringBuilder(new LineBuilder().setParams(TextKey.OPTIONS_TITLE));
         _local2.setAutoSize(TextFieldAutoSize.CENTER);
         _local2.filters = [new DropShadowFilter(0, 0, 0)];
-        _local2.x = ((800 / 2) - (_local2.width / 2));
+        _local2.x = ((WebMain.sWidth / 2) - (_local2.width / 2));
         _local2.y = 8;
         addChild(_local2);
         addChild(new ScreenGraphic());
-        this.continueButton_ = new TitleMenuOption(TextKey.OPTIONS_CONTINUE_BUTTON, 36, false);
-        this.continueButton_.setVerticalAlign(TextFieldDisplayConcrete.MIDDLE);
-        this.continueButton_.setAutoSize(TextFieldAutoSize.CENTER);
-        this.continueButton_.addEventListener(MouseEvent.CLICK, this.onContinueClick);
-        addChild(this.continueButton_);
+
         this.resetToDefaultsButton_ = new TitleMenuOption(TextKey.OPTIONS_RESET_TO_DEFAULTS_BUTTON, 22, false);
         this.resetToDefaultsButton_.setVerticalAlign(TextFieldDisplayConcrete.MIDDLE);
         this.resetToDefaultsButton_.setAutoSize(TextFieldAutoSize.LEFT);
         this.resetToDefaultsButton_.addEventListener(MouseEvent.CLICK, this.onResetToDefaultsClick);
         addChild(this.resetToDefaultsButton_);
+
+        this.continueButton_ = new TitleMenuOption(TextKey.OPTIONS_CONTINUE_BUTTON, 36, false);
+        this.continueButton_.setVerticalAlign(TextFieldDisplayConcrete.MIDDLE);
+        this.continueButton_.setAutoSize(TextFieldAutoSize.CENTER);
+        this.continueButton_.addEventListener(MouseEvent.CLICK, this.onContinueClick);
+        addChild(this.continueButton_);
+
         this.homeButton_ = new TitleMenuOption(TextKey.OPTIONS_HOME_BUTTON, 22, false);
         this.homeButton_.setVerticalAlign(TextFieldDisplayConcrete.MIDDLE);
         this.homeButton_.setAutoSize(TextFieldAutoSize.RIGHT);
         this.homeButton_.addEventListener(MouseEvent.CLICK, this.onHomeClick);
         addChild(this.homeButton_);
+
         if (UIUtils.SHOW_EXPERIMENTAL_MENU) {
             if (TABS.indexOf("Experimental") == -1) {
                 TABS.push("Experimental");
@@ -464,14 +469,13 @@ public class Options extends Sprite {
             _local2 = 16724787;
         }
         this.addOptionAndPosition(new ChoiceOption("GPURender", makeOnOffLabels(), [true, false], TextKey.OPTIONS_HARDWARE_ACC_TITLE, _local1, null, _local2));
-        if (Capabilities.playerType == "Desktop") {
-            this.addOptionAndPosition(new ChoiceOption("fullscreenMode", makeOnOffLabels(), [true, false], TextKey.OPTIONS_FULLSCREEN_MODE, TextKey.OPTIONS_FULLSCREEN_MODE_DESC, this.onFullscreenChange));
-        }
         this.addOptionAndPosition(new ChoiceOption("toggleBarText", makeOnOffLabels(), [true, false], TextKey.OPTIONS_TOGGLE_BARTEXT, TextKey.OPTIONS_TOGGLE_BARTEXT_DESC, onBarTextToggle));
         this.addOptionAndPosition(new ChoiceOption("particleEffect", makeHighLowLabels(), [true, false], TextKey.OPTIONS_TOGGLE_PARTICLE_EFFECT, TextKey.OPTIONS_TOGGLE_PARTICLE_EFFECT_DESC, null));
         this.addOptionAndPosition(new ChoiceOption("uiQuality", makeHighLowLabels(), [true, false], TextKey.OPTIONS_TOGGLE_UI_QUALITY, TextKey.OPTIONS_TOGGLE_UI_QUALITY_DESC, onUIQualityToggle));
         this.addOptionAndPosition(new ChoiceOption("HPBar", makeOnOffLabels(), [true, false], TextKey.OPTIONS_HPBAR, TextKey.OPTIONS_HPBAR_DESC, null));
         this.addOptionAndPosition(new ChoiceOption("enhancedQuestToolTip", makeOnOffLabels(), [true, false], TextKey.OPTIONS_TOGGLE_ENHANCED_QUEST_PORTRAIT, TextKey.OPTIONS_TOGGLE_ENHANCED_QUEST_PORTRAIT_DESC, null));
+        this.addOptionAndPosition(new ChoiceOption("stageScale", makeOnOffLabels(), [StageScaleMode.NO_SCALE, StageScaleMode.EXACT_FIT], "Fullscreen", "Extends viewing area at a cost of lower FPS.", this.fsv3, 840583));
+        this.addOptionAndPosition(new ChoiceOption("uiscale", makeOnOffLabels(), [true, false], "UI Scale", "Scales equipment UI.", null, 840583));
     }
 
     private function onShowQuestPortraitsChange():void {
@@ -480,8 +484,18 @@ public class Options extends Sprite {
         }
     }
 
-    private function onFullscreenChange():void {
-        stage.displayState = ((Parameters.data_.fullscreenMode) ? "fullScreenInteractive" : StageDisplayState.NORMAL);
+    private function fsv3():void {
+        stage.scaleMode = Parameters.data_["stageScale"];
+
+        Parameters.root.dispatchEvent(new Event(Event.RESIZE));
+
+        this.fsv3Options();
+    }
+
+    private function fsv3Options():void {
+        for each (var choice:ChoiceOption in this.options_)
+            if (choice.paramName_ == "uiscale")
+                choice.enable(Parameters.data_["stageScale"] == StageScaleMode.EXACT_FIT);
     }
 
     private function addSoundOptions():void {

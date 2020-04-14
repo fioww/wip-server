@@ -65,6 +65,8 @@ public class WebMain extends Sprite {
 
     public static var ENV:String;
     public static var STAGE:Stage;
+    public static var sWidth:Number = 800;
+    public static var sHeight:Number = 600;
 
     protected var context:IContext;
 
@@ -72,6 +74,7 @@ public class WebMain extends Sprite {
         //MonsterDebugger.initialize(this);
         if (stage) {
             this.setup();
+            stage.addEventListener(Event.RESIZE, this.onStageResize);
         }
         else {
             addEventListener(Event.ADDED_TO_STAGE, this.onAddedToStage);
@@ -90,7 +93,6 @@ public class WebMain extends Sprite {
         new AssetLoader().load();
         stage.scaleMode = StageScaleMode.EXACT_FIT;
         this.context.injector.getInstance(StartupSignal).dispatch();
-        this.configureForAirIfDesktopPlayer();
         STAGE = stage;
         UIUtils.toggleQuality(Parameters.data_.uiQuality);
     }
@@ -162,11 +164,21 @@ public class WebMain extends Sprite {
         this.context.logLevel = LogLevel.DEBUG;
     }
 
-    private function configureForAirIfDesktopPlayer():void {
-        if (Capabilities.playerType == "Desktop") {
-            Parameters.data_.fullscreenMode = false;
-            Parameters.save();
+    private function onStageResize(_arg_1:Event):void {
+        if (stage.scaleMode == StageScaleMode.NO_SCALE) {
+            this.scaleX = (stage.stageWidth / 800);
+            this.scaleY = (stage.stageHeight / 600);
+            this.x = ((800 - stage.stageWidth) / 2);
+            this.y = ((600 - stage.stageHeight) / 2);
         }
+        else {
+            this.scaleX = 1;
+            this.scaleY = 1;
+            this.x = 0;
+            this.y = 0;
+        }
+        sWidth = stage.stageWidth;
+        sHeight = stage.stageHeight;
     }
 
 

@@ -1,5 +1,6 @@
 ﻿package com.company.assembleegameclient.ui.options {
 import com.company.assembleegameclient.parameters.Parameters;
+import com.company.util.MoreColorUtil;
 
 import flash.events.Event;
 
@@ -36,6 +37,11 @@ public class ChoiceOption extends BaseOption {
         Parameters.save();
     }
 
+    public function enable(_arg1:Boolean):void {
+        transform.colorTransform = _arg1 ? MoreColorUtil.darkCT : MoreColorUtil.identity;
+        mouseEnabled = !_arg1;
+        mouseChildren = !_arg1;
+    }
 
 }
 }

@@ -26,7 +26,7 @@ public class GuildChronicleScreen extends Sprite {
         this.gs_ = _arg1;
         graphics.clear();
         graphics.beginFill(0x2B2B2B, 0.8);
-        graphics.drawRect(0, 0, 800, 600);
+        graphics.drawRect(0, 0, WebMain.sWidth, WebMain.sHeight);
         graphics.endFill();
         addChild((this.container = new Sprite()));
         this.addList();

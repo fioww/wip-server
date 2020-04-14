@@ -63,17 +63,10 @@ public class Camera {
     }
 
     public function configureCamera(gameObject:GameObject, isHallucinating:Boolean, isPartyVision:Boolean, isXMasVision:Boolean):void {
-        var _local3:Rectangle = ((Parameters.data_.centerOnPlayer) ? CENTER_SCREEN_RECT : OFFSET_SCREEN_RECT);
-        if (Parameters.screenShotMode_) {
-            if (!Parameters.screenShotSlimMode_) {
-                _local3 = SCREENSHOT_SCREEN_RECT;
-            }
-            else {
-                _local3 = SLIM_SCREENSHOT_SCREEN_RECT;
-            }
-        }
-        var _local4:Number = Parameters.data_.cameraAngle;
-        this.configure(gameObject.x_, gameObject.y_, 12, _local4, _local3);
+        var _local_3:Rectangle = this.correctViewingArea(Parameters.data_["centerOnPlayer"]);
+        var _local_4:Number = Parameters.data_.cameraAngle;
+        this.configure(gameObject.x_, gameObject.y_, 12, _local_4, _local_3);
+
         this.isHallucinating_ = isHallucinating;
         this.isPartyVision_ = isPartyVision;
         this.isXMasVision_ = isXMasVision;
@@ -91,6 +84,19 @@ public class Camera {
                 this.jitter_ = this.MAX_JITTER;
             }
         }
+    }
+
+    private function correctViewingArea(center:Boolean):Rectangle
+    {
+        var scale:Number = Parameters.data_["mscale"];
+        var widthScale:Number = (WebMain.sWidth / scale);
+        var heightScale:Number = (WebMain.sHeight / scale);
+        var factor:Number  = ((Parameters.data_["uiscale"]) ? Number((((200 * WebMain.sHeight) / 600) / scale)) : Number((200 / scale)));
+
+        if (center)
+            return (new Rectangle(-((widthScale - factor) / 2), -((heightScale * 13) / 24), widthScale, heightScale));
+
+        return (new Rectangle(-((widthScale - factor) / 2), -((heightScale * 3) / 4), widthScale, heightScale));
     }
 
     public function configure(_arg1:Number, _arg2:Number, _arg3:Number, _arg4:Number, _arg5:Rectangle):void {

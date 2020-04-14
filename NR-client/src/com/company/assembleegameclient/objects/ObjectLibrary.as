@@ -208,11 +208,13 @@ public class ObjectLibrary {
             _arg2 = (_arg2 * 0.5);
         }
         var _local7:TextureData = typeToTextureData_[_arg1];
-        var _local8:BitmapData = ((_local7) ? _local7.mask_ : null);
-        if (_local8 == null) {
-            return (TextureRedrawer.redraw(_local6, _arg2, _arg3, 0, _arg4, _arg5));
-        }
-        var _local9:XML = xmlLibrary_[_arg1];
+        var _local8:BitmapData = Boolean(_local7) ? _local7.mask_ : null;
+        var _local9:XML;
+
+        try { _local9 = xmlLibrary_[_arg1]; }
+        catch (error:Error) { }
+
+        if (_local9 == null) return TextureRedrawer.redraw(_local6, _arg2, _arg3, 0, _arg4, _arg5);
         var _local10:int = ((_local9.hasOwnProperty("Tex1")) ? int(_local9.Tex1) : 0);
         var _local11:int = ((_local9.hasOwnProperty("Tex2")) ? int(_local9.Tex2) : 0);
         _local6 = TextureRedrawer.resize(_local6, _local8, _arg2, _arg3, _local10, _local11, _arg5);

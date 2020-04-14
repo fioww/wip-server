@@ -15,6 +15,7 @@ import flash.display.DisplayObject;
 import flash.display.GraphicsBitmapFill;
 import flash.display.GraphicsSolidFill;
 import flash.display.IGraphicsData;
+import flash.display.StageScaleMode;
 import flash.display3D.Context3D;
 import flash.filters.BlurFilter;
 import flash.filters.ColorMatrixFilter;
@@ -308,6 +309,27 @@ public class Map extends AbstractMap {
         return (squares_[(_arg1 + (_arg2 * width_))]);
     }
 
+    public function correctMapView(_arg_1:Camera):Point
+    {
+        var _local_2:Rectangle = _arg_1.clipRect_;
+        if (stage.scaleMode == StageScaleMode.NO_SCALE)
+        {
+            x = ((-(_local_2.x) * 800) / (WebMain.sWidth / Parameters.data_["mscale"]));
+            y = ((-(_local_2.y) * 600) / (WebMain.sHeight / Parameters.data_["mscale"]));
+        }
+        else
+        {
+            x = (-(_local_2.x) * Parameters.data_["mscale"]);
+            y = (-(_local_2.y) * Parameters.data_["mscale"]);
+        }
+        var _local_3:Number = ((-(_local_2.x) - (_local_2.width / 2)) / 50);
+        var _local_4:Number = ((-(_local_2.y) - (_local_2.height / 2)) / 50);
+        var _local_5:Number = Math.sqrt(((_local_3 * _local_3) + (_local_4 * _local_4)));
+        var _local_6:Number = ((_arg_1.angleRad_ - (Math.PI / 2)) - Math.atan2(_local_3, _local_4));
+        return (new Point((_arg_1.x_ + (_local_5 * Math.cos(_local_6))), (_arg_1.y_ + (_local_5 * Math.sin(_local_6)))));
+    }
+
+
     override public function draw(camera:Camera, currentTime:int):void {
         if (wasLastFrameGpu != Parameters.isGpuRender()) {
             var context:Context3D = WebMain.STAGE.stage3Ds[0].context3D;
@@ -324,12 +346,11 @@ public class Map extends AbstractMap {
         }
 
         var rect:Rectangle = camera.clipRect_;
+
         x = -rect.x;
         y = -rect.y;
-        var sy:Number = (-rect.y - rect.height / 2) / 50;
-        var plrPos:Point = new Point(
-                camera.x_ + sy * Math.cos(camera.angleRad_ - Math.PI / 2),
-                camera.y_ + sy * Math.sin(camera.angleRad_ - Math.PI / 2));
+
+        var plrPos:Point = this.correctMapView(camera);
 
         if (background_ != null) {
             background_.draw(camera, currentTime);

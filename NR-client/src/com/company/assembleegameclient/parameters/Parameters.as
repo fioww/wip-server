@@ -4,6 +4,7 @@ import com.company.util.KeyCodes;
 import com.company.util.MoreDateUtil;
 
 import flash.display.DisplayObject;
+import flash.display.StageScaleMode;
 import flash.events.Event;
 import flash.net.SharedObject;
 import flash.system.Capabilities;
@@ -231,37 +232,9 @@ public class Parameters {
         setDefault("tradeWithFriends", false);
         setDefault("chatFriend", false);
         setDefault("friendStarRequirement", 0);
-        setDefault("HPBar", false);
-        if (!data_.hasOwnProperty("needsSurvey")) {
-            data_.needsSurvey = data_.needsTutorial;
-            switch (int((Math.random() * 5))) {
-                case 0:
-                    data_.surveyDate = 0;
-                    data_.playTimeLeftTillSurvey = (5 * 60);
-                    data_.surveyGroup = "5MinPlaytime";
-                    return;
-                case 1:
-                    data_.surveyDate = 0;
-                    data_.playTimeLeftTillSurvey = (10 * 60);
-                    data_.surveyGroup = "10MinPlaytime";
-                    return;
-                case 2:
-                    data_.surveyDate = 0;
-                    data_.playTimeLeftTillSurvey = (30 * 60);
-                    data_.surveyGroup = "30MinPlaytime";
-                    return;
-                case 3:
-                    data_.surveyDate = (new Date().time + ((((1000 * 60) * 60) * 24) * 7));
-                    data_.playTimeLeftTillSurvey = (2 * 60);
-                    data_.surveyGroup = "1WeekRealtime";
-                    return;
-                case 4:
-                    data_.surveyDate = (new Date().time + ((((1000 * 60) * 60) * 24) * 14));
-                    data_.playTimeLeftTillSurvey = (2 * 60);
-                    data_.surveyGroup = "2WeekRealtime";
-                    return;
-            }
-        }
+        setDefault("HPBar", true);
+
+        setDefault("stageScale", StageScaleMode.NO_SCALE);
     }
 
 

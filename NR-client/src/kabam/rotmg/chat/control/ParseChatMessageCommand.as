@@ -2,6 +2,8 @@
 import com.company.assembleegameclient.parameters.Parameters;
 import com.company.assembleegameclient.sound.Music;
 
+import flash.events.Event;
+
 import kabam.rotmg.account.core.Account;
 import kabam.rotmg.appengine.api.AppEngineClient;
 import kabam.rotmg.build.api.BuildData;
@@ -27,29 +29,29 @@ public class ParseChatMessageCommand {
 
 
     public function execute():void {
-        var text:String = this.data.toLowerCase();
-        if (text == "/help") {
-            this.addTextLine.dispatch(ChatMessage.make(Parameters.HELP_CHAT_NAME, TextKey.HELP_COMMAND));
-        }
-        if (text == "/volume" || text == "/vol") {
-            this.addTextLine.dispatch(ChatMessage.make("*Help*", "Music Volume: " + Parameters.data_["musicVolume"] * 100 + "% - Usage: /volume <number number in the range [0; 100]>"));
-            return;
-        }
-        var volumeMatch:Array = text.match("/volume (\\d*\\.*\\d+)$");
-        if (volumeMatch != null) {
-            var getVolume:* = Number(volumeMatch[1]);
-            getVolume = getVolume > 0 ? getVolume : 0;
-            getVolume = getVolume < 100 ? getVolume : 100;
-            var newVolume:Number = getVolume / 100;
-            Music.setMusicVolume(newVolume);
-            this.addTextLine.dispatch(ChatMessage.make(Parameters.HELP_CHAT_NAME, "Music volume set to " + getVolume + "%."));
-            return;
-        }
-        else {
-            this.hudModel.gameSprite.gsc_.playerText(this.data);
-        }
-    }
+        var _local1:Array;
+        var _local2:Number;
+        var _local3:Number;
+        if (this.data.charAt(0) == "/") {
+            _local1 = this.data.substr(1, this.data.length).split(" ");
+            switch (_local1[0]) {
+                case "help":
+                    this.addTextLine.dispatch(ChatMessage.make(Parameters.HELP_CHAT_NAME, TextKey.HELP_COMMAND));
+                    return;
+                case "mscale":
+                    if (_local1.length == 2 && _local1[1] >= 0.5 && _local1[1] <= 5) {
+                        Parameters.data_["mscale"] = _local1[1];
+                        Parameters.save();
+                        Parameters.root.dispatchEvent(new Event(Event.RESIZE));
 
+                        this.addTextLine.dispatch(ChatMessage.make(Parameters.HELP_CHAT_NAME, ("Map Scale: " + _local1[1])));
+                    } else
+                        this.addTextLine.dispatch(ChatMessage.make(Parameters.HELP_CHAT_NAME, (("Map Scale: " + Parameters.data_.mscale) + " - Usage: /mscale <any number between 0.5 and 5>")));
+                    return;
+            }
+        }
+        this.hudModel.gameSprite.gsc_.playerText(this.data);
+    }
 
 }
 }

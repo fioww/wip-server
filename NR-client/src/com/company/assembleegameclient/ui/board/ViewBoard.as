@@ -89,8 +89,8 @@ class ViewBoard extends Sprite {
 
     private function layoutBackground():void {
         this.h_ = ((TEXT_HEIGHT + this.closeButton_.height) + 8);
-        x = ((800 / 2) - (this.w_ / 2));
-        y = ((600 / 2) - (this.h_ / 2));
+        x = ((WebMain.sWidth / 2) - (this.w_ / 2));
+        y = ((WebMain.sHeight / 2) - (this.h_ / 2));
         graphics.clear();
         GraphicsUtil.clearPath(this.path_);
         GraphicsUtil.drawCutEdgeRect(-6, -6, (this.w_ + 12), (this.h_ + 12), 4, [1, 1, 1, 1], this.path_);

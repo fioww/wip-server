@@ -59,7 +59,7 @@ public class Tutorial extends Sprite {
         _local3 = this.darkBox_.graphics;
         _local3.clear();
         _local3.beginFill(0, 0.1);
-        _local3.drawRect(0, 0, 800, 600);
+        _local3.drawRect(0, 0, WebMain.sWidth, WebMain.sHeight);
         _local3.endFill();
         Parameters.data_.needsTutorial = false;
         Parameters.save();

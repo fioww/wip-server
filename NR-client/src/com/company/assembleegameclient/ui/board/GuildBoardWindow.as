@@ -27,7 +27,7 @@ public class GuildBoardWindow extends Sprite {
         var _local2:Graphics = this.darkBox_.graphics;
         _local2.clear();
         _local2.beginFill(0, 0.8);
-        _local2.drawRect(0, 0, 800, 600);
+        _local2.drawRect(0, 0, WebMain.sWidth, WebMain.sHeight);
         _local2.endFill();
         addChild(this.darkBox_);
         this.load();
