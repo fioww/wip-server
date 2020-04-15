@@ -294,9 +294,9 @@ public class ObjectLibrary {
         return (false);
     }
 
-    public static function isSoulbound(_arg1:int):Boolean {
-        var _local2:XML = xmlLibrary_[_arg1];
-        return (((!((_local2 == null))) && (_local2.hasOwnProperty("Soulbound"))));
+    public static function isSoulbound(objectType:int):Boolean {
+        var isSoulbound:XML = xmlLibrary_[objectType];
+        return (((!((isSoulbound == null))) && (isSoulbound.hasOwnProperty("Soulbound"))));
     }
 
     public static function usableBy(_arg1:int):Vector.<String> {

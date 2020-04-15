@@ -354,18 +354,18 @@ public class EquipmentToolTip extends ToolTip {
     }
 
     private function addProjectileTagsToEffectsList():void {
-        var _local1:XML;
-        var _local2:int;
-        var _local3:int;
-        var _local4:Number;
-        var _local5:XML;
+        var projectile:XML;
+        var minDamage:int;
+        var maxDamage:int;
+        var range:Number;
+        var processedTags:XML;
         if (((this.objectXML.hasOwnProperty("Projectile")) && (!(this.comparisonResults.processedTags.hasOwnProperty(this.objectXML.Projectile.toXMLString()))))) {
-            _local1 = XML(this.objectXML.Projectile);
-            _local2 = int(_local1.MinDamage);
-            _local3 = int(_local1.MaxDamage);
-            this.effects.push(new Effect(TextKey.DAMAGE, {"damage": (((_local2 == _local3)) ? _local2 : ((_local2 + " - ") + _local3)).toString()}));
-            _local4 = ((Number(_local1.Speed) * Number(_local1.LifetimeMS)) / 10000);
-            this.effects.push(new Effect(TextKey.RANGE, {"range": TooltipHelper.getFormattedRangeString(_local4)}));
+            projectile = XML(this.objectXML.Projectile);
+            minDamage = int(projectile.MinDamage);
+            maxDamage = int(projectile.MaxDamage);
+            this.effects.push(new Effect(TextKey.DAMAGE, {"damage": (((minDamage == maxDamage)) ? minDamage : ((minDamage + " - ") + maxDamage)).toString()}));
+            range = ((Number(projectile.Speed) * Number(projectile.LifetimeMS)) / 10000);
+            this.effects.push(new Effect(TextKey.RANGE, {"range": TooltipHelper.getFormattedRangeString(range)}));
             if (this.objectXML.Projectile.hasOwnProperty("MultiHit")) {
                 this.effects.push(new Effect(TextKey.MULTIHIT, {}).setColor(TooltipHelper.NO_DIFF_COLOR));
             }
@@ -375,8 +375,8 @@ public class EquipmentToolTip extends ToolTip {
             if (this.objectXML.Projectile.hasOwnProperty("ArmorPiercing")) {
                 this.effects.push(new Effect(TextKey.ARMOR_PIERCING, {}).setColor(TooltipHelper.NO_DIFF_COLOR));
             }
-            for each (_local5 in _local1.ConditionEffect) {
-                if (this.comparisonResults.processedTags[_local5.toXMLString()] == null) {
+            for each (processedTags in projectile.ConditionEffect) {
+                if (this.comparisonResults.processedTags[processedTags.toXMLString()] == null) {
                     this.effects.push(new Effect(TextKey.SHOT_EFFECT, {"effect": ""}));
                     this.effects.push(new Effect(TextKey.EFFECT_FOR_DURATION, {
                         "effect": this.objectXML.Projectile.ConditionEffect,
@@ -421,7 +421,7 @@ public class EquipmentToolTip extends ToolTip {
         var _local31:AppendingLineBuilder;
         for each (_local1 in this.objectXML.Activate) {
             _local5 = this.comparisonResults.processedTags[_local1.toXMLString()];
-            if (this.comparisonResults.processedTags[_local1.toXMLString()] != true) {
+            if (!this.comparisonResults.processedTags[_local1.toXMLString()]) {
                 _local6 = _local1.toString();
                 switch (_local6) {
                     case ActivationType.COND_EFFECT_AURA:
@@ -610,7 +610,7 @@ public class EquipmentToolTip extends ToolTip {
                 return (tag);
             }
         }
-        return (null);
+        return null;
     }
 
     private function getStatTag(xml:XML, statValue:String):XML {
@@ -622,30 +622,30 @@ public class EquipmentToolTip extends ToolTip {
                 return (tag);
             }
         }
-        return (null);
+        return null;
     }
 
     private function addActivateOnEquipTagsToEffectsList():void {
-        var _local1:XML;
-        var _local2:Boolean = true;
-        for each (_local1 in this.objectXML.ActivateOnEquip) {
-            if (_local2) {
+        var activateOnEquip:XML;
+        var effNotPushed:Boolean = true;
+        for each (activateOnEquip in this.objectXML.ActivateOnEquip) {
+            if (effNotPushed) {
                 this.effects.push(new Effect(TextKey.ON_EQUIP, ""));
-                _local2 = false;
+                effNotPushed = false;
             }
-            if (_local1.toString() == "IncrementStat") {
-                this.effects.push(new Effect(TextKey.INCREMENT_STAT, this.getComparedStatText(_local1)).setReplacementsColor(this.getComparedStatColor(_local1)));
+            if (activateOnEquip.toString() == "IncrementStat") {
+                this.effects.push(new Effect(TextKey.INCREMENT_STAT, this.getComparedStatText(activateOnEquip)).setReplacementsColor(this.getComparedStatColor(activateOnEquip)));
             }
         }
     }
 
     private function getComparedStatText(xml:XML):Object {
-        var _local2:int = int(xml.@stat);
-        var _local3:int = int(xml.@amount);
-        var _local4:String = (((_local3) > -1) ? "+" : "");
+        var statName:int = int(xml.@stat);
+        var statAmount:int = int(xml.@amount);
+        var isPositive:String = (((statAmount) > -1) ? "+" : "");
         return ({
-            "statAmount": ((_local4 + String(_local3)) + " "),
-            "statName": new LineBuilder().setParams(StatData.statToName(_local2))
+            "statAmount": ((isPositive + String(statAmount)) + " "),
+            "statName": new LineBuilder().setParams(StatData.statToName(statName))
         });
     }
 
@@ -671,7 +671,7 @@ public class EquipmentToolTip extends ToolTip {
     }
 
     private function addEquipmentItemRestrictions():void {
-        if (this.objectXML.hasOwnProperty("Treasure") == false) {
+        if (!this.objectXML.hasOwnProperty("Treasure")) {
             this.restrictions.push(new Restriction(TextKey.EQUIP_TO_USE, 0xB3B3B3, false));
             if (((this.isInventoryFull) || ((this.inventoryOwnerType == InventoryOwnerTypes.CURRENT_PLAYER)))) {
                 this.restrictions.push(new Restriction(TextKey.DOUBLE_CLICK_EQUIP, 0xB3B3B3, false));
@@ -770,35 +770,35 @@ public class EquipmentToolTip extends ToolTip {
     }
 
     private function buildRestrictionsLineBuilder():StringBuilder {
-        var _local2:Restriction;
-        var _local3:String;
-        var _local4:String;
-        var _local5:String;
-        var _local1:AppendingLineBuilder = new AppendingLineBuilder();
-        for each (_local2 in this.restrictions) {
-            _local3 = ((_local2.bold_) ? "<b>" : "");
-            _local3 = _local3.concat((('<font color="#' + _local2.color_.toString(16)) + '">'));
-            _local4 = "</font>";
-            _local4 = _local4.concat(((_local2.bold_) ? "</b>" : ""));
-            _local5 = ((this.player) ? ObjectLibrary.typeToDisplayId_[this.player.objectType_] : "");
-            _local1.pushParams(_local2.text_, {
-                "unUsableClass": _local5,
+        var restriction:Restriction;
+        var openingTag:String;
+        var closingTag:String;
+        var unUsableClass:String;
+        var lineBuilder:AppendingLineBuilder = new AppendingLineBuilder();
+        for each (restriction in this.restrictions) {
+            openingTag = ((restriction.bold_) ? "<b>" : "");
+            openingTag = openingTag.concat((('<font color="#' + restriction.color_.toString(16)) + '">'));
+            closingTag = "</font>";
+            closingTag = closingTag.concat(((restriction.bold_) ? "</b>" : ""));
+            unUsableClass = ((this.player) ? ObjectLibrary.typeToDisplayId_[this.player.objectType_] : "");
+            lineBuilder.pushParams(restriction.text_, {
+                "unUsableClass": unUsableClass,
                 "usableClasses": this.getUsableClasses(),
                 "keyCode": KeyCodes.CharCodeStrings[Parameters.data_.useSpecial]
-            }, _local3, _local4);
+            }, openingTag, closingTag);
         }
-        return (_local1);
+        return (lineBuilder);
     }
 
     private function getUsableClasses():StringBuilder {
-        var _local3:String;
-        var _local1:Vector.<String> = ObjectLibrary.usableBy(this.objectType);
-        var _local2:AppendingLineBuilder = new AppendingLineBuilder();
-        _local2.setDelimiter(", ");
-        for each (_local3 in _local1) {
-            _local2.pushParams(_local3);
+        var usableClasses:String;
+        var objType:Vector.<String> = ObjectLibrary.usableBy(this.objectType);
+        var lineBuilder:AppendingLineBuilder = new AppendingLineBuilder();
+        lineBuilder.setDelimiter(", ");
+        for each (usableClasses in objType) {
+            lineBuilder.pushParams(usableClasses);
         }
-        return (_local2);
+        return (lineBuilder);
     }
 
     private function addDescriptionText():void {
@@ -835,16 +835,16 @@ public class EquipmentToolTip extends ToolTip {
         }
         this.line2.x = 8;
         this.line2.y = ((this.effectsText.y + this.effectsText.height) + 8);
-        var _local1:uint = (this.line2.y + 8);
+        var resTextY:uint = (this.line2.y + 8);
         if (this.restrictionsText) {
             this.restrictionsText.x = 4;
-            this.restrictionsText.y = _local1;
-            _local1 = (_local1 + this.restrictionsText.height);
+            this.restrictionsText.y = resTextY;
+            resTextY = (resTextY + this.restrictionsText.height);
         }
         if (this.powerText) {
             if (contains(this.powerText)) {
                 this.powerText.x = 4;
-                this.powerText.y = _local1;
+                this.powerText.y = resTextY;
             }
         }
     }
