@@ -71,7 +71,7 @@ namespace wServer.realm
 
                 if (portal == null)
                 {
-                    portal = new Portal(_manager, 0x0a59, null)
+                    portal = new Portal(_manager, 0x093c, null)
                     {
                         WorldInstance = world,
                         Name = world.GetDisplayName() + " (0)"

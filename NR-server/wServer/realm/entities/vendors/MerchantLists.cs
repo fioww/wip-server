@@ -146,7 +146,7 @@ namespace wServer.realm.entities.vendors
             new ShopItem("Shaitan's Key", 200),
             new ShopItem("Spider Den Key", 20),
             new ShopItem("Tomb of the Ancients Key", 200),
-            //new ShopItem("Battle Nexus Key", 150),
+            //new ShopItem("Battle Nexus Key", 150), // add this
             new ShopItem("Deadwater Docks Key", 100),
             new ShopItem("Woodland Labyrinth Key", 160),
             new ShopItem("Theatre Key", 80),
@@ -164,15 +164,14 @@ namespace wServer.realm.entities.vendors
 
         private static readonly List<ISellableItem> Consumables = new List<ISellableItem>
         {
-            new ShopItem("Saint Patty's Brew", 80),
-            new ShopItem("Snake Oil", 5),
-            new ShopItem("Pollen Powder", 5),
+            new ShopItem("Saint Patty's Brew", 60),
             new ShopItem("Mad God Ale", 25),
-            new ShopItem("XP Booster 20 min", 35),
+            new ShopItem("Snake Oil", 10),
+            new ShopItem("Pollen Powder", 10),
+            new ShopItem("XP Booster 20 min", 30),
             new ShopItem("Backpack", 300),
-            new ShopItem("Loot Drop Potion", 250)
-            //Level 20 potion
-            //Dye removers
+            new ShopItem("Loot Drop Potion", 250),
+            new ShopItem("Potion of Max Level (SB)", 150)
         };
 
         private static readonly List<ISellableItem> Skins = new List<ISellableItem>

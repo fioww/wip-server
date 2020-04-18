@@ -1,4 +1,5 @@
-﻿using System;
+﻿using common.resources;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using wServer.networking.packets.outgoing;
@@ -295,6 +296,34 @@ namespace wServer.realm.entities
             }
             CalculateFame();
             return false;
+        }
+
+        void SetLevelTwenty(Item item)
+        {
+            if (Owner.Name != "Vault")
+                RefundItem(item, "You can only use this item in your vault.");
+
+            if (Level < 20)
+            {
+                var prevLevel = Level;
+                Level = 20;
+                ExperienceGoal = GetExpGoal(Level);
+                var statInfo = Manager.Resources.GameData.Classes[ObjectType].Stats;
+                var rand = new Random();
+                for (var i = 0; i < statInfo.Length; i++)
+                {
+                    var min = statInfo[i].MinIncrease * (20 - prevLevel);
+                    var max = statInfo[i].MaxIncrease * (20 - prevLevel) + 1;
+                    Stats.Base[i] += rand.Next(min, max);
+                    if (Stats.Base[i] > statInfo[i].MaxValue)
+                        Stats.Base[i] = statInfo[i].MaxValue;
+                }
+
+                HP = Stats[0];
+                MP = Stats[1];
+            }
+            CalculateFame();
+            return;
         }
 
         public bool EnemyKilled(Enemy enemy, int exp, bool killer)

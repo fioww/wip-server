@@ -1,1 +1,13 @@
-{"id":0,"isLimbo":false,"name":"Castle","sbName":"{oryx.OryxAPOSs_Castle}","difficulty":4,"background":0,"blocking":1,"restrictTp":true,"showDisplays":false,"music":[""],"portals":[0x0a64]}
+{
+    "id":0,
+    "isLimbo":false,
+    "name":"Castle",
+    "sbName":"{oryx.OryxAPOSs_Castle}",
+    "difficulty":4,
+    "background":0,
+    "blocking":1,
+    "restrictTp":true,
+    "showDisplays":false,
+    "music":["runaway"],
+    "portals":[0x0a64]
+}

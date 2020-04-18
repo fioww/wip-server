@@ -9,7 +9,7 @@ namespace wServer.networking.handlers
 {
     class UsePortalHandler : PacketHandlerBase<UsePortal>
     {
-        private readonly int[] _realmPortals = new int[] { 0x0704/*??*/, 0x0a58, 0x0a5b, 0x0a5c, 0x0a59, 0x093d };
+        private readonly int[] _realmPortals = new int[] { 0x093c, 0x0a58, 0x0a5b, 0x0a5c, 0x0a59, 0x093d, 0x1105 };
 
         public override PacketId ID => PacketId.USEPORTAL;
 

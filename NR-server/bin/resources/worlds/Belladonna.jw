@@ -1,0 +1,14 @@
+{
+"id":0,
+"isLimbo":false,
+"name":"Belladonna's Garden",
+"sbName":"Belladonna's Garden",
+"difficulty":4,
+"background":0,
+"blocking":1,
+"restrictTp":false,
+"showDisplays":false,
+"portals":[ 0x0a6d, 0x11c7 ],
+"maps":["bella.jm"],
+"music":["kitai"]
+}

@@ -10663,7 +10663,7 @@
       </ExtraTooltipData>
       <Consumable/>
       <!--<Soulbound/>-->
-      <Activate duration="1800" id="Drop">MiscBoosts</Activate>
+      <Activate duration="1800" id="Tier">MiscBoosts</Activate>
       <BagType>2</BagType>
       <feedPower>150</feedPower>
    </Object>
@@ -10682,7 +10682,7 @@
       <Sound>use_potion</Sound>
       <Consumable/>
       <!--<Soulbound/>-->
-      <Activate duration="1800" id="Tier">MiscBoosts</Activate>
+      <Activate duration="1800" id="Drop">MiscBoosts</Activate>
       <BagType>2</BagType>
       <feedPower>150</feedPower>
    </Object>

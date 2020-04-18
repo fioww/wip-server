@@ -288,7 +288,8 @@ namespace common.resources
         PetSkin,
         Unlock,
         MysteryDyes,
-        MiscBoosts
+        MiscBoosts,
+        LevelTwenty, // Prod
     }
 
     public class ActivateEffect

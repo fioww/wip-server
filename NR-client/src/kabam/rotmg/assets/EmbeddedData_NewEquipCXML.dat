@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+
+<!--0x11c0 to 0x11cf-->
+<Object type="0x11c0" id="Potion of Max Level 1">
+    <DisplayId>Potion of Max Level</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x32</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>
+    Drink me!\n\nDoes not count as potion when used.\n\nUsing this on a character that is already lv. 20 will have no effect.
+    </Description>
+    <ExtraTooltipData>
+    <EffectInfo name="Effect" description="Boosts your character to lv. 20!"/>
+    </ExtraTooltipData>
+    <Activate>LevelTwenty</Activate>
+    <Sound>use_potion</Sound>
+    <Consumable/>
+    <BagType>2</BagType>
+    <Track/>
+</Object>
+
+<Object type="0x11c1" id="Potion of Max Level 2">
+    <DisplayId>Potion of Max Level</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x32</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>
+    Drink me!\n\nDoes not count as potion when used.\n\nUsing this on a character that is already lv. 20 will have no effect.
+    </Description>
+    <ExtraTooltipData>
+    <EffectInfo name="Effect" description="Boosts your character to lv. 20!"/>
+    </ExtraTooltipData>
+    <Activate>LevelTwenty</Activate>
+    <Sound>use_potion</Sound>
+    <Doses>2</Doses>
+    <SuccessorId>Potion of Max Level 1</SuccessorId>
+    <Consumable/>
+    <BagType>2</BagType>
+    <Track/>
+</Object>
+
+<Object type="0x11c2" id="Potion of Max Level 3">
+    <DisplayId>Potion of Max Level</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x32</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>
+    Drink me!\n\nDoes not count as potion when used.\n\nUsing this on a character that is already lv. 20 will have no effect.
+    </Description>
+    <ExtraTooltipData>
+    <EffectInfo name="Effect" description="Boosts your character to lv. 20!"/>
+    </ExtraTooltipData>
+    <Activate>LevelTwenty</Activate>
+    <Sound>use_potion</Sound>
+    <Doses>3</Doses>
+    <SuccessorId>Potion of Max Level 2</SuccessorId>
+    <Consumable/>
+    <BagType>2</BagType>
+    <Track/>
+</Object>
+
+<Object type="0x11c3" id="Potion of Max Level 4">
+    <DisplayId>Potion of Max Level</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x32</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>
+    Drink me!\n\nDoes not count as potion when used.\n\nUsing this on a character that is already lv. 20 will have no effect.
+    </Description>
+    <ExtraTooltipData>
+    <EffectInfo name="Effect" description="Boosts your character to lv. 20!"/>
+    </ExtraTooltipData>
+    <Activate>LevelTwenty</Activate>
+    <Sound>use_potion</Sound>
+    <Doses>4</Doses>
+    <SuccessorId>Potion of Max Level 3</SuccessorId>
+    <Consumable/>
+    <BagType>2</BagType>
+    <Track/>
+</Object>
+
+<Object type="0x11c4" id="Potion of Max Level 5">
+    <DisplayId>Potion of Max Level</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x32</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>
+    Drink me!\n\nDoes not count as potion when used.\n\nUsing this on a character that is already lv. 20 will have no effect.
+    </Description>
+    <ExtraTooltipData>
+    <EffectInfo name="Effect" description="Boosts your character to lv. 20!"/>
+    </ExtraTooltipData>
+    <Activate>LevelTwenty</Activate>
+    <Sound>use_potion</Sound>
+    <Doses>5</Doses>
+    <SuccessorId>Potion of Max Level 4</SuccessorId>
+    <Consumable/>
+    <BagType>2</BagType>
+    <Track/>
+</Object>
+
+<Object type="0x11c5" id="Potion of Max Level (SB)">
+    <DisplayId>Potion of Max Level</DisplayId>
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+        <File>d2LofiObjEmbed</File>
+        <Index>0x32</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>
+    Drink me!\n\nDoes not count as potion when used.\n\nUsing this on a character that is already lv. 20 will have no effect.
+    </Description>
+    <ExtraTooltipData>
+    <EffectInfo name="Effect" description="Boosts your character to lv. 20!"/>
+    </ExtraTooltipData>
+    <Activate>LevelTwenty</Activate>
+    <Sound>use_potion</Sound>
+    <Consumable/>
+    <Soulbound/>
+    <BagType>2</BagType>
+    <Track/>
+</Object>
+
+   <Object type="0x11c6" id="Bella's Key New">
+      <DisplayId>Belladonna's Garden Key</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>d2LofiObjEmbed</File>
+         <Index>0x2f</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to Belladonna's Garden.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Activate id="Belladonna's Garden Portal New">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+   <Object type="0x11c7" id="Belladonna's Garden Portal New">
+      <DisplayId>Belladonna's Garden</DisplayId>
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DungeonName>Belladonna's Garden</DungeonName>
+      <Texture>
+         <File>d2LofiObjEmbed</File>
+         <Index>0x2e</Index>
+      </Texture>
+   </Object>
+
+<!--END (0x11c0 - 0x11cf)-->
+
+</Objects>

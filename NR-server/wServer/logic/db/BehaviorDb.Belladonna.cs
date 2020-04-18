@@ -342,7 +342,10 @@ namespace wServer.logic
                         new ItemLoot("Small Flannel Cloth", 0.0075)
                      )
                  ),
-                new Threshold(0.1,
+                 new MostDamagers(6,
+                    new ItemLoot("Potion of Dexterity", 0.15)
+                 ),
+                 new Threshold(0.1,
                     new ItemLoot("Diamond Bladed Katana", 0.1),
                     new ItemLoot("Cupid's Bow", 0.1),
                     new ItemLoot("Staff of Adoration", 0.1),

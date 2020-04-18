@@ -349,6 +349,9 @@ namespace wServer.realm.entities
                     case ActivateEffects.HealingGrenade:
                         AEHealingGrenade(time, item, target, eff);
                         break;
+                    case ActivateEffects.LevelTwenty:
+                        AELevelTwenty(time, item, target, eff);
+                        break;
                     default:
                         Log.WarnFormat("Activate effect {0} not implemented.", eff.Effect);
                         break;
@@ -360,18 +363,20 @@ namespace wServer.realm.entities
         {
             var slot = Inventory.GetAvailableInventorySlot(item);
 
+            if (!string.IsNullOrWhiteSpace(message))
+                SendError(message);
+
             if (slot != -1)
+            {
                 Inventory[slot] = item;
+                return;
+            }
             else
             {
                 Manager.Database.AddGift(Client.Account, item.ObjectType);
                 SendError($"Your inventory is full, and your {item} has been sent to a gift chest.");
-            }
-
-            if (!(string.IsNullOrWhiteSpace(message)))
-                SendError(message);
-            else
                 return;
+            }
 
             return;
         }
@@ -523,35 +528,28 @@ namespace wServer.realm.entities
 
         private void AEMiscBoosts(RealmTime time, Item item, Position target, ActivateEffect eff)
         {
-            StatsType stat = StatsType.LTBoostTime;
-            var type = LTBoostTime;
+            var id = eff.Id.ToLower();
+            if ((id == "tier" && (LTBoostTime < 0 || (LTBoostTime > 86400000 && eff.DurationMS >= 0))) ||
+                (id == "drop" && (LDBoostTime < 0 || (LDBoostTime > 86400000 && eff.DurationMS >= 0))) ||
+                (id == "xp" && (XPBoostTime < 0 || XPBoosted || Level >= 20)))
+                    RefundItem(item);
 
-            if ((eff.Id.ToLower() == "tier" && (LTBoostTime < 0 || (LTBoostTime > 86400000 && eff.DurationMS >= 0))) ||
-                (eff.Id.ToLower() == "drop" && (LTBoostTime < 0 || (LTBoostTime > 86400000 && eff.DurationMS >= 0))) ||
-                (eff.Id.ToLower() == "xp" && (XPBoostTime < 0 || XPBoosted || Level >= 20)))
-            {
-                RefundItem(item);
-            }
-
-            switch (eff.Id.ToLower())
+            switch (id)
             {
                 case "tier":
+                    InvokeStatChange(StatsType.LTBoostTime, LTBoostTime / 1000, true);
                     LTBoostTime += eff.DurationMS;
                     return;
                 case "drop":
-                    stat = StatsType.LDBoostTime;
-                    type = LDBoostTime;
+                    InvokeStatChange(StatsType.LDBoostTime, LDBoostTime / 1000, true);
                     LDBoostTime += eff.DurationMS;
                     return;
                 case "xp":
-                    stat = StatsType.XPBoostTime;
-                    type = XPBoostTime;
+                    InvokeStatChange(StatsType.XPBoostTime, XPBoostTime / 1000, true);
                     XPBoostTime += eff.DurationMS;
                     XPBoosted = true;
                     return;
             }
-
-            InvokeStatChange(stat, type / 1000, true);
         }
 
         private void AEBackpack(RealmTime time, Item item, Position target, ActivateEffect eff)
@@ -560,6 +558,11 @@ namespace wServer.realm.entities
                 RefundItem(item);
 
             HasBackpack = true;
+        }
+
+        private void AELevelTwenty(RealmTime time, Item item, Position target, ActivateEffect eff)
+        {
+            SetLevelTwenty(item);
         }
 
         private void AEAddFame(RealmTime time, Item item, Position target, ActivateEffect eff)

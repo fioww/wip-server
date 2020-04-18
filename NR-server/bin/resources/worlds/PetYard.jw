@@ -1,1 +1,14 @@
-{"id":-12,"isLimbo":true,"persist":false,"name":"PetYard","sbName":"Pet Yard","difficulty":-1,"background":0,"restrictTp":true,"showDisplays":true,"portals":[0x0963],"music":[""],"maps":[ ]}
+{
+"id":-12,
+"isLimbo":true,
+"persist":false,
+"name":"PetYard",
+"sbName":"Pet Yard",
+"difficulty":-1,
+"background":0,
+"restrictTp":true,
+"showDisplays":true,
+"portals":[0x0963],
+"music":["kitai"],
+"maps":[ ]
+}
