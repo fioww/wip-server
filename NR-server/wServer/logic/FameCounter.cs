@@ -11,11 +11,11 @@ namespace wServer.logic
 
         public FameStats Stats { get; private set; }
         public DbClassStats ClassStats { get; private set; }
-        public FameCounter(Player player)
+        public FameCounter(Player player_)
         {
-            this.player = player;
-            this.Stats = FameStats.Read(player.Client.Character.FameStats);
-            this.ClassStats = new DbClassStats(player.Client.Account);
+            player = player_;
+            Stats = FameStats.Read(player.Client.Character.FameStats);
+            ClassStats = new DbClassStats(player.Client.Account);
         }
 
         //HashSet<Projectile> projs = new HashSet<Projectile>();

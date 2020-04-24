@@ -14,6 +14,9 @@ import flash.utils.ByteArray;
 import flash.utils.getQualifiedClassName;
 
 import kabam.rotmg.assets.EmbeddedAssets;
+import kabam.rotmg.assets.EmbeddedAssets_newObjects;
+import kabam.rotmg.assets.EmbeddedAssets_newObjects;
+import kabam.rotmg.assets.EmbeddedAssets_newObjects;
 import kabam.rotmg.assets.EmbeddedData;
 
 public class AssetLoader {
@@ -89,6 +92,8 @@ public class AssetLoader {
         AssetLibrary.addImageSet("SakuraEnvironment16x16", new EmbeddedAssets.SakuraEnvironment16x16Embed_().bitmapData, 16, 16);
         AssetLibrary.addImageSet("SakuraEnvironment8x8", new EmbeddedAssets.SakuraEnvironment8x8Embed_().bitmapData, 8, 8);
         AssetLibrary.addImageSet("HanamiParts", new EmbeddedAssets.HanamiParts8x8Embed_().bitmapData, 8, 8);
+        AssetLibrary.addImageSet("newObjects", new EmbeddedAssets.newObjects().bitmapData, 8, 8);
+        AssetLibrary.addImageSet("newObjects16", new EmbeddedAssets.newObjects().bitmapData, 16, 16);
     }
 
     private function addAnimatedCharacters():void {
@@ -131,6 +136,8 @@ public class AssetLoader {
         AnimatedChars.add("partySkin", new EmbeddedAssets.partySkin().bitmapData, null, 8, 8, 56, 24, AnimatedChar.RIGHT);
         AnimatedChars.add("reindeerSkin", new EmbeddedAssets.reindeerSkin().bitmapData, null, 8, 8, 56, 24, AnimatedChar.RIGHT);
         AnimatedChars.add("santaSkin", new EmbeddedAssets.santaSkin().bitmapData, null, 16, 16, 112, 16, AnimatedChar.RIGHT);
+        AnimatedChars.add("newObjectsChars", new EmbeddedAssets.newObjects().bitmapData, null, 8, 8, 56, 8, AnimatedChar.RIGHT);
+        AnimatedChars.add("newObjectsChars16", new EmbeddedAssets.newObjects().bitmapData, null, 16, 16, 112, 16, AnimatedChar.RIGHT);
     }
 
     private function addSoundEffects():void {

@@ -123,33 +123,33 @@ namespace common
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 character.CharId < 2),
-                new Func<double, int>(f => (int) (f * 0.1 + 20))
+                new Func<double, int>(f => (int) f)
             ),
 
             Tuple.Create("Pacifist", "Never shot a bullet which hit an enemy",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 fStats.ShotsThatDamage == 0),
-                new Func<double, int>(f => (int) (f * 0.25))
+                new Func<double, int>(f => (int) f)
             ),
             //Legacy Builder???
             Tuple.Create("Thirsty", "Never drank a potion from inventory",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 fStats.PotionsDrunk == 0),
-                new Func<double, int>(f => (int) (f * 0.25))
+                new Func<double, int>(f => (int) f)
             ),
             Tuple.Create("Mundane", "Never used special ability (requires level 20)",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 character.Level == 20 && fStats.SpecialAbilityUses == 0),
-                new Func<double, int>(f => (int) (f * 0.25))
+                new Func<double, int>(f => (int) f)
             ),
             Tuple.Create("Boots on the Ground", "Never teleported",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 fStats.Teleports == 0),
-                new Func<double, int>(f => (int) (f * 0.25))
+                new Func<double, int>(f => (int) f)
             ),
 
             Tuple.Create("Tunnel Rat", "Completed every dungeon type",
@@ -165,86 +165,86 @@ namespace common
                 fStats.TrenchesCompleted > 0 &&
                 fStats.JunglesCompleted > 0 &&
                 fStats.ManorsCompleted > 0),
-                new Func<double, int>(f => (int) (f * 0.1))
+                new Func<double, int>(f => (int) f)
             ),
 
             Tuple.Create("Enemy of the Gods", "More than 10% of kills are gods (requires level 20)",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 character.Level == 20 && (double)fStats.GodKills / (fStats.GodKills + fStats.MonsterKills) > 0.1),
-                new Func<double, int>(f => (int) (f * 0.1))
+                new Func<double, int>(f => (int) f)
             ),
             Tuple.Create("Slayer of the Gods", "More than 50% of kills are gods (requires level 20)",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 character.Level == 20 && (double)fStats.GodKills / (fStats.GodKills + fStats.MonsterKills) > 0.5),
-                new Func<double, int>(f => (int) (f * 0.1))
+                new Func<double, int>(f => (int) f)
             ),
 
             Tuple.Create("Oryx Slayer", "Dealt Killing blow to Oryx",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 fStats.OryxKills > 0),
-                new Func<double, int>(f => (int) (f * 0.1))
+                new Func<double, int>(f => (int) f)
             ),
 
             Tuple.Create("Accurate", "Accuracy of better than 25% (requires level 20)",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 character.Level == 20 && (double)fStats.ShotsThatDamage / fStats.Shots > 0.25),
-                new Func<double, int>(f => (int) (f * 0.1))
+                new Func<double, int>(f => (int) f)
             ),
             Tuple.Create("Sharpshooter", "Accuracy of better than 50% (requires level 20)",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 character.Level == 20 && (double)fStats.ShotsThatDamage / fStats.Shots > 0.5),
-                new Func<double, int>(f => (int) (f * 0.1))
+                new Func<double, int>(f => (int) f)
             ),
             Tuple.Create("Sniper", "Accuracy of better than 75% (requires level 20)",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 character.Level == 20 && (double)fStats.ShotsThatDamage / fStats.Shots > 0.75),
-                new Func<double, int>(f => (int) (f * 0.1))
+                new Func<double, int>(f => (int) f)
             ),
             
             Tuple.Create("Explorer", "More than 1 million tiles uncovered",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 fStats.TilesUncovered > 1000000),
-                new Func<double, int>(f => (int) (f * 0.05))
+                new Func<double, int>(f => (int) f)
             ),
             Tuple.Create("Cartographer", "More than 4 million tiles uncovered",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 fStats.TilesUncovered > 4000000),
-                new Func<double, int>(f => (int) (f * 0.05))
+                new Func<double, int>(f => (int) f)
             ),
             
             Tuple.Create("Team Player", "More than 100 party member level ups",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 fStats.LevelUpAssists > 100),
-                new Func<double, int>(f => (int) (f * 0.1))
+                new Func<double, int>(f => (int) f)
             ),
             Tuple.Create("Leader of Men", "More than 1000 party member level ups",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 fStats.LevelUpAssists > 1000),
-                new Func<double, int>(f => (int) (f * 0.1))
+                new Func<double, int>(f => (int) f)
             ),
             
             Tuple.Create("Doer of Deeds", "More than 1000 quests completed",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 fStats.QuestsCompleted > 1000),
-                new Func<double, int>(f => (int) (f * 0.05))
+                new Func<double, int>(f => (int) f)
             ),
 
             Tuple.Create("Friend of the Cubes", "Never killed a cube (requires level 20)",
                 new Func<FameStats, DbChar, int, bool>(
                     (fStats, character, baseFame) =>
                 character.Level == 20 && fStats.CubeKills == 0),
-                new Func<double, int>(f => (int) (f * 0.05))
+                new Func<double, int>(f => (int) f)
             ),
         };
 
@@ -264,7 +264,6 @@ namespace common
             var bestFames = stats.AllKeys.Select(x => stats[ushort.Parse(x)].BestFame).ToArray();
             if (bestFames.Length <= 0 || character.Fame + f > bestFames.Max())
             {
-                f += (int) ((character.Fame + f) * 0.1);
                 firstBorn = true;
             }
             else
@@ -274,7 +273,7 @@ namespace common
         }
 
         public int CalculateTotal(
-            XmlData data, DbChar character, bool firstBorn)
+            XmlData data, DbChar character)
         {
             int f = 0;
             foreach (var i in bonusDat)
@@ -284,10 +283,6 @@ namespace common
             //Well Equiped
             var bonus = character.Items.Take(4).Where(x => x != 0xffff).Sum(x => data.Items[x].FameBonus) / 100.0;
             f += (int) ((character.Fame + f) * bonus);
-
-            //First born
-            if (firstBorn)
-                f += (int)((character.Fame + f) * 0.1);
 
             return character.Fame + f;
         }
@@ -317,7 +312,7 @@ namespace common
             //First born
             if (firstBorn)
             {
-                var val = (int)((character.Fame + f) * 0.1);
+                var val = 0;
                 yield return Tuple.Create("First Born", "Best fame of any of your previous incarnations", val);
             }
         }

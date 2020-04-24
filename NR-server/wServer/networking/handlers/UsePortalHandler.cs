@@ -75,7 +75,7 @@ namespace wServer.networking.handlers
 
                 if (world is Realm && !player.Manager.Resources.GameData.ObjectTypeToId[portal.ObjectDesc.ObjectType].Contains("Cowardice"))
                 {
-                    
+                    //dungeons completed
                     player.FameCounter.CompleteDungeon(player.Owner.Name);
                 }
 
