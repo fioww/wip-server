@@ -181,7 +181,7 @@
       </Texture>
       <SlotType>17</SlotType>
       <Description>
-      Carved with pumpkins and magic, halloween jack-o-lanterns light up with the weapon's wearer, imitating the pumpkin king.
+      Carved pumpkins imbued with magic light up with the weapon's wearer, imitating the pumpkin king.
       </Description>
       <RateOfFire>1</RateOfFire>
       <Sound>weapon/wand_of_death</Sound>
@@ -189,7 +189,7 @@
          <ObjectId>Orange Missile</ObjectId>
          <Speed>180</Speed>
          <MinDamage>60</MinDamage>
-         <MaxDamage>105</MaxDamage>
+         <MaxDamage>100</MaxDamage>
          <LifetimeMS>475</LifetimeMS>
          <Amplitude>0.5</Amplitude>
          <Frequency>2</Frequency>
@@ -199,7 +199,7 @@
       <NumProjectiles>2</NumProjectiles>
       <ArcGap>0</ArcGap>
       <OldSound>magicShoot</OldSound>
-      <feedPower>0</feedPower>
+      <feedPower>600</feedPower>
    </Object>
    <Object type="0x11c9" id="The Pumpkin King's Skull">
       <Class>Equipment</Class>
@@ -219,7 +219,7 @@
       <FameBonus>5</FameBonus>
       <MpCost>140</MpCost>
       <Activate radius="3.75" totalDamage="150">VampireBlast</Activate>
-      <feedPower>380</feedPower>
+      <feedPower>450</feedPower>
    </Object>
    <Object type="0x11ca" id="The Pumpkin King's Mantle">
       <Class>Equipment</Class>
@@ -238,7 +238,7 @@
       <ActivateOnEquip stat="3" amount="55">IncrementStat</ActivateOnEquip>
       <BagType>4</BagType>
       <FameBonus>5</FameBonus>
-      <feedPower>435</feedPower>
+      <feedPower>500</feedPower>
    </Object>
    <Object type="0x11cb" id="Jack-o-Lantern Ring">
       <Class>Equipment</Class>
@@ -254,7 +254,7 @@
       <ActivateOnEquip stat="26" amount="9">IncrementStat</ActivateOnEquip>
       <BagType>4</BagType>
       <FameBonus>5</FameBonus>
-      <feedPower>325</feedPower>
+      <feedPower>400</feedPower>
    </Object>
 
 <!--END (0x11c0 - 0x11cf)-->
