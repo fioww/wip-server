@@ -5,7 +5,7 @@ import mx.core.*;
 public class TitleView_TitleScreenGraphic extends BitmapAsset {
     public function TitleView_TitleScreenGraphic() {
         super();
-        return;
+
     }
 }
 }

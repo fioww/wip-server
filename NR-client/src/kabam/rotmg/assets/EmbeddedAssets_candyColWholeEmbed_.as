@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_candyColWholeEmbed_ extends ByteArrayAsset {
     public function EmbeddedAssets_candyColWholeEmbed_() {
         super();
-        return;
+
     }
 }
 }

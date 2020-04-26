@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_LairOfShaitanCXML extends ByteArrayAsset {
     public function EmbeddedData_LairOfShaitanCXML() {
         super();
-        return;
+
     }
 }
 }

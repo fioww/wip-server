@@ -5,7 +5,7 @@ import mx.core.*;
 public class EggHatchedDialog_EggHatchImage extends BitmapAsset {
     public function EggHatchedDialog_EggHatchImage() {
         super();
-        return;
+
     }
 }
 }

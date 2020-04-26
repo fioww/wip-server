@@ -46,7 +46,7 @@ public class AbstractMap extends Sprite {
         this.squareList_ = new Vector.<Square>();
         this.squares_ = new Vector.<Square>();
         this.boDict_ = new Dictionary();
-        this.merchLookup_ = new Object();
+        this.merchLookup_ = {};
         this.signalRenderSwitch = new Signal(Boolean);
         super();
     }

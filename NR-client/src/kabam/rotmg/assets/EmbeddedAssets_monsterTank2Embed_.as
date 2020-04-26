@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_monsterTank2Embed_ extends ByteArrayAsset {
     public function EmbeddedAssets_monsterTank2Embed_() {
         super();
-        return;
+
     }
 }
 }

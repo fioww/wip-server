@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_stPatricksObjects8x8Embed_ extends BitmapAsset {
     public function EmbeddedAssets_stPatricksObjects8x8Embed_() {
         super();
-        return;
+
     }
 }
 }

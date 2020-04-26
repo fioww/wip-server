@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_obeliskEmbed_ extends ByteArrayAsset {
     public function EmbeddedAssets_obeliskEmbed_() {
         super();
-        return;
+
     }
 }
 }

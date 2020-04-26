@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_SnakePitCXML extends ByteArrayAsset {
     public function EmbeddedData_SnakePitCXML() {
         super();
-        return;
+
     }
 }
 }

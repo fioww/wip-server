@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_PlayersCXML extends ByteArrayAsset {
     public function EmbeddedData_PlayersCXML() {
         super();
-        return;
+
     }
 }
 }

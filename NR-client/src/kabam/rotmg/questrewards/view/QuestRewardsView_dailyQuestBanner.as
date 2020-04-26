@@ -5,7 +5,7 @@ import mx.core.*;
 public class QuestRewardsView_dailyQuestBanner extends BitmapAsset {
     public function QuestRewardsView_dailyQuestBanner() {
         super();
-        return;
+
     }
 }
 }

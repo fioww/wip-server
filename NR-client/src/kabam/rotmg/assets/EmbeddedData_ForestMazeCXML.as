@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_ForestMazeCXML extends ByteArrayAsset {
     public function EmbeddedData_ForestMazeCXML() {
         super();
-        return;
+
     }
 }
 }

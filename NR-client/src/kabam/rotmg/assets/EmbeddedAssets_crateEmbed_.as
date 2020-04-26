@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_crateEmbed_ extends ByteArrayAsset {
     public function EmbeddedAssets_crateEmbed_() {
         super();
-        return;
+
     }
 }
 }

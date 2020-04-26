@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_sidesMaskEmbed_ extends BitmapAsset {
     public function EmbeddedAssets_sidesMaskEmbed_() {
         super();
-        return;
+
     }
 }
 }

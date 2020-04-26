@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_buffedBunnyObjectCXML extends ByteArrayAsset {
     public function EmbeddedData_buffedBunnyObjectCXML() {
         super();
-        return;
+
     }
 }
 }

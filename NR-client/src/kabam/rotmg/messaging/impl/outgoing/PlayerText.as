@@ -6,7 +6,7 @@ public class PlayerText extends OutgoingMessage {
     public var text_:String;
 
     public function PlayerText(_arg1:uint, _arg2:Function) {
-        this.text_ = new String();
+        this.text_ = String(text_);
         super(_arg1, _arg2);
     }
 

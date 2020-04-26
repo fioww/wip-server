@@ -5,7 +5,7 @@ import flash.display.*;
 public dynamic class StarGraphic extends MovieClip {
     public function StarGraphic() {
         super();
-        return;
+
     }
 }
 }

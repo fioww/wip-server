@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_HauntedCemeteryCXML extends ByteArrayAsset {
     public function EmbeddedData_HauntedCemeteryCXML() {
         super();
-        return;
+
     }
 }
 }

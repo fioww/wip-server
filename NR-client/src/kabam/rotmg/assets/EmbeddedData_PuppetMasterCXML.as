@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_PuppetMasterCXML extends ByteArrayAsset {
     public function EmbeddedData_PuppetMasterCXML() {
         super();
-        return;
+
     }
 }
 }

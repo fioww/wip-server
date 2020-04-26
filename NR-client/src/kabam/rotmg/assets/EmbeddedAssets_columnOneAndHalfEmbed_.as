@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_columnOneAndHalfEmbed_ extends ByteArrayAsset {
     public function EmbeddedAssets_columnOneAndHalfEmbed_() {
         super();
-        return;
+
     }
 }
 }

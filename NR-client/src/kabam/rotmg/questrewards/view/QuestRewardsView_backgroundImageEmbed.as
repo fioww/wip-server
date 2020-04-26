@@ -5,7 +5,7 @@ import mx.core.*;
 public class QuestRewardsView_backgroundImageEmbed extends BitmapAsset {
     public function QuestRewardsView_backgroundImageEmbed() {
         super();
-        return;
+
     }
 }
 }

@@ -5,7 +5,7 @@ import mx.core.*;
 public class MEMap_transbackgroundEmbed_ extends BitmapAsset {
     public function MEMap_transbackgroundEmbed_() {
         super();
-        return;
+
     }
 }
 }

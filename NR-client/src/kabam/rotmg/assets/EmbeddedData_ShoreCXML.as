@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_ShoreCXML extends ByteArrayAsset {
     public function EmbeddedData_ShoreCXML() {
         super();
-        return;
+
     }
 }
 }

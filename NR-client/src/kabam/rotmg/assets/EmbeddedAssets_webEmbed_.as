@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_webEmbed_ extends ByteArrayAsset {
     public function EmbeddedAssets_webEmbed_() {
         super();
-        return;
+
     }
 }
 }

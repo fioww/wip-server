@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_MadLabCXML extends ByteArrayAsset {
     public function EmbeddedData_MadLabCXML() {
         super();
-        return;
+
     }
 }
 }

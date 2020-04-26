@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_GroundCXML extends ByteArrayAsset {
     public function EmbeddedData_GroundCXML() {
         super();
-        return;
+
     }
 }
 }

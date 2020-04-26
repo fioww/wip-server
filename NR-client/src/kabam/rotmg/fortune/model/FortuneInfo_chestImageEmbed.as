@@ -5,7 +5,7 @@ import mx.core.*;
 public class FortuneInfo_chestImageEmbed extends BitmapAsset {
     public function FortuneInfo_chestImageEmbed() {
         super();
-        return;
+
     }
 }
 }

@@ -5,7 +5,7 @@ import flash.display.*;
 public dynamic class DeleteXGraphic extends MovieClip {
     public function DeleteXGraphic() {
         super();
-        return;
+
     }
 }
 }

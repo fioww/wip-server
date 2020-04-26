@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_ToxicSewersCXML extends ByteArrayAsset {
     public function EmbeddedData_ToxicSewersCXML() {
         super();
-        return;
+
     }
 }
 }

@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_partySkin_ extends BitmapAsset {
     public function EmbeddedAssets_partySkin_() {
         super();
-        return;
+
     }
 }
 }

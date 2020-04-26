@@ -5,7 +5,7 @@ import flash.display.*;
 public dynamic class LockedCharBoxGraphic extends MovieClip {
     public function LockedCharBoxGraphic() {
         super();
-        return;
+
     }
 }
 }

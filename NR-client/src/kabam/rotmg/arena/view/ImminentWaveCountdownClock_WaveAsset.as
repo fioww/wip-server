@@ -5,7 +5,7 @@ import mx.core.*;
 public class ImminentWaveCountdownClock_WaveAsset extends BitmapAsset {
     public function ImminentWaveCountdownClock_WaveAsset() {
         super();
-        return;
+
     }
 }
 }

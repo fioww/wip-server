@@ -9,8 +9,8 @@ import kabam.rotmg.stage3D.Object3D.Object3DStage3D;
 
 public class Model3D {
 
-    private static var modelLib_:Object = new Object();
-    private static var models:Object = new Object();
+    private static var modelLib_:Object = {};
+    private static var models:Object = {};
 
     public var vL_:Vector.<Number>;
     public var uvts_:Vector.<Number>;

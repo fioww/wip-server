@@ -5,7 +5,7 @@ import mx.core.*;
 public class PetFormModel_Data extends ByteArrayAsset {
     public function PetFormModel_Data() {
         super();
-        return;
+
     }
 }
 }

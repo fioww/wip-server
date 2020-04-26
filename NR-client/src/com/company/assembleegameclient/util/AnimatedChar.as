@@ -57,7 +57,7 @@ public class AnimatedChar {
                         this.dict_[UP] = this.loadDir(14, false, true, _local6);
                     }
                 }
-                return;
+
             }
         }
     }

@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_SpriteWorldCXML extends ByteArrayAsset {
     public function EmbeddedData_SpriteWorldCXML() {
         super();
-        return;
+
     }
 }
 }

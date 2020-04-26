@@ -5,7 +5,7 @@ import mx.core.*;
 public class BattleSummaryDialog_BattleSummarySplash extends BitmapAsset {
     public function BattleSummaryDialog_BattleSummarySplash() {
         super();
-        return;
+
     }
 }
 }

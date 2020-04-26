@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_TokenCXML extends ByteArrayAsset {
     public function EmbeddedData_TokenCXML() {
         super();
-        return;
+
     }
 }
 }

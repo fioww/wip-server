@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_DarknessBackground extends BitmapAsset {
     public function EmbeddedAssets_DarknessBackground() {
         super();
-        return;
+
     }
 }
 }

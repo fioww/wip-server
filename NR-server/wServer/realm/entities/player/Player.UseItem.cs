@@ -361,10 +361,10 @@ namespace wServer.realm.entities
 
         private void RefundItem(Item item, string message = "")
         {
-            var slot = Inventory.GetAvailableInventorySlot(item);
-
             if (!string.IsNullOrWhiteSpace(message))
                 SendError(message);
+
+            var slot = Inventory.GetAvailableInventorySlot(item);
 
             if (slot != -1)
             {
@@ -377,8 +377,6 @@ namespace wServer.realm.entities
                 SendError($"Your inventory is full, and your {item} has been sent to a gift chest.");
                 return;
             }
-
-            return;
         }
 
         private void AEUnlockEmote(RealmTime time, Item item, ActivateEffect eff)

@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_gasEmitter_ extends ByteArrayAsset {
     public function EmbeddedAssets_gasEmitter_() {
         super();
-        return;
+
     }
 }
 }

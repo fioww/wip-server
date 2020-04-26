@@ -5,7 +5,7 @@ import mx.core.*;
 public class AlreadyPurchasedBeginnersPackageDialog_hifiBeginnerOfferAlreadyPurchasedEmbed extends BitmapAsset {
     public function AlreadyPurchasedBeginnersPackageDialog_hifiBeginnerOfferAlreadyPurchasedEmbed() {
         super();
-        return;
+
     }
 }
 }

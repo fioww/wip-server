@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_TheHiveCXML extends ByteArrayAsset {
     public function EmbeddedData_TheHiveCXML() {
         super();
-        return;
+
     }
 }
 }

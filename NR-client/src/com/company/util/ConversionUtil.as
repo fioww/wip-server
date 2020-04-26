@@ -10,14 +10,14 @@ public class ConversionUtil {
 
     public static function toIntArray(_arg1:Object, _arg2:String = ","):Array {
         if (_arg1 == null) {
-            return (new Array());
+            return ([]);
         }
         return (_arg1.toString().split(_arg2).map(mapParseInt));
     }
 
     public static function toNumberArray(_arg1:Object, _arg2:String = ","):Array {
         if (_arg1 == null) {
-            return (new Array());
+            return ([]);
         }
         return (_arg1.toString().split(_arg2).map(mapParseFloat));
     }
@@ -38,7 +38,7 @@ public class ConversionUtil {
 
     public static function toStringArray(_arg1:Object, _arg2:String = ","):Array {
         if (_arg1 == null) {
-            return (new Array());
+            return ([]);
         }
         return (_arg1.toString().split(_arg2));
     }
@@ -60,7 +60,7 @@ public class ConversionUtil {
     }
 
     public static function toPointPair(_arg1:Object, _arg2:String = ","):Array {
-        var _local3:Array = new Array();
+        var _local3:Array = [];
         if (_arg1 == null) {
             _local3.push(new Point());
             _local3.push(new Point());

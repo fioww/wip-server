@@ -5,7 +5,7 @@ import mx.core.*;
 public class QuestRewardsView_questCompleteBanner extends BitmapAsset {
     public function QuestRewardsView_questCompleteBanner() {
         super();
-        return;
+
     }
 }
 }

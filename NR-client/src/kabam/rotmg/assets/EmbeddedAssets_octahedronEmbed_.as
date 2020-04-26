@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_octahedronEmbed_ extends ByteArrayAsset {
     public function EmbeddedAssets_octahedronEmbed_() {
         super();
-        return;
+
     }
 }
 }

@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_EvolveBackground extends BitmapAsset {
     public function EmbeddedAssets_EvolveBackground() {
         super();
-        return;
+
     }
 }
 }

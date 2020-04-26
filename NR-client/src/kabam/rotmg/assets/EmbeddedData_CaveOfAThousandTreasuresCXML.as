@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_CaveOfAThousandTreasuresCXML extends ByteArrayAsset {
     public function EmbeddedData_CaveOfAThousandTreasuresCXML() {
         super();
-        return;
+
     }
 }
 }

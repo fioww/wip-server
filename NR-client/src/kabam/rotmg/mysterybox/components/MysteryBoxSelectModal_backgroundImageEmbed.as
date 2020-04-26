@@ -5,7 +5,7 @@ import mx.core.*;
 public class MysteryBoxSelectModal_backgroundImageEmbed extends BitmapAsset {
     public function MysteryBoxSelectModal_backgroundImageEmbed() {
         super();
-        return;
+
     }
 }
 }

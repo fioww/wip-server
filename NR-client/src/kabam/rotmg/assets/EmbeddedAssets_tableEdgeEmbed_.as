@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_tableEdgeEmbed_ extends ByteArrayAsset {
     public function EmbeddedAssets_tableEdgeEmbed_() {
         super();
-        return;
+
     }
 }
 }

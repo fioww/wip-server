@@ -43,7 +43,7 @@ public class TileRedrawer {
     private static const POINT2:Point = new Point(0, 4);
     private static const POINT3:Point = new Point(4, 4);
 
-    private static var cache_:Vector.<Object> = new <Object>[null, new Object()];
+    private static var cache_:Vector.<Object> = new <Object>[null, {}];
 
 
     public static function redraw(_arg1:Square, _arg2:Boolean):BitmapData {
@@ -173,7 +173,7 @@ public class TileRedrawer {
     private static function getSig(_arg1:Square):Array {
         var _local6:int;
         var _local7:Square;
-        var _local2:Array = new Array();
+        var _local2:Array = [];
         var _local3:Map = _arg1.map_;
         var _local4:uint = _arg1.tileType_;
         var _local5:int = (_arg1.y_ - 1);
@@ -226,7 +226,7 @@ public class TileRedrawer {
         var _local15:Square;
         var _local16:Square;
         var _local17:Square;
-        var _local2:Array = new Array();
+        var _local2:Array = [];
         _local2.length = 4;
         var _local3:Map = _arg1.map_;
         var _local4:int = _arg1.x_;
@@ -316,7 +316,7 @@ public class TileRedrawer {
         var _local7:int;
         var _local8:Square;
         var _local9:Boolean;
-        var _local2:Array = new Array();
+        var _local2:Array = [];
         var _local3:Map = _arg1.map_;
         var _local4:Boolean;
         var _local5:Boolean = _arg1.props_.sameTypeEdgeMode_;

@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_mountainTempleObjectCXML extends ByteArrayAsset {
     public function EmbeddedData_mountainTempleObjectCXML() {
         super();
-        return;
+
     }
 }
 }

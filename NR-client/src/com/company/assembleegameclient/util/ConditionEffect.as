@@ -202,7 +202,7 @@ public class ConditionEffect {
     public static function getConditionEffectFromName(_arg1:String):uint {
         var _local2:uint;
         if (conditionEffectFromName_ == null) {
-            conditionEffectFromName_ = new Object();
+            conditionEffectFromName_ = {};
             _local2 = 0;
             while (_local2 < effects_.length) {
                 conditionEffectFromName_[effects_[_local2].name_] = _local2;
@@ -289,7 +289,7 @@ public class ConditionEffect {
         var _local5:int;
         var _local6:BitmapData;
         if (bitToIcon_ == null) {
-            bitToIcon_ = new Object();
+            bitToIcon_ = {};
             _local2 = new Matrix();
             _local2.translate(4, 4);
             _local3 = 0;

@@ -37,7 +37,7 @@ public class PotionInventoryModel {
         var _local2:int = _arg1.PotionPurchaseCooldown;
         var _local3:int = _arg1.PotionPurchaseCostCooldown;
         var _local4:int = _arg1.MaxStackablePotions;
-        var _local5:Array = new Array();
+        var _local5:Array = [];
         for each (_local6 in _arg1.PotionPurchaseCosts.cost) {
             _local5.push(_local6);
         }

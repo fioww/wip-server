@@ -5,7 +5,7 @@ import mx.core.*;
 public class NewsCell_DefaultGraphicSmall extends BitmapAsset {
     public function NewsCell_DefaultGraphicSmall() {
         super();
-        return;
+
     }
 }
 }

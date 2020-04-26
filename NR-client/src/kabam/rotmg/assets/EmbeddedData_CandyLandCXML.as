@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_CandyLandCXML extends ByteArrayAsset {
     public function EmbeddedData_CandyLandCXML() {
         super();
-        return;
+
     }
 }
 }

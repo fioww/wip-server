@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_ShattersCXML extends ByteArrayAsset {
     public function EmbeddedData_ShattersCXML() {
         super();
-        return;
+
     }
 }
 }

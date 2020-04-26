@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_cloningVatEmbed_ extends ByteArrayAsset {
     public function EmbeddedAssets_cloningVatEmbed_() {
         super();
-        return;
+
     }
 }
 }

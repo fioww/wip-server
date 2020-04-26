@@ -5,7 +5,7 @@ import flash.display.*;
 public dynamic class KabamLogo extends MovieClip {
     public function KabamLogo() {
         super();
-        return;
+
     }
 }
 }

@@ -5,7 +5,7 @@ import mx.core.*;
 public class FontModel_MyriadPro extends FontAsset {
     public function FontModel_MyriadPro() {
         super();
-        return;
+
     }
 }
 }

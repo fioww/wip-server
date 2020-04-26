@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_ArenaCXML extends ByteArrayAsset {
     public function EmbeddedData_ArenaCXML() {
         super();
-        return;
+
     }
 }
 }

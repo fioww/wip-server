@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_mountainTempleObjects8x8Embed_ extends BitmapAsset {
     public function EmbeddedAssets_mountainTempleObjects8x8Embed_() {
         super();
-        return;
+
     }
 }
 }

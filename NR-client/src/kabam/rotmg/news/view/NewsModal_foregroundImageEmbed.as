@@ -5,7 +5,7 @@ import mx.core.*;
 public class NewsModal_foregroundImageEmbed extends BitmapAsset {
     public function NewsModal_foregroundImageEmbed() {
         super();
-        return;
+
     }
 }
 }

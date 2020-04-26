@@ -68,7 +68,7 @@ public class GUID {
             _local8 = safe_add(_local8, _local14);
             _local9 = (_local9 + 16);
         }
-        return (new Array(_local4, _local5, _local6, _local7, _local8));
+        return ([_local4, _local5, _local6, _local7, _local8]);
     }
 
     private static function sha1_ft(_arg1:Number, _arg2:Number, _arg3:Number, _arg4:Number):Number {
@@ -99,7 +99,7 @@ public class GUID {
     }
 
     private static function str2binb(_arg1:String):Array {
-        var _local2:Array = new Array();
+        var _local2:Array = [];
         var _local3:Number = ((1 << 8) - 1);
         var _local4:Number = 0;
         while (_local4 < (_arg1.length * 8)) {
@@ -110,8 +110,8 @@ public class GUID {
     }
 
     private static function binb2hex(_arg1:Array):String {
-        var _local2:String = new String("");
-        var _local3:String = new String("0123456789abcdef");
+        var _local2:String = String("");
+        var _local3:String = String("0123456789abcdef");
         var _local4:Number = 0;
         while (_local4 < (_arg1.length * 4)) {
             _local2 = (_local2 + (_local3.charAt(((_arg1[(_local4 >> 2)] >> (((3 - (_local4 % 4)) * 8) + 4)) & 15)) + _local3.charAt(((_arg1[(_local4 >> 2)] >> ((3 - (_local4 % 4)) * 8)) & 15))));

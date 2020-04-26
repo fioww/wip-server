@@ -5,7 +5,7 @@ import mx.core.*;
 public class KeysView_redKeyPng extends BitmapAsset {
     public function KeysView_redKeyPng() {
         super();
-        return;
+
     }
 }
 }

@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_newMonument3Embed_ extends ByteArrayAsset {
     public function EmbeddedAssets_newMonument3Embed_() {
         super();
-        return;
+
     }
 }
 }

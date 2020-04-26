@@ -84,7 +84,7 @@ public class BitmapParticle extends BasicObject {
             graphicsData.push(GraphicsUtil.END_FILL);
         }
         catch (error:Error) {
-            return;
+
         }
     }
 

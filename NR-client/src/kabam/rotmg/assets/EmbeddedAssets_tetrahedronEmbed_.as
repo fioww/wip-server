@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_tetrahedronEmbed_ extends ByteArrayAsset {
     public function EmbeddedAssets_tetrahedronEmbed_() {
         super();
-        return;
+
     }
 }
 }

@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_KTestingCXML extends ByteArrayAsset {
     public function EmbeddedData_KTestingCXML() {
         super();
-        return;
+
     }
 }
 }

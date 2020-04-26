@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_OryxChickenChamberCXML extends ByteArrayAsset {
     public function EmbeddedData_OryxChickenChamberCXML() {
         super();
-        return;
+
     }
 }
 }

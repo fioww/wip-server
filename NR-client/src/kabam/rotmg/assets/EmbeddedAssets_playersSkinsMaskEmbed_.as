@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_playersSkinsMaskEmbed_ extends BitmapAsset {
     public function EmbeddedAssets_playersSkinsMaskEmbed_() {
         super();
-        return;
+
     }
 }
 }

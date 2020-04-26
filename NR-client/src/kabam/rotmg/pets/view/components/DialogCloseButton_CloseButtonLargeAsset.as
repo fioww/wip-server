@@ -5,7 +5,7 @@ import mx.core.*;
 public class DialogCloseButton_CloseButtonLargeAsset extends BitmapAsset {
     public function DialogCloseButton_CloseButtonLargeAsset() {
         super();
-        return;
+
     }
 }
 }

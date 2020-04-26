@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_hanaminexusObjectCXML extends ByteArrayAsset {
     public function EmbeddedData_hanaminexusObjectCXML() {
         super();
-        return;
+
     }
 }
 }

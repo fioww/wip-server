@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_BelladonnaCXML extends ByteArrayAsset {
     public function EmbeddedData_BelladonnaCXML() {
         super();
-        return;
+
     }
 }
 }

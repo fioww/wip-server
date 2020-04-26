@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_starsEmbed_ extends BitmapAsset {
     public function EmbeddedAssets_starsEmbed_() {
         super();
-        return;
+
     }
 }
 }

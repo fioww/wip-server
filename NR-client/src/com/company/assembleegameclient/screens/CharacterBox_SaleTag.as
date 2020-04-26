@@ -5,7 +5,7 @@ import mx.core.*;
 public class CharacterBox_SaleTag extends BitmapAsset {
     public function CharacterBox_SaleTag() {
         super();
-        return;
+
     }
 }
 }

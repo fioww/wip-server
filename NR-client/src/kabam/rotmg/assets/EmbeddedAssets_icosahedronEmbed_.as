@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_icosahedronEmbed_ extends ByteArrayAsset {
     public function EmbeddedAssets_icosahedronEmbed_() {
         super();
-        return;
+
     }
 }
 }

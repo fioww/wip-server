@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_DyesCXML extends ByteArrayAsset {
     public function EmbeddedData_DyesCXML() {
         super();
-        return;
+
     }
 }
 }

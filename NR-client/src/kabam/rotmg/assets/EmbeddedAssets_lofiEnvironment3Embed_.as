@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_lofiEnvironment3Embed_ extends BitmapAsset {
     public function EmbeddedAssets_lofiEnvironment3Embed_() {
         super();
-        return;
+
     }
 }
 }

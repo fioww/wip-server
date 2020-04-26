@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_GhostShipCXML extends ByteArrayAsset {
     public function EmbeddedData_GhostShipCXML() {
         super();
-        return;
+
     }
 }
 }

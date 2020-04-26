@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_OceanTrenchCXML extends ByteArrayAsset {
     public function EmbeddedData_OceanTrenchCXML() {
         super();
-        return;
+
     }
 }
 }

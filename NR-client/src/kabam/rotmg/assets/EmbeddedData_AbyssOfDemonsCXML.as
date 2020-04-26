@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_AbyssOfDemonsCXML extends ByteArrayAsset {
     public function EmbeddedData_AbyssOfDemonsCXML() {
         super();
-        return;
+
     }
 }
 }

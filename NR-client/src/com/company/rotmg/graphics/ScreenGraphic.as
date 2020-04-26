@@ -5,7 +5,7 @@ import flash.display.*;
 public dynamic class ScreenGraphic extends MovieClip {
     public function ScreenGraphic() {
         super();
-        return;
+
     }
 }
 }

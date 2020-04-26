@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_lofiParticlesShockerEmbed_ extends BitmapAsset {
     public function EmbeddedAssets_lofiParticlesShockerEmbed_() {
         super();
-        return;
+
     }
 }
 }

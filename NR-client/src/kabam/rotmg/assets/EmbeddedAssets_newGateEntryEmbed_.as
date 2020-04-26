@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_newGateEntryEmbed_ extends ByteArrayAsset {
     public function EmbeddedAssets_newGateEntryEmbed_() {
         super();
-        return;
+
     }
 }
 }

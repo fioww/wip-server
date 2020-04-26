@@ -35,7 +35,7 @@ public class MoveRecords {
             _local5.time_ = _arg1;
             _local5.x_ = _arg2;
             _local5.y_ = _arg3;
-            return;
+
         }
     }
 

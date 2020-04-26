@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_MiniDungeonHubCXML extends ByteArrayAsset {
     public function EmbeddedData_MiniDungeonHubCXML() {
         super();
-        return;
+
     }
 }
 }

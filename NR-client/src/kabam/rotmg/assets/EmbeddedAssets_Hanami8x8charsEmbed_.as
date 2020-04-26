@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_Hanami8x8charsEmbed_ extends BitmapAsset {
     public function EmbeddedAssets_Hanami8x8charsEmbed_() {
         super();
-        return;
+
     }
 }
 }

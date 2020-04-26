@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_EpicSpiderDenCXML extends ByteArrayAsset {
     public function EmbeddedData_EpicSpiderDenCXML() {
         super();
-        return;
+
     }
 }
 }

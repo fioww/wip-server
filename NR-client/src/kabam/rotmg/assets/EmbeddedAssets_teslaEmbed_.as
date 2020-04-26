@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_teslaEmbed_ extends ByteArrayAsset {
     public function EmbeddedAssets_teslaEmbed_() {
         super();
-        return;
+
     }
 }
 }

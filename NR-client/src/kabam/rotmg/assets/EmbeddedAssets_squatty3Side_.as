@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_squatty3Side_ extends ByteArrayAsset {
     public function EmbeddedAssets_squatty3Side_() {
         super();
-        return;
+
     }
 }
 }

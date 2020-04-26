@@ -5,7 +5,7 @@ import mx.core.*;
 public class MysteryBoxSelectEntry_redBarEmbed extends BitmapAsset {
     public function MysteryBoxSelectEntry_redBarEmbed() {
         super();
-        return;
+
     }
 }
 }

@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_UndeadLairCXML extends ByteArrayAsset {
     public function EmbeddedData_UndeadLairCXML() {
         super();
-        return;
+
     }
 }
 }

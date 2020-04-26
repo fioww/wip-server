@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_TutorialMonstersCXML extends ByteArrayAsset {
     public function EmbeddedData_TutorialMonstersCXML() {
         super();
-        return;
+
     }
 }
 }

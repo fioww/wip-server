@@ -84,7 +84,7 @@ public class SavedCharactersList extends Event {
             _local5.reportIntStat("NumStars", this.numStars_);
             _local5.verify(_local2.hasOwnProperty("VerifiedEmail"));
         }
-        this.classAvailability = new Object();
+        this.classAvailability = {};
         for each (_local4 in this.charsXML_.ClassAvailabilityList.ClassAvailability) {
             this.classAvailability[_local4.@id.toString()] = _local4.toString();
         }
@@ -266,7 +266,7 @@ public class SavedCharactersList extends Event {
         var _local9:XML;
         var _local10:int;
         var _local11:int;
-        var _local3:Array = new Array();
+        var _local3:Array = [];
         var _local4:int;
         while (_local4 < ObjectLibrary.playerChars_.length) {
             _local5 = ObjectLibrary.playerChars_[_local4];

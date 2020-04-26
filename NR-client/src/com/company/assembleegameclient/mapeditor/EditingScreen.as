@@ -159,7 +159,7 @@ public class EditingScreen extends Sprite {
 
     private function createCheckboxes():void {
         var _local2:CheckBoxField;
-        this.checkBoxArray = new Array();
+        this.checkBoxArray = [];
         var _local1:* = new DeprecatedClickableText(14, true, "(Show All)");
         _local1.buttonMode = true;
         _local1.x = (this.mapSizeDropDown_.x - 380);

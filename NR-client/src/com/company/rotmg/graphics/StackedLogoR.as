@@ -5,7 +5,7 @@ import flash.display.*;
 public dynamic class StackedLogoR extends MovieClip {
     public function StackedLogoR() {
         super();
-        return;
+
     }
 }
 }

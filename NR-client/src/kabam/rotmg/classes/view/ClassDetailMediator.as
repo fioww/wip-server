@@ -16,7 +16,7 @@ import robotlegs.bender.bundles.mvcs.Mediator;
 
 public class ClassDetailMediator extends Mediator {
 
-    private const skins:Object = new Object();
+    private const skins:Object = {};
     private const nextSkinTimer:Timer = new Timer(250, 1);
 
     [Inject]

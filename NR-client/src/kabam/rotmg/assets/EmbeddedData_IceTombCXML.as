@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedData_IceTombCXML extends ByteArrayAsset {
     public function EmbeddedData_IceTombCXML() {
         super();
-        return;
+
     }
 }
 }

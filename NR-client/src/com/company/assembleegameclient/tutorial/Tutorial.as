@@ -180,7 +180,7 @@ public class Tutorial extends Sprite {
 
     private function draw():void {
         var _local3:UIDrawBox;
-        return;
+
     }
 
 

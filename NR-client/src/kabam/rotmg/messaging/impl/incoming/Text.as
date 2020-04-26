@@ -15,9 +15,9 @@ public class Text extends IncomingMessage {
     public var textColor_:int;
 
     public function Text(_arg1:uint, _arg2:Function) {
-        this.name_ = new String();
-        this.text_ = new String();
-        this.cleanText_ = new String();
+        this.name_ = String(name_);
+        this.text_ = String(text_);
+        this.cleanText_ = String(cleanText_);
         super(_arg1, _arg2);
     }
 

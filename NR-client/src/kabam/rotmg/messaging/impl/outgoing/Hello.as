@@ -14,12 +14,12 @@ public class Hello extends OutgoingMessage {
     public var mapJSON_:String;
 
     public function Hello(_arg1:uint, _arg2:Function) {
-        this.buildVersion_ = new String();
-        this.guid_ = new String();
-        this.password_ = new String();
-        this.secret_ = new String();
+        this.buildVersion_ = String(buildVersion_);
+        this.guid_ = String(guid_);
+        this.password_ = String(password_);
+        this.secret_ = String(secret_);
         this.key_ = new ByteArray();
-        this.mapJSON_ = new String();
+        this.mapJSON_ = String(mapJSON_);
         super(_arg1, _arg2);
     }
 

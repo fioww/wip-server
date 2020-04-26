@@ -5,7 +5,7 @@ import flash.display.*;
 public dynamic class FameIconBackgroundDesign extends MovieClip {
     public function FameIconBackgroundDesign() {
         super();
-        return;
+
     }
 }
 }

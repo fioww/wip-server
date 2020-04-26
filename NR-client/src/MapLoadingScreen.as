@@ -5,7 +5,7 @@ import flash.display.*;
 public dynamic class MapLoadingScreen extends MovieClip {
     public function MapLoadingScreen() {
         super();
-        return;
+
     }
 
     public var difficulty_indicators:MovieClip;

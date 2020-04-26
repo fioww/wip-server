@@ -5,7 +5,7 @@ import mx.core.*;
 public class EmbeddedAssets_twoHighWall_ extends ByteArrayAsset {
     public function EmbeddedAssets_twoHighWall_() {
         super();
-        return;
+
     }
 }
 }

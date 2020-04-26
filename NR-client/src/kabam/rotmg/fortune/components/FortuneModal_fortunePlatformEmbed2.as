@@ -5,7 +5,7 @@ import mx.core.*;
 public class FortuneModal_fortunePlatformEmbed2 extends BitmapAsset {
     public function FortuneModal_fortunePlatformEmbed2() {
         super();
-        return;
+
     }
 }
 }
