@@ -146,18 +146,26 @@ namespace wServer.logic.loot
                     break;
 
                 case 6:
-                    bag = 0x008d; // White Bag
+                    bag = 0x11aa; // Green Bag      (Skin/Reskin Bag)
                     break;
 
                 case 7:
-                    bag = 0x008d;
+                    bag = 0x11ac; // Orange Bag     (Special Tiered Bag)
+                    break;
+
+                case 8:
+                    bag = 0x008d; // White Bag
+                    break;
+
+                case 9:
+                    bag = 0x11ab; // Yellow Bag     (Legendary Bag)
                     break;
             }
 
             var dats = enemy.DamageCounter.GetPlayerData();
             foreach (var dat in dats)
             {
-                if (dat.Item1.LDBoostTime > 0 || dat.Item1.Stats.Boost[10] > 0)
+                if (dat.Item1.LDBoostTime > 0 || dat.Item1.Stats.Boost[10] > 0 && bag < 6) // temporary until we have boosted bags for each bag
                     bag = 0x0090; // Red/Boosted Bag
             }
 
@@ -168,7 +176,7 @@ namespace wServer.logic.loot
             container.Move(
                 enemy.X + (float)((Rand.NextDouble() * 2 - 1) * 0.55),
                 enemy.Y + (float)((Rand.NextDouble() * 2 - 1) * 0.55));
-            container.SetDefaultSize(bagType > 3 ? 120 : 80);
+            container.SetDefaultSize(bagType > 6 ? 120 : bagType > 3 ? 100 : 80);
             enemy.Owner.EnterWorld(container);
         }
     }

@@ -5,6 +5,7 @@ public class EmbeddedData {
     private static const GroundCXML:Class = EmbeddedData_GroundCXML;
     private static const ProjectilesCXML:Class = EmbeddedData_ProjectilesCXML;
     private static const EquipCXML:Class = EmbeddedData_EquipCXML;
+    private static const EquipSkinsCXML:Class = EmbeddedData_EquipSkinsCXML;
     private static const EquipmentSetsCXML:Class = EmbeddedData_EquipmentSetsCXML;
     private static const SkinsCXML:Class = EmbeddedData_SkinsCXML;
     private static const DyesCXML:Class = EmbeddedData_DyesCXML;
@@ -80,6 +81,7 @@ public class EmbeddedData {
 
     private static const NewEquipCXML:Class = EmbeddedData_NewEquipCXML;
 
+
     //Initialize XMLs
     public static const skinsXML:XML = XML(new SkinsCXML());
 
@@ -102,7 +104,7 @@ public class EmbeddedData {
         new AbyssOfDemonsCXML(), new GhostShipCXML(), new MadLabCXML(), new CaveOfAThousandTreasuresCXML(),
         new CandyLandCXML(), new HauntedCemeteryCXML(), new ForestMazeCXML(), new EpicForestMazeCXML(),
         new EpicPirateCaveCXML(), new EpicSpiderDenCXML(), new NexusDestroyedCXML(), new MiniDungeonHubCXML(),
-        new LairOfDraconisCXML(), new LairOfShaitanCXML(), new ShattersCXML(), new BelladonnaCXML(),
+        new LairOfDraconisCXML(), new LairOfShaitanCXML(), new ShattersCXML(), new BelladonnaCXML(), new EquipSkinsCXML(),
         new PuppetMasterCXML(), new IceCaveCXML(), new TheHiveCXML(), new ToxicSewersCXML(), new PuppetMasterEncoreCXML(),
         new IceTombCXML(), new stPatricksObjectCXML(), new buffedBunnyObjectCXML(), new hanaminexusObjectCXML(), new mountainTempleObjectCXML(),
         new NewEquipCXML()

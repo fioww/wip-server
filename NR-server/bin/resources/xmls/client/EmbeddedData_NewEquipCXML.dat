@@ -45,6 +45,7 @@
     <Doses>2</Doses>
     <SuccessorId>Potion of Max Level 1</SuccessorId>
     <Consumable/>
+    <Soulbound/>
     <BagType>2</BagType>
     <Track/>
 </Object>
@@ -69,6 +70,7 @@
     <Doses>3</Doses>
     <SuccessorId>Potion of Max Level 2</SuccessorId>
     <Consumable/>
+    <Soulbound/>
     <BagType>2</BagType>
     <Track/>
 </Object>
@@ -93,6 +95,7 @@
     <Doses>4</Doses>
     <SuccessorId>Potion of Max Level 3</SuccessorId>
     <Consumable/>
+    <Soulbound/>
     <BagType>2</BagType>
     <Track/>
 </Object>
@@ -117,6 +120,7 @@
     <Doses>5</Doses>
     <SuccessorId>Potion of Max Level 4</SuccessorId>
     <Consumable/>
+    <Soulbound/>
     <BagType>2</BagType>
     <Track/>
 </Object>

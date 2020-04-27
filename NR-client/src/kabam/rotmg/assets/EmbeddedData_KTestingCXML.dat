@@ -141,7 +141,7 @@
          <MaxDamage>2000</MaxDamage>
          <LifetimeMS>600</LifetimeMS>
       </Projectile>
-      <BagType>6</BagType>
+      <BagType>8</BagType>
       <feedPower>100000</feedPower>
       <Soulbound/>
    </Object>
@@ -165,7 +165,7 @@
          <MaxDamage>3000</MaxDamage>
          <MultiHit/>
       </Projectile>
-      <BagType>6</BagType>
+      <BagType>8</BagType>
       <feedPower>100000</feedPower>
       <Soulbound/>
    </Object>
@@ -191,7 +191,7 @@
       </Projectile>
       <NumProjectiles>5</NumProjectiles>
       <ArcGap>8</ArcGap>
-      <BagType>6</BagType>
+      <BagType>8</BagType>
       <feedPower>100000</feedPower>
       <Soulbound/>
    </Object>
@@ -216,7 +216,7 @@
       </Projectile>
       <NumProjectiles>3</NumProjectiles>
       <ArcGap>90</ArcGap>
-      <BagType>6</BagType>
+      <BagType>8</BagType>
       <feedPower>100000</feedPower>
       <Soulbound/>
    </Object>
@@ -244,7 +244,7 @@
       </Projectile>
       <NumProjectiles>2</NumProjectiles>
       <ArcGap>0</ArcGap>
-      <BagType>6</BagType>
+      <BagType>8</BagType>
       <feedPower>100000</feedPower>
       <Soulbound/>
    </Object>
@@ -270,7 +270,7 @@
       </Projectile>
       <NumProjectiles>2</NumProjectiles>
       <ArcGap>2</ArcGap>
-      <BagType>6</BagType>
+      <BagType>8</BagType>
       <feedPower>100000</feedPower>
       <Soulbound/>
    </Object>

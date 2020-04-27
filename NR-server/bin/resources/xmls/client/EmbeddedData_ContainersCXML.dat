@@ -207,4 +207,46 @@
       <Size>80</Size>
       <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
    </Object>
+   <Object type="0x11aa" id="Green Loot Bag">
+      <DisplayId>Loot Bag</DisplayId>
+      <Class>Container</Class>
+      <Container/>
+      <CanPutNormalObjects/>
+      <CanPutSoulboundObjects/>
+      <Loot/>
+      <Texture>
+         <File>newObjects</File>
+         <Index>0x0A</Index>
+      </Texture>
+      <Size>80</Size>
+      <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+   </Object>
+   <Object type="0x11ab" id="Legendary Loot Bag">
+      <DisplayId>Loot Bag</DisplayId>
+      <Class>Container</Class>
+      <Container/>
+      <CanPutNormalObjects/>
+      <CanPutSoulboundObjects/>
+      <Loot/>
+      <Texture>
+         <File>newObjects</File>
+         <Index>0x0B</Index>
+      </Texture>
+      <Size>80</Size>
+      <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+   </Object>
+   <Object type="0x11ac" id="Orange Loot Bag">
+      <DisplayId>Loot Bag</DisplayId>
+      <Class>Container</Class>
+      <Container/>
+      <CanPutNormalObjects/>
+      <CanPutSoulboundObjects/>
+      <Loot/>
+      <Texture>
+         <File>newObjects</File>
+         <Index>0x0C</Index>
+      </Texture>
+      <Size>80</Size>
+      <SlotTypes>0, 0, 0, 0, 0, 0, 0, 0</SlotTypes>
+   </Object>
 </Objects>
