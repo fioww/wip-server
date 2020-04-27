@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ SnakePit = () => Behav()
             .Init("Stheno the Snake Queen",
                 new State(
+                    new ScaleHP(1500, 0),
                     new RealmPortalDrop(),
                     new State("Idle",
                         new PlayerWithinTransition(20, "Silver Blasts")
@@ -294,6 +295,7 @@ namespace wServer.logic
             )
             .Init("Stheno Pet",
                 new State(
+                    new ScaleHP(500, 0),
                     new State("Protect",
                         new Shoot(25, coolDown: 1000),
                         new State("Protect",
@@ -302,7 +304,7 @@ namespace wServer.logic
                         ),
                         new State("Wander",
                             new Prioritize(
-                                new Wander(1)
+                                new Wander(0.5)
                             )
                         )
                     )
@@ -392,6 +394,7 @@ namespace wServer.logic
             )
             .Init("Snakepit Guard",
                 new State(
+                    new ScaleHP(550, 550 * 30),
                     new ChangeSize(100, 100),
                     new Shoot(25, count: 3, shootAngle: 25, projectileIndex: 0, coolDown: new Cooldown(1000, 200)),
                     new Shoot(10, count: 6, projectileIndex: 1, coolDown: 1000),

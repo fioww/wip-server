@@ -12,8 +12,9 @@ namespace wServer.logic
     partial class BehaviorDb
     {
         private _ DavyJones = () => Behav()
-        .Init("Davy Jones",
+            .Init("Davy Jones",
                 new State(
+                    new ScaleHP(7000, 0),
                     new State("Floating",
                         new ChangeSize(100, 100),
                         new SetAltTexture(1),

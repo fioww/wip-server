@@ -140,6 +140,7 @@ namespace wServer.logic
         #region generators
             .Init("shtrs MagiGenerators",
             new State(
+                new ScaleHP(1800, 0),
                 new State("Main",
                     new ConditionalEffect(ConditionEffectIndex.Invulnerable),
                     new Shoot(15, 10, coolDown: 1000),
@@ -235,6 +236,7 @@ namespace wServer.logic
         #region 1stboss
             .Init("shtrs Bridge Sentinel",
                 new State(
+                    new ScaleHP(18000, 0),
                     new Shoot(2, projectileIndex: 5, count: 3, fixedAngle: 0, coolDown: 10),
                     new Shoot(2, projectileIndex: 5, count: 3, fixedAngle: 45, coolDown: 10),
                     new Shoot(2, projectileIndex: 5, count: 3, fixedAngle: 90, coolDown: 10),
@@ -361,13 +363,13 @@ namespace wServer.logic
                                 ),
                         new State("Death",
                             new ConditionalEffect(ConditionEffectIndex.Invulnerable),
-                            new TransferDamageOnDeath("shtrs Loot Balloon Bridge"),
                             new Taunt("I tried to protect you... I have failed. You release a great evil upon this realm...."),
                             new TimedTransition(2000, "Suicide")
                             ),
                         new State("Suicide",
                             new Shoot(35, projectileIndex: 0, count: 30),
                             new Order(1, "shtrs Chest Spawner 1", "Open"),
+                            new CopyDamageOnDeath("shtrs Loot Balloon Bridge"),
                             new Suicide()
                     )
                 )
@@ -395,6 +397,7 @@ namespace wServer.logic
         #region 2ndboss
             .Init("shtrs Twilight Archmage",
                 new State(
+                    new ScaleHP(18200, 0),
                     new HpLessTransition(.1, "Death"),
                     new State("Idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable),
@@ -567,12 +570,12 @@ namespace wServer.logic
                         new State("Death",
                             new ConditionalEffect(ConditionEffectIndex.Invulnerable),
                             new Taunt("IM..POSSI...BLE!"),
-                            new TransferDamageOnDeath("shtrs Loot Balloon Mage"),
                             new Order(1, "shtrs Chest Spawner 2", "Open"),
                             new TimedTransition(2000, "Suicide")
                             ),
                         new State("Suicide",
                             new Shoot(35, projectileIndex: 0, count: 30),
+                            new CopyDamageOnDeath("shtrs Loot Balloon Mage"),
                             new Suicide()
                     )
                 )
@@ -581,6 +584,7 @@ namespace wServer.logic
         #region birds
             .Init("shtrs Inferno",
                 new State(
+                    new ScaleHP(10000, 0),
                     new Orbit(0.5, 4, 15, "shtrs Blizzard"),
                             new Shoot(0, projectileIndex: 0, count: 6, shootAngle: 60, fixedAngle: 15, coolDown: 4333),
                             new Shoot(0, projectileIndex: 0, count: 6, shootAngle: 60, fixedAngle: 30, coolDown: 3500),
@@ -591,9 +595,10 @@ namespace wServer.logic
 
             .Init("shtrs Blizzard",
                 new State(
+                    new ScaleHP(13000, 0),
                     new State("Follow",
                     new Follow(0.3, range: 1, coolDown: 1000),
-                            new Shoot(0, projectileIndex: 0, count: 4, shootAngle: 90, fixedAngle: 45, coolDown: 25),
+                            new Shoot(0, projectileIndex: 0, count: 4, shootAngle: 90, fixedAngle: 45, coolDown: 95),
                             new TimedTransition(7000, "Spin")
                     ),
                     new State("Spin",
@@ -1544,7 +1549,8 @@ namespace wServer.logic
         #region 3rdboss
             .Init("shtrs The Forgotten King",
                 new State(
-                    new HpLessTransition(0.1, "Death"),
+                    new ScaleHP(30000, 0),
+                    new HpLessTransition(0.05, "Death"),
                     new State("Idle",
                         new ConditionalEffect(ConditionEffectIndex.Invincible),
                         new ConditionalEffect(ConditionEffectIndex.Invisible),
@@ -2282,27 +2288,29 @@ namespace wServer.logic
 
                         new State("Death",
                             new ConditionalEffect(ConditionEffectIndex.Invulnerable),
-                            new TransferDamageOnDeath("shtrs Loot Balloon King"),
                             new Order(1, "shtrs Chest Spawner 3", "Open"),
                             new Taunt("Impossible..........IMPOSSIBLE!"),
                             new TimedTransition(2000, "Suicide")
                             ),
                         new State("Suicide",
                             new Shoot(35, projectileIndex: 0, count: 30),
+                            new CopyDamageOnDeath("shtrs Loot Balloon King"),
                             new Suicide()
                     )
                 )
             )
             .Init("shtrs Royal Guardian J",
                 new State(
+                    new ScaleHP(2000, 0),
                     new State("shoot",
-                        new Orbit(0.35, 2, 5, "shtrs The Forgotten King"),
+                        new Orbit(0.35, 2, 5, "shtrs The Forgotten King", 0.1),
                         new Shoot(15, 8, projectileIndex: 0, coolDown: new Cooldown(3600, 3600))
                         )
                     )
             )
             .Init("shtrs Royal Guardian L",
                 new State(
+                    new ScaleHP(4000, 0),
                     new State("1st",
                         new Follow(1, 8, 5),
                         new Shoot(15, 20, projectileIndex: 0),
@@ -2322,6 +2330,7 @@ namespace wServer.logic
             )
             .Init("shtrs Green Crystal",
                 new State(
+                    new ScaleHP(5000, 0),
                     new HealGroup(30, "Crystals", coolDown: 2000, healAmount: 1500),
                     new State("spawn",
                         new ConditionalEffect(ConditionEffectIndex.Invincible),
@@ -2343,6 +2352,7 @@ namespace wServer.logic
             )
             .Init("shtrs Yellow Crystal",
                 new State(
+                    new ScaleHP(5000, 0),
                     new State("spawn",
                         new ConditionalEffect(ConditionEffectIndex.Invincible),
                         new Orbit(0.4, 1, 5, "shtrs The Forgotten King"),
@@ -2362,6 +2372,7 @@ namespace wServer.logic
             )
             .Init("shtrs Red Crystal",
                 new State(
+                    new ScaleHP(5000, 0),
                      new State("spawn",
                         new ConditionalEffect(ConditionEffectIndex.Invincible),
                         new Orbit(0.4, 1, 5, "shtrs The Forgotten King"),
@@ -2385,6 +2396,7 @@ namespace wServer.logic
             )
             .Init("shtrs Blue Crystal",
                 new State(
+                    new ScaleHP(5000, 0),
                      new State("spawn",
                         new ConditionalEffect(ConditionEffectIndex.Invincible),
                         new Orbit(0.4, 1, 5, "shtrs The Forgotten King"),

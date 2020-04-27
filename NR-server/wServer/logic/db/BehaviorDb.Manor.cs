@@ -13,8 +13,9 @@ namespace wServer.logic
     {
         private _ Manor = () => Behav()
         //lord ruthven is waaay unfinished
-                    .Init("Lord Ruthven",
+            .Init("Lord Ruthven",
                 new State(
+                    new ScaleHP(2400, 0),
                     new RealmPortalDrop(),
                     new State("default",
                         new PlayerWithinTransition(8, "spooksters")

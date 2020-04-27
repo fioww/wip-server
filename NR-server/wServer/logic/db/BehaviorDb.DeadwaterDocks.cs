@@ -109,6 +109,7 @@ namespace wServer.logic
 
           .Init("Jon Bilgewater the Pirate King",
                 new State(
+                    new ScaleHP(14000, 0),
                     new RealmPortalDrop(),
                     new State("default",
                         new PlayerWithinTransition(8, "coinphase")

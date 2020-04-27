@@ -231,7 +231,7 @@
       </AnimatedTexture>
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
-      <MaxHitPoints>66000</MaxHitPoints>
+      <MaxHitPoints>45000</MaxHitPoints>
       <Defense>15</Defense>
       <XpMult>0.1</XpMult>
       <Size>140</Size>
@@ -255,7 +255,7 @@
       </AnimatedTexture>
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
-      <MaxHitPoints>66000</MaxHitPoints>
+      <MaxHitPoints>45000</MaxHitPoints>
       <Defense>15</Defense>
       <XpMult>0.1</XpMult>
       <Size>140</Size>
@@ -302,7 +302,7 @@
       </AnimatedTexture>
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
-      <MaxHitPoints>35000</MaxHitPoints>
+      <MaxHitPoints>30000</MaxHitPoints>
       <Defense>25</Defense>
       <XpMult>.3</XpMult>
       <Size>170</Size>

@@ -17,7 +17,7 @@
       <StasisImmune/>
       <NoArticle/>
       <Size>100</Size>
-      <MaxHitPoints>85000</MaxHitPoints>
+      <MaxHitPoints>60000</MaxHitPoints>
       <Defense>60</Defense>
       <XpMult>0.35</XpMult>
       <Projectile id="0">

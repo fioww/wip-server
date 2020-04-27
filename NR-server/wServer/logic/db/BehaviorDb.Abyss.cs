@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ Abyss = () => Behav()
             .Init("Archdemon Malphas",
                 new State(
+                    new ScaleHP(2000, 0),
                     new RealmPortalDrop(),
                     new State("default",
                         new PlayerWithinTransition(8, "basic")

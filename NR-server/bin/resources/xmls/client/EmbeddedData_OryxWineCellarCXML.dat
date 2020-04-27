@@ -12,7 +12,7 @@
       <HitSound>monster/oryx_hit</HitSound>
       <DeathSound>monster/oryx_death</DeathSound>
       <Size>120</Size>
-      <MaxHitPoints>75000</MaxHitPoints>
+      <MaxHitPoints>95000</MaxHitPoints>
       <Defense>60</Defense>
       <Quest/>
       <God/>

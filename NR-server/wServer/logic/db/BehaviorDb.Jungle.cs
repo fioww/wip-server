@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ Jungle = () => Behav()
         .Init("Mixcoatl the Masked God",
                 new State(
+                    new ScaleHP(840, 0),
                     new DropPortalOnDeath("Realm Portal", 100),
                     new State("Idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable),

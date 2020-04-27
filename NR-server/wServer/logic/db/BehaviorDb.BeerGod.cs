@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ BeerGod = () => Behav()
         .Init("Beer God",
             new State(
+                new ScaleHP(600, 0),
                 new State(
                     new ConditionalEffect(ConditionEffectIndex.Invincible),
                     new State("default",

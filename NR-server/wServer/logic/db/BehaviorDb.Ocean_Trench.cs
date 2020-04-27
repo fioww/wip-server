@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ Ocean_Trench = () => Behav()
           .Init("Coral Gift",
            new State(
+            new ScaleHP(700, 0),
             new State("Texture1",
              new SetAltTexture(1),
              new TimedTransition(500, "Texture2")
@@ -23,13 +24,13 @@ namespace wServer.logic
              new TimedTransition(500, "Texture1")
              )
              ),
-            new Threshold(0.01,
-            new ItemLoot("Coral Juice", 0.3),
-                          new ItemLoot("Potion of Mana", 0.1),
-                          new ItemLoot("Coral Bow", 0.02),
-                          new ItemLoot("Coral Venom Trap", 0.03),
-                          new ItemLoot("Coral Silk Armor", 0.04),
-                          new ItemLoot("Coral Ring", 0.04)
+            new Threshold(0.05,
+            new ItemLoot("Coral Juice", 0.25),
+                          new ItemLoot("Potion of Mana", 0.08),
+                          new ItemLoot("Coral Bow", 0.01),
+                          new ItemLoot("Coral Venom Trap", 0.02),
+                          new ItemLoot("Coral Silk Armor", 0.03),
+                          new ItemLoot("Coral Ring", 0.035)
                           )
            )
 
@@ -74,6 +75,7 @@ namespace wServer.logic
 
              .Init("Thessal the Mermaid Goddess",
            new State(
+            new ScaleHP(14000, 0),
             new TransformOnDeath("Thessal the Mermaid Goddess Wounded", probability: 0.1),
             new State("Start",
              new Prioritize(

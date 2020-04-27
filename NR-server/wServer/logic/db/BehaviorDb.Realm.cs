@@ -16,13 +16,14 @@ namespace wServer.logic
         #region Cube God
              .Init("Cube God",
                  new State(
+                     new ScaleHP(1000, 0),
                      new StayCloseToSpawn(0.3, range: 7),
-                            new Wander(0.5),
-                              new Shoot(10, count: 9, predictive: 0.9, shootAngle: 6.5, coolDown: 1000),
-                              new Shoot(10, count: 6, predictive: 0.9, shootAngle: 6.5, projectileIndex: 1, coolDown: 1000, coolDownOffset: 200),
-                              new Spawn("Cube Overseer", maxChildren: 5, initialSpawn: 3, coolDown: 100000),
-                              new Spawn("Cube Defender", maxChildren: 5, initialSpawn: 5, coolDown: 100000),
-                              new Spawn("Cube Blaster", maxChildren: 5, initialSpawn: 5, coolDown: 100000)
+                     new Wander(0.5),
+                     new Shoot(10, count: 9, predictive: 0.9, shootAngle: 6.5, coolDown: 1000),
+                     new Shoot(10, count: 6, predictive: 0.9, shootAngle: 6.5, projectileIndex: 1, coolDown: 1000, coolDownOffset: 200),
+                     new Spawn("Cube Overseer", maxChildren: 5, initialSpawn: 3, coolDown: 100000),
+                     new Spawn("Cube Defender", maxChildren: 5, initialSpawn: 5, coolDown: 100000),
+                     new Spawn("Cube Blaster", maxChildren: 5, initialSpawn: 5, coolDown: 100000)
                  ),
                  new MostDamagers(3,
                      LootTemplates.StatPotsEvents()
@@ -81,6 +82,7 @@ namespace wServer.logic
         #region Rock Dragon (Dragon Head)
             .Init("Dragon Head",
                 new State(
+                    new ScaleHP(2400, 0),
                     new Reproduce("Rock Dragon Bat", 5, 5, coolDown: 10000),
                     new DropPortalOnDeath("Lair of Draconis Portal", 0.66),
                     new State("default",
@@ -188,63 +190,68 @@ namespace wServer.logic
                     )))
        .Init("Body Segment A",
              new State(
-              new TransformOnDeath("Body Segment Bomb", 1, 1, 1),
-               new State("go",
+                new ScaleHP(3600, 0),
+                new TransformOnDeath("Body Segment Bomb", 1, 1, 1),
+                new State("go",
                    new Protect(0.97, "Dragon Head", protectionRange: 1)
                         )
                  )
             )
          .Init("Body Segment B",
              new State(
-              new TransformOnDeath("Body Segment Bomb", 1, 1, 1),
-               new State("go",
-                   new Protect(0.97, "Body Segment A", protectionRange: 1),
-                   new EntitiesNotExistsTransition(9999, "2plan", "Body Segment A")
+                new ScaleHP(500, 0),
+                new TransformOnDeath("Body Segment Bomb", 1, 1, 1),
+                new State("go",
+                    new Protect(0.97, "Body Segment A", protectionRange: 1),
+                    new EntitiesNotExistsTransition(9999, "2plan", "Body Segment A")
                         ),
-               new State("2plan",
-                   new Protect(0.97, "Dragon Head", protectionRange: 1)
-                        )
-
+                new State("2plan",
+                    new Protect(0.97, "Dragon Head", protectionRange: 1)
+                    )
                  )
             )
          .Init("Body Segment C",
              new State(
-              new TransformOnDeath("Body Segment Bomb", 1, 1, 1),
-               new State("go",
-                   new Protect(0.97, "Body Segment B", protectionRange: 1),
-                   new EntitiesNotExistsTransition(9999, "2plan", "Body Segment B")
+                new ScaleHP(500, 0),
+                new TransformOnDeath("Body Segment Bomb", 1, 1, 1),
+                new State("go",
+                    new Protect(0.97, "Body Segment B", protectionRange: 1),
+                    new EntitiesNotExistsTransition(9999, "2plan", "Body Segment B")
                         ),
-               new State("2plan",
-                   new Protect(0.97, "Dragon Head", protectionRange: 1)
-                        )
+                new State("2plan",
+                    new Protect(0.97, "Dragon Head", protectionRange: 1)
+                    )
                  )
             )
          .Init("Body Segment D",
              new State(
-              new TransformOnDeath("Body Segment Bomb", 1, 1, 1),
-               new State("go",
-                   new Protect(0.97, "Body Segment C", protectionRange: 1),
-                   new EntitiesNotExistsTransition(9999, "2plan", "Body Segment C")
+                new ScaleHP(500, 0),
+                new TransformOnDeath("Body Segment Bomb", 1, 1, 1),
+                new State("go",
+                    new Protect(0.97, "Body Segment C", protectionRange: 1),
+                    new EntitiesNotExistsTransition(9999, "2plan", "Body Segment C")
                         ),
-               new State("2plan",
-                   new Protect(0.97, "Dragon Head", protectionRange: 1)
-                        )
-                 )
-            )
+                new State("2plan",
+                    new Protect(0.97, "Dragon Head", protectionRange: 1)
+                    )
+                )
+         )
          .Init("Body Segment E",
              new State(
-              new TransformOnDeath("Body Segment Bomb", 1, 1, 1),
-               new State("go",
-                   new Protect(0.97, "Body Segment D", protectionRange: 1),
-                   new EntitiesNotExistsTransition(9999, "2plan", "Body Segment D")
+                new ScaleHP(500, 0),
+                new TransformOnDeath("Body Segment Bomb", 1, 1, 1),
+                new State("go",
+                    new Protect(0.97, "Body Segment D", protectionRange: 1),
+                    new EntitiesNotExistsTransition(9999, "2plan", "Body Segment D")
                         ),
-               new State("2plan",
-                   new Protect(0.97, "Dragon Head", protectionRange: 1)
-                        )
-                 )
-            )
+                new State("2plan",
+                    new Protect(0.97, "Dragon Head", protectionRange: 1)
+                    )
+                )
+         )
          .Init("Body Segment F",
              new State(
+                new ScaleHP(500, 0),
               new TransformOnDeath("Body Segment Bomb", 1, 1, 1),
                new State("go",
                    new Protect(0.97, "Body Segment E", protectionRange: 1),
@@ -257,6 +264,7 @@ namespace wServer.logic
             )
          .Init("Body Segment G",
              new State(
+                new ScaleHP(500, 0),
               new TransformOnDeath("Body Segment Bomb", 1, 1, 1),
                new State("go",
                    new Protect(0.97, "Body Segment E", protectionRange: 1),
@@ -269,6 +277,7 @@ namespace wServer.logic
             )
          .Init("Body Segment H",
              new State(
+                new ScaleHP(500, 0),
               new TransformOnDeath("Body Segment Bomb", 1, 1, 1),
                new State("go",
                    new Protect(0.97, "Body Segment G", protectionRange: 1),
@@ -281,6 +290,7 @@ namespace wServer.logic
             )
          .Init("Body Segment I",
              new State(
+                new ScaleHP(500, 0),
               new TransformOnDeath("Body Segment Bomb", 1, 1, 1),
                new State("go",
                    new Protect(0.97, "Body Segment H", protectionRange: 1),
@@ -304,20 +314,22 @@ namespace wServer.logic
                  )
             )
            .Init("Rock Dragon Bat",
-                    new State(
-                      new State("BoutToBlow",
-                      new Prioritize(
-                        new Follow(0.5, 8, 1),
-                        new Wander(0.2)
+                new State(
+                    new State("BoutToBlow",
+                        new Prioritize(
+                            new Follow(0.5, 8, 1),
+                            new Wander(0.2)
                         ),
-                      new Shoot(7, count: 3, shootAngle: 8, projectileIndex: 3, coolDown: 1300),
-                      new HpLessTransition(0.11, "bom"),
-                      new TimedTransition(5500, "bom")
+                        new Shoot(7, count: 3, shootAngle: 8, projectileIndex: 3, coolDown: 1300),
+                        new HpLessTransition(0.11, "bom"),
+                        new TimedTransition(5500, "bom")
                         ),
                     new State("bom",
-                       new Shoot(8.4, count: 7, projectileIndex: 2),
-                       new Suicide()
-                    )))
+                        new Shoot(8.4, count: 7, projectileIndex: 2),
+                        new Suicide()
+                    )
+                )
+            )
         #endregion
 
         #region Ghost Ship
@@ -459,6 +471,7 @@ namespace wServer.logic
                         ))
                     .Init("Ghost Ship",
                 new State(
+                    new ScaleHP(4200, 0),
                     new DropPortalOnDeath("Davy Jones' Locker Portal", .40),
                     new OnDeathBehavior(
                         new RemoveEntity(100, "Tempest Cloud")
@@ -578,6 +591,7 @@ namespace wServer.logic
 
             .Init("Hermit God",
                 new State(
+                    new ScaleHP(5500, 0),
                     new InvisiToss("Hermit God Drop", 6, 0, 90000001, coolDownOffset: 0),
                     new TransferDamageOnDeath("Hermit God Drop"),
                     new DropPortalOnDeath("Ocean Trench Portal", 0.66, XAdjustment: 5, YAdjustment: 5),
@@ -649,6 +663,7 @@ namespace wServer.logic
             )
             .Init("Whirlpool",
                 new State(
+                    new ScaleHP(1000, 0),
                     new State("active",
                         new Shoot(25, 8, projectileIndex: 0, coolDown: 1000),
                         new Orbit(.5, 4, target: "Hermit God", radiusVariance: 0),
@@ -661,6 +676,7 @@ namespace wServer.logic
             )
             .Init("Hermit God Tentacle",
                 new State(
+                    new ScaleHP(750, 0),
                     new Prioritize(
                         new Orbit(.5, 5, target: "Hermit God", radiusVariance: 0.5),
                         new Follow(0.85, range: 1, duration: 2000, coolDown: 0)
@@ -700,7 +716,9 @@ namespace wServer.logic
         #region Lord of the Lost Lands
         .Init("Lord of the Lost Lands",
                 new State(
+                    new ScaleHP(7000, 0),
                     new HpLessTransition(0.15, "IMDONELIKESOOOODONE!"),
+                    // ice cave portal
                     new State("timetogeticey",
                         new PlayerWithinTransition(8, "startupandfireup")
                         ),
@@ -792,6 +810,7 @@ namespace wServer.logic
             )
             .Init("Protection Crystal",
                 new State(
+                    new ScaleHP(500, 0),
                     new Prioritize(
                         new Orbit(0.3, 4, 10, "Lord of the Lost Lands")
                         ),
@@ -849,12 +868,13 @@ namespace wServer.logic
             )
             .Init("Pentaract Tower",
                 new State(
+                    new ScaleHP(800, 0),
                     new Spawn("Pentaract Eye", 5, coolDown: 5000, givesNoXp: false),
                     new Grenade(4, 100, 8, coolDown: 5000),
                     new TransformOnDeath("Pentaract Tower Corpse"),
-                    new TransferDamageOnDeath("Pentaract"),
+                    new CopyDamageOnDeath("Pentaract"),
                     // needed to avoid crash, Oryx.cs needs player name otherwise hangs server (will patch that later)
-                    new TransferDamageOnDeath("Pentaract Tower Corpse")
+                    new CopyDamageOnDeath("Pentaract Tower Corpse")
                     )
             )
             .Init("Pentaract",
@@ -882,7 +902,7 @@ namespace wServer.logic
                         new Suicide()
                         )
                     ),
-                new Threshold(0.01,
+                new Threshold(0.02,
                     new TierLoot(8, ItemType.Weapon, .15),
                     new TierLoot(9, ItemType.Weapon, .1),
                     new TierLoot(10, ItemType.Weapon, .07),
@@ -911,6 +931,7 @@ namespace wServer.logic
         #region Avatar (shtrs Defense System)
             .Init("shtrs Defense System",
                 new State(
+                    new ScaleHP(20000, 0),
                     new DropPortalOnDeath("The Shatters", probability: 1, timeout: 70),
                     new ChangeGroundOnDeath(new[] { "Pure Evil" }, new[] { "shtrs Disaster Floor", "shtrs Shattered Floor" }, 30),
                     new State("stars",
@@ -2444,6 +2465,7 @@ namespace wServer.logic
             )
             .Init("shtrs shadowmans",
                 new State(
+                    new ScaleHP(1000, 0),
                     new HealSelf(coolDown: 3000, amount: 500),
                     new ConditionalEffect(ConditionEffectIndex.Armored),
                     new State("shoot1",
@@ -2465,8 +2487,9 @@ namespace wServer.logic
                         )
             .Init("shtrs eyeswarmer",
                 new State(
+                    new ScaleHP(900, 0),
                     new State("shoot",
-                        new Orbit(1.0, 2, 5, "shtrs Defense System"),
+                        new Orbit(1.0, 2, 5, "shtrs Defense System", 0.2),
                         new Shoot(20, 1, projectileIndex: 0, coolDown: 5000)
                         )
                     )
@@ -2474,6 +2497,7 @@ namespace wServer.logic
 
             .Init("shtrs Pillar 1",
                 new State(
+                    new ScaleHP(2500, 0),
                     new State("idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable)
                         ),
@@ -2515,6 +2539,7 @@ namespace wServer.logic
             )
             .Init("shtrs Pillar 2",
                 new State(
+                    new ScaleHP(2500, 0),
                     new State("idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable)
                         ),
@@ -2556,6 +2581,7 @@ namespace wServer.logic
                     )
             .Init("shtrs Pillar 3",
                 new State(
+                    new ScaleHP(2500, 0),
                     new State("idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable)
                         ),
@@ -2596,6 +2622,7 @@ namespace wServer.logic
                     )
             .Init("shtrs Pillar 4",
                 new State(
+                    new ScaleHP(2500, 0),
                     new State("idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable)
                         ),
@@ -2641,6 +2668,7 @@ namespace wServer.logic
 
             .Init("Skull Shrine",
             new State(
+                    new ScaleHP(1500, 0),
                     new Shoot(25, 9, 10, predictive: 1),
                     new Spawn("Red Flaming Skull", 8, coolDown: 5000),
                     new Spawn("Blue Flaming Skull", 10, coolDown: 1000),

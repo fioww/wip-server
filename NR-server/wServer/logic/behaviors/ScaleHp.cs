@@ -24,7 +24,7 @@ namespace wServer.logic.behaviors
         private readonly int dist; // leave as 0 for all players
         private readonly int scaleAfter;
 
-        public ScaleHP(int amountPerPlayer, int maxAdditional, bool healAfterMax = true, int dist = 0, int scaleAfter = 500)
+        public ScaleHP(int amountPerPlayer, int maxAdditional, bool healAfterMax = true, int dist = 100, int scaleAfter = 100)
         {
             this.amountPerPlayer = amountPerPlayer;
             this.maxAdditional = maxAdditional;

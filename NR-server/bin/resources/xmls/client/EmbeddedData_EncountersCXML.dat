@@ -29,7 +29,7 @@
       <DazedImmune/>
       <HitSound>monster/golems_hit</HitSound>
       <DeathSound>monster/beholder_death</DeathSound>
-      <MaxHitPoints>500000</MaxHitPoints>
+      <MaxHitPoints>200000</MaxHitPoints>
       <Size>200</Size>
       <Defense>90</Defense>
       <XpMult>0.3</XpMult>
@@ -607,7 +607,7 @@
       </Animation>
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
-      <MaxHitPoints>1000</MaxHitPoints>
+      <MaxHitPoints>4000</MaxHitPoints>
       <Defense>10</Defense>
       <XpMult>0</XpMult>
       <Size>100</Size>
@@ -659,7 +659,7 @@
       </Animation>
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
-      <MaxHitPoints>1000</MaxHitPoints>
+      <MaxHitPoints>4000</MaxHitPoints>
       <Defense>10</Defense>
       <XpMult>0</XpMult>
       <Size>100</Size>
@@ -711,7 +711,7 @@
       </Animation>
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
-      <MaxHitPoints>1000</MaxHitPoints>
+      <MaxHitPoints>4000</MaxHitPoints>
       <Defense>10</Defense>
       <XpMult>0</XpMult>
       <Size>100</Size>
@@ -763,7 +763,7 @@
       </Animation>
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
-      <MaxHitPoints>1000</MaxHitPoints>
+      <MaxHitPoints>4000</MaxHitPoints>
       <Defense>10</Defense>
       <XpMult>0</XpMult>
       <Size>100</Size>
@@ -815,7 +815,7 @@
       </Animation>
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
-      <MaxHitPoints>1000</MaxHitPoints>
+      <MaxHitPoints>4000</MaxHitPoints>
       <Defense>10</Defense>
       <XpMult>0</XpMult>
       <Size>100</Size>
@@ -867,7 +867,7 @@
       </Animation>
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
-      <MaxHitPoints>1000</MaxHitPoints>
+      <MaxHitPoints>4000</MaxHitPoints>
       <Defense>10</Defense>
       <XpMult>0</XpMult>
       <Size>100</Size>
@@ -919,7 +919,7 @@
       </Animation>
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
-      <MaxHitPoints>1000</MaxHitPoints>
+      <MaxHitPoints>4000</MaxHitPoints>
       <Defense>10</Defense>
       <XpMult>0</XpMult>
       <Size>100</Size>
@@ -971,7 +971,7 @@
       </Animation>
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
-      <MaxHitPoints>1000</MaxHitPoints>
+      <MaxHitPoints>4000</MaxHitPoints>
       <Defense>10</Defense>
       <XpMult>0</XpMult>
       <Size>100</Size>
@@ -1023,7 +1023,7 @@
       </Animation>
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
-      <MaxHitPoints>1000</MaxHitPoints>
+      <MaxHitPoints>4000</MaxHitPoints>
       <Defense>10</Defense>
       <XpMult>0</XpMult>
       <Size>100</Size>
@@ -1048,7 +1048,7 @@
       </AnimatedTexture>
       <HitSound>monster/bats_hit</HitSound>
       <DeathSound>monster/bats_death</DeathSound>
-      <MaxHitPoints>1000</MaxHitPoints>
+      <MaxHitPoints>4000</MaxHitPoints>
       <Defense>10</Defense>
       <XpMult>0</XpMult>
       <Size>120</Size>

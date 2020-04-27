@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ SpriteWorld = () => Behav()
         .Init("Limon the Sprite God",
              new State(
+                 new ScaleHP(1800, 0),
                  new RealmPortalDrop(),
                  new State("idle",
                      new Flash(0x66FF00, 0.6, 9),

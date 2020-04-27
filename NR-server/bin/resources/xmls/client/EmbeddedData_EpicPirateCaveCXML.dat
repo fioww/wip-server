@@ -62,7 +62,7 @@
       <HitSound>monster/pirate_king_hit</HitSound>
       <DeathSound>monster/pirate_king_death</DeathSound>
       <Size>120</Size>
-      <MaxHitPoints>90000</MaxHitPoints>
+      <MaxHitPoints>70000</MaxHitPoints>
       <Defense>30</Defense>
       <Quest/>
       <God/>

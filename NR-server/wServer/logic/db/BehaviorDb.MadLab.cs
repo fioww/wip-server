@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ MadLab = () => Behav()  // credits to sebastianfra12 and ossimc82 :3
         .Init("Dr Terrible",
             new State(
+                new ScaleHP(9000, 0),
                 new RealmPortalDrop(),
                 new State("idle",
                     new PlayerWithinTransition(12, "GP"),

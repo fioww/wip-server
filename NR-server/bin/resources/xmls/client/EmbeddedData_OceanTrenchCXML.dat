@@ -168,7 +168,7 @@
       <StasisImmune/>
       <Enemy/>
       <NoMiniMap/>
-      <MaxHitPoints>1200</MaxHitPoints>
+      <MaxHitPoints>3500</MaxHitPoints>
       <XpMult>0.0</XpMult>
       <Size>90</Size>
       <Defense>5</Defense>
@@ -201,7 +201,7 @@
       </AnimatedTexture>
       <HitSound>monster/medusa_hit</HitSound>
       <DeathSound>monster/medusa_death</DeathSound>
-      <MaxHitPoints>96000</MaxHitPoints>
+      <MaxHitPoints>70000</MaxHitPoints>
       <XpMult>5.13</XpMult>
       <ShadowSize>0</ShadowSize>
       <God/>

@@ -12,9 +12,10 @@ namespace wServer.logic
         private _ Belladonna = () => Behav()
             .Init("vlntns Botany Bella",
                 new State(
+                    new ScaleHP(4250, 0),
                     new RealmPortalDrop(),
                     new TransformOnDeath("vlntns Loot Balloon Bella"),
-                    new TransferDamageOnDeath("vlntns Loot Balloon Bella"),
+                    new CopyDamageOnDeath("vlntns Loot Balloon Bella"),
                     //new Taunt(new string[3]
                     //{
                     //    "Start",
@@ -326,11 +327,8 @@ namespace wServer.logic
             )
             .Init("vlntns Loot Balloon Bella",
                 new State(
-                    new State("Idle",
-                        new ConditionalEffect(ConditionEffectIndex.Invulnerable),
-                        new TimedTransition(5000, "UnsetEffect")
-                    ),
-                    new State("UnsetEffect")
+                    new ScaleHP(3000, 0),
+                    new ConditionalEffect(ConditionEffectIndex.Invulnerable, duration: 5000)
                 ),
                  new MostDamagers(2,
                     new OnlyOne(

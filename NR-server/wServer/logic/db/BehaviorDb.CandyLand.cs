@@ -14,9 +14,22 @@ namespace wServer.logic
         .Init("Candy Gnome",
             new State(
                 new DropPortalOnDeath("Candyland Portal", probability: 0.50, timeout: 120),
-                new Prioritize(
-                    new StayBack(1.0, 55),
-                    new Wander(1.4)
+                new State("Idle",
+                    new ConditionalEffect(ConditionEffectIndex.Invulnerable),
+                    new StayCloseToSpawn(0.5),
+                    new Wander(0.5),
+                    new PlayerWithinTransition(15, "Default")
+                    ),
+                new State("Default",
+                    new Prioritize(
+                        new StayBack(1.0, 55),
+                        new Wander(1.4)
+                    ),
+                    new NoPlayerWithinTransition(50, "Destruct")
+                    ),
+                new State("Destruct",
+                    new ConditionalEffect(ConditionEffectIndex.Invulnerable),
+                    new ChangeSize(8, 10)
                     )
                 ),
             new Threshold(0.01,
@@ -30,6 +43,7 @@ namespace wServer.logic
             )
         .Init("MegaRototo",
             new State(
+                new ScaleHP(2600, 0),
                 new Spawn("Tiny Rototo", maxChildren: 6),
                 new State("1",
                     new Wander(0.5),
@@ -68,6 +82,7 @@ namespace wServer.logic
             )
             .Init("Spoiled Creampuff",
                 new State(
+                    new ScaleHP(2400, 0),
                     new Wander(0.5),
                     new Shoot(20, 2, 40, angleOffset: 60 / 3, projectileIndex: 0, coolDown: 1500),
                     new Shoot(20, 4, 15, angleOffset: 40 / 3, projectileIndex: 1, coolDown: 1000),
@@ -100,6 +115,7 @@ namespace wServer.logic
             )
             .Init("Desire Troll",
                 new State(
+                    new ScaleHP(2900, 0),
                     new Wander(0.5),
                     new Grenade(6, 200, range: 8, coolDown: 3000),
                     new Shoot(15, 3, 5, angleOffset: 30 / 3, projectileIndex: 0, coolDown: 2100),
@@ -133,6 +149,7 @@ namespace wServer.logic
             )
         .Init("Swoll Fairy",
             new State(
+                new ScaleHP(2600, 0),
                 new Spawn("Fairy", maxChildren: 3),
                 new State("1",
                     new Wander(0.3),
@@ -172,6 +189,7 @@ namespace wServer.logic
             )
             .Init("Gigacorn",
                 new State(
+                    new ScaleHP(3200, 0),
                     new Wander(0.5),
                     new Charge(2.0, 10f, 4000),
                     new Shoot(20, 1, 40, angleOffset: 60 / 3, projectileIndex: 0, coolDown: 2100),
@@ -224,54 +242,54 @@ namespace wServer.logic
                     new TimedTransition(1000, "Swoll Fairy Check 1", randomized: true)
                     ),
                 new State("Pony Check 1",
-                    new EntitiesNotExistsTransition(20, "Pony Check 2", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
+                    new EntitiesNotExistsTransition(200, "Pony Check 2", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
                     ),
                 new State("Pony Check 2",
                     new NoPlayerWithinTransition(20, "Pony")
                     ),
                 new State("Pony",
                     new Spawn("Gigacorn", maxChildren: 1),
-                    new EntitiesNotExistsTransition(20, "Waiting", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
+                    new EntitiesNotExistsTransition(200, "Waiting", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
                     ),
                 new State("Desire Troll Check 1",
-                    new EntitiesNotExistsTransition(20, "Desire Troll Check 2", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
+                    new EntitiesNotExistsTransition(200, "Desire Troll Check 2", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
                     ),
                 new State("Desire Troll Check 2",
                     new NoPlayerWithinTransition(20, "Desire Troll")
                     ),
                 new State("Desire Troll",
                     new Spawn("Desire Troll", maxChildren: 1),
-                    new EntitiesNotExistsTransition(20, "Waiting", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
+                    new EntitiesNotExistsTransition(200, "Waiting", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
                     ),
                 new State("Spoiled Creampuff Check 1",
-                    new EntitiesNotExistsTransition(20, "Spoiled Creampuff Check 2", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
+                    new EntitiesNotExistsTransition(200, "Spoiled Creampuff Check 2", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
                     ),
                 new State("Spoiled Creampuff Check 2",
                     new NoPlayerWithinTransition(20, "Spoiled Creampuff")
                     ),
                 new State("Spoiled Creampuff",
                     new Spawn("Spoiled Creampuff", maxChildren: 1),
-                    new EntitiesNotExistsTransition(20, "Waiting", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
+                    new EntitiesNotExistsTransition(200, "Waiting", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
                     ),
                 new State("MegaRototo Check 1",
-                    new EntitiesNotExistsTransition(20, "MegaRototo Check 2", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
+                    new EntitiesNotExistsTransition(200, "MegaRototo Check 2", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
                     ),
                 new State("MegaRototo Check 2",
                     new NoPlayerWithinTransition(20, "MegaRototo")
                     ),
                 new State("MegaRototo",
                     new Spawn("MegaRototo", maxChildren: 1),
-                    new EntitiesNotExistsTransition(20, "Waiting", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
+                    new EntitiesNotExistsTransition(200, "Waiting", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
                     ),
                 new State("Swoll Fairy Check 1",
-                    new EntitiesNotExistsTransition(20, "Swoll Fairy Check 2", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
+                    new EntitiesNotExistsTransition(200, "Swoll Fairy Check 2", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
                     ),
                 new State("Swoll Fairy Check 2",
                     new NoPlayerWithinTransition(20, "Swoll Fairy")
                     ),
                 new State("Swoll Fairy",
                     new Spawn("Swoll Fairy", maxChildren: 1),
-                    new EntitiesNotExistsTransition(20, "Waiting", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
+                    new EntitiesNotExistsTransition(200, "Waiting", "Gigacorn", "MegaRototo", "Spoiled Creampuff", "Desire Troll", "Swoll Fairy")
                     )
                 )
             )

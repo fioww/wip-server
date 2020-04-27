@@ -84,7 +84,7 @@ namespace wServer.logic
 
                     .Init("Epic Larva",
             new State(
-
+                    new ScaleHP(9000, 0),
                     new State(
                     new ConditionalEffect(ConditionEffectIndex.Armored),
                     new Follow(0.08, 8, 1),
@@ -113,6 +113,7 @@ namespace wServer.logic
 
                  .Init("Epic Mama Megamoth",
                    new State(
+                    new ScaleHP(9000, 0),
                     new State(
                     new Spawn("Woodland Mini Megamoth", 1, 10, coolDown: 90000),
                     new Spawn("Woodland Mini Megamoth", 1, 2, coolDown: 5500),
@@ -150,6 +151,7 @@ namespace wServer.logic
 
                  .Init("Murderous Megamoth",
                    new State(
+                    new ScaleHP(6000, 0),
                     new State(
                         new RealmPortalDrop(),
                     new Spawn("Mini Larva", 1, 14, coolDown: 90000),

@@ -10,8 +10,10 @@ namespace wServer.logic
         private _ UndeadLair = () => Behav()
             .Init("Septavius the Ghost God",
                 new State(
+                    new ScaleHP(1600, 0),
                     new RealmPortalDrop(),
                     new State(
+                        new ConditionalEffect(ConditionEffectIndex.Invulnerable),
                         new PlayerWithinTransition(8, "transition1")
                         ),
                     new State(

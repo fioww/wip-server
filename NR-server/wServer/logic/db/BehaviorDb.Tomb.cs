@@ -14,6 +14,7 @@ namespace wServer.logic
         private _ Tomb = () => Behav()
             .Init("Tomb Defender",
                 new State(
+                    new ScaleHP(13000, 0),
                     new State("idle",
                         new Taunt("THIS WILL NOW BE YOUR TOMB!"),
                         new ConditionalEffect(ConditionEffectIndex.Armored),
@@ -96,6 +97,7 @@ namespace wServer.logic
             )
             .Init("Tomb Support",
                                 new State(
+                                    new ScaleHP(10000, 0),
                                         new Taunt(0.99, "ENOUGH OF YOUR VANDALISM!"),
                                         new State("Idle",
                                                 new ConditionalEffect(ConditionEffectIndex.Armored),
@@ -326,6 +328,7 @@ namespace wServer.logic
 
            .Init("Tomb Attacker",
                                 new State(
+                                        new ScaleHP(11000, 0),
                                         new Taunt(0.99, "YOU HAVE AWAKENED US!"),
                                         new State("Idle",
                                                 new ConditionalEffect(ConditionEffectIndex.Armored),

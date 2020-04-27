@@ -75,6 +75,7 @@ namespace wServer.logic
                           )*/
                         .Init("Son of Arachna",
                 new State(
+                    new ScaleHP(12000, 0),
                     new RealmPortalDrop(),
                     new State("Idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable),

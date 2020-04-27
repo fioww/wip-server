@@ -237,6 +237,7 @@ namespace wServer.logic
 
         .Init("False Puppet Master",
             new State(
+                new ScaleHP(2000, 0),
                 new TransformOnDeath("Rogue Puppet", 1, 1, 1),
                 new TransformOnDeath("Assassin Puppet", 1, 1, 1),
                 new State(
@@ -247,7 +248,7 @@ namespace wServer.logic
                     ),
                  new State("dead",
                      new ConditionalEffect(ConditionEffectIndex.Invulnerable),
-                    new Taunt(1.00, "You may have killed me, but I am only a pretender. Get ready for the plot twist!"),
+                    new Taunt(0.4, "You may have killed me, but I am only a pretender. Get ready for the plot twist!"),
                     new TimedTransition(2500, "die")
                     ),
                  new State("die",
@@ -260,6 +261,7 @@ namespace wServer.logic
 
           .Init("Puppet Loot Chest",
                 new State(
+                new ScaleHP(3000, 0),
                     new State("Idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable),
                         new TimedTransition(5000, "UnsetEffect")
@@ -286,7 +288,9 @@ namespace wServer.logic
             )
         .Init("The Puppet Master",
                 new State(
+                    new ScaleHP(7000, 0),
                     new TransformOnDeath("Puppet Loot Chest", 1, 1),
+                    new CopyDamageOnDeath("Puppet Loot Chest"),
                     new RealmPortalDrop(),
                     new State("default",
                         new ConditionalEffect(ConditionEffectIndex.Invincible),
@@ -391,15 +395,13 @@ namespace wServer.logic
                             new Shoot(1, 4, projectileIndex: 3, coolDown: 4575, fixedAngle: 100, coolDownOffset: 1600, shootAngle: 90)
                         ),
                     new State("NopeImDead",
-                        new ConditionalEffect(ConditionEffectIndex.Invulnerable),
+                        new ConditionalEffect(ConditionEffectIndex.Invulnerable, true),
                         new Flash(0xFFFFFF, 2, 2),
                         new MoveTo(speed: 1, x: 38, y: 54),
                         new Taunt(1.00, "NO!! This cannot be how my story ends!! I WILL HAVE MY ENCORE, HERO!"),
                         new TimedTransition(3250, "YepDead")
                         ),
                    new State("YepDead",
-                        new ConditionalEffect(ConditionEffectIndex.Invulnerable),
-                        new TransformOnDeath("Puppet Loot Chest", 1, 1, 1),
                         new Shoot(7, count: 8, projectileIndex: 1, coolDown: 5000),
                         new Suicide()
                         )

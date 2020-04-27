@@ -10,6 +10,7 @@ namespace wServer.logic
         private _ OryxCastle = () => Behav()
             .Init("Oryx Stone Guardian Right",
                 new State(
+                    new ScaleHP(12000, 0),
                     new State("Idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable, true),
                         new PlayerWithinTransition(2, "Order")
@@ -156,6 +157,7 @@ namespace wServer.logic
             )
             .Init("Oryx Stone Guardian Left",
                 new State(
+                    new ScaleHP(12000, 0),
                     new State("Idle",
                         new ConditionalEffect(ConditionEffectIndex.Invulnerable, true),
                         new PlayerWithinTransition(2, "Order")
