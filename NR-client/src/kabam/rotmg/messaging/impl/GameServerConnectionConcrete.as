@@ -226,6 +226,7 @@ import kabam.rotmg.ui.model.Key;
 import kabam.rotmg.ui.model.UpdateGameObjectTileVO;
 import kabam.rotmg.ui.signals.ShowHideKeyUISignal;
 import kabam.rotmg.ui.signals.ShowKeySignal;
+import kabam.rotmg.ui.signals.ShowLegendaryNotificationSignal;
 import kabam.rotmg.ui.signals.UpdateBackpackTabSignal;
 import kabam.rotmg.ui.view.NotEnoughGoldDialog;
 import kabam.rotmg.ui.view.TitleView;
@@ -1293,8 +1294,12 @@ public class GameServerConnectionConcrete extends GameServerConnection {
         }
     }
 
-    private function onGlobalNotification(_arg1:GlobalNotification):void {
-        switch (_arg1.text) {
+    private function onGlobalNotification(GN:GlobalNotification):void {
+        switch (GN.text)
+        {
+            case "legendaryDrop":
+                ShowLegendaryNotificationSignal.instance.dispatch();
+                return;
             case "yellow":
                 ShowKeySignal.instance.dispatch(Key.YELLOW);
                 return;

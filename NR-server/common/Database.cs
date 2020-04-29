@@ -1007,7 +1007,6 @@ namespace common
                 Tex2 = 0,
                 Skin = skinType,
                 PetId = 0xffff,
-                FameStats = new byte[0],
                 CreateTime = DateTime.Now,
                 LastSeen = DateTime.Now
             };
@@ -1077,9 +1076,7 @@ namespace common
             var classStats = new DbClassStats(acc);
 
             // calculate total fame given bonuses
-            bool firstBorn;
-            var finalFame = stats.CalculateTotal(dat, character,
-                classStats, out firstBorn);
+            var finalFame = stats.CalculateTotal(dat, character);
 
             // save character
             character.FinalFame = finalFame;
@@ -1091,7 +1088,6 @@ namespace common
                 Level = character.Level,
                 TotalFame = finalFame,
                 Killer = killer,
-                FirstBorn = firstBorn,
                 DeathTime = DateTime.UtcNow
             };
             death.FlushAsync();
@@ -1224,7 +1220,7 @@ namespace common
             foreach (var @char in chars)
             {
                 var c = new DbChar(acc, @char);
-                var f = FameStats.Read(c.FameStats);
+                var f = new FameStats();
 
                 Death(dat, acc, c, f, killer);
             }

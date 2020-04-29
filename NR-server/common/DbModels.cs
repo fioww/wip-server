@@ -712,12 +712,6 @@ namespace common
             set { SetValue<int>("petId", value); }
         }
 
-        public byte[] FameStats
-        {
-            get { return GetValue<byte[]>("fameStats"); }
-            set { SetValue<byte[]>("fameStats", value); }
-        }
-
         public DateTime CreateTime
         {
             get { return GetValue<DateTime>("createTime"); }
@@ -807,12 +801,6 @@ namespace common
         {
             get { return GetValue<string>("killer"); }
             set { SetValue<string>("killer", value); }
-        }
-
-        public bool FirstBorn
-        {
-            get { return GetValue<bool>("firstBorn"); }
-            set { SetValue<bool>("firstBorn", value); }
         }
 
         public DateTime DeathTime

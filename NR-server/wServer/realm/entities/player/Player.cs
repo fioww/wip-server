@@ -365,7 +365,6 @@ namespace wServer.realm.entities
             chr.Tex1 = Texture1;
             chr.Tex2 = Texture2;
             chr.Skin = _originalSkin;
-            chr.FameStats = FameCounter.Stats.Write();
             chr.LastSeen = DateTime.Now;
             chr.HealthStackCount = HealthPots.Count;
             chr.MagicStackCount = MagicPots.Count;
@@ -596,7 +595,6 @@ namespace wServer.realm.entities
                 HandleEffects(time);
                 HandleGrounds(time);
                 TickActivateEffects(time);
-                FameCounter.Tick(time);
 
                 // TODO, server side ground damage
                 //if (HandleGround(time))
@@ -699,7 +697,6 @@ namespace wServer.realm.entities
 
                 SetTPDisabledPeriod();
                 SetNewbiePeriod();
-                FameCounter.Teleport();
             }
             
             HandleQuest(time, true, position);

@@ -391,7 +391,6 @@ namespace server
         public int Tex1 { get; private set; }
         public int Tex2 { get; private set; }
         public int Skin { get; private set; }
-        public FameStats PCStats { get; private set; }
         public int HealthStackCount { get; private set; }
         public int MagicStackCount { get; private set; }
         public bool Dead { get; private set; }
@@ -421,7 +420,6 @@ namespace server
                 Tex1 = character.Tex1,
                 Tex2 = character.Tex2,
                 Skin = character.Skin,
-                PCStats = FameStats.Read(character.FameStats),
                 HealthStackCount = character.HealthStackCount,
                 MagicStackCount = character.MagicStackCount,
                 Dead = dead,
@@ -453,7 +451,6 @@ namespace server
                     new XElement("Tex1", Tex1),
                     new XElement("Tex2", Tex2),
                     new XElement("Texture", Skin),
-                    new XElement("PCStats", Convert.ToBase64String(PCStats.Write())),
                     new XElement("HealthStackCount", HealthStackCount),
                     new XElement("MagicStackCount", MagicStackCount),
                     new XElement("Dead", Dead),
@@ -669,7 +666,6 @@ namespace server
         public IEnumerable<Tuple<string, string, int>> Bonuses { get; private set; }
         public int TotalFame { get; private set; }
 
-        public bool FirstBorn { get; private set; }
         public DateTime DeathTime { get; private set; }
         public string Killer { get; private set; }
 
@@ -677,16 +673,15 @@ namespace server
         {
             DbDeath death = new DbDeath(character.Account, character.CharId);
             if (death.IsNull) return null;
-            var stats = FameStats.Read(character.FameStats);
+            var stats = new FameStats();
             return new Fame()
             {
                 Name = character.Account.Name,
                 Character = Character.FromDb(character, !death.IsNull),
                 Stats = stats,
-                Bonuses = stats.GetBonuses(Program.Resources.GameData, character, death.FirstBorn),
+                Bonuses = stats.GetBonuses(Program.Resources.GameData, character),
                 TotalFame = death.TotalFame,
 
-                FirstBorn = death.FirstBorn,
                 DeathTime = death.DeathTime,
                 Killer = death.Killer
             };
@@ -708,32 +703,7 @@ namespace server
                     GetCharElem(),
                     new XElement("BaseFame", Character.CurrentFame),
                     new XElement("TotalFame", TotalFame),
-
-                    new XElement("Shots", Stats.Shots),
-                    new XElement("ShotsThatDamage", Stats.ShotsThatDamage),
-                    new XElement("SpecialAbilityUses", Stats.SpecialAbilityUses),
-                    new XElement("TilesUncovered", Stats.TilesUncovered),
-                    new XElement("Teleports", Stats.Teleports),
-                    new XElement("PotionsDrunk", Stats.PotionsDrunk),
-                    new XElement("MonsterKills", Stats.MonsterKills),
-                    new XElement("MonsterAssists", Stats.MonsterAssists),
-                    new XElement("GodKills", Stats.GodKills),
-                    new XElement("GodAssists", Stats.GodAssists),
-                    new XElement("CubeKills", Stats.CubeKills),
-                    new XElement("OryxKills", Stats.OryxKills),
-                    new XElement("QuestsCompleted", Stats.QuestsCompleted),
-                    new XElement("PirateCavesCompleted", Stats.PirateCavesCompleted),
-                    new XElement("UndeadLairsCompleted", Stats.UndeadLairsCompleted),
-                    new XElement("AbyssOfDemonsCompleted", Stats.AbyssOfDemonsCompleted),
-                    new XElement("SnakePitsCompleted", Stats.SnakePitsCompleted),
-                    new XElement("SpiderDensCompleted", Stats.SpiderDensCompleted),
-                    new XElement("SpriteWorldsCompleted", Stats.SpriteWorldsCompleted),
-                    new XElement("LevelUpAssists", Stats.LevelUpAssists),
-                    new XElement("MinutesActive", Stats.MinutesActive),
-                    new XElement("TombsCompleted", Stats.TombsCompleted),
-                    new XElement("TrenchesCompleted", Stats.TrenchesCompleted),
-                    new XElement("JunglesCompleted", Stats.JunglesCompleted),
-                    new XElement("ManorsCompleted", Stats.ManorsCompleted),
+                                        
                     Bonuses.Select(x =>
                         new XElement("Bonus",
                             new XAttribute("id", x.Item1),

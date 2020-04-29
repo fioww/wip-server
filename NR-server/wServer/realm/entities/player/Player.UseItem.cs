@@ -200,21 +200,6 @@ namespace wServer.realm.entities
                                     return;
                                 }
 
-                                if (slotType > 0)
-                                {
-                                    FameCounter.UseAbility();
-                                } else
-                                {
-                                    if (item.ActivateEffects.Any(eff => eff.Effect == ActivateEffects.Heal ||
-                                                                        eff.Effect == ActivateEffects.HealNova ||
-                                                                        eff.Effect == ActivateEffects.Magic ||
-                                                                        eff.Effect == ActivateEffects.MagicNova))
-                                    {
-                                        FameCounter.DrinkPot();
-                                    }
-                                }
-
-
                                 Activate(time, item, pos);
                             });
                         task.ContinueWith(e =>
@@ -223,14 +208,6 @@ namespace wServer.realm.entities
                         return;
                     }
 
-                    if (slotType > 0)
-                    {
-                        FameCounter.UseAbility();
-                    }
-                }
-                else
-                {
-                    FameCounter.DrinkPot();
                 }
 
                 if (item.Consumable || item.SlotType == slotType)
@@ -1157,7 +1134,6 @@ namespace wServer.realm.entities
                     ContainerType = item.ObjectType,
                     BulletId = proj.ProjectileId
                 };
-                FameCounter.Shoot(proj);
             }
             BroadcastSync(sPkts, p => p != this && this.DistSqr(p) < RadiusSqr);
         }
@@ -1173,7 +1149,6 @@ namespace wServer.realm.entities
                     Random.Next(prjDesc.MinDamage, prjDesc.MaxDamage),
                     time.TotalElapsedMs, target, (float)(i * (Math.PI * 2) / 20));
                 Owner.EnterWorld(proj);
-                FameCounter.Shoot(proj);
                 batch[i] = new ServerPlayerShoot()
                 {
                     BulletId = proj.ProjectileId,

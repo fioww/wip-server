@@ -344,7 +344,6 @@ namespace wServer.realm.entities
             {
                 Experience += exp;
             }
-            FameCounter.Killed(enemy, killer);
             return CheckLevelUp();
         }
     }

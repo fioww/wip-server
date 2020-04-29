@@ -423,6 +423,8 @@ namespace common.resources
 
             if (elem.Attribute("throwTime") != null)
                 ThrowTime = double.Parse(elem.Attribute("throwTime").Value) * 1000;
+            else
+                ThrowTime = 1.0;
 
             if (elem.Attribute("impactDamage") != null)
                 ImpactDamage = int.Parse(elem.Attribute("impactDamage").Value);

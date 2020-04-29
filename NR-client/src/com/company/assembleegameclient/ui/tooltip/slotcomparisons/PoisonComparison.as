@@ -12,7 +12,7 @@ public class PoisonComparison extends SlotComparison {
         var activate:XMLList;
         var otherActivate:XMLList;
         var impactDamage:int;
-        var throwTime:int;
+        var throwTime:Number;
         var damage:int;
         var otherDamage:int;
         var radius:Number;
@@ -36,7 +36,11 @@ public class PoisonComparison extends SlotComparison {
             throwTime = Number(activate[0].@throwTime);
             avg = (((0.33 * damage) + (0.33 * radius)) + (0.33 * duration));
             otherAvg = (((0.33 * otherDamage) + (0.33 * otherRadius)) + (0.33 * otherDuration));
-            dataLineBuilder = new LineBuilder().setParams(TextKey.POISON_GRENADE_DATA, {
+            dataLineBuilder = new LineBuilder().setParams(
+                    "Within {radius} sqrs\n" +
+                    "After {throwTime} seconds\n" +
+                    "{impactDamage} immediately + {damage} over {duration} seconds",
+                    {
                 "damage": damage.toString(),
                 "duration": duration.toString(),
                 "radius": radius.toString(),

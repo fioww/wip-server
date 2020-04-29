@@ -630,6 +630,19 @@ namespace wServer.realm.commands
         }
     }
 
+    /*
+    class ShowNotif : Command
+    {
+        public ShowNotif() : base("notification", permLevel: 100, listCommand: false) { }
+
+        protected override bool Process(Player player, RealmTime time, string args)
+        {
+            player.Client.SendPacket(new GlobalNotification() { Text = "legendaryDrop" });
+            return true;
+        }
+    }
+    */
+
     class KillAllCommand : Command
     {
         public KillAllCommand() : base("killAll", permLevel: 90, alias: "ka") { }

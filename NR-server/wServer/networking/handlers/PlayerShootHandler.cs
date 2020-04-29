@@ -53,7 +53,6 @@ namespace wServer.networking.handlers
                 ContainerType = packet.ContainerType,
                 BulletId = packet.BulletId
             }, player, player, PacketPriority.Low);
-            player.FameCounter.Shoot(prj);
         }
     }
 }

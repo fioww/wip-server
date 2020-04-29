@@ -10381,7 +10381,7 @@
       <BagType>8</BagType>
       <FameBonus>4</FameBonus>
       <MpCost>90</MpCost>
-      <Activate radius="9" totalDamage="800" duration="10" color="8fa547">PoisonGrenade</Activate>
+      <Activate radius="9" totalDamage="800" duration="10" color="8fa547" throwTime="1.5">PoisonGrenade</Activate>
       <feedPower>450</feedPower>
       <!--<Soulbound/>-->
    </Object>

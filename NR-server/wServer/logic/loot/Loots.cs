@@ -2,8 +2,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using wServer.networking.packets.outgoing;
 using wServer.realm;
 using wServer.realm.entities;
+using wServer.realm.worlds.logic;
 
 namespace wServer.logic.loot
 {
@@ -45,13 +47,18 @@ namespace wServer.logic.loot
             }
         }
 
-        public void Handle(Enemy enemy, RealmTime time) {
+        public void Handle(Enemy enemy, RealmTime time)
+        {
+            if (enemy.Spawned || enemy.Owner is Arena || enemy.Owner is ArenaSolo)
+                return;
+
             var consideration = new List<LootDef>();
 
             var sharedLoots = new List<Item>();
             foreach (var i in this)
                 i.Populate(enemy.Manager, enemy, null, Rand, consideration);
-            foreach (var i in consideration) {
+            foreach (var i in consideration)
+            {
                 if (Rand.NextDouble() < i.Probability)
                     sharedLoots.Add(i.Item);
             }
@@ -63,7 +70,8 @@ namespace wServer.logic.loot
             foreach (var loot in sharedLoots.Where(item => item.Soulbound))
                 loots[dats[Rand.Next(dats.Length)].Item1].Add(loot);
 
-            foreach (var dat in dats) {
+            foreach (var dat in dats)
+            {
                 consideration.Clear();
                 foreach (var i in this)
                     i.Populate(enemy.Manager, enemy, dat, Rand, consideration);
@@ -72,7 +80,8 @@ namespace wServer.logic.loot
                 var luckStatBoost = 1 + dat.Item1.Stats.Boost[10] / 100.0;
 
                 var playerLoot = loots[dat.Item1];
-                foreach (var i in consideration) {
+                foreach (var i in consideration)
+                {
                     if (Rand.NextDouble() < i.Probability * lootDropBoost * luckStatBoost)
                         playerLoot.Add(i.Item);
                 }
@@ -81,9 +90,11 @@ namespace wServer.logic.loot
             AddBagsToWorld(enemy, sharedLoots, loots);
         }
 
-        private static void AddBagsToWorld(Enemy enemy, IList<Item> shared, IDictionary<Player, IList<Item>> soulbound) {
+        private static void AddBagsToWorld(Enemy enemy, IList<Item> shared, IDictionary<Player, IList<Item>> soulbound)
+        {
             var pub = new List<Player>();  //only people not getting soulbound
-            foreach (var i in soulbound) {
+            foreach (var i in soulbound)
+            {
                 if (i.Value.Count > 0)
                     ShowBags(enemy, i.Value, i.Key);
                 else
@@ -113,6 +124,17 @@ namespace wServer.logic.loot
                 }
             }
 
+            if (bagType == 9)
+            {
+                owners[0].Client.SendPacket(new GlobalNotification() { Text = "legendaryDrop" });
+                owners[0].BroadcastSync(new Notification()
+                {
+                    ObjectId = owners[0].Id,
+                    Color = new ARGB(0xFFFFFF),
+                    Message = "Legendary!"
+                }, p => owners[0].DistSqr(p) < 400); //20*20
+            }
+            
             if (idx > 0)
                 ShowBag(enemy, ownerIds, bagType, items);
         }

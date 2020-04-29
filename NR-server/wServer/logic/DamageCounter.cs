@@ -34,8 +34,6 @@ namespace wServer.logic
 
             LastProjectile = projectile;
             LastHitter = player;
-
-            player.FameCounter.Hit(projectile, enemy);
         }
 
         public Tuple<Player, int>[] GetPlayerData()
@@ -105,9 +103,6 @@ namespace wServer.logic
                         killer) && !killer)
                     lvlUps++;
             }
-
-            if ((Parent ?? this).LastHitter != null)
-                (Parent ?? this).LastHitter.FameCounter.LevelUpAssist(lvlUps);
         }
 
         /*public void Death(RealmTime time)

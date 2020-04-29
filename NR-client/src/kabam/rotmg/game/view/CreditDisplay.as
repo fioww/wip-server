@@ -103,23 +103,26 @@ public class CreditDisplay extends Sprite {
             this.fortuneTimeText_.x = (-(this.fortuneTimeText_.width) - 2);
             this.fortuneTimeText_.y = 33;
             this.coinIcon_.x = (this.fortuneText_.x - this.coinIcon_.width);
+            this.coinIcon_.y = 28;
             this.creditsText_.x = ((this.coinIcon_.x - this.creditsText_.width) + 8);
             this.creditsText_.y = ((this.coinIcon_.y + (this.coinIcon_.height / 2)) - (this.creditsText_.height / 2));
         }
         else {
             this.coinIcon_.x = -(this.coinIcon_.width);
+            this.coinIcon_.y = this.fameIcon_.y + 24;
             this.creditsText_.x = ((this.coinIcon_.x - this.creditsText_.width) + 8);
             this.creditsText_.y = ((this.coinIcon_.y + (this.coinIcon_.height / 2)) - (this.creditsText_.height / 2));
         }
         if (this.displayFame_) {
-            this.fameIcon_.x = (this.creditsText_.x - this.fameIcon_.width);
+            this.fameIcon_.x = -(this.fameIcon_.width);
+            this.fameIcon_.y = 0;
             this.fameText_.x = ((this.fameIcon_.x - this.fameText_.width) + 8);
             this.fameText_.y = ((this.fameIcon_.y + (this.fameIcon_.height / 2)) - (this.fameText_.height / 2));
         }
     }
 
     private function onDoubleClick(_arg1:MouseEvent):void {
-        if (((((!(this.gs)) || (this.gs.evalIsNotInCombatMapArea()))) || ((Parameters.data_.clickForGold == true)))) {
+        if ((!(this.gs)) || (this.gs.evalIsNotInCombatMapArea()) || Parameters.data_.clickForGold) {
             this.openAccountDialog.dispatch();
         }
     }
