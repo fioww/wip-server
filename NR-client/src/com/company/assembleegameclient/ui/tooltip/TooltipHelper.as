@@ -33,6 +33,15 @@ public class TooltipHelper {
         return (NO_DIFF_COLOR);
     }
 
+    public static function getPlural(_arg_1:Number, _arg_2:String) : String
+    {
+        var _local_3:String = _arg_1 + " " + _arg_2;
+        if(_arg_1 != 1)
+        {
+            return _local_3 + "s";
+        }
+        return _local_3;
+    }
 
 }
 }

@@ -11,6 +11,7 @@ namespace wServer.networking.packets.outgoing
         public ConditionEffectIndex Effect { get; set; }
         public float Duration { get; set; }
         public ushort OrigType { get; set; }
+        public ARGB Color { get; set; }
 
         public override PacketId ID => PacketId.AOE;
         public override Packet CreateInstance() { return new Aoe(); }
@@ -23,6 +24,7 @@ namespace wServer.networking.packets.outgoing
             Effect = (ConditionEffectIndex)rdr.ReadByte();
             Duration = rdr.ReadSingle();
             OrigType = rdr.ReadUInt16();
+            Color = ARGB.Read(rdr);
         }
         protected override void Write(NWriter wtr)
         {
@@ -32,6 +34,7 @@ namespace wServer.networking.packets.outgoing
             wtr.Write((byte)Effect);
             wtr.Write(Duration);
             wtr.Write(OrigType);
+            Color.Write(wtr);
         }
     }
 }

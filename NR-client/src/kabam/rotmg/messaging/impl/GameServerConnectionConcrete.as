@@ -1344,122 +1344,151 @@ public class GameServerConnectionConcrete extends GameServerConnection {
         return (true);
     }
 
-    private function onShowEffect(_arg1:ShowEffect):void {
-        var _local3:GameObject;
-        var _local4:ParticleEffect;
-        var _local5:Point;
-        var _local6:uint;
-        var _local2:AbstractMap = gs_.map;
-        switch (_arg1.effectType_) {
+    private function onShowEffect(se:ShowEffect):void {
+        var go:GameObject;
+        var particleEffect:ParticleEffect;
+        var toPos:Point;
+        var time:uint;
+        var map:AbstractMap = gs_.map;
+
+        if (Parameters.data_.noParticlesMaster
+                && (se.effectType_ == ShowEffect.HEAL_EFFECT_TYPE
+                        || se.effectType_ == ShowEffect.TELEPORT_EFFECT_TYPE
+                        || se.effectType_ == ShowEffect.STREAM_EFFECT_TYPE
+                        || se.effectType_ == ShowEffect.POISON_EFFECT_TYPE
+                        || se.effectType_ == ShowEffect.LINE_EFFECT_TYPE
+                        || se.effectType_ == ShowEffect.FLOW_EFFECT_TYPE
+                        || se.effectType_ == ShowEffect.COLLAPSE_EFFECT_TYPE
+                        || se.effectType_ == ShowEffect.CONEBLAST_EFFECT_TYPE)) {
+            return;
+        }
+
+        switch (se.effectType_) {
             case ShowEffect.HEAL_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                if ((((_local3 == null)) || (!(this.canShowEffect(_local3))))) break;
-                _local2.addObj(new HealEffect(_local3, _arg1.color_), _local3.x_, _local3.y_);
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+
+                map.addObj(new HealEffect(go, se.color_), go.x_, go.y_);
                 return;
             case ShowEffect.TELEPORT_EFFECT_TYPE:
-                _local2.addObj(new TeleportEffect(), _arg1.pos1_.x_, _arg1.pos1_.y_);
+                map.addObj(new TeleportEffect(), se.pos1_.x_, se.pos1_.y_);
                 return;
             case ShowEffect.STREAM_EFFECT_TYPE:
-                _local4 = new StreamEffect(_arg1.pos1_, _arg1.pos2_, _arg1.color_);
-                _local2.addObj(_local4, _arg1.pos1_.x_, _arg1.pos1_.y_);
+                particleEffect = new StreamEffect(se.pos1_, se.pos2_, se.color_);
+                map.addObj(particleEffect, se.pos1_.x_, se.pos1_.y_);
                 return;
             case ShowEffect.THROW_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                _local5 = (((_local3) != null) ? new Point(_local3.x_, _local3.y_) : _arg1.pos2_.toPoint());
-                if (((!((_local3 == null))) && (!(this.canShowEffect(_local3))))) break;
-                _local4 = new ThrowEffect(_local5, _arg1.pos1_.toPoint(), _arg1.color_);
-                _local2.addObj(_local4, _local5.x, _local5.y);
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+
+                toPos = (go != null ? new Point(go.x_, go.y_) : se.pos2_.toPoint());
+                particleEffect = new ThrowEffect(toPos, se.pos1_.toPoint(), se.color_, se.duration_ * 1000);
+                map.addObj(particleEffect, toPos.x, toPos.y);
                 return;
             case ShowEffect.NOVA_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                if ((((_local3 == null)) || (!(this.canShowEffect(_local3))))) break;
-                _local4 = new NovaEffect(_local3, _arg1.pos1_.x_, _arg1.color_);
-                _local2.addObj(_local4, _local3.x_, _local3.y_);
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+
+                particleEffect = new NovaEffect(go, se.pos1_.x_, se.color_);
+                map.addObj(particleEffect, go.x_, go.y_);
                 return;
             case ShowEffect.POISON_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                if ((((_local3 == null)) || (!(this.canShowEffect(_local3))))) break;
-                _local4 = new PoisonEffect(_local3, _arg1.color_);
-                _local2.addObj(_local4, _local3.x_, _local3.y_);
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+
+                particleEffect = new PoisonEffect(go, se.color_);
+                map.addObj(particleEffect, go.x_, go.y_);
                 return;
             case ShowEffect.LINE_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                if ((((_local3 == null)) || (!(this.canShowEffect(_local3))))) break;
-                _local4 = new LineEffect(_local3, _arg1.pos1_, _arg1.color_);
-                _local2.addObj(_local4, _arg1.pos1_.x_, _arg1.pos1_.y_);
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+
+                particleEffect = new LineEffect(go, se.pos1_, se.color_);
+                map.addObj(particleEffect, se.pos1_.x_, se.pos1_.y_);
                 return;
             case ShowEffect.BURST_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                if ((((_local3 == null)) || (!(this.canShowEffect(_local3))))) break;
-                _local4 = new BurstEffect(_local3, _arg1.pos1_, _arg1.pos2_, _arg1.color_);
-                _local2.addObj(_local4, _arg1.pos1_.x_, _arg1.pos1_.y_);
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+
+                particleEffect = new BurstEffect(go, se.pos1_, se.pos2_, se.color_);
+                map.addObj(particleEffect, se.pos1_.x_, se.pos1_.y_);
                 return;
             case ShowEffect.FLOW_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                if ((((_local3 == null)) || (!(this.canShowEffect(_local3))))) break;
-                _local4 = new FlowEffect(_arg1.pos1_, _local3, _arg1.color_);
-                _local2.addObj(_local4, _arg1.pos1_.x_, _arg1.pos1_.y_);
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+
+                particleEffect = new FlowEffect(se.pos1_, go, se.color_);
+                map.addObj(particleEffect, se.pos1_.x_, se.pos1_.y_);
                 return;
             case ShowEffect.RING_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                if ((((_local3 == null)) || (!(this.canShowEffect(_local3))))) break;
-                _local4 = new RingEffect(_local3, _arg1.pos1_.x_, _arg1.color_);
-                _local2.addObj(_local4, _local3.x_, _local3.y_);
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+
+                particleEffect = new RingEffect(go, se.pos1_.x_, se.color_);
+                map.addObj(particleEffect, go.x_, go.y_);
                 return;
             case ShowEffect.LIGHTNING_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                if ((((_local3 == null)) || (!(this.canShowEffect(_local3))))) break;
-                _local4 = new LightningEffect(_local3, _arg1.pos1_, _arg1.color_, _arg1.pos2_.x_);
-                _local2.addObj(_local4, _local3.x_, _local3.y_);
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+
+                particleEffect = new LightningEffect(go, se.pos1_, se.color_, se.pos2_.x_);
+                map.addObj(particleEffect, go.x_, go.y_);
                 return;
             case ShowEffect.COLLAPSE_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                if ((((_local3 == null)) || (!(this.canShowEffect(_local3))))) break;
-                _local4 = new CollapseEffect(_local3, _arg1.pos1_, _arg1.pos2_, _arg1.color_);
-                _local2.addObj(_local4, _arg1.pos1_.x_, _arg1.pos1_.y_);
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+
+                particleEffect = new CollapseEffect(go, se.pos1_, se.pos2_, se.color_);
+                map.addObj(particleEffect, se.pos1_.x_, se.pos1_.y_);
                 return;
             case ShowEffect.CONEBLAST_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                if ((((_local3 == null)) || (!(this.canShowEffect(_local3))))) break;
-                _local4 = new ConeBlastEffect(_local3, _arg1.pos1_, _arg1.pos2_.x_, _arg1.color_);
-                _local2.addObj(_local4, _local3.x_, _local3.y_);
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+
+                particleEffect = new ConeBlastEffect(go, se.pos1_, se.pos2_.x_, se.color_);
+                map.addObj(particleEffect, go.x_, go.y_);
                 return;
             case ShowEffect.JITTER_EFFECT_TYPE:
                 gs_.camera_.startJitter();
                 return;
             case ShowEffect.FLASH_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                if ((((_local3 == null)) || (!(this.canShowEffect(_local3))))) break;
-                _local3.flash_ = new FlashDescription(getTimer(), _arg1.color_, _arg1.pos1_.x_, _arg1.pos1_.y_);
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+
+                go.flash_ = new FlashDescription(getTimer(), se.color_, se.pos1_.x_, se.pos1_.y_);
                 return;
             case ShowEffect.THROW_PROJECTILE_EFFECT_TYPE:
-                _local5 = _arg1.pos1_.toPoint();
-                if (((!((_local3 == null))) && (!(this.canShowEffect(_local3))))) break;
-                _local4 = new ThrowProjectileEffect(_arg1.color_, _arg1.pos2_.toPoint(), _arg1.pos1_.toPoint());
-                _local2.addObj(_local4, _local5.x, _local5.y);
+                toPos = se.pos1_.toPoint();
+                if (go == null || !this.canShowEffect(go)) break;
+
+                particleEffect = new ThrowProjectileEffect(se.color_, se.pos2_.toPoint(), se.pos1_.toPoint());
+                map.addObj(particleEffect, toPos.x, toPos.y);
                 return;
             case ShowEffect.SHOCKER_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                if ((((_local3 == null)) || (!(this.canShowEffect(_local3))))) break;
-                if (((_local3) && (_local3.shockEffect))) {
-                    _local3.shockEffect.destroy();
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+                if (go && go.shockEffect) {
+                    go.shockEffect.destroy();
                 }
-                _local4 = new ShockerEffect(_local3);
-                _local3.shockEffect = ShockerEffect(_local4);
-                gs_.map.addObj(_local4, _local3.x_, _local3.y_);
+
+                particleEffect = new ShockerEffect(go);
+                go.shockEffect = ShockerEffect(particleEffect);
+                gs_.map.addObj(particleEffect, go.x_, go.y_);
                 return;
             case ShowEffect.SHOCKEE_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                if ((((_local3 == null)) || (!(this.canShowEffect(_local3))))) break;
-                _local4 = new ShockeeEffect(_local3);
-                gs_.map.addObj(_local4, _local3.x_, _local3.y_);
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+
+                particleEffect = new ShockeeEffect(go);
+                gs_.map.addObj(particleEffect, go.x_, go.y_);
                 return;
             case ShowEffect.RISING_FURY_EFFECT_TYPE:
-                _local3 = _local2.goDict_[_arg1.targetObjectId_];
-                if ((((_local3 == null)) || (!(this.canShowEffect(_local3))))) break;
-                _local6 = (_arg1.pos1_.x_ * 1000);
-                _local4 = new RisingFuryEffect(_local3, _local6);
-                gs_.map.addObj(_local4, _local3.x_, _local3.y_);
+                go = map.goDict_[se.targetObjectId_];
+                if (go == null || !this.canShowEffect(go)) break;
+
+                time = (se.pos1_.x_ * 1000);
+                particleEffect = new RisingFuryEffect(go, time);
+                gs_.map.addObj(particleEffect, go.x_, go.y_);
                 return;
         }
     }
@@ -1945,28 +1974,28 @@ public class GameServerConnectionConcrete extends GameServerConnection {
         gs_.map.quest_.setObject(_arg1.objectId_);
     }
 
-    private function onAoe(_arg1:Aoe):void {
+    private function onAoe(aoe:Aoe):void {
         var _local4:int;
         var _local5:Vector.<uint>;
         if (this.player == null) {
             this.aoeAck(gs_.lastUpdate_, 0, 0);
             return;
         }
-        var _local2:AOEEffect = new AOEEffect(_arg1.pos_.toPoint(), _arg1.radius_, 0xFF0000);
-        gs_.map.addObj(_local2, _arg1.pos_.x_, _arg1.pos_.y_);
+        var _local2:AOEEffect = new AOEEffect(aoe.pos_.toPoint(), aoe.radius_, aoe.color_);
+        gs_.map.addObj(_local2, aoe.pos_.x_, aoe.pos_.y_);
         if (((this.player.isInvincible()) || (this.player.isPaused()))) {
             this.aoeAck(gs_.lastUpdate_, this.player.x_, this.player.y_);
             return;
         }
-        var _local3 = (this.player.distTo(_arg1.pos_) < _arg1.radius_);
+        var _local3 = (this.player.distTo(aoe.pos_) < aoe.radius_);
         if (_local3) {
-            _local4 = GameObject.damageWithDefense(_arg1.damage_, this.player.defense_, false, this.player.condition_);
+            _local4 = GameObject.damageWithDefense(aoe.damage_, this.player.defense_, false, this.player.condition_);
             _local5 = null;
-            if (_arg1.effect_ != 0) {
+            if (aoe.effect_ != 0) {
                 _local5 = new Vector.<uint>();
-                _local5.push(_arg1.effect_);
+                _local5.push(aoe.effect_);
             }
-            this.player.damage(_arg1.origType_, _local4, _local5, false, null);
+            this.player.damage(aoe.origType_, _local4, _local5, false, null);
         }
         this.aoeAck(gs_.lastUpdate_, this.player.x_, this.player.y_);
     }

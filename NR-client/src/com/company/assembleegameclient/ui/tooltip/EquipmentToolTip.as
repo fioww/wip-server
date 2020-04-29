@@ -438,6 +438,13 @@ public class EquipmentToolTip extends ToolTip {
                             "duration": _local1.@duration
                         }));
                         break;
+                    case ActivationType.STAT_BOOST_SELF:
+                        this.effects.push(new Effect("{amount} {stat} for {duration} ",{
+                            "amount": prefix(_local1.@amount),
+                            "stat": new LineBuilder().setParams(StatData.statToName(int(_local1.@stat))),
+                            "duration": TooltipHelper.getPlural(_local1.@duration, "second")
+                        }));
+                        continue;
                     case ActivationType.HEAL:
                         this.effects.push(new Effect(TextKey.INCREMENT_STAT, {
                             "statAmount": (("+" + _local1.@amount) + " "),
@@ -500,12 +507,17 @@ public class EquipmentToolTip extends ToolTip {
                         }));
                         break;
                     case ActivationType.POISON_GRENADE:
-                        this.effects.push(new Effect(TextKey.POISON_GRENADE, {"data": ""}));
-                        this.effects.push(new Effect(TextKey.POISON_GRENADE_DATA, {
-                            "damage": _local1.@totalDamage,
-                            "duration": _local1.@duration,
-                            "radius": _local1.@radius
-                        }).setColor(TooltipHelper.NO_DIFF_COLOR));
+                        this.effects.push(new Effect("Poison Grenade: {data}", {
+                            "data": new AppendingLineBuilder().pushParams("Within {radius} sqrs\n" +
+                                    "After {throwTime} seconds\n" +
+                                    "{impactDamage} immediately + {damage} over {duration} seconds", {
+                                "damage": _local1.@totalDamage,
+                                "duration": _local1.@duration,
+                                "radius": _local1.@radius,
+                                "impactDamage": _local1.@impactDamage,
+                                "throwTime": _local1.@throwTime
+                            }, TooltipHelper.getOpenTag(TooltipHelper.NO_DIFF_COLOR), TooltipHelper.getCloseTag())
+                        }));
                         break;
                     case ActivationType.REMOVE_NEG_COND:
                         this.effects.push(new Effect(TextKey.REMOVES_NEGATIVE, {}).setColor(TooltipHelper.NO_DIFF_COLOR));
@@ -647,6 +659,11 @@ public class EquipmentToolTip extends ToolTip {
             "statAmount": ((isPositive + String(statAmount)) + " "),
             "statName": new LineBuilder().setParams(StatData.statToName(statName))
         });
+    }
+
+    private static function prefix(input:int) : String {
+        var formattedStr:String = (input > -1 ? "+" : "");
+        return formattedStr + input;
     }
 
     private function getComparedStatColor(activateXML:XML):uint {

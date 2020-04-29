@@ -17,7 +17,7 @@ namespace wServer.realm.entities
 {
     interface IPlayer
     {
-        void Damage(int dmg, Entity src);
+        void Damage(int dmg, Entity src, bool noDef);
         bool IsVisibleToEnemy();
     }
 
@@ -818,12 +818,12 @@ namespace wServer.realm.entities
             return base.HitByProjectile(projectile, time);
         }
 
-        public void Damage(int dmg, Entity src)
+        public void Damage(int dmg, Entity src, bool noDef = false)
         {
             if (IsInvulnerable())
                 return;
 
-            dmg = (int)Stats.GetDefenseDamage(dmg, false);
+            dmg = (int)Stats.GetDefenseDamage(dmg, noDef);
             if (!HasConditionEffect(ConditionEffects.Invulnerable))
                 HP -= dmg;
             Owner.BroadcastPacketNearby(new Damage()

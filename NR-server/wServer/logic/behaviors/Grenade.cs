@@ -10,26 +10,28 @@ namespace wServer.logic.behaviors
     {
         //State storage: cooldown timer
 
-        double range;
-        float radius;
-        double? fixedAngle;
-        int damage;
-        Cooldown coolDown;
-        ConditionEffectIndex effect;
-        int effectDuration;
-        new uint color;
+        double range_;
+        float radius_;
+        double? fixedAngle_;
+        int damage_;
+        Cooldown coolDown_;
+        ConditionEffectIndex effect_;
+        int effectDuration_;
+        private readonly ARGB color_;
+        bool noDef_;
 
         public Grenade(double radius, int damage, double range = 5,
-            double? fixedAngle = null, Cooldown coolDown = new Cooldown(), ConditionEffectIndex effect = 0, int effectDuration = 0, uint color = 0xffff0000)
+            double? fixedAngle = null, Cooldown coolDown = new Cooldown(), ConditionEffectIndex effect = 0, int effectDuration = 0, uint color = 0xffff0000, bool noDef = false)
         {
-            this.radius = (float)radius;
-            this.damage = damage;
-            this.range = range;
-            this.fixedAngle = fixedAngle * Math.PI / 180;
-            this.coolDown = coolDown.Normalize();
-            this.effect = effect;
-            this.effectDuration = effectDuration;
-            this.color = color;
+            radius_ = (float)radius;
+            damage_ = damage;
+            range_ = range;
+            fixedAngle_ = fixedAngle * Math.PI / 180;
+            coolDown_ = coolDown.Normalize();
+            effect_ = effect;
+            effectDuration_ = effectDuration;
+            color_ = new ARGB(color);
+            noDef_ = noDef;
         }
 
         protected override void OnStateEntry(Entity host, RealmTime time, ref object state)
@@ -46,15 +48,15 @@ namespace wServer.logic.behaviors
                 if (host.HasConditionEffect(ConditionEffects.Stunned))
                     return;
 
-                var player = host.AttackTarget ?? host.GetNearestEntity(range, true);
-                if (player != null || fixedAngle != null)
+                var player = host.AttackTarget ?? host.GetNearestEntity(range_, true);
+                if (player != null || fixedAngle_ != null)
                 {
                     Position target;
-                    if (fixedAngle != null)
+                    if (fixedAngle_ != null)
                         target = new Position()
                         {
-                            X = (float)(range * Math.Cos(fixedAngle.Value)) + host.X,
-                            Y = (float)(range * Math.Sin(fixedAngle.Value)) + host.Y,
+                            X = (float)(range_ * Math.Cos(fixedAngle_.Value)) + host.X,
+                            Y = (float)(range_ * Math.Sin(fixedAngle_.Value)) + host.Y,
                         };
                     else
                         target = new Position()
@@ -65,7 +67,7 @@ namespace wServer.logic.behaviors
                     host.Owner.BroadcastPacketNearby(new ShowEffect()
                     {
                         EffectType = EffectType.Throw,
-                        Color = new ARGB(color),
+                        Color = color_,
                         TargetObjectId = host.Id,
                         Pos1 = target
                     }, host, null, PacketPriority.Low);
@@ -74,26 +76,26 @@ namespace wServer.logic.behaviors
                         world.BroadcastPacketNearby(new Aoe()
                         {
                             Pos = target,
-                            Radius = radius,
-                            Damage = (ushort)damage,
+                            Radius = radius_,
+                            Damage = (ushort)damage_,
                             Duration = 0,
                             Effect = 0,
+                            Color = color_,
                             OrigType = host.ObjectType
                         }, host, null, PacketPriority.Low);
-                        world.AOE(target, radius, true, p =>
+                        world.AOE(target, radius_, true, p =>
                         {
-                            (p as IPlayer).Damage(damage, host);
+                            (p as IPlayer).Damage(damage_, host, noDef_);
                             if (!p.HasConditionEffect(ConditionEffects.Invincible) &&
                                 !p.HasConditionEffect(ConditionEffects.Stasis))
-                                p.ApplyConditionEffect(effect, effectDuration);
+                                p.ApplyConditionEffect(effect_, effectDuration_);
                         });
                     }));
                 }
-                cool = coolDown.Next(Random);
+                cool = coolDown_.Next(Random);
             }
             else
-                cool -= time.ElapsedMsDelta
-                    ;
+                cool -= time.ElapsedMsDelta;
 
             state = cool;
         }

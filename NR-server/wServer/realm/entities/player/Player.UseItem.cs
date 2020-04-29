@@ -166,7 +166,7 @@ namespace wServer.realm.entities
                     Client.SendPacket(new InvResult() { Result = 1 });
                     return;
                 }
-                    
+
 
                 // use item
                 var slotType = 10;
@@ -205,9 +205,9 @@ namespace wServer.realm.entities
                                     FameCounter.UseAbility();
                                 } else
                                 {
-                                    if (item.ActivateEffects.Any(eff => eff.Effect == ActivateEffects.Heal || 
-                                                                        eff.Effect == ActivateEffects.HealNova || 
-                                                                        eff.Effect == ActivateEffects.Magic || 
+                                    if (item.ActivateEffects.Any(eff => eff.Effect == ActivateEffects.Heal ||
+                                                                        eff.Effect == ActivateEffects.HealNova ||
+                                                                        eff.Effect == ActivateEffects.Magic ||
                                                                         eff.Effect == ActivateEffects.MagicNova))
                                     {
                                         FameCounter.DrinkPot();
@@ -392,7 +392,7 @@ namespace wServer.realm.entities
                 emotes.Add(eff.Id);
             else
                 RefundItem(item, "You already have this emote!");
-            
+
             Client.Account.Emotes = emotes;
             Client.Account.FlushAsync();
             SendInfo($"{eff.Id} ({eff.Id}) Emote unlocked successfully");
@@ -429,7 +429,7 @@ namespace wServer.realm.entities
                 SendError("server.use_in_petyard");
                 return;
             }
-            
+
             var pet = Pet.Create(Manager, this, item);
             if (pet == null)
                 return;
@@ -453,7 +453,7 @@ namespace wServer.realm.entities
             var portals = Owner.StaticObjects.Values
                 .Where(s => s is Portal && s.ObjectDesc.ObjectId.Equals(eff.LockedName) && s.DistSqr(this) <= 9)
                 .Select(s => s as Portal);
-            if (!portals.Any()) 
+            if (!portals.Any())
                 return;
             var portal = portals.Aggregate(
                 (curmin, x) => (curmin == null || x.DistSqr(this) < curmin.DistSqr(this) ? x : curmin));
@@ -475,7 +475,7 @@ namespace wServer.realm.entities
             }
 
             // create portal of unlocked world
-            var portalType = (ushort) proto.portals[0];
+            var portalType = (ushort)proto.portals[0];
             var uPortal = Resolve(Manager, portalType) as Portal;
             if (uPortal == null)
             {
@@ -512,7 +512,7 @@ namespace wServer.realm.entities
                 var timeoutTime = gameData.Portals[portalType].Timeout;
                 Owner.Timers.Add(new WorldTimer(timeoutTime * 1000, (w, t) => w.LeaveWorld(uPortal)));
             }
-            
+
             // announce
             Owner.BroadcastPacket(new Notification
             {
@@ -530,7 +530,7 @@ namespace wServer.realm.entities
             if ((id == "tier" && (LTBoostTime < 0 || (LTBoostTime > 86400000 && eff.DurationMS >= 0))) ||
                 (id == "drop" && (LDBoostTime < 0 || (LDBoostTime > 86400000 && eff.DurationMS >= 0))) ||
                 (id == "xp" && (XPBoostTime < 0 || XPBoosted || Level >= 20)))
-                    RefundItem(item);
+                RefundItem(item);
 
             switch (id)
             {
@@ -585,7 +585,7 @@ namespace wServer.realm.entities
                 ApplyConditionEffect(ConditionEffectIndex.NinjaSpeedy);
                 return;
             }
-            
+
             if (MP >= item.MpEndCost)
             {
                 MP -= item.MpEndCost;
@@ -606,7 +606,7 @@ namespace wServer.realm.entities
         private void AECreate(RealmTime time, Item item, Position target, ActivateEffect eff)
         {
             var gameData = Manager.Resources.GameData;
-            
+
             ushort objType;
             if (!gameData.IdToObjectType.TryGetValue(eff.Id, out objType) ||
                 !gameData.Portals.ContainsKey(objType))
@@ -689,31 +689,38 @@ namespace wServer.realm.entities
 
         private void AEPoisonGrenade(RealmTime time, Item item, Position target, ActivateEffect eff)
         {
-            BroadcastSync(new ShowEffect()
+            var impDamage = eff.ImpactDamage;
+
+            BroadcastSync(new ShowEffect
             {
                 EffectType = EffectType.Throw,
-                Color = new ARGB(0xffddff00),
+                Color = new ARGB(eff.Color),
                 TargetObjectId = Id,
-                Pos1 = target
+                Pos1 = target,
+                Duration = eff.ThrowTime / 1000
             }, p => this.DistSqr(p) < RadiusSqr);
 
-            var x = new Placeholder(Manager, 1500);
+            var x = new Placeholder(Manager, (int)eff.ThrowTime);
             x.Move(target.X, target.Y);
             Owner.EnterWorld(x);
-            Owner.Timers.Add(new WorldTimer(1500, (world, t) =>
+            Owner.Timers.Add(new WorldTimer((int)eff.ThrowTime, (world, t) =>
             {
-                world.BroadcastPacketNearby(new ShowEffect()
+                world.BroadcastPacketNearby(new ShowEffect
                 {
                     EffectType = EffectType.AreaBlast,
-                    Color = new ARGB(0xffddff00),
+                    Color = new ARGB(eff.Color),
                     TargetObjectId = x.Id,
-                    Pos1 = new Position() { X = eff.Radius }
-                }, x, null, PacketPriority.Low);
+                    Pos1 = new Position { X = eff.Radius }
+                }, x, null, PacketPriority.High);
 
-                world.AOE(target, eff.Radius, false,
-                    enemy => PoisonEnemy(world, enemy as Enemy, eff));
+                world.AOE(target, eff.Radius, false, entity => 
+                {
+                    ((Enemy)entity).Damage(this, time, impDamage, false);
+                    PoisonEnemy(world, (Enemy)entity, eff);
+                });
             }));
         }
+
 
         private void AELightning(RealmTime time, Item item, Position target, ActivateEffect eff)
         {

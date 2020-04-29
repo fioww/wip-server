@@ -322,6 +322,8 @@ namespace common.resources
         public string Target { get; private set; }
         public string Center { get; private set; }
         public int VisualEffect { get; private set; }
+        public double ThrowTime { get; private set; }
+        public int ImpactDamage { get; private set; }
 
         public ActivateEffect(XElement elem)
         {
@@ -395,6 +397,8 @@ namespace common.resources
 
             if (elem.Attribute("color") != null)
                 Color = uint.Parse(elem.Attribute("color").Value.Substring(2), NumberStyles.AllowHexSpecifier);
+            else
+                Color = 0xddff00; // poison default color
 
             if (elem.Attribute("skinType") != null)
                 SkinType = ushort.Parse(elem.Attribute("skinType").Value.Substring(2), NumberStyles.AllowHexSpecifier);
@@ -416,6 +420,12 @@ namespace common.resources
 
             if (elem.Attribute("visualEffect") != null)
                 VisualEffect = Utils.FromString(elem.Attribute("visualEffect").Value);
+
+            if (elem.Attribute("throwTime") != null)
+                ThrowTime = double.Parse(elem.Attribute("throwTime").Value) * 1000;
+
+            if (elem.Attribute("impactDamage") != null)
+                ImpactDamage = int.Parse(elem.Attribute("impactDamage").Value);
         }
     }
     public class Setpiece
