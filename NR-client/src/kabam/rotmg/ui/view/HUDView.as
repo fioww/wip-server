@@ -1,5 +1,5 @@
 ﻿package kabam.rotmg.ui.view {
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 import com.company.assembleegameclient.game.GameSprite;
 import com.company.assembleegameclient.objects.GameObject;
 import com.company.assembleegameclient.objects.Player;
@@ -121,7 +121,7 @@ public class HUDView extends Sprite implements UnFocusAble {
         }
     }
 
-    public function startTrade(_arg1:AGameSprite, _arg2:TradeStart):void {
+    public function startTrade(_arg1:GameSprite, _arg2:TradeStart):void {
         if (!this.tradePanel) {
             this.tradePanel = new TradePanel(_arg1, _arg2);
             this.tradePanel.y = 200;

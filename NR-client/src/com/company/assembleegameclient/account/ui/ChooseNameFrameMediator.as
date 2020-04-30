@@ -1,5 +1,5 @@
 ﻿package com.company.assembleegameclient.account.ui {
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 import com.company.assembleegameclient.game.events.NameResultEvent;
 
 import kabam.rotmg.dialogs.control.CloseDialogsSignal;
@@ -15,7 +15,7 @@ public class ChooseNameFrameMediator extends Mediator {
     public var closeDialogs:CloseDialogsSignal;
     [Inject]
     public var nameChanged:NameChangedSignal;
-    private var gameSprite:AGameSprite;
+    private var gameSprite:GameSprite;
     private var name:String;
 
 

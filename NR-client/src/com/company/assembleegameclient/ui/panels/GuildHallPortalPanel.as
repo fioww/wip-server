@@ -1,5 +1,5 @@
 ﻿package com.company.assembleegameclient.ui.panels {
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 import com.company.assembleegameclient.objects.GuildHallPortal;
 import com.company.assembleegameclient.objects.Player;
 import com.company.assembleegameclient.parameters.Parameters;
@@ -27,7 +27,7 @@ public class GuildHallPortalPanel extends Panel {
     private var enterButton_:DeprecatedTextButton;
     private var noGuildText_:TextFieldDisplayConcrete;
 
-    public function GuildHallPortalPanel(_arg1:AGameSprite, _arg2:GuildHallPortal) {
+    public function GuildHallPortalPanel(_arg1:GameSprite, _arg2:GuildHallPortal) {
         var _local3:Player;
         super(_arg1);
         this.stageProxy = new StageProxy(this);

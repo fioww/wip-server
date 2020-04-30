@@ -1,5 +1,5 @@
 ﻿package com.company.assembleegameclient.ui {
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 
 import flash.display.Sprite;
 import flash.events.Event;
@@ -13,13 +13,13 @@ public class TradePanel extends Sprite {
     public static const WIDTH:int = 200;
     public static const HEIGHT:int = 400;
 
-    public var gs_:AGameSprite;
+    public var gs_:GameSprite;
     private var myInv_:TradeInventory;
     private var yourInv_:TradeInventory;
     private var cancelButton_:DeprecatedTextButton;
     private var tradeButton_:TradeButton;
 
-    public function TradePanel(_arg1:AGameSprite, _arg2:TradeStart) {
+    public function TradePanel(_arg1:GameSprite, _arg2:TradeStart) {
         this.gs_ = _arg1;
         var _local3:String = this.gs_.map.player_.name_;
         this.myInv_ = new TradeInventory(_arg1, _local3, _arg2.myItems_, true);

@@ -1,6 +1,6 @@
 ﻿package com.company.assembleegameclient.map {
 import com.company.assembleegameclient.background.Background;
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 import com.company.assembleegameclient.map.mapoverlay.MapOverlay;
 import com.company.assembleegameclient.map.partyoverlay.PartyOverlay;
 import com.company.assembleegameclient.objects.BasicObject;
@@ -16,7 +16,7 @@ import org.osflash.signals.Signal;
 public class AbstractMap extends Sprite {
 
     public var goDict_:Dictionary;
-    public var gs_:AGameSprite;
+    public var gs_:GameSprite;
     public var name_:String;
     public var player_:Player = null;
     public var showDisplays_:Boolean;

@@ -692,8 +692,8 @@ namespace wServer.realm.entities
 
                 world.AOE(target, eff.Radius, false, entity => 
                 {
-                    ((Enemy)entity).Damage(this, time, impDamage, false);
                     PoisonEnemy(world, (Enemy)entity, eff);
+                    ((Enemy)entity).Damage(this, time, impDamage, false);
                 });
             }));
         }

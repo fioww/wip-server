@@ -1,5 +1,5 @@
 ﻿package com.company.assembleegameclient.ui.panels {
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 import com.company.assembleegameclient.ui.DeprecatedTextButton;
 
 import flash.events.Event;
@@ -27,7 +27,7 @@ public class GuildInvitePanel extends Panel {
     private var acceptButton_:DeprecatedTextButton;
     private var timer_:Timer;
 
-    public function GuildInvitePanel(_arg1:AGameSprite, _arg2:String, _arg3:String) {
+    public function GuildInvitePanel(_arg1:GameSprite, _arg2:String, _arg3:String) {
         super(_arg1);
         this.name_ = _arg2;
         this.guildName_ = _arg3;

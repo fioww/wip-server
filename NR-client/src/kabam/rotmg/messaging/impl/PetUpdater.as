@@ -1,5 +1,5 @@
 ﻿package kabam.rotmg.messaging.impl {
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 import com.company.assembleegameclient.objects.Pet;
 import com.company.assembleegameclient.util.ConditionEffect;
 
@@ -13,7 +13,7 @@ public class PetUpdater {
     [Inject]
     public var petsModel:PetsModel;
     [Inject]
-    public var gameSprite:AGameSprite;
+    public var gameSprite:GameSprite;
 
 
     public function updatePetVOs(_arg1:Pet, _arg2:Vector.<StatData>):void {

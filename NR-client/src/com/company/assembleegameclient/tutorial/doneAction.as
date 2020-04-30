@@ -1,7 +1,7 @@
 ﻿package com.company.assembleegameclient.tutorial {
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 
-public function doneAction(_arg1:AGameSprite, _arg2:String):void {
+public function doneAction(_arg1:GameSprite, _arg2:String):void {
     if (_arg1.tutorial_ == null) {
         return;
     }

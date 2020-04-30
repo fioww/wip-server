@@ -1,5 +1,7 @@
 ﻿package com.company.assembleegameclient.game {
 import com.company.assembleegameclient.game.events.MoneyChangedEvent;
+import com.company.assembleegameclient.map.AbstractMap;
+import com.company.assembleegameclient.map.Camera;
 import com.company.assembleegameclient.map.Map;
 import com.company.assembleegameclient.objects.GameObject;
 import com.company.assembleegameclient.objects.IInteractiveObject;
@@ -50,7 +52,8 @@ import kabam.rotmg.game.view.GiftStatusDisplay;
 import kabam.rotmg.game.view.NewsModalButton;
 import kabam.rotmg.maploading.signals.HideMapLoadingSignal;
 import kabam.rotmg.maploading.signals.MapLoadedSignal;
-import kabam.rotmg.messaging.impl.GameServerConnectionConcrete;
+import kabam.rotmg.messaging.impl.GameServerConnection;
+import kabam.rotmg.messaging.impl.GameServerConnection;
 import kabam.rotmg.messaging.impl.incoming.MapInfo;
 import kabam.rotmg.news.model.NewsModel;
 import kabam.rotmg.news.view.NewsTicker;
@@ -70,7 +73,7 @@ import org.osflash.signals.Signal;
 
 import robotlegs.bender.framework.api.ILogger;
 
-public class GameSprite extends AGameSprite {
+public class GameSprite extends Sprite {
 
     protected static const PAUSED_FILTER:ColorMatrixFilter = new ColorMatrixFilter(MoreColorUtil.greyscaleFilterMatrix);
 
@@ -106,15 +109,29 @@ public class GameSprite extends AGameSprite {
     private var currentPackage:DisplayObject;
     private var packageY:Number;
     public var chatPlayerMenu:PlayerMenu;
+    public const closed:Signal = new Signal();
+    public var isEditor:Boolean;
+    public var tutorial_:Tutorial;
+    public var mui_:MapUserInput;
+    public var lastUpdate_:int;
+    public var moveRecords_:MoveRecords;
+    public var map:AbstractMap;
+    public var model:PlayerModel;
+    public var hudView:HUDView;
+    public var camera_:Camera;
+    public var gsc_:GameServerConnection;
+    public var isSafeMap:Boolean;
 
     public function GameSprite(_arg1:Server, _arg2:int, _arg3:Boolean, _arg4:int, _arg5:int, _arg6:ByteArray, _arg7:PlayerModel, _arg8:String, _arg9:Boolean) {
         this.showPackage = new Signal();
         this.currentPackage = new Sprite();
+        this.moveRecords_ = new MoveRecords();
+        this.camera_ = new Camera();
         super();
         this.model = _arg7;
         map = new Map(this);
         addChild(map);
-        gsc_ = new GameServerConnectionConcrete(this, _arg1, _arg2, _arg3, _arg4, _arg5, _arg6, _arg8, _arg9);
+        gsc_ = new GameServerConnection(this, _arg1, _arg2, _arg3, _arg4, _arg5, _arg6, _arg8, _arg9);
         mui_ = new MapUserInput(this);
         this.chatBox_ = new Chat();
         this.chatBox_.list.addEventListener(MouseEvent.MOUSE_DOWN, this.onChatDown);
@@ -133,7 +150,6 @@ public class GameSprite extends AGameSprite {
         ((_local1) && (_local1.dispatch()));
     }
 
-
     public function onChatDown(_arg1:MouseEvent):void {
         if (this.chatPlayerMenu != null) {
             this.removeChatPlayerMenu();
@@ -145,7 +161,7 @@ public class GameSprite extends AGameSprite {
         mui_.onMouseUp(_arg1);
     }
 
-    override public function setFocus(_arg1:GameObject):void {
+     public function setFocus(_arg1:GameObject):void {
         _arg1 = ((_arg1) || (map.player_));
         this.focus = _arg1;
     }
@@ -179,7 +195,7 @@ public class GameSprite extends AGameSprite {
         }
     }
 
-    override public function applyMapInfo(_arg1:MapInfo):void {
+     public function applyMapInfo(_arg1:MapInfo):void {
         map.setProps(_arg1.width_, _arg1.height_, _arg1.name_, _arg1.background_, _arg1.allowPlayerTeleport_, _arg1.showDisplays_);
         dispatchMapLoaded(_arg1);
     }
@@ -190,7 +206,7 @@ public class GameSprite extends AGameSprite {
         addChild(hudView);
     }
 
-    override public function initialize():void {
+     public function initialize():void {
         var _local_1:Account;
         var _local_2:ShowProTipSignal;
         var _local4:ShowProTipSignal;
@@ -538,7 +554,7 @@ public class GameSprite extends AGameSprite {
         gsc_.checkCredits();
     }
 
-    override public function evalIsNotInCombatMapArea():Boolean {
+     public function evalIsNotInCombatMapArea():Boolean {
         return ((((((((((((map.name_ == Map.NEXUS)) || ((map.name_ == Map.VAULT)))) || ((map.name_ == Map.GUILD_HALL)))) || ((map.name_ == Map.CLOTH_BAZAAR)))) || ((map.name_ == Map.NEXUS_EXPLANATION)))) || ((map.name_ == Map.DAILY_QUEST_ROOM))));
     }
 

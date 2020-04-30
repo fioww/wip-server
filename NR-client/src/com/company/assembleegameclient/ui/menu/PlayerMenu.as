@@ -1,5 +1,5 @@
 ﻿package com.company.assembleegameclient.ui.menu {
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 import com.company.assembleegameclient.objects.Player;
 import com.company.assembleegameclient.ui.GameObjectListItem;
 import com.company.assembleegameclient.util.GuildUtil;
@@ -17,7 +17,7 @@ import kabam.rotmg.text.model.TextKey;
 
 public class PlayerMenu extends Menu {
 
-    public var gs_:AGameSprite;
+    public var gs_:GameSprite;
     public var playerName_:String;
     public var player_:Player;
     public var playerPanel_:GameObjectListItem;
@@ -26,7 +26,7 @@ public class PlayerMenu extends Menu {
         super(0x363636, 0xFFFFFF);
     }
 
-    public function initDifferentServer(_arg1:AGameSprite, _arg2:String, _arg3:Boolean = false, _arg4:Boolean = false):void {
+    public function initDifferentServer(_arg1:GameSprite, _arg2:String, _arg3:Boolean = false, _arg4:Boolean = false):void {
         var _local5:MenuOption;
         this.gs_ = _arg1;
         this.playerName_ = _arg2;
@@ -50,7 +50,7 @@ public class PlayerMenu extends Menu {
         }
     }
 
-    public function init(_arg1:AGameSprite, _arg2:Player):void {
+    public function init(_arg1:GameSprite, _arg2:Player):void {
         var _local3:MenuOption;
         this.gs_ = _arg1;
         this.playerName_ = _arg2.name_;

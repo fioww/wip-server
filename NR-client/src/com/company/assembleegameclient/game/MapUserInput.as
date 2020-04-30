@@ -73,7 +73,7 @@ public class MapUserInput {
     private var openDialogSignal:OpenDialogSignal;
     private var closeDialogSignal:CloseDialogsSignal;
     private var tabStripModel:TabStripModel;
-    private var layers:Layers;
+    public var layers:Layers;
     private var exitGame:ExitGameSignal;
     private var areFKeysAvailable:Boolean;
     private var reskinPetFlowStart:ReskinPetFlowStartSignal;

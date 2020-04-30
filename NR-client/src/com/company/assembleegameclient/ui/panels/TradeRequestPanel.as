@@ -1,5 +1,5 @@
 ﻿package com.company.assembleegameclient.ui.panels {
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 import com.company.assembleegameclient.parameters.Parameters;
 import com.company.assembleegameclient.ui.DeprecatedTextButton;
 
@@ -24,7 +24,7 @@ public class TradeRequestPanel extends Panel {
     private var acceptButton_:DeprecatedTextButton;
     private var timer_:Timer;
 
-    public function TradeRequestPanel(_arg1:AGameSprite, _arg2:String) {
+    public function TradeRequestPanel(_arg1:GameSprite, _arg2:String) {
         super(_arg1);
         this.name_ = _arg2;
         this.title_ = new TextFieldDisplayConcrete().setSize(18).setColor(0xFFFFFF).setTextWidth(WIDTH);

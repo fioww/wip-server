@@ -1,6 +1,6 @@
 ﻿package com.company.assembleegameclient.map {
 import com.company.assembleegameclient.background.Background;
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 import com.company.assembleegameclient.map.mapoverlay.MapOverlay;
 import com.company.assembleegameclient.map.partyoverlay.PartyOverlay;
 import com.company.assembleegameclient.objects.BasicObject;
@@ -78,7 +78,7 @@ public class Map extends AbstractMap {
     private var addTextLine:AddTextLineSignal;
     public var visibleHit_:Array;
 
-    public function Map(_arg_1:AGameSprite)
+    public function Map(_arg_1:GameSprite)
     {
         var _local_2:Injector = StaticInjectorContext.getInjector();
         super();

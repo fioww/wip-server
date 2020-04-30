@@ -1,5 +1,5 @@
 ﻿package com.company.assembleegameclient.account.ui {
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 
 import flash.events.MouseEvent;
 
@@ -12,11 +12,11 @@ public class ChooseNameFrame extends Frame {
     public const cancel:Signal = new Signal();
     public const choose:Signal = new Signal(String);
 
-    public var gameSprite:AGameSprite;
+    public var gameSprite:GameSprite;
     public var isPurchase:Boolean;
     private var nameInput:TextInputField;
 
-    public function ChooseNameFrame(_arg1:AGameSprite, _arg2:Boolean) {
+    public function ChooseNameFrame(_arg1:GameSprite, _arg2:Boolean) {
         super(TextKey.CHOOSE_NAME_TITLE, TextKey.FRAME_CANCEL, TextKey.CHOOSE_NAME_CHOOSE);
         this.gameSprite = _arg1;
         this.isPurchase = _arg2;

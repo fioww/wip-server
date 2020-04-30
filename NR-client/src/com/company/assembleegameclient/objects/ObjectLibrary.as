@@ -25,6 +25,8 @@ public class ObjectLibrary {
     public static const typeToTextureData_:Dictionary = new Dictionary();
     public static const typeToTopTextureData_:Dictionary = new Dictionary();
     public static const typeToAnimationsData_:Dictionary = new Dictionary();
+    public static const typeToIdItems_:Dictionary = new Dictionary();
+    public static const idToTypeItems_:Dictionary = new Dictionary();
     public static const petXMLDataLibrary_:Dictionary = new Dictionary();
     public static const skinSetXMLDataLibrary_:Dictionary = new Dictionary();
     public static const dungeonsXMLLibrary_:Dictionary = new Dictionary(true);
@@ -82,68 +84,85 @@ public class ObjectLibrary {
         var _local4:int = _arg1.indexOf("CXML");
         currentDungeon = _arg1.substr(_local3, (_local4 - _local3));
         dungeonsXMLLibrary_[currentDungeon] = new Dictionary(true);
-        parseFromXML(_arg2, parseDungeonCallbak);
+        parseFromXML(_arg2, parseDungeonCallback);
     }
 
-    private static function parseDungeonCallbak(_arg1:int, _arg2:XML) {
+    private static function parseDungeonCallback(_arg1:int, _arg2:XML) {
         if (((!((currentDungeon == ""))) && (!((dungeonsXMLLibrary_[currentDungeon] == null))))) {
             dungeonsXMLLibrary_[currentDungeon][_arg1] = _arg2;
             propsLibrary_[_arg1].belonedDungeon = currentDungeon;
         }
     }
 
-    public static function parseFromXML(_arg1:XML, _arg2:Function = null):void {
-        var _local3:XML;
-        var _local4:String;
-        var _local5:String;
-        var _local6:int;
-        var _local7:Boolean;
-        var _local8:int;
-        for each (_local3 in _arg1.Object) {
-            _local4 = String(_local3.@id);
-            _local5 = _local4;
-            if (_local3.hasOwnProperty("DisplayId")) {
-                _local5 = _local3.DisplayId;
+    public static function parseFromXML(xml:XML, func:Function = null) : void
+    {
+        var objectXML:XML = null;
+        var id:String = null;
+        var displayId:String = null;
+        var objectType:int = 0;
+        var found:Boolean = false;
+        var i:int = 0;
+        for each(objectXML in xml.Object)
+        {
+            id = String(objectXML.@id);
+            displayId = id;
+            if(objectXML.hasOwnProperty("DisplayId"))
+            {
+                displayId = objectXML.DisplayId;
             }
-            if (_local3.hasOwnProperty("Group")) {
-                if (_local3.Group == "Hexable") {
-                    hexTransforms_.push(_local3);
+            if(objectXML.hasOwnProperty("Group"))
+            {
+                if(objectXML.Group == "Hexable")
+                {
+                    hexTransforms_.push(objectXML);
                 }
             }
-            _local6 = int(_local3.@type);
-            if (((_local3.hasOwnProperty("PetBehavior")) || (_local3.hasOwnProperty("PetAbility")))) {
-                petXMLDataLibrary_[_local6] = _local3;
+
+            objectType = int(objectXML.@type);
+            if (((objectXML.hasOwnProperty("PetBehavior")) || (objectXML.hasOwnProperty("PetAbility")))) {
+                petXMLDataLibrary_[objectType] = objectXML;
             }
-            else {
-                propsLibrary_[_local6] = new ObjectProperties(_local3);
-                xmlLibrary_[_local6] = _local3;
-                idToType_[_local4] = _local6;
-                typeToDisplayId_[_local6] = _local5;
-                if (_arg2 != null) {
-                    (_arg2(_local6, _local3));
-                }
-                if (String(_local3.Class) == "Player") {
-                    playerClassAbbr_[_local6] = String(_local3.@id).substr(0, 2);
-                    _local7 = false;
-                    _local8 = 0;
-                    while (_local8 < playerChars_.length) {
-                        if (int(playerChars_[_local8].@type) == _local6) {
-                            playerChars_[_local8] = _local3;
-                            _local7 = true;
-                        }
-                        _local8++;
+
+            objectType = int(objectXML.@type);
+            propsLibrary_[objectType] = new ObjectProperties(objectXML);
+            xmlLibrary_[objectType] = objectXML;
+            idToType_[id] = objectType;
+            typeToDisplayId_[objectType] = displayId;
+
+            if (String(objectXML.Class) == "Equipment")
+            {
+                typeToIdItems_[objectType] = id.toLowerCase(); /* Saves us the power to do this later */
+                idToTypeItems_[id.toLowerCase()] = objectType;
+            }
+
+            if (func != null) {
+                (func(objectType, objectXML));
+            }
+            if(String(objectXML.Class) == "Player")
+            {
+                playerClassAbbr_[objectType] = String(objectXML.@id).substr(0,2);
+                found = false;
+                for(i = 0; i < playerChars_.length; i++)
+                {
+                    if(int(playerChars_[i].@type) == objectType)
+                    {
+                        playerChars_[i] = objectXML;
+                        found = true;
                     }
-                    if (!_local7) {
-                        playerChars_.push(_local3);
-                    }
                 }
-                typeToTextureData_[_local6] = textureDataFactory.create(_local3);
-                if (_local3.hasOwnProperty("Top")) {
-                    typeToTopTextureData_[_local6] = textureDataFactory.create(XML(_local3.Top));
+                if(!found)
+                {
+                    playerChars_.push(objectXML);
                 }
-                if (_local3.hasOwnProperty("Animation")) {
-                    typeToAnimationsData_[_local6] = new AnimationsData(_local3);
-                }
+            }
+            typeToTextureData_[objectType] = new TextureDataConcrete(objectXML);
+            if(objectXML.hasOwnProperty("Top"))
+            {
+                typeToTopTextureData_[objectType] = new TextureDataConcrete(XML(objectXML.Top));
+            }
+            if(objectXML.hasOwnProperty("Animation"))
+            {
+                typeToAnimationsData_[objectType] = new AnimationsData(objectXML);
             }
         }
     }
@@ -151,7 +170,7 @@ public class ObjectLibrary {
     public static function getIdFromType(_arg1:int):String {
         var _local2:XML = xmlLibrary_[_arg1];
         if (_local2 == null) {
-            return (null);
+            return null;
         }
         return (String(_local2.@id));
     }
@@ -188,7 +207,7 @@ public class ObjectLibrary {
     public static function getTextureFromType(_arg1:int):BitmapData {
         var _local2:TextureData = typeToTextureData_[_arg1];
         if (_local2 == null) {
-            return (null);
+            return null;
         }
         return (_local2.getTexture());
     }

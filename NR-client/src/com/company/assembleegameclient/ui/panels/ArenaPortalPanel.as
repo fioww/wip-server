@@ -1,5 +1,5 @@
 ﻿package com.company.assembleegameclient.ui.panels {
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 import com.company.assembleegameclient.objects.ArenaPortal;
 import com.company.assembleegameclient.objects.Player;
 import com.company.assembleegameclient.util.Currency;
@@ -30,7 +30,7 @@ public class ArenaPortalPanel extends Panel {
     private var closeNameText:TextFieldDisplayConcrete;
     private var closedText:StaticTextDisplay;
 
-    public function ArenaPortalPanel(_arg1:AGameSprite, _arg2:ArenaPortal) {
+    public function ArenaPortalPanel(_arg1:GameSprite, _arg2:ArenaPortal) {
         this.openContainer = new Sprite();
         this.closeContainer = new Sprite();
         super(_arg1);

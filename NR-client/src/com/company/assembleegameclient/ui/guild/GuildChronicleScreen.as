@@ -1,5 +1,5 @@
 ﻿package com.company.assembleegameclient.ui.guild {
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 import com.company.assembleegameclient.game.events.GuildResultEvent;
 import com.company.assembleegameclient.objects.Player;
 import com.company.assembleegameclient.screens.TitleMenuOption;
@@ -17,12 +17,12 @@ import kabam.rotmg.text.view.TextFieldDisplayConcrete;
 
 public class GuildChronicleScreen extends Sprite {
 
-    private var gs_:AGameSprite;
+    private var gs_:GameSprite;
     private var container:Sprite;
     private var guildPlayerList_:GuildPlayerList;
     private var continueButton_:TitleMenuOption;
 
-    public function GuildChronicleScreen(_arg1:AGameSprite) {
+    public function GuildChronicleScreen(_arg1:GameSprite) {
         this.gs_ = _arg1;
         graphics.clear();
         graphics.beginFill(0x2B2B2B, 0.8);

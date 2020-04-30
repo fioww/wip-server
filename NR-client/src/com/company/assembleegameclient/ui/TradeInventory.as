@@ -1,5 +1,5 @@
 ﻿package com.company.assembleegameclient.ui {
-import com.company.assembleegameclient.game.AGameSprite;
+import com.company.assembleegameclient.game.GameSprite;
 import com.company.ui.BaseSimpleText;
 
 import flash.display.Sprite;
@@ -22,14 +22,14 @@ public class TradeInventory extends Sprite {
     public static const TRADEACCEPTED_MESSAGE:int = 2;
     public static const TRADEWAITING_MESSAGE:int = 3;
 
-    public var gs_:AGameSprite;
+    public var gs_:GameSprite;
     public var playerName_:String;
     private var message_:int;
     private var nameText_:BaseSimpleText;
     private var taglineText_:TextFieldDisplayConcrete;
     public var slots_:Vector.<TradeSlot>;
 
-    public function TradeInventory(_arg1:AGameSprite, _arg2:String, _arg3:Vector.<TradeItem>, _arg4:Boolean) {
+    public function TradeInventory(_arg1:GameSprite, _arg2:String, _arg3:Vector.<TradeItem>, _arg4:Boolean) {
         var _local6:TradeItem;
         var _local7:TradeSlot;
         this.slots_ = new Vector.<TradeSlot>();
