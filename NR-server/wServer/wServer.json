@@ -26,7 +26,6 @@
     "maxConnections": "512",
     "maxPlayers": "160",
     "maxPlayersWithPriority": "180",
-    "enablePets": "false",
-    "enableMarket": "true"
+    "enablePets": "false"
   }
 }

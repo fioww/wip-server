@@ -1,5 +1,4 @@
 ﻿package kabam.rotmg.messaging.impl.data {
-import com.company.assembleegameclient.ui.marketplace.Marketplace;
 
 import flash.utils.IDataInput;
 import flash.utils.IDataOutput;

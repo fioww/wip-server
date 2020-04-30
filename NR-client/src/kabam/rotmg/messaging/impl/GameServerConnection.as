@@ -104,11 +104,6 @@ import kabam.rotmg.game.signals.GiftStatusUpdateSignal;
 import kabam.rotmg.game.view.components.QueuedStatusText;
 import kabam.rotmg.maploading.signals.ChangeMapSignal;
 import kabam.rotmg.maploading.signals.HideMapLoadingSignal;
-import kabam.rotmg.memMarket.signals.MemMarketAddSignal;
-import kabam.rotmg.memMarket.signals.MemMarketBuySignal;
-import kabam.rotmg.memMarket.signals.MemMarketMyOffersSignal;
-import kabam.rotmg.memMarket.signals.MemMarketRemoveSignal;
-import kabam.rotmg.memMarket.signals.MemMarketSearchSignal;
 import kabam.rotmg.messaging.impl.data.GroundTileData;
 import kabam.rotmg.messaging.impl.data.ObjectData;
 import kabam.rotmg.messaging.impl.data.ObjectStatusData;
@@ -163,11 +158,6 @@ import kabam.rotmg.messaging.impl.incoming.Update;
 import kabam.rotmg.messaging.impl.incoming.VerifyEmail;
 import kabam.rotmg.messaging.impl.incoming.arena.ArenaDeath;
 import kabam.rotmg.messaging.impl.incoming.arena.ImminentArenaWave;
-import kabam.rotmg.messaging.impl.incoming.market.MarketAddResult;
-import kabam.rotmg.messaging.impl.incoming.market.MarketBuyResult;
-import kabam.rotmg.messaging.impl.incoming.market.MarketMyOffersResult;
-import kabam.rotmg.messaging.impl.incoming.market.MarketRemoveResult;
-import kabam.rotmg.messaging.impl.incoming.market.MarketSearchResult;
 import kabam.rotmg.messaging.impl.incoming.pets.DeletePetMessage;
 import kabam.rotmg.messaging.impl.incoming.pets.HatchPetMessage;
 import kabam.rotmg.messaging.impl.outgoing.AcceptTrade;
@@ -215,11 +205,6 @@ import kabam.rotmg.messaging.impl.outgoing.UseItem;
 import kabam.rotmg.messaging.impl.outgoing.UsePortal;
 import kabam.rotmg.messaging.impl.outgoing.EnterArena;
 import kabam.rotmg.messaging.impl.outgoing.QuestRedeem;
-import kabam.rotmg.messaging.impl.outgoing.market.MarketAdd;
-import kabam.rotmg.messaging.impl.outgoing.market.MarketBuy;
-import kabam.rotmg.messaging.impl.outgoing.market.MarketMyOffers;
-import kabam.rotmg.messaging.impl.outgoing.market.MarketRemove;
-import kabam.rotmg.messaging.impl.outgoing.market.MarketSearch;
 import kabam.rotmg.minimap.control.UpdateGameObjectTileSignal;
 import kabam.rotmg.minimap.control.UpdateGroundTileSignal;
 import kabam.rotmg.minimap.model.UpdateGroundTileVO;
@@ -293,118 +278,106 @@ public class GameServerConnection {
     private var friendModel:FriendModel;
     
     public static const FAILURE:int = 0;
-    public static const CREATE_SUCCESS:int = 81;
-    public static const CREATE:int = 12;
-    public static const PLAYERSHOOT:int = 66;
-    public static const MOVE:int = 16;
-    public static const PLAYERTEXT:int = 47;
-    public static const TEXT:int = 96;
-    public static const SERVERPLAYERSHOOT:int = 92;
-    public static const DAMAGE:int = 97;
-    public static const UPDATE:int = 42;
-    public static const UPDATEACK:int = 91;
-    public static const NOTIFICATION:int = 33;
-    public static const NEWTICK:int = 68;
-    public static const INVSWAP:int = 25;
     public static const USEITEM:int = 1;
-    public static const SHOWEFFECT:int = 38;
-    public static const HELLO:int = 9;
-    public static const GOTO:int = 30;
-    public static const INVDROP:int = 18;
-    public static const INVRESULT:int = 63;
-    public static const RECONNECT:int = 14;
-    public static const PING:int = 85;
-    public static const PONG:int = 64;
-    public static const MAPINFO:int = 74;
-    public static const LOAD:int = 26;
-    public static const PIC:int = 46;
-    public static const SETCONDITION:int = 60;
-    public static const TELEPORT:int = 45;
-    public static const USEPORTAL:int = 6;
-    public static const DEATH:int = 83;
-    public static const BUY:int = 93;
-    public static const BUYRESULT:int = 50;
-    public static const AOE:int = 89;
-    public static const GROUNDDAMAGE:int = 98;
-    public static const PLAYERHIT:int = 10;
-    public static const ENEMYHIT:int = 19;
-    public static const AOEACK:int = 77;
-    public static const SHOOTACK:int = 35;
-    public static const OTHERHIT:int = 57;
-    public static const SQUAREHIT:int = 13;
-    public static const GOTOACK:int = 79;
-    public static const EDITACCOUNTLIST:int = 62;
-    public static const ACCOUNTLIST:int = 44;
-    public static const QUESTOBJID:int = 28;
-    public static const CHOOSENAME:int = 23;
-    public static const NAMERESULT:int = 22;
-    public static const CREATEGUILD:int = 95;
-    public static const GUILDRESULT:int = 82;
-    public static const GUILDREMOVE:int = 49;
-    public static const GUILDINVITE:int = 41;
-    public static const ALLYSHOOT:int = 36;
-    public static const ENEMYSHOOT:int = 52;
-    public static const REQUESTTRADE:int = 34;
-    public static const TRADEREQUESTED:int = 80;
-    public static const TRADESTART:int = 31;
-    public static const CHANGETRADE:int = 55;
-    public static const TRADECHANGED:int = 4;
+    public static const RESKIN_UNLOCK:int = 2;
     public static const ACCEPTTRADE:int = 3;
-    public static const CANCELTRADE:int = 39;
-    public static const TRADEDONE:int = 94;
-    public static const TRADEACCEPTED:int = 78;
-    public static const CLIENTSTAT:int = 75;
-    public static const CHECKCREDITS:int = 20;
-    public static const ESCAPE:int = 87;
-    public static const FILE:int = 56;
-    public static const INVITEDTOGUILD:int = 58;
-    public static const JOINGUILD:int = 27;
-    public static const CHANGEGUILDRANK:int = 11;
-    public static const PLAYSOUND:int = 59;
-    public static const GLOBAL_NOTIFICATION:int = 24;
-    public static const RESKIN:int = 15;
-    public static const PETUPGRADEREQUEST:int = 67;
-    public static const ACTIVE_PET_UPDATE_REQUEST:int = 90;
-    public static const ACTIVEPETUPDATE:int = 76;
-    public static const NEW_ABILITY:int = 21;
-    public static const PETYARDUPDATE:int = 53;
+    public static const TRADECHANGED:int = 4;
+    public static const IMMINENT_ARENA_WAVE:int = 5;
+    public static const USEPORTAL:int = 6;
     public static const EVOLVE_PET:int = 7;
     public static const DELETE_PET:int = 8;
-    public static const HATCH_PET:int = 86;
-    public static const ENTER_ARENA:int = 48;
-    public static const IMMINENT_ARENA_WAVE:int = 5;
+    public static const HELLO:int = 9;
+    public static const PLAYERHIT:int = 10;
+    public static const CHANGEGUILDRANK:int = 11;
+    public static const CREATE:int = 12;
+    public static const SQUAREHIT:int = 13;
+    public static const RECONNECT:int = 14;
+    public static const RESKIN:int = 15;
+    public static const MOVE:int = 16;
     public static const ARENA_DEATH:int = 17;
-    public static const ACCEPT_ARENA_DEATH:int = 84;
-    public static const VERIFY_EMAIL:int = 61;
-    public static const RESKIN_UNLOCK:int = 40;
-    public static const PASSWORD_PROMPT:int = 69;
-    public static const QUEST_FETCH_ASK:int = 51;
+    public static const INVDROP:int = 18;
+    public static const ENEMYHIT:int = 19;
+    public static const CHECKCREDITS:int = 20;
+    public static const NEW_ABILITY:int = 21;
+    public static const NAMERESULT:int = 22;
+    public static const CHOOSENAME:int = 23;
+    public static const GLOBAL_NOTIFICATION:int = 24;
+    public static const INVSWAP:int = 25;
+    public static const LOAD:int = 26;
+    public static const JOINGUILD:int = 27;
+    public static const QUESTOBJID:int = 28;
+    public static const LOGIN_REWARD_MSG:int = 29;
+    public static const GOTO:int = 30;
+    public static const TRADESTART:int = 31;
+    public static const CLAIM_LOGIN_REWARD_MSG:int = 32;
+    public static const NOTIFICATION:int = 33;
+    public static const REQUESTTRADE:int = 34;
+    public static const SHOOTACK:int = 35;
+    public static const ALLYSHOOT:int = 36;
     public static const QUEST_REDEEM:int = 37;
+    public static const SHOWEFFECT:int = 38;
+    public static const CANCELTRADE:int = 39;
+    public static const KEY_INFO_RESPONSE:int = 40;
+    public static const GUILDINVITE:int = 41;
+    public static const UPDATE:int = 42;
+    public static const KEY_INFO_REQUEST:int = 43;
+    public static const ACCOUNTLIST:int = 44;
+    public static const TELEPORT:int = 45;
+    public static const PIC:int = 46;
+    public static const PLAYERTEXT:int = 47;
+    public static const ENTER_ARENA:int = 48;
+    public static const GUILDREMOVE:int = 49;
+    public static const BUYRESULT:int = 50;
+    public static const QUEST_FETCH_ASK:int = 51;
+    public static const ENEMYSHOOT:int = 52;
+    public static const PETYARDUPDATE:int = 53;
+    public static const QUEST_ROOM_MSG:int = 54;
+    public static const CHANGETRADE:int = 55;
+    public static const FILE:int = 56;
+    public static const OTHERHIT:int = 57;
+    public static const INVITEDTOGUILD:int = 58;
+    public static const PLAYSOUND:int = 59;
+    public static const SETCONDITION:int = 60;
+    public static const VERIFY_EMAIL:int = 61;
+    public static const EDITACCOUNTLIST:int = 62;
+    public static const INVRESULT:int = 63;
+    public static const PONG:int = 64;
     public static const QUEST_FETCH_RESPONSE:int = 65;
+    public static const PLAYERSHOOT:int = 66;
+    public static const PETUPGRADEREQUEST:int = 67;
+    public static const NEWTICK:int = 68;
+    public static const PASSWORD_PROMPT:int = 69;
+    public static const PET_CHANGE_FORM_MSG:int = 70;
+    public static const SERVER_FULL:int = 71;
+    public static const QUEUE_PING:int = 72;
+    public static const QUEUE_PONG:int = 73;
+    public static const MAPINFO:int = 74;
+    public static const CLIENTSTAT:int = 75;
+    public static const ACTIVEPETUPDATE:int = 76;
+    public static const AOEACK:int = 77;
+    public static const TRADEACCEPTED:int = 78;
+    public static const GOTOACK:int = 79;
+    public static const TRADEREQUESTED:int = 80;
+    public static const CREATE_SUCCESS:int = 81;
+    public static const GUILDRESULT:int = 82;
+    public static const DEATH:int = 83;
+    public static const ACCEPT_ARENA_DEATH:int = 84;
+    public static const PING:int = 85;
+    public static const HATCH_PET:int = 86;
+    public static const ESCAPE:int = 87;
     public static const QUEST_REDEEM_RESPONSE:int = 88;
-    public static const SERVER_FULL:int = 110;
-    public static const QUEUE_PING:int = 111;
-    public static const QUEUE_PONG:int = 112;
-    public static const PET_CHANGE_FORM_MSG:int = 113;
-    public static const QUEST_ROOM_MSG:int = 114;
-    public static const KEY_INFO_REQUEST:int = 115;
-    public static const KEY_INFO_RESPONSE:int = 116;
-    public static const SET_FOCUS:int = 108;
-    public static const SWITCH_MUSIC:int = 106;
-    public static const CLAIM_LOGIN_REWARD_MSG:int = 117;
-    public static const LOGIN_REWARD_MSG:int = 118;
-
-    /* Market */
-    public static const MARKET_SEARCH:int = 119;
-    public static const MARKET_SEARCH_RESULT:int = 120;
-    public static const MARKET_BUY:int = 121;
-    public static const MARKET_BUY_RESULT:int = 122;
-    public static const MARKET_ADD:int = 123;
-    public static const MARKET_ADD_RESULT:int = 124;
-    public static const MARKET_REMOVE:int = 125;
-    public static const MARKET_REMOVE_RESULT:int = 126;
-    public static const MARKET_MY_OFFERS:int = 127;
-    public static const MARKET_MY_OFFERS_RESULT:int = 128;
+    public static const AOE:int = 89;
+    public static const ACTIVE_PET_UPDATE_REQUEST:int = 90;
+    public static const UPDATEACK:int = 91;
+    public static const SERVERPLAYERSHOOT:int = 92;
+    public static const BUY:int = 93;
+    public static const TRADEDONE:int = 94;
+    public static const CREATEGUILD:int = 95;
+    public static const TEXT:int = 96;
+    public static const DAMAGE:int = 97;
+    public static const GROUNDDAMAGE:int = 98;
+    public static const SET_FOCUS:int = 99;
+    public static const SWITCH_MUSIC:int = 100;
     
     public static var instance:GameServerConnection;
 
@@ -614,18 +587,6 @@ public class GameServerConnection {
         _local1.map(SERVER_FULL).toMessage(ServerFull).toMethod(this.HandleServerFull);
         _local1.map(QUEUE_PING).toMessage(QueuePing).toMethod(this.HandleQueuePing);
         _local1.map(SWITCH_MUSIC).toMessage(SwitchMusic).toMethod(this.onSwitchMusic);
-
-        /* Market */
-        _local1.map(MARKET_SEARCH).toMessage(MarketSearch);
-        _local1.map(MARKET_SEARCH_RESULT).toMessage(MarketSearchResult).toMethod(this.onMarketSearchResult);
-        _local1.map(MARKET_BUY).toMessage(MarketBuy);
-        _local1.map(MARKET_BUY_RESULT).toMessage(MarketBuyResult).toMethod(this.onMarketBuyResult);
-        _local1.map(MARKET_ADD).toMessage(MarketAdd);
-        _local1.map(MARKET_ADD_RESULT).toMessage(MarketAddResult).toMethod(this.onMarketAddResult);
-        _local1.map(MARKET_REMOVE).toMessage(MarketRemove);
-        _local1.map(MARKET_REMOVE_RESULT).toMessage(MarketRemoveResult).toMethod(this.onMarketRemoveResult);
-        _local1.map(MARKET_MY_OFFERS).toMessage(MarketMyOffers);
-        _local1.map(MARKET_MY_OFFERS_RESULT).toMessage(MarketMyOffersResult).toMethod(this.onMarketMyOffersResult);
     }
 
     private function onSwitchMusic(sm:SwitchMusic):void {
@@ -756,18 +717,6 @@ public class GameServerConnection {
         _local1.unmap(QUEUE_PONG);
         _local1.unmap(SET_FOCUS);
         _local1.unmap(SWITCH_MUSIC);
-
-        /* Market */
-        _local1.unmap(MARKET_SEARCH);
-        _local1.unmap(MARKET_SEARCH_RESULT);
-        _local1.unmap(MARKET_BUY);
-        _local1.unmap(MARKET_BUY_RESULT);
-        _local1.unmap(MARKET_ADD);
-        _local1.unmap(MARKET_ADD_RESULT);
-        _local1.unmap(MARKET_REMOVE);
-        _local1.unmap(MARKET_REMOVE_RESULT);
-        _local1.unmap(MARKET_MY_OFFERS);
-        _local1.unmap(MARKET_MY_OFFERS_RESULT);
     }
 
     private function encryptConnection():void {
@@ -795,78 +744,6 @@ public class GameServerConnection {
         if (jitterWatcher_ != null) {
             jitterWatcher_ = null;
         }
-    }
-
-    /* Market */
-    private function onMarketSearchResult(searchResult:MarketSearchResult) : void
-    {
-        MemMarketSearchSignal.instance.dispatch(searchResult);
-    }
-
-    /* Market */
-    private function onMarketBuyResult(buyResult:MarketBuyResult) : void
-    {
-        MemMarketBuySignal.instance.dispatch(buyResult);
-    }
-
-    /* Market */
-    private function onMarketAddResult(addResult:MarketAddResult) : void
-    {
-        MemMarketAddSignal.instance.dispatch(addResult);
-    }
-
-    /* Market */
-    private function onMarketRemoveResult(removeResult:MarketRemoveResult) : void
-    {
-        MemMarketRemoveSignal.instance.dispatch(removeResult);
-    }
-
-    /* Market */
-    private function onMarketMyOffersResult(myOffersResult:MarketMyOffersResult) : void
-    {
-        MemMarketMyOffersSignal.instance.dispatch(myOffersResult);
-    }
-
-    /* Market */
-    public function marketSearch(itemType:int) : void
-    {
-        var search:MarketSearch = this.messages.require(MARKET_SEARCH) as MarketSearch;
-        search.itemType_ = itemType;
-        this.serverConnection.sendMessage(search);
-    }
-
-    /* Market */
-    public function marketRemove(id:int) : void
-    {
-        var remove:MarketRemove = this.messages.require(MARKET_REMOVE) as MarketRemove;
-        remove.id_ = id;
-        this.serverConnection.sendMessage(remove);
-    }
-
-    /* Market */
-    public function marketMyOffers() : void
-    {
-        var myOffers:MarketMyOffers = this.messages.require(MARKET_MY_OFFERS) as MarketMyOffers;
-        this.serverConnection.sendMessage(myOffers);
-    }
-
-    /* Market */
-    public function marketBuy(id:int) : void
-    {
-        var buy:MarketBuy = this.messages.require(MARKET_BUY) as MarketBuy;
-        buy.id_ = id;
-        this.serverConnection.sendMessage(buy);
-    }
-
-    /* Market */
-    public function marketAdd(items:Vector.<int>, price:int, currency:int, hours:int) : void
-    {
-        var add:MarketAdd = this.messages.require(MARKET_ADD)  as MarketAdd;
-        add.slots_= items;
-        add.price_ = price;
-        add.currency_ = currency;
-        add.hours_ = hours;
-        this.serverConnection.sendMessage(add);
     }
 
     private function create():void {

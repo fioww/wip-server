@@ -359,15 +359,6 @@
       <Size>100</Size>
       <ShadowSize>100</ShadowSize>
    </Object>
-   <Object type="0x0964" id="Marketplace">
-      <Class>MarketNPC</Class>
-      <Texture>
-         <File>lofiObj2</File>
-         <Index>0xfb</Index>
-      </Texture>
-      <Size>0</Size>
-      <ShadowSize>0</ShadowSize>
-   </Object>
    <Object type="0x0965" id="Mystery Box">
       <Class>MysteryBoxGround</Class>
       <Texture>

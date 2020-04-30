@@ -1194,10 +1194,6 @@ namespace common
                 _db.KeyDeleteAsync(key, CommandFlags.FireAndForget);
             _db.KeyDeleteAsync("nextPetId", CommandFlags.FireAndForget);
 
-            // clear market
-            _db.KeyDeleteAsync("market", CommandFlags.FireAndForget);
-            _db.KeyDeleteAsync("marketNextId", CommandFlags.FireAndForget);
-
             // clear tinker
             _db.KeyDeleteAsync("tinkerQuests", CommandFlags.FireAndForget);
 
@@ -1244,7 +1240,6 @@ namespace common
             _db.HashDeleteAsync(acc.Key, "hidden", CommandFlags.FireAndForget);
             _db.HashDeleteAsync(acc.Key, "glow", CommandFlags.FireAndForget);
             _db.HashDeleteAsync(acc.Key, "petList", CommandFlags.FireAndForget);
-            _db.HashDeleteAsync(acc.Key, "lastMarketId", CommandFlags.FireAndForget);
             _db.HashDeleteAsync(acc.Key, "banLiftTime", CommandFlags.FireAndForget);
             _db.HashDeleteAsync(acc.Key, "emotes", CommandFlags.FireAndForget);
             _db.HashDeleteAsync(acc.Key, "privateMessages", CommandFlags.FireAndForget);
@@ -1420,12 +1415,6 @@ namespace common
             t.AddCondition(Condition.HashEqual(acc.Key, "gifts", currentGiftBytes));
             t.HashSetAsync(acc.Key, "gifts", giftBytes);
             return transaction == null && t.Execute();
-        }
-
-        public async Task<PlayerShopItem> CreatePlayerShopItemAsync(ushort item, int price, int time, int accountId)
-        {
-            var id = await _db.StringIncrementAsync("marketNextId");
-            return new PlayerShopItem((uint) id, item, price, time, accountId);
         }
 
         public int LastLegendsUpdateTime()

@@ -43,7 +43,6 @@ namespace wServer.realm.worlds
         public const int PetYard = -12;
         public const int ArenaSolo = -13;
         public const int DeathArena = -14;
-        public const int MarketPlace = -15;
 
         private RealmManager _manager;
         public RealmManager Manager
@@ -149,7 +148,7 @@ namespace wServer.realm.worlds
         }
 
         public bool IsNotCombatMapArea => Id == Nexus || Id == Vault || Id == GuildHall || Id == ClothBazaar || Id == NexusExplanation ||
-                                            Id == Tinker || Id == MarketPlace;
+                                            Id == Tinker;
 
         public virtual bool AllowedAccess(Client client)
         {

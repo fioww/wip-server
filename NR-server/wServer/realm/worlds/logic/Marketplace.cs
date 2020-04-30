@@ -12,8 +12,6 @@ namespace wServer.realm.worlds.logic
         protected override void Init()
         {
             base.Init();
-
-            Manager.Market.InitMarketplace(this);
         }
     }
 }
