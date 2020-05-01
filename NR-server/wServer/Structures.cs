@@ -6,7 +6,44 @@ using wServer.realm;
 
 namespace wServer
 {
-    //0x0964
+    public struct MarketData
+    {
+        public int Id;
+        public ushort ItemType;
+        public string SellerName;
+        public int SellerId;
+        public int Currency;
+        public int Price;
+        public int StartTime;
+        public int TimeLeft;
+
+        public static MarketData Read(NReader rdr)
+        {
+            MarketData ret = new MarketData();
+            ret.Id = rdr.ReadInt32();
+            ret.ItemType = rdr.ReadUInt16();
+            ret.SellerName = rdr.ReadUTF();
+            ret.SellerId = rdr.ReadInt32();
+            ret.Currency = rdr.ReadInt32();
+            ret.Price = rdr.ReadInt32();
+            ret.StartTime = rdr.ReadInt32();
+            ret.TimeLeft = rdr.ReadInt32();
+            return ret;
+        }
+
+        public void Write(NWriter wtr)
+        {
+            wtr.Write(Id);
+            wtr.Write(ItemType);
+            wtr.WriteUTF(SellerName);
+            wtr.Write(SellerId);
+            wtr.Write(Currency);
+            wtr.Write(Price);
+            wtr.Write(StartTime);
+            wtr.Write(TimeLeft);
+        }
+    }
+
     public struct BitmapData
     {
         public int Width { get; set; }

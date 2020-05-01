@@ -1802,7 +1802,8 @@ namespace wServer.realm.commands
             gifted?.Player?.SendInfoFormat(
                 "You received a gift from {0}. Enjoy your {1}.",
                 player.Name,
-                item.DisplayName);
+                item.DisplayName != "" ? item.DisplayName : item.ObjectId);
+            Log.Warn($"{player.Name} gifted {gifted.Player.Name} a {item.ObjectId}");
             return true;
         }
 
@@ -1816,8 +1817,10 @@ namespace wServer.realm.commands
             if (!gameData.DisplayIdToObjectType.TryGetValue(itemName, out objType))
             {
                 if (!gameData.IdToObjectType.TryGetValue(itemName, out objType))
+                {
                     player.SendError("Unknown item type!");
-                return null;
+                    return null;
+                }
             }
 
             if (!gameData.Items.ContainsKey(objType))

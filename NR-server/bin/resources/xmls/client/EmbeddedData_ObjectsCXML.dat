@@ -725,4 +725,15 @@
       <Z>0.4</Z>
       <Flying/>
    </Object>
+  <Object type="0x0964" id="Market Object">
+    <Class>MarketObject</Class>
+    <Texture>
+      <File>lofiEnvironment2</File>
+      <Index>0x55</Index>
+    </Texture>
+    <OccupySquare/>
+    <ShadowSize>0</ShadowSize>
+    <Size>110</Size>
+    <Static/>
+  </Object>
 </Objects>

@@ -47,6 +47,9 @@ namespace wServer
                 Config.dbInfo.index,
                 Resources))
             {
+                var marketSweeper = new MarketSweeper(db);
+                marketSweeper.Run();
+
                 var manager = new RealmManager(Resources, db, Config);
                 manager.Run();
 

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using common;
 using common.resources;
 using StackExchange.Redis;
 using wServer.networking.packets;
@@ -360,7 +361,7 @@ namespace wServer.realm.entities
         {
             if (Client.Player.Owner == null || Client.Player.Owner is Test)
             {
-                SendInfo("Can't use emote unlocks in test worlds.");
+                SendInfo("Can't use emote unlockers in test worlds.");
                 return;
             }
 
@@ -375,10 +376,17 @@ namespace wServer.realm.entities
             SendInfo($"{eff.Id} ({eff.Id}) Emote unlocked successfully");
         }
 
-        private void AEUnlockSkin(RealmTime time, Item item, Position target, ActivateEffect eff)
+        private void AEUnlockSkin(RealmTime time, Item item, Position target, ActivateEffect eff) // doesn't work somehow...
         {
+            if (Client.Player.Owner == null || Client.Player.Owner is Test)
+            {
+                SendInfo("Can't use skin unlockers in test worlds.");
+                return;
+            }
+
             var acc = Client.Account;
             var ownedSkins = acc.Skins.ToList();
+
             if (!ownedSkins.Contains(eff.SkinType))
             {
                 ownedSkins.Add(eff.SkinType);

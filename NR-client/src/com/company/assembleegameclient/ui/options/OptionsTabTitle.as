@@ -14,11 +14,11 @@ public class OptionsTabTitle extends Sprite {
     protected var textText_:TextFieldDisplayConcrete;
     protected var selected_:Boolean;
 
-    public function OptionsTabTitle(_arg1:String) {
-        this.text_ = _arg1;
+    public function OptionsTabTitle(text:String) {
+        this.text_ = text;
         this.textText_ = new TextFieldDisplayConcrete().setSize(TEXT_SIZE).setColor(0xB3B3B3);
         this.textText_.setBold(true);
-        this.textText_.setStringBuilder(new LineBuilder().setParams(_arg1));
+        this.textText_.setStringBuilder(new LineBuilder().setParams(text));
         this.textText_.filters = [new DropShadowFilter(0, 0, 0, 0.5, 12, 12)];
         addChild(this.textText_);
         this.selected_ = false;

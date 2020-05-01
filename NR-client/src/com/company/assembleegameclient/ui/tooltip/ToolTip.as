@@ -1,4 +1,5 @@
 ﻿package com.company.assembleegameclient.ui.tooltip {
+import com.company.assembleegameclient.game.GameSprite;
 import com.company.assembleegameclient.map.partyoverlay.PlayerArrow;
 import com.company.assembleegameclient.parameters.Parameters;
 import com.company.assembleegameclient.ui.options.Options;
@@ -42,7 +43,6 @@ public class ToolTip extends Sprite {
     private const graphicsData_:Vector.<IGraphicsData> = new <IGraphicsData>[lineStyle_, backgroundFill_, path_, GraphicsUtil.END_FILL, GraphicsUtil.END_STROKE];
 
     public function ToolTip(background_:uint, backgroundAlpha_:Number, outline_:uint, outlineAlpha_:Number, followMouse_:Boolean = true) {
-        super();
         this.background_ = background_;
         this.backgroundAlpha_ = backgroundAlpha_;
         this.outline_ = outline_;
@@ -121,7 +121,7 @@ public class ToolTip extends Sprite {
         var _loc2_:Number = NaN;
         var _loc3_:Number = 800 / stage.stageWidth;
         var _loc4_:Number = 600 / stage.stageHeight;
-        if (this.parent is Options) {
+        if (this.parent is Options || this.parent is GameSprite) {
             _loc1_ = (stage.mouseX + stage.stageWidth / 2 - 400) / stage.stageWidth * 800;
             _loc2_ = (stage.mouseY + stage.stageHeight / 2 - 300) / stage.stageHeight * 600;
         }

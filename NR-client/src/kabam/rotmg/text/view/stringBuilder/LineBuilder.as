@@ -79,24 +79,24 @@ public class LineBuilder implements StringBuilder {
         }));
     }
 
-    public function setParams(_arg1:String, _arg2:Object = null):LineBuilder {
-        this.key = ((_arg1) || (""));
-        this.tokens = _arg2;
+    public function setParams(key:String, tokens:Object = null):LineBuilder {
+        this.key = ((key) || (""));
+        this.tokens = tokens;
         return (this);
     }
 
-    public function setPrefix(_arg1:String):LineBuilder {
-        this.prefix = _arg1;
+    public function setPrefix(prefix:String):LineBuilder {
+        this.prefix = prefix;
         return (this);
     }
 
-    public function setPostfix(_arg1:String):LineBuilder {
-        this.postfix = _arg1;
+    public function setPostfix(postfix:String):LineBuilder {
+        this.postfix = postfix;
         return (this);
     }
 
-    public function setStringMap(_arg1:StringMap):void {
-        this.map = _arg1;
+    public function setStringMap(stringMap:StringMap):void {
+        this.map = stringMap;
     }
 
     public function getString():String {

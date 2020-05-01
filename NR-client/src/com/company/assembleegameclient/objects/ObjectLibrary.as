@@ -69,7 +69,8 @@ public class ObjectLibrary {
         "Wall": Wall,
         "Pet": Pet,
         "PetUpgrader": PetUpgrader,
-        "YardUpgrader": YardUpgrader
+        "YardUpgrader": YardUpgrader,
+        "MarketObject": MarketObject
     };
 
     public static var textureDataFactory:TextureDataFactory = new TextureDataFactory();

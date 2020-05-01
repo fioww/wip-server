@@ -55,17 +55,37 @@ public class Dialog extends Sprite {
 
     protected const graphicsData_:Vector.<IGraphicsData> = new <IGraphicsData>[lineStyle_, backgroundFill_, path_, GraphicsUtil.END_FILL, GraphicsUtil.END_STROKE];
 
-    public function Dialog(_arg1:String, _arg2:String, _arg3:String, _arg4:String, _arg6:Object = null) {
+    public function Dialog(text:String, title:String, leftButton:String, rightButton:String, replaceTokens:Object = null, background:Boolean = false)
+    {
         this.dialogWidth = this.setDialogWidth();
-        this.replaceTokens = _arg6;
-        this.leftButtonKey = _arg3;
-        this.rightButtonKey = _arg4;
+        this.replaceTokens = replaceTokens;
+        this.leftButtonKey = leftButton;
+        this.rightButtonKey = rightButton;
+        this.box_ = new Sprite();
         super();
+
+        if (background) {
+            graphics.clear();
+            graphics.beginFill(2829099, 0.8);
+            graphics.drawRect(0, 0, 800, 600);
+            graphics.endFill();
+        }
+
         this.stageProxy = new StageProxy(this);
-        this._makeUIAndAdd(_arg2, _arg1);
+        this._makeUIAndAdd(text, title);
         this.makeUIAndAdd();
         this.uiWaiter.complete.addOnce(this.onComplete);
         addChild(this.box_);
+        if (leftButton != null) {
+            this.leftButton = new DeprecatedTextButton(16, leftButton, 120);
+            this.leftButton.addEventListener(MouseEvent.CLICK, this.onLeftButtonClick);
+        }
+        if (rightButton != null) {
+            this.rightButton = new DeprecatedTextButton(16, rightButton, 120);
+            this.rightButton.addEventListener(MouseEvent.CLICK, this.onRightButtonClick);
+        }
+        this.draw();
+        addEventListener(Event.ADDED_TO_STAGE, this.onAddedToStage);
     }
 
     public function getLeftButtonKey():String {
@@ -76,22 +96,22 @@ public class Dialog extends Sprite {
         return (this.rightButtonKey);
     }
 
-    public function setTextParams(_arg1:String, _arg2:Object):void {
-        this.textText_.setStringBuilder(new LineBuilder().setParams(_arg1, _arg2));
+    public function setTextParams(key:String, tokens:Object):void {
+        this.textText_.setStringBuilder(new LineBuilder().setParams(key, tokens));
     }
 
-    public function setTitleStringBuilder(_arg1:StringBuilder):void {
-        this.titleText_.setStringBuilder(_arg1);
+    public function setTitleStringBuilder(stringBuilder:StringBuilder):void {
+        this.titleText_.setStringBuilder(stringBuilder);
     }
 
     protected function setDialogWidth():int {
         return (WIDTH);
     }
 
-    private function _makeUIAndAdd(_arg1:String, _arg2:String):void {
-        this.initText(_arg1);
+    private function _makeUIAndAdd(text:String, title:String):void {
+        this.initText(text);
         this.addTextFieldDisplay(this.textText_);
-        this.initNonNullTitleAndAdd(_arg2);
+        this.initNonNullTitleAndAdd(title);
         this.makeNonNullButtons();
     }
 
@@ -145,9 +165,10 @@ public class Dialog extends Sprite {
         this.positionDialog();
     }
 
-    private function positionDialog():void {
-        this.box_.x = ((this.offsetX + (this.stageProxy.getStageWidth() / 2)) - (this.box_.width / 2));
-        this.box_.y = ((this.offsetY + (this.stageProxy.getStageHeight() / 2)) - (this.getBoxHeight() / 2));
+    private function positionDialog():void
+    {
+        this.box_.x = ((this.offsetX + (800 / 2)) - (this.box_.width / 2));
+        this.box_.y = ((this.offsetY + (600 / 2)) - (this.getBoxHeight() / 2));
     }
 
     private function draw():void {
@@ -213,6 +234,12 @@ public class Dialog extends Sprite {
         else {
             this.textText_.y = 4;
         }
+    }
+
+    private function onAddedToStage(event:Event) : void
+    {
+        this.box_.x = this.offsetX + stage.stageWidth / 2 - this.box_.width / 2;
+        this.box_.y = this.offsetY + stage.stageHeight / 2 - this.box_.height / 2;
     }
 
     private function removeButtonsIfAlreadyAdded():void {

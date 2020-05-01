@@ -645,8 +645,8 @@ namespace common
         public void PurchaseSkin(DbAccount acc, ushort skinType, int cost)
         {
             if (cost > 0)
-                acc.TotalCredits = (int) _db.HashIncrement(acc.Key, "totalCredits", cost);
-            acc.Credits = (int) _db.HashIncrement(acc.Key, "credits", cost);
+                acc.TotalCredits = (int) _db.HashDecrement(acc.Key, "totalCredits", cost);
+            acc.Credits = (int) _db.HashDecrement(acc.Key, "credits", cost);
 
             // not thread safe
             var ownedSkins = acc.Skins.ToList();
@@ -1358,6 +1358,71 @@ namespace common
                 _db.KeyDeleteAsync(key, CommandFlags.FireAndForget);
         }
 
+        // Market
+        public void AddMarketData(DbAccount acc, ushort itemType, int sellerId, string sellerName, int price, int timeLeft, CurrencyType currency)
+        {
+            int marketId = DbMarketData.NextId(Conn);
+            DbMarketData data = new DbMarketData(_db, marketId);
+            data.ItemType = itemType;
+            data.SellerName = sellerName;
+            data.SellerId = sellerId;
+            data.Currency = currency;
+            data.Price = price;
+            data.StartTime = DateTime.UtcNow.ToUnixTimestamp();
+            data.TimeLeft = timeLeft;
+            data.Flush();
+
+            AddPlayerOffer(acc, marketId);
+        }
+
+        // Market
+        public DbMarketData GetMarketData(int id)
+        {
+            DbMarketData ret = new DbMarketData(_db, id);
+            if (ret.IsNull)
+            {
+                return null;
+            }
+            return ret;
+        }
+
+        // Market
+        public bool RemoveMarketData(DbAccount acc, int id)
+        {
+            var trans = _db.CreateTransaction();
+            trans.HashDeleteAsync("market", id);
+            if (!trans.Execute())
+            {
+                return false;
+            }
+            RemovePlayerOffer(acc, id);
+            return true;
+        }
+
+        // Market
+        public void RemovePlayerOffer(DbAccount acc, int id)
+        {
+            acc.Reload("marketOffers");
+
+            var gList = acc.MarketOffers.ToList();
+            gList.Remove(id);
+            acc.MarketOffers = gList.ToArray();
+            acc.FlushAsync();
+        }
+
+        // Market
+        public void AddPlayerOffer(DbAccount acc, int id) => AddPlayerOffers(acc, new int[] { id });
+        public void AddPlayerOffers(DbAccount acc, IEnumerable<int> ids)
+        {
+            acc.Reload("marketOffers");
+
+            var gList = acc.MarketOffers.ToList();
+            gList.AddRange(ids);
+
+            acc.MarketOffers = gList.ToArray();
+            acc.FlushAsync();
+        }
+
         public bool AddGift(DbAccount acc, ushort item, ITransaction tran = null)
         {
             return AddGifts(acc, new ushort[] {item}, tran);
@@ -1481,6 +1546,10 @@ namespace common
         public void RankDiscord(string discordId, int rank)
         {
             _db.HashSetAsync("discordRank", discordId, rank, When.Always, CommandFlags.FireAndForget);
+        }
+        public void CleanMarket()
+        {
+            DbMarketData.CleanMarket(this);
         }
     }
 }

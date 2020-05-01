@@ -7,28 +7,28 @@ public class StaticStringBuilder implements StringBuilder {
     private var prefix:String;
     private var postfix:String;
 
-    public function StaticStringBuilder(_arg1:String = "") {
-        this.string = _arg1;
+    public function StaticStringBuilder(string:String = "") {
+        this.string = string;
         this.prefix = "";
         this.postfix = "";
     }
 
-    public function setString(_arg1:String):StaticStringBuilder {
-        this.string = _arg1;
+    public function setString(string:String):StaticStringBuilder {
+        this.string = string;
         return (this);
     }
 
-    public function setPrefix(_arg1:String):StaticStringBuilder {
-        this.prefix = _arg1;
+    public function setPrefix(prefix:String):StaticStringBuilder {
+        this.prefix = prefix;
         return (this);
     }
 
-    public function setPostfix(_arg1:String):StaticStringBuilder {
-        this.postfix = _arg1;
+    public function setPostfix(postfix:String):StaticStringBuilder {
+        this.postfix = postfix;
         return (this);
     }
 
-    public function setStringMap(_arg1:StringMap):void {
+    public function setStringMap(stringMap:StringMap):void {
     }
 
     public function getString():String {

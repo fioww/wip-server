@@ -134,6 +134,7 @@ namespace wServer.networking.handlers
                 msg = "An error occured while trading! Some items were lost!";
             }
 
+            Log.Warn($"{player}:{tradeTarget} traded {thisItems}:{targetItems}");
             // trade successful, notify and save
             TradeDone(player, tradeTarget, msg);
         }

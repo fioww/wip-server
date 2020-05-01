@@ -630,6 +630,7 @@ namespace wServer.realm
                 case "GuildMerchant":
                     return new GuildMerchant(manager, id);
                 case "ArenaGuard":
+                case "MarketObject":
                 case "MysteryBoxGround":
                 case "ReskinVendor":
                 case "PetUpgrader":

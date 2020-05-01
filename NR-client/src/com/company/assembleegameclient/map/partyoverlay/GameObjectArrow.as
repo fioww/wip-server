@@ -220,19 +220,19 @@ public class GameObjectArrow extends Sprite {
         _local_5 = (_local_3 * Math.sin((_local_2 * Trig.toRadians)));
         var _local_6:Number = _arg_1.contentWidth_;
         var _local_7:Number = _arg_1.contentHeight_;
-        if ((((_local_2 >= 45)) && ((_local_2 <= 135)))) {
+        if (((_local_2 >= 45) && (_local_2 <= 135))) {
             _local_8 = (_local_4 + (_local_6 / Math.tan((_local_2 * Trig.toRadians))));
             _arg_1.x = (((_local_4 + _local_8) / 2) - (_local_6 / 2));
             _arg_1.y = _local_5;
         }
         else {
-            if ((((_local_2 <= -45)) && ((_local_2 >= -135)))) {
+            if (((_local_2 <= -45) && (_local_2 >= -135))) {
                 _local_8 = (_local_4 - (_local_6 / Math.tan((_local_2 * Trig.toRadians))));
                 _arg_1.x = (((_local_4 + _local_8) / 2) - (_local_6 / 2));
                 _arg_1.y = (_local_5 - _local_7);
             }
             else {
-                if ((((_local_2 < 45)) && ((_local_2 > -45)))) {
+                if (((_local_2 < 45) && (_local_2 > -45))) {
                     _arg_1.x = _local_4;
                     _local_9 = (_local_5 + (_local_7 * Math.tan((_local_2 * Trig.toRadians))));
                     _arg_1.y = (((_local_5 + _local_9) / 2) - (_local_7 / 2));
