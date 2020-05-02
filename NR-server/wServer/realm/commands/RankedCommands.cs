@@ -484,6 +484,13 @@ namespace wServer.realm.commands
     {
         public GimmeCommand() : base("gimme", permLevel: 80, alias: "give") { }
 
+        private string[] BannedItems =
+        {
+            "Boshy Gun",
+            "Boshy Shotgun",
+            "Oryx's Arena Key",
+        };
+
         protected override bool Process(Player player, RealmTime time, string args)
         {
             var gameData = player.Manager.Resources.GameData;
@@ -508,12 +515,9 @@ namespace wServer.realm.commands
 
             var item = gameData.Items[objType];
 
-            if (player.Client.Account.Rank < 100 &&
-                (item.DisplayName.Equals("Boshy Gun") ||
-                 item.DisplayName.Equals("Boshy Shotgun") ||
-                 item.DisplayName.Equals("Oryx's Arena Key")))
+            if (player.Client.Account.Rank < 100 && item.ObjectId.ToLower().Contains(BannedItems.ToString()))
             {
-                player.SendError("Insufficient rank for that item.");
+                player.SendError("Insufficient rank to give yourself this item.");
                 return false;
             }
 

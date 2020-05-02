@@ -22,18 +22,17 @@ namespace wServer.networking.handlers.market
             client.Manager.Logic.AddPendingAction(t => 
             {
                 var player = client.Player;
-                int[] bannedRanks = { 50, 60, 70, 80, 90 }; // Admins can sell, but please, be careful.
-                if (player == null || IsTest(client) || (player.Rank.Equals(bannedRanks) && player.Admin.Equals(true)))
+                if (player == null || IsTest(client) || (player.Rank > 50 && player.Rank < 100)) // Admins can sell, but please, be careful.
                 {
                     return;
                 }
 
-                if (packet.Hours < 120 || packet.Hours > 120) /* Client only has the options 3, 6, 12 and 24 hours, though if someone wanted they could change that */
+                if (packet.Hours != 120 && packet.Hours != 72 && packet.Hours != 24) /* Only allowed amount of hours: 24, 72, 120 (in days: 1, 3, 5) */
                 {
                     client.SendPacket(new MarketAddResult
                     {
                         Code = MarketAddResult.INVALID_UPTIME,
-                        Description = "Invalid uptime. Only available uptime is 120 hours (5 days.)"
+                        Description = "Invalid uptime."
                     });
                     return;
                 }
@@ -48,7 +47,11 @@ namespace wServer.networking.handlers.market
                     return;
                 }
 
-                if (!Enum.IsDefined(typeof(CurrencyType), packet.Currency) || packet.Currency == (int)CurrencyType.GuildFame) /* Make sure its a valid currency and its NOT GuildFame */
+                // Make sure to use account fame only. 
+                if (!Enum.IsDefined(typeof(CurrencyType), packet.Currency) 
+                    || packet.Currency == (int)CurrencyType.GuildFame 
+                    || packet.Currency == (int)CurrencyType.Gold
+                    || packet.Currency == (int)CurrencyType.Tokens)
                 {
                     client.SendPacket(new MarketAddResult
                     {

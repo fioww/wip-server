@@ -29,8 +29,8 @@ package kabam.rotmg.memMarket.content
                 else
                 {
                     addEventListener(MouseEvent.CLICK, this.onClick);
-                };
-            };
+                }
+            }
         }
 
         private function onClick(event:MouseEvent):void
@@ -43,7 +43,7 @@ package kabam.rotmg.memMarket.content
             else
             {
                 TintUtils.removeTint(this.shape_);
-            };
+            }
         }
 
         public function reset():void
@@ -58,7 +58,7 @@ package kabam.rotmg.memMarket.content
             {
                 this.toolTip_.parent.removeChild(this.toolTip_);
                 this.toolTip_ = null;
-            };
+            }
             this.removeListeners();
         }
 

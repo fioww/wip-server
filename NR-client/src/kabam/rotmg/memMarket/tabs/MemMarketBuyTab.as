@@ -210,7 +210,6 @@ package kabam.rotmg.memMarket.tabs
             }
             this.clearPreviousResults(false);
             var index:int;
-            {
                 for each (i in ObjectLibrary.typeToIdItems_)
                 {
                     if (i.indexOf(this.searchField_.text().toLowerCase()) >= 0)
@@ -218,6 +217,7 @@ package kabam.rotmg.memMarket.tabs
                         if (ItemUtils.isBanned(ObjectLibrary.idToTypeItems_[i]))
                         {
                         }
+
                         else
                         {
                             item = new MemMarketItem(this.gameSprite_, SEARCH_ITEM_SIZE, SEARCH_ITEM_SIZE, 80, ObjectLibrary.idToTypeItems_[i], null);
@@ -229,7 +229,7 @@ package kabam.rotmg.memMarket.tabs
                         }
                     }
                 }
-            }
+
             for each (x in this.searchItems)
             {
                 this.searchBackground.addChild(x);

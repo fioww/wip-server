@@ -1,6 +1,7 @@
 ﻿package com.company.assembleegameclient.objects {
 import com.company.assembleegameclient.objects.animation.AnimationsData;
 import com.company.assembleegameclient.parameters.Parameters;
+import com.company.assembleegameclient.ui.tooltip.EquipmentToolTip;
 import com.company.assembleegameclient.util.TextureRedrawer;
 import com.company.assembleegameclient.util.redrawers.GlowRedrawer;
 import com.company.util.AssetLibrary;
@@ -315,8 +316,8 @@ public class ObjectLibrary {
     }
 
     public static function isSoulbound(objectType:int):Boolean {
-        var isSoulbound:XML = xmlLibrary_[objectType];
-        return (((!((isSoulbound == null))) && (isSoulbound.hasOwnProperty("Soulbound"))));
+        var xmlLib:XML = xmlLibrary_[objectType];
+        return (!(isSoulbound == null) && xmlLib.hasOwnProperty("Soulbound"));
     }
 
     public static function usableBy(_arg1:int):Vector.<String> {

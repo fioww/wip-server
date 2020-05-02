@@ -40,19 +40,28 @@ import kabam.rotmg.memMarket.utils.SortUtils;
         private static const RESULT_X_OFFSET:int = 270;
         private static const RESULT_Y_OFFSET:int = 105;
 
+        /*
         private static const ICON_X:int = 212;
         private static const ICON_Y:int = 356;
 
         private static const FAME:String = "Fame";
         private static const GOLD:String = "Gold";
-        private static const CURRENCY_CHOICES:Vector.<String> = new <String> /* List of available sell currencies */
+        private static const CURRENCY_CHOICES:Vector.<String> = new <String> // List of available sell currencies
         [
             FAME,
             GOLD
         ];
+        */
 
+        private static const HOURS_24:String = "1 Day";
+        private static const HOURS_72:String = "3 Days";
         private static const HOURS_120:String = "5 Days";
-        private static const UPTIME_CHOICES:Vector.<String> = new <String>[HOURS_120];
+        private static const UPTIME_CHOICES:Vector.<String> = new <String>
+        [
+            HOURS_24,
+            HOURS_72,
+            HOURS_120
+        ];
 
         public const addSignal_:MemMarketAddSignal = new MemMarketAddSignal();
         public const removeSignal_:MemMarketRemoveSignal = new MemMarketRemoveSignal();
@@ -60,9 +69,9 @@ import kabam.rotmg.memMarket.utils.SortUtils;
 
         private var inventorySlots_:Vector.<MemMarketInventoryItem>;
         private var priceField_:MarketInput;
-        private var currencyChoice_:DropDown;
-        private var currencyFame_:Bitmap;
-        private var currencyGold_:Bitmap;
+       // private var currencyChoice_:DropDown;
+        //private var currencyFame_:Bitmap;
+        //private var currencyGold_:Bitmap;
         private var uptimeChoice_:DropDown;
         private var sellButton_:TextButton;
         private var shape_:Shape;
@@ -74,7 +83,7 @@ import kabam.rotmg.memMarket.utils.SortUtils;
         private var uptime_:int;
         private var slots_:Vector.<int>;
         private var price_:int;
-        private var selectedCurrency_:int;
+        //private var selectedCurrency_:int;
 
         public function MemMarketSellTab(gameSprite:GameSprite)
         {
@@ -113,6 +122,7 @@ import kabam.rotmg.memMarket.utils.SortUtils;
 
             addChild(this.priceField_);
 
+            /*
             this.currencyChoice_ = new DropDown(CURRENCY_CHOICES, 133, 26, "Currency");
             this.currencyChoice_.x = 10;
             this.currencyChoice_.y = 368;
@@ -133,11 +143,12 @@ import kabam.rotmg.memMarket.utils.SortUtils;
             addChild(this.currencyGold_);
 
             this.updateIcon();
+            */
 
             this.uptimeChoice_ = new DropDown(UPTIME_CHOICES, 176, 26, "Uptime");
             this.uptimeChoice_.x = 10;
-            this.uptimeChoice_.y = 397;
-            this.uptimeChoice_.setValue(HOURS_120);
+            this.uptimeChoice_.y = 368;
+            this.uptimeChoice_.setValue(HOURS_72);
             this.uptimeChoice_.addEventListener(Event.CHANGE, this.onUptimeChanged);
 
             addChild(this.uptimeChoice_);
@@ -145,7 +156,7 @@ import kabam.rotmg.memMarket.utils.SortUtils;
             this.uptime_ = this.getHours();
             this.sellButton_ = new TextButton(16, "Sell", 243);
             this.sellButton_.x = 10;
-            this.sellButton_.y = 426;
+            this.sellButton_.y = 397;
             this.sellButton_.addEventListener(MouseEvent.CLICK, this.onSell);
 
             addChild(this.sellButton_);
@@ -204,6 +215,7 @@ import kabam.rotmg.memMarket.utils.SortUtils;
                 return;
             }
 
+            /*
             switch (CURRENCY_CHOICES[this.currencyChoice_.getIndex()])
             {
                 case FAME:
@@ -213,15 +225,17 @@ import kabam.rotmg.memMarket.utils.SortUtils;
                     this.selectedCurrency_ = Currency.GOLD;
                     break;
             }
+            */
 
             DialogUtils.makeCallbackDialog(this.gameSprite_, "Verification", "Are you sure you want to sell these items?", "Yes", "No", this.onVerified);
         }
 
         private function onVerified(event:Event):void
         {
-            this.gameSprite_.gsc_.marketAdd(this.slots_, this.price_, this.selectedCurrency_, this.uptime_);
+            this.gameSprite_.gsc_.marketAdd(this.slots_, this.price_, Currency.FAME, this.uptime_);
         }
 
+        /*
         private function onCurrencyChanged(event:Event) : void
         {
             this.updateIcon();
@@ -241,6 +255,7 @@ import kabam.rotmg.memMarket.utils.SortUtils;
                     break;
             }
         }
+        */
 
         private function onUptimeChanged(event:Event):void
         {
@@ -249,9 +264,20 @@ import kabam.rotmg.memMarket.utils.SortUtils;
 
         private function getHours():int
         {
-            //var str:String = UPTIME_CHOICES[this.uptimeChoice_.getIndex()];
-            //var hours:int = int(str.split(" ")[0]);
-            return (120);
+            var hours:int;
+            switch (UPTIME_CHOICES[this.uptimeChoice_.getIndex()])
+            {
+                case HOURS_24:
+                    hours = 24;
+                    break;
+                case HOURS_120:
+                    hours = 120;
+                    break;
+                default:
+                    hours = 72;
+                    break;
+            }
+            return hours;
         }
 
         private function onAdd(result:MarketAddResult):void
@@ -382,10 +408,10 @@ import kabam.rotmg.memMarket.utils.SortUtils;
             this.inventorySlots_ = null;
 
             this.priceField_ = null;
-            this.currencyChoice_.removeEventListener(Event.CHANGE, this.onCurrencyChanged);
-            this.currencyChoice_ = null;
-            this.currencyFame_ = null;
-            this.currencyGold_ = null;
+            //this.currencyChoice_.removeEventListener(Event.CHANGE, this.onCurrencyChanged);
+            //this.currencyChoice_ = null;
+            //this.currencyFame_ = null;
+            //this.currencyGold_ = null;
             this.uptimeChoice_.removeEventListener(Event.CHANGE, this.onUptimeChanged);
             this.uptimeChoice_ = null;
             this.sellButton_.removeEventListener(MouseEvent.CLICK, this.onSell);
