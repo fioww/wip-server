@@ -3853,7 +3853,7 @@
       <Activate amount="200">Heal</Activate>
       <Consumable/>
       <Potion/>
-      <BagType>9</BagType>
+      <BagType>0</BagType>
       <feedPower>5</feedPower>
    </Object>
    <Object type="0x0366" id="Magic Potion">
@@ -3888,7 +3888,6 @@
       <Consumable/>
       <Potion/>
       <BagType>0</BagType>
-      <Soulbound/>
       <feedPower>80</feedPower>
    </Object>
    <Object type="0x0368" id="Cream Spirit">
@@ -3905,7 +3904,6 @@
       <Activate amount="150">Magic</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>80</feedPower>
    </Object>
@@ -3923,7 +3921,6 @@
       <Activate amount="150">Heal</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>80</feedPower>
    </Object>
@@ -3941,7 +3938,6 @@
       <Activate amount="150">Magic</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>80</feedPower>
    </Object>
@@ -3959,7 +3955,6 @@
       <Activate amount="150">Heal</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>80</feedPower>
    </Object>
@@ -3977,7 +3972,6 @@
       <Activate amount="150">Magic</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>80</feedPower>
    </Object>
@@ -3995,7 +3989,6 @@
       <Activate amount="150">Heal</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>80</feedPower>
    </Object>
@@ -4013,7 +4006,6 @@
       <Activate amount="150">Magic</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>80</feedPower>
    </Object>
@@ -4031,7 +4023,6 @@
       <Activate amount="150">Heal</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>80</feedPower>
    </Object>
@@ -4050,7 +4041,6 @@
       <Activate amount="150">Magic</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>80</feedPower>
    </Object>
@@ -4069,7 +4059,7 @@
       <Activate amount="125">Heal</Activate>
       <Consumable/>
       <SuccessorId>Elixir of Health 6</SuccessorId>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>2</BagType>
       <feedPower>35</feedPower>
@@ -4089,7 +4079,7 @@
       <Activate amount="125">Heal</Activate>
       <Consumable/>
       <SuccessorId>Elixir of Health 5</SuccessorId>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>2</BagType>
       <feedPower>30</feedPower>
@@ -4109,7 +4099,7 @@
       <Activate amount="125">Heal</Activate>
       <Consumable/>
       <SuccessorId>Elixir of Health 4</SuccessorId>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>2</BagType>
       <feedPower>25</feedPower>
@@ -4129,7 +4119,7 @@
       <Activate amount="125">Heal</Activate>
       <Consumable/>
       <SuccessorId>Elixir of Health 3</SuccessorId>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>2</BagType>
       <feedPower>20</feedPower>
@@ -4149,7 +4139,7 @@
       <Activate amount="125">Heal</Activate>
       <Consumable/>
       <SuccessorId>Elixir of Health 2</SuccessorId>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>2</BagType>
       <feedPower>15</feedPower>
@@ -4169,7 +4159,7 @@
       <Activate amount="125">Heal</Activate>
       <Consumable/>
       <SuccessorId>Elixir of Health 1</SuccessorId>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>2</BagType>
       <feedPower>10</feedPower>
@@ -4187,7 +4177,7 @@
       <Sound>use_potion</Sound>
       <Activate amount="125">Heal</Activate>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>2</BagType>
       <feedPower>5</feedPower>
@@ -4207,7 +4197,7 @@
       <Activate amount="125">Magic</Activate>
       <Consumable/>
       <SuccessorId>Elixir of Magic 6</SuccessorId>
-     <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>2</BagType>
       <feedPower>35</feedPower>
@@ -4227,7 +4217,7 @@
       <Activate amount="125">Magic</Activate>
       <Consumable/>
       <SuccessorId>Elixir of Magic 5</SuccessorId>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>2</BagType>
       <feedPower>30</feedPower>
@@ -4247,7 +4237,7 @@
       <Activate amount="125">Magic</Activate>
       <Consumable/>
       <SuccessorId>Elixir of Magic 4</SuccessorId>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>2</BagType>
       <feedPower>25</feedPower>
@@ -4267,7 +4257,7 @@
       <Activate amount="125">Magic</Activate>
       <Consumable/>
       <SuccessorId>Elixir of Magic 3</SuccessorId>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>2</BagType>
       <feedPower>20</feedPower>
@@ -4287,7 +4277,7 @@
       <Activate amount="125">Magic</Activate>
       <Consumable/>
       <SuccessorId>Elixir of Magic 2</SuccessorId>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>2</BagType>
       <feedPower>15</feedPower>
@@ -4307,7 +4297,7 @@
       <Activate amount="125">Magic</Activate>
       <Consumable/>
       <SuccessorId>Elixir of Magic 1</SuccessorId>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>2</BagType>
       <feedPower>10</feedPower>
@@ -4325,7 +4315,7 @@
       <Sound>use_potion</Sound>
       <Activate amount="125">Magic</Activate>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>2</BagType>
       <feedPower>5</feedPower>
@@ -4342,7 +4332,6 @@
       <Sound>use_potion</Sound>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <Activate range="10" amount="100">HealNova</Activate>
       <feedPower>35</feedPower>
@@ -4376,7 +4365,7 @@
       <Sound>use_potion</Sound>
       <Activate amount="300">Heal</Activate>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>0</BagType>
       <feedPower>50</feedPower>
@@ -4393,7 +4382,7 @@
       <Sound>use_potion</Sound>
       <Activate amount="300">Magic</Activate>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>0</BagType>
       <feedPower>50</feedPower>
@@ -4409,7 +4398,7 @@
       <Description>Adds speed and reduces attack.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>5</BagType>
       <Activate stat="22" amount="15" duration="45">StatBoostSelf</Activate>
@@ -4427,7 +4416,7 @@
       <Description>Adds attack to everyone reduces speed for self.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>5</BagType>
       <Activate stat="22" amount="-10" duration="30">StatBoostSelf</Activate>
@@ -4445,7 +4434,7 @@
       <Description>A potion that temporarily boosts dexterity.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>5</BagType>
       <Activate stat="28" amount="15" duration="30">StatBoostSelf</Activate>
@@ -4462,7 +4451,7 @@
       <Description>A potion that temporarily boosts maximum health points.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>5</BagType>
       <Activate stat="0" amount="75" duration="30">StatBoostSelf</Activate>
@@ -4479,7 +4468,7 @@
       <Description>A potion that temporarily boosts maximum magic points.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>5</BagType>
       <Activate stat="3" amount="75" duration="30">StatBoostSelf</Activate>
@@ -4496,7 +4485,7 @@
       <Description>A potion that temporarily boosts defense.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-     <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>5</BagType>
       <Activate stat="21" amount="15" duration="30">StatBoostSelf</Activate>
@@ -4513,7 +4502,7 @@
       <Description>A potion that temporarily boosts the dexterity of all nearby allies.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>5</BagType>
       <Activate stat="28" amount="30" duration="30" range="6">StatBoostAura</Activate>
@@ -4530,7 +4519,7 @@
       <Description>A potion that temporarily boosts the maximum health points of all nearby allies.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>5</BagType>
       <Activate stat="0" amount="150" duration="30" range="6">StatBoostAura</Activate>
@@ -4547,7 +4536,7 @@
       <Description>A potion that temporarily boosts the maximum magic points of all nearby allies.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>5</BagType>
       <Activate stat="3" amount="150" duration="30" range="6">StatBoostAura</Activate>
@@ -4564,7 +4553,7 @@
       <Description>A potion that temporarily boosts the defense of all nearby allies.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>5</BagType>
       <Activate stat="21" amount="30" duration="30" range="6">StatBoostAura</Activate>
@@ -7824,7 +7813,6 @@
       <Description>An egg that when used, hatches a Purple Drake to help you in battle for a short time.</Description>
       <Sound>spell/light_heal</Sound>
       <Consumable/>
-      <Soulbound/>
       <BagType>0</BagType>
       <Activate objectId="Purple Drake">Pet</Activate>
       <OldSound>use_potion</OldSound>
@@ -7841,7 +7829,6 @@
       <Description>An egg that when used, hatches a White Drake to heal your wounds in battle for a short time.</Description>
       <Sound>spell/light_heal</Sound>
       <Consumable/>
-      <Soulbound/>
       <BagType>0</BagType>
       <Activate objectId="White Drake">Pet</Activate>
       <OldSound>use_potion</OldSound>
@@ -7858,7 +7845,6 @@
       <Description>An egg that when used, hatches a Blue Drake to help you in battle for a short time, paralyzing your enemies.</Description>
       <Sound>spell/light_heal</Sound>
       <Consumable/>
-      <Soulbound/>
       <BagType>0</BagType>
       <Activate objectId="Blue Drake">Pet</Activate>
       <OldSound>use_potion</OldSound>
@@ -7875,7 +7861,6 @@
       <Description>An egg that when used, hatches an Orange Drake to help you in battle for a short time, placing your enemies in stasis.</Description>
       <Sound>spell/light_heal</Sound>
       <Consumable/>
-      <Soulbound/>
       <BagType>0</BagType>
       <Activate objectId="Orange Drake">Pet</Activate>
       <OldSound>use_potion</OldSound>
@@ -7892,7 +7877,6 @@
       <Description>An egg that when used, hatches a Green Drake to help you in battle for a short time, casting slow upon your enemies.</Description>
       <Sound>spell/light_heal</Sound>
       <Consumable/>
-      <Soulbound/>
       <BagType>0</BagType>
       <Activate objectId="Green Drake">Pet</Activate>
       <OldSound>use_potion</OldSound>
@@ -7910,7 +7894,6 @@
       <Description>An egg that when used, hatches a Yellow Drake to help you in battle for a short time, causing bleeding to your enemies.</Description>
       <Sound>spell/light_heal</Sound>
       <Consumable/>
-      <Soulbound/>
       <BagType>0</BagType>
       <Activate objectId="Yellow Drake">Pet</Activate>
       <OldSound>use_potion</OldSound>
@@ -8247,7 +8230,7 @@
       <Description>A key which opens an entrance to an Undead Lair.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Undead Lair Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -8265,7 +8248,7 @@
       <Description>A key which opens an entrance to a Spider Den.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Spider Den Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -8282,7 +8265,7 @@
       <Description>A key which opens an entrance to a Pirate Cave.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Pirate Cave Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -8299,7 +8282,7 @@
       <Description>A key which opens an entrance to an Abyss of Demons.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Abyss of Demons Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -8316,7 +8299,7 @@
       <Description>A key which opens an entrance to a Snake Pit.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Snake Pit Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -8333,7 +8316,7 @@
       <Description>A key which opens an entrance to the Tomb of the Ancients.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Tomb of the Ancients Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -8350,7 +8333,7 @@
       <Description>A key which opens an entrance to the Tomb of the Ancients (Heroic).\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Tomb of the Ancients Portal (Heroic)">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -8367,7 +8350,7 @@
       <Description>A key which opens an entrance to a Sprite World.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Glowing Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -8400,7 +8383,7 @@
       <Description>A key which opens an entrance to an Ocean Trench.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Ocean Trench Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -8417,7 +8400,7 @@
       <Description>Enter this destroyed Nexus at your own peril.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Battle Nexus Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -8545,7 +8528,7 @@
       <Description>A key which opens a passage to the Forbidden Jungle.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Forbidden Jungle Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -8579,7 +8562,7 @@
       <Description>It's cold in here.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Ice Cave Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -8766,7 +8749,6 @@
       <Activate>RemoveNegativeConditionsSelf</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>50</feedPower>
    </Object>
@@ -8806,7 +8788,7 @@
       <Description>A key which opens a passage to the Manor of the Immortals.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Manor of the Immortals Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -8852,7 +8834,6 @@
       <Description>Rum with ghostly properties that can help the drinker enter the spirit realm. It has fermented under the sea for ages.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
       <BagType>0</BagType>
       <Activate effect="Drunk" duration="6">ConditionEffectSelf</Activate>
       <Activate effect="Invisible" duration="4">ConditionEffectSelf</Activate>
@@ -8890,7 +8871,7 @@
       <ActivateOnEquip stat="20" amount="20">IncrementStat</ActivateOnEquip>
       <ActivateOnEquip stat="22" amount="20">IncrementStat</ActivateOnEquip>
       <BagType>8</BagType>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>0</feedPower>
    </Object>
    <Object type="0x0472" id="Spectral Cloth Armor">
@@ -8969,7 +8950,7 @@
       <BagType>2</BagType>
       <Activate objectId="Lil Firecracker">Pet</Activate>
       <OldSound>use_potion</OldSound>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>30</feedPower>
    </Object>
    <Object type="0x0476" id="Large Firecracker">
@@ -8986,7 +8967,7 @@
       <BagType>2</BagType>
       <Activate objectId="Big Firecracker">Pet</Activate>
       <OldSound>use_potion</OldSound>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>50</feedPower>
    </Object>
    <Object type="0x0477" id="America Ring">
@@ -9009,7 +8990,7 @@
       <BagType>8</BagType>
       <FameBonus>3</FameBonus>
       <feedPower>700</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x0478" id="Davy's Key">
       <Class>Equipment</Class>
@@ -9022,7 +9003,7 @@
       <Description>A key that opens the way to Davy Jones' Locker.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Davy Jones' Locker Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -9129,7 +9110,7 @@
       <BagType>2</BagType>
       <Activate objectId="Sand Castle">Pet</Activate>
       <OldSound>use_potion</OldSound>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>80</feedPower>
    </Object>
    <Object type="0x047e" id="Sand Pail 4">
@@ -9149,7 +9130,7 @@
       <BagType>2</BagType>
       <Activate objectId="Sand Castle">Pet</Activate>
       <OldSound>use_potion</OldSound>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>60</feedPower>
    </Object>
    <Object type="0x047f" id="Sand Pail 3">
@@ -9169,7 +9150,7 @@
       <BagType>2</BagType>
       <Activate objectId="Sand Castle">Pet</Activate>
       <OldSound>use_potion</OldSound>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>40</feedPower>
    </Object>
    
@@ -9190,7 +9171,7 @@
       <BagType>2</BagType>
       <Activate objectId="Sand Castle">Pet</Activate>
       <OldSound>use_potion</OldSound>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>20</feedPower>
    </Object>
    <Object type="0x0481" id="Sand Pail 1">
@@ -9222,7 +9203,7 @@
       <Description>A tangy fruit drink that boosts dexterity and life.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>5</BagType>
       <Activate stat="28" amount="10" duration="20">StatBoostSelf</Activate>
@@ -9241,7 +9222,7 @@
       <Description>A refreshing tropical drink that boosts life and mana.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>5</BagType>
       <Activate stat="3" amount="50" duration="20">StatBoostSelf</Activate>
@@ -9260,7 +9241,7 @@
       <Description>A sweet tropical drink that boosts attack and dexterity.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>5</BagType>
       <Activate stat="20" amount="10" duration="20">StatBoostSelf</Activate>
@@ -9279,7 +9260,7 @@
       <Description>A bold island drink that boosts defense and vitality.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Potion/>
       <BagType>5</BagType>
       <Activate stat="21" amount="10" duration="30">StatBoostSelf</Activate>
@@ -9298,7 +9279,7 @@
       <Description>A key which opens a portal to the Beachzone.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Beachzone Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -9313,13 +9294,13 @@
       </Texture>
       <SlotType>9</SlotType>
       <Description>An Olympic gold medal in synchronised swimming.</Description>
-      <ActivateOnEquip stat="28" amount="300">IncrementStat</ActivateOnEquip>
-      <ActivateOnEquip stat="26" amount="300">IncrementStat</ActivateOnEquip>
-      <ActivateOnEquip stat="22" amount="300">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="3">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="3">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="3">IncrementStat</ActivateOnEquip>
       <FameBonus>3</FameBonus>
       <BagType>8</BagType>
       <feedPower>500</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x0488" id="Silver Medal">
       <Class>Equipment</Class>
@@ -9336,7 +9317,7 @@
       <FameBonus>2</FameBonus>
       <BagType>8</BagType>
       <feedPower>350</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x0489" id="Bronze Medal">
       <Class>Equipment</Class>
@@ -9353,7 +9334,7 @@
       <FameBonus>1</FameBonus>
       <BagType>8</BagType>
       <feedPower>200</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x048a" id="Lab Key">
       <Class>Equipment</Class>
@@ -9366,7 +9347,7 @@
       <Description>A key which reveals the way to the Mad Lab.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Mad Lab Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -9383,7 +9364,6 @@
       <Description>A science experiment.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
       <BagType>0</BagType>
       <Activate effect="Invisible">ClearConditionEffectSelf</Activate>
       <Activate effect="Hexed" duration="30">ConditionEffectSelf</Activate>
@@ -9400,7 +9380,7 @@
       <Description>Get 2x all XP gained! Lasts until level 20 or death.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <BagType>2</BagType>
       <Activate duration="-1" id="XP">MiscBoosts</Activate>
       <feedPower>200</feedPower>
@@ -9417,7 +9397,7 @@
       <Description>Get 2x all XP gained! Lasts until level 20 or death.</Description>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <BagType>2</BagType>
       <Activate duration="300" id="XP">MiscBoosts</Activate>
       <feedPower>1</feedPower>
@@ -10141,7 +10121,6 @@
          <LifetimeMS>500</LifetimeMS>
       </Projectile>
       <BagType>1</BagType>
-      <Soulbound/>
       <OldSound>bladeSwing</OldSound>
       <feedPower>6000</feedPower>
    </Object>
@@ -10205,7 +10184,7 @@
       <Description>A key which opens the way to the Candyland Hunting Grounds.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Candyland Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -10223,7 +10202,6 @@
       <Sound>use_potion</Sound>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <Activate stat="26" amount="10" duration="20">StatBoostSelf</Activate>
       <feedPower>25</feedPower>
@@ -10240,7 +10218,6 @@
       <Sound>use_potion</Sound>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <Activate stat="20" amount="6" duration="20">StatBoostSelf</Activate>
       <feedPower>25</feedPower>
@@ -10257,7 +10234,6 @@
       <Sound>use_potion</Sound>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <Activate stat="21" amount="6" duration="20">StatBoostSelf</Activate>
       <feedPower>25</feedPower>
@@ -10275,7 +10251,6 @@
       <Sound>use_potion</Sound>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <Activate stat="22" amount="8" duration="20">StatBoostSelf</Activate>
       <feedPower>25</feedPower>
@@ -10292,7 +10267,6 @@
       <Sound>use_potion</Sound>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <Activate stat="28" amount="8" duration="20">StatBoostSelf</Activate>
       <feedPower>25</feedPower>
@@ -10349,7 +10323,7 @@
       </ExtraTooltipData>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <BagType>2</BagType>
       <Activate duration="3600" id="XP">MiscBoosts</Activate>
       <feedPower>110</feedPower>
@@ -10368,7 +10342,7 @@
       </ExtraTooltipData>
       <Sound>use_potion</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <BagType>2</BagType>
       <Activate duration="1200" id="XP">MiscBoosts</Activate>
       <feedPower>75</feedPower>
@@ -10390,7 +10364,7 @@
       <Activate maxDistance="20">Teleport</Activate>
       <BagType>8</BagType>
       <feedPower>1000</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x04b7" id="Plague Poison">
       <Class>Equipment</Class>
@@ -10457,7 +10431,7 @@
       <Description>A key which opens a portal to the Haunted Cemetery.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Haunted Cemetery Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -10474,7 +10448,7 @@
       <Description>A key which opens a portal to the Halloween Cemetery.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Halloween Cemetery Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -10782,7 +10756,7 @@
       <BagType>0</BagType>
       <Activate objectId="Lil Firecracker">Pet</Activate>
       <OldSound>use_potion</OldSound>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>400</feedPower>
    </Object>
    <Object type="0x04ce" id="Cheater Light Armor">
@@ -10841,7 +10815,6 @@
       <Activate amount="100">Heal</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>5</feedPower>
    </Object>
@@ -10903,7 +10876,7 @@
       <Description>A key which opens a portal to the Lair of Draconis.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Lair of Draconis Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -11004,7 +10977,7 @@
       <Description>Food for your pet. To quench your pet's thirst!</Description>
       <BagType>2</BagType>
       <feedPower>100</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x04da" id="Fries">
       <Class>Equipment</Class>
@@ -11018,7 +10991,7 @@
       <BagType>2</BagType>
       <feedPower>250</feedPower>
       <Potion/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x04db" id="Great Taco">
       <Class>Equipment</Class>
@@ -11031,7 +11004,7 @@
       <Description>Food for your pet. Contains fresh salsa!</Description>
       <BagType>2</BagType>
       <feedPower>500</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x04dc" id="Power Pizza">
       <Class>Equipment</Class>
@@ -11044,7 +11017,7 @@
       <Description>Food for your pet. Cheesy and delicious.</Description>
       <BagType>2</BagType>
       <feedPower>750</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x04dd" id="Chocolate Cream Sandwich Cookie">
       <Class>Equipment</Class>
@@ -11057,7 +11030,7 @@
       <Description>Food for your pet. Goes best with milk!</Description>
       <BagType>2</BagType>
       <feedPower>1111</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x04de" id="Grapes of Wrath">
       <Class>Equipment</Class>
@@ -11070,7 +11043,7 @@
       <Description>Food for your pet. Super healthy, super delicious, super wrathful!</Description>
       <BagType>2</BagType>
       <feedPower>1500</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x04df" id="Superburger">
       <Class>Equipment</Class>
@@ -11083,7 +11056,7 @@
       <Description>Food for your pet. A hearty classic!</Description>
       <BagType>2</BagType>
       <feedPower>2000</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    
    <Object type="0x04e0" id="Double Cheeseburger Deluxe">
@@ -11097,7 +11070,7 @@
       <Description>Food for your pet. The ultimate deluxe cheeseburger!</Description>
       <BagType>2</BagType>
       <feedPower>3000</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x04e1" id="Ambrosia">
       <Class>Equipment</Class>
@@ -11111,7 +11084,7 @@
       <BagType>2</BagType>
       <feedPower>5000</feedPower>
       <Potion/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x04e2" id="Cranberries">
       <Class>Equipment</Class>
@@ -11124,7 +11097,7 @@
       <Description>Food for your pet. Tart and tangy.</Description>
       <BagType>2</BagType>
       <feedPower>250</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x04e3" id="Ear of Corn">
       <Class>Equipment</Class>
@@ -11137,7 +11110,7 @@
       <Description>Food for your pet. Buttery and delicious.</Description>
       <BagType>2</BagType>
       <feedPower>350</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x04e4" id="Sliced Yam">
       <Class>Equipment</Class>
@@ -11150,7 +11123,7 @@
       <Description>Food for your pet. Nice and sweet.</Description>
       <BagType>2</BagType>
       <feedPower>500</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x04e5" id="Pumpkin Pie">
       <Class>Equipment</Class>
@@ -11163,7 +11136,7 @@
       <Description>Food for your pet. Fresh out of Oryx's kitchen.</Description>
       <BagType>2</BagType>
       <feedPower>650</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x04e6" id="Thanksgiving Turkey">
       <Class>Equipment</Class>
@@ -11176,7 +11149,7 @@
       <Description>Food for your pet. A whole Thanksgiving turkey!</Description>
       <BagType>2</BagType>
       <feedPower>1621</feedPower>
-      <Soulbound/>
+      <!--<Soulbound/>-->
    </Object>
    <Object type="0x04e7" id="Forest Maze Key">
       <Class>Equipment</Class>
@@ -11189,7 +11162,7 @@
       <Description>A key which opens an entrance to the Forest Maze.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-     <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Forest Maze Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -11206,7 +11179,7 @@
       <Description>A key which opens an entrance to the Woodland Labyrinth.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Woodland Labyrinth">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -11223,7 +11196,7 @@
       <Description>A key which opens an entrance to Deadwater Docks.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Deadwater Docks">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -11240,7 +11213,7 @@
       <Description>A key which opens an entrance to The Crawling Depths.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="The Crawling Depths">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -11257,7 +11230,7 @@
       <Description>A key which opens an entrance to The Shatters.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="The Shatters">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -11556,7 +11529,6 @@
       <Activate amount="100">Heal</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>5</feedPower>
    </Object>
@@ -11573,7 +11545,6 @@
       <Activate amount="100">Heal</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>5</feedPower>
    </Object>
@@ -11590,7 +11561,6 @@
       <Activate amount="100">Heal</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>5</feedPower>
    </Object>
@@ -11607,7 +11577,6 @@
       <Activate amount="100">Heal</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>5</feedPower>
    </Object>
@@ -11624,7 +11593,6 @@
       <Activate amount="100">Heal</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>5</feedPower>
    </Object>
@@ -11641,7 +11609,6 @@
       <Activate amount="100">Heal</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>5</feedPower>
    </Object>
@@ -11805,7 +11772,7 @@
       <Description>A key which opens an entrance to Belladonna's Garden.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-     <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Belladonna's Garden Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -11822,7 +11789,7 @@
       <Description>A molten Key that links directly to the Lair of Shaitan, Advisor to Oryx.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Lair of Shaitan Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -12155,7 +12122,6 @@
       </ExtraTooltipData>
       <BagType>4</BagType>
       <Treasure/>
-      <Soulbound/>
       <feedPower>250</feedPower>
    </Object>
    <Object type="0x0531" id="The Sun Tarot Card">
@@ -12172,7 +12138,6 @@
       </ExtraTooltipData>
       <BagType>4</BagType>
       <Treasure/>
-      <Soulbound/>
       <feedPower>250</feedPower>
    </Object>
    <Object type="0x0532" id="Death Tarot Card">
@@ -12205,7 +12170,6 @@
       </ExtraTooltipData>
       <BagType>4</BagType>
       <Treasure/>
-      <Soulbound/>
       <feedPower>250</feedPower>
    </Object>
    <Object type="0x0534" id="The Magician Tarot Card">
@@ -12222,7 +12186,6 @@
       </ExtraTooltipData>
       <BagType>4</BagType>
       <Treasure/>
-      <Soulbound/>
       <feedPower>250</feedPower>
    </Object>
    <Object type="0x0535" id="The World Tarot Card">
@@ -12239,7 +12202,6 @@
       </ExtraTooltipData>
       <BagType>4</BagType>
       <Treasure/>
-      <Soulbound/>
       <feedPower>250</feedPower>
    </Object>
    <Object type="0x0536" id="The Chariot Tarot Card">
@@ -12256,7 +12218,6 @@
       </ExtraTooltipData>
       <BagType>4</BagType>
       <Treasure/>
-      <Soulbound/>
       <feedPower>250</feedPower>
    </Object>
    <Object type="0x0537" id="The Moon Tarot Card">
@@ -12273,7 +12234,6 @@
       </ExtraTooltipData>
       <BagType>4</BagType>
       <Treasure/>
-      <Soulbound/>
       <feedPower>250</feedPower>
    </Object>
    <Object type="0x0538" id="The Fool Tarot Card">
@@ -12290,7 +12250,6 @@
       </ExtraTooltipData>
       <BagType>4</BagType>
       <Treasure/>
-      <Soulbound/>
       <feedPower>250</feedPower>
    </Object>
    <Object type="0x053e" id="Theatre Key">
@@ -12304,7 +12263,7 @@
       <Description>A key which opens an entrance to the Puppet Master's Theatre.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Puppet Theatre Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -12747,7 +12706,6 @@
       <Activate stat="28" amount="10" duration="25">StatBoostSelf</Activate>
       <Consumable/>
       <Potion/>
-      <Soulbound/>
       <BagType>0</BagType>
       <feedPower>5</feedPower>
    </Object>
@@ -12762,7 +12720,7 @@
       <Description>A key which opens an entrance to the Puppet Master's Encore.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Puppet Encore Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -13607,7 +13565,7 @@
       <Description>A key which opens an entrance to the Toxic Sewers.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Toxic Sewers Portal">Create</Activate>
       <feedPower>260</feedPower>
       <Track/>
@@ -13624,7 +13582,7 @@
       <Description>A key which opens an entrance to The Hive.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="The Hive Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -13642,7 +13600,6 @@
       <Description>A yummy treat.</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
       <Activate effect="Healing" duration="10">ConditionEffectSelf</Activate>
    </Object>
    <Object type="0x059a" id="HoneyScepter">
@@ -13696,7 +13653,7 @@
       <BagType>2</BagType>
       <Activate objectId="Trick in a Box">Pet</Activate>
       <OldSound>use_potion</OldSound>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>100</feedPower>
    </Object>
    <Object type="0x059d" id="Prism of Dire Instability">
@@ -13796,7 +13753,7 @@
       <Description>Transform your pet into Giant Vampire Bat of the Spooky family. This is irreversible and the item is consumed upon use. The rarity and abilities of your pet will be retained. If you fuse your pet to reach a new rarity level it is not guaranteed that your pet will retain the current skin.</Description>
       <Activate skinId="32763">PetSkin</Activate>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <BagType>4</BagType>
       <DisplayId>Giant Vampire Bat Skin</DisplayId>
       <feedPower>5000</feedPower>
@@ -13812,7 +13769,7 @@
       <Description>Transform your pet into Pumpkin Head of the Spooky family. This is irreversible and the item is consumed upon use. The rarity and abilities of your pet will be retained. If you fuse your pet to reach a new rarity level it is not guaranteed that your pet will retain the current skin.</Description>
       <Activate skinId="32651">PetSkin</Activate>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <BagType>4</BagType>
       <DisplayId>Pumpkin Head Pet Skin</DisplayId>
       <feedPower>5000</feedPower>
@@ -13829,6 +13786,7 @@
       <Sound>use_potion</Sound>
       <Activate slot="char">Unlock</Activate>
       <Consumable/>
+      <!--<Soulbound/>-->
       <BagType>4</BagType>
    </Object>
    <Object type="0x05a3" id="Vault Chest Unlocker">
@@ -13843,6 +13801,7 @@
       <Sound>use_potion</Sound>
       <Activate slot="vault">Unlock</Activate>
       <Consumable/>
+      <!--<Soulbound/>-->
       <BagType>4</BagType>
    </Object>
    <Object type="0x05a4" id="Christmas Tree Pet Stone">
@@ -13856,7 +13815,7 @@
       <Description>Transform your pet into Christmas Tree of the ? ? ? ? family. This is irreversible and the item is consumed upon use. The rarity and abilities of your pet will be retained. If you fuse your pet to reach a new rarity level it is not guaranteed that your pet will retain the current skin.</Description>
       <Activate skinId="32668">PetSkin</Activate>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <BagType>4</BagType>
       <DisplayId>Christmas Tree Skin</DisplayId>
       <feedPower>5000</feedPower>
@@ -13872,7 +13831,7 @@
       <Description>Transform your pet into Red Nose of the Woodland family. This is irreversible and the item is consumed upon use. The rarity and abilities of your pet will be retained. If you fuse your pet to reach a new rarity level it is not guaranteed that your pet will retain the current skin.</Description>
       <Activate skinId="32670">PetSkin</Activate>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <BagType>4</BagType>
       <DisplayId>Red Nosed Skin</DisplayId>
       <feedPower>5000</feedPower>
@@ -13949,7 +13908,7 @@
       <Description>A key which opens an entrance to Oryx's Castle. For testing purposes.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Oryx's Castle Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -13967,7 +13926,7 @@
       <Description>A key which opens an entrance to the Wine Cellar. For testing purposes.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Wine Cellar Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -13985,7 +13944,7 @@
       <Description>A key which opens an entrance to Oryx's Chamber. For testing purposes.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Oryx Chamber Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -14003,7 +13962,7 @@
       <Description>A key which opens an entrance to the Court of Oryx. Say hi to Craig for me. For testing purposes.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Court of Oryx Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -14021,7 +13980,7 @@
       <Description>A key which opens an entrance to the Oryx Chicken Chamber. For testing purposes.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Oryx Chicken Chamber Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -14039,7 +13998,7 @@
       <Description>A key which opens an entrance to Ice Tomb.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Ice Tomb Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -14067,7 +14026,6 @@
       <Consumable/>
       <Backpack/>
       <Potion/>
-      <Soulbound/>
       <BagType>5</BagType>
       <!--<Soulbound/>-->
       <feedPower>100000</feedPower>
@@ -14086,7 +14044,7 @@
       <Activate objectId="Testing Gift Spawner">Pet</Activate>
       <Consumable/>
       <BagType>5</BagType>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>50000</feedPower>
    </Object>
    
@@ -14104,7 +14062,7 @@
       <Activate id="Key Spawner">Create</Activate>
       <Consumable/>
       <BagType>5</BagType>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>50000</feedPower>
    </Object>
    <Object type="0x05b1" id="TKeys">
@@ -14121,7 +14079,7 @@
       <Activate id="Testing Key Dropper">Create</Activate>
       <Consumable/>
       <BagType>5</BagType>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>50000</feedPower>
    </Object>
    <Object type="0x05b2" id="Lvl20">
@@ -14138,7 +14096,7 @@
       <Activate objectId="Lvl20 Chicken Spawner">Pet</Activate>
       <Consumable/>
       <BagType>5</BagType>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>10000</feedPower>
    </Object>
    <Object type="0x05b3" id="Fame">
@@ -14155,7 +14113,7 @@
       <Activate objectId="Fame Chicken Spawner">Pet</Activate>
       <Consumable/>
       <BagType>5</BagType>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>200000</feedPower>
    </Object>
    <Object type="0x05b4" id="Dragon Buddies">
@@ -14172,7 +14130,7 @@
       <Activate objectId="Dragon Chain 1">Pet</Activate>
       <Consumable/>
       <BagType>5</BagType>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>5000</feedPower>
    </Object>
    <Object type="0x05b5" id="Treasure Map">
@@ -14186,7 +14144,7 @@
       <Description>A map that reveals the way to hidden treasure.\n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Treasure Cave Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -14397,7 +14355,7 @@
       <Activate hideEffect="true" objectId="Hearticles">Pet</Activate>
       <Consumable/>
       <BagType>5</BagType>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <feedPower>500</feedPower>
    </Object>
    <Object type="0x05e9" id="Testing Mystery Dye">
@@ -14411,7 +14369,7 @@
       <Description>Random Dye</Description>
       <Activate>MysteryDyes</Activate>
       <Consumable/>
-     <Soulbound/>
+      <!--<Soulbound/>-->
       <BagType>5</BagType>
       <feedPower>5000</feedPower>
    </Object>
@@ -14457,7 +14415,7 @@
       <Description>A key which opens an entrance to The Mountain Temple. \n\nKeys can only be used once you have 10 or more stars!</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Mountain Temple Portal">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
@@ -14475,7 +14433,7 @@
       <Description>Treasures await at the end of the rainbow.</Description>
       <Sound>use_key</Sound>
       <Consumable/>
-      <Soulbound/>
+      <!--<Soulbound/>-->
       <Activate id="Rainbow Road">Create</Activate>
       <feedPower>200</feedPower>
       <BagType>5</BagType>
