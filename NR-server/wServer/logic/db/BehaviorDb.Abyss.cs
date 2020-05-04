@@ -13,15 +13,16 @@ namespace wServer.logic
                     new ScaleHP(2000, 0),
                     new RealmPortalDrop(),
                     new State("default",
+                        new ConditionalEffect(ConditionEffectIndex.Invulnerable),
                         new PlayerWithinTransition(8, "basic")
                         ),
                     new State("basic",
                         new Prioritize(
-                            new Follow(0.3),
+                            new Follow(0.3, range: 2),
                             new Wander(0.2)
                             ),
-                        new Reproduce("Malphas Missile", densityMax: 1,  coolDown: 1000),
-                        new Shoot(10, predictive: 1, coolDown: 800),
+                        new Reproduce("Malphas Missile", densityMax: 1,  coolDown: 1500),
+                        new Shoot(10, predictive: 1, coolDown: 1200),
                         new TimedTransition(10000, "shrink")
                         ),
                     new State("shrink",
@@ -50,10 +51,10 @@ namespace wServer.logic
                             new Follow(0.2),
                             new Wander(0.1)
                             ),
-                        new Shoot(10, projectileIndex: 2, predictive: 1, coolDown: 2000),
-                        new Shoot(10, projectileIndex: 2, predictive: 1, coolDownOffset: 300, coolDown: 2000),
-                        new Shoot(10, 3, projectileIndex: 3, predictive: 1, coolDownOffset: 100, coolDown: 2000),
+                        new Shoot(10, projectileIndex: 2, predictive: 1, coolDown: 2400),
+                        new Shoot(10, projectileIndex: 2, predictive: 1, coolDownOffset: 800, coolDown: 2400),
                         new Shoot(10, 3, projectileIndex: 3, predictive: 1, coolDownOffset: 400, coolDown: 2000),
+                        new Shoot(10, 3, projectileIndex: 3, predictive: 1, coolDownOffset: 990, coolDown: 2000),
                         new TimedTransition(10000, "normalize")
                         ),
                     new State("normalize",
@@ -88,11 +89,12 @@ namespace wServer.logic
                 new State(
                     new State(
                         new Prioritize(
-                            new Follow(0.4, range: 4),
+                            new Follow(0.4, acquireRange: 7, range: 0),
                             new Wander(0.5)
                         ),
                         new HpLessTransition(0.5, "die"),
-                        new TimedTransition(2000, "die")
+                        new PlayerWithinTransition(1.5, "die"),
+                        new TimedTransition(3000, "die")
                     ),
                     new State("die",
                         new Flash(0xFFFFFF, 0.2, 5),
