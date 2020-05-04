@@ -9,11 +9,6 @@ namespace wServer.logic
     partial class BehaviorDb
     {
         private _ Mountain = () => Behav()
-            .Init("Arena Horseman Anchor",
-                new State(
-                    new ConditionalEffect(ConditionEffectIndex.Invincible)
-                    )
-            )
             .Init("Arena Headless Horseman",
                 new State(
                     new DropPortalOnDeath("Haunted Cemetery Portal", .33),
