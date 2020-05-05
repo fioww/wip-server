@@ -147,6 +147,7 @@ public class EmbeddedAssets {
     public static var reindeerSkin:Class = EmbeddedAssets_reindeerSkin_;
     public static var santaSkin:Class = EmbeddedAssets_santaSkin_;
     public static var newObjects:Class = EmbeddedAssets_newObjects;
+    public static var newObjects2:Class = EmbeddedAssets_newObjects2;
     public static var models_:Object = {
         "Monster Tank1": new monsterTank1Embed_(),
         "Monster Tank2": new monsterTank2Embed_(),

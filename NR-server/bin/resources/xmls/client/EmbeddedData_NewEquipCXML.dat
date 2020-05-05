@@ -261,6 +261,86 @@
       <feedPower>400</feedPower>
    </Object>
 
+    <!--Butterflies Camp-->
+    <Object type="0x11cc" id="The Caged Fairy">
+        <Class>Equipment</Class>
+        <Item/>
+        <Texture>
+            <File>newObjects2</File>
+            <Index>0x1a</Index>
+        </Texture>
+        <SlotType>23</SlotType>
+        <Description>A fairy caged inside a scepter. Weak, but not fragile anymore.</Description>
+        <Sound>spell/magic_nova</Sound>
+        <ActivateOnEquip stat="27" amount="5">IncrementStat</ActivateOnEquip>
+        <Usable/>
+        <BagType>4</BagType>
+        <FameBonus>4</FameBonus>
+        <MpCost>50</MpCost>
+        <Activate totalDamage="250" maxTargets="1" condEffect="Hallucinating" condDuration="3" color="0xd1fffc">Lightning</Activate>
+        <feedPower>1100</feedPower>
+        <!--<Soulbound/>-->
+    </Object>
+    <Object type="0x11cd" id="Butterflies Camp Key">
+        <Class>Equipment</Class>
+        <Item/>
+        <Texture>
+            <File>newObjects2</File>
+            <Index>0x10</Index>
+        </Texture>
+        <SlotType>10</SlotType>
+        <Description>A key which opens an entrance to a Butterfly Camp.</Description>
+        <!--<Description>A key which opens an entrance to a Butterfly Camp.\n\nKeys can only be used once you have 10 or more stars!</Description>-->
+        <Sound>use_key</Sound>
+        <Consumable/>
+        <!--<Soulbound/>-->
+        <Activate id="Butterflies Camp Portal">Create</Activate>
+        <feedPower>200</feedPower>
+        <BagType>5</BagType>
+        <Track/>
+    </Object>
+    <Object type="0x11ce" id="Butterflies Camp Portal">
+        <Class>Portal</Class>
+        <IntergamePortal/>
+        <DisplayId>Butterflies Camp</DisplayId>
+        <DungeonName>Butterflies Camp</DungeonName>
+        <Texture>
+            <File>newObjects2</File>
+            <Index>0x08</Index>
+        </Texture>
+        <Animation prob="1" period="1.0">
+            <Frame time="0.2">
+                <Texture>
+                    <File>newObjects2</File>
+                    <Index>0x08</Index>
+                </Texture>
+            </Frame>
+            <Frame time="0.2">
+                <Texture>
+                    <File>newObjects2</File>
+                    <Index>0x09</Index>
+                </Texture>
+            </Frame>
+            <Frame time="0.2">
+                <Texture>
+                    <File>newObjects2</File>
+                    <Index>0x0a</Index>
+                </Texture>
+            </Frame>
+            <Frame time="0.2">
+                <Texture>
+                    <File>newObjects2</File>
+                    <Index>0x0b</Index>
+                </Texture>
+            </Frame>
+            <Frame time="0.2">
+                <Texture>
+                    <File>newObjects2</File>
+                    <Index>0x0c</Index>
+                </Texture>
+            </Frame>
+        </Animation>
+    </Object>
 <!--END (0x11c0 - 0x11cf)-->
 
 </Objects>

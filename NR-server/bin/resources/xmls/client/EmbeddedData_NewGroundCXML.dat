@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<GroundTypes>
+
+    <!--0x2000 to 0x200f-->
+    <Ground type="0x2000" id="Fairy Water">
+        <Texture>
+            <File>newObjects2</File>
+            <Index>0x15</Index>
+        </Texture>
+        <Animate dx="0.44" dy="0.44">Wave</Animate>
+        <BlendPriority>1</BlendPriority>
+        <Sink/>
+        <Speed>0.5</Speed>
+    </Ground>
+    <Ground type="0x2001" id="Fairy Grass">
+        <Texture>
+            <File>newObjects2</File>
+            <Index>0x16</Index>
+        </Texture>
+        <BlendPriority>-1</BlendPriority>
+        <Speed>0.9</Speed>
+    </Ground>
+    <Ground type="0x2002" id="Fairy Stone Tile">
+        <Texture>
+            <File>newObjects2</File>
+            <Index>0x17</Index>
+        </Texture>
+        <Speed>1</Speed>
+    </Ground>
+
+</GroundTypes>

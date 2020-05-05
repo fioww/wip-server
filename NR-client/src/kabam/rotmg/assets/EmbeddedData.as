@@ -1,4 +1,5 @@
 ﻿package kabam.rotmg.assets {
+
 public class EmbeddedData {
 
     public static const PlayersCXML:Class = EmbeddedData_PlayersCXML;
@@ -80,6 +81,7 @@ public class EmbeddedData {
     private static const mountainTempleObjectCXML:Class = EmbeddedData_mountainTempleObjectCXML;
 
     private static const NewEquipCXML:Class = EmbeddedData_NewEquipCXML;
+    private static const NewGroundCXML:Class = EmbeddedData_NewGroundCXML;
 
 
     //Initialize XMLs
@@ -88,7 +90,7 @@ public class EmbeddedData {
     public static const skinsEquipmentSetsXML:XML = XML(new EquipmentSetsCXML());
 
     public static const groundFiles:Array = [
-        new GroundCXML(), new stPatricksGroundCXML(), new hanaminexusGroundCXML(), new mountainTempleGroundCXML()
+        new GroundCXML(), new stPatricksGroundCXML(), new hanaminexusGroundCXML(), new mountainTempleGroundCXML(), new NewGroundCXML()
     ];
 
     public static const objectFiles:Array = [

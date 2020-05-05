@@ -48,6 +48,7 @@ namespace wServer.logic
             .Init("Arena Horseman Anchor",
                 new State(
                     new State("Until Death",
+                        new ConditionalEffect(ConditionEffectIndex.Invincible, true),
                         new EntityNotExistsTransition("Arena Headless Horseman", 12, "Death")
                     ),
                     new State("Death",

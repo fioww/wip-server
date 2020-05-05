@@ -94,6 +94,8 @@ public class AssetLoader {
         AssetLibrary.addImageSet("HanamiParts", new EmbeddedAssets.HanamiParts8x8Embed_().bitmapData, 8, 8);
         AssetLibrary.addImageSet("newObjects", new EmbeddedAssets.newObjects().bitmapData, 8, 8);
         AssetLibrary.addImageSet("newObjects16", new EmbeddedAssets.newObjects().bitmapData, 16, 16);
+        AssetLibrary.addImageSet("newObjects2", new EmbeddedAssets.newObjects2().bitmapData, 8, 8);
+        AssetLibrary.addImageSet("newObjects216", new EmbeddedAssets.newObjects2().bitmapData, 16, 16);
     }
 
     private function addAnimatedCharacters():void {
@@ -138,6 +140,8 @@ public class AssetLoader {
         AnimatedChars.add("santaSkin", new EmbeddedAssets.santaSkin().bitmapData, null, 16, 16, 112, 16, AnimatedChar.RIGHT);
         AnimatedChars.add("newObjectsChars", new EmbeddedAssets.newObjects().bitmapData, null, 8, 8, 56, 8, AnimatedChar.RIGHT);
         AnimatedChars.add("newObjectsChars16", new EmbeddedAssets.newObjects().bitmapData, null, 16, 16, 112, 16, AnimatedChar.RIGHT);
+        AnimatedChars.add("newObjects2Chars", new EmbeddedAssets.newObjects2().bitmapData, null, 8, 8, 56, 8, AnimatedChar.RIGHT);
+        AnimatedChars.add("newObjects2Chars16", new EmbeddedAssets.newObjects2().bitmapData, null, 16, 16, 112, 16, AnimatedChar.RIGHT);
     }
 
     private function addSoundEffects():void {
