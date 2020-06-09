@@ -43,6 +43,7 @@
          <Size>100</Size>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
+      <BleedMult>3</BleedMult>
    </Object>
    <Object type="0x07e5" id="Monster Cage">
       <Class>GameObject</Class>
@@ -185,6 +186,7 @@
          <Size>75</Size>
          <LifetimeMS>4000</LifetimeMS>
       </Projectile>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x07ec" id="Turret Attack">
       <Enemy/>
@@ -210,6 +212,7 @@
          <Size>75</Size>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x07ed" id="Mini Bot">
       <Enemy/>
@@ -233,6 +236,7 @@
          <LifetimeMS>2000</LifetimeMS>
          <ConditionEffect duration=".5">Confused</ConditionEffect>
       </Projectile>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x07ee" id="Dr Terrible Mini Bot">
       <Enemy/>
@@ -258,6 +262,7 @@
          <LifetimeMS>2000</LifetimeMS>
          <ConditionEffect duration=".5">Confused</ConditionEffect>
       </Projectile>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x07ef" id="Rampage Cyborg">
       <Enemy/>
@@ -294,6 +299,7 @@
          <Size>100</Size>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x07f0" id="Dr Terrible Rampage Cyborg">
       <Enemy/>
@@ -332,6 +338,7 @@
          <Size>100</Size>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x07f1" id="Escaped Experiment">
       <Enemy/>
@@ -354,6 +361,7 @@
          <Size>100</Size>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x07f2" id="Dr Terrible Escaped Experiment">
       <Enemy/>
@@ -378,6 +386,7 @@
          <Size>100</Size>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x07f3" id="Enforcer Bot 3000">
       <Enemy/>
@@ -407,6 +416,7 @@
          <Size>100</Size>
          <LifetimeMS>1200</LifetimeMS>
       </Projectile>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x07f4" id="Crusher Abomination">
       <Enemy/>
@@ -450,6 +460,7 @@
          <Size>175</Size>
          <LifetimeMS>2000</LifetimeMS>
       </Projectile>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x07f5" id="West Automated Defense Turret">
       <Class>GameObject</Class>
@@ -611,6 +622,7 @@
          <Damage>200</Damage>
          <LifetimeMS>1000</LifetimeMS>
       </Projectile>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x07fa" id="F.E.R.A.L.">
       <Enemy/>

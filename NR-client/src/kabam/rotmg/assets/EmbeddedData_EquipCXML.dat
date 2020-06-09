@@ -7883,7 +7883,6 @@
       <feedPower>35</feedPower>
    </Object>
    <Object type="0x043d" id="Yellow Drake Egg">
-      Bleeding
       <Class>Equipment</Class>
       <Item/>
       <Texture>
@@ -8084,7 +8083,7 @@
       <Sound>spell/fire_spray</Sound>
       <Usable/>
       <BagType>1</BagType>
-      <MpCost>60</MpCost>
+      <MpCost>30</MpCost>
       <Activate totalDamage="50" maxTargets="3">Lightning</Activate>
       <feedPower>5</feedPower>
    </Object>
@@ -8101,7 +8100,7 @@
       <Sound>spell/fire_spray</Sound>
       <Usable/>
       <BagType>1</BagType>
-      <MpCost>65</MpCost>
+      <MpCost>40</MpCost>
       <Activate totalDamage="80" maxTargets="4">Lightning</Activate>
       <feedPower>10</feedPower>
    </Object>
@@ -8118,7 +8117,7 @@
       <Sound>spell/fire_nova</Sound>
       <Usable/>
       <BagType>1</BagType>
-      <MpCost>70</MpCost>
+      <MpCost>50</MpCost>
       <Activate totalDamage="110" maxTargets="5">Lightning</Activate>
       <feedPower>20</feedPower>
    </Object>
@@ -8136,7 +8135,7 @@
       <Usable/>
       <BagType>2</BagType>
       <FameBonus>1</FameBonus>
-      <MpCost>75</MpCost>
+      <MpCost>60</MpCost>
       <Activate totalDamage="140" maxTargets="6">Lightning</Activate>
       <feedPower>45</feedPower>
    </Object>
@@ -8154,7 +8153,7 @@
       <Usable/>
       <BagType>2</BagType>
       <FameBonus>2</FameBonus>
-      <MpCost>80</MpCost>
+      <MpCost>70</MpCost>
       <Activate totalDamage="170" maxTargets="7">Lightning</Activate>
       <feedPower>90</feedPower>
    </Object>
@@ -8172,7 +8171,7 @@
       <Usable/>
       <BagType>4</BagType>
       <FameBonus>3</FameBonus>
-      <MpCost>85</MpCost>
+      <MpCost>80</MpCost>
       <Activate totalDamage="200" maxTargets="8">Lightning</Activate>
       <feedPower>185</feedPower>
    </Object>
@@ -8192,7 +8191,7 @@
       <Usable/>
       <BagType>4</BagType>
       <FameBonus>4</FameBonus>
-      <MpCost>85</MpCost>
+      <MpCost>80</MpCost>
       <Activate totalDamage="200" maxTargets="8">Lightning</Activate>
       <feedPower>380</feedPower>
    </Object>
@@ -13615,7 +13614,7 @@
       <Usable/>
       <BagType>4</BagType>
       <FameBonus>2</FameBonus>
-      <MpCost>90</MpCost>
+      <MpCost>70</MpCost>
       <Activate totalDamage="100" maxTargets="10" color="0xffdf00">Lightning</Activate>
       <feedPower>450</feedPower>
       <DisplayId>Honey Scepter</DisplayId>

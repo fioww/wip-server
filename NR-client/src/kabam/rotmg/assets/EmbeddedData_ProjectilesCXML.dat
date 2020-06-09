@@ -2400,6 +2400,7 @@
       <Rotation>70</Rotation>
    </Object>
    <Object type="0x0bb3" id="Skeleton Attack">
+      <BleedMult>0</BleedMult>
       <Class>Projectile</Class>
       <Texture>
          <File>lofiObj3</File>
@@ -2437,6 +2438,7 @@
       <Rotation>100</Rotation>
    </Object>
    <Object type="0x0bb8" id="Angry Ghost">
+      <BleedMult>0</BleedMult>
       <Class>Projectile</Class>
       <Texture>
          <File>lofiObj3</File>

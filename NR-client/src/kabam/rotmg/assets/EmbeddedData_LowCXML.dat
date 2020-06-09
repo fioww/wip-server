@@ -2,6 +2,7 @@
 
 <Objects>
    <Object type="0x07cc" id="Sandsman Archer">
+      <BleedMult>2</BleedMult>
       <Group>Sandsmen</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -23,6 +24,7 @@
       </Projectile>
    </Object>
    <Object type="0x07cd" id="Sandsman Sorcerer">
+      <BleedMult>2</BleedMult>
       <Group>Sandsmen</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -52,6 +54,7 @@
       </Projectile>
    </Object>
    <Object type="0x07ce" id="Sandsman King">
+      <BleedMult>2</BleedMult>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -129,6 +132,7 @@
       </Projectile>
    </Object>
    <Object type="0x07d0" id="Sand Devil">
+      <BleedMult>0</BleedMult>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>

@@ -616,6 +616,7 @@
       </Texture>
    </Object>
    <Object type="0x111f" id="Tomb Support">
+      <BleedMult>1</BleedMult>
       <Group>Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -714,6 +715,7 @@
       </Projectile>
    </Object>
    <Object type="0x1120" id="Tomb Attacker">
+      <BleedMult>1</BleedMult>
       <Group>Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -784,6 +786,7 @@
       </Projectile>
    </Object>
    <Object type="0x1121" id="Tomb Defender">
+      <BleedMult>0</BleedMult>
       <Group>Tomb Bosses</Group>
       <Enemy/>
       <Class>Character</Class>

@@ -57,7 +57,7 @@
       </AnimatedTexture>
       <HitSound>monster/demons_hit</HitSound>
       <DeathSound>monster/demons_death</DeathSound>
-      <MaxHitPoints>10000</MaxHitPoints>
+      <MaxHitPoints>12000</MaxHitPoints>
       <Size>100</Size>
       <Defense>20</Defense>
       <XpMult>0.7</XpMult>
@@ -311,6 +311,7 @@
       <MaxHitPoints>10</MaxHitPoints>
    </Object>
    <Object type="0x0010" id="Abyss Idol">
+      <BleedMult>0</BleedMult>
       <Class>Character</Class>
       <Enemy/>
       <Texture>

@@ -364,6 +364,7 @@
       </Projectile>
    </Object>
    <Object type="0x06f7" id="Ghost King">
+      <BleedMult>0</BleedMult>
       <Group>Heros</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -387,6 +388,7 @@
       </Projectile>
    </Object>
    <Object type="0x06f8" id="Ghost Master">
+      <BleedMult>0</BleedMult>
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -433,6 +435,7 @@
       </Projectile>
    </Object>
    <Object type="0x06fa" id="Small Ghost">
+      <BleedMult>0</BleedMult>
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -454,6 +457,7 @@
       </Projectile>
    </Object>
    <Object type="0x06fb" id="Medium Ghost">
+      <BleedMult>0</BleedMult>
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -475,6 +479,7 @@
       </Projectile>
    </Object>
    <Object type="0x06fc" id="Large Ghost">
+      <BleedMult>0</BleedMult>
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -497,6 +502,7 @@
       </Projectile>
    </Object>
    <Object type="0x06fd" id="Ghost Archer">
+      <BleedMult>0</BleedMult>
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -518,6 +524,7 @@
       </Projectile>
    </Object>
    <Object type="0x06fe" id="Ghost Warrior">
+      <BleedMult>0</BleedMult>
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -539,6 +546,7 @@
       </Projectile>
    </Object>
    <Object type="0x06ff" id="Ghost Mage">
+      <BleedMult>0</BleedMult>
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -560,6 +568,7 @@
       </Projectile>
    </Object>
    <Object type="0x0700" id="Ghost Rogue">
+      <BleedMult>0</BleedMult>
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -581,6 +590,7 @@
       </Projectile>
    </Object>
    <Object type="0x0701" id="Ghost Paladin">
+      <BleedMult>0</BleedMult>
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -602,6 +612,7 @@
       </Projectile>
    </Object>
    <Object type="0x0702" id="Ghost Knight">
+      <BleedMult>0</BleedMult>
       <Group>Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -880,6 +891,7 @@
       </Projectile>
    </Object>
    <Object type="0x070c" id="Greater Nature Sprite">
+      <BleedMult>0</BleedMult>
       <Group>Greater Nature Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -904,6 +916,7 @@
       </Projectile>
    </Object>
    <Object type="0x070d" id="Actual Greater Nature Sprite">
+      <BleedMult>0</BleedMult>
       <DisplayId>Greater Nature Sprite</DisplayId>
       <Group>Greater Nature Sprites</Group>
       <Enemy/>
@@ -929,6 +942,7 @@
       </Projectile>
    </Object>
    <Object type="0x070e" id="Lich">
+      <BleedMult>0</BleedMult>
       <Group>Heros</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -963,6 +977,7 @@
       </Projectile>
    </Object>
    <Object type="0x070f" id="Actual Lich">
+      <BleedMult>0</BleedMult>
       <DisplayId>Lich</DisplayId>
       <Group>Heros</Group>
       <Enemy/>
@@ -1345,6 +1360,7 @@
       </Projectile>
    </Object>
    <Object type="0x071b" id="Skeleton">
+      <BleedMult>0</BleedMult>
       <Group>Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1366,6 +1382,7 @@
       </Projectile>
    </Object>
    <Object type="0x071c" id="Skeleton Swordsman">
+      <BleedMult>0</BleedMult>
       <Group>Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1387,6 +1404,7 @@
       </Projectile>
    </Object>
    <Object type="0x071d" id="Skeleton Veteran">
+      <BleedMult>0</BleedMult>
       <Group>Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1408,6 +1426,7 @@
       </Projectile>
    </Object>
    <Object type="0x071e" id="Skeleton Mage">
+      <BleedMult>0</BleedMult>
       <Group>Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1429,6 +1448,7 @@
       </Projectile>
    </Object>
    <Object type="0x071f" id="Skeleton King">
+      <BleedMult>0</BleedMult>
       <Group>Skeletons</Group>
       <Enemy/>
       <Class>Character</Class>

@@ -199,6 +199,7 @@
       <XpMult>0.0</XpMult>
    </Object>
    <Object type="0x0c8f" id="shtrs Bridge Titanum">
+      <BleedMult>0</BleedMult>
       <DisplayId>Titanum</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -326,6 +327,7 @@
       <StasisImmune/>
    </Object>
    <Object type="0x0c98" id="shtrs MagiGenerators">
+      <BleedMult>0</BleedMult>
       <DisplayId>Magi-Generator</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -465,6 +467,7 @@
       <StasisImmune/>
    </Object>
    <Object type="0x0ca1" id="shtrs Blobomb">
+      <BleedMult>1</BleedMult>
       <DisplayId>Blobomb</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -487,6 +490,7 @@
       </Projectile>
    </Object>
    <Object type="0x0ca2" id="shtrs Bridge Obelisk A">
+      <BleedMult>0</BleedMult>
       <DisplayId>Titanum of Hate</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -511,6 +515,7 @@
       </Projectile>
    </Object>
    <Object type="0x0ca3" id="shtrs Bridge Obelisk B">
+      <BleedMult>0</BleedMult>
       <DisplayId>Titanum of Despair</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -535,6 +540,7 @@
       </Projectile>
    </Object>
    <Object type="0x0ca4" id="shtrs Bridge Obelisk C">
+      <BleedMult>0</BleedMult>
       <DisplayId>Paladin Obelisk</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -557,6 +563,7 @@
       </Projectile>
    </Object>
    <Object type="0x0ca5" id="shtrs Bridge Obelisk D">
+      <BleedMult>0</BleedMult>
       <DisplayId>Titanum of Lies</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -581,6 +588,7 @@
       </Projectile>
    </Object>
    <Object type="0x0ca6" id="shtrs Bridge Obelisk E">
+      <BleedMult>0</BleedMult>
       <DisplayId>Titanum of Cruelty</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -605,6 +613,7 @@
       </Projectile>
    </Object>
    <Object type="0x0ca7" id="shtrs Bridge Obelisk F">
+      <BleedMult>0</BleedMult>
       <DisplayId>Paladin Obelisk</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -627,6 +636,7 @@
       </Projectile>
    </Object>
    <Object type="0x0ca8" id="shtrs Titanum">
+      <BleedMult>0</BleedMult>
       <DisplayId>Titanum</DisplayId>
       <Class>Character</Class>
       <Group>Spawners</Group>
@@ -865,6 +875,7 @@
       </Projectile>
    </Object>
    <Object type="0x0cb0" id="shtrs Stone Mage">
+      <BleedMult>0.2</BleedMult>
       <DisplayId>Stone Mage</DisplayId>
       <Class>Character</Class>
       <Group>Stone Monster</Group>
@@ -896,6 +907,7 @@
       </Projectile>
    </Object>
    <Object type="0x0cb1" id="shtrs Stone Knight">
+      <BleedMult>0.2</BleedMult>
       <DisplayId>Stone Knight</DisplayId>
       <Class>Character</Class>
       <Group>Stone Monster</Group>
@@ -923,6 +935,7 @@
       </Projectile>
    </Object>
    <Object type="0x0cb2" id="shtrs Stone Paladin">
+      <BleedMult>0.2</BleedMult>
       <DisplayId>Stone Paladin</DisplayId>
       <Class>Character</Class>
       <Group>Stone Paladin</Group>
@@ -943,6 +956,7 @@
       </Projectile>
    </Object>
    <Object type="0x0cb3" id="shtrs Spike">
+      <BleedMult>0</BleedMult>
       <DisplayId>Spike</DisplayId>
       <Class>Character</Class>
       <Enemy/>
@@ -964,6 +978,7 @@
       </Projectile>
    </Object>
    <Object type="0x0cb4" id="shtrs Ice Shield">
+      <BleedMult>0</BleedMult>
       <DisplayId>Ice Sphere</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
@@ -992,6 +1007,7 @@
       </Projectile>
    </Object>
    <Object type="0x0cb5" id="shtrs Ice Portal">
+      <BleedMult>0</BleedMult>
       <DisplayId>Ice Portal</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
@@ -1013,6 +1029,7 @@
       </Projectile>
    </Object>
    <Object type="0x0cb6" id="shtrs Fire Portal">
+      <BleedMult>0</BleedMult>
       <DisplayId>Fire Portal</DisplayId>
       <Class>Character</Class>
       <Group>Ice Mages</Group>
@@ -1143,6 +1160,7 @@
       </Projectile>
    </Object>
    <Object type="0x0cba" id="shtrs Bridge Sentinel">
+      <BleedMult>0</BleedMult>
       <DisplayId>The Forgotten Sentinel</DisplayId>
       <Class>Character</Class>
       <Group>Stones</Group>
@@ -1223,6 +1241,7 @@
       </Projectile>
    </Object>
    <Object type="0x0cbb" id="shtrs Twilight Archmage">
+      <BleedMult>0</BleedMult>
       <DisplayId>Twilight Archmage</DisplayId>
       <Class>Character</Class>
       <Group>Stone Monster</Group>
@@ -1358,6 +1377,7 @@
       </Projectile>
    </Object>
    <Object type="0x0cbe" id="shtrs The Forgotten King">
+      <BleedMult>0</BleedMult>
       <DisplayId>The Forgotten King</DisplayId>
       <Class>Character</Class>
       <Group>Stone Monster</Group>
@@ -1416,6 +1436,7 @@
       </Projectile>
    </Object>
    <Object type="0x0cbf" id="shtrs Firebomb">
+      <BleedMult>0</BleedMult>
       <Class>Character</Class>
       <DisplayId>Fire Bomb</DisplayId>
       <Enemy/>

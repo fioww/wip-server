@@ -923,6 +923,7 @@ namespace common.resources
         public bool IsPetAbility { get; private set; }
         public bool Connects { get; private set; }
         public bool TrollWhiteBag { get; private set; }
+        public int BleedMult { get; private set; }
 
         public ObjectDesc(ushort type, XElement elem)
         {
@@ -979,6 +980,10 @@ namespace common.resources
                 SpawnProbability = float.Parse(n.Value);
             if ((n = elem.Element("Spawn")) != null)
                 Spawn = new SpawnCount(n);
+            if ((n = elem.Element("BleedMult")) != null)
+                BleedMult = Utils.FromString(n.Value);
+            else
+                BleedMult = 1;
 
             God = elem.Element("God") != null;
             Cube = elem.Element("Cube") != null;

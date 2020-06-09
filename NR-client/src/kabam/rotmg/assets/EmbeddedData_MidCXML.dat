@@ -77,6 +77,7 @@
       </Projectile>
    </Object>
    <Object type="0x0819" id="Fire Golem">
+      <BleedMult>0</BleedMult>
       <Group>Golems</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -108,6 +109,7 @@
       </Projectile>
    </Object>
    <Object type="0x081a" id="Darkness Golem">
+      <BleedMult>0</BleedMult>
       <Group>Golems</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -139,6 +141,7 @@
       </Projectile>
    </Object>
    <Object type="0x081b" id="Red Satellite">
+      <BleedMult>0</BleedMult>
       <Group>Golem Satellites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -153,6 +156,7 @@
       <MaxHitPoints>1000</MaxHitPoints>
    </Object>
    <Object type="0x081c" id="Green Satellite">
+      <BleedMult>0</BleedMult>
       <Group>Golem Satellites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -167,6 +171,7 @@
       <MaxHitPoints>1000</MaxHitPoints>
    </Object>
    <Object type="0x081d" id="Blue Satellite">
+      <BleedMult>0</BleedMult>
       <Group>Golem Satellites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -181,6 +186,7 @@
       <MaxHitPoints>1000</MaxHitPoints>
    </Object>
    <Object type="0x081e" id="Gray Satellite 1">
+      <BleedMult>0</BleedMult>
       <DisplayId>Gray Satellite</DisplayId>
       <Group>Golem Satellites</Group>
       <Enemy/>
@@ -204,6 +210,7 @@
       </Projectile>
    </Object>
    <Object type="0x081f" id="Gray Satellite 2">
+      <BleedMult>0</BleedMult>
       <DisplayId>Gray Satellite</DisplayId>
       <Group>Golem Satellites</Group>
       <Enemy/>
@@ -227,6 +234,7 @@
       </Projectile>
    </Object>
    <Object type="0x0820" id="Gray Satellite 3">
+      <BleedMult>0</BleedMult>
       <DisplayId>Gray Satellite</DisplayId>
       <Group>Golem Satellites</Group>
       <Enemy/>
@@ -251,6 +259,7 @@
       </Projectile>
    </Object>
    <Object type="0x0821" id="Sand Phantom">
+      <BleedMult>0</BleedMult>
       <Group>SandPhantoms</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -274,6 +283,7 @@
       </Projectile>
    </Object>
    <Object type="0x0822" id="Sand Phantom Wisp">
+      <BleedMult>0</BleedMult>
       <Group>SandPhantoms</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -297,6 +307,7 @@
       </Projectile>
    </Object>
    <Object type="0x0823" id="Nomadic Shaman">
+      <BleedMult>3</BleedMult>
       <Group>Nomads</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -361,6 +372,7 @@
       </Projectile>
    </Object>
    <Object type="0x0825" id="Fire Sprite">
+      <BleedMult>0</BleedMult>
       <Group>Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -384,6 +396,7 @@
       </Projectile>
    </Object>
    <Object type="0x0826" id="Ice Sprite">
+      <BleedMult>0</BleedMult>
       <Group>Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -409,6 +422,7 @@
       </Projectile>
    </Object>
    <Object type="0x0827" id="Magic Sprite">
+      <BleedMult>0</BleedMult>
       <Group>Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -513,6 +527,7 @@
       </Projectile>
    </Object>
    <Object type="0x082c" id="Earth Golem">
+      <BleedMult>0</BleedMult>
       <Group>Golems</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -537,6 +552,7 @@
       </Projectile>
    </Object>
    <Object type="0x082d" id="Paper Golem">
+      <BleedMult>0</BleedMult>
       <Group>Golems</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -981,6 +997,7 @@
       </Projectile>
    </Object>
    <Object type="0x083f" id="Metal Golem">
+      <BleedMult>0</BleedMult>
       <Group>Golems</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -1005,6 +1022,7 @@
       </Projectile>
    </Object>
    <Object type="0x0840" id="Clockwork Golem">
+      <BleedMult>0</BleedMult>
       <Group>Golems</Group>
       <Enemy/>
       <Class>Character</Class>

@@ -204,6 +204,7 @@
       </Projectile>
    </Object>
    <Object type="0x06bc" id="Ghost of Skuld">
+      <BleedMult>0</BleedMult>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -517,6 +518,7 @@
       </Projectile>
    </Object>
    <Object type="0x06c2" id="Classic Ghost">
+      <BleedMult>0</BleedMult>
       <Enemy/>
       <Class>Character</Class>
       <Group>Hallowrena</Group>

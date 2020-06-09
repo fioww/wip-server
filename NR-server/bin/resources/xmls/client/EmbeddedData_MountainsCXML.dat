@@ -36,6 +36,7 @@
       </Projectile>
    </Object>
    <Object type="0x0856" id="Sprite God">
+      <BleedMult>0</BleedMult>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -112,6 +113,7 @@
       </Projectile>
    </Object>
    <Object type="0x0859" id="Ent God">
+      <BleedMult>0.5</BleedMult>
       <Group>Gods</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -269,6 +271,7 @@
          <LifetimeMS>2700</LifetimeMS>
          <Size>110</Size>
       </Projectile>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x085e" id="Rock Bot">
       <Group>Rocks</Group>
@@ -296,6 +299,7 @@
       <Terrain>Mountains</Terrain>
       <SpawnProb>0.3</SpawnProb>
       <God/>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x085f" id="Paper Bot">
       <Group>Papers</Group>
@@ -321,6 +325,7 @@
       <Defense>20</Defense>
       <XpMult>0.0</XpMult>
       <Terrain>Mountains</Terrain>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x0860" id="Steel Bot">
       <Group>Steels</Group>
@@ -346,6 +351,7 @@
       <Defense>20</Defense>
       <XpMult>0.0</XpMult>
       <Terrain>Mountains</Terrain>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x0861" id="Djinn">
       <Group>Gods</Group>
@@ -378,6 +384,7 @@
          <LifetimeMS>1500</LifetimeMS>
          <MultiHit/>
       </Projectile>
+      <BleedMult>4</BleedMult>
    </Object>
    <Object type="0x0862" id="Mysterious Crystal">
       <Group>Crystals</Group>
@@ -403,6 +410,7 @@
          <LifetimeMS>6000</LifetimeMS>
          <ConditionEffect duration="20">Quiet</ConditionEffect>
       </Projectile>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x0863" id="Crystal Prisoner">
       <Enemy/>
@@ -454,6 +462,7 @@
          <LifetimeMS>2400</LifetimeMS>
          <MultiHit/>
       </Projectile>
+      <BleedMult>2</BleedMult>
    </Object>
    <Object type="0x0864" id="Crystal Prisoner Clone">
       <Enemy/>
@@ -477,6 +486,7 @@
          <LifetimeMS>1500</LifetimeMS>
          <MultiHit/>
       </Projectile>
+      <BleedMult>0</BleedMult>
    </Object>
    <Object type="0x0865" id="Crystal Prisoner Steed">
       <Enemy/>
@@ -558,6 +568,7 @@
          <LifetimeMS>2000</LifetimeMS>
          <MultiHit/>
       </Projectile>
+      <BleedMult>0.5</BleedMult>
    </Object>
    <Object type="0x0868" id="Lucky Djinn">
       <Group>Gods</Group>
@@ -588,5 +599,6 @@
          <LifetimeMS>1500</LifetimeMS>
          <MultiHit/>
       </Projectile>
+      <BleedMult>1</BleedMult>
    </Object>
 </Objects>

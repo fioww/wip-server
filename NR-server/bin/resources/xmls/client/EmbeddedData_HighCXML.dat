@@ -45,6 +45,7 @@
       </Projectile>
    </Object>
    <Object type="0x0721" id="Flayer">
+      <BleedMult>3</BleedMult>
       <Group>Flayers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -67,6 +68,7 @@
       </Projectile>
    </Object>
    <Object type="0x0722" id="Flayer Veteran">
+      <BleedMult>3</BleedMult>
       <Group>Flayers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -89,6 +91,7 @@
       </Projectile>
    </Object>
    <Object type="0x0723" id="Flayer God">
+      <BleedMult>1.5</BleedMult>
       <Group>Flayers</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -279,6 +282,7 @@
       </Projectile>
    </Object>
    <Object type="0x072b" id="Undead Dwarf God">
+      <BleedMult>1</BleedMult>
       <Group>Undead Dwarves</Group>
       <Enemy/>
       <Class>Character</Class>

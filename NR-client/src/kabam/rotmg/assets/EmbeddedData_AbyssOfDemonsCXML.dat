@@ -311,6 +311,7 @@
       <MaxHitPoints>10</MaxHitPoints>
    </Object>
    <Object type="0x0010" id="Abyss Idol">
+      <BleedMult>0</BleedMult>
       <Class>Character</Class>
       <Enemy/>
       <Texture>

@@ -84,6 +84,7 @@
       <Size>0</Size>
    </Object>
    <Object type="0x0663" id="Ghost Pirate Sr">
+      <BleedMult>0</BleedMult>
       <Class>Character</Class>
       <Enemy/>
       <AnimatedTexture>
@@ -113,6 +114,7 @@
       </Projectile>
    </Object>
    <Object type="0x0664" id="Ghost Lanturn On">
+      <BleedMult>0</BleedMult>
       <Class>Character</Class>
       <Enemy/>
       <NoMiniMap/>
@@ -139,6 +141,7 @@
       <Defense>5000</Defense>
    </Object>
    <Object type="0x0665" id="Ghost Lanturn Off">
+      <BleedMult>0</BleedMult>
       <Class>Character</Class>
       <Enemy/>
       <NoMiniMap/>
@@ -333,6 +336,7 @@
       </Projectile>
    </Object>
    <Object type="0x0672" id="Ghost of Roger">
+      <BleedMult>0</BleedMult>
       <Class>Character</Class>
       <Group>GhostShip Group</Group>
       <Enemy/>
@@ -507,6 +511,7 @@
       </Projectile>
    </Object>
    <Object type="0x0679" id="GhostShip Rat">
+      <BleedMult>0</BleedMult>
       <Class>Character</Class>
       <Enemy/>
       <DisplayId>Ghost Ship Rat</DisplayId>

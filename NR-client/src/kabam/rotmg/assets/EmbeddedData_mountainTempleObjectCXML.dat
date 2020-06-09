@@ -3811,6 +3811,7 @@
       <ParalyzeImmune/>
    </Object>
    <Object type="0x090d" id="Corrupted Sprite">
+      <BleedMult>0</BleedMult>
       <Enemy/>
       <DisplayId>Corrupted Sprite</DisplayId>
       <Class>Character</Class>

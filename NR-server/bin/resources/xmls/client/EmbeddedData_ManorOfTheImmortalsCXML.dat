@@ -2,6 +2,7 @@
 
 <Objects>
    <Object type="0x0800" id="Lord Ruthven">
+      <BleedMult>-0.5</BleedMult>
       <Enemy/>
       <Class>Character</Class>
       <Group>Vampires</Group>
@@ -77,6 +78,7 @@
       </Projectile>
    </Object>
    <Object type="0x0802" id="Coffin Creature">
+      <BleedMult>-2</BleedMult>
       <Enemy/>
       <Class>Character</Class>
       <Texture>
@@ -494,6 +496,7 @@
       <Size>0</Size>
    </Object>
    <Object type="0x0814" id="Coffin">
+      <BleedMult>-2</BleedMult>
       <Enemy/>
       <Class>Character</Class>
       <Texture>

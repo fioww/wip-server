@@ -140,9 +140,10 @@ namespace wServer.realm.entities
 
             if (!stat && HasConditionEffect(ConditionEffects.Bleeding))
             {
-                HP -= (int)(28 * (time.ElapsedMsDelta / 1000f));
+                HP -= (int)(MaximumHP * (0.0002 * ObjectDesc.BleedMult) * (time.ElapsedMsDelta / 1000f));
             }
             base.Tick(time);
         }
+
     }
 }

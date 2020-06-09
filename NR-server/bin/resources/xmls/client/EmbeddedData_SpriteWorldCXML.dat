@@ -2,6 +2,7 @@
 
 <Objects>
    <Object type="0x0dc6" id="Native Fire Sprite">
+      <BleedMult>0</BleedMult>
       <Group>Native Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -23,6 +24,7 @@
       </Projectile>
    </Object>
    <Object type="0x0dc7" id="Native Ice Sprite">
+      <BleedMult>0</BleedMult>
       <Group>Native Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -46,6 +48,7 @@
       </Projectile>
    </Object>
    <Object type="0x0dc8" id="Native Magic Sprite">
+      <BleedMult>0</BleedMult>
       <Group>Native Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -68,6 +71,7 @@
       </Projectile>
    </Object>
    <Object type="0x0dc9" id="Native Nature Sprite">
+      <BleedMult>0</BleedMult>
       <Group>Native Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -89,6 +93,7 @@
       </Projectile>
    </Object>
    <Object type="0x0dca" id="Native Darkness Sprite">
+      <BleedMult>0</BleedMult>
       <Group>Native Sprites</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -110,6 +115,7 @@
       </Projectile>
    </Object>
    <Object type="0x0dcb" id="Native Sprite God">
+      <BleedMult>0</BleedMult>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>
@@ -140,6 +146,7 @@
       </Projectile>
    </Object>
    <Object type="0x0dcc" id="Limon the Sprite God">
+      <BleedMult>0</BleedMult>
       <Class>Character</Class>
       <Texture>
          <File>lofiChar216x16</File>

@@ -1981,6 +1981,7 @@
       <BagType>2</BagType>
    </Object>
    <Object type="0x014f" id="Ghost White Clothing Dye">
+      <BleedMult>0</BleedMult>
       <Class>Dye</Class>
       <DisplayId>{dyes.Ghost_White_Clothing_Dye}</DisplayId>
       <Item/>
@@ -2003,6 +2004,7 @@
    </Object>
    
    <Object type="0x0150" id="Ghost White Accessory Dye">
+      <BleedMult>0</BleedMult>
       <Class>Dye</Class>
       <DisplayId>{dyes.Ghost_White_Accessory_Dye}</DisplayId>
       <Item/>

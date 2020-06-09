@@ -2,6 +2,7 @@
 
 <Objects>
    <Object type="0x0058" id="Candy Gnome">
+      <BleedMult>4</BleedMult>
       <Enemy/>
       <Class>Character</Class>
       <AnimatedTexture>

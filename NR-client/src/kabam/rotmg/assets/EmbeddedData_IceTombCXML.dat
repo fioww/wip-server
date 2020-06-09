@@ -2,6 +2,7 @@
 
 <Objects>
    <Object type="0x0751" id="Ice Golem">
+      <BleedMult>0</BleedMult>
       <Group>Ice Golems</Group>
       <Enemy/>
       <Class>Character</Class>

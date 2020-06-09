@@ -2359,6 +2359,7 @@
       </Projectile>
    </Object>
    <Object type="0x0255" id="Ghost Ship Anchor">
+      <BleedMult>0</BleedMult>
       <Enemy/>
       <Class>Character</Class>
       <DisplayId>Ghost Ship Whirlpool</DisplayId>
@@ -2386,6 +2387,7 @@
       </Projectile>
    </Object>
    <Object type="0x0256" id="Ghost Ship">
+      <BleedMult>0</BleedMult>
       <Enemy/>
       <Class>Character</Class>
       <DisplayId>Ghost Ship</DisplayId>

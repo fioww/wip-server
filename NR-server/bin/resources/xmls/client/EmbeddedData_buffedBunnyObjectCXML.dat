@@ -114,7 +114,7 @@
          <Size>100</Size>
       </Projectile>
       <NumProjectiles>1</NumProjectiles>
-      <BagType>4</BagType>
+      <BagType>6</BagType>
       <FameBonus>3</FameBonus>
       <OldSound>daggerSwing</OldSound>
       <feedPower>310</feedPower>

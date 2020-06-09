@@ -725,6 +725,7 @@
       </Projectile>
    </Object>
    <Object type="0x1192" id="Ghost Warrior of Septavius">
+      <BleedMult>0</BleedMult>
       <Group>Lair Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -746,6 +747,7 @@
       </Projectile>
    </Object>
    <Object type="0x1193" id="Ghost Mage of Septavius">
+      <BleedMult>0</BleedMult>
       <Group>Lair Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>
@@ -767,6 +769,7 @@
       </Projectile>
    </Object>
    <Object type="0x1194" id="Ghost Rogue of Septavius">
+      <BleedMult>0</BleedMult>
       <Group>Lair Ghosts</Group>
       <Enemy/>
       <Class>Character</Class>

@@ -26,7 +26,6 @@
             <File>newObjects2</File>
             <Index>0x17</Index>
         </Texture>
-        <Speed>1</Speed>
     </Ground>
 
 </GroundTypes>
