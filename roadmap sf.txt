@@ -1,0 +1,32 @@
+Level 100 plans --
+
+
+(Stat) Magic Shield 
+
+Max magic points & wisdom points fused to
+partially protect the  user from magic shots.
+
+
+(New Feature) Special Attack
+
+Build up power points by getting damaged, 
+when the power points are at max. Power 
+points max out at 4000 damage (doesn't
+count armor)
+
+Only special abilities have a special
+attack. Special attacks will deal fixed
+amounts if you are equipping a special
+item (likely to be all uts).
+
+Certain items will have better abilities,
+and so will require more health before
+activation.
+
+
+Stat modification
+
+Make stats a float value so you can
+increase them in decimal values ~~
+Balance character stat increase per
+level per character.
