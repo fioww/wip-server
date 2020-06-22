@@ -11,7 +11,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Warrior with the Olive Gladiator Skin.</Description>
-      <Activate skinType="3402">UnlockSkin</Activate>
+      <Activate skinType="0x0d4a">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -26,7 +26,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Warrior with the Ivory Gladiator Skin.</Description>
-      <Activate skinType="3403">UnlockSkin</Activate>
+      <Activate skinType="0x0d4b">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -41,7 +41,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Ninja with the Rosen Blade Skin.\n\nSprite Credits: Univoid</Description>
-      <Activate skinType="3404">UnlockSkin</Activate>
+      <Activate skinType="0x0d4c">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -56,7 +56,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Ninja with the Djinja Skin.</Description>
-      <Activate skinType="3405">UnlockSkin</Activate>
+      <Activate skinType="0x0d4d">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -71,7 +71,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Ninja with the Baby Djinja Skin.</Description>
-      <Activate skinType="3385">UnlockSkin</Activate>
+      <Activate skinType="0x0d39">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -86,7 +86,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>This rose might look peaceful, but her blade will strike you faster than you blink!\n\nSprite Credits: Lovens</Description>
-      <Activate skinType="3386">UnlockSkin</Activate>
+      <Activate skinType="0x0d3a">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -102,7 +102,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Priest with the Mini Geb Skin.</Description>
-      <Activate skinType="3387">UnlockSkin</Activate>
+      <Activate skinType="0x0d3b">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -117,7 +117,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Rogue with the Mini Skuld Skin.</Description>
-      <Activate skinType="3388">UnlockSkin</Activate>
+      <Activate skinType="0x0d3c">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -132,7 +132,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Knight with the Mini Oryx Skin.</Description>
-      <Activate skinType="3392">UnlockSkin</Activate>
+      <Activate skinType="0x0d40">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -147,7 +147,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Paladin with the Mini Swoll Skin.</Description>
-      <Activate skinType="3390">UnlockSkin</Activate>
+      <Activate skinType="0x0d3e">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -162,7 +162,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Wizard with the Mini Twilight Skin.</Description>
-      <Activate skinType="3389">UnlockSkin</Activate>
+      <Activate skinType="0x0d3d">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -177,7 +177,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Mystic with the Mini Phylactery Skin.</Description>
-      <Activate skinType="3391">UnlockSkin</Activate>
+      <Activate skinType="0x0d3f">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -192,7 +192,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Huntress with the Mini Thessal Skin.</Description>
-      <Activate skinType="3393">UnlockSkin</Activate>
+      <Activate skinType="0x0d41">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -207,7 +207,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Knight with the Slurp Knight Skin.</Description>
-      <Activate skinType="3394">UnlockSkin</Activate>
+      <Activate skinType="0x0d42">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -222,7 +222,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Necromancer with the Vampire Lord Skin.</Description>
-      <Activate skinType="3406">UnlockSkin</Activate>
+      <Activate skinType="0x0d4e">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -237,7 +237,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Paladin with the Headless Rider Skin.</Description>
-      <Activate skinType="3407">UnlockSkin</Activate>
+      <Activate skinType="0x0d4f">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -252,7 +252,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Paladin with the Pilgrim Father Skin.</Description>
-      <Activate skinType="3408">UnlockSkin</Activate>
+      <Activate skinType="0x0d50">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -267,7 +267,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Mystic with the Pilgrim Mother Skin.</Description>
-      <Activate skinType="3409">UnlockSkin</Activate>
+      <Activate skinType="0x0d51">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -282,7 +282,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Wizard with the Wizard Supreme Skin.</Description>
-      <Activate skinType="3410">UnlockSkin</Activate>
+      <Activate skinType="0x0d52">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -297,7 +297,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Warrior with Rudolph the Berzerk Skin.</Description>
-      <Activate skinType="3411">UnlockSkin</Activate>
+      <Activate skinType="0x0d53">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -312,7 +312,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Paladin with Miss Santa Skin.</Description>
-      <Activate skinType="3412">UnlockSkin</Activate>
+      <Activate skinType="0x0d54">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -327,7 +327,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Wizard with Snow Queen Skin.</Description>
-      <Activate skinType="3413">UnlockSkin</Activate>
+      <Activate skinType="0x0d55">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -343,7 +343,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Warrior with Dragon Tamer Skin.</Description>
-      <Activate skinType="3414">UnlockSkin</Activate>
+      <Activate skinType="0x0d56">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -358,7 +358,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Archer with the Inuit Skin.</Description>
-      <Activate skinType="3415">UnlockSkin</Activate>
+      <Activate skinType="0x0d57">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -373,7 +373,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Rogue  with the Snowcloaked Rogue Skin.</Description>
-      <Activate skinType="3416">UnlockSkin</Activate>
+      <Activate skinType="0x0d58">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -389,7 +389,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Knight with the Slime Skin. Rarity: Uncommon</Description>
-      <Activate skinType="3327">UnlockSkin</Activate>
+      <Activate skinType="0x0cff">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -402,7 +402,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Archer with the Slime Skin. Rarity: Common</Description>
-      <Activate skinType="3328">UnlockSkin</Activate>
+      <Activate skinType="0x0d00">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -415,7 +415,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Priest with the Slime Skin. Rarity: Common</Description>
-      <Activate skinType="3329">UnlockSkin</Activate>
+      <Activate skinType="0x0d01">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -429,7 +429,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Assassin with the Agent Skin. Rarity: Rare</Description>
-      <Activate skinType="3330">UnlockSkin</Activate>
+      <Activate skinType="0x0d02">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -442,7 +442,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Rogue with the Brigand Skin. Rarity: Uncommon</Description>
-      <Activate skinType="3331">UnlockSkin</Activate>
+      <Activate skinType="0x0d03">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -455,7 +455,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Wizard with the Gentleman Skin. Rarity: Rare Indeed</Description>
-      <Activate skinType="3332">UnlockSkin</Activate>
+      <Activate skinType="0x0d04">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Track/>
@@ -470,7 +470,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Huntress with the Scarlett Skin.</Description>
-      <Activate skinType="3333">UnlockSkin</Activate>
+      <Activate skinType="0x0d05">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -483,7 +483,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Warrior with the Shoveguy Skin.</Description>
-      <Activate skinType="3334">UnlockSkin</Activate>
+      <Activate skinType="0x0d06">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -496,7 +496,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Ninja with the Slime Skin.</Description>
-      <Activate skinType="3336">UnlockSkin</Activate>
+      <Activate skinType="0x0d08">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -509,7 +509,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Blushing? I'm not blushing. Found during Valentines Day 2014.</Description>
-      <Activate skinType="3337">UnlockSkin</Activate>
+      <Activate skinType="0x0d09">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -522,7 +522,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Looking for a Valentine. Found during Valentines Day 2014.</Description>
-      <Activate skinType="3338">UnlockSkin</Activate>
+      <Activate skinType="0x0d0a">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -535,7 +535,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Don't make me hit you with this ruler!</Description>
-      <Activate skinType="3339">UnlockSkin</Activate>
+      <Activate skinType="0x0d0b">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -548,7 +548,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>I'm not really sure where the term 'witch' came from.</Description>
-      <Activate skinType="3340">UnlockSkin</Activate>
+      <Activate skinType="0x0d0c">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -561,7 +561,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Not all sorcerers are male.</Description>
-      <Activate skinType="3341">UnlockSkin</Activate>
+      <Activate skinType="0x0d0d">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -574,7 +574,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Found during Valentines Day 2014. Made by SlugKing.</Description>
-      <Activate skinType="3342">UnlockSkin</Activate>
+      <Activate skinType="0x0d0e">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -588,7 +588,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>This? Don't be afraid of me. My spell just backfired, it will wear off soon.</Description>
-      <Activate skinType="3343">UnlockSkin</Activate>
+      <Activate skinType="0x0d0f">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -601,7 +601,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Never judge a book by its cover.</Description>
-      <Activate skinType="3344">UnlockSkin</Activate>
+      <Activate skinType="0x0d10">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -615,7 +615,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>This bunny is hopping mad that players have been looting all the eggs he hid.</Description>
-      <Activate skinType="3345">UnlockSkin</Activate>
+      <Activate skinType="0x0d11">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -628,7 +628,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>This bunny is hopping mad that players have been looting all the eggs he hid.</Description>
-      <Activate skinType="3345">UnlockSkin</Activate>
+      <Activate skinType="0x0d11">UnlockSkin</Activate>
       <Consumable/>
       <Soulbound/>
       <BagType>6</BagType>
@@ -644,7 +644,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Paladin with the Holy Avenger Skin.\n\nSprite Credits: Uomo</Description>
-      <Activate skinType="3350">UnlockSkin</Activate>
+      <Activate skinType="0x0d16">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -658,7 +658,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A priestess who has devoted her life to the care-taking of the Nexus.\n\nSprite Credits: DG_spritemaker</Description>
-      <Activate skinType="3346">UnlockSkin</Activate>
+      <Activate skinType="0x0d12">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -671,7 +671,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>One of the Dark Elves that have recently began showing up in the Realm.\n\nSprite Credits: SteeleAlt</Description>
-      <Activate skinType="3347">UnlockSkin</Activate>
+      <Activate skinType="0x0d13">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -684,7 +684,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>He's big, he's bad, and he's a wolf.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3348">UnlockSkin</Activate>
+      <Activate skinType="0x0d14">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -697,7 +697,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A trend-setter when it comes to hoods.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3349">UnlockSkin</Activate>
+      <Activate skinType="0x0d15">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -711,7 +711,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Cursed by responsibility and awesome knife skills.\n\nSprite Credits: IrondogdogROTMG</Description>
-      <Activate skinType="3351">UnlockSkin</Activate>
+      <Activate skinType="0x0d17">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -724,7 +724,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Archer with the Ranger Skin.\n\nSprite Credits: Radiek</Description>
-      <Activate skinType="3352">UnlockSkin</Activate>
+      <Activate skinType="0x0d18">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -737,7 +737,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Knight of the Platinum Order.\n\nSprite Credits: DELer</Description>
-      <Activate skinType="3353">UnlockSkin</Activate>
+      <Activate skinType="0x0d19">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -750,7 +750,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Warrior of the Platinum Order.\n\nSprite Credits: DELer</Description>
-      <Activate skinType="3354">UnlockSkin</Activate>
+      <Activate skinType="0x0d1a">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -763,7 +763,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Rogue of the Platinum Order.\n\nSprite Credits: DELer</Description>
-      <Activate skinType="3355">UnlockSkin</Activate>
+      <Activate skinType="0x0d1b">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -776,7 +776,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A stylish witch, community choice winner: Project Realmway 2.\n\nSprite Credits: DieGo</Description>
-      <Activate skinType="3356">UnlockSkin</Activate>
+      <Activate skinType="0x0d1c">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -790,7 +790,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Sorcerer with the Slime Skin.</Description>
-      <Activate skinType="3357">UnlockSkin</Activate>
+      <Activate skinType="0x0d1d">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -803,7 +803,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Trickster with the Slime Skin.</Description>
-      <Activate skinType="3358">UnlockSkin</Activate>
+      <Activate skinType="0x0d1e">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -816,7 +816,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Mystic with the Slime Skin.</Description>
-      <Activate skinType="3359">UnlockSkin</Activate>
+      <Activate skinType="0x0d1f">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -829,7 +829,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Huntress with the Slime Skin.</Description>
-      <Activate skinType="3360">UnlockSkin</Activate>
+      <Activate skinType="0x0d20">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -842,7 +842,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Necromancer with the Slime Skin.</Description>
-      <Activate skinType="3361">UnlockSkin</Activate>
+      <Activate skinType="0x0d21">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -856,7 +856,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Assassin with the Slime Skin.</Description>
-      <Activate skinType="3362">UnlockSkin</Activate>
+      <Activate skinType="0x0d22">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -870,7 +870,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Paladin with the Slime Skin.</Description>
-      <Activate skinType="3363">UnlockSkin</Activate>
+      <Activate skinType="0x0d23">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -883,7 +883,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Rogue with the Slime Skin.</Description>
-      <Activate skinType="3364">UnlockSkin</Activate>
+      <Activate skinType="0x0d24">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -896,7 +896,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Warrior with the Slime Skin.</Description>
-      <Activate skinType="3365">UnlockSkin</Activate>
+      <Activate skinType="0x0d25">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -910,7 +910,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A stunning costume to wear for your theatre debut.</Description>
-      <Activate skinType="3366">UnlockSkin</Activate>
+      <Activate skinType="0x0d26">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -923,7 +923,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Hee Hee, Ha Ha, Ho Ho! Want to hear a joke?\n\nSprite Credits: ViciousTwo and Thq32df</Description>
-      <Activate skinType="3367">UnlockSkin</Activate>
+      <Activate skinType="0x0d27">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -937,7 +937,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A spooky ghost that haunts the Nexus.</Description>
-      <Activate skinType="3368">UnlockSkin</Activate>
+      <Activate skinType="0x0d28">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -950,7 +950,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Skeletons are basically the scariest thing ever.</Description>
-      <Activate skinType="3369">UnlockSkin</Activate>
+      <Activate skinType="0x0d29">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -963,7 +963,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Join my legions of infected, hero.\n\nSprite Credits: WunderWafe</Description>
-      <Activate skinType="3370">UnlockSkin</Activate>
+      <Activate skinType="0x0d2a">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -976,7 +976,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: WunderWafe</Description>
-      <Activate skinType="3371">UnlockSkin</Activate>
+      <Activate skinType="0x0d2b">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -989,7 +989,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: WunderWafe</Description>
-      <Activate skinType="3372">UnlockSkin</Activate>
+      <Activate skinType="0x0d2c">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -1003,7 +1003,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3373">UnlockSkin</Activate>
+      <Activate skinType="0x0d2d">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -1017,7 +1017,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: Hawkmin</Description>
-      <Activate skinType="3374">UnlockSkin</Activate>
+      <Activate skinType="0x0d2e">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -1030,7 +1030,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3375">UnlockSkin</Activate>
+      <Activate skinType="0x0d2f">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -1043,7 +1043,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3376">UnlockSkin</Activate>
+      <Activate skinType="0x0d30">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -1056,7 +1056,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3377">UnlockSkin</Activate>
+      <Activate skinType="0x0d31">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -1069,7 +1069,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: Thqdfthqdf</Description>
-      <Activate skinType="3378">UnlockSkin</Activate>
+      <Activate skinType="0x0d32">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -1082,7 +1082,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: DG</Description>
-      <Activate skinType="3379">UnlockSkin</Activate>
+      <Activate skinType="0x0d33">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -1095,7 +1095,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: Thqdfthqdf</Description>
-      <Activate skinType="3380">UnlockSkin</Activate>
+      <Activate skinType="0x0d34">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -1108,7 +1108,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.</Description>
-      <Activate skinType="3381">UnlockSkin</Activate>
+      <Activate skinType="0x0d35">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -1121,7 +1121,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3382">UnlockSkin</Activate>
+      <Activate skinType="0x0d36">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -1134,7 +1134,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: Thqdfthqdf</Description>
-      <Activate skinType="3383">UnlockSkin</Activate>
+      <Activate skinType="0x0d37">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -1147,7 +1147,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3384">UnlockSkin</Activate>
+      <Activate skinType="0x0d38">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
    </Object>
@@ -1161,7 +1161,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3432">UnlockSkin</Activate>
+      <Activate skinType="0x0d68">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1177,7 +1177,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A new look to get any Wizard ready for the holidays. Double-Click to send this skin to your Vault Wardrobe</Description>
-      <Activate skinType="3321">UnlockSkin</Activate>
+      <Activate skinType="0x0cf9">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <feedPower>50</feedPower>
@@ -1191,7 +1191,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A new look to get any Archer ready for the holidays. Double-Click to send this skin to your Vault Wardrobe</Description>
-      <Activate skinType="3322">UnlockSkin</Activate>
+      <Activate skinType="0x0cfa">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <feedPower>50</feedPower>
@@ -1206,7 +1206,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A new look to get any Knight ready for the holidays. Double-Click to send this skin to your Vault Wardrobe</Description>
-      <Activate skinType="3335">UnlockSkin</Activate>
+      <Activate skinType="0x0d07">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <feedPower>50</feedPower>
@@ -1221,7 +1221,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Fashionable AND dangerous.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3417">UnlockSkin</Activate>
+      <Activate skinType="0x0d59">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1237,7 +1237,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Looks a lot less cute once its sword is in your eye.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3418">UnlockSkin</Activate>
+      <Activate skinType="0x0d5a">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1252,7 +1252,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Smaller than the real Frimar, but no less dangerous.\n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3419">UnlockSkin</Activate>
+      <Activate skinType="0x0d5b">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1267,7 +1267,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Once sat on a Frozen Throne, but decided to go adventuring.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3420">UnlockSkin</Activate>
+      <Activate skinType="0x0d5c">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1282,7 +1282,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Some say the world will end in fire, some say in ice.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3421">UnlockSkin</Activate>
+      <Activate skinType="0x0d5d">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1297,7 +1297,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Crown not included to preserve sanity.\n\nSprite Credits: Kingged</Description>
-      <Activate skinType="3422">UnlockSkin</Activate>
+      <Activate skinType="0x0d5e">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1312,7 +1312,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>In case of emergency use icicle to stab enemy.\n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3423">UnlockSkin</Activate>
+      <Activate skinType="0x0d5f">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1327,7 +1327,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Do not follow, unless you like frostbite.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3424">UnlockSkin</Activate>
+      <Activate skinType="0x0d60">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1343,7 +1343,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3425">UnlockSkin</Activate>
+      <Activate skinType="0x0d61">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1358,7 +1358,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3426">UnlockSkin</Activate>
+      <Activate skinType="0x0d62">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1373,7 +1373,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3427">UnlockSkin</Activate>
+      <Activate skinType="0x0d63">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1388,7 +1388,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3428">UnlockSkin</Activate>
+      <Activate skinType="0x0d64">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1403,7 +1403,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3429">UnlockSkin</Activate>
+      <Activate skinType="0x0d65">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1418,7 +1418,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3430">UnlockSkin</Activate>
+      <Activate skinType="0x0d66">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1433,7 +1433,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3431">UnlockSkin</Activate>
+      <Activate skinType="0x0d67">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1449,7 +1449,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3433">UnlockSkin</Activate>
+      <Activate skinType="0x0d69">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1464,7 +1464,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3434">UnlockSkin</Activate>
+      <Activate skinType="0x0d6a">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1479,7 +1479,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3435">UnlockSkin</Activate>
+      <Activate skinType="0x0d6b">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1494,7 +1494,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3436">UnlockSkin</Activate>
+      <Activate skinType="0x0d6c">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1509,7 +1509,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3437">UnlockSkin</Activate>
+      <Activate skinType="0x0d6d">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1524,7 +1524,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Artists!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3438">UnlockSkin</Activate>
+      <Activate skinType="0x0d6e">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1539,7 +1539,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3439">UnlockSkin</Activate>
+      <Activate skinType="0x0d6f">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1554,7 +1554,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3440">UnlockSkin</Activate>
+      <Activate skinType="0x0d70">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1569,7 +1569,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3441">UnlockSkin</Activate>
+      <Activate skinType="0x0d71">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1584,7 +1584,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3442">UnlockSkin</Activate>
+      <Activate skinType="0x0d72">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1599,7 +1599,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3443">UnlockSkin</Activate>
+      <Activate skinType="0x0d73">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1614,7 +1614,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3444">UnlockSkin</Activate>
+      <Activate skinType="0x0d74">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1629,7 +1629,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3445">UnlockSkin</Activate>
+      <Activate skinType="0x0d75">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1644,7 +1644,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3446">UnlockSkin</Activate>
+      <Activate skinType="0x0d76">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1659,7 +1659,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3447">UnlockSkin</Activate>
+      <Activate skinType="0x0d77">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1674,7 +1674,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3448">UnlockSkin</Activate>
+      <Activate skinType="0x0d78">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1690,7 +1690,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3449">UnlockSkin</Activate>
+      <Activate skinType="0x0d79">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1705,7 +1705,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3450">UnlockSkin</Activate>
+      <Activate skinType="0x0d7a">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1720,7 +1720,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3451">UnlockSkin</Activate>
+      <Activate skinType="0x0d7b">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1735,7 +1735,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Our biggest thanks to our Community Dungeon Creators!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3452">UnlockSkin</Activate>
+      <Activate skinType="0x0d7c">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1750,7 +1750,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Oh white bag, white bag! Wherefore art thou white bag?\n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3453">UnlockSkin</Activate>
+      <Activate skinType="0x0d7d">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1765,7 +1765,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>She's coming for your heart!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3454">UnlockSkin</Activate>
+      <Activate skinType="0x0d7e">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1780,7 +1780,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Is good loot a tender thing? It is too rare, too scarce, too extraordinary, and it pricks like a Poison Fang Dagger.\n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3455">UnlockSkin</Activate>
+      <Activate skinType="0x0d7f">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1795,7 +1795,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Let's get this clown fiesta started!\n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3456">UnlockSkin</Activate>
+      <Activate skinType="0x0d80">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1810,7 +1810,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Totally not a Necromancer.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3457">UnlockSkin</Activate>
+      <Activate skinType="0x0d81">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1826,7 +1826,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3458">UnlockSkin</Activate>
+      <Activate skinType="0x0d82">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1841,7 +1841,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3459">UnlockSkin</Activate>
+      <Activate skinType="0x0d83">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1856,7 +1856,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3460">UnlockSkin</Activate>
+      <Activate skinType="0x0d84">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1871,7 +1871,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3461">UnlockSkin</Activate>
+      <Activate skinType="0x0d85">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1886,7 +1886,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3462">UnlockSkin</Activate>
+      <Activate skinType="0x0d86">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1901,7 +1901,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3463">UnlockSkin</Activate>
+      <Activate skinType="0x0d87">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1917,7 +1917,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3464">UnlockSkin</Activate>
+      <Activate skinType="0x0d88">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1932,7 +1932,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3465">UnlockSkin</Activate>
+      <Activate skinType="0x0d89">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1947,7 +1947,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3466">UnlockSkin</Activate>
+      <Activate skinType="0x0d8a">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1962,7 +1962,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3467">UnlockSkin</Activate>
+      <Activate skinType="0x0d8b">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1977,7 +1977,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3468">UnlockSkin</Activate>
+      <Activate skinType="0x0d8c">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -1992,7 +1992,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3469">UnlockSkin</Activate>
+      <Activate skinType="0x0d8d">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2007,7 +2007,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3470">UnlockSkin</Activate>
+      <Activate skinType="0x0d8e">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2022,7 +2022,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Testers assemble! Seek the bugs of tomorrow!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3471">UnlockSkin</Activate>
+      <Activate skinType="0x0d8f">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2037,7 +2037,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Make sure to Equip a Wind Circle for style points!\n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3472">UnlockSkin</Activate>
+      <Activate skinType="0x0d90">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2052,7 +2052,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Legends say she will lead you to a pot of gold if you catch her!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3473">UnlockSkin</Activate>
+      <Activate skinType="0x0d91">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2067,7 +2067,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>The goddess of the sky. Make sure not to vandalize her property.\n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3474">UnlockSkin</Activate>
+      <Activate skinType="0x0d92">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2082,7 +2082,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>The most ladylike of all leprechauns, or so she says. Don't tell the Mystic!\n\nSprite Credits: Kingged</Description>
-      <Activate skinType="3475">UnlockSkin</Activate>
+      <Activate skinType="0x0d93">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2097,7 +2097,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>200 POUNDS OF FLUFFY TESTOSTERONE!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3476">UnlockSkin</Activate>
+      <Activate skinType="0x0d94">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2112,7 +2112,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Easily pulls his wool over people's eyes.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3477">UnlockSkin</Activate>
+      <Activate skinType="0x0d95">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2127,7 +2127,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Ever thought about all the wizards who got polymorphed into sheep? \n\nSprite Credits: Beige</Description>
-      <Activate skinType="3478">UnlockSkin</Activate>
+      <Activate skinType="0x0d96">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2142,7 +2142,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>The hunters will now become the hunted! \n\nSprite Credits: Beige</Description>
-      <Activate skinType="3479">UnlockSkin</Activate>
+      <Activate skinType="0x0d97">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2158,7 +2158,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Guides the lambs to greener pastures. \n\nSprite Credits: Beige</Description>
-      <Activate skinType="3480">UnlockSkin</Activate>
+      <Activate skinType="0x0d98">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2173,7 +2173,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Little Bo-Peep has lost her sheep... \n\nSprite Credits: Beige</Description>
-      <Activate skinType="3481">UnlockSkin</Activate>
+      <Activate skinType="0x0d99">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2188,7 +2188,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>It's a bird... It's a plane... It's... just another wizard. \n\nSprite Credits: Kingged</Description>
-      <Activate skinType="3482">UnlockSkin</Activate>
+      <Activate skinType="0x0d9a">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2203,7 +2203,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>MARVEL AT HIS ABILITY! \n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3483">UnlockSkin</Activate>
+      <Activate skinType="0x0d9b">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2218,7 +2218,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Dye it green to become Stheno's sister! \n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3484">UnlockSkin</Activate>
+      <Activate skinType="0x0d9c">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2233,7 +2233,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A divine leader of war and an exceptional musical artist. \n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3485">UnlockSkin</Activate>
+      <Activate skinType="0x0d9d">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2248,7 +2248,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Sails the seven seas to sell his life pots. For overpay, naturally. \n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3486">UnlockSkin</Activate>
+      <Activate skinType="0x0d9e">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2263,7 +2263,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Rogue with the Beefcake Rogue Skin.</Description>
-      <Activate skinType="3487">UnlockSkin</Activate>
+      <Activate skinType="0x0d9f">UnlockSkin</Activate>
       <Consumable/>
       <!--<Soulbound/>-->
       <BagType>6</BagType>
@@ -2279,7 +2279,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Warrior with the Shoveguy Skin.</Description>
-      <Activate skinType="3334">UnlockSkin</Activate>
+      <Activate skinType="0x0d06">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2294,7 +2294,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>He's big, he's bad, and he's a wolf.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3348">UnlockSkin</Activate>
+      <Activate skinType="0x0d14">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2309,7 +2309,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Assassin with the Agent Skin. Rarity: Rare</Description>
-      <Activate skinType="3330">UnlockSkin</Activate>
+      <Activate skinType="0x0d02">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2324,7 +2324,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Rogue with the Brigand Skin. Rarity: Uncommon</Description>
-      <Activate skinType="3331">UnlockSkin</Activate>
+      <Activate skinType="0x0d03">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2339,7 +2339,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Not all sorcerers are male.</Description>
-      <Activate skinType="3341">UnlockSkin</Activate>
+      <Activate skinType="0x0d0d">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2354,7 +2354,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A new look to get any Knight ready for the holidays. Double-Click to send this skin to your Vault Wardrobe</Description>
-      <Activate skinType="3335">UnlockSkin</Activate>
+      <Activate skinType="0x0d07">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2369,7 +2369,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Huntress with the Scarlett Skin.</Description>
-      <Activate skinType="3333">UnlockSkin</Activate>
+      <Activate skinType="0x0d05">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2385,7 +2385,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A trend-setter when it comes to hoods.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3349">UnlockSkin</Activate>
+      <Activate skinType="0x0d15">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2400,7 +2400,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Warrior of the Platinum Order.\n\nSprite Credits: DELer</Description>
-      <Activate skinType="3354">UnlockSkin</Activate>
+      <Activate skinType="0x0d1a">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2415,7 +2415,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Archer with the Ranger Skin.\n\nSprite Credits: Radiek</Description>
-      <Activate skinType="3352">UnlockSkin</Activate>
+      <Activate skinType="0x0d18">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2430,7 +2430,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: WunderWafe</Description>
-      <Activate skinType="3371">UnlockSkin</Activate>
+      <Activate skinType="0x0d2b">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2445,7 +2445,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Customize your Paladin with the Holy Avenger Skin.\n\nSprite Credits: Uomo</Description>
-      <Activate skinType="3350">UnlockSkin</Activate>
+      <Activate skinType="0x0d16">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2460,7 +2460,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: Hawkmin</Description>
-      <Activate skinType="3374">UnlockSkin</Activate>
+      <Activate skinType="0x0d2e">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2475,7 +2475,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>I'm not really sure where the term 'witch' came from.</Description>
-      <Activate skinType="3340">UnlockSkin</Activate>
+      <Activate skinType="0x0d0c">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2490,7 +2490,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Don't make me hit you with this ruler!</Description>
-      <Activate skinType="3339">UnlockSkin</Activate>
+      <Activate skinType="0x0d0b">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2505,7 +2505,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A stylish witch, community choice winner: Project Realmway 2.\n\nSprite Credits: DieGo</Description>
-      <Activate skinType="3356">UnlockSkin</Activate>
+      <Activate skinType="0x0d1c">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2520,7 +2520,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Found during Valentines Day 2014. Made by SlugKing.</Description>
-      <Activate skinType="3342">UnlockSkin</Activate>
+      <Activate skinType="0x0d0e">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2535,7 +2535,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Blushing? I'm not blushing. Found during Valentines Day 2014.</Description>
-      <Activate skinType="3337">UnlockSkin</Activate>
+      <Activate skinType="0x0d09">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2550,7 +2550,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Looking for a Valentine. Found during Valentines Day 2014.</Description>
-      <Activate skinType="3338">UnlockSkin</Activate>
+      <Activate skinType="0x0d0a">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2565,7 +2565,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3373">UnlockSkin</Activate>
+      <Activate skinType="0x0d2d">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2580,7 +2580,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>One of the Dark Elves that have recently began showing up in the Realm.\n\nSprite Credits: SteeleAlt</Description>
-      <Activate skinType="3347">UnlockSkin</Activate>
+      <Activate skinType="0x0d13">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2595,7 +2595,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Unlocked during Halloween 2014.</Description>
-      <Activate skinType="3381">UnlockSkin</Activate>
+      <Activate skinType="0x0d35">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2610,7 +2610,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Cursed by responsibility and awesome knife skills.\n\nSprite Credits: IrondogdogROTMG</Description>
-      <Activate skinType="3351">UnlockSkin</Activate>
+      <Activate skinType="0x0d17">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2626,7 +2626,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Knight of the Platinum Order.\n\nSprite Credits: DELer</Description>
-      <Activate skinType="3353">UnlockSkin</Activate>
+      <Activate skinType="0x0d19">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2641,7 +2641,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Rogue of the Platinum Order.\n\nSprite Credits: DELer</Description>
-      <Activate skinType="3355">UnlockSkin</Activate>
+      <Activate skinType="0x0d1b">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2656,7 +2656,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Never judge a book by its cover.</Description>
-      <Activate skinType="3344">UnlockSkin</Activate>
+      <Activate skinType="0x0d10">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <Soulbound/>
@@ -2671,7 +2671,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A strikingly realistic statue of a famous mystic who disappeared after a catastrophic spell failure.\n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3488">UnlockSkin</Activate>
+      <Activate skinType="0x0da0">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <!--<Soulbound/>-->
@@ -2686,7 +2686,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>The last ninja from the Five Wolf Samurai group.\n\nSprite Credits: Kingged</Description>
-      <Activate skinType="3489">UnlockSkin</Activate>
+      <Activate skinType="0x0da1">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <!--<Soulbound/>-->
@@ -2701,7 +2701,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A protector of the Realm's forests and a master of archery. She's sometimes seen having tea with forest fairies and taking walks with her silver doe.\n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3490">UnlockSkin</Activate>
+      <Activate skinType="0x0da2">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <!--<Soulbound/>-->
@@ -2716,7 +2716,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>A talented dancer and one of the few people that knows how to calm down an enraged bunny.\n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3491">UnlockSkin</Activate>
+      <Activate skinType="0x0da3">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <!--<Soulbound/>-->
@@ -2731,7 +2731,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>An elegant shrine priestess, always quick to help others. Unfortunately, she rarely receives donations.\n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3492">UnlockSkin</Activate>
+      <Activate skinType="0x0da4">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <!--<Soulbound/>-->
@@ -2746,7 +2746,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>This rouge rogue skin will make your character look rad in red.\n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3493">UnlockSkin</Activate>
+      <Activate skinType="0x0da5">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <!--<Soulbound/>-->
@@ -2761,7 +2761,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>He's known for dropping the sickest heals. All the witches love him!\n\nSprite Credits: Poshun</Description>
-      <Activate skinType="3494">UnlockSkin</Activate>
+      <Activate skinType="0x0da6">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <!--<Soulbound/>-->
@@ -2776,7 +2776,7 @@
       </AnimatedTexture>
       <SlotType>10</SlotType>
       <Description>Not all princesses need a prince to rescue them!\n\nSprite Credits: Beige</Description>
-      <Activate skinType="3495">UnlockSkin</Activate>
+      <Activate skinType="0x0da7">UnlockSkin</Activate>
       <Consumable/>
       <BagType>6</BagType>
       <!--<Soulbound/>-->

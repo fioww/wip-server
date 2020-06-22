@@ -2,6 +2,8 @@
 
 <Objects>
 <!--3305+ starting from Bandit-->
+<!--^^ skins on nr work differently,
+    no need to convert from hex to dec-->
    <Object type="0x0ce9" id="Bandit">
       <Skin/>
       <Class>Skin</Class>

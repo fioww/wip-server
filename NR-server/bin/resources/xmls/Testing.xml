@@ -5,4 +5,31 @@
 	<!--0x11b0 to 0x11bf-->
 	<!--TBD-->
 	
+	
+	<Object type="0x11ad" id="hi you found me">
+		<Class>Equipment</Class>
+		<Item/>
+		<Texture>
+			<File>lofiObj3</File>
+			<Index>0x4A6</Index>
+		</Texture>
+		<SlotType>8</SlotType>
+		<Description>:)</Description>
+		<RateOfFire>0.33</RateOfFire>
+		<Sound>weapon/wand_of_death</Sound>
+		<Projectile>
+			<ObjectId>Rose Shot</ObjectId>
+			<Speed>150</Speed>
+			<LifetimeMS>600</LifetimeMS>
+			<MinDamage>120</MinDamage>
+			<MaxDamage>989</MaxDamage>
+			<MultiHit/>
+		</Projectile>
+		<Soulbound/>
+		<BagType>9</BagType>
+		<FameBonus>1</FameBonus>
+		<OldSound>magicShoot</OldSound>
+		<feedPower>17121987</feedPower>
+	</Object>
+	
 </Objects>

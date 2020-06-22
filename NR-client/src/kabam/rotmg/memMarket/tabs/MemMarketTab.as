@@ -1,6 +1,4 @@
-﻿// Decompiled by AS3 Sorcerer 6.30
-// www.as3sorcerer.com
-
+﻿
 //kabam.rotmg.memMarket.tabs.MemMarketTab
 
 package kabam.rotmg.memMarket.tabs

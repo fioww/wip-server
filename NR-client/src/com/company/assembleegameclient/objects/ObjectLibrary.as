@@ -28,6 +28,7 @@ public class ObjectLibrary {
     public static const typeToAnimationsData_:Dictionary = new Dictionary();
     public static const typeToIdItems_:Dictionary = new Dictionary();
     public static const idToTypeItems_:Dictionary = new Dictionary();
+    public static const preloadedCustom_:Dictionary = new Dictionary();
     public static const petXMLDataLibrary_:Dictionary = new Dictionary();
     public static const skinSetXMLDataLibrary_:Dictionary = new Dictionary();
     public static const dungeonsXMLLibrary_:Dictionary = new Dictionary(true);
@@ -96,7 +97,7 @@ public class ObjectLibrary {
         }
     }
 
-    public static function parseFromXML(xml:XML, func:Function = null) : void
+    public static function parseFromXML(xml:XML, func:Function = null, preload:Boolean = false) : void
     {
         var objectXML:XML = null;
         var id:String = null;
@@ -135,6 +136,11 @@ public class ObjectLibrary {
             {
                 typeToIdItems_[objectType] = id.toLowerCase(); /* Saves us the power to do this later */
                 idToTypeItems_[id.toLowerCase()] = objectType;
+            }
+
+            if (preload)
+            {
+                preloadedCustom_[objectType] = id.toLowerCase();
             }
 
             if (func != null) {

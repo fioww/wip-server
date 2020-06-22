@@ -5,7 +5,7 @@ public class EmbeddedData {
     public static const PlayersCXML:Class = EmbeddedData_PlayersCXML;
     private static const GroundCXML:Class = EmbeddedData_GroundCXML;
     private static const ProjectilesCXML:Class = EmbeddedData_ProjectilesCXML;
-    private static const EquipCXML:Class = EmbeddedData_EquipCXML;
+    public static const EquipCXML:Class = EmbeddedData_EquipCXML;
     private static const EquipSkinsCXML:Class = EmbeddedData_EquipSkinsCXML;
     private static const EquipmentSetsCXML:Class = EmbeddedData_EquipmentSetsCXML;
     private static const SkinsCXML:Class = EmbeddedData_SkinsCXML;
@@ -80,9 +80,9 @@ public class EmbeddedData {
     private static const mountainTempleGroundCXML:Class = EmbeddedData_mountainTempleGroundCXML;
     private static const mountainTempleObjectCXML:Class = EmbeddedData_mountainTempleObjectCXML;
 
-    private static const NewEquipCXML:Class = EmbeddedData_NewEquipCXML;
+    public static const NewEquipCXML:Class = EmbeddedData_NewEquipCXML;
     private static const NewGroundCXML:Class = EmbeddedData_NewGroundCXML;
-    public static const EquipBLCXML:Class = EmbeddedData_EquipBLCXML;
+    private static const EquipBLCXML:Class = EmbeddedData_EquipBLCXML;
 
 
     //Initialize XMLs

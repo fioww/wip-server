@@ -18,6 +18,7 @@ import kabam.rotmg.assets.EmbeddedAssets_newObjects;
 import kabam.rotmg.assets.EmbeddedAssets_newObjects;
 import kabam.rotmg.assets.EmbeddedAssets_newObjects;
 import kabam.rotmg.assets.EmbeddedData;
+import kabam.rotmg.assets.EmbeddedData_NewEquipCXML;
 
 public class AssetLoader {
 
@@ -181,16 +182,13 @@ public class AssetLoader {
         }
     }
 
-    private function parseObjectFiles():void {
-        var _local1:int;
-        while (_local1 < 25) {
-            currentXmlIsTesting = this.checkIsTestingXML(EmbeddedData.objectFiles[_local1]);
-            ObjectLibrary.parseFromXML(XML(EmbeddedData.objectFiles[_local1]));
-            _local1++;
-        }
-        while (_local1 < EmbeddedData.objectFiles.length) {
-            ObjectLibrary.parseDungeonXML(getQualifiedClassName(EmbeddedData.objectFiles[_local1]), XML(EmbeddedData.objectFiles[_local1]));
-            _local1++;
+    private function parseObjectFiles():void
+    {
+        var _local1:*;
+        for each (_local1 in EmbeddedData.objectFiles)
+        {
+            currentXmlIsTesting = this.checkIsTestingXML(_local1);
+            ObjectLibrary.parseFromXML(XML(_local1), null, (_local1 is EmbeddedData.EquipCXML) || (_local1 is EmbeddedData.NewEquipCXML));
         }
         currentXmlIsTesting = false;
     }

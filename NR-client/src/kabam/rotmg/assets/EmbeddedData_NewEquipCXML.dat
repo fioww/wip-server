@@ -2,6 +2,83 @@
 
 <Objects>
 
+  <Object type="0x062d" id="50 Fame">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>testing</Instance>
+      <Id>50Fame</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>Gives 50 Fame when consumed.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="50">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x062e" id="100 Fame">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>testing</Instance>
+      <Id>100Fame</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>Gives 100 Fame when consumed.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="100">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x062f" id="500 Fame">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>testing</Instance>
+      <Id>500Fame</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>Gives 500 Fame when consumed.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="500">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+
+  <Object type="0x0630" id="1000 Fame">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>testing</Instance>
+      <Id>1000Fame</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>Gives 1000 Fame when consumed.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="1000">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x0631" id="5000 Fame">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>testing</Instance>
+      <Id>5000Fame</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>Gives 5000 Fame when consumed.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="5000">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+
 <!--0x11c0 to 0x11cf-->
 <Object type="0x11c0" id="Potion of Max Level 1">
     <DisplayId>Potion of Max Level</DisplayId>

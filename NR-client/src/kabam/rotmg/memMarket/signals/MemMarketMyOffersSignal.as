@@ -1,6 +1,4 @@
-﻿// Decompiled by AS3 Sorcerer 6.30
-// www.as3sorcerer.com
-
+﻿
 //kabam.rotmg.memMarket.signals.MemMarketMyOffersSignal
 
 package kabam.rotmg.memMarket.signals

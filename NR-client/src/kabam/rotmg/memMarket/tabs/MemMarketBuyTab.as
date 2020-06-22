@@ -1,6 +1,4 @@
-﻿// Decompiled by AS3 Sorcerer 6.30
-// www.as3sorcerer.com
-
+﻿
 //kabam.rotmg.memMarket.tabs.MemMarketBuyTab
 
 package kabam.rotmg.memMarket.tabs
@@ -191,25 +189,43 @@ package kabam.rotmg.memMarket.tabs
             }
         }
 
-        private function searchItemsFunc(first:Boolean=false):void
-        {
+        private function searchItemsFunc(first:Boolean = false):void {
             var x:MemMarketItem;
             var w:String;
+            var preloaded:MemMarketItem;
             var i:String;
             var item:MemMarketItem;
-            if (this.searchScroll != null)
-            {
+            if (this.searchScroll != null) {
                 this.searchScroll.removeEventListener(Event.CHANGE, this.onSearchScrollChanged);
                 removeChild(this.searchScroll);
                 this.searchScroll = null;
             }
-            if (((!(StringUtil.trim(this.searchField_.text()))) && (!(first))))
-            {
+            if (((!(StringUtil.trim(this.searchField_.text()))) && (!(first)))) {
                 this.clearPreviousResults(false);
                 return;
             }
             this.clearPreviousResults(false);
             var index:int;
+            if (first)
+            {
+                for each (w in ObjectLibrary.preloadedCustom_)
+                {
+                    if (ItemUtils.isBanned(ObjectLibrary.idToTypeItems_[w]))
+                    {
+                    }
+                    else
+                    {
+                        preloaded = new MemMarketItem(this.gameSprite_, SEARCH_ITEM_SIZE, SEARCH_ITEM_SIZE, 80, ObjectLibrary.idToTypeItems_[w], null);
+                        preloaded.x = ((SEARCH_ITEM_SIZE * int((index % 5))) + SEARCH_X_OFFSET);
+                        preloaded.y = ((SEARCH_ITEM_SIZE * int((index / 5))) + SEARCH_Y_OFFSET);
+                        preloaded.addEventListener(MouseEvent.CLICK, this.onSearchClick);
+                        this.searchItems.push(preloaded);
+                        index++;
+                    }
+                }
+            }
+            else
+            {
                 for each (i in ObjectLibrary.typeToIdItems_)
                 {
                     if (i.indexOf(this.searchField_.text().toLowerCase()) >= 0)
@@ -217,7 +233,6 @@ package kabam.rotmg.memMarket.tabs
                         if (ItemUtils.isBanned(ObjectLibrary.idToTypeItems_[i]))
                         {
                         }
-
                         else
                         {
                             item = new MemMarketItem(this.gameSprite_, SEARCH_ITEM_SIZE, SEARCH_ITEM_SIZE, 80, ObjectLibrary.idToTypeItems_[i], null);
@@ -229,7 +244,7 @@ package kabam.rotmg.memMarket.tabs
                         }
                     }
                 }
-
+            }
             for each (x in this.searchItems)
             {
                 this.searchBackground.addChild(x);
