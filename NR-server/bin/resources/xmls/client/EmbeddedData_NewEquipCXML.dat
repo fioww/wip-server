@@ -73,6 +73,7 @@
     <Soulbound/>
     <BagType>2</BagType>
     <Track/>
+  <Soulbound/>
 </Object>
 
 <Object type="0x11c3" id="Potion of Max Level 4">
@@ -98,6 +99,7 @@
     <Soulbound/>
     <BagType>2</BagType>
     <Track/>
+  <Soulbound/>
 </Object>
 
 <Object type="0x11c4" id="Potion of Max Level 5">
@@ -123,6 +125,7 @@
     <Soulbound/>
     <BagType>2</BagType>
     <Track/>
+    <Soulbound/>
 </Object>
 
 <Object type="0x11c5" id="Potion of Max Level (SB)">
@@ -278,7 +281,7 @@
         <FameBonus>4</FameBonus>
         <MpCost>50</MpCost>
         <Activate totalDamage="250" maxTargets="1" condEffect="Hallucinating" condDuration="3" color="0xd1fffc">Lightning</Activate>
-        <feedPower>1100</feedPower>
+        <feedPower>420</feedPower>
         <!--<Soulbound/>-->
     </Object>
     <Object type="0x11cd" id="Butterflies Camp Key">

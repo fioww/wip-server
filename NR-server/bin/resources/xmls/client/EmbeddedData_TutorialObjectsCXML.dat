@@ -89,7 +89,7 @@
       </Texture>
       <DrawOnGround/>
    </Object>
-   <Object type="0x116s" id="UpRight Arrow">
+   <Object type="0x116a" id="UpRight Arrow">
       <Class>GameObject</Class>
       <Texture>
          <File>lofiObj2</File>

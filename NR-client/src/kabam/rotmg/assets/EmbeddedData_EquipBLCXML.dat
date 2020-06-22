@@ -1,0 +1,5525 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+   <Object type="0x0290" id="Common Feline Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x100</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common feline pet egg.</Description>
+      <PetFamily>Feline</PetFamily>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x0291" id="Uncommon Feline Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x101</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon feline pet egg.</Description>
+      <PetFamily>Feline</PetFamily>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x0292" id="Rare Feline Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x102</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare feline pet egg.</Description>
+      <PetFamily>Feline</PetFamily>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x0293" id="Legendary Feline Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x103</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary feline pet egg.</Description>
+      <PetFamily>Feline</PetFamily>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   <Object type="0x0294" id="Common Canine Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x104</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common canine pet egg.</Description>
+      <PetFamily>Canine</PetFamily>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x0295" id="Uncommon Canine Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x105</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon canine pet egg.</Description>
+      <PetFamily>Canine</PetFamily>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x0296" id="Rare Canine Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x106</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare canine pet egg.</Description>
+      <PetFamily>Canine</PetFamily>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x0297" id="Legendary Canine Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x107</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary canine pet egg.</Description>
+      <PetFamily>Canine</PetFamily>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   <Object type="0x0298" id="Common Avian Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x108</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common avian pet egg.</Description>
+      <PetFamily>Avian</PetFamily>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x0299" id="Uncommon Avian Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x109</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon avian pet egg.</Description>
+      <PetFamily>Avian</PetFamily>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x029a" id="Rare Avian Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x10a</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare avian pet egg.</Description>
+      <PetFamily>Avian</PetFamily>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x029b" id="Legendary Avian Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x10b</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary avian pet egg.</Description>
+      <PetFamily>Avian</PetFamily>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   <Object type="0x029c" id="Common Exotic Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x10c</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common exotic pet egg.</Description>
+      <PetFamily>Exotic</PetFamily>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x029d" id="Uncommon Exotic Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x10d</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon exotic pet egg.</Description>
+      <PetFamily>Exotic</PetFamily>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x029e" id="Rare Exotic Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x10e</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare exotic pet egg.</Description>
+      <PetFamily>Exotic</PetFamily>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x029f" id="Legendary Exotic Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x10f</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary exotic pet egg.</Description>
+      <PetFamily>Exotic</PetFamily>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   
+   <Object type="0x02a0" id="Common Farm Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x110</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common farm pet egg.</Description>
+      <PetFamily>Farm</PetFamily>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x02a1" id="Uncommon Farm Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x111</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon farm pet egg.</Description>
+      <PetFamily>Farm</PetFamily>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x02a2" id="Rare Farm Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x112</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare farm pet egg.</Description>
+      <PetFamily>Farm</PetFamily>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x02a3" id="Legendary Farm Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x113</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary farm pet egg.</Description>
+      <PetFamily>Farm</PetFamily>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   <Object type="0x02a4" id="Common Woodland Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x114</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common woodland pet egg.</Description>
+      <PetFamily>Woodland</PetFamily>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x02a5" id="Uncommon Woodland Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x115</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon woodland pet egg.</Description>
+      <PetFamily>Woodland</PetFamily>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x02a6" id="Rare Woodland Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x116</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare woodland pet egg.</Description>
+      <PetFamily>Woodland</PetFamily>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x02a7" id="Legendary Woodland Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x117</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary woodland pet egg.</Description>
+      <PetFamily>Woodland</PetFamily>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   <Object type="0x02a8" id="Common Reptile Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x118</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common reptile pet egg.</Description>
+      <PetFamily>Reptile</PetFamily>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x02a9" id="Uncommon Reptile Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x119</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon reptile pet egg.</Description>
+      <PetFamily>Reptile</PetFamily>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x02aa" id="Rare Reptile Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x11a</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare reptile pet egg.</Description>
+      <PetFamily>Reptile</PetFamily>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x02ab" id="Legendary Reptile Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x11b</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary reptile pet egg.</Description>
+      <PetFamily>Reptile</PetFamily>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   <Object type="0x02ac" id="Common Insect Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x11c</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common insect pet egg.</Description>
+      <PetFamily>Insect</PetFamily>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x02ad" id="Uncommon Insect Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x11d</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon insect pet egg.</Description>
+      <PetFamily>Insect</PetFamily>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x02ae" id="Rare Insect Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x11e</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare insect pet egg.</Description>
+      <PetFamily>Insect</PetFamily>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x02af" id="Legendary Insect Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x11f</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary insect pet egg.</Description>
+      <PetFamily>Insect</PetFamily>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   
+   <Object type="0x02b0" id="Common Penguin Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x120</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common penguin pet egg.</Description>
+      <PetFamily>Penguin</PetFamily>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x02b1" id="Uncommon Penguin Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x121</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon penguin pet egg.</Description>
+      <PetFamily>Penguin</PetFamily>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x02b2" id="Rare Penguin Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x122</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare penguin pet egg.</Description>
+      <PetFamily>Penguin</PetFamily>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x02b3" id="Legendary Penguin Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x123</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary penguin pet egg.</Description>
+      <PetFamily>Penguin</PetFamily>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   <Object type="0x02b4" id="Common Aquatic Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x124</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common aquatic pet egg.</Description>
+      <PetFamily>Aquatic</PetFamily>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x02b5" id="Uncommon Aquatic Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x125</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon aquatic pet egg.</Description>
+      <PetFamily>Aquatic</PetFamily>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x02b6" id="Rare Aquatic Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x126</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare aquatic pet egg.</Description>
+      <PetFamily>Aquatic</PetFamily>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x02b7" id="Legendary Aquatic Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x127</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary aquatic pet egg.</Description>
+      <PetFamily>Aquatic</PetFamily>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   <Object type="0x02b8" id="Common Spooky Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x128</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common spooky pet egg.</Description>
+      <PetFamily>Spooky</PetFamily>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x02b9" id="Uncommon Spooky Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x129</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon spooky pet egg.</Description>
+      <PetFamily>Spooky</PetFamily>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x02ba" id="Rare Spooky Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x12a</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare spooky pet egg.</Description>
+      <PetFamily>Spooky</PetFamily>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x02bb" id="Legendary Spooky Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x12b</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary spooky pet egg.</Description>
+      <PetFamily>Spooky</PetFamily>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   <Object type="0x02bc" id="Common Humanoid Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x12c</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common humanoid pet egg.</Description>
+      <PetFamily>Humanoid</PetFamily>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x02bd" id="Uncommon Humanoid Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x12d</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon humanoid pet egg.</Description>
+      <PetFamily>Humanoid</PetFamily>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x02be" id="Rare Humanoid Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x12e</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare humanoid pet egg.</Description>
+      <PetFamily>Humanoid</PetFamily>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x02bf" id="Legendary Humanoid Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x12f</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary humanoid pet egg.</Description>
+      <PetFamily>Humanoid</PetFamily>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   
+   <Object type="0x02c0" id="Common ???? Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x130</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common  ? ? ? ?  pet egg.</Description>
+      <PetFamily>? ? ? ?</PetFamily>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x02c1" id="Uncommon ???? Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x131</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon  ? ? ? ?  pet egg.</Description>
+      <PetFamily>? ? ? ?</PetFamily>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x02c2" id="Rare ???? Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x132</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare  ? ? ? ?  pet egg.</Description>
+      <PetFamily>? ? ? ?</PetFamily>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x02c3" id="Legendary ???? Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x133</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary  ? ? ? ?  pet egg.</Description>
+      <PetFamily>? ? ? ?</PetFamily>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   <Object type="0x02c4" id="Common Automaton Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x134</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common automaton pet egg.</Description>
+      <PetFamily>Automaton</PetFamily>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x02c5" id="Uncommon Automaton Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x135</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon automaton pet egg.</Description>
+      <PetFamily>Automaton</PetFamily>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x02c6" id="Rare Automaton Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x136</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare automaton pet egg.</Description>
+      <PetFamily>Automaton</PetFamily>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x02c7" id="Legendary Automaton Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x137</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary automaton pet egg.</Description>
+      <PetFamily>Automaton</PetFamily>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   <Object type="0x02c8" id="Common Mystery Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xfc</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>0</Tier>
+      <Description>A common pet egg of an unknown pet family.</Description>
+      <Rarity>Common</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x02c9" id="Uncommon Mystery Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xfd</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>1</Tier>
+      <Description>An uncommon pet egg of an unknown pet family.</Description>
+      <Rarity>Uncommon</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <BagType>3</BagType>
+      <feedPower>300</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x02ca" id="Rare Mystery Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xfe</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>2</Tier>
+      <Description>A rare pet egg of an unknown pet family.</Description>
+      <Rarity>Rare</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x02cb" id="Legendary Mystery Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xff</Index>
+      </Texture>
+      <SlotType>26</SlotType>
+      <Tier>3</Tier>
+      <Description>A legendary pet egg of an unknown pet family.</Description>
+      <Rarity>Legendary</Rarity>
+      <Activate>CreatePet</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>3</BagType>
+      <feedPower>3000</feedPower>
+   </Object>
+   <Object type="0x02cc" id="Short Sword">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x30</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>0</Tier>
+      <Description>A steel short sword.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/blunt_sword</Sound>
+      <Projectile>
+         <ObjectId>Blade</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>45</MinDamage>
+         <MaxDamage>90</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x02cd" id="Broad Sword">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x31</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>1</Tier>
+      <Description>A broad-bladed steel sword.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Blade</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>60</MinDamage>
+         <MaxDamage>105</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>7</feedPower>
+   </Object>
+   <Object type="0x02ce" id="Saber">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x32</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>2</Tier>
+      <Description>A single-edged light sword.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Blade</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>75</MinDamage>
+         <MaxDamage>105</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>10</feedPower>
+   </Object>
+   <Object type="0x02cf" id="Long Sword">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x33</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>3</Tier>
+      <Description>A well-made sword with a double edged blade.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Blade</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>75</MinDamage>
+         <MaxDamage>120</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>15</feedPower>
+   </Object>
+   
+   <Object type="0x02d0" id="Falchion">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x34</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>4</Tier>
+      <Description>A single-edged broad-bladed sword.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Blade</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>75</MinDamage>
+         <MaxDamage>135</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>22</feedPower>
+   </Object>
+   <Object type="0x02d2" id="Glass Sword">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x36</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Tier>6</Tier>
+      <Description>A sword formed from a single shard of unbreakable glass.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/glass_sword</Sound>
+      <Projectile>
+         <ObjectId>White Bolt</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>210</MaxDamage>
+         <LifetimeMS>350</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>47</feedPower>
+   </Object>
+   <Object type="0x02de" id="Fire Wand">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x40</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>0</Tier>
+      <Description>A wand that casts a simple fire spell.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/fire_wand</Sound>
+      <Projectile>
+         <ObjectId>Red Fire</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>35</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x02df" id="Force Wand">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x41</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>1</Tier>
+      <Description>A wand that emits bolts of pure force.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>Blue Magic</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>45</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>7</feedPower>
+   </Object>
+   
+   <Object type="0x02e0" id="Power Wand">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x42</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>2</Tier>
+      <Description>A wand that fires power bolts.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>Blue Magic</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>35</MinDamage>
+         <MaxDamage>50</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>10</feedPower>
+   </Object>
+   <Object type="0x02e1" id="Missile Wand">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x43</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>3</Tier>
+      <Description>A wand that casts a strong missile.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>Blue Magic</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>40</MinDamage>
+         <MaxDamage>55</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>15</feedPower>
+   </Object>
+   <Object type="0x02e2" id="Eldritch Wand">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x44</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>4</Tier>
+      <Description>A wand that shoots dark eldritch energy.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>Blue Magic</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>50</MinDamage>
+         <MaxDamage>65</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>22</feedPower>
+   </Object>
+   <Object type="0x02e3" id="Hell's Fire Wand">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x45</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>5</Tier>
+      <Description>A wand that casts a strong fire spell.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/hells_fire_wand</Sound>
+      <Projectile>
+         <ObjectId>Purple Magic</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>60</MinDamage>
+         <MaxDamage>75</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>32</feedPower>
+   </Object>
+   <Object type="0x02e4" id="Wand of Dark Magic">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x46</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Tier>6</Tier>
+      <Description>A wand that casts a bolt of pure magic force.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/wand_of_dark_magic</Sound>
+      <Projectile>
+         <ObjectId>Pink Bolt</ObjectId>
+         <Speed>150</Speed>
+         <LifetimeMS>600</LifetimeMS>
+         <MinDamage>70</MinDamage>
+         <MaxDamage>85</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>47</feedPower>
+   </Object>
+
+   
+   <Object type="0x02f0" id="Wooden Shield">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x70</Index>
+      </Texture>
+      <SlotType>5</SlotType>
+      <Tier>0</Tier>
+      <Description>A shield made of sturdy wood.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Silver Shield</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>55</MinDamage>
+         <MaxDamage>90</MaxDamage>
+         <LifetimeMS>200</LifetimeMS>
+         <Size>140</Size>
+         <ConditionEffect duration="3">Stunned</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="21" amount="2">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>80</MpCost>
+      <Activate>Shoot</Activate>
+      <NumProjectiles>1</NumProjectiles>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x02f1" id="Iron Shield">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x71</Index>
+      </Texture>
+      <SlotType>5</SlotType>
+      <Tier>1</Tier>
+      <Description>A shield made of well forged iron.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Silver Shield</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>100</MinDamage>
+         <MaxDamage>140</MaxDamage>
+         <LifetimeMS>200</LifetimeMS>
+         <Size>140</Size>
+         <ConditionEffect duration="3">Stunned</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="21" amount="4">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Stunned</ConditionEffect>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>85</MpCost>
+      <Activate>Shoot</Activate>
+      <NumProjectiles>2</NumProjectiles>
+      <feedPower>10</feedPower>
+   </Object>
+
+   <Object type="0x02f9" id="Wolfskin Armor">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x00</Index>
+      </Texture>
+      <SlotType>6</SlotType>
+      <Tier>1</Tier>
+      <Description>Leather armor fashioned from wolf pelts.</Description>
+      <ActivateOnEquip stat="21" amount="5">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>7</feedPower>
+   </Object>
+   <Object type="0x02fa" id="Leather Armor">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x01</Index>
+      </Texture>
+      <SlotType>6</SlotType>
+      <Tier>2</Tier>
+      <Description>Armor made of hardened leather.</Description>
+      <ActivateOnEquip stat="21" amount="6">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>9</feedPower>
+   </Object>
+   <Object type="0x02fb" id="Basilisk Hide Armor">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x02</Index>
+      </Texture>
+      <SlotType>6</SlotType>
+      <Tier>3</Tier>
+      <Description>Leather armor made from the skin of a magical lizard.</Description>
+      <ActivateOnEquip stat="21" amount="7">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>14</feedPower>
+   </Object>
+   <Object type="0x02fc" id="Minotaur Hide Armor">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x03</Index>
+      </Texture>
+      <SlotType>6</SlotType>
+      <Tier>4</Tier>
+      <Description>Leather armor made from the tough hide of a minotaur.</Description>
+      <ActivateOnEquip stat="21" amount="8">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>20</feedPower>
+   </Object>
+   <Object type="0x02fd" id="Bearskin Armor">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x04</Index>
+      </Texture>
+      <SlotType>6</SlotType>
+      <Tier>5</Tier>
+      <Description>Armor made from the thick leather of a dire bear.</Description>
+      <ActivateOnEquip stat="21" amount="9">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>27</feedPower>
+   </Object>
+   <Object type="0x02fe" id="Chimera Hide Armor">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x05</Index>
+      </Texture>
+      <SlotType>6</SlotType>
+      <Tier>6</Tier>
+      <Description>Magically protective leather armor made from chimera hides.</Description>
+      <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>39</feedPower>
+   </Object>
+
+   <Object type="0x0309" id="Iron Mail">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x20</Index>
+      </Texture>
+      <SlotType>7</SlotType>
+      <Tier>1</Tier>
+      <Description>Armor made from interlocking iron links.</Description>
+      <ActivateOnEquip stat="21" amount="5">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>7</feedPower>
+   </Object>
+   <Object type="0x030a" id="Chainmail">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x21</Index>
+      </Texture>
+      <SlotType>7</SlotType>
+      <Tier>2</Tier>
+      <Description>Armor made from interlocking links of metal.</Description>
+      <ActivateOnEquip stat="21" amount="6">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>9</feedPower>
+   </Object>
+   <Object type="0x030b" id="Blue Steel Mail">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x22</Index>
+      </Texture>
+      <SlotType>7</SlotType>
+      <Tier>3</Tier>
+      <Description>Mail made from blued steel.</Description>
+      <ActivateOnEquip stat="21" amount="7">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>14</feedPower>
+   </Object>
+   <Object type="0x030c" id="Silver Chainmail">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x23</Index>
+      </Texture>
+      <SlotType>7</SlotType>
+      <Tier>4</Tier>
+      <Description>Well-made chainmail plated with silver.</Description>
+      <ActivateOnEquip stat="21" amount="8">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>20</feedPower>
+   </Object>
+   <Object type="0x030d" id="Golden Chainmail">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x24</Index>
+      </Texture>
+      <SlotType>7</SlotType>
+      <Tier>5</Tier>
+      <Description>Well-made chainmail plated with gold, clearly intended for the use of a great lord.</Description>
+      <ActivateOnEquip stat="21" amount="10">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>27</feedPower>
+   </Object>
+   <Object type="0x030e" id="Plate Mail">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x25</Index>
+      </Texture>
+      <SlotType>7</SlotType>
+      <Tier>6</Tier>
+      <Description>Armor made from overlapping plates of metal.</Description>
+      <ActivateOnEquip stat="21" amount="12">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>39</feedPower>
+   </Object>
+
+   <Object type="0x0318" id="Steel Dagger">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x60</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>0</Tier>
+      <Description>A sharp dagger made of steel.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/blunt_dagger</Sound>
+      <Projectile>
+         <ObjectId>Blade</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>60</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>daggerSwing</OldSound>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x0319" id="Dirk">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x61</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>1</Tier>
+      <Description>A short sword blade mounted on a dagger hilt.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/dirk</Sound>
+      <Projectile>
+         <ObjectId>Blade</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>daggerSwing</OldSound>
+      <feedPower>7</feedPower>
+   </Object>
+   <Object type="0x031a" id="Blue Steel Dagger">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x62</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>2</Tier>
+      <Description>A dagger made of blued steel.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/dirk</Sound>
+      <Projectile>
+         <ObjectId>Blade</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>75</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>daggerSwing</OldSound>
+      <feedPower>10</feedPower>
+   </Object>
+   <Object type="0x031b" id="Dusky Rose Dagger">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x63</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>3</Tier>
+      <Description>A dagger made of rose-tinted steel.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/dirk</Sound>
+      <Projectile>
+         <ObjectId>Blade</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>25</MinDamage>
+         <MaxDamage>80</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>daggerSwing</OldSound>
+      <feedPower>15</feedPower>
+   </Object>
+   <Object type="0x031c" id="Silver Dagger">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x64</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>4</Tier>
+      <Description>A silver-plated steel dagger.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/dirk</Sound>
+      <Projectile>
+         <ObjectId>Blade</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>80</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>daggerSwing</OldSound>
+      <feedPower>22</feedPower>
+   </Object>
+   <Object type="0x031d" id="Golden Dagger">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x65</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Tier>5</Tier>
+      <Description>A well-made dagger plated with gold and inscribed with evil runes.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/golden_dagger</Sound>
+      <Projectile>
+         <ObjectId>Blade</ObjectId>
+         <Speed>140</Speed>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>90</MaxDamage>
+         <LifetimeMS>400</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>daggerSwing</OldSound>
+      <feedPower>32</feedPower>
+   </Object>
+
+   <Object type="0x0329" id="Shortbow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x50</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>0</Tier>
+      <Description>A well-made shortbow.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/poor_quality_bow</Sound>
+      <Projectile>
+         <ObjectId>Green Arrow</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>15</MinDamage>
+         <MaxDamage>45</MaxDamage>
+         <LifetimeMS>440</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>arrowShoot</OldSound>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x032a" id="Reinforced Bow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x51</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>1</Tier>
+      <Description>An iron-reinforced bow.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/poor_quality_bow</Sound>
+      <Projectile>
+         <ObjectId>Green Arrow</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>50</MaxDamage>
+         <LifetimeMS>440</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>arrowShoot</OldSound>
+      <feedPower>7</feedPower>
+   </Object>
+   <Object type="0x032b" id="Crossbow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x52</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>2</Tier>
+      <Description>A bow mounted on a stock that shoots with amazing speed and accuracy.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/crossbow</Sound>
+      <Projectile>
+         <ObjectId>Crossbow Bolt</ObjectId>
+         <Speed>200</Speed>
+         <MinDamage>25</MinDamage>
+         <MaxDamage>60</MaxDamage>
+         <LifetimeMS>375</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>arrowShoot</OldSound>
+      <feedPower>10</feedPower>
+   </Object>
+   <Object type="0x032c" id="Greywood Bow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x53</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>3</Tier>
+      <Description>A bow made from the rare greywood tree.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/poor_quality_bow</Sound>
+      <Projectile>
+         <ObjectId>Green Arrow</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>65</MaxDamage>
+         <LifetimeMS>440</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>arrowShoot</OldSound>
+      <feedPower>15</feedPower>
+   </Object>
+   <Object type="0x032d" id="Ironwood Bow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x54</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>4</Tier>
+      <Description>A high-quality bow made of magical ironwood.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/poor_quality_bow</Sound>
+      <Projectile>
+         <ObjectId>Green Arrow</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>40</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <LifetimeMS>440</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>arrowShoot</OldSound>
+      <feedPower>22</feedPower>
+   </Object>
+   <Object type="0x032e" id="Fire Bow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x55</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Tier>5</Tier>
+      <Description>A bow that shoots arrows that burn with an unholy fire.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/fire_bow</Sound>
+      <Projectile>
+         <ObjectId>Red Fire</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>50</MinDamage>
+         <MaxDamage>75</MaxDamage>
+         <LifetimeMS>440</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>arrowShoot</OldSound>
+      <feedPower>32</feedPower>
+   </Object>
+
+   <Object type="0x0342" id="Potion of Attack (SB)">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x34</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that permanently increases attack power.</Description>
+      <Sound>use_potion</Sound>
+      <Activate stat="20" amount="1">IncrementStat</Activate>
+      <Consumable/>
+      <Potion/>
+      <Soulbound/>
+      <BagType>5</BagType>
+      <feedPower>150</feedPower>
+   </Object>
+   <Object type="0x0343" id="Potion of Defense (SB)">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x35</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that permanently increases defense power.</Description>
+      <Sound>use_potion</Sound>
+      <Activate stat="21" amount="1">IncrementStat</Activate>
+      <Consumable/>
+      <Potion/>
+      <Soulbound/>
+      <BagType>5</BagType>
+      <feedPower>150</feedPower>
+   </Object>
+   <Object type="0x0344" id="Potion of Speed (SB)">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x36</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that permanently increases speed.</Description>
+      <Sound>use_potion</Sound>
+      <Activate stat="22" amount="1">IncrementStat</Activate>
+      <Consumable/>
+      <Potion/>
+      <Soulbound/>
+      <BagType>5</BagType>
+      <feedPower>150</feedPower>
+   </Object>
+   <Object type="0x0345" id="Potion of Vitality (SB)">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x30</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that permanently increases vitality.</Description>
+      <Sound>use_potion</Sound>
+      <Activate stat="26" amount="1">IncrementStat</Activate>
+      <Consumable/>
+      <Potion/>
+      <Soulbound/>
+      <BagType>5</BagType>
+      <feedPower>150</feedPower>
+   </Object>
+   <Object type="0x0346" id="Potion of Wisdom (SB)">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x31</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that permanently increases wisdom.</Description>
+      <Sound>use_potion</Sound>
+      <Activate stat="27" amount="1">IncrementStat</Activate>
+      <Consumable/>
+      <Potion/>
+      <Soulbound/>
+      <BagType>5</BagType>
+      <feedPower>150</feedPower>
+   </Object>
+   <Object type="0x0347" id="Potion of Dexterity (SB)">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x37</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that permanently increases dexterity.</Description>
+      <Sound>use_potion</Sound>
+      <Activate stat="28" amount="1">IncrementStat</Activate>
+      <Consumable/>
+      <Potion/>
+      <Soulbound/>
+      <BagType>5</BagType>
+      <feedPower>150</feedPower>
+   </Object>
+   <Object type="0x0348" id="Potion of Life (SB)">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x26</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that permanently increases health.</Description>
+      <Sound>use_potion</Sound>
+      <Activate stat="0" amount="5">IncrementStat</Activate>
+      <Consumable/>
+      <Potion/>
+      <Soulbound/>
+      <BagType>5</BagType>
+      <feedPower>250</feedPower>
+   </Object>
+   <Object type="0x0349" id="Potion of Mana (SB)">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x27</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that permanently increases magic.</Description>
+      <Sound>use_potion</Sound>
+      <Activate stat="3" amount="5">IncrementStat</Activate>
+      <Consumable/>
+      <Potion/>
+      <Soulbound/>
+      <BagType>5</BagType>
+      <feedPower>250</feedPower>
+   </Object>
+
+   <Object type="0x0372" id="Elixir of Health 6">
+      <DisplayId>Elixir of Health</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xe8</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A large vial holding six doses of healing elixir.</Description>
+      <Sound>use_potion</Sound>
+      <Doses>6</Doses>
+      <Activate amount="125">Heal</Activate>
+      <Consumable/>
+      <SuccessorId>Elixir of Health 5</SuccessorId>
+      <Soulbound/>
+      <Potion/>
+      <BagType>2</BagType>
+      <feedPower>30</feedPower>
+   </Object>
+   <Object type="0x0373" id="Elixir of Health 5">
+      <DisplayId>Elixir of Health</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xe8</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A large vial holding five doses of healing elixir.</Description>
+      <Sound>use_potion</Sound>
+      <Doses>5</Doses>
+      <Activate amount="125">Heal</Activate>
+      <Consumable/>
+      <SuccessorId>Elixir of Health 4</SuccessorId>
+      <Soulbound/>
+      <Potion/>
+      <BagType>2</BagType>
+      <feedPower>25</feedPower>
+   </Object>
+   <Object type="0x0374" id="Elixir of Health 4">
+      <DisplayId>Elixir of Health</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xe8</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A large vial holding four doses of healing elixir.</Description>
+      <Sound>use_potion</Sound>
+      <Doses>4</Doses>
+      <Activate amount="125">Heal</Activate>
+      <Consumable/>
+      <SuccessorId>Elixir of Health 3</SuccessorId>
+      <Soulbound/>
+      <Potion/>
+      <BagType>2</BagType>
+      <feedPower>20</feedPower>
+   </Object>
+   <Object type="0x0375" id="Elixir of Health 3">
+      <DisplayId>Elixir of Health</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xe8</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A large vial holding three doses of healing elixir.</Description>
+      <Sound>use_potion</Sound>
+      <Doses>3</Doses>
+      <Activate amount="125">Heal</Activate>
+      <Consumable/>
+      <SuccessorId>Elixir of Health 2</SuccessorId>
+      <Soulbound/>
+      <Potion/>
+      <BagType>2</BagType>
+      <feedPower>15</feedPower>
+   </Object>
+   <Object type="0x0376" id="Elixir of Health 2">
+      <DisplayId>Elixir of Health</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xe8</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A large vial holding two doses of healing elixir.</Description>
+      <Sound>use_potion</Sound>
+      <Doses>2</Doses>
+      <Activate amount="125">Heal</Activate>
+      <Consumable/>
+      <SuccessorId>Elixir of Health 1</SuccessorId>
+     <Soulbound/>
+      <Potion/>
+      <BagType>2</BagType>
+      <feedPower>10</feedPower>
+   </Object>
+   <Object type="0x0377" id="Elixir of Health 1">
+      <DisplayId>Elixir of Health</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xe8</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A large vial of healing elixir.</Description>
+      <Sound>use_potion</Sound>
+      <Activate amount="125">Heal</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <Potion/>
+      <BagType>2</BagType>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x0379" id="Elixir of Magic 6">
+      <DisplayId>Elixir of Magic</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xd8</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A large vial holding six doses of magical essence.</Description>
+      <Sound>use_potion</Sound>
+      <Doses>6</Doses>
+      <Activate amount="125">Magic</Activate>
+      <Consumable/>
+      <SuccessorId>Elixir of Magic 5</SuccessorId>
+      <Soulbound/>
+      <Potion/>
+      <BagType>2</BagType>
+      <feedPower>30</feedPower>
+   </Object>
+   <Object type="0x037a" id="Elixir of Magic 5">
+      <DisplayId>Elixir of Magic</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xd8</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A large vial holding five doses of magical essence.</Description>
+      <Sound>use_potion</Sound>
+      <Doses>5</Doses>
+      <Activate amount="125">Magic</Activate>
+      <Consumable/>
+      <SuccessorId>Elixir of Magic 4</SuccessorId>
+      <Soulbound/>
+      <Potion/>
+      <BagType>2</BagType>
+      <feedPower>25</feedPower>
+   </Object>
+   <Object type="0x037b" id="Elixir of Magic 4">
+      <DisplayId>Elixir of Magic</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xd8</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A large vial holding four doses of magical essence.</Description>
+      <Sound>use_potion</Sound>
+      <Doses>4</Doses>
+      <Activate amount="125">Magic</Activate>
+      <Consumable/>
+      <SuccessorId>Elixir of Magic 3</SuccessorId>
+      <Soulbound/>
+      <Potion/>
+      <BagType>2</BagType>
+      <feedPower>20</feedPower>
+   </Object>
+   <Object type="0x037c" id="Elixir of Magic 3">
+      <DisplayId>Elixir of Magic</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xd8</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A large vial holding three doses of magical essence.</Description>
+      <Sound>use_potion</Sound>
+      <Doses>3</Doses>
+      <Activate amount="125">Magic</Activate>
+      <Consumable/>
+      <SuccessorId>Elixir of Magic 2</SuccessorId>
+      <Soulbound/>
+      <Potion/>
+      <BagType>2</BagType>
+      <feedPower>15</feedPower>
+   </Object>
+   <Object type="0x037d" id="Elixir of Magic 2">
+      <DisplayId>Elixir of Magic</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xd8</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A large vial holding two doses of magical essence.</Description>
+      <Sound>use_potion</Sound>
+      <Doses>2</Doses>
+      <Activate amount="125">Magic</Activate>
+      <Consumable/>
+      <SuccessorId>Elixir of Magic 1</SuccessorId>
+      <Soulbound/>
+      <Potion/>
+      <BagType>2</BagType>
+      <feedPower>10</feedPower>
+   </Object>
+   <Object type="0x037e" id="Elixir of Magic 1">
+      <DisplayId>Elixir of Magic</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xd8</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A large vial of magical essence.</Description>
+      <Sound>use_potion</Sound>
+      <Activate amount="125">Magic</Activate>
+      <Consumable/>
+      <Soulbound/>
+      <Potion/>
+      <BagType>2</BagType>
+      <feedPower>5</feedPower>
+   </Object>
+   
+   <Object type="0x0390" id="Ring of Attack">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x80</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier>
+      <Description>A spinel set in a silver ring.</Description>
+      <ActivateOnEquip stat="20" amount="3">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>20</feedPower>
+   </Object>
+   <Object type="0x0391" id="Ring of Defense">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x81</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier>
+      <Description>An onyx set in a silver ring.</Description>
+      <ActivateOnEquip stat="21" amount="3">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>20</feedPower>
+   </Object>
+   <Object type="0x0392" id="Ring of Speed">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x82</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier>
+      <Description>An emerald set in a silver ring.</Description>
+      <ActivateOnEquip stat="22" amount="3">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>20</feedPower>
+   </Object>
+   <Object type="0x0393" id="Ring of Vitality">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x83</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier>
+      <Description>A ruby set in a silver ring.</Description>
+      <ActivateOnEquip stat="26" amount="3">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>20</feedPower>
+   </Object>
+   <Object type="0x0394" id="Ring of Wisdom">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x84</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier>
+      <Description>A sapphire set in a silver ring.</Description>
+      <ActivateOnEquip stat="27" amount="3">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>20</feedPower>
+   </Object>
+   <Object type="0x0395" id="Ring of Dexterity">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x85</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier>
+      <Description>A citrine set in a silver ring.</Description>
+      <ActivateOnEquip stat="28" amount="3">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>20</feedPower>
+   </Object>
+   <Object type="0x0396" id="Ring of Health">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x86</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier>
+      <Description>A topaz set in a silver ring.</Description>
+      <ActivateOnEquip stat="0" amount="40">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>20</feedPower>
+   </Object>
+   <Object type="0x0397" id="Ring of Magic">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x87</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Tier>1</Tier>
+      <Description>An amethyst set in a silver ring.</Description>
+      <ActivateOnEquip stat="3" amount="40">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>20</feedPower>
+   </Object>
+
+   <Object type="0x03ca" id="Fire Spray Spell">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x40</Index>
+      </Texture>
+      <SlotType>11</SlotType>
+      <Tier>0</Tier>
+      <Description>A spell that shoots fire in all directions.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Fire Bolt</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>25</MinDamage>
+         <MaxDamage>40</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>30</MpCost>
+      <Activate>BulletNova</Activate>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x03cb" id="Flame Burst Spell">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x41</Index>
+      </Texture>
+      <SlotType>11</SlotType>
+      <Tier>1</Tier>
+      <Description>A dangerous spell that summons green fire from the astral plane.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Green Bolt</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+      </Projectile>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>40</MpCost>
+      <Activate>BulletNova</Activate>
+      <feedPower>10</feedPower>
+   </Object>
+
+   <Object type="0x03d2" id="Healing Tome">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x50</Index>
+      </Texture>
+      <SlotType>4</SlotType>
+      <Tier>0</Tier>
+      <Description>A holy tome of healing prayers.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>50</MpCost>
+      <Activate range="3" amount="70" useWisMod="true">HealNova</Activate>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x03d3" id="Remedy Tome">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x51</Index>
+      </Texture>
+      <SlotType>4</SlotType>
+      <Tier>1</Tier>
+      <Description>A hallowed tome of blessed healing rituals.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>55</MpCost>
+      <Activate range="3.5" amount="90" useWisMod="true">HealNova</Activate>
+      <feedPower>10</feedPower>
+   </Object>
+
+   <Object type="0x03db" id="Seal of the Initiate">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xa0</Index>
+      </Texture>
+      <SlotType>12</SlotType>
+      <Tier>0</Tier>
+      <Description>A holy seal of divine favor.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>65</MpCost>
+      <Activate effect="Healing" duration="2.5" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+      <Activate effect="Damaging" duration="2.5" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x03dc" id="Seal of the Pilgrim">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xa1</Index>
+      </Texture>
+      <SlotType>12</SlotType>
+      <Tier>1</Tier>
+      <Description>A seal of holy providence and mortal virtue.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>65</MpCost>
+      <Activate effect="Healing" duration="3" range="4.5" color="0xff0080" target="player" center="player" visualEffect="5" useWisMod="true">GenericActivate</Activate>
+      <Activate effect="Damaging" duration="3" range="4.5" color="0xff0080" target="player" center="player" visualEffect="0" useWisMod="true">GenericActivate</Activate>
+      <feedPower>10</feedPower>
+   </Object>
+
+   <Object type="0x03e3" id="Cloak of Shadows">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x20</Index>
+      </Texture>
+      <SlotType>13</SlotType>
+      <Tier>0</Tier>
+      <Description>A magical cloak, made for slipping into shadows undetected.</Description>
+      <Sound>spell/fire_nova</Sound>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>60</MpCost>
+      <Activate effect="Invisible" duration="3">ConditionEffectSelf</Activate>
+      <Cooldown>4</Cooldown>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x03e4" id="Cloak of Darkness">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x21</Index>
+      </Texture>
+      <SlotType>13</SlotType>
+      <Tier>1</Tier>
+      <Description>An enchanted cloak steeped in magical darkness.</Description>
+      <Sound>spell/fire_nova</Sound>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>65</MpCost>
+      <Activate effect="Invisible" duration="3.5">ConditionEffectSelf</Activate>
+      <Cooldown>4.5</Cooldown>
+      <feedPower>10</feedPower>
+   </Object>
+
+   <Object type="0x03eb" id="Robe of the Neophyte">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x10</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>1</Tier>
+      <Description>A long woolen robe favored by students of magic.</Description>
+      <ActivateOnEquip stat="21" amount="2">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>7</feedPower>
+   </Object>
+   <Object type="0x03ec" id="Robe of the Apprentice">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x11</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>2</Tier>
+      <Description>A robe woven of rare yellow silk.</Description>
+      <ActivateOnEquip stat="21" amount="3">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="27" amount="1">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>9</feedPower>
+   </Object>
+   <Object type="0x03ed" id="Robe of the Acolyte">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x12</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>3</Tier>
+      <Description>A well-made robe of enchanted blue silk.</Description>
+      <ActivateOnEquip stat="21" amount="4">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="27" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="10">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>14</feedPower>
+   </Object>
+   <Object type="0x03ee" id="Robe of the Student">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x13</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>4</Tier>
+      <Description>A magical robe of faintly glowing wizardcloth.</Description>
+      <ActivateOnEquip stat="21" amount="4">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="27" amount="2">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="15">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>20</feedPower>
+   </Object>
+   <Object type="0x03ef" id="Robe of the Conjurer">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x14</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>5</Tier>
+      <Description>A magical robe of grey moonsilk.</Description>
+      <ActivateOnEquip stat="21" amount="6">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="27" amount="2">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="20">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>27</feedPower>
+   </Object>
+   
+   <Object type="0x03f0" id="Robe of the Adept">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x15</Index>
+      </Texture>
+      <SlotType>14</SlotType>
+      <Tier>6</Tier>
+      <Description>An enchanted robe of dark moonweave.</Description>
+      <ActivateOnEquip stat="21" amount="7">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="27" amount="3">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="25">IncrementStat</ActivateOnEquip>
+      <BagType>1</BagType>
+      <feedPower>39</feedPower>
+   </Object>
+
+   <Object type="0x03fa" id="Magic Quiver">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x30</Index>
+      </Texture>
+      <SlotType>15</SlotType>
+      <Tier>0</Tier>
+      <Description>A magical quiver that enchants arrows.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Red Arrow</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>100</MinDamage>
+         <MaxDamage>140</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>150</Size>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>50</MpCost>
+      <Activate>Shoot</Activate>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x03fb" id="Reinforced Quiver">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x31</Index>
+      </Texture>
+      <SlotType>15</SlotType>
+      <Tier>1</Tier>
+      <Description>An enchanted quiver made of high-quality leather and brass.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Projectile>
+         <ObjectId>Red Arrow</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>140</MinDamage>
+         <MaxDamage>180</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>150</Size>
+         <ConditionEffect duration="3">Slowed</ConditionEffect>
+         <MultiHit/>
+         <PassesCover/>
+         <ParticleTrail/>
+      </Projectile>
+      <ActivateOnEquip stat="28" amount="1">IncrementStat</ActivateOnEquip>
+      <ConditionEffect duration="3">Slowed</ConditionEffect>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>55</MpCost>
+      <Activate>Shoot</Activate>
+      <feedPower>10</feedPower>
+   </Object>
+ 
+   <Object type="0x0402" id="Combat Helm">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x60</Index>
+      </Texture>
+      <SlotType>16</SlotType>
+      <Tier>0</Tier>
+      <Description>A sturdy helm used by battlefield sergeants to improve morale in nearby allies.</Description>
+      <ActivateOnEquip stat="21" amount="2">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>60</MpCost>
+      <Activate effect="Berserk" duration="3" range="4">ConditionEffectAura</Activate>
+      <Activate effect="Speedy" duration="3">ConditionEffectSelf</Activate>
+      <Cooldown>4</Cooldown>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x0403" id="Bronze Helm">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x61</Index>
+      </Texture>
+      <SlotType>16</SlotType>
+      <Tier>1</Tier>
+      <Description>A bronze-plated lieutenant's helm, effective for invigorating the fighting spirit of nearby allies.</Description>
+      <ActivateOnEquip stat="21" amount="3">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>65</MpCost>
+      <Activate effect="Berserk" duration="4" range="4">ConditionEffectAura</Activate>
+      <Activate effect="Speedy" duration="4">ConditionEffectSelf</Activate>
+      <Cooldown>5</Cooldown>
+      <feedPower>10</feedPower>
+   </Object>
+
+   <Object type="0x040a" id="Energy Staff">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x70</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>0</Tier>
+      <Description>A magical wooden staff topped with a white crystal.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/fire_wand</Sound>
+      <Projectile>
+         <ObjectId>Grey Missile</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>25</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+      </Projectile>
+      <BagType>1</BagType>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x040b" id="Firebrand Staff">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x71</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>1</Tier>
+      <Description>A staff imbued with potent magical fire.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>Fire Missile</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>30</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+      </Projectile>
+      <BagType>1</BagType>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>7</feedPower>
+   </Object>
+   <Object type="0x040c" id="Comet Staff">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x72</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>2</Tier>
+      <Description>A staff charged with the icy powers of the heavens.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>Grey Missile</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>15</MinDamage>
+         <MaxDamage>35</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+      </Projectile>
+      <BagType>1</BagType>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>10</feedPower>
+   </Object>
+   <Object type="0x040d" id="Serpentine Staff">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x73</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>3</Tier>
+      <Description>A staff powered by the magic of Stheno's minions.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>Green Missile</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>40</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+      </Projectile>
+      <BagType>1</BagType>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>15</feedPower>
+   </Object>
+   <Object type="0x040e" id="Meteor Staff">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x74</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>4</Tier>
+      <Description>A staff that harnesses the energy of shooting stars.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>Yellow Missile</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>25</MinDamage>
+         <MaxDamage>45</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+      </Projectile>
+      <BagType>1</BagType>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>22</feedPower>
+   </Object>
+   <Object type="0x040f" id="Slayer Staff">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x75</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>5</Tier>
+      <Description>A powerful staff crafted by demons for waging war on mortals.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/hells_fire_wand</Sound>
+      <Projectile>
+         <ObjectId>Salmon Missile</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>35</MinDamage>
+         <MaxDamage>55</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+      </Projectile>
+      <BagType>1</BagType>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>32</feedPower>
+   </Object>
+   
+   <Object type="0x0410" id="Avenger Staff">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x76</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Tier>6</Tier>
+      <Description>A slender felwood staff pulsing with auras of vengeance and justice.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/wand_of_dark_magic</Sound>
+      <Projectile>
+         <ObjectId>Violet Missile</ObjectId>
+         <Speed>180</Speed>
+         <MinDamage>40</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <LifetimeMS>475</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>2</Frequency>
+      </Projectile>
+      <BagType>1</BagType>
+      <NumProjectiles>2</NumProjectiles>
+      <ArcGap>0</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>47</feedPower>
+   </Object>
+
+   <Object type="0x041a" id="Centipede Poison">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x80</Index>
+      </Texture>
+      <SlotType>18</SlotType>
+      <Tier>0</Tier>
+      <Description>Deadly poison of the swamp centipede.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>25</MpCost>
+      <Activate radius="2" impactDamage="20" totalDamage="120" duration="3" throwTime="0.8">PoisonGrenade</Activate>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x041b" id="Spider Venom">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x81</Index>
+      </Texture>
+      <SlotType>18</SlotType>
+      <Tier>1</Tier>
+      <Description>Magically concentrated venom of the carnivorous leaping tree spider.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>40</MpCost>
+      <Activate radius="2.5" impactDamage="50" totalDamage="250" duration="3.2" throwTime="0.8">PoisonGrenade</Activate>
+      <feedPower>10</feedPower>
+   </Object>
+
+   <Object type="0x0421" id="Necrotic Skull">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x00</Index>
+      </Texture>
+      <SlotType>19</SlotType>
+      <Tier>0</Tier>
+      <Description>A human skull corrupted with life-stealing necrotic magic.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>40</MpCost>
+      <Activate radius="2.5" totalDamage="25">VampireBlast</Activate>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x0422" id="Breathtaker Skull">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x01</Index>
+      </Texture>
+      <SlotType>19</SlotType>
+      <Tier>1</Tier>
+      <Description>A dwarven skull desecrated by foul enchantments.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>60</MpCost>
+      <Activate radius="2.75" totalDamage="45">VampireBlast</Activate>
+      <feedPower>10</feedPower>
+   </Object>
+
+   <Object type="0x0429" id="Hunting Trap">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x10</Index>
+      </Texture>
+      <SlotType>20</SlotType>
+      <Tier>0</Tier>
+      <Description>A magical hunting trap.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>40</MpCost>
+      <Activate radius="4" totalDamage="50" condDuration="3.0">Trap</Activate>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x042a" id="Wilderlands Trap">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x11</Index>
+      </Texture>
+      <SlotType>20</SlotType>
+      <Tier>1</Tier>
+      <Description>A magical trap suited for hunting the strong beasts of the untamed country.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>60</MpCost>
+      <Activate radius="4.5" totalDamage="90" condDuration="3.5">Trap</Activate>
+      <feedPower>10</feedPower>
+   </Object>
+
+   <Object type="0x0430" id="Stasis Orb">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x90</Index>
+      </Texture>
+      <SlotType>21</SlotType>
+      <Tier>0</Tier>
+      <Description>A crystal orb that holds enemies in an ethereal prison.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>65</MpCost>
+      <Activate duration="3">StasisBlast</Activate>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x0431" id="Suspension Orb">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x91</Index>
+      </Texture>
+      <SlotType>21</SlotType>
+      <Tier>1</Tier>
+      <Description>An orb that temporarily shackles enemies to another plane.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>65</MpCost>
+      <Activate effect="Curse" duration="4.5" range="5" color="0x808080" target="enemy" center="mouse" visualEffect="8" useWisMod="true">GenericActivate</Activate>
+      <Activate duration="3.5">StasisBlast</Activate>
+      <feedPower>10</feedPower>
+   </Object>
+
+   <Object type="0x0438" id="Purple Drake Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiChar8x8</File>
+         <Index>0xeb</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>An egg that when used, hatches a Purple Drake to help you in battle for a short time.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Consumable/>
+      <BagType>0</BagType>
+      <Activate objectId="Purple Drake">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <feedPower>35</feedPower>
+   </Object>
+   <Object type="0x0439" id="White Drake Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiChar8x8</File>
+         <Index>0xe5</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>An egg that when used, hatches a White Drake to heal your wounds in battle for a short time.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Consumable/>
+      <BagType>0</BagType>
+      <Activate objectId="White Drake">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x043a" id="Blue Drake Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiChar28x8</File>
+         <Index>0x52</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>An egg that when used, hatches a Blue Drake to help you in battle for a short time, paralyzing your enemies.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Consumable/>
+      <BagType>0</BagType>
+      <Activate objectId="Blue Drake">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <feedPower>45</feedPower>
+   </Object>
+   <Object type="0x043b" id="Orange Drake Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiChar28x8</File>
+         <Index>0x53</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>An egg that when used, hatches an Orange Drake to help you in battle for a short time, placing your enemies in stasis.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Consumable/>
+      <BagType>0</BagType>
+      <Activate objectId="Orange Drake">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <feedPower>35</feedPower>
+   </Object>
+   <Object type="0x043c" id="Green Drake Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiChar8x8</File>
+         <Index>0xe9</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>An egg that when used, hatches a Green Drake to help you in battle for a short time, casting slow upon your enemies.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Consumable/>
+      <BagType>0</BagType>
+      <Activate objectId="Green Drake">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <feedPower>35</feedPower>
+   </Object>
+   <Object type="0x043d" id="Yellow Drake Egg">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiChar8x8</File>
+         <Index>0xe7</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>An egg that when used, hatches a Yellow Drake to help you in battle for a short time, causing bleeding to your enemies.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Consumable/>
+      <BagType>0</BagType>
+      <Activate objectId="Yellow Drake">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <feedPower>35</feedPower>
+   </Object>
+   <Object type="0x043e" id="Decoy Prism">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xb0</Index>
+      </Texture>
+      <SlotType>22</SlotType>
+      <Tier>0</Tier>
+      <Description>A magical prism that creates a decoy.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>60</MpCost>
+      <Activate duration="3">Decoy</Activate>
+      <Activate maxDistance="20">Teleport</Activate>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x043f" id="Deception Prism">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xb1</Index>
+      </Texture>
+      <SlotType>22</SlotType>
+      <Tier>1</Tier>
+      <Description>A devious magical prism that creates an illusory ally.</Description>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>65</MpCost>
+      <Activate duration="3.5">Decoy</Activate>
+      <Activate maxDistance="20">Teleport</Activate>
+      <feedPower>10</feedPower>
+   </Object>
+   
+
+   <Object type="0x0447" id="Lightning Scepter">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xc0</Index>
+      </Texture>
+      <SlotType>23</SlotType>
+      <Tier>0</Tier>
+      <Description>A scepter that fires a blast of chain lightning.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>30</MpCost>
+      <Activate totalDamage="50" maxTargets="3">Lightning</Activate>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x0448" id="Discharge Scepter">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0xc1</Index>
+      </Texture>
+      <SlotType>23</SlotType>
+      <Tier>1</Tier>
+      <Description>A steel-and-ruby scepter that blasts electrical arcs.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>40</MpCost>
+      <Activate totalDamage="80" maxTargets="4">Lightning</Activate>
+      <feedPower>10</feedPower>
+   </Object>
+
+   <Object type="0x044e" id="Amulet of Resurrection">
+      <DisplayId>Amulet of Dispersion</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x46</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <!--<Soulbound/>-->
+      <Description>A historical amulet that has been passed down for generations. Although once cursed in the past, it still holds a hint of its ancient power.</Description>
+      <ActivateOnEquip stat="20" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="21" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="27" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="0" amount="30">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="30">IncrementStat</ActivateOnEquip>
+      <FameBonus>3</FameBonus>
+      <BagType>4</BagType>
+      <feedPower>500</feedPower>
+   </Object>
+
+   <Object type="0x0455" id="Tomb of the Ancients (Heroic) Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xf6</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to the Tomb of the Ancients (Heroic).\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate id="Tomb of the Ancients Portal (Heroic)">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+ 
+   <Object type="0x0471" id="Crown">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xc6</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>Super regal!</Description>
+      <ActivateOnEquip stat="26" amount="60">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="27" amount="700">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="20" amount="20">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="20">IncrementStat</ActivateOnEquip>
+      <BagType>8</BagType>
+      <Soulbound/>
+      <feedPower>0</feedPower>
+   </Object>
+
+   <Object type="0x0475" id="Small Firecracker">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xcb</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Damages monsters while celebrating Independence Day. Happy 4th of July!</Description>
+      <Sound>spell/light_heal</Sound>
+      <Consumable/>
+      <BagType>2</BagType>
+      <Activate objectId="Lil Firecracker">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <!--<Soulbound/>-->
+      <feedPower>30</feedPower>
+   </Object>
+   <Object type="0x0476" id="Large Firecracker">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xcc</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Damages monsters for longer while celebrating Independence Day. Happy 4th of July!</Description>
+      <Sound>spell/light_heal</Sound>
+      <Consumable/>
+      <BagType>2</BagType>
+      <Activate objectId="Big Firecracker">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <!--<Soulbound/>-->
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x0477" id="America Ring">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xcd</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>An American hero's ring.</Description>
+      <ActivateOnEquip stat="21" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="20" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="27" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="28" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="0" amount="20">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="20">IncrementStat</ActivateOnEquip>
+      <BagType>8</BagType>
+      <FameBonus>3</FameBonus>
+      <feedPower>700</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+
+   <Object type="0x047d" id="Sand Pail 5">
+      <DisplayId>Sand Pail</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x172</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Use this to make an awesome sand castle! (Heals nearby injured players.)</Description>
+      <Sound>monster/stone_walls_hit</Sound>
+      <Consumable/>
+      <Doses>5</Doses>
+      <SuccessorId>Sand Pail 4</SuccessorId>
+      <BagType>2</BagType>
+      <Activate objectId="Sand Castle">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <Soulbound/>
+      <feedPower>80</feedPower>
+   </Object>
+   <Object type="0x047e" id="Sand Pail 4">
+      <DisplayId>Sand Pail</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x172</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Use this to make an awesome sand castle! (Heals nearby injured players.)</Description>
+      <Sound>monster/stone_walls_hit</Sound>
+      <Consumable/>
+      <Doses>4</Doses>
+      <SuccessorId>Sand Pail 3</SuccessorId>
+      <BagType>2</BagType>
+      <Activate objectId="Sand Castle">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <Soulbound/>
+      <feedPower>60</feedPower>
+   </Object>
+   <Object type="0x047f" id="Sand Pail 3">
+      <DisplayId>Sand Pail</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x172</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Use this to make an awesome sand castle! (Heals nearby injured players.)</Description>
+      <Sound>monster/stone_walls_hit</Sound>
+      <Consumable/>
+      <Doses>3</Doses>
+      <SuccessorId>Sand Pail 2</SuccessorId>
+      <BagType>2</BagType>
+      <Activate objectId="Sand Castle">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <Soulbound/>
+      <feedPower>40</feedPower>
+   </Object>
+   
+   <Object type="0x0480" id="Sand Pail 2">
+      <DisplayId>Sand Pail</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x172</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Use this to make an awesome sand castle! (Heals nearby injured players.)</Description>
+      <Sound>monster/stone_walls_hit</Sound>
+      <Consumable/>
+      <Doses>2</Doses>
+      <SuccessorId>Sand Pail 1</SuccessorId>
+      <BagType>2</BagType>
+      <Activate objectId="Sand Castle">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <Soulbound/>
+      <feedPower>20</feedPower>
+   </Object>
+   <Object type="0x0481" id="Sand Pail 1">
+      <DisplayId>Sand Pail</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x172</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Use this to make an awesome sand castle! (Heals nearby injured players.)</Description>
+      <Sound>monster/stone_walls_hit</Sound>
+      <Consumable/>
+      <BagType>2</BagType>
+      <Activate objectId="Sand Castle">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <Soulbound/>
+      <feedPower>10</feedPower>
+   </Object>
+
+   <Object type="0x0487" id="Gold Medal">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x178</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>An Olympic gold medal in synchronised swimming.</Description>
+      <ActivateOnEquip stat="28" amount="3">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="3">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="3">IncrementStat</ActivateOnEquip>
+      <FameBonus>3</FameBonus>
+      <BagType>8</BagType>
+      <feedPower>500</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x0488" id="Silver Medal">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x179</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>An Olympic silver medal in synchronised swimming.</Description>
+      <ActivateOnEquip stat="28" amount="2">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="2">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="2">IncrementStat</ActivateOnEquip>
+      <FameBonus>2</FameBonus>
+      <BagType>8</BagType>
+      <feedPower>350</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x0489" id="Bronze Medal">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x17a</Index>
+      </Texture>
+      <SlotType>9</SlotType>
+      <Description>An Olympic bronze medal in synchronised swimming.</Description>
+      <ActivateOnEquip stat="28" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="26" amount="1">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="22" amount="1">IncrementStat</ActivateOnEquip>
+      <FameBonus>1</FameBonus>
+      <BagType>8</BagType>
+      <feedPower>200</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+
+   <Object type="0x048d" id="XP Booster Test">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x1fe</Index>
+      </Texture>
+      <ScaleValue>1</ScaleValue>
+      <SlotType>10</SlotType>
+      <Description>Get 2x all XP gained! Lasts until level 20 or death.</Description>
+      <Sound>use_potion</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>2</BagType>
+      <Activate duration="300" id="XP">MiscBoosts</Activate>
+      <feedPower>1</feedPower>
+   </Object>
+   <Object type="0x048e" id="Rusty Katana">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x21c</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>0</Tier>
+      <Description>A rusty old katana.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/blunt_sword</Sound>
+      <Projectile>
+         <ObjectId>Katana Slash</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>25</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>5</feedPower>
+   </Object>
+
+   
+   <Object type="0x0490" id="Plain Katana">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x21e</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>2</Tier>
+      <Description>A basic katana.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Katana Slash</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>35</MinDamage>
+         <MaxDamage>80</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>10</feedPower>
+   </Object>
+   <Object type="0x0491" id="Thunder Katana">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x21f</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>3</Tier>
+      <Description>A striking fine-edged weapon.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Katana Slash</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>45</MinDamage>
+         <MaxDamage>85</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>15</feedPower>
+   </Object>
+   <Object type="0x0492" id="Line Kutter Katana">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x220</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>4</Tier>
+      <Description>A katana capable of cutting a razor-thin line.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Line Slash</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>55</MinDamage>
+         <MaxDamage>90</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>22</feedPower>
+   </Object>
+   <Object type="0x0493" id="Night Edge">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x221</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>5</Tier>
+      <Description>An ancient katana with a blade of jet black steel.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Night Slash</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>55</MinDamage>
+         <MaxDamage>105</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>32</feedPower>
+   </Object>
+   <Object type="0x0494" id="Sky Edge">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x222</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Tier>6</Tier>
+      <Description>A beautiful katana, forged and cooled by the mists atop a great mountain.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>Sky Slash</ObjectId>
+         <Speed>130</Speed>
+         <LifetimeMS>365</LifetimeMS>
+         <MinDamage>75</MinDamage>
+         <MaxDamage>110</MaxDamage>
+         <MultiHit/>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>47</feedPower>
+   </Object>
+
+  <Object type="0x049b" id="Useless Katana">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj3</File>
+      <Index>0x3db</Index>
+    </Texture>
+    <SlotType>24</SlotType>
+    <Description>A crappy katana that can barely cut anything.</Description>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/long_sword</Sound>
+    <Projectile>
+      <ObjectId>Masamune Slash</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>10</MinDamage>
+      <MaxDamage>30</MaxDamage>
+      <LifetimeMS>350</LifetimeMS>
+    </Projectile>
+    <BagType>4</BagType>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>300</feedPower>
+    <!--<Soulbound/>-->
+  </Object>
+
+  <Object type="0x049d" id="Basic Star">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x22b</Index>
+      </Texture>
+      <SlotType>25</SlotType>
+      <Tier>0</Tier>
+      <Description>A basic ninja-star.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <ExtraTooltipData>
+         <EffectInfo name="While Key Held" description=""/>
+         <EffectInfo name="" description="Speedy on self"/>
+         <EffectInfo name="" description="Drain 10 MP/sec"/>
+         <EffectInfo name="When Key Released" description=""/>
+      </ExtraTooltipData>
+      <Projectile>
+         <ObjectId>Ninja Star Basic</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>100</MinDamage>
+         <MaxDamage>200</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>120</Size>
+         <PassesCover/>
+      </Projectile>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>0</MpCost>
+      <MpEndCost>30</MpEndCost>
+      <MultiPhase/>
+      <Activate>ShurikenAbility</Activate>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x049e" id="Four-Point Star">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x22c</Index>
+      </Texture>
+      <SlotType>25</SlotType>
+      <Tier>1</Tier>
+      <Description>A ninja-star with four razor-sharp points.</Description>
+      <Sound>spell/fire_spray</Sound>
+      <ExtraTooltipData>
+         <EffectInfo name="While Key Held" description=""/>
+         <EffectInfo name="" description="Speedy on self"/>
+         <EffectInfo name="" description="Drain 10 MP/sec"/>
+         <EffectInfo name="When Key Released" description=""/>
+      </ExtraTooltipData>
+      <Projectile>
+         <ObjectId>Ninja Star Four-Point</ObjectId>
+         <Speed>150</Speed>
+         <MinDamage>175</MinDamage>
+         <MaxDamage>275</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <Size>120</Size>
+         <PassesCover/>
+      </Projectile>
+      <Usable/>
+      <BagType>1</BagType>
+      <MpCost>0</MpCost>
+      <MpEndCost>40</MpEndCost>
+      <MultiPhase/>
+      <Activate>ShurikenAbility</Activate>
+      <feedPower>10</feedPower>
+   </Object>
+
+   <Object type="0x04a8" id="Def Test Sword">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj5</File>
+         <Index>0x37</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Description>For Testing Monster Defense.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/blunt_sword</Sound>
+      <Projectile>
+         <ObjectId>Blade</ObjectId>
+         <Speed>100</Speed>
+         <MinDamage>100</MinDamage>
+         <MaxDamage>100</MaxDamage>
+         <LifetimeMS>500</LifetimeMS>
+      </Projectile>
+      <BagType>1</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <feedPower>6000</feedPower>
+      <Soulbound/>
+   </Object>
+   <Object type="0x04b6" id="Strike Amulet">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xf0</Index>
+      </Texture>
+      <SlotType>4</SlotType>
+      <Description>A magical amulet that enables lightning assaults.</Description>
+      <Sound>spell/fire_nova</Sound>
+      <Usable/>
+      <MpCost>5</MpCost>
+      <ActivateOnEquip stat="26" amount="5">IncrementStat</ActivateOnEquip>
+      <Activate radius="2.0" totalDamage="25">DazeBlast</Activate>
+      <Activate maxDistance="20">Teleport</Activate>
+      <BagType>8</BagType>
+      <feedPower>1000</feedPower>
+      <Soulbound/>
+   </Object>
+   <Object type="0x04bb" id="Halloween Cemetery Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59c</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens a portal to the Halloween Cemetery.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate id="Halloween Cemetery Portal">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+   <Object type="0x04bc" id="Golden Ankh">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x340</Index>
+      </Texture>
+      <Description>A treasure from the Tomb of the Ancients.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="1 of 3"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>400</feedPower>
+   </Object>
+   <Object type="0x04bd" id="Eye of Osiris">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x341</Index>
+      </Texture>
+      <Description>A treasure from the Tomb of the Ancients.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="2 of 3"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>550</feedPower>
+   </Object>
+   <Object type="0x04be" id="Pharaoh's Mask">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x342</Index>
+      </Texture>
+      <Description>A treasure from the Tomb of the Ancients.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="3 of 3"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>700</feedPower>
+   </Object>
+   <Object type="0x04bf" id="Golden Cockle">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x343</Index>
+      </Texture>
+      <Description>A treasure from the Ocean Trench.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="1 of 3"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>450</feedPower>
+   </Object>
+   
+   <Object type="0x04c0" id="Golden Conch">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x344</Index>
+      </Texture>
+      <Description>A treasure from the Ocean Trench.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="2 of 3"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>550</feedPower>
+   </Object>
+   <Object type="0x04c1" id="Golden Horn Conch">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x345</Index>
+      </Texture>
+      <Description>A treasure from the Ocean Trench.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="3 of 3"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>650</feedPower>
+   </Object>
+   <Object type="0x04c2" id="Golden Nut">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x346</Index>
+      </Texture>
+      <Description>A treasure from the Mad Lab.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="1 of 2"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>450</feedPower>
+   </Object>
+   <Object type="0x04c3" id="Golden Bolt">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x347</Index>
+      </Texture>
+      <Description>A treasure from the Mad Lab.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="2 of 2"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>550</feedPower>
+   </Object>
+   <Object type="0x04c4" id="Golden Femur">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x348</Index>
+      </Texture>
+      <Description>A treasure from the Abyss of Demons.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="1 of 3"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>450</feedPower>
+   </Object>
+   <Object type="0x04c5" id="Golden Ribcage">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x349</Index>
+      </Texture>
+      <Description>A treasure from the Abyss of Demons.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="2 of 3"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>500</feedPower>
+   </Object>
+   <Object type="0x04c6" id="Golden Skull">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x34a</Index>
+      </Texture>
+      <Description>A treasure from the Abyss of Demons.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="3 of 3"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>650</feedPower>
+   </Object>
+   <Object type="0x04c7" id="Golden Candelabra">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x34b</Index>
+      </Texture>
+      <Description>A treasure from the Manor of the Immortals.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="1 of 2"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>450</feedPower>
+   </Object>
+   <Object type="0x04c8" id="Holy Cross">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x34c</Index>
+      </Texture>
+      <Description>A treasure from the Manor of the Immortals.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="2 of 2"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>500</feedPower>
+   </Object>
+   <Object type="0x04c9" id="Pearl Necklace">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0xf9</Index>
+      </Texture>
+      <Description>A treasure from Davy Jones' Locker.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="1 of 3"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>400</feedPower>
+   </Object>
+   <Object type="0x04ca" id="Golden Chalice">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x34d</Index>
+      </Texture>
+      <Description>A treasure from Davy Jones' Locker.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="2 of 3"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>500</feedPower>
+   </Object>
+   <Object type="0x04cb" id="Ruby Gemstone">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x34e</Index>
+      </Texture>
+      <Description>A treasure from Davy Jones' Locker.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="3 of 3"/>
+      </ExtraTooltipData>
+      <Sound>spell/fire_nova</Sound>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>600</feedPower>
+   </Object>
+
+   <Object type="0x04cd" id="Old Firecracker">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0xcb</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Damages monsters.</Description>
+      <Sound>spell/light_heal</Sound>
+      <Consumable/>
+      <BagType>0</BagType>
+      <Activate objectId="Lil Firecracker">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <!--<Soulbound/>-->
+      <feedPower>400</feedPower>
+   </Object>
+
+   <Object type="0x04d1" id="Draconis Potion">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x32</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that instantly restores health points.</Description>
+      <Sound>use_potion</Sound>
+      <Activate amount="100">Heal</Activate>
+      <Consumable/>
+      <Potion/>
+      <BagType>0</BagType>
+      <feedPower>5</feedPower>
+   </Object>
+
+   <Object type="0x04d9" id="Soft Drink">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x155</Index>
+      </Texture>
+      <Description>Food for your pet. To quench your pet's thirst!</Description>
+      <BagType>2</BagType>
+      <feedPower>100</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04da" id="Fries">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x157</Index>
+      </Texture>
+      <Description>Food for your pet. Fresh cut and steaming hot!</Description>
+      <BagType>2</BagType>
+      <feedPower>250</feedPower>
+      <Potion/>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04db" id="Great Taco">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x152</Index>
+      </Texture>
+      <Description>Food for your pet. Contains fresh salsa!</Description>
+      <BagType>2</BagType>
+      <feedPower>500</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04dc" id="Power Pizza">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x151</Index>
+      </Texture>
+      <Description>Food for your pet. Cheesy and delicious.</Description>
+      <BagType>2</BagType>
+      <feedPower>750</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04dd" id="Chocolate Cream Sandwich Cookie">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x150</Index>
+      </Texture>
+      <Description>Food for your pet. Goes best with milk!</Description>
+      <BagType>2</BagType>
+      <feedPower>1111</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04de" id="Grapes of Wrath">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x156</Index>
+      </Texture>
+      <Description>Food for your pet. Super healthy, super delicious, super wrathful!</Description>
+      <BagType>2</BagType>
+      <feedPower>1500</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04df" id="Superburger">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x154</Index>
+      </Texture>
+      <Description>Food for your pet. A hearty classic!</Description>
+      <BagType>2</BagType>
+      <feedPower>2000</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   
+   <Object type="0x04e0" id="Double Cheeseburger Deluxe">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x153</Index>
+      </Texture>
+      <Description>Food for your pet. The ultimate deluxe cheeseburger!</Description>
+      <BagType>2</BagType>
+      <feedPower>3000</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04e1" id="Ambrosia">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x158</Index>
+      </Texture>
+      <Description>Food for your pet. The nectar of the gods which holds great power!</Description>
+      <BagType>2</BagType>
+      <feedPower>5000</feedPower>
+      <Potion/>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04e2" id="Cranberries">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x15e</Index>
+      </Texture>
+      <Description>Food for your pet. Tart and tangy.</Description>
+      <BagType>2</BagType>
+      <feedPower>250</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04e3" id="Ear of Corn">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x15d</Index>
+      </Texture>
+      <Description>Food for your pet. Buttery and delicious.</Description>
+      <BagType>2</BagType>
+      <feedPower>350</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04e4" id="Sliced Yam">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x15c</Index>
+      </Texture>
+      <Description>Food for your pet. Nice and sweet.</Description>
+      <BagType>2</BagType>
+      <feedPower>500</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04e5" id="Pumpkin Pie">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x15b</Index>
+      </Texture>
+      <Description>Food for your pet. Fresh out of Oryx's kitchen.</Description>
+      <BagType>2</BagType>
+      <feedPower>650</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04e6" id="Thanksgiving Turkey">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x15f</Index>
+      </Texture>
+      <Description>Food for your pet. A whole Thanksgiving turkey!</Description>
+      <BagType>2</BagType>
+      <feedPower>1621</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+
+   <Object type="0x04ef" id="Doctor Swordsworth">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x428</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Description>This legendary sword is used to summon the beautiful power of bears.</Description>
+      <RateOfFire>0.33</RateOfFire>
+      <Sound>weapon/blunt_sword</Sound>
+      <Projectile>
+         <ObjectId>Bearshot</ObjectId>
+         <Speed>7</Speed>
+         <MinDamage>40</MinDamage>
+         <MaxDamage>70</MaxDamage>
+         <LifetimeMS>4000</LifetimeMS>
+         <Size>75</Size>
+         <Parametric/>
+         <PassesCover/>
+      </Projectile>
+      <BagType>8</BagType>
+      <NumProjectiles>3</NumProjectiles>
+      <OldSound>arrowShoot</OldSound>
+      <!--<Soulbound/>-->
+   </Object>
+   
+   <Object type="0x04f0" id="KoalaPOW">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x429</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Description>Eucalyptus can be incredibly effective at looking awesome.</Description>
+      <RateOfFire>0.4</RateOfFire>
+      <Sound>weapon/sprite_wand</Sound>
+      <Projectile>
+         <ObjectId>Eucalyptus</ObjectId>
+         <Speed>110</Speed>
+         <MinDamage>40</MinDamage>
+         <MaxDamage>40</MaxDamage>
+         <LifetimeMS>364</LifetimeMS>
+         <Amplitude>0.15</Amplitude>
+         <Frequency>2</Frequency>
+      </Projectile>
+      <BagType>8</BagType>
+      <NumProjectiles>6</NumProjectiles>
+      <ArcGap>36</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04f1" id="Spicy Wand of Spice">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x42a</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Description>The fabled weapon of the Sauce Boss himself.</Description>
+      <RateOfFire>1</RateOfFire>
+      <Sound>weapon/missile_wand</Sound>
+      <Projectile>
+         <ObjectId>hawt sawce</ObjectId>
+         <Speed>130</Speed>
+         <MinDamage>30</MinDamage>
+         <MaxDamage>50</MaxDamage>
+         <LifetimeMS>770</LifetimeMS>
+         <Wavy/>
+      </Projectile>
+      <BagType>8</BagType>
+      <OldSound>magicShoot</OldSound>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04f2" id="Robobow">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x42b</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Description>Toats sweet robobow bro!</Description>
+      <RateOfFire>1.5</RateOfFire>
+      <Sound>weapon/heavy_crossbow</Sound>
+      <Projectile>
+         <ObjectId>binary</ObjectId>
+         <Speed>50</Speed>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>30</MaxDamage>
+         <LifetimeMS>1000</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <BagType>8</BagType>
+      <NumProjectiles>3</NumProjectiles>
+      <ArcGap>15</ArcGap>
+      <OldSound>arrowShoot</OldSound>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04f3" id="Sunshine Shiv">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x42c</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Description>Forged from sunshine, baby smiles, and the sparkle from unicorns.</Description>
+      <RateOfFire>0.5</RateOfFire>
+      <Sound>weapon/fire_dagger</Sound>
+      <Projectile>
+         <ObjectId>happy magic</ObjectId>
+         <Speed>30</Speed>
+         <MinDamage>15</MinDamage>
+         <MaxDamage>30</MaxDamage>
+         <LifetimeMS>1500</LifetimeMS>
+      </Projectile>
+      <BagType>8</BagType>
+      <OldSound>daggerSwing</OldSound>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04f4" id="Arbiter's Wrath">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x42d</Index>
+      </Texture>
+      <SlotType>24</SlotType>
+      <Description>Battle for the Nexus: Never Forget.</Description>
+      <RateOfFire>0.5</RateOfFire>
+      <Sound>weapon/long_sword</Sound>
+      <Projectile>
+         <ObjectId>boss spawn</ObjectId>
+         <Speed>30</Speed>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>40</MaxDamage>
+         <LifetimeMS>1600</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>1</Frequency>
+         <MultiHit/>
+      </Projectile>
+      <BagType>8</BagType>
+      <OldSound>bladeSwing</OldSound>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x04f5" id="Tablet of the King's Avatar">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x490</Index>
+      </Texture>
+      <SlotType>11</SlotType>
+      <Description>Piercing. Thought to have been lost to the ages, the wisdom imparted in this tablet will summon a power unrivaled by any modern spell.</Description>
+      <Sound>spell/magic_nova</Sound>
+      <Projectile>
+         <ObjectId>Fire Claw</ObjectId>
+         <Speed>160</Speed>
+         <MinDamage>85</MinDamage>
+         <MaxDamage>125</MaxDamage>
+         <LifetimeMS>700</LifetimeMS>
+         <MultiHit/>
+      </Projectile>
+      <ActivateOnEquip stat="27" amount="4">IncrementStat</ActivateOnEquip>
+      <ActivateOnEquip stat="3" amount="40">IncrementStat</ActivateOnEquip>
+      <Usable/>
+      <BagType>8</BagType>
+      <FameBonus>5</FameBonus>
+      <MpCost>155</MpCost>
+      <Activate>BulletNova</Activate>
+      <feedPower>450</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+
+   <Object type="0x04f7" id="Potion of Health1">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x32</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that instantly restores health points.</Description>
+      <Sound>use_potion</Sound>
+      <Activate amount="100">Heal</Activate>
+      <Consumable/>
+      <Potion/>
+      <BagType>0</BagType>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x04f8" id="Potion of Health2">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x32</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that instantly restores health points.</Description>
+      <Sound>use_potion</Sound>
+      <Activate amount="100">Heal</Activate>
+      <Consumable/>
+      <Potion/>
+      <BagType>0</BagType>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x04f9" id="Potion of Health3">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x32</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that instantly restores health points.</Description>
+      <Sound>use_potion</Sound>
+      <Activate amount="100">Heal</Activate>
+      <Consumable/>
+      <Potion/>
+      <BagType>0</BagType>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x04fa" id="Potion of Health4">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x32</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that instantly restores health points.</Description>
+      <Sound>use_potion</Sound>
+      <Activate amount="100">Heal</Activate>
+      <Consumable/>
+      <Potion/>
+      <BagType>0</BagType>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x04fb" id="Potion of Health5">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x32</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that instantly restores health points.</Description>
+      <Sound>use_potion</Sound>
+      <Activate amount="100">Heal</Activate>
+      <Consumable/>
+      <Potion/>
+      <BagType>0</BagType>
+      <feedPower>5</feedPower>
+   </Object>
+   <Object type="0x04fc" id="Potion of Health6">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x32</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A potion that instantly restores health points.</Description>
+      <Sound>use_potion</Sound>
+      <Activate amount="100">Heal</Activate>
+      <Consumable/>
+      <Potion/>
+      <BagType>0</BagType>
+      <feedPower>5</feedPower>
+   </Object>
+
+   <Object type="0x0525" id="Unstable Anomaly">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x4CF</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Description>An odd energy source known for the amazing ability to fire hats. Rarity: Uncommon</Description>
+      <RateOfFire>0.25</RateOfFire>
+      <Sound>weapon/mithril_sword</Sound>
+      <Projectile>
+         <ObjectId>Hat Cascade</ObjectId>
+         <Speed>50</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>15</MaxDamage>
+         <Amplitude>0.15</Amplitude>
+         <Frequency>2</Frequency>
+      </Projectile>
+      <ArcGap>36</ArcGap>
+      <NumProjectiles>10</NumProjectiles>
+      <BagType>2</BagType>
+      <FameBonus>1</FameBonus>
+      <OldSound>bladeSwing</OldSound>
+   </Object>
+   <Object type="0x0526" id="Precisely Calibrated Stringstick">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x4D1</Index>
+      </Texture>
+      <SlotType>3</SlotType>
+      <Description>Meow! Meow meow meow! MEOWMEOWMEOW. Rarity: Uncommon</Description>
+      <RateOfFire>0.25</RateOfFire>
+      <Sound>weapon/heavy_crossbow</Sound>
+      <Projectile>
+         <ObjectId>Cat Cavalcade</ObjectId>
+         <Speed>25</Speed>
+         <LifetimeMS>2000</LifetimeMS>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>15</MaxDamage>
+         <Amplitude>2</Amplitude>
+         <Frequency>2</Frequency>
+      </Projectile>
+      <BagType>8</BagType>
+      <NumProjectiles>5</NumProjectiles>
+      <ArcGap>15</ArcGap>
+      <OldSound>arrowShoot</OldSound>
+   </Object>
+   <Object type="0x0527" id="Barely Attuned Magic Thingy">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x4D2</Index>
+      </Texture>
+      <SlotType>17</SlotType>
+      <Description>Made by a pretty lazy wizard. Hope it makes something worthwhile. Rarity: Rare</Description>
+      <RateOfFire>0.3</RateOfFire>
+      <Sound>weapon/wand_of_death</Sound>
+      <Projectile>
+         <ObjectId>Space Junk</ObjectId>
+         <Speed>50</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <MinDamage>10</MinDamage>
+         <MaxDamage>20</MaxDamage>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>1</Frequency>
+      </Projectile>
+      <BagType>4</BagType>
+      <NumProjectiles>7</NumProjectiles>
+      <ArcGap>90</ArcGap>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>310</feedPower>
+   </Object>
+   <Object type="0x0528" id="Lethargic Sentience">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x4D0</Index>
+      </Texture>
+      <SlotType>8</SlotType>
+      <Description>Created by a lonely Sorcerer. This sentient eye doesn't make a very good friend. It does, however, make fruit. Rarity: Rare, I guess</Description>
+      <RateOfFire>0.25</RateOfFire>
+      <Sound>weapon/wand_of_death</Sound>
+      <Projectile>
+         <ObjectId>Fruitpocalypse</ObjectId>
+         <Speed>12.5</Speed>
+         <LifetimeMS>3000</LifetimeMS>
+         <MinDamage>20</MinDamage>
+         <MaxDamage>40</MaxDamage>
+         <Parametric/>
+         <PassesCover/>
+      </Projectile>
+      <NumProjectiles>4</NumProjectiles>
+      <BagType>2</BagType>
+      <OldSound>magicShoot</OldSound>
+      <feedPower>145</feedPower>
+   </Object>
+   <Object type="0x0529" id="Toy Knife">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x4D3</Index>
+      </Texture>
+      <SlotType>2</SlotType>
+      <Description>This was all the rage a few Winter Solstices ago.  Rarity: Common</Description>
+      <RateOfFire>0.75</RateOfFire>
+      <Sound>weapon/fire_dagger</Sound>
+      <Projectile>
+         <ObjectId>Toy Attack</ObjectId>
+         <Speed>50</Speed>
+         <LifetimeMS>1000</LifetimeMS>
+         <MinDamage>50</MinDamage>
+         <MaxDamage>50</MaxDamage>
+      </Projectile>
+      <BagType>2</BagType>
+      <OldSound>daggerSwing</OldSound>
+      <feedPower>145</feedPower>
+   </Object>
+   
+   <Object type="0x0530" id="The Devil Tarot Card">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x03</Index>
+      </Texture>
+      <Description>The Devil - Card XV of the Major Arcana.\n\nSprite Credits: Dappertron</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="1 of 8"/>
+      </ExtraTooltipData>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>250</feedPower>
+   </Object>
+   <Object type="0x0531" id="The Sun Tarot Card">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x04</Index>
+      </Texture>
+      <Description>The Sun - Card XIX of the Major Arcana.\n\nSprite Credits: Dappertron</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="2 of 8"/>
+      </ExtraTooltipData>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>250</feedPower>
+   </Object>
+   <Object type="0x0532" id="Death Tarot Card">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x05</Index>
+      </Texture>
+      <Description>Death - Card XIII of the Major Arcana.\n\nSprite Credits: Dappertron</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="3 of 8"/>
+      </ExtraTooltipData>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>250</feedPower>
+   </Object>
+   <Object type="0x0533" id="The Tower Tarot Card">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x06</Index>
+      </Texture>
+      <Description>The Tower - Card XVI of the Major Arcana.\n\nSprite Credits: Dappertron</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="4 of 8"/>
+      </ExtraTooltipData>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>250</feedPower>
+   </Object>
+   <Object type="0x0534" id="The Magician Tarot Card">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x07</Index>
+      </Texture>
+      <Description>The Magician - Card I of the Major Arcana.\n\nSprite Credits: Dappertron</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="5 of 8"/>
+      </ExtraTooltipData>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>250</feedPower>
+   </Object>
+   <Object type="0x0535" id="The World Tarot Card">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x08</Index>
+      </Texture>
+      <Description>The World - Card XXI of the Major Arcana.\n\nSprite Credits: Dappertron</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="6 of 8"/>
+      </ExtraTooltipData>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>250</feedPower>
+   </Object>
+   <Object type="0x0536" id="The Chariot Tarot Card">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x09</Index>
+      </Texture>
+      <Description>The Chariot - Card VII of the Major Arcana.\n\nSprite Credits: Dappertron</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="7 of 8"/>
+      </ExtraTooltipData>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>250</feedPower>
+   </Object>
+   <Object type="0x0537" id="The Moon Tarot Card">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x0a</Index>
+      </Texture>
+      <Description>The Moon - Card XVIII of the Major Arcana.\n\nSprite Credits: LabdaABeta</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="8 of 8"/>
+      </ExtraTooltipData>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>250</feedPower>
+   </Object>
+   <Object type="0x0538" id="The Fool Tarot Card">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x15</Index>
+      </Texture>
+      <Description>The Fool - Card 0 or XXII of the Major Arcana. The fool represents innocence, it is the beginning. When inverted, the fool represents recklessness.</Description>
+      <ExtraTooltipData>
+         <EffectInfo name="Treasure" description="0 of 8"/>
+      </ExtraTooltipData>
+      <BagType>4</BagType>
+      <Treasure/>
+      <feedPower>250</feedPower>
+   </Object>
+
+   <Object type="0x0543" id="Diamond Mystery Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x4FB</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens a random dungeon.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate>MysteryPortal</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+   <Object type="0x0544" id="Ruby Mystery Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x4FC</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens a random dungeon.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate>MysteryPortal</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+   <Object type="0x0545" id="Emerald Mystery Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x4FD</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens a random dungeon.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate>MysteryPortal</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+
+   <Object type="0x0591" id="Pet Form Stone">
+      <Class>Equipment</Class>
+      <Item/>
+      <SlotType>10</SlotType>
+      <Texture>
+         <File>lofiObj2</File>
+         <Index>0x15a</Index>
+      </Texture>
+      <Description>Lets you choose and change the physical form of your pet.\nYou must be in the pet yard to use it.</Description>
+      <BagType>4</BagType>
+      <feedPower>10</feedPower>
+      <!--<Soulbound/>-->
+      <PetFormStone/>
+   </Object>
+   <Object type="0x0592" id="Crashy">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>50</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>Ready to dupe?</Description>
+      <Activate id="Crash">Create</Activate>
+      <Consumable/>
+      <BagType>1</BagType>
+      <feedPower>50</feedPower>
+   </Object>
+   <Object type="0x0593" id="Dank Sewer Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>Dank Sewer Key</DisplayId>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56d</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to the Dank Sewer.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate id="Dank Sewer Portal">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+   <Object type="0x0594" id="Sewer Cocktail">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>Sewer Cocktail</DisplayId>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x570</Index>
+      </Texture>
+      <SlotType>18</SlotType>
+      <Description>Its irregular shape makes it hard to get a grip on this burning poison.</Description>
+      <Usable/>
+      <BagType>8</BagType>
+      <FameBonus>6</FameBonus>
+      <MpCost>120</MpCost>
+      <Activate radius="6" totalDamage="1352" duration="8">PoisonGrenade</Activate>
+      <Activate effect="Dazed" duration="5">ConditionEffectSelf</Activate>
+      <feedPower>750</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+
+   <Object type="0x0597" id="Toxic Sewers Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>Toxic Sewers Key</DisplayId>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x56d</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to the Toxic Sewers.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate id="Toxic Sewers Portal">Create</Activate>
+      <feedPower>260</feedPower>
+      <Track/>
+   </Object>
+   <Object type="0x0598" id="The Hive Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>The Hive Key</DisplayId>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x58b</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to The Hive.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate id="The Hive Portal">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+
+   <Object type="0x059c" id="Wooden Box">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x20</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>What's in the box? Crank the handle and find out!</Description>
+      <Consumable/>
+      <BagType>2</BagType>
+      <Activate objectId="Trick in a Box">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <!--<Soulbound/>-->
+      <feedPower>100</feedPower>
+   </Object>
+
+   <Object type="0x059f" id="Trick White Bag">
+      <DisplayId>Totally a White Bag</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj4</File>
+         <Index>0x94</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Because what kind of monster would trick their fellows with a fake one?</Description>
+      <Consumable/>
+      <BagType>2</BagType>
+      <Activate objectId="Fake White Bag">Pet</Activate>
+      <OldSound>use_potion</OldSound>
+      <!--<Soulbound/>-->
+      <feedPower>100</feedPower>
+   </Object>
+   
+   <Object type="0x05a0" id="Giant Vampire Bat Pet Stone">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x59b</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Transform your pet into Giant Vampire Bat of the Spooky family. This is irreversible and the item is consumed upon use. The rarity and abilities of your pet will be retained. If you fuse your pet to reach a new rarity level it is not guaranteed that your pet will retain the current skin.</Description>
+      <Activate skinId="32763">PetSkin</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>4</BagType>
+      <DisplayId>Giant Vampire Bat Skin</DisplayId>
+      <feedPower>5000</feedPower>
+   </Object>
+   <Object type="0x05a1" id="Pumpkin Head Pet Stone">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x1f</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Transform your pet into Pumpkin Head of the Spooky family. This is irreversible and the item is consumed upon use. The rarity and abilities of your pet will be retained. If you fuse your pet to reach a new rarity level it is not guaranteed that your pet will retain the current skin.</Description>
+      <Activate skinId="32651">PetSkin</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>4</BagType>
+      <DisplayId>Pumpkin Head Pet Skin</DisplayId>
+      <feedPower>5000</feedPower>
+   </Object>
+
+   <Object type="0x05a4" id="Christmas Tree Pet Stone">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>d2LofiObjEmbed</File>
+         <Index>0x06</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Transform your pet into Christmas Tree of the ? ? ? ? family. This is irreversible and the item is consumed upon use. The rarity and abilities of your pet will be retained. If you fuse your pet to reach a new rarity level it is not guaranteed that your pet will retain the current skin.</Description>
+      <Activate skinId="32668">PetSkin</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>4</BagType>
+      <DisplayId>Christmas Tree Skin</DisplayId>
+      <feedPower>5000</feedPower>
+   </Object>
+   <Object type="0x05a5" id="Red Nose Pet Stone">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>d2LofiObjEmbed</File>
+         <Index>0x07</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Transform your pet into Red Nose of the Woodland family. This is irreversible and the item is consumed upon use. The rarity and abilities of your pet will be retained. If you fuse your pet to reach a new rarity level it is not guaranteed that your pet will retain the current skin.</Description>
+      <Activate skinId="32670">PetSkin</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>4</BagType>
+      <DisplayId>Red Nosed Skin</DisplayId>
+      <feedPower>5000</feedPower>
+   </Object>
+
+   <Object type="0x05a8" id="Oryx's Castle Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>Oryx's Castle Key</DisplayId>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x5f</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to Oryx's Castle. For testing purposes.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate id="Oryx's Castle Portal">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+   <Object type="0x05a9" id="Wine Cellar Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>Wine Cellar Key</DisplayId>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x5f</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to the Wine Cellar. For testing purposes.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate id="Wine Cellar Portal">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+   <Object type="0x05aa" id="Oryx Chamber Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>Oryx Chamber Key</DisplayId>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x5f</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to Oryx's Chamber. For testing purposes.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate id="Oryx Chamber Portal">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+   <Object type="0x05ab" id="Court of Oryx Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>Court of Oryx Key</DisplayId>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x5f</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to the Court of Oryx. Say hi to Craig for me. For testing purposes.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate id="Court of Oryx Portal">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+   <Object type="0x05ac" id="Oryx Chicken Chamber Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>Oryx Chicken Chamber Key</DisplayId>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x5f</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to the Oryx Chicken Chamber. For testing purposes.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate id="Oryx Chicken Chamber Portal">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+
+   <Object type="0x05ae" id="Apple">
+      <DisplayId>Apple of Extreme Maxening</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj</File>
+         <Index>0x0f</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>It's healthy!\nMaxes any class to 8/8 and adds a Backpack.</Description>
+      <Sound>use_potion</Sound>
+      <Activate stat="0" amount="2000">IncrementStat</Activate>
+      <Activate stat="3" amount="2000">IncrementStat</Activate>
+      <Activate stat="20" amount="2000">IncrementStat</Activate>
+      <Activate stat="21" amount="2000">IncrementStat</Activate>
+      <Activate stat="22" amount="2000">IncrementStat</Activate>
+      <Activate stat="26" amount="2000">IncrementStat</Activate>
+      <Activate stat="27" amount="2000">IncrementStat</Activate>
+      <Activate stat="28" amount="2000">IncrementStat</Activate>
+      <Consumable/>
+      <Backpack/>
+      <Potion/>
+      <BagType>5</BagType>
+      <Soulbound/>
+      <feedPower>100000</feedPower>
+   </Object>
+   <Object type="0x05af" id="Gift">
+      <DisplayId>Gift of Krathan</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiEnvironment3</File>
+         <Index>0x22</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Use it and simply hit the class you need equipment for! Recommended to be used in your vault.\n\nConsume responsibly!</Description>
+      <Sound>use_potion</Sound>
+      <Activate objectId="Testing Gift Spawner">Pet</Activate>
+      <Consumable/>
+      <BagType>5</BagType>
+      <!--<Soulbound/>-->
+      <feedPower>50000</feedPower>
+   </Object>
+   
+   <Object type="0x05b0" id="Keys">
+      <DisplayId>Skeleton Key</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj</File>
+         <Index>0x21</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Opens everything! For testing purposes.</Description>
+      <Sound>use_potion</Sound>
+      <Activate id="Key Spawner">Create</Activate>
+      <Consumable/>
+      <BagType>5</BagType>
+      <!--<Soulbound/>-->
+      <feedPower>50000</feedPower>
+   </Object>
+   <Object type="0x05b1" id="TKeys">
+      <DisplayId>Testing Gift</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj</File>
+         <Index>0x20</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Spawns an object that drops keys and items. For testing purposes.</Description>
+      <Sound>use_potion</Sound>
+      <Activate id="Testing Key Dropper">Create</Activate>
+      <Consumable/>
+      <BagType>5</BagType>
+      <!--<Soulbound/>-->
+      <feedPower>50000</feedPower>
+   </Object>
+   <Object type="0x05b2" id="Lvl20">
+      <DisplayId>Level Chicken</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiChar8x8</File>
+         <Index>0xcd</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Spawns 6 chicken to get you to level 20.</Description>
+      <Sound>use_potion</Sound>
+      <Activate objectId="Lvl20 Chicken Spawner">Pet</Activate>
+      <Consumable/>
+      <BagType>5</BagType>
+      <!--<Soulbound/>-->
+      <feedPower>10000</feedPower>
+   </Object>
+   <Object type="0x05b3" id="Fame">
+      <DisplayId>Fame Chicken</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiChar8x8</File>
+         <Index>0xcd</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Spawns 500 Fame worth of chicken! Also functions as high quality pet food. Yum!\n\nConsume responsibly!</Description>
+      <Sound>use_potion</Sound>
+      <Activate objectId="Fame Chicken Spawner">Pet</Activate>
+      <Consumable/>
+      <BagType>5</BagType>
+      <!--<Soulbound/>-->
+      <feedPower>200000</feedPower>
+   </Object>
+   <Object type="0x05b4" id="Dragon Buddies">
+      <DisplayId>Dragon Buddies</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiChar8x8</File>
+         <Index>0xe2</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Summon a trail of buddies that follow you around.</Description>
+      <Sound>use_potion</Sound>
+      <Activate objectId="Dragon Chain 1">Pet</Activate>
+      <Consumable/>
+      <BagType>5</BagType>
+      <!--<Soulbound/>-->
+      <feedPower>5000</feedPower>
+   </Object>
+   <Object type="0x05b5" id="Treasure Map">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj3</File>
+         <Index>0x20e</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A map that reveals the way to hidden treasure.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate id="Treasure Cave Portal">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+
+   <Object type="0x05c8" id="Heart Item">
+      <DisplayId>Hearticles</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0x74</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Show your valentine spirit by presenting your big heart!</Description>
+      <Sound>use_potion</Sound>
+      <Activate hideEffect="true" objectId="Hearticles">Pet</Activate>
+      <Consumable/>
+      <BagType>5</BagType>
+      <!--<Soulbound/>-->
+      <feedPower>500</feedPower>
+   </Object>
+   <Object type="0x05e9" id="Testing Mystery Dye">
+      <Class>Equipment</Class>
+      <Item/>
+      <AnimatedTexture>
+         <File>playerskins</File>
+         <Index>136</Index>
+      </AnimatedTexture>
+      <SlotType>10</SlotType>
+      <Description>Random Dye</Description>
+      <Activate>MysteryDyes</Activate>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <BagType>5</BagType>
+      <feedPower>5000</feedPower>
+   </Object>
+   <Object type="0x0608" id="Apocalypse Feather">
+      <DisplayId>Apocalypse Feather</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>d3LofiObjEmbed</File>
+         <Index>0xce</Index>
+      </Texture>
+      <SlotType>1</SlotType>
+      <Description>A relic from an age when evil chickens had taken over the realm. Their tyranny ended eventually at the hands of an exceptional wielder of the dirk.</Description>
+      <RateOfFire>2</RateOfFire>
+      <Sound>weapon/blunt_sword</Sound>
+      <OldSound>weapon/blunt_sword</OldSound>
+      <Projectile>
+         <ObjectId>Apo Feather</ObjectId>
+         <Speed>75</Speed>
+         <MinDamage>15</MinDamage>
+         <MaxDamage>45</MaxDamage>
+         <LifetimeMS>675</LifetimeMS>
+         <Amplitude>0.5</Amplitude>
+         <Frequency>0.75</Frequency>
+         <Size>100</Size>
+      </Projectile>
+      <NumProjectiles>1</NumProjectiles>
+      <ArcGap>10</ArcGap>
+      <BagType>8</BagType>
+      <FameBonus>4</FameBonus>
+      <feedPower>1000</feedPower>
+      <!--<Soulbound/>-->
+   </Object>
+   <Object type="0x062b" id="Mountain Temple Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <DisplayId>Mountain Temple Key</DisplayId>
+      <Texture>
+         <File>mountainTempleObjects8x8</File>
+         <Index>0xcb</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to The Mountain Temple. \n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate id="Mountain Temple Portal">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+   <Object type="0x062c" id="Rainbow Road Key">
+      <DisplayId>St. Patricks Key</DisplayId>
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>stPatricksObjects8x8</File>
+         <Index>0x07</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>Treasures await at the end of the rainbow.</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <!--<Soulbound/>-->
+      <Activate id="Rainbow Road">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+
+  <Object type="0x062d" id="50 Fame">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>testing</Instance>
+      <Id>50Fame</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>Gives 50 Fame when consumed.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="50">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x062e" id="100 Fame">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>testing</Instance>
+      <Id>100Fame</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>Gives 100 Fame when consumed.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="100">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x062f" id="500 Fame">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>testing</Instance>
+      <Id>500Fame</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>Gives 500 Fame when consumed.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="500">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+
+  <Object type="0x0630" id="1000 Fame">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>testing</Instance>
+      <Id>1000Fame</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>Gives 1000 Fame when consumed.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="1000">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+  <Object type="0x0631" id="5000 Fame">
+    <Class>Equipment</Class>
+    <Item />
+    <RemoteTexture>
+      <Instance>testing</Instance>
+      <Id>5000Fame</Id>
+    </RemoteTexture>
+    <SlotType>10</SlotType>
+    <Description>Gives 5000 Fame when consumed.</Description>
+    <Sound>use_potion</Sound>
+    <Activate amount="5000">Fame</Activate>
+    <Consumable />
+    <Potion />
+    <BagType>2</BagType>
+  </Object>
+
+</Objects>

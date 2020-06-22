@@ -82,6 +82,7 @@ public class EmbeddedData {
 
     private static const NewEquipCXML:Class = EmbeddedData_NewEquipCXML;
     private static const NewGroundCXML:Class = EmbeddedData_NewGroundCXML;
+    public static const EquipBLCXML:Class = EmbeddedData_EquipBLCXML;
 
 
     //Initialize XMLs
@@ -109,7 +110,7 @@ public class EmbeddedData {
         new LairOfDraconisCXML(), new LairOfShaitanCXML(), new ShattersCXML(), new BelladonnaCXML(), new EquipSkinsCXML(),
         new PuppetMasterCXML(), new IceCaveCXML(), new TheHiveCXML(), new ToxicSewersCXML(), new PuppetMasterEncoreCXML(),
         new IceTombCXML(), new stPatricksObjectCXML(), new buffedBunnyObjectCXML(), new hanaminexusObjectCXML(), new mountainTempleObjectCXML(),
-        new NewEquipCXML()
+        new NewEquipCXML(), new EquipBLCXML()
     ];
 
     private static const RegionsCXML:Class = EmbeddedData_RegionsCXML;
