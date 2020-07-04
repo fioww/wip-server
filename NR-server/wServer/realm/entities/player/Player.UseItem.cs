@@ -330,6 +330,12 @@ namespace wServer.realm.entities
                     case ActivateEffects.LevelTwenty:
                         AELevelTwenty(time, item, target, eff);
                         break;
+                    case ActivateEffects.AdvanceLevelOne:
+                        AEAdvanceLevelOne(time, item, target, eff);
+                        break;
+                    case ActivateEffects.AdvanceLevelTwo:
+                        AEAdvanceLevelTwo(time, item, target, eff);
+                        break;
                     default:
                         Log.WarnFormat("Activate effect {0} not implemented.", eff.Effect);
                         break;
@@ -357,6 +363,42 @@ namespace wServer.realm.entities
             }
         }
 
+        private void AEAdvanceLevelOne(RealmTime time, Item item, Position target, ActivateEffect eff)
+        {
+            if (Client.Player.Owner == null || Client.Player.Owner is Test)
+            {
+                SendInfo("Can't advance your level limit on Test Worlds.");
+                return;
+            }
+
+            if (Owner.Name != "Vault")
+                RefundItem(item, "You can only use this item on your vault.");
+
+            if (AdvancementLevel >= 1)
+                RefundItem(item, "Your advancement level has already been upgraded with this item.");
+
+            AdvancementLevel = 1;
+            Experience += 1; // levels up anyway
+        }        
+        
+        private void AEAdvanceLevelTwo(RealmTime time, Item item, Position target, ActivateEffect eff)
+        {
+            if (Client.Player.Owner == null || Client.Player.Owner is Test)
+            {
+                SendInfo("Can't advance your level limit on Test Worlds.");
+                return;
+            }
+
+            if (Owner.Name != "Vault")
+                RefundItem(item, "You can only use this item on your vault.");
+
+            if (AdvancementLevel == 2)
+                RefundItem(item, "Your advancement level is already at max.");
+
+            AdvancementLevel = 2;
+            Experience += 1; // levels up anyway
+        }
+
         private void AEUnlockEmote(RealmTime time, Item item, ActivateEffect eff)
         {
             if (Client.Player.Owner == null || Client.Player.Owner is Test)
@@ -376,7 +418,7 @@ namespace wServer.realm.entities
             SendInfo($"{eff.Id} ({eff.Id}) Emote unlocked successfully");
         }
 
-        private void AEUnlockSkin(RealmTime time, Item item, Position target, ActivateEffect eff) // doesn't work somehow...
+        private void AEUnlockSkin(RealmTime time, Item item, Position target, ActivateEffect eff)
         {
             if (Client.Player.Owner == null || Client.Player.Owner is Test)
             {

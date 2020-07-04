@@ -210,7 +210,9 @@ namespace wServer.realm.entities
         public ItemStacker[] Stacks { get; private set; }
 
         public readonly StatsManager Stats;
-        
+
+        public int AdvancementLevel { get; set; }
+
         protected override void ImportStats(StatsType stats, object val)
         {
             var items = Manager.Resources.GameData.Items;
@@ -487,6 +489,8 @@ namespace wServer.realm.entities
                         ? 0xFF0000
                         : client.Account.GlowColor;
                 });
+
+            AdvancementLevel = client.Character.AdvancementLevel;
         }
 
         byte[,] tiles;

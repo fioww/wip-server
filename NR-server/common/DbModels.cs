@@ -865,6 +865,12 @@ namespace common
             get { return GetValue<int>("ltBoost"); }
             set { SetValue<int>("ltBoost", value); }
         }
+
+        public int AdvancementLevel
+        {
+            get { return GetValue<int>("advLevel"); }
+            set { SetValue<int>("advLevel", value); }
+        }
     }
 
     public class DbDeath : RedisObject

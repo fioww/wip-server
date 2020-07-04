@@ -96,6 +96,10 @@ namespace wServer.logic
                 if (player.XPBoostTime != 0 && player.Level < 20)
                     playerXp *= 2;
 
+                if (player.AdvancementLevel < 1 && player.Level == 50 ||
+                    player.AdvancementLevel < 2 && player.Level == 90)
+                    playerXp *= 0;
+
                 var killer = (Parent ?? this).LastHitter == player;
                 if (player.EnemyKilled(
                         enemy,

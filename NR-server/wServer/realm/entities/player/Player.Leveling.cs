@@ -10,12 +10,17 @@ namespace wServer.realm.entities
     {
         public static int GetExpGoal(int level)
         {
-            return 50 + (level - 1) * 100;
+            if (level == 50 || level == 90) return 1;
+            return 50 + (level - 1) * 150;
         }
         public static int GetLevelExp(int level)
         {
             if (level == 1) return 0;
-            return 50 * (level - 1) + (level - 2) * (level - 1) * 50;
+            if (level >= 51)
+                return (50 * (level - 1) + (level - 2) * (level - 1) * 75) - 7399;
+            if (level >= 91) 
+                return (50 * (level - 1) + (level - 2) * (level - 1) * 75) - 20798;
+            return 50 * (level - 1) + (level - 2) * (level - 1) * 75;
         }
         public static int GetFameGoal(int fame)
         {

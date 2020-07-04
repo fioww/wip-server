@@ -290,6 +290,8 @@ namespace common.resources
         MysteryDyes,
         MiscBoosts,
         LevelTwenty, // Prod
+        AdvanceLevelOne, // Unlocks level 51-90
+        AdvanceLevelTwo, // Unlocks level 91-100
     }
 
     public class ActivateEffect
