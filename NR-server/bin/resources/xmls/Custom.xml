@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<Objects>
+
+	<!--0x11b0 to 0x11bf-->
+   <Object type="0x11b0" id="Effusion of Speed">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xd6</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A potion that temporarily boosts the speed of all nearby allies.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable/>
+    <!--<Soulbound/>-->
+    <Potion/>
+    <BagType>5</BagType>
+    <Activate stat="22" amount="15" duration="30" range="6">StatBoostAura</Activate>
+    <feedPower>20</feedPower>
+  </Object>
+  <Object type="0x11b1" id="Tincture of Speed">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xc6</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A potion that temporarily boosts speed.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable/>
+    <!--<Soulbound/>-->
+    <Potion/>
+    <BagType>5</BagType>
+    <Activate stat="22" amount="5" duration="30">StatBoostSelf</Activate>
+    <feedPower>10</feedPower>
+  </Object>
+   <Object type="0x11b2" id="Effusion of Attack">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xd4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A potion that temporarily boosts the attack of all nearby allies.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable/>
+    <!--<Soulbound/>-->
+    <Potion/>
+    <BagType>5</BagType>
+    <Activate stat="20" amount="30" duration="30" range="6">StatBoostAura</Activate>
+    <feedPower>20</feedPower>
+  </Object>
+  <Object type="0x11b3" id="Tincture of Attack">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xc4</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A potion that temporarily boosts attack.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable/>
+    <!--<Soulbound/>-->
+    <Potion/>
+    <BagType>5</BagType>
+    <Activate stat="20" amount="15" duration="30">StatBoostSelf</Activate>
+    <feedPower>10</feedPower>
+  </Object>
+   <Object type="0x11b4" id="Effusion of Wisdom">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xd1</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A potion that temporarily boosts the wisdom of all nearby allies.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable/>
+    <!--<Soulbound/>-->
+    <Potion/>
+    <BagType>5</BagType>
+    <Activate stat="27" amount="30" duration="45" range="6">StatBoostAura</Activate>
+    <feedPower>20</feedPower>
+  </Object>
+  <Object type="0x11b5" id="Tincture of Wisdom">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xc1</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A potion that temporarily boosts wisdom.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable/>
+    <!--<Soulbound/>-->
+    <Potion/>
+    <BagType>5</BagType>
+    <Activate stat="27" amount="15" duration="45">StatBoostSelf</Activate>
+    <feedPower>10</feedPower>
+  </Object>
+   <Object type="0x11b8" id="Effusion of Vitality">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xd0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A potion that temporarily boosts the vitality of all nearby allies.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable/>
+    <!--<Soulbound/>-->
+    <Potion/>
+    <BagType>5</BagType>
+    <Activate stat="26" amount="30" duration="45" range="6">StatBoostAura</Activate>
+    <feedPower>20</feedPower>
+  </Object>
+  <Object type="0x11b9" id="Tincture of Vitality">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0xc0</Index>
+    </Texture>
+    <SlotType>10</SlotType>
+    <Description>A potion that temporarily boosts vitality.</Description>
+    <Sound>use_potion</Sound>
+    <Consumable/>
+    <!--<Soulbound/>-->
+    <Potion/>
+    <BagType>5</BagType>
+    <Activate stat="26" amount="15" duration="45">StatBoostSelf</Activate>
+    <feedPower>10</feedPower>
+  </Object>
+	
+  <Object type="0x11b6" id="Crystal Sword (Legacy)">
+    <Class>Equipment</Class>
+    <DisplayId>Crystal Sword</DisplayId>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x62</Index>
+    </Texture>
+    <Description>A lightweight blade that seems to dance in your hands. Legacy version!</Description>
+    <Projectile>
+      <ObjectId>Aqua Slash</ObjectId>
+      <Speed>100</Speed>
+      <MinDamage>180</MinDamage>
+      <MaxDamage>210</MaxDamage>
+      <LifetimeMS>450</LifetimeMS>
+    </Projectile>
+    <Item/>
+    <SlotType>1</SlotType>
+    <RateOfFire>1</RateOfFire>
+    <Sound>weapon/glass_sword</Sound>
+    <BagType>8</BagType>
+    <FameBonus>3</FameBonus>
+    <OldSound>bladeSwing</OldSound>
+    <feedPower>400</feedPower>
+    <!--<Soulbound/>-->
+  </Object>
+  
+    <Object type="0x11b7" id="The Thousandth Shot">
+    <Class>Equipment</Class>
+    <Item/>
+    <Texture>
+      <File>lofiObj2</File>
+      <Index>0x1a</Index>
+    </Texture>
+    <SlotType>3</SlotType>
+    <Description>Aim precisely... And SHOOT!</Description>
+    <RateOfFire>0.01</RateOfFire>
+    <Sound>weapon/heavy_crossbow</Sound>
+    <Projectile>
+      <ObjectId>Thousand Shot Arrow</ObjectId>
+      <Speed>200</Speed>
+      <MinDamage>1</MinDamage>
+      <MaxDamage>1300</MaxDamage>
+      <LifetimeMS>400</LifetimeMS>
+      <MultiHit/>
+    </Projectile>
+    <BagType>8</BagType>
+    <FameBonus>6</FameBonus>
+    <NumProjectiles>1</NumProjectiles>
+    <OldSound>arrowShoot</OldSound>
+    <feedPower>900</feedPower>
+    <!--<Soulbound/>-->
+  </Object>
+  
+</Objects>

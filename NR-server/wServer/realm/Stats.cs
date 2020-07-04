@@ -119,6 +119,7 @@ namespace wServer.realm
         Rank = 103,
         Admin = 104,
         LuckBonus = 105,
+        AdvancementLevel = 106,
 
         None = 255
     }

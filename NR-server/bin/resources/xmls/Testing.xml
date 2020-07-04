@@ -2,10 +2,6 @@
 
 <Objects>
 
-	<!--0x11b0 to 0x11bf-->
-	<!--TBD-->
-	
-	
 	<Object type="0x11ad" id="hi you found me">
 		<Class>Equipment</Class>
 		<Item/>

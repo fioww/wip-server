@@ -1941,8 +1941,8 @@ namespace wServer.realm.commands
             player.SendInfo("Account override set.");
             return true;
         }
-    }
-
+    }      
+    
     class Level20Command : Command
     {
         public Level20Command() : base("level20", permLevel: 80, alias: "l20") { }
@@ -1959,11 +1959,37 @@ namespace wServer.realm.commands
 
             return false;
         }
+    }    
+    
+    class SetLevelCommand : Command
+    {
+        public SetLevelCommand() : base("setLevel", permLevel: 80, alias: "level") { }
+
+        protected override bool Process(Player player, RealmTime time, string args)
+        {
+            int input = args.ToInt32();
+
+            if (input <= 100)
+            {
+                if (input > 50)
+                    player.AdvancementLevel = 1;
+                else if (input > 90)
+                    player.AdvancementLevel = 2;
+                else
+                    player.AdvancementLevel = 0;
+                player.Experience = Player.GetLevelExp(input);
+                player.Level = input;
+                player.CalculateFame();
+                return true;
+            }
+
+            return false;
+        }
     }
 
     class RenameCommand : Command
     {
-        public RenameCommand() : base("rename", permLevel: 100) { }
+        public RenameCommand() : base("rename", permLevel: 100, alias: "rp") { }
 
         protected override bool Process(Player player, RealmTime time, string args)
         {

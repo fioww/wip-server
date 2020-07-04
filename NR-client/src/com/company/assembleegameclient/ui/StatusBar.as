@@ -42,30 +42,30 @@ public class StatusBar extends Sprite {
     private var direction:int = -1;
     private var speed:Number = 0.1;
 
-    public function StatusBar(_arg1:int, _arg2:int, _arg3:uint, _arg4:uint, _arg5:String = null) {
+    public function StatusBar(w:int, h:int, color:uint, backColor:uint, key:String = null, smallText:Boolean = false) {
         this.colorSprite = new Sprite();
         super();
         addChild(this.colorSprite);
-        this.w_ = _arg1;
-        this.h_ = _arg2;
-        this.defaultForegroundColor = (this.color_ = _arg3);
-        this.defaultBackgroundColor = (this.backColor_ = _arg4);
+        this.w_ = w;
+        this.h_ = h;
+        this.defaultForegroundColor = (this.color_ = color);
+        this.defaultBackgroundColor = (this.backColor_ = backColor);
         this.textColor_ = 0xFFFFFF;
-        if (((!((_arg5 == null))) && (!((_arg5.length == 0))))) {
-            this.labelText_ = new TextFieldDisplayConcrete().setSize(14).setColor(this.textColor_);
+        if (((!((key == null))) && (!((key.length == 0))))) {
+            this.labelText_ = new TextFieldDisplayConcrete().setSize(smallText ? 12 : 14).setColor(this.textColor_);
             this.labelText_.setBold(true);
-            this.labelTextStringBuilder_ = new LineBuilder().setParams(_arg5);
+            this.labelTextStringBuilder_ = new LineBuilder().setParams(key);
             this.labelText_.setStringBuilder(this.labelTextStringBuilder_);
             this.centerVertically(this.labelText_);
             this.labelText_.filters = [new DropShadowFilter(0, 0, 0)];
             addChild(this.labelText_);
         }
-        this.valueText_ = new TextFieldDisplayConcrete().setSize(14).setColor(0xFFFFFF);
+        this.valueText_ = new TextFieldDisplayConcrete().setSize(smallText ? 12 : 14).setColor(0xFFFFFF);
         this.valueText_.setBold(true);
         this.valueText_.filters = [new DropShadowFilter(0, 0, 0)];
         this.centerVertically(this.valueText_);
         this.valueTextStringBuilder_ = new StaticStringBuilder();
-        this.boostText_ = new TextFieldDisplayConcrete().setSize(14).setColor(this.textColor_);
+        this.boostText_ = new TextFieldDisplayConcrete().setSize(smallText ? 12 : 14).setColor(this.textColor_);
         this.boostText_.setBold(true);
         this.boostText_.alpha = 0.6;
         this.centerVertically(this.boostText_);
@@ -77,7 +77,7 @@ public class StatusBar extends Sprite {
         this.multiplierIcon.graphics.drawRect(0, 0, 20, 20);
         this.multiplierIcon.addEventListener(MouseEvent.MOUSE_OVER, this.onMultiplierOver);
         this.multiplierIcon.addEventListener(MouseEvent.MOUSE_OUT, this.onMultiplierOut);
-        this.multiplierText = new TextFieldDisplayConcrete().setSize(14).setColor(9493531);
+        this.multiplierText = new TextFieldDisplayConcrete().setSize(smallText ? 12 : 14).setColor(9493531);
         this.multiplierText.setBold(true);
         this.multiplierText.setStringBuilder(new StaticStringBuilder("x2"));
         this.multiplierText.filters = [new DropShadowFilter(0, 0, 0)];

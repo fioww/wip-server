@@ -1676,7 +1676,7 @@
     <Item/>
     <Texture>
       <File>lofiObj2</File>
-      <Index>0xc0</Index>
+      <Index>0xc2</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>A potion that temporarily boosts maximum health points.</Description>
@@ -1693,7 +1693,7 @@
     <Item/>
     <Texture>
       <File>lofiObj2</File>
-      <Index>0xc1</Index>
+      <Index>0xc3</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>A potion that temporarily boosts maximum magic points.</Description>
@@ -1744,7 +1744,7 @@
     <Item/>
     <Texture>
       <File>lofiObj2</File>
-      <Index>0xd0</Index>
+      <Index>0xd2</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>A potion that temporarily boosts the maximum health points of all nearby allies.</Description>
@@ -1761,7 +1761,7 @@
     <Item/>
     <Texture>
       <File>lofiObj2</File>
-      <Index>0xd1</Index>
+      <Index>0xd3</Index>
     </Texture>
     <SlotType>10</SlotType>
     <Description>A potion that temporarily boosts the maximum magic points of all nearby allies.</Description>

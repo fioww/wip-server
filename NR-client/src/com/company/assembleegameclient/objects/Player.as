@@ -298,7 +298,7 @@ public class Player extends Character {
     }
 
     public function handleExpUp(_arg1:int):void {
-        if (level_ == 20) {
+        if (level_ == 100) {
             return;
         }
         var _local2:CharacterStatusText = new CharacterStatusText(this, 0xFF00, 1000);

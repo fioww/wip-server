@@ -19,68 +19,83 @@ public class StatMetersView extends Sprite {
     private var expTimer:ExperienceBoostTimerPopup;
 
     public function StatMetersView() {
-        this.expBar_ = new StatusBar(176, 16, 5931045, 0x545454, TextKey.EXP_BAR_LEVEL);
-        this.fameBar_ = new StatusBar(176, 16, 0xE25F00, 0x545454, TextKey.CURRENCY_FAME);
-        this.hpBar_ = new StatusBar(176, 16, 14693428, 0x545454, TextKey.STATUS_BAR_HEALTH_POINTS);
-        this.mpBar_ = new StatusBar(176, 16, 6325472, 0x545454, TextKey.STATUS_BAR_MANA_POINTS);
-        this.hpBar_.y = 24;
-        this.mpBar_.y = 48;
+        this.expBar_ = new StatusBar(176, 14, 5931045, 0x545454, TextKey.EXP_BAR_LEVEL, true);
+        this.fameBar_ = new StatusBar(176, 14, 0xE25F00, 0x545454, TextKey.CURRENCY_FAME, true);
+        this.hpBar_ = new StatusBar(176, 14, 14693428, 0x545454, TextKey.STATUS_BAR_HEALTH_POINTS, true);
+        this.mpBar_ = new StatusBar(176, 14, 6325472, 0x545454, TextKey.STATUS_BAR_MANA_POINTS, true);
         this.expBar_.visible = true;
         this.fameBar_.visible = false;
+        this.hpBar_.y = 24;
+        this.mpBar_.y = 48;
         addChild(this.expBar_);
         addChild(this.fameBar_);
         addChild(this.hpBar_);
         addChild(this.mpBar_);
     }
 
-    public function update(_arg1:Player):void {
-        this.expBar_.setLabelText(TextKey.EXP_BAR_LEVEL, {"level": _arg1.level_});
-        if (_arg1.level_ != 20) {
-            if (this.expTimer) {
-                this.expTimer.update(_arg1.xpTimer);
+    public function update(player:Player):void {
+        this.expBar_.setLabelText(TextKey.EXP_BAR_LEVEL, {"level": player.level_});
+        if (this.expTimer) {
+            this.expTimer.update(player.xpTimer);
+        }
+        if (!this.expBar_.visible) {
+            this.expBar_.visible = true;
+            this.fameBar_.visible = false;
+            this.expBar_.y = 0;
+        }
+        this.expBar_.draw(player.exp_, player.nextLevelExp_, 0);
+        if (this.curXPBoost != player.xpBoost_) {
+            this.curXPBoost = player.xpBoost_;
+            if (this.curXPBoost) {
+                this.expBar_.showMultiplierText();
+            } else {
+                this.expBar_.hideMultiplierText();
             }
-            if (!this.expBar_.visible) {
-                this.expBar_.visible = true;
-                this.fameBar_.visible = false;
-            }
-            this.expBar_.draw(_arg1.exp_, _arg1.nextLevelExp_, 0);
-            if (this.curXPBoost != _arg1.xpBoost_) {
-                this.curXPBoost = _arg1.xpBoost_;
-                if (this.curXPBoost) {
-                    this.expBar_.showMultiplierText();
-                }
-                else {
-                    this.expBar_.hideMultiplierText();
-                }
-            }
-            if (_arg1.xpTimer) {
-                if (!this.areTempXpListenersAdded) {
-                    this.expBar_.addEventListener("MULTIPLIER_OVER", this.onExpBarOver);
-                    this.expBar_.addEventListener("MULTIPLIER_OUT", this.onExpBarOut);
-                    this.areTempXpListenersAdded = true;
-                }
-            }
-            else {
-                if (this.areTempXpListenersAdded) {
-                    this.expBar_.removeEventListener("MULTIPLIER_OVER", this.onExpBarOver);
-                    this.expBar_.removeEventListener("MULTIPLIER_OUT", this.onExpBarOut);
-                    this.areTempXpListenersAdded = false;
-                }
-                if (((this.expTimer) && (this.expTimer.parent))) {
-                    removeChild(this.expTimer);
-                    this.expTimer = null;
-                }
+        }
+        if (player.xpTimer) {
+            if (!this.areTempXpListenersAdded) {
+                this.expBar_.addEventListener("MULTIPLIER_OVER", this.onExpBarOver);
+                this.expBar_.addEventListener("MULTIPLIER_OUT", this.onExpBarOut);
+                this.areTempXpListenersAdded = true;
             }
         }
         else {
-            if (!this.fameBar_.visible) {
-                this.fameBar_.visible = true;
-                this.expBar_.visible = false;
+            if (this.areTempXpListenersAdded) {
+                this.expBar_.removeEventListener("MULTIPLIER_OVER", this.onExpBarOver);
+                this.expBar_.removeEventListener("MULTIPLIER_OUT", this.onExpBarOut);
+                this.areTempXpListenersAdded = false;
             }
-            this.fameBar_.draw(_arg1.currFame_, _arg1.nextClassQuestFame_, 0);
+            if (((this.expTimer) && (this.expTimer.parent))) {
+                removeChild(this.expTimer);
+                this.expTimer = null;
+            }
         }
-        this.hpBar_.draw(_arg1.hp_, _arg1.maxHP_, _arg1.maxHPBoost_, _arg1.maxHPMax_);
-        this.mpBar_.draw(_arg1.mp_, _arg1.maxMP_, _arg1.maxMPBoost_, _arg1.maxMPMax_);
+        if (player.level_ < 20 && !this.expBar_.visible){
+            this.fameBar_.visible = false;
+            this.expBar_.visible = true;
+            this.expBar_.y = 0;
+            this.hpBar_.y = 24;
+            this.mpBar_.y = 48;
+        }
+        else if ((player.level_ >= 20 && player.level_ != 100) && (!this.fameBar_.visible || !this.expBar_.visible)) {
+            this.fameBar_.visible = true;
+            this.expBar_.visible = true;
+            this.fameBar_.y = 0;
+            this.expBar_.y = 16;
+            this.hpBar_.y = 32;
+            this.mpBar_.y = 48;
+        }
+        else if (player.level_ == 100 && this.expBar_.visible) {
+            this.fameBar_.visible = true;
+            this.expBar_.visible = false;
+            this.fameBar_.y = 0;
+            this.hpBar_.y = 24;
+            this.mpBar_.y = 48;
+        }
+        this.fameBar_.draw(player.currFame_, player.nextClassQuestFame_, 0);
+
+        this.hpBar_.draw(player.hp_, player.maxHP_, player.maxHPBoost_, player.maxHPMax_);
+        this.mpBar_.draw(player.mp_, player.maxMP_, player.maxMPBoost_, player.maxMPMax_);
     }
 
     private function onExpBarOver(_arg1:Event):void {

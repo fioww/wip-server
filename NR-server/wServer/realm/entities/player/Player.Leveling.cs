@@ -265,28 +265,39 @@ namespace wServer.realm.entities
 
         bool CheckLevelUp()
         {
-            if (Experience - GetLevelExp(Level) >= ExperienceGoal && Level < 20)
+            if (Experience - GetLevelExp(Level) >= ExperienceGoal && Level < 100)
             {
                 Level++;
                 ExperienceGoal = GetExpGoal(Level);
                 var statInfo = Manager.Resources.GameData.Classes[ObjectType].Stats;
                 var rand = new Random();
-                for (var i = 0; i < statInfo.Length; i++)
+                if (Level < 20)
                 {
-                    var min = statInfo[i].MinIncrease;
-                    var max = statInfo[i].MaxIncrease + 1;
-                    Stats.Base[i] += rand.Next(min, max);
-                    if (Stats.Base[i] > statInfo[i].MaxValue)
-                        Stats.Base[i] = statInfo[i].MaxValue;
+                    for (var i = 0; i < statInfo.Length; i++)
+                    {
+                        var min = statInfo[i].MinIncrease;
+                        var max = statInfo[i].MaxIncrease + 1;
+                        Stats.Base[i] += rand.Next(min, max);
+                        if (Stats.Base[i] > statInfo[i].MaxValue)
+                            Stats.Base[i] = statInfo[i].MaxValue;
+                    }
                 }
                 HP = Stats[0];
                 MP = Stats[1];
 
                 if (Level == 20)
+                    SendInfo("You've achieved level 20! Leveling up any further wont improve your stats.");
+
+                if (Level == 50)
+                    SendInfo("You've achieved level 50! You cannot level up any further until you get an \"Advancement Rune Lv.1\".");
+                if (Level == 90)
+                    SendInfo("You've achieved level 90! You cannot level up any further until you get an \"Advancement Rune Lv.2\".");
+
+                if (Level % 20 == 0)
                 {
                     foreach (var i in Owner.Players.Values)
                     {
-                        i.SendInfo(Name + " achieved level 20");
+                        i.SendInfo($"{Name} achieved level {Level}");
                     }
                 }
                 else

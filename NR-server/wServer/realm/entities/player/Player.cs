@@ -211,7 +211,12 @@ namespace wServer.realm.entities
 
         public readonly StatsManager Stats;
 
-        public int AdvancementLevel { get; set; }
+        private readonly SV<int> _advancementLevel;
+        public int AdvancementLevel
+        {
+            get { return _advancementLevel.GetValue(); }
+            set { _advancementLevel.SetValue(value); }
+        }
 
         protected override void ImportStats(StatsType stats, object val)
         {
@@ -376,6 +381,7 @@ namespace wServer.realm.entities
             chr.LTBoostTime = LTBoostTime;
             chr.PetId = Pet?.PetId ?? 0;
             chr.Items = Inventory.GetItemTypes();
+            chr.AdvancementLevel = AdvancementLevel;
         }
 
         public Player(Client client, bool saveInventory = true)
@@ -394,6 +400,7 @@ namespace wServer.realm.entities
             _experience = new SV<int>(this, StatsType.Experience, client.Character.Experience, true);
             _experienceGoal = new SV<int>(this, StatsType.ExperienceGoal, 0, true);
             _level = new SV<int>(this, StatsType.Level, client.Character.Level);
+            _advancementLevel = new SV<int>(this, StatsType.AdvancementLevel, client.Character.AdvancementLevel);
             _currentFame = new SV<int>(this, StatsType.CurrentFame, client.Account.Fame, true);
             _fame = new SV<int>(this, StatsType.Fame, client.Character.Fame, true);
             _fameGoal = new SV<int>(this, StatsType.FameGoal, 0, true);
@@ -963,7 +970,7 @@ namespace wServer.realm.entities
                 Name, Level, _client.Character.FinalFame, maxed, killer);
 
             // notable deaths
-            if ((maxed >= 6 || Fame >= 1000) && !Client.Account.Admin)
+            if ((maxed >= 6 || Fame >= 1000 || Level > 90) && !Client.Account.Admin)
             {
                 foreach (var w in Manager.Worlds.Values)
                     foreach (var p in w.Players.Values)
@@ -974,7 +981,7 @@ namespace wServer.realm.entities
             var pGuild = Client.Account.GuildId;
 
             // guild case, only for level 20
-            if(pGuild > 0 && Level == 20)
+            if(pGuild > 0 && Level >= 20)
             {
                 foreach(var w in Manager.Worlds.Values)
                 {
