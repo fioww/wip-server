@@ -13,7 +13,7 @@ import flash.utils.Dictionary;
 public class Parameters {
 
     public static const BUILD_VERSION:String = "26.1.4";
-    public static const MINOR_VERSION:String = "X5";
+    public static const MINOR_VERSION:String = "X6";
     public static const FULL_BUILD:String = BUILD_VERSION; // don't rely on minor version as it constantly changes
     public static const ENABLE_ENCRYPTION:Boolean = true;
     public static const PORT:int = 2050;

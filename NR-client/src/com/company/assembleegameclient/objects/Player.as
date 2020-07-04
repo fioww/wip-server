@@ -662,69 +662,84 @@ public class Player extends Character {
         return (portrait_);
     }
 
-    public function useAltWeapon(_arg1:Number, _arg2:Number, _arg3:int):Boolean {
-        var _local7:XML;
-        var _local8:int;
-        var _local9:Number;
-        var _local10:int;
-        var _local11:int;
-        if ((((map_ == null)) || (isPaused()))) {
-            return (false);
+    public function useAltWeapon(xS:Number, yS:Number, useType:int):Boolean {
+        var activateXML:XML;
+        var now:int;
+        var angle:Number;
+        var mpCost:int;
+        var cooldown:int;
+        if (map_ == null || isPaused())
+        {
+            return false;
         }
-        var _local4:int = equipment_[1];
-        if (_local4 == -1) {
-            return (false);
+        var itemType:int = equipment_[1];
+        if (itemType == -1)
+        {
+            return false;
         }
-        var _local5:XML = ObjectLibrary.xmlLibrary_[_local4];
-        if ((((_local5 == null)) || (!(_local5.hasOwnProperty("Usable"))))) {
-            return (false);
+        var objectXML:XML = ObjectLibrary.xmlLibrary_[itemType];
+        if (objectXML == null || !objectXML.hasOwnProperty("Usable"))
+        {
+            return false;
         }
-        var _local6:Point = map_.pSTopW(_arg1, _arg2);
-        if (_local6 == null) {
+        var pW:Point = map_.pSTopW(xS, yS);
+        if (pW == null)
+        {
             SoundEffectLibrary.play("error");
-            return (false);
+            return false;
         }
-        for each (_local7 in _local5.Activate) {
-            if (_local7.toString() == ActivationType.TELEPORT) {
-                if (!this.isValidPosition(_local6.x, _local6.y)) {
+        for each (activateXML in objectXML.Activate)
+        {
+            if (activateXML.toString() == ActivationType.TELEPORT)
+            {
+                if (!this.isValidPosition(pW.x, pW.y))
+                {
                     SoundEffectLibrary.play("error");
-                    return (false);
+                    return false;
                 }
             }
         }
-        _local8 = getTimer();
-        if (_arg3 == UseType.START_USE) {
-            if (_local8 < this.nextAltAttack_) {
+        now = getTimer();
+        if (useType == UseType.START_USE)
+        {
+            if (now < this.nextAltAttack_)
+            {
                 SoundEffectLibrary.play("error");
-                return (false);
+                return false;
             }
-            _local10 = int(_local5.MpCost);
-            if (_local10 > this.mp_) {
+            mpCost = int(objectXML.MpCost);
+            if (mpCost > this.mp_)
+            {
                 SoundEffectLibrary.play("no_mana");
-                return (false);
+                return false;
             }
-            _local11 = 500;
-            if (_local5.hasOwnProperty("Cooldown")) {
-                _local11 = (Number(_local5.Cooldown) * 1000);
+            cooldown = 500;
+            if (objectXML.hasOwnProperty("Cooldown"))
+            {
+                cooldown = (Number(objectXML.Cooldown) * 1000);
             }
-            this.nextAltAttack_ = (_local8 + _local11);
-            map_.gs_.gsc_.useItem(_local8, objectId_, 1, _local4, _local6.x, _local6.y, _arg3);
-            if (_local5.Activate == ActivationType.SHOOT) {
-                _local9 = Math.atan2(_arg2, _arg1);
-                this.doShoot(_local8, _local4, _local5, (Parameters.data_.cameraAngle + _local9), false);
+            this.nextAltAttack_ = (now + cooldown);
+            map_.gs_.gsc_.useItem(now, objectId_, 1, itemType, pW.x, pW.y, useType);
+            if (objectXML.Activate == ActivationType.SHOOT)
+            {
+                angle = Math.atan2(yS, xS);
+                this.doShoot(now, itemType, objectXML, (Parameters.data_.cameraAngle + angle), false);
             }
         }
-        else {
-            if (_local5.hasOwnProperty("MultiPhase")) {
-                map_.gs_.gsc_.useItem(_local8, objectId_, 1, _local4, _local6.x, _local6.y, _arg3);
-                _local10 = int(_local5.MpEndCost);
-                if (_local10 <= this.mp_) {
-                    _local9 = Math.atan2(_arg2, _arg1);
-                    this.doShoot(_local8, _local4, _local5, (Parameters.data_.cameraAngle + _local9), false);
+        else
+        {
+            if (objectXML.hasOwnProperty("MultiPhase"))
+            {
+                map_.gs_.gsc_.useItem(now, objectId_, 1, itemType, pW.x, pW.y, useType);
+                mpCost = int(objectXML.MpEndCost);
+                if (mpCost <= this.mp_)
+                {
+                    angle = Math.atan2(yS, xS);
+                    this.doShoot(now, itemType, objectXML, (Parameters.data_.cameraAngle + angle), false);
                 }
             }
         }
-        return (true);
+        return true;
     }
 
     public function attemptAttackAngle(_arg1:Number):void {
@@ -765,43 +780,43 @@ public class Player extends Character {
         this.doShoot(attackStart_, weapType, weapon, attackAngle_, true);
     }
 
-    private function doShoot(_arg1:int, _arg2:int, _arg3:XML, _arg4:Number, _arg5:Boolean):void {
-        var _local11:uint;
-        var _local12:Projectile;
-        var _local13:int;
-        var _local14:int;
-        var _local15:Number;
-        var _local16:int;
-        var _local6:int = ((_arg3.hasOwnProperty("NumProjectiles")) ? int(_arg3.NumProjectiles) : 1);
-        var _local7:Number = (((_arg3.hasOwnProperty("ArcGap")) ? Number(_arg3.ArcGap) : 11.25) * Trig.toRadians);
-        var _local8:Number = (_local7 * (_local6 - 1));
-        var _local9:Number = (_arg4 - (_local8 / 2));
-        this.isShooting = _arg5;
-        var _local10:int;
-        while (_local10 < _local6) {
-            _local11 = getBulletId();
-            _local12 = (FreeList.newObject(Projectile) as Projectile);
-            if (((_arg5) && (!((this.projectileIdSetOverrideNew == ""))))) {
-                _local12.reset(_arg2, 0, objectId_, _local11, _local9, _arg1, this.projectileIdSetOverrideNew, this.projectileIdSetOverrideOld);
+    private function doShoot(time:int, weaponType:int, weaponXML:XML, attackAngle:Number, useMult:Boolean):void {
+        var bulletId:uint;
+        var proj:Projectile;
+        var minDamage:int;
+        var maxDamage:int;
+        var attMult:Number;
+        var damage:int;
+        var numProjs:int = ((weaponXML.hasOwnProperty("NumProjectiles")) ? int(weaponXML.NumProjectiles) : 1);
+        var arcGap:Number = (((weaponXML.hasOwnProperty("ArcGap")) ? Number(weaponXML.ArcGap) : 11.25) * Trig.toRadians);
+        var totalArc:Number = (arcGap * (numProjs - 1));
+        var angle:Number = (attackAngle - (totalArc / 2));
+        this.isShooting = useMult;
+        var i:int;
+        while (i < numProjs) {
+            bulletId = getBulletId();
+            proj = (FreeList.newObject(Projectile) as Projectile);
+            if (((useMult) && (!((this.projectileIdSetOverrideNew == ""))))) {
+                proj.reset(weaponType, 0, objectId_, bulletId, angle, time, this.projectileIdSetOverrideNew, this.projectileIdSetOverrideOld);
             }
             else {
-                _local12.reset(_arg2, 0, objectId_, _local11, _local9, _arg1);
+                proj.reset(weaponType, 0, objectId_, bulletId, angle, time);
             }
-            _local13 = int(_local12.projProps_.minDamage_);
-            _local14 = int(_local12.projProps_.maxDamage_);
-            _local15 = ((_arg5) ? this.attackMultiplier() : 1);
-            _local16 = (map_.gs_.gsc_.getNextDamage(_local13, _local14) * _local15);
-            if (_arg1 > (map_.gs_.moveRecords_.lastClearTime_ + 600)) {
-                _local16 = 0;
+            minDamage = int(proj.projProps_.minDamage_);
+            maxDamage = int(proj.projProps_.maxDamage_);
+            attMult = ((useMult) ? this.attackMultiplier() : 1);
+            damage = (map_.gs_.gsc_.getNextDamage(minDamage, maxDamage) * attMult);
+            if (time > (map_.gs_.moveRecords_.lastClearTime_ + 600)) {
+                damage = 0;
             }
-            _local12.setDamage(_local16);
-            if ((((_local10 == 0)) && (!((_local12.sound_ == null))))) {
-                SoundEffectLibrary.play(_local12.sound_, 0.75, false);
+            proj.setDamage(damage);
+            if ((((i == 0)) && (!((proj.sound_ == null))))) {
+                SoundEffectLibrary.play(proj.sound_, 0.75, false);
             }
-            map_.addObj(_local12, (x_ + (Math.cos(_arg4) * 0.3)), (y_ + (Math.sin(_arg4) * 0.3)));
-            map_.gs_.gsc_.playerShoot(_arg1, _local12);
-            _local9 = (_local9 + _local7);
-            _local10++;
+            map_.addObj(proj, (x_ + (Math.cos(attackAngle) * 0.3)), (y_ + (Math.sin(attackAngle) * 0.3)));
+            map_.gs_.gsc_.playerShoot(time, proj);
+            angle = (angle + arcGap);
+            i++;
         }
     }
 

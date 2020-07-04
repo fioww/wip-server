@@ -1027,16 +1027,16 @@ public class GameServerConnection {
         }
     }
 
-     public function useItem(_arg1:int, _arg2:int, _arg3:int, _arg4:int, _arg5:Number, _arg6:Number, _arg7:int):void {
-        var _local8:UseItem = (this.messages.require(USEITEM) as UseItem);
-        _local8.time_ = _arg1;
-        _local8.slotObject_.objectId_ = _arg2;
-        _local8.slotObject_.slotId_ = _arg3;
-        _local8.slotObject_.objectType_ = _arg4;
-        _local8.itemUsePos_.x_ = _arg5;
-        _local8.itemUsePos_.y_ = _arg6;
-        _local8.useType_ = _arg7;
-        serverConnection.queueMessage(_local8);
+     public function useItem(time:int, objectId:int, slotId:int, objectType:int, x:Number, y:Number, useType:int):void {
+        var useItemMess:UseItem = (this.messages.require(USEITEM) as UseItem);
+         useItemMess.time_ = time;
+         useItemMess.slotObject_.objectId_ = objectId;
+         useItemMess.slotObject_.slotId_ = slotId;
+         useItemMess.slotObject_.objectType_ = objectType;
+         useItemMess.itemUsePos_.x_ = x;
+         useItemMess.itemUsePos_.y_ = y;
+         useItemMess.useType_ = useType;
+        serverConnection.queueMessage(useItemMess);
     }
 
      public function useItem_new(_arg1:GameObject, _arg2:int):Boolean {
